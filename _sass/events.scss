@@ -1,0 +1,74 @@
+/* Events css
+-------------------------------------------------- */
+
+.event {
+    padding: 20px;
+    vertical-align: middle;
+    display: flex;
+  
+    .details {
+      margin-left: 20px;
+    }
+  }
+
+.events .collapse.in, .collapsing {
+    box-shadow: none;
+    background-color: #ffffff;
+  }
+  
+  .events-description {
+    color: black;
+  }
+  
+  .events {
+  color: lightslategrey;
+  font-family: Arial, sans-serif;
+  font-size: initial;
+  }
+  
+  .events .panel-heading {
+    background-color: #4eaf4714;
+    border-radius: 1rem;
+    margin-bottom: 12px;
+  
+    > a {
+        color: black;
+    }
+  }
+
+  .events-row {
+    display: flex;
+    flex-wrap: wrap;
+  
+    .event-item {
+      flex-grow: 1;
+      margin-top: 5px;
+      margin-bottom: 5px;
+      margin-right: 5px;
+      margin-left: 5px;
+    }
+  
+    .thumbnail {
+      height: 100%;
+    }
+  }
+
+  .panel {
+    border: 0px solid transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+  .panel-default {
+    border-color: transparent;
+  
+    > .panel-heading {
+      background-color: transparent;
+    }
+  }
+  
+  .panel-group .panel-heading + .panel-collapse > .panel-body,
+  .panel-group .panel-heading + .panel-collapse > .list-group {
+    border-top: 0px solid transparent;
+  }
+  

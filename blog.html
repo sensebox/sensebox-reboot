@@ -1,0 +1,67 @@
+---
+layout: default
+title: Home
+header: Blog
+description:
+
+---
+
+{% assign posts = site.posts | sort: 'date' | reverse %}
+<div class="row mb-2">
+    {% for post in posts %}
+
+    <div class="col-md-6">
+        <div class="card flex-md-row mb-4 box-shadow h-md-250">
+            <div class="card-body d-flex flex-column align-items-start">
+                <strong class="d-inline-block mb-2 text-primary">World</strong>
+                <h3 class="mb-0">
+                    <a class="text-dark" href="{{ site.baseurl | append: post.url }}">{{ post.title }}</a>
+                </h3>
+                <div class="mb-1 text-muted">{{ post.date | date: "%d/%m/%Y" }} von {{ post.author }}</div>
+                <p class="card-text mb-auto"> {{ post.abstract }}</p>
+                <a href="{{ site.baseurl | append: post.url }}">Continue reading</a>
+            </div>
+            <img class="card-img-right flex-auto d-none d-md-block thumbnail"
+                src="{{ site.baseurl | append: post.thumbnail }}"" alt=" Card image cap">
+        </div>
+    </div>
+
+    <!--  <div class="posts">
+        <div class="row">
+            <a href="{{ site.baseurl | append: post.url }}">
+                {% if post.thumbnail %}
+                <div class="col-lg-6 col-sm-6">
+                    <h2 class="post-title">{{ post.title }}</h2>
+                    <div class="clearfix">
+                        <strong>{{ post.date | date: "%d/%m/%Y" }}</strong><span class="author">von {{ post.author }}
+                        </span>
+                    </div>
+                    <div class="post-abstract">
+                        <p>
+                            {{ post.abstract }}
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-6 hidden-xs">
+                    <img class="press-pic" src="{{ site.baseurl | append: post.thumbnail }}"
+                        alt="{{ post.title }} - Logo" />
+                </div>
+                {% else %}
+                <div class="col-lg-12">
+                    <h2 class="post-title">{{ post.title }}</h2>
+                    <div class="clearfix">
+                        <strong>{{ post.date | date: "%d/%m/%Y" }}</strong><span class="author">von {{ post.author }}
+                        </span>
+                    </div>
+                    <div class="post-abstract">
+                        <p>
+                            {{ post.abstract }}
+                        </p>
+                    </div>
+                </div>
+                {% endif %}
+            </a>
+        </div>
+        <hr class="clear nomargin">
+    </div>-->
+    {% endfor %}

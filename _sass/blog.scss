@@ -1,0 +1,25 @@
+.thumbnail {
+    width: 200px;
+    height: 250px;
+}
+
+.post-image {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    > img {
+      margin: 2px;
+      max-width: 100%;
+      @media (min-width: 992px) { 
+        width: 60%;
+      }
+    }
+  }
+
+
+.thumbnail-image {
+    max-width: 100%;
+    height: auto;
+
+}

@@ -1,0 +1,105 @@
+---
+layout: default
+title: Home
+header: senseBox
+description: Dein Toolkit für digitale Bildung, Citizen Science und Umweltmonitoring
+---
+
+<h1 class="my-4">Page Heading
+    <small>Secondary Text</small>
+</h1>
+
+<div class="row">
+    <div class="col-md-8">
+        <img class="img-fluid" src="http://placehold.it/750x500" alt="">
+    </div>
+    <div class="col-md-4">
+        <h3 class="my-3">Project Description</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna
+            varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu
+            convallis placerat, felis enim.</p>
+        <h3 class="my-3">Project Details</h3>
+        <ul>
+            <li>Lorem Ipsum</li>
+            <li>Dolor Sit Amet</li>
+            <li>Consectetur</li>
+            <li>Adipiscing Elit</li>
+        </ul>
+    </div>
+</div>
+
+<h3 class="my-4">Related Projects</h3>
+
+<div class="row">
+    <div class="col-md-3 col-sm-6 mb-4">
+        <a href="#">
+            <img class="img-fluid" src="http://placehold.it/500x300" alt="">
+        </a>
+    </div>
+    <div class="col-md-3 col-sm-6 mb-4">
+        <a href="#">
+            <img class="img-fluid" src="http://placehold.it/500x300" alt="">
+        </a>
+    </div>
+    <div class="col-md-3 col-sm-6 mb-4">
+        <a href="#">
+            <img class="img-fluid" src="http://placehold.it/500x300" alt="">
+        </a>
+    </div>
+    <div class="col-md-3 col-sm-6 mb-4">
+        <a href="#">
+            <img class="img-fluid" src="http://placehold.it/500x300" alt="">
+        </a>
+    </div>
+</div>
+
+{% include events.html %}
+
+<div style="text-align: center;" id="newsletter">
+
+    <!-- Begin MailChimp Signup Form -->
+    <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+        #mc_embed_signup {
+            background: #fff;
+            clear: left;
+            font: 14px Helvetica, Arial, sans-serif;
+            width: 100%;
+            font-family: BrixSlab-Regular, Helvetica, sans-serif;
+        }
+
+        #mc_embed_signup input.email {
+            color: #4eaf47;
+            font-size: 18px;
+            padding: 10px 20px 10px 20px;
+            border: solid #ddd 2px;
+            text-decoration: none;
+            background: none;
+            margin: 5px;
+            text-align: center;
+            height: 49px;
+        }
+
+        /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+        We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+    </style>
+    <div id="mc_embed_signup">
+        <form
+            action="https://sensebox.us18.list-manage.com/subscribe/post?u=0d572f7997d4dae2c9e424299&amp;id=46738cd0bd"
+            method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
+            target="_blank" novalidate>
+            <div id="mc_embed_signup_scroll">
+                <h1 for="mce-EMAIL">{{ t.newsletter.header}}</h1>
+                <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL"
+                    placeholder="{{t.newsletter.placeholder}}" required>
+                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
+                        name="b_0d572f7997d4dae2c9e424299_46738cd0bd" tabindex="-1" value=""></div>
+                <div class="clear"><input type="submit" value="{{t.newsletter.button}}" name="subscribe"
+                        id="mc-embedded-subscribe" class="btn"></div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!--End mc_embed_signup-->

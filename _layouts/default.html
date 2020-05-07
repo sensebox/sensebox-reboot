@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include header.html %}
+
+<body>
+  {% include navbar.html %}
+  {% include header-image.html header=page.header description=page.description %}
+  <div class="container">
+    {{ content }}
+  </div>
+  {% include footer.html %}
+</body>
+
+</html>

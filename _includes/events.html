@@ -1,0 +1,15 @@
+<div class="row events-row">
+    {% assign events = site.events | sort: 'ending-date' %}
+    {% assign i=0 %}
+    {% for event in events %}
+    {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
+    {% capture eventendingdateunix %}{{event.ending-date | date: '%s'}}{% endcapture %}
+    {% if eventendingdateunix > nowunix %}
+    {% include event_template.html event=event %}
+    {% assign i = i | plus: 1 %}
+    {% endif %}
+    {% if i == 6 %}
+    {% break %}
+    {% endif %}
+    {% endfor %}
+</div>

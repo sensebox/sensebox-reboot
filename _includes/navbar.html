@@ -30,3 +30,23 @@
         </div>
     </div>
 </nav>
+
+{% if page.id == "index" %}
+
+<!-- Full Page Image Header with Vertically Centered Content -->
+<header class="masthead">
+    <div class="container h-100">
+        <div class="row h-100 align-items-center">
+            <div class="col-12 text-center">
+                <h1 class="font-weight-light">senseBox</h1>
+                <p class="lead">Dein Toolkit für digitale Bildung, Citizen Science und Umweltmonitoring</p>
+            </div>
+        </div>
+    </div>
+</header>
+
+{% else %}
+
+{% include header-image.html header=page.header description=page.description %}
+
+{% endif %}

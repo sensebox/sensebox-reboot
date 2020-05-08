@@ -1,3 +1,20 @@
+<div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">{{ include.event.title }} | {{ include.event.place }}</h5>
+    <h6 class="card-subtitle mb-2 text-muted">{{ include.event.starting-date | date: '%d.%m.%Y' }}
+      {% if include.event.starting-date != include.event.ending-date %} -
+      {{ include.event.ending-date | date: '%d.%m.%Y' }} {% endif %} {% if include.event.time %}
+      {{ include.event.time }}</h6>
+    {% endif %}
+    {% if include.event.description %}
+    <p class="card-text">{{ include.event.description }}</p>
+    {% endif %}
+    <a href="#" class="card-link">Card link</a>
+    <a href="#" class="card-link">Another link</a>
+  </div>
+</div>
+
+<!--
 <div class="panel panel-default">
   <div class="panel-heading">
     <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#accordion"
@@ -19,4 +36,4 @@
     </div>
     {% endif %}
   </div>
-</div>
+</div>-->

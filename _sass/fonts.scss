@@ -35,3 +35,20 @@ h1, h2, h3, h4, h5, h6{
     font-family: BrixSlab-Bold;
 }
 
+
+/**
+ * Icons
+ */
+ .icon {
+
+    > svg {
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        vertical-align: middle;
+
+        path {
+            fill: grey;
+        }
+    }
+}

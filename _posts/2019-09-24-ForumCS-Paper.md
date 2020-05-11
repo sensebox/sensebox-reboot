@@ -4,7 +4,7 @@ title: "Using OSF for public peer review and proceedings"
 date: 2019-09-24
 author: Daniel Nüst, Mario Pesch, Thomas Bartoschek
 abstract: "This week the Forum Citizen Science 2019, the largest Citizen Science conference in Germany, took place in Münster, Germany."
-thumbnail: /images/blog_images/forumCS-paper/osf_overview.png
+thumbnail: /images/blog/2019-09-24-ForumCS-Paper/thumbnail.png
 image1: /images/blog_images/forumCS-paper/osf_overview.png
 lang: de
 ---

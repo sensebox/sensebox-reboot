@@ -9,3 +9,25 @@
     font-family: BrixSlab-Bold; 
     font-size: larger;
   }
+
+  .navbar-brand {
+    font-family: "BrixSlab-Regular";
+  }
+
+
+.active {
+  > .nav-link{
+    color: #669933!important;
+  }
+  
+}
+
+.heading{
+  font-size: 4rem;
+  color: lightgrey;
+}
+
+.subheading{
+  font-size:1.2vw;
+  color: lightgrey;
+}

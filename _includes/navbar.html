@@ -7,13 +7,12 @@
             aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <p> </p>
         <div class="collapse navbar-collapse flex-column" id="navbarResponsive">
             <ul class="navbar-nav navbar-first w-100 navbar-right">
-                <li class="nav-item">
+                <li class="nav-item  {% if page.title == 'blog' %}active{% endif %}">
                     <a class="nav-link" href="/blog">Blog</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item  {% if page.title == 'events' %}active{% endif %}">
                     <a class="nav-link" href="/events">Events</a>
                 </li>
                 <li class="nav-item">
@@ -28,21 +27,22 @@
                 <li class="nav-item">
                     <a class="nav-link" href="https://docs.sensebox.de">Dokumentation</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item  {% if page.title == 'about-us' %}active{% endif %}">
                     <a class="nav-link" href="/about-us">Über uns</a>
                 </li>
             </ul>
             <ul class="navbar-nav navbar-second w-100">
-                <li class="nav-item">
-                    <a class="nav-link active" href="/go">LOS GEHT'S</a>
+
+                <li class="nav-item {% if page.title == 'go' %}active{% endif %}">
+                    <a class="nav-link" href="/go">LOS GEHT'S</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item {% if page.title == 'products' %}active{% endif %}">
                     <a class="nav-link" href="/products">PRODUKTE</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item {% if page.title == 'projects' %}active{% endif %}">
                     <a class="nav-link" href="/projects">PROJEKTE</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item {% if page.title == 'material' %}active{% endif %}">
                     <a class="nav-link" href="/material">MATERIAL</a>
                 </li>
                 <li class="nav-item">
@@ -117,8 +117,8 @@
     <div class="container h-100">
         <div class="row h-100 align-items-center">
             <div class="col-12 text-center">
-                <h1 class="font-weight-light">senseBox</h1>
-                <p class="lead">Dein Toolkit für digitale Bildung, Citizen Science und Umweltmonitoring</p>
+                <h1 class="heading">senseBox</h1>
+                <p class="lead subheading">Dein Toolkit für digitale Bildung, Citizen Science und Umweltmonitoring</p>
             </div>
         </div>
     </div>

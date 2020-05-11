@@ -4,7 +4,7 @@ title: "Ein Bodenfeuchtesensor für die senseBox"
 date: 2020-01-28
 author: Christof Hübner
 abstract: "Der Bodentemperatur und -feuchte Sensor von Truebner ermöglicht viele spannende Einsätze mit der senseBox"
-thumbnail: /images/blog_images/truebner/truebner_smt50.jpg
+thumbnail: /images/blog/2020-01-27-sensebox-bodenfeuchte/thumbnail.jpg
 image1: /images/blog_images/truebner/truebner_smt50.jpg
 image2: /images/blog_images/truebner/truebner_setup.jpg
 image3: /images/blog_images/truebner/truebner_setup_2.png

@@ -33,7 +33,11 @@
 }
 
 .frosted {
+  /* For Chrome & Chromium 76+ */
   backdrop-filter: blur(150px);
+  /* For Safari, classic Edge and Chrome/Chromium <=75 */
+  -webkit-backdrop-filter: blur(150px);
+
   padding-top: 2rem;
   padding-bottom: 2rem;
   border-radius: 1rem;

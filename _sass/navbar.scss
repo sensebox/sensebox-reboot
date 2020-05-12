@@ -24,10 +24,19 @@
 
 .heading{
   font-size: 4rem;
-  color: lightgrey;
+  color: white;
 }
 
 .subheading{
-  font-size:1.2vw;
-  color: lightgrey;
+  font-size:1.2rem;
+  color: white;
+}
+
+.frosted {
+  backdrop-filter: blur(150px);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-radius: 1rem;
+  margin: 1rem;
+  flex: auto;
 }

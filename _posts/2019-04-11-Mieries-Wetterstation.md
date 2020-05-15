@@ -4,11 +4,11 @@ title: "Mieries smarte Wetterstation: Ein Best-Practice-Beispiel für den Schule
 date: 2019-04-11
 author: Gina
 abstract: "Die Mierendorff Grundschule in Berlin-Charlottenburg arbeitet mit dem Gottfried Keller Gymnasium und der DorfwerkStadt e.V. an dem Kiez Projekt „Den Schäden des Rekordsommers 2018 auf der Spur“ und baut dazu ein smartes IoT-Wetterstations-Netz mit der senseBox in Charlottenburg auf – ein tolles Beispielprojekt für den Einsatz der senseBox an Schulen."
-thumbnail: /images/blog_images/Grundschule_Mierendorff/Wetterstation_Grundschule_Mierendorff.jpg
-image1: /images/blog_images/Grundschule_Mierendorff/Pflanzensensorik1.jpg
-image2: /images/blog_images/Grundschule_Mierendorff/Pflanzensensorik.jpg
-image3: /images/blog_images/Grundschule_Mierendorff/LoRaWAN Umweltstation mit Solarpanel.jpg
-image4: /images/blog_images/Grundschule_Mierendorff/Übersicht-Mierie-Wetterstation.jpeg
+thumbnail: /images/blog/2019-04-11-Mieries-Wetterstation/Wetterstation_Grundschule_Mierendorff.jpg
+image1: /images/blog/2019-04-11-Mieries-Wetterstation/Pflanzensensorik1.jpg
+image2: /images/blog/2019-04-11-Mieries-Wetterstation/Pflanzensensorik.jpg
+image3: /images/blog/2019-04-11-Mieries-Wetterstation/LoRaWAN Umweltstation mit Solarpanel.jpg
+image4: /images/blog/2019-04-11-Mieries-Wetterstation/Übersicht-Mierie-Wetterstation.jpeg
 lang: de
 ---
 Mieries smarte Schul-Wetterstation 

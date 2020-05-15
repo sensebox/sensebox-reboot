@@ -4,11 +4,11 @@ title: "Der InnoTruck – eine mobile Initiative des BMBF zu Besuch in Münster"
 date: 2017-07-11
 author: Manuela
 abstract: "Der coole Truck machte am 6. Juli Stopp vor dem Ifgi in Münster, mit dem 10 senseBoxen nun weiter durch Deutschland touren."
-thumbnail: /images/blog_images/InnoTruck2.jpg
-image1: /images/blog_images/InnoTruck1.JPG
-image2: /images/blog_images/cebit.jpg
-image3: /images/blog_images/InnoTruck3.JPG
-image4: /images/blog_images/InnoTruck 4.JPG
+thumbnail: /images/blog/2017-07-11-InnoTruck/InnoTruck2.jpg
+image1: /images/blog/2017-07-11-InnoTruck/InnoTruck1.JPG
+image2: /images/blog/2017-07-11-InnoTruck/cebit.jpg
+image3: /images/blog/2017-07-11-InnoTruck/InnoTruck3.JPG
+image4: /images/blog/2017-07-11-InnoTruck/InnoTruck 4.JPG
 lang: de
 ---
 Eine mobile Initiative

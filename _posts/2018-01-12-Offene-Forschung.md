@@ -4,8 +4,8 @@ title: "Offene Analyse von Umweltdaten"
 date: 2018-01-12
 author: "Daniel Nüst"
 abstract: "Die offenen Daten der openSenseMap werden inzwischen in vielen weiteren Projekten genutzt"
-thumbnail: /images/blog_images/2018-01_sensebox-binder-rstudio-screenshot.png
-image1: /images/blog_images/2018-01_sensebox-binder-rstudio-screenshot.png
+thumbnail: /images/blog/2018-01-12-Offene-Forschung/2018-01_sensebox-binder-rstudio-screenshot.png
+image1: /images/blog/2018-01-12-Offene-Forschung/2018-01_sensebox-binder-rstudio-screenshot.png
 image2: https://media.giphy.com/media/l49JRjO65S0WQ1Kyk/giphy.gif
 image3: https://raw.githubusercontent.com/JohannesFriedrich/JohannesFriedrich.github.io/master/_posts/img/PM_Silvester/PM_10_silvester2017.png
 lang: de

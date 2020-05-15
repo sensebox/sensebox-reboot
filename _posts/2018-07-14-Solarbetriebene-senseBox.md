@@ -4,12 +4,12 @@ title: "Die solarbetriebene senseBox - ein Projekt unserer Praktikanten"
 date: 2018-07-14
 author: Gina
 abstract: "In den letzten beiden Wochen haben unsere drei Praktikanten Nils, Sören und Julian vom Pascal-Gymnasium Münster an einer solarbetriebenen senseBox gearbeitet. Genaueres zu ihrem Praktikum erfahrt ihr hier."
-thumbnail: /images/blog_images/Prakti1.jpg
-image1: /images/blog_images/Prakti4.jpg
-image2: /images/blog_images/Prakti3.jpg
-image3: /images/blog_images/Prakti5.jpg
-image4: /images/blog_images/Prakti2.jpg
-image5: /images/blog_images/Prakti6.jpg
+thumbnail: /images/blog/2018-07-14-Solarbetriebene-senseBox/Prakti1.jpg
+image1: /images/blog/2018-07-14-Solarbetriebene-senseBox/Prakti4.jpg
+image2: /images/blog/2018-07-14-Solarbetriebene-senseBox/Prakti3.jpg
+image3: /images/blog/2018-07-14-Solarbetriebene-senseBox/Prakti5.jpg
+image4: /images/blog/2018-07-14-Solarbetriebene-senseBox/Prakti2.jpg
+image5: /images/blog/2018-07-14-Solarbetriebene-senseBox/Prakti6.jpg
 
 
 

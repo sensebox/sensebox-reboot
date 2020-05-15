@@ -4,18 +4,18 @@ title: "Expedition auf die Zugspitze"
 date: 2017-09-05
 author: Manuela
 abstract: "Sonne, Nebel, Schnee - auf unserer dreitägigen Expedition auf die Zugspitze war einfach alles dabei. Und der Spaß kam dabei nicht zu kurz."
-thumbnail: /images/blog_images/Gipfel.jpg
-image1: /images/blog_images/team.jpg
-image2: /images/blog_images/kuh.jpg
-image3: /images/blog_images/aussicht1.jpg
-image4: /images/blog_images/schneefernhaus.jpg
-image5: /images/blog_images/senseBox_zugspitze.jpg
-image6: /images/blog_images/Lift.jpg
-image7: /images/blog_images/retreat_raum.jpg
-image8: /images/blog_images/schnee_zugspitze.jpg
-image9: /images/blog_images/aussicht.jpg
-image10: /images/blog_images/Jan_Matze_Zugspitze.jpg
-image11: /images/blog_images/aussicht2.JPG
+thumbnail: /images/blog/2017-09-05-Zugspitze/Gipfel.jpg
+image1: /images/blog/2017-09-05-Zugspitze/team.jpg
+image2: /images/blog/2017-09-05-Zugspitze/kuh.jpg
+image3: /images/blog/2017-09-05-Zugspitze/aussicht1.jpg
+image4: /images/blog/2017-09-05-Zugspitze/schneefernhaus.jpg
+image5: /images/blog/2017-09-05-Zugspitze/senseBox_zugspitze.jpg
+image6: /images/blog/2017-09-05-Zugspitze/Lift.jpg
+image7: /images/blog/2017-09-05-Zugspitze/retreat_raum.jpg
+image8: /images/blog/2017-09-05-Zugspitze/schnee_zugspitze.jpg
+image9: /images/blog/2017-09-05-Zugspitze/aussicht.jpg
+image10: /images/blog/2017-09-05-Zugspitze/Jan_Matze_Zugspitze.jpg
+image11: /images/blog/2017-09-05-Zugspitze/aussicht2.JPG
 
 
 lang: de

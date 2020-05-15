@@ -4,8 +4,8 @@ title: "Neue Poster für die senseBox – Coming Soon!"
 date: 2018-02-12
 author: Gina
 abstract: "Im Buch-Workshop wurden neue Poster zur einfachen Erklärung der senseBox für SchülerInnen, Studierende und LehrerInnen entwickelt."
-thumbnail: /images/blog_images/Buch_Workshop.jpg
-image1: /images/blog_images/IMG_0257.JPG
+thumbnail: /images/blog/2018-02-12-Buch-Workshop/Buch_Workshop.jpg
+image1: /images/blog/2018-02-12-Buch-Workshop/IMG_0257.JPG
 lang: de
 ---
 Zwei Tage lang rauchten die Köpfe

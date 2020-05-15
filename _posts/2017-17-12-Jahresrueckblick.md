@@ -5,9 +5,9 @@ date: 2017-12-17
 author: Manuela
 abstract: "Und schon wieder ist ein neues Jahr vorbei. Unglaublich wie schnell das schon wieder ging!
 Es war ein Jahr voller Workshops, Messen, Auszeichnungen und vielem mehr. Doch was genau ist eigentlich alles passiert?"
-thumbnail: /images/blog_images/team.jpg
-image1: /images/blog_images/cebit_Jahresrückblick.jpg
-image2: /images/blog_images/Drehtag_Jahresrückblick.jpg
+thumbnail: /images/blog/2017-17-12-Jahresrueckblick/team.jpg
+image1: /images/blog/2017-17-12-Jahresrueckblick/cebit_Jahresrückblick.jpg
+image2: /images/blog/2017-17-12-Jahresrueckblick/Drehtag_Jahresrückblick.jpg
 
 
 lang: de

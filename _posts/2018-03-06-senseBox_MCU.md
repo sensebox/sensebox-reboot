@@ -4,12 +4,12 @@ title: "MCU Sneak Preview"
 date: 2018-03-06
 author: Jan und Thomas
 abstract: "Der Launch unserer neuen senseBox Hardware steht kurz bevor! Die Änderungen im Überlick findet ihr hier."
-thumbnail: /images/blog_images/mcu_blog.jpg
-image1: /images/blog_images/mcu.jpg
-image2: /images/blog_images/blockly.jpg
-image3: /images/blog_images/eduset1.jpg
-image4: /images/blog_images/eduset2.jpg
-image5: /images/blog_images/shop.png
+thumbnail: /images/blog/2018-03-06-senseBox_MCU/mcu_blog.jpg
+image1: /images/blog/2018-03-06-senseBox_MCU/mcu.jpg
+image2: /images/blog/2018-03-06-senseBox_MCU/blockly.jpg
+image3: /images/blog/2018-03-06-senseBox_MCU/eduset1.jpg
+image4: /images/blog/2018-03-06-senseBox_MCU/eduset2.jpg
+image5: /images/blog/2018-03-06-senseBox_MCU/shop.png
 
 lang: de
 ---

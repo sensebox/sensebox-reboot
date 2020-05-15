@@ -4,10 +4,10 @@ title: "Herbst-Newsletter 2018"
 date: 2018-11-05
 author: Gina
 abstract: "Der neue Newsletter ist da! Hier erfahrt Ihr, was es Neues von der senseBox gibt."
-thumbnail: /images/blog_images/senseBoxlogo.png
-image1: /images/blog_images/Blockly.png
-image2: /images/blog_images/home.jpg
-image3: /images/blog_images/Books.png
+thumbnail: /images/blog/2018-11-05-Herbst-Newsletter/thumbnail.jpg
+image1: /images/blog/2018-11-05-Herbst-Newsletter/Blockly.png
+image2: /images/blog/2018-11-05-Herbst-Newsletter/home.jpg
+image3: /images/blog/2018-11-05-Herbst-Newsletter/Books.png
 lang: de
 ---
 Herbst-Newsletter 2018!

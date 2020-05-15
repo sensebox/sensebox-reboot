@@ -4,10 +4,10 @@ title: "Praktikum bei der senseBox"
 date: 2018-02-01
 author: Manuela
 abstract: "In den letzten beiden Wochen wurden wir von drei Praktikanten unterstützt - Niklas, Jannik und Julian. Was die drei so gemacht haben, erfahrt ihr hier."
-thumbnail: /images/blog_images/Praktikanten.jpg
-image1: /images/blog_images/Jannik.jpg
-image2: /images/blog_images/Julian.JPG
-image3: /images/blog_images/Bewegungssensor.jpg
+thumbnail: /images/blog/2018-02-01-Praktikanten/Praktikanten.jpg
+image1: /images/blog/2018-02-01-Praktikanten/Jannik.jpg
+image2: /images/blog/2018-02-01-Praktikanten/Julian.JPG
+image3: /images/blog/2018-02-01-Praktikanten/Bewegungssensor.jpg
 
 
 lang: de

@@ -34,13 +34,20 @@
 
 .frosted {
   /* For Chrome & Chromium 76+ */
-  backdrop-filter: blur(150px);
+  backdrop-filter: blur(200px);
   /* For Safari, classic Edge and Chrome/Chromium <=75 */
-  -webkit-backdrop-filter: blur(150px);
+  -webkit-backdrop-filter: blur(200px);
 
   padding-top: 2rem;
   padding-bottom: 2rem;
   border-radius: 1rem;
   margin: 1rem;
   flex: auto;
+}
+
+.navbar-frosted {
+  /* For Chrome & Chromium 76+ */
+  backdrop-filter: blur(150px);
+  /* For Safari, classic Edge and Chrome/Chromium <=75 */
+  -webkit-backdrop-filter: blur(150px);
 }

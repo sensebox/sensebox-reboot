@@ -15,5 +15,7 @@ tagarray: []
 
 collections:
     events:
+    press:
+    awards:
     projects: 
         output: true

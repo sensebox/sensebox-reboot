@@ -62,6 +62,11 @@
         </div>
     </div>
 </nav>
+{% if page.id == "index" and page.banner %}
+<div class="nav-banner">
+    🦑 Neuer Workshop mit Björn <a class="btn btn-primary btn-sm" href="#" role="button">Jetzt Anmelden</a>
+</div>
+{% endif %}
 
 {% if page.id == "index" %}
 

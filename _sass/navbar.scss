@@ -44,3 +44,29 @@
   margin: 1rem;
   flex: auto;
 }
+
+.nav-banner {
+  position: absolute;
+  top: 56px;
+  width: 100%;
+  text-align: center;
+  background-color: $warning;
+  padding: .6rem;
+  z-index: 1;
+  animation: 1s ease-out 0s 1 slideInFromTop;
+
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) { 
+    top: 95px;
+  }
+ 
+}
+
+@keyframes slideInFromTop {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

@@ -1,13 +1,20 @@
 - author: David
   date: 2020-05-15
-  headline: wir haben jetzt news
-  text: sdfjlsdjfb blaaa
+  headline: senseBox Sprechstunde
+  text: Aufgrund der aktuellen Situation (Corona-Krise) können auch wir keine Veranstaltungen vor Ort anbieten. Wir möchten jedoch gerne weiterhin mit Euch in Kontakt bleiben und bieten Sprechtunden an. Ihr habt Fragen zu Blockly, benötigt einen Tipp für die senseBox:home oder wollt einfach mal über Erfahrungen berichtet? Dann meldet euch hier an <a href="https://sensebox.de/fortbildung" class="btn btn-success">zur Anmeldung</a>
+  active: true
+
+- author: Björn
+  date: 2020-05-15
+  headline: Wir bleiben schlau! Die Allianz für MINT-Bildung zu Hause
+  text: Zu Hause wird es langweilig? Wir beteiligen uns mit mehr als 50 Partnern an der Allianz für MINT-Bildung. Mehr Informationen findet ihr auf der <a href="https://sensebox.de/wirbleibenschlau">sensebox.de/wirbleibenschlau</a>.
   active: true
 
 - author: David
   date: 2020-05-15
-  headline: wir haben jetzt news
-  text: sdfjlsdjfb blaaa
+  headline: Die senseBox im Futurium
+  text: Wir haben schon immer mal wieder von unsere Kooperation mit dem Zukunftsmuseum Futurium in Berlin berichtet. Auf deren Homepage haben wir nun eine Projektseite, auf welcher von unserem Exponat, Workshops vor Ort und weiteren Ideen berichtet wird <a href="https://futurium.de/de/sense-box">https://futurium.de/de/sense-box</a>
   active: true
+
 
 

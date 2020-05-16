@@ -187,8 +187,49 @@ add your news to news.yml
 <div class="row">
     <h1>Partner</h1>
 </div>
+<div class="row partner">
+    <ul>
+        {% assign partner = site.data.network %}
+        {% for partner in partner %}
+
+        <li>
+            <a href="http://www.gi-at-school.de" target="_blank">
+                <img src="{{ partner.logo }}" alt="giatschool Logo">
+            </a>
+        </li>
+        {% if forloop.index == 5%}
+        {% break %}
+        {% endif %}
+        {% endfor %}
+    </ul>
+</div>
+<div class="row">
+    <div class="col-md-4 offset-4">
+        <a href="/network.html" class="btn btn-success" style="">Alle ansehen</a>
+    </div>
+</div>
+
 
 <hr class="featurette-divider">
 <div class="row">
-    <h1>Förderungen</h1>
+    <div class="col-lg-4">
+        <img src="/images/awards/BMBF_CMYK_Gef_L.png" class="img-fluid" alt="...">
+    </div>
+    <div class="col-lg-8">
+        <h1>Förderungen</h1>
+        Das senseBox ist an der Universität Münster im Rahmen eines Forschungsprojekt am Institut für Geoinformatik
+        entstanden. Dank verschiedene Förderungen von unterschiedlichen Trägern konnte die Idee immer weiter reifen.
+        Über drei Jahre, bis Ende 2019 war insbesondere die Förderung “BMBF Open Photonics” für die
+        Weiterentwicklung der senseBox maßgeblich unterstützend. Schon in diesem Zeitraum, zeichnete sich die Chance
+        einer erfolgreichen Ausgründung der Produktsparte ab, welche mit der Gründung der Reedu GmbH & Co. KG
+        erfolgte. Diese Ausgründung wurde zusätzlich mit einem EXIST-Gründerstipendium des Bundes Ministerium für
+        Wirtschaft und Energie forciert. Um weiter innovative Ideen rund um die senseBox zu erforschen, konnte sich
+        der Verbund aus Spin-off Unternehmen und Universität erfolgreich um ein weiteres Projekt aus dem Bereich
+        “Photonik Forschung Deutschland” bewerben. Seit November 2019 ist das Forschungsprojekt “senseBox:pro” eines
+        von mehreren Projekten in der Fördermaßnahme "Open Photonik Pro". Mit der Maßnahme verfolgt das
+        Bundesministerium für Bildung und Forschung (BMBF) das Ziel, neue Formen der Zusammenarbeit von Wissenschaft
+        und Wirtschaft mit der Maker- und Gründerszene zu ermöglichen.
+    </div>
 </div>
+
+<hr class="featurette-divider">

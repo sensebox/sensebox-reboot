@@ -6,4 +6,33 @@ description: Dein Toolkit für digitale Bildung, Citizen Science und Umweltmonit
 id: events
 ---
 
-{% include events.html %}
+<div class="container">
+    <div class="row">
+        <h1>Veranstaltungen</h1>
+
+        {% assign events = site.events | sort: 'ending-date' %}
+        {% assign i=0 %}
+        <div class="row">
+            <ul class="timeline-events">
+                {% for event in events %}
+                {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
+                {% capture eventendingdateunix %}{{event.ending-date | date: '%s'}}{% endcapture %}
+                {% if eventendingdateunix > nowunix %}
+                {% assign index = forloop.length | minus: forloop.index %}
+                {% if index == 1 or index == 3 or index == 5 or index == 7%}
+                {% include event_template.html event=event %}
+                {% endif %}
+                {% if index == 2 or index == 4 or index == 6 or index == 8 %}
+                {% include event_template-inverted.html event=event %}
+                {% endif %}
+                {% assign i = i | plus: 1 %}
+                {% endif %}
+                {% if i == 8 %}
+                {% break %}
+                {% endif %}
+                {% endfor %}
+                <li class="clearfix no-float"></li>
+            </ul>
+        </div>
+    </div>
+</div>

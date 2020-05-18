@@ -23,8 +23,13 @@
 }
 
 .heading{
-  font-size: 4rem;
+  font-size: 2rem;
   color: white;
+
+   /* Large devices (desktops, 992px and up) */
+   @media (min-width: 992px) { 
+    font-size: 4rem;
+  }
 }
 
 .subheading{

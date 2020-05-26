@@ -15,7 +15,7 @@ id: Netzwerk
     </div>
     <div class="col-lg-8">
         <h1>{{ partner.name }}</h1>
-        {{ partner.description }}
+        {{ partner.description | markdownify }}
     </div>
 </div>
 <hr class="featurette-divider">

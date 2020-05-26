@@ -1,19 +1,36 @@
-
+- name: Deutsche Telekom Stiftung
+  description: Mit der Deutschen Telekom Stiftung verbindet uns eine langjährige Partnerschaft. In der Vergangenheit konnten eine Vielzahl von Projekten für Schulen und Jugendeinrichtungen gemeinsam umgesetzt werden. Aktuell unterstützen wir die Stiftung in Ihrem Engagement “Chancen bilden@Bonn” insbesondere im Projekt [Klima findet Stadt](https://www.telekom-stiftung.de/klima-findet-stadt)
+  logo: /images/logos/network/tks_partnerlogo.jpg
+- name: Hopp Foundation
+  description: Die Hopp Foundation setzt sich dafür ein Schülern den wichtigen Bereich der IT, vom Umgang mit dem Internet bis hin zu Programmiersprachen, zu vermitteln.
+  logo: /images/logos/network/hopp_logo.png
+- name: openRoberta
+  description: Das Frauenhofer Institut hat 2014 die Programmierplattform "Open Roberta Lab" initiiert. Gemeinsam haben wir es möglich gemacht, dass die senseBox auch mit der Open Roberta Programmiersprache [NEPO](https://lab.open-roberta.org/) programmiert werden. 
+  logo: /images/logos/network/Roberta_Logo_wp-600x338.png
 - name: Watterott
   description: Bereits seit vielen Jahren arbeiten wir gemeinsam mit Watterott zusammen. Er unterstüzt uns in allen Fragen und Prozessen rund um die Herstellung, Verpackung und Versand der Hardware.
   logo: /images/logos/network/watterott.png
 - name: Institut für Geoinformatik
-  description: Bereits seit vielen Jahren arbeiten wir gemeinsam mit Watterott zusammen. Er unterstüzt uns in allen Fragen und Prozessen rund um die Herstellung, Verpackung und Versand der Hardware.
-  logo: /images/logos/network/ifgi.png
+  description: Das Ifgi ist der Geburtsort der senseBox und ist maßgeblich an der Entwicklung der senseBox beteiligt. Aktuell ist das Institut im Kooperationsprojekt senseBox:pro gemeinsam mit der Reedu GmbH & Co. KG an der Weiterentwicklung des Systems beteiligt.  
+  logo: /images/logos/network/logo-ifgi-text-de.png
+- name: Forschungs- und Schülerlabor GI@School
+  description: GI@School - Geoinformation in der Schule - stellt das am ifgi generierte Wissen und stellt es der Öffentlichkeit insbesondere im Bildungsbereich zur Verfügung. Die Idee zur senseBox und zur openSenseMap entstand hier.
+  logo: /images/logos/network/gi-at-school.png
 - name: Innotruck
   description: Der Innotruck ist unterwegs durch Deutschland und zeigt innovative Technologie. Mit dabei ist auch eine Klassenkiste voll mit senseBoxen
   logo: /images/logos/network/innotruck.jpg
-- name: Futurium
-  description:
-  logo:
-- name: Hopp Foundation
-  description: Die Hopp Foundation setzt sich dafür ein Schülern den wichtigen Bereich der IT, vom Umgang mit dem Internet bis hin zu Programmiersprachen, zu vermitteln.
-  logo: /images/logos/network/hopp_logo.png
+- name: Photonik Forschung Deutschland
+  description: Mit der Fördermaßnahme "Open Photonik Pro" verfolgt das Bundesministerium für Bildung und Forschung (BMBF) das Ziel, neue Formen der Zusammenarbeit von Wissenschaft und Wirtschaft mit der Maker- und Gründerszene zu ermöglichen. Mit dem Projekt [senseBox:pro](https://www.photonikforschung.de/projekte/open-innovation/projekt/sensebox-pro.html) wird eine Weiterentwicklung der senseBox und der openSenseMap als Photonik-Tool für Innovationen von professionellen Nutzern gefördert.
+  logo: /images/logos/network/LogoPhotonikforschung.png
 - name: Junge Tüftler
-  description: Junge Tüftler ist eine gemeinnützige Organisation mit dem Ziel, Menschen zu befähigen mit digitalen Werkzeugen die Welt aktiv und nachhaltig zu gestalten.
-  logo: /images/logos/network/hopp_logo.png
+  description: Junge Tüftler ist eine gemeinnützige Organisation mit dem Ziel, Menschen zu befähigen mit digitalen Werkzeugen die Welt aktiv und nachhaltig zu gestalten. Die Tüftler nutzen die senseBox in unseren Workshops, entwickeln gemeinsame Workshop Formate und Veranstaltungen, und arbeiten zusammen am Thema Open Badges.
+  logo: /images/logos/network/junge-tueftler.svg
+- name: Dr.-Ing. Paul Christiani GmbH & Co. KG
+  description: Das Unternehmen aus Konstanz hat sich auf technische Bildung spezialisiert. Auch die senseBox zählt zum [Sortiment](https://www.christiani.de/schule/schulstufen/sekundarstufe/messen-mit-sensoren/sensebox-edu.html) des Unternehmens welches zudem auch Fortbildungen und Workshops damit anbietet.
+  logo: /images/logos/network/logo_christiani.png
+- name: EducaTec AG
+  description: Im Jahr 2004 wurde EducaTec AG  mit dem Ziel gegründet Technik und ingenieurwissenschaftliches Denken in öffentlichen und privaten Schulen der Schweiz zu fördern. Das Unternehmen ist unser [Partner](https://educatec.ch/tectools/sensebox/) in der Schweiz und kümmert um Kunden vor Ort. 
+  logo: /images/logos/network/educatec.png
+- name: TRUEBNER GmbH
+  description: Trübner ist unser Partner wenn es um den Bereich Bewässerungstechnik geht. So wurde zum Beispiel der Sensor für Boderfeuchte [SMT50](https://sensebox.kaufen/product/bodenfeuchte-temperatursensor-smt50) gemeinsam ausgewählt und für die senseBox angepasst. 
+  logo: /images/logos/network/truebner.png

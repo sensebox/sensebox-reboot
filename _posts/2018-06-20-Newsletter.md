@@ -4,11 +4,11 @@ title: "Die neue senseBox ist da!"
 date: 2018-06-20
 author: Gina
 abstract: "Wir haben alle wichtigen Informationen über die senseBox für euch übersichtlich in unserem Newsletter zusammengefasst."
-thumbnail: /images/blog_images/Blog_Newsletter1.jpg
-image1: /images/blog_images/Blog_Newsletter1.jpg
-image2: /images/blog_images/Blog_Newsletter2.png
-image3: /images/blog_images/Blog_Newsletter3.png
-image4: /images/blog_images/Blog_Newsletter4.png
+thumbnail: /images/blog/2018-06-20-Newsletter/Blog_Newsletter1.jpg
+image1:  /images/blog/2018-06-20-Newsletter/Blog_Newsletter1.jpg
+image2:  /images/blog/2018-06-20-Newsletter/Blog_Newsletter2.png
+image3:  /images/blog/2018-06-20-Newsletter/Blog_Newsletter3.png
+image4:  /images/blog/2018-06-20-Newsletter/Blog_Newsletter4.png
 lang: de
 ---
 Die neue senseBox ist da!

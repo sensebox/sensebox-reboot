@@ -4,11 +4,9 @@ title: "Eine Prakitkumsära geht zu Ende"
 date: 2018-07-31
 author: Gina
 abstract: "Seit Juni haben alle 9 Teilnehmer des Projektkurses Physik aus der 11. Klasse des Pascal-Gymnasiums bei der senseBox ihr Prakitkum absolviert. Zum Schluss hatten wir Glen, Malek und Moritz zu Gast."
-thumbnail: /images/blog_images/PascGym.jpg
-image1: /images/blog_images/PascGym.jpg
-image2: /images/blog_images/PascGym1.jpg
-
-
+thumbnail: /images/blog/2018-07-31-Praktikanten-PascGym/PascGym.jpg
+image1: /images/blog/2018-07-31-Praktikanten-PascGym/PascGym.jpg
+image2: /images/blog/2018-07-31-Praktikanten-PascGym/PascGym.jpg
 lang: de
 ---
 Praktikumszeit am ifgi

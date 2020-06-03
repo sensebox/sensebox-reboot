@@ -4,22 +4,21 @@ title: "Eindrücke vom senseBox-Hackathon 2018"
 date: 2018-09-07
 author: Gina
 abstract: "Vom 26. bis 28. August 2018 veranstalten wir eine Neuauflage des senseBox Hackathons. Dieses Jahr lautete das Thema Space."
-thumbnail: /images/blog_images/Banner.JPG
-image1: /images/blog_images/Hackshirt.JPG
-image2: /images/blog_images/Zelt.JPG
-image3: /images/blog_images/Sandkiste.jpg
-image4: /images/blog_images/Gruppenarbeit1.JPG
-image5: /images/blog_images/Grillen.JPG
-image6: /images/blog_images/Paas_Vortrag.jpg
-image7: /images/blog_images/Gruppenarbeit2.JPG
-image8: /images/blog_images/Pizza.JPG
-image9: /images/blog_images/Testflug.jpg
-image10: /images/blog_images/Ballon.JPG
-image11: /images/blog_images/WDR-Kamerateam.JPG
-image12: /images/blog_images/Jury.JPG
-image13: /images/blog_images/Gewinnerteam.JPG
-image14: /images/blog_images/Abschluss.JPG
-
+thumbnail: /images/blog/2018-09-07-Hackathon/Banner.JPG
+image1: /images/blog/2018-09-07-Hackathon/Hackshirt.JPG
+image2: /images/blog/2018-09-07-Hackathon/Zelt.JPG
+image3: /images/blog/2018-09-07-Hackathon/Sandkiste.jpg
+image4: /images/blog/2018-09-07-Hackathon/Gruppenarbeit1.JPG
+image5: /images/blog/2018-09-07-Hackathon/Grillen.JPG
+image6: /images/blog/2018-09-07-Hackathon/Paas_Vortrag.jpg
+image7: /images/blog/2018-09-07-Hackathon/Gruppenarbeit2.JPG
+image8: /images/blog/2018-09-07-Hackathon/Pizza.JPG
+image9: /images/blog/2018-09-07-Hackathon/Testflug.jpg
+image10: /images/blog/2018-09-07-Hackathon/Ballon.JPG
+image11: /images/blog/2018-09-07-Hackathon/WDR-Kamerateam.JPG
+image12: /images/blog/2018-09-07-Hackathon/Jury.JPG
+image13: /images/blog/2018-09-07-Hackathon/Gewinnerteam.JPG
+image14: /images/blog/2018-09-07-Hackathon/Abschluss.JPG
 lang: de
 ---
 

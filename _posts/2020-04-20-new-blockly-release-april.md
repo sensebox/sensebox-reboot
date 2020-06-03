@@ -4,10 +4,11 @@ title: "Blockly Update April 2020"
 date: 2020-04-20
 author: Mario
 abstract: "Überarbeiteter Code für den Umweltsensor (BME680)"
-thumbnail: /images/blog/blockly_release_april/blockly_april_update.png
-image1: /images/blog/blockly_release_april/bme_dropdown.png
-image2: /images/blog/blockly_release_april/screenshot_button.png
+thumbnail: /images/blog/2020-04-20-new-blockly-release-april/blockly_april_update.png
+image1: /images/blog/2020-04-20-new-blockly-release-april/bme_dropdown.png
+image2: /images/blog/2020-04-20-new-blockly-release-april/screenshot_button.png
 lang: de
+tag: blockly
 ---
 Blockly Update April 2020
 ============

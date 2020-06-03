@@ -4,7 +4,7 @@ title: "Einsatz der senseBox in der Hochschule"
 date: 2019-01-19
 author: Mario
 abstract: "Mit der senseBox wird auch an Hochschulen gelernt."
-thumbnail: https://www.blb.nrw.de/Bilder/Bilder_BLB/Geowissenschaften_Muenster_Bilder/GEO-I.jpg
+thumbnail: /images/blog/2019-01-19-senseBox_Hochschule/thumbnail.jpg
 lang: de
 ---
 Die senseBox in der Lehre

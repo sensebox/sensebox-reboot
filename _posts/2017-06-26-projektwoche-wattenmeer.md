@@ -4,11 +4,11 @@ title: "Projektwoche von openSea im Wattenmeer"
 date: 2017-06-26
 author: Manuela
 abstract: "Im Nationalpark Wattenmeer wurde mithilfe der senseBox Temperatur, Trübung und Fließgeschwindigkeit gemessen - und entdeckte somit neues Terrain."
-thumbnail: /images/blog_images/opensea_wattenmeer.jpg
-image1: /images/blog_images/watt1.jpg
-image2: /images/blog_images/watt2.jpg
-image3: /images/blog_images/watt3.jpg
-image4: /images/blog_images/watt4.jpg
+thumbnail: /images/blog/2017-06-26-projektwoche-wattenmeer/opensea_wattenmeer.jpg
+image1: /images/blog/2017-06-26-projektwoche-wattenmeer/watt1.jpg
+image2: /images/blog/2017-06-26-projektwoche-wattenmeer/watt2.jpg
+image3: /images/blog/2017-06-26-projektwoche-wattenmeer/watt3.jpg
+image4: /images/blog/2017-06-26-projektwoche-wattenmeer/watt4.jpg
 lang: de
 ---
 Eine DIY Unterwassermessstation

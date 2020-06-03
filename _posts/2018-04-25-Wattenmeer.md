@@ -4,10 +4,10 @@ title: "senseBox-Übergabe an den Nationalpark Wattenmeer"
 date: 2018-04-25
 author: Gina
 abstract: "Letztes Wochenende haben wir die senseBox:edu dem Nationalpark Wattenmeer überreicht, damit an Land Messungen durchgeführt werden können."
-thumbnail: /images/blog_images/Wattenmeer_1.jpeg
-image1: /images/blog_images/Wattenmeer_2.jpg
-image2: /images/blog_images/Wattenmeer_3.jpg
-image3: /images/blog_images/Wattenmeer_4.jpg
+thumbnail: /images/blog/2018-04-25-Wattenmeer/Wattenmeer_1.jpeg
+image1: /images/blog/2018-04-25-Wattenmeer/Wattenmeer_2.jpg
+image2: /images/blog/2018-04-25-Wattenmeer/Wattenmeer_3.jpg
+image3: /images/blog/2018-04-25-Wattenmeer/Wattenmeer_4.jpg
 lang: de
 ---
 Das openSea-Projekt

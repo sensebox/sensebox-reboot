@@ -4,10 +4,10 @@ title: "Der senseBox-Frühlingsnewsletter 2019"
 date: 2019-03-25
 author: Gina
 abstract: "Die Frühlingsausgabe unseres senseBox-Newsletters ist da! Hier erfahrt Ihr, was es Neues von der senseBox gibt."
-thumbnail: /images/blog_images/senseBoxlogo.png
-image1: /images/blog_images/newsletter/fruehlingsnewsletter/Blog_Fruehlingsnewsletter1.jpg
-image2: /images/blog_images/newsletter/fruehlingsnewsletter/Blog_Fruehlingsnewsletter2.png
-image3: /images/blog_images/newsletter/fruehlingsnewsletter/Blog_Fruehlingsnewsletter3.jpg
+thumbnail: /images/blog/2019-03-25-Frühlingsnewsletter/Blog_Fruehlingsnewsletter1.jpg
+image1: /images/blog/2019-03-25-Frühlingsnewsletter/Blog_Fruehlingsnewsletter1.jpg
+image2: /images/blog/2019-03-25-Frühlingsnewsletter/Blog_Fruehlingsnewsletter2.jpg
+image3: /images/blog/2019-03-25-Frühlingsnewsletter/Blog_Fruehlingsnewsletter3.jpg
 lang: de
 ---
 

@@ -1,0 +1,33 @@
+<!--<div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">{{ include.event.title }} | {{ include.event.place }}</h5>
+    <h6 class="card-subtitle mb-2 text-muted">{{ include.event.starting-date | date: '%d.%m.%Y' }}
+      {% if include.event.starting-date != include.event.ending-date %} -
+      {{ include.event.ending-date | date: '%d.%m.%Y' }} {% endif %} {% if include.event.time %}
+      {{ include.event.time }}</h6>
+    {% endif %}
+    {% if include.event.description %}
+    <p class="card-text">{{ include.event.description }}</p>
+    {% endif %}
+    <a href="#" class="card-link">Card link</a>
+    <a href="#" class="card-link">Another link</a>
+  </div>
+</div>-->
+
+
+<li class="timeline-inverted">
+  <div class="timeline-panel">
+    <div class="timeline-heading">
+      <h4>{{ include.event.title }}</h4>
+    </div>
+    <div class="timeline-body">
+      <p>{% if include.event.description %}{{ include.event.description }}{% endif %}</p>
+    </div>
+    <div class="timeline-footer">
+      <p class="text-right">{{ include.event.starting-date | date: '%d.%m.%Y' }}
+        {% if include.event.starting-date != include.event.ending-date %} -
+        {{ include.event.ending-date | date: '%d.%m.%Y' }} {% endif %} {% if include.event.time %}
+        {{ include.event.time }} in {{ event.place }}</p>{% endif %}
+    </div>
+  </div>
+</li>

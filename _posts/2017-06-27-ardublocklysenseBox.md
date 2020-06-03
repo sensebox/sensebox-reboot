@@ -4,9 +4,9 @@ title: "Ardublockly - eine einfache Programmieroberfläche für die senseBox:edu
 date: 2017-06-27
 author: Mario
 abstract: "Mit Ardublockly wird der Einstieg in die Programmierung der senseBox:edu noch einfacher"
-thumbnail: /images/blog_images/ardublockly_thumbnail.jpg
-image1: /images/blog_images/ardublockly1.gif
-image2: /images/blog_images/ardublockly2.jpg
+thumbnail: /images/blog/2017-06-27-ardublocklysenseBox/ardublockly_thumbnail.jpg
+image1: /images/blog/2017-06-27-ardublocklysenseBox/ardublockly1.gif
+image2: /images/blog/2017-06-27-ardublocklysenseBox/ardublockly2.jpg
 lang: de
 ---
 Ardublockly für die senseBox:edu

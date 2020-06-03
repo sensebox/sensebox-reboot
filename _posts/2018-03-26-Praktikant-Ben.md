@@ -4,9 +4,9 @@ title: "Computerspiel mit neuer Ansicht"
 date: 2018-03-26
 author: Gina
 abstract: "In den letzten beiden Wochen hat unser Schülerpraktikant Ben ein von Studenten modifiziertes Computerspiel verbessert. Was es mit dem Spiel auf sich hat und was er genau verändert hat, erfahrt ihr hier."
-thumbnail: /images/blog_images/Praktikant-Ben1.jpg
-image1: /images/blog_images/Praktikant-Ben2.jpg
-image2: /images/blog_images/Praktikant-Ben3.jpg
+thumbnail: /images/blog/2018-03-26-Praktikant-Ben/Praktikant-Ben1.jpg
+image1: /images/blog/2018-03-26-Praktikant-Ben/Praktikant-Ben2.jpg
+image2: /images/blog/2018-03-26-Praktikant-Ben/Praktikant-Ben3.jpg
 
 
 lang: de

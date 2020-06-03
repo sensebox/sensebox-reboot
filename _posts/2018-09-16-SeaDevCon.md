@@ -4,13 +4,13 @@ title: "Team senseBox beim Maritime Hackathon 2018"
 date: 2018-09-16
 author: Gina
 abstract: "Wir nahmen beim 2. Maritime Hackathon im Rahmen der Veranstaltung SEADEVCON in Hamburg teil. Dort hatten wir 22 Stunden Zeit, um einen Prototyp zur Veränderung der Industrie zu entwickeln. "
-thumbnail: /images/blog_images/SeaDevCon1.jpg
-image1: /images/blog_images/SeaDevCon3.jpg
-image2: /images/blog_images/SeaDevCon4.jpg
-image3: /images/blog_images/SeaDevCon5.jpg
-image4: /images/blog_images/SeaDevCon1.jpg
-image5: /images/blog_images/SeaDevCon6.jpg
-image6: /images/blog_images/SeaDevCon2.jpg
+thumbnail: /images/blog/2018-09-16-SeaDevCon/SeaDevCon1.jpg
+image1: /images/blog/2018-09-16-SeaDevCon/SeaDevCon3.jpg
+image2: /images/blog/2018-09-16-SeaDevCon/SeaDevCon4.jpg
+image3: /images/blog/2018-09-16-SeaDevCon/SeaDevCon5.jpg
+image4: /images/blog/2018-09-16-SeaDevCon/SeaDevCon1.jpg
+image5: /images/blog/2018-09-16-SeaDevCon/SeaDevCon6.jpg
+image6: /images/blog/2018-09-16-SeaDevCon/SeaDevCon2.jpg
 lang: de
 ---
 

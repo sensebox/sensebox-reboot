@@ -1,4 +1,4 @@
-<div class="card" style="width: 18rem;">
+<!--<div class="card" style="width: 18rem;">
   <div class="card-body">
     <h5 class="card-title">{{ include.event.title }} | {{ include.event.place }}</h5>
     <h6 class="card-subtitle mb-2 text-muted">{{ include.event.starting-date | date: '%d.%m.%Y' }}
@@ -12,28 +12,22 @@
     <a href="#" class="card-link">Card link</a>
     <a href="#" class="card-link">Another link</a>
   </div>
-</div>
-
-<!--
-<div class="panel panel-default">
-  <div class="panel-heading">
-    <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#accordion"
-      href="#collapse_event{{ forloop.index }}">{{ include.event.starting-date | date: '%d.%m.%Y' }}
-      {% if include.event.starting-date != include.event.ending-date %} -
-      {{ include.event.ending-date | date: '%d.%m.%Y' }} {% endif %} {% if include.event.time %}
-      {{ include.event.time }}
-      {% endif %} | <strong>{{ include.event.title }} </strong>| {{ include.event.place }}</a>
-  </div>
-  <div id="collapse_event{{ forloop.index }}" class="panel-collapse collapse noCrossRef">
-    <div class="panel-body">
-      {% if include.event.description %}
-      <div class="events-description">{{ include.event.description }}</div><br></br>
-      {% endif %}
-    </div>
-    {% if include.event.link %}
-    <div class="panel-footer">
-      <a href="{{ include.event.link }}" target="_blank">weitere Informationen</a>
-    </div>
-    {% endif %}
-  </div>
 </div>-->
+
+
+<li>
+  <div class="timeline-panel">
+    <div class="timeline-heading">
+      <h4>{{ include.event.title }}</h4>
+    </div>
+    <div class="timeline-body">
+      <p>{% if include.event.description %}{{ include.event.description }}{% endif %}</p>
+    </div>
+    <div class="timeline-footer">
+      <p class="text-right">{{ include.event.starting-date | date: '%d.%m.%Y' }}
+        {% if include.event.starting-date != include.event.ending-date %} -
+        {{ include.event.ending-date | date: '%d.%m.%Y' }} {% endif %} {% if include.event.time %}
+        {{ include.event.time }} in {{ event.place }}</p>{% endif %}
+    </div>
+  </div>
+</li>

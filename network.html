@@ -1,0 +1,22 @@
+---
+layout: default
+title: Netzwerk
+header: Netzwerk
+description: Am liebsten Arbeiten wir gemeinsam! Wir bedanken und bei allen Projektpartnern und Unterstützern
+id: Netzwerk
+---
+
+{% assign partner = site.data.network %}
+
+{% for partner in partner %}
+<div class="row">
+    <div class="col-lg-4">
+        <img src="{{ partner.logo }}" class="img-fluid" alt="...">
+    </div>
+    <div class="col-lg-8">
+        <h1>{{ partner.name }}</h1>
+        {{ partner.description | markdownify }}
+    </div>
+</div>
+<hr class="featurette-divider">
+{% endfor %}

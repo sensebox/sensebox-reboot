@@ -7,24 +7,17 @@ id: index
 banner: true
 ---
 
-
-
-
-
-
 <h1 class="my-4">Page Heading
     <small>Secondary Text</small>
 </h1>
 
 <div class="row">
     <div class="col-md-8">
-        <img class="img-fluid" src="http://placehold.it/750x500" alt="">
+        <img class="img-fluid" src="https://placehold.it/750x500" alt="">
     </div>
     <div class="col-md-4">
         <h3 class="my-3">Project Description</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna
-            varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu
-            convallis placerat, felis enim.</p>
+        <p>Was ist die senseBox. Kurze Beschreibung der senseBox</p>
         <h3 class="my-3">Project Details</h3>
         <ul>
             <li>Lorem Ipsum</li>
@@ -35,77 +28,208 @@ banner: true
     </div>
 </div>
 
-<h3 class="my-4">Related Projects</h3>
+<hr class="featurette-divider">
+
+<!-- Three columns of text below the carousel -->
+<div class="row">
+    <div class="col-lg-4">
+        <img class="rounded-circle"
+            src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
+            alt="Generic placeholder image" width="140" height="140">
+        <h2>senseBox:home</h2>
+        <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies
+            vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo
+            cursus magna.</p>
+        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+    </div><!-- /.col-lg-4 -->
+    <div class="col-lg-4">
+        <img class="rounded-circle"
+            src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
+            alt="Generic placeholder image" width="140" height="140">
+        <h2>senseBox:edu</h2>
+        <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras
+            mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris
+            condimentum nibh.</p>
+        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+    </div><!-- /.col-lg-4 -->
+    <div class="col-lg-4">
+        <img class="rounded-circle"
+            src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
+            alt="Generic placeholder image" width="140" height="140">
+        <h2>senseBox:mini</h2>
+        <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula
+            porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut
+            fermentum massa justo sit amet risus.</p>
+        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+    </div><!-- /.col-lg-4 -->
+</div><!-- /.row -->
+
+<hr class="featurette-divider">
+
+<div class="row featurette">
+    <div class="col-md-7">
+        <h2 class="featurette-heading">openSenseMap<span class="text-muted"> - unsere Web-Plattform für offene
+                Sensordaten der senseBox und anderer Geräte.</span></h2>
+        <p class="lead">Die openSenseMap ist unsere Web-Plattform für die offenen Daten der senseBox und anderer Geräte.
+            Jede senseBox:home übeträgt ihre Messdaten direkt auf diese Karte, wo sie betrachtet, analysiert und
+            heruntergeladen werden können. Auch mit der senseBox:edu erfasste Daten können auf der openSenseMap
+            angezeigt werden.
+            Alle auf der openSenseMap veröffentlichten Daten sind Open Data unter der Public Domain Dedication and
+            License 1.0.</p>
+    </div>
+    <div class="col-md-5">
+        <img class="featurette-image img-fluid" style="margin-top: 7rem;" src="/images/index/osem.png"
+            alt="Generic placeholder image">
+    </div>
+</div>
+
+<hr class="featurette-divider">
+
+
+<div class="row featurette">
+    <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Blockly für die senseBox<span class="text-muted"> - unsere visuelle
+                Programmieroberfläche, die eine einfache und schnelle Programmierung der senseBox ermöglicht</span>
+        </h2>
+        <p class="lead">Blockly für senseBox ist unsere visuelle Programmieroberfläche, die eine einfache und schnelle
+            Programmierung der senseBox ermöglicht. Blockly wurde von Google entwickelt und findet sich in vielen
+            verschiedenen visuellen Programmieroberflächen wieder. Dank der Arbeit von carlosperate lässt sich auch der
+            Arduino über eine visuelle Programmieroberfläche programmieren. Wir haben die Oberfläche für unsere senseBox
+            Sensoren und Bauteile angepasst um den Einstieg noch einfacher zu gestalten.</p>
+    </div>
+    <div class="col-md-5 order-md-1">
+        <img class="featurette-image img-fluid" style="margin-top: 7rem;" src="/images/index/blockly.png"
+            alt="Generic placeholder image">
+    </div>
+</div>
+
+<hr class="featurette-divider">
+
+<!--News Section
+add your news to news.yml 
+-->
+
+{% assign news = site.data.news %}
+<div class="row">
+    <h1>News</h1>
+    <div class="col-lg-7 mx-auto">
+        <!-- Timeline -->
+        <ul class="timeline">
+            {% for news in news %}
+            {% if news.active == true %}
+            <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
+                <div class="timeline-arrow"></div>
+                <h2 class="h5 mb-0">{{ news.headline }}</h2><span class="small text-gray"><i
+                        class="fa fa-clock-o mr-1"></i>{{ news.date | date: "%d/%m/%Y" }} von {{ news.author }}</span>
+                <p class="text-small mt-2 font-weight-light">{{ news.text }}</p>
+            </li>
+            {% endif %}
+            {% endfor %}
+        </ul><!-- End -->
+    </div>
+</div>
+
 
 <div class="row">
-    <div class="col-md-3 col-sm-6 mb-4">
-        <a href="#">
-            <img class="img-fluid" src="http://placehold.it/500x300" alt="">
-        </a>
-    </div>
-    <div class="col-md-3 col-sm-6 mb-4">
-        <a href="#">
-            <img class="img-fluid" src="http://placehold.it/500x300" alt="">
-        </a>
-    </div>
-    <div class="col-md-3 col-sm-6 mb-4">
-        <a href="#">
-            <img class="img-fluid" src="http://placehold.it/500x300" alt="">
-        </a>
-    </div>
-    <div class="col-md-3 col-sm-6 mb-4">
-        <a href="#">
-            <img class="img-fluid" src="http://placehold.it/500x300" alt="">
-        </a>
-    </div>
-</div>
+    <h1>Newsletter</h1>
+    <div class="col-lg-12">
+        <div style="text-align: center;" id="newsletter">
 
+            <!-- Begin MailChimp Signup Form -->
+            <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+            <style type="text/css">
+                #mc_embed_signup {
+                    /* background: #fff;*/
+                    clear: left;
+                    font: 14px Helvetica, Arial, sans-serif;
+                    width: 100%;
+                    font-family: BrixSlab-Regular, Helvetica, sans-serif;
+                }
 
-<div style="text-align: center;" id="newsletter">
+                #mc_embed_signup input.email {
+                    color: #4eaf47;
+                    font-size: 18px;
+                    padding: 10px 20px 10px 20px;
+                    border: solid #ddd 2px;
+                    text-decoration: none;
+                    background: none;
+                    margin: 5px;
+                    text-align: center;
+                    height: 49px;
+                }
 
-    <!-- Begin MailChimp Signup Form -->
-    <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
-    <style type="text/css">
-        #mc_embed_signup {
-            background: #fff;
-            clear: left;
-            font: 14px Helvetica, Arial, sans-serif;
-            width: 100%;
-            font-family: BrixSlab-Regular, Helvetica, sans-serif;
-        }
+                /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+    We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+            </style>
+            <div id="mc_embed_signup">
+                <form
+                    action="https://sensebox.us18.list-manage.com/subscribe/post?u=0d572f7997d4dae2c9e424299&amp;id=46738cd0bd"
+                    method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
+                    target="_blank" novalidate>
+                    <div id="mc_embed_signup_scroll">
 
-        #mc_embed_signup input.email {
-            color: #4eaf47;
-            font-size: 18px;
-            padding: 10px 20px 10px 20px;
-            border: solid #ddd 2px;
-            text-decoration: none;
-            background: none;
-            margin: 5px;
-            text-align: center;
-            height: 49px;
-        }
-
-        /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-        We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-    </style>
-    <div id="mc_embed_signup">
-        <form
-            action="https://sensebox.us18.list-manage.com/subscribe/post?u=0d572f7997d4dae2c9e424299&amp;id=46738cd0bd"
-            method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
-            target="_blank" novalidate>
-            <div id="mc_embed_signup_scroll">
-                <h1 for="mce-EMAIL">{{ t.newsletter.header}}</h1>
-                <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL"
-                    placeholder="{{t.newsletter.placeholder}}" required>
-                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
-                        name="b_0d572f7997d4dae2c9e424299_46738cd0bd" tabindex="-1" value=""></div>
-                <div class="clear"><input type="submit" value="{{t.newsletter.button}}" name="subscribe"
-                        id="mc-embedded-subscribe" class="btn"></div>
+                        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL"
+                            placeholder="{{t.newsletter.placeholder}}" required>
+                        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
+                                name="b_0d572f7997d4dae2c9e424299_46738cd0bd" tabindex="-1" value=""></div>
+                        <div class="clear"><input type="submit" value="Anmelden" name="subscribe"
+                                id="mc-embedded-subscribe" class="btn btn-success"></div>
+                    </div>
+                </form>
             </div>
-        </form>
+        </div>
+        <p>Melde dich zu unserem Newsletter an</p>
     </div>
 </div>
 
-<!--End mc_embed_signup-->
+<hr class="featurette-divider">
+<div class="row">
+    <h1>Partner</h1>
+</div>
+<div class="row partner">
+    <ul>
+        {% assign partner = site.data.network %}
+        {% for partner in partner %}
+
+        <li>
+            <a href="http://www.gi-at-school.de" target="_blank">
+                <img src="{{ partner.logo }}" alt="giatschool Logo">
+            </a>
+        </li>
+        {% if forloop.index == 5%}
+        {% break %}
+        {% endif %}
+        {% endfor %}
+    </ul>
+</div>
+<div class="row">
+    <div class="col-md-4 offset-4">
+        <a href="/network.html" class="btn btn-success" style="">Alle ansehen</a>
+    </div>
+</div>
+
+
+<hr class="featurette-divider">
+<div class="row">
+    <div class="col-lg-4">
+        <img src="/images/awards/BMBF_CMYK_Gef_L.png" class="img-fluid" alt="...">
+    </div>
+    <div class="col-lg-8">
+        <h1>Förderungen</h1>
+        Das senseBox ist an der Universität Münster im Rahmen eines Forschungsprojekt am Institut für Geoinformatik
+        entstanden. Dank verschiedene Förderungen von unterschiedlichen Trägern konnte die Idee immer weiter reifen.
+        Über drei Jahre, bis Ende 2019 war insbesondere die Förderung “BMBF Open Photonics” für die
+        Weiterentwicklung der senseBox maßgeblich unterstützend. Schon in diesem Zeitraum, zeichnete sich die Chance
+        einer erfolgreichen Ausgründung der Produktsparte ab, welche mit der Gründung der Reedu GmbH & Co. KG
+        erfolgte. Diese Ausgründung wurde zusätzlich mit einem EXIST-Gründerstipendium des Bundes Ministerium für
+        Wirtschaft und Energie forciert. Um weiter innovative Ideen rund um die senseBox zu erforschen, konnte sich
+        der Verbund aus Spin-off Unternehmen und Universität erfolgreich um ein weiteres Projekt aus dem Bereich
+        “Photonik Forschung Deutschland” bewerben. Seit November 2019 ist das Forschungsprojekt “senseBox:pro” eines
+        von mehreren Projekten in der Fördermaßnahme "Open Photonik Pro". Mit der Maßnahme verfolgt das
+        Bundesministerium für Bildung und Forschung (BMBF) das Ziel, neue Formen der Zusammenarbeit von Wissenschaft
+        und Wirtschaft mit der Maker- und Gründerszene zu ermöglichen.
+    </div>
+</div>
+
+<hr class="featurette-divider">

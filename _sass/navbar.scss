@@ -60,11 +60,6 @@
   padding: .6rem;
   z-index: 1;
   animation: 1s ease-out 0s 1 slideInFromTop;
-
-  /* Large devices (desktops, 992px and up) */
-  @media (min-width: 992px) { 
-    top: 95px;
-  }
  
 }
 
@@ -75,4 +70,18 @@
   100% {
     transform: translateY(0);
   }
+}
+
+.megamenu {
+  position: static;
+}
+
+.megamenu .container{
+  display: table;
+}
+
+.megamenu .dropdown-menu {
+  background: none;
+  border: none;
+  width: 100%;
 }

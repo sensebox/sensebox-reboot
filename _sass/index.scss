@@ -65,6 +65,9 @@ li.timeline-item::before {
 
 
 .partner {
+  clip-path: polygon(25% 22%, 80% 8%, 100% 20%, 100% 80%, 68% 77%, 25% 86%, 0% 80%, 0% 20%);
+  background-color: white;
+  padding: 60px;
     ul {
       display: flex;
       flex-wrap: wrap;
@@ -85,3 +88,13 @@ li.timeline-item::before {
       border-radius: 5px;
     }
   }
+
+.row-padding {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.paperlike{
+  background-image: url("../images/elements/ODRAJ80.png");
+  background-repeat: repeat;
+}

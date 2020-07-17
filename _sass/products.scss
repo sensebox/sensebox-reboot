@@ -53,14 +53,26 @@
   }
 
   .masthead {
-    height: 100vh;
+    height: 80vh;
     min-height: 500px;
-    background-image: url('/images/header_alt.png');
+    background-image: radial-gradient(circle, rgb(100, 181, 91), rgb(67, 162, 56));
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    //clip-path: polygon(100% 0%, 0% 0%, 0% 100%, 29% 96%, 74% 98%, 100% 95%);
+  }
+
+  .masthead-small{
+    height: 60vh;
+    min-height: 500px;
+    background-image: radial-gradient(circle, rgb(100, 181, 91), rgb(67, 162, 56));
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
   }
+
   
 
 

@@ -4,7 +4,7 @@ name: "Erste Schritte: Dein erster Sketch"
 date: 2019-03-15
 author: Björn
 abstract: "Lasse mit deinem ersten Sketch die LED auf der senseBox MCU blinken"
-image: /ErsterSketch_Titel.png
+thumbnail: /images/projects/ErsterSketch_Titel.png
 image1: /images/projects/ES_ersterSketch/setup_loop.png
 image2: /images/projects/ES_ersterSketch/builtin1_on.png
 image3: /images/projects/ES_ersterSketch/builtin1_blink.png

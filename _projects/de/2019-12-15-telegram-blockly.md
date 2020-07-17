@@ -4,7 +4,7 @@ name: "Telegram Chatbot für die senseBox mit Blockly"
 date: 2019-12-15
 author: Felix
 abstract: "Ein mit Blockly programmierter Chatbot der die Sensorwerte der senseBox zurückgibt!"
-image: /telegram-blockly/telegram-blockly.png
+thumbnail: /images/projects/telegram-blockly/telegram-blockly.png
 image1: /images/projects/telegram_bot/01_botfather.png
 image2: /images/projects/telegram_bot/02_botname.png
 image4: /images/projects/telegram_bot/03_botcreated.png

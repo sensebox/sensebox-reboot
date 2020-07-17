@@ -4,14 +4,8 @@
 
 <body>
     {% include navbar.html %}
+    {% include masthead.html %}
     <div class="container">
-        {% if page.thumbnail %}
-        <div class="col-lg-6 col-sm-6 offset-lg-3 offset-sm-3 hidden-xs">
-            {% assign image_url = page.thumbnail %}
-            <img class="thumbnail-image img-fluid" src="{{ site.baseurl  | append: image_url }}"
-                alt="{{ page.title }} - Logo" />
-        </div>
-        {% endif %}
         {{ content }}
     </div>
     {% include footer.html %}

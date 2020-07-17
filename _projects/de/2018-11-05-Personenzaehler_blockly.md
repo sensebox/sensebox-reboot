@@ -4,7 +4,7 @@ name: "Personenzähler"
 date: 2019-05-13
 author: Lia
 abstract: "Mit dem Ultraschall-Distanzsensor und dem Display lässt sich ein Personenzähler bauen"
-image: traffic_counter.png
+thumbnail: /images/projects/traffic_counter.png
 image1: /images/projects/personenzaehler/01_personenzaehler_schaltung.jpg
 image2: /images/projects/personenzaehler/02_sensor_display.png
 image3: /images/projects/personenzaehler/03_wenn_bedingung.png

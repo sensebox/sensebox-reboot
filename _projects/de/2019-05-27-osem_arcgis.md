@@ -4,7 +4,7 @@ name: "Darstellung von Daten aus der openSenseMap in ArcGIS Online"
 date: 2019-05-27
 author: Verena
 abstract: "Daten aus der openSenseMap exportieren und in ArcGIS Online darstellen"
-image: osem_arcgis.jpg
+thumbnail: /images/projects/osem_arcgis.jpg
 image1: /images/projects/osem_arcgis/Projekt_Bild2.jpg
 image2: /images/projects/osem_arcgis/Projekt_Bild3.jpg
 image3: /images/projects/osem_arcgis/Projekt_Bild4.jpg

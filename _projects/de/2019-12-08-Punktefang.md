@@ -4,7 +4,7 @@ date: 2019-12-08
 author: Mario
 name: "Geh auf Punktefang"
 abstract: "Erstelle dein eigenes kleines Spiel mit der senseBox" 
-image: Titelbild_Punktefang.jpg
+thumbnail: /images/projects/Titelbild_Punktefang.jpg
 image0: /images/projects/Punktefang/Punktefang_Image00.png
 image1: /images/projects/Punktefang/Punktefang_Image01.png
 image2: /images/projects/Punktefang/Punktefang_Image02.png

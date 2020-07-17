@@ -4,7 +4,7 @@ name: "IAQ-Station"
 date: 2020-03-09
 author: Mario
 abstract: "Eine Messstation für die Innenraumluftqualität"
-image:  IAQ.png
+thumbnail:  /images/projects/IAQ.png
 image1: /images/projects/iaq-station/temperatur_display.svg
 image2: /images/projects/iaq-station/temp_humi_display.svg
 imageFall00: /images/projects/iaq-station/fall_00.svg

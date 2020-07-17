@@ -1,3 +1,15 @@
+.navbar{
+  position: absolute;
+}
+
+.main-item{
+  color: white;
+}
+
+.navbar-right{
+  float:right!important;
+}
+
 .navbar-first{
     padding-left: 40px;
     font-size: smaller;
@@ -84,4 +96,13 @@
   background: none;
   border: none;
   width: 100%;
+}
+
+.navbar-polygon{
+  clip-path: polygon(0 0, 100% 0, 86% 84%, 0 77%); 
+  background-color: white; 
+}
+
+.align-item-flex-end{
+align-items: flex-end;
 }

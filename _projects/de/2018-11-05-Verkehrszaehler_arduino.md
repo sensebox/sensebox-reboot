@@ -4,7 +4,7 @@ name: "Verkehrszähler"
 date: 2018-11-05
 author: Mario
 abstract: "Ein kleiner Verkehrszähler"
-image: traffic_counter.png
+thumbnail: /images/projects/traffic_counter.png
 image1: /images/projects/verkehrszaehler_setup.png
 material:
     - senseBox MCU

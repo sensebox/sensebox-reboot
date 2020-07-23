@@ -1,10 +1,10 @@
 ---
 layout: project_page
-name: "senseBox I2C-Multiplexer"
+title: "senseBox I2C-Multiplexer"
 date: 2019-10-08
 author: Jan
 abstract: "Sensoren gleicher Bauart parallel am I2C-Bus anschließen"
-image: logo_bunt.png
+thumbnail: /images/projects/logo_bunt.png
 image0: /images/projects/multiplex/hardware_setup.png
 image1: /images/projects/multiplex/datasheet_table.png
 material:

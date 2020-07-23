@@ -1,10 +1,10 @@
 ---
 layout: project_page
-name: "IoT Messtation"
+title: "IoT Messtation"
 date: 2019-05-17
 author: Eric
 abstract: "Erstelle eine Messtation, die Messwerte für Temperatur, Luftfeuchte, Luftdruck, Helligkeit und UV-Intensität an die openSenseMap schickt."
-image: home.jpg
+thumbnail: /images/projects/home.jpg
 image1: /images/projects/iot_messstation/senseBox_Uebersicht.png
 image2: /images/projects/iot_messstation/WiFi.png
 image3: /images/projects/iot_messstation/upload_osem.png

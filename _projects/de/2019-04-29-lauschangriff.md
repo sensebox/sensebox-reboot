@@ -1,10 +1,10 @@
 ---
 layout: project_page
-name: "Lauschangriff"
+title: "Lauschangriff"
 date: 2019-04-29
 author: Benni
 abstract: "Laute Geräusche mit der senseBox messen." 
-image: Titelbild_Lauschangriff.jpg
+thumbnail: /images/projects/Titelbild_Lauschangriff.jpg
 image0: /images/projects/lauschangriff_setup.png
 material:
     - senseBox MSU

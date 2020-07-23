@@ -2,11 +2,8 @@
 layout: simple
 ---
 
-{% include header.html %}
-<!--{% assign t = site.data.translations[page.lang].projects %}-->
-<!-- News Bereich / Blogeinträge -->
 <div class="posts">
-	<div class="row">
+	<!-- <div class="row">
 		<div class="col-lg-12 post-header">
 			<div style="text-align: center;">
 				<h2>
@@ -16,16 +13,16 @@ layout: simple
 				<div class="clearfix">
 					<span class="author">Von {{ page.author }} am {{ page.date | date: "%d/%m/%Y" }}</span>
 				</div>
-				{% if page.image %}
+				{% if page.thumbnail %}
 				<div class="col-lg-6 col-sm-6 col-lg-offset-3 col-sm-offset-3 hidden-xs">
-					{% assign image_url = page.image | prepend: "/images/projects/" %}
+					{% assign image_url = page.thumbnail %}
 					<img class="press-pic" src="{{ site.baseurl  | append: image_url }}"
 						alt="{{ page.title }} - Logo" />
 				</div>
 				{% endif %}
 			</div>
 		</div>
-	</div>
+	</div> -->
 	<hr>
 	<div class="row">
 		<div class="col-md-6">

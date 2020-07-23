@@ -1,10 +1,10 @@
 ---
 layout: project_page
-name: "Mobiler Datenlogger"
+title: "Mobiler Datenlogger"
 date: 2020-03-09
 author: Mario
 abstract: "Ein mobiler Datenlogger, der die Daten per WLAN an die openSenseMap sendet"
-image:  MobilerDatenlogger.png
+thumbnail:  /images/projects/MobilerDatenlogger.png
 image0: /images/projects/mobile_feinstaubstation/wifi/AnlegenVariablen.png
 image1: /images/projects/mobile_feinstaubstation/wifi/ZeigeDisplay.png
 image2: /images/projects/mobile_feinstaubstation/wifi/RegistrierungOSEM.png

@@ -2,7 +2,7 @@
 layout: project_page  
 date: 2019-12-18  
 author: Björn
-name: "Die senseBox entscheidet"
+title: "Die senseBox entscheidet"
 abstract: "Du kannst dich nie entscheiden? Hier ist die Lösung!" 
 thumbnail: /images/projects/Entscheider/Entscheider_title.jpg
 image0: /images/projects/Punktefang/Punktefang_Image00.png

@@ -1,6 +1,6 @@
 ---
 layout: project_page
-name: "Erste Schritte: Dein erster Sketch"
+title: "Erste Schritte: Dein erster Sketch"
 date: 2019-03-15
 author: Björn
 abstract: "Lasse mit deinem ersten Sketch die LED auf der senseBox MCU blinken"

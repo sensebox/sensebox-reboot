@@ -1,6 +1,6 @@
 ---
 layout: project_page
-name: "Feinstaubmessstation"
+title: "Feinstaubmessstation"
 date: 2018-11-02
 author: Mario
 abstract: "Mit verschiedenen Umweltsensoren lässt sich eine einfache Feinstaubmessstation mit Internetanbindung bauen"

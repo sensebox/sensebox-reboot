@@ -1,6 +1,6 @@
 ---
 layout: project_page
-name: "IAQ-Station"
+title: "IAQ-Station"
 date: 2020-03-09
 author: Mario
 abstract: "Eine Messstation für die Innenraumluftqualität"

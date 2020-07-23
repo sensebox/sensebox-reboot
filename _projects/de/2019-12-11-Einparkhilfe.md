@@ -1,6 +1,6 @@
 ---
 layout: project_page
-name: "Einparkhilfe"
+title: "Einparkhilfe"
 date: 2019-12-11
 author: Björn
 abstract: "Die Einparkhilfe die jeder aus dem Auto kennt."

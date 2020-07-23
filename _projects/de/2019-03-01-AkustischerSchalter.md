@@ -1,6 +1,6 @@
 ---
 layout: project_page
-name: "Akustischer Lichtschalter"
+title: "Akustischer Lichtschalter"
 date: 2019-03-01
 author: Benni
 abstract: "Mithilfe des Mikrofons lässt sich ein akustischer Lichtschalter bauen"

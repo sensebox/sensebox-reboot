@@ -1,6 +1,6 @@
 ---
 layout: project_page
-name: "Erstelle einen TTN Mapper in unter 10 Minuten"
+title: "Erstelle einen TTN Mapper in unter 10 Minuten"
 date: 2020-03-06
 author: Felix
 abstract: "Mit dem LoRa-Bee und GPS Modul bauen wir einen senseBox TTN Mapper"

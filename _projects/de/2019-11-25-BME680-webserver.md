@@ -1,6 +1,6 @@
 ---
 layout: project_page
-name: "Heimserver mit der senseBox"
+title: "Heimserver mit der senseBox"
 date: 2019-12-01
 author: Yannick
 abstract: "Ein eigener Heimserver mit der senseBox, der mit dem BME680 die Temperatur, Luftfeuchtigkeit und Luftdruck messen kann."

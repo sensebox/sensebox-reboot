@@ -1,6 +1,6 @@
 ---
 layout: project_page
-name: "Ampelschaltung"
+title: "Ampelschaltung"
 date: 2019-04-29
 author: Björn und Benni
 abstract: "Es wird eine Ampel simuliert, die sich mit einem Button umschalten lässt."

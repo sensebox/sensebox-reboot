@@ -17,22 +17,24 @@
 
 <!-- Full Page Image Header with Vertically Centered Content -->
 <header class="masthead-small">
-    <div class="container h-100">
-        <div class="row h-100 align-item-center" style="padding-top: 20vh;">
+    <div class="container h-100 center-item">
+        <div class="row align-item-center">
+            {% if page.thumbnail %}
             <div class="col-md-4">
-                {% if page.thumbnail %}
-                <!-- <img class="rounded-circle" src="/images/index/osem.png" height="200px"> -->
-                {% assign image_url = page.thumbnail %}
-                <img class="press-pic" src="{{ site.baseurl  | append: image_url }}" alt="{{ page.title }} - Logo" />
-                {% endif %}
+                <div class="card polygon-1">
+                    <!-- <img class="rounded-circle" src="/images/index/osem.png" height="200px"> -->
+                    {% assign image_url = page.thumbnail %}
+                    <img class="masthead-small-pic" src="{{ site.baseurl  | append: image_url }}"
+                        alt="{{ page.title }} - Logo" />
+                </div>
             </div>
-            <div class="col-md-4 text-center" style="color: white;">
+            {% endif %}
+            <div class="col-md-4" style="color: white;">
                 {% if page.header %}
                 <h1 class="heading">{{ page.header }}</h1>
-                {% else if page.name %}
-                <h1 class="heading">{{ page.name }}</h1>
+                {% else if page.title %}
+                <h1 class="heading">{{ page.title }}</h1>
                 {% endif %}
-
                 <h3>{{ page.description }}</h3>
                 {% if page.author %}
                 <span class="author">Von {{ page.author }} am {{ page.date | date: "%d/%m/%Y" }}</span>

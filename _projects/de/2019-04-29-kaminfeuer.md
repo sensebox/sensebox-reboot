@@ -1,6 +1,6 @@
 ---
 layout: project_page
-name: "Kaminfeuer"
+title: "Kaminfeuer"
 date: 2019-04-29
 author: Bernd
 abstract: "Es wird ein Kaminfeuer simuliert, indem eine rote LED zum flackern gebracht wird."

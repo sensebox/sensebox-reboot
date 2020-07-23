@@ -1,6 +1,6 @@
 ---
 layout: project_page
-name: "Mobiler Datenlogger für Feinstaubwerte(LoRa)"
+title: "Mobiler Datenlogger für Feinstaubwerte(LoRa)"
 date: 2019-05-06
 author: Paul
 abstract: "Ein mobiles Feinstaubmessgerät, das die Daten per TTN über LoRa an die OpenSenseMap sendet"

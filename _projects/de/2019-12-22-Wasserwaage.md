@@ -1,6 +1,6 @@
 ---
 layout: project_page
-name: "Wasserwaage"
+title: "Wasserwaage"
 date: 2019-12-18
 author: Björn 
 abstract: "Es wird eine Wasserwaage mit der senseBox programmiert"

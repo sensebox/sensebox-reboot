@@ -1,6 +1,6 @@
 ---
 layout: project_page
-name: "Darstellung von Daten aus der openSenseMap in ArcGIS Online"
+title: "Darstellung von Daten aus der openSenseMap in ArcGIS Online"
 date: 2019-05-27
 author: Verena
 abstract: "Daten aus der openSenseMap exportieren und in ArcGIS Online darstellen"

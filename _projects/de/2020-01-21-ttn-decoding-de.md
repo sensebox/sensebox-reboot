@@ -1,6 +1,6 @@
 ---
 layout: project_page
-name: "TTN Decoding für Anfänger"
+title: "TTN Decoding für Anfänger"
 date: 2020-01-23
 author: Felix u Mario
 abstract: "Eine kleine Anleitung zum Decoding in TTN"

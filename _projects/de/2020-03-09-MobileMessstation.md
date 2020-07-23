@@ -1,6 +1,6 @@
 ---
 layout: project_page
-name: "Mobiler Datenlogger"
+title: "Mobiler Datenlogger"
 date: 2020-03-09
 author: Mario
 abstract: "Ein mobiler Datenlogger, der die Daten per WLAN an die openSenseMap sendet"

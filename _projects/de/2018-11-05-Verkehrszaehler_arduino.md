@@ -1,6 +1,6 @@
 ---
 layout: project_page
-name: "Verkehrszähler"
+title: "Verkehrszähler"
 date: 2018-11-05
 author: Mario
 abstract: "Ein kleiner Verkehrszähler"

@@ -1,0 +1,408 @@
+<div class="album py-5 bg-light" id="overview">
+
+    <div class="container">
+        <h2>Wähle deine senseBox</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                        xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false"
+                        role="img" aria-label="Placeholder: Thumbnail">
+                        <title>Placeholder</title>
+                    </svg>
+                    <div class="card-body">
+                        <h5 class="card-title">senseBox:home</h5>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button type="button" onclick="changeHome()"
+                                    class="btn btn-outline-secondary">View</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4" id="edu">
+                <div class="card mb-4 shadow-sm">
+                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                        xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false"
+                        role="img" aria-label="Placeholder: Thumbnail">
+                        <title>Placeholder</title>
+                    </svg>
+                    <div class="card-body">
+                        <h5 class="card-title">senseBox:edu</h5>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button type="button" onclick="changeEdu()"
+                                    class="btn btn-outline-secondary">View</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4" id="mini">
+                <div class="card mb-4 shadow-sm">
+                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                        xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false"
+                        role="img" aria-label="Placeholder: Thumbnail">
+                        <title>Placeholder</title>
+                    </svg>
+                    <div class="card-body">
+                        <h5 class="card-title">senseBox:mini</h5>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button type="button" onclick="changeMini()"
+                                    class="btn btn-outline-secondary">Auswählen</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--senseBox:home Content-->
+
+<div class="container">
+    <div id="content-home" class="hide-content">
+        <button type="button" onclick="changeBack()" class="btn btn-outline-secondary">View</button>
+        <h1 class="title">go:home</h1>
+        <div class="ut-container">
+            <div class="ut-item">
+                <div class="ut-item-head">
+                    <h1>Erste Schritte</h1>
+                    <p>Alles zur Installation und zum Aufbau der senseBox</p>
+                </div>
+                <div class="ut-item-body">
+                    <ol>
+                        <li><a target="_blank"
+                                href=https://sensebox.github.io/books-v2/home/de/erste-schritte/software-installation.html>Software
+                                Installation</a>
+                        </li>
+                        <li><a target="_blank"
+                                href=https://sensebox.github.io/books-v2/home/de/erste-schritte/anschluss-und-verkabelung.html>Anschluss
+                                und Verkabelung</a>
+                        </li>
+                        <li><a target="_blank"
+                                href=https://sensebox.github.io/books-v2/home/de/erste-schritte/registrierung-auf-der-openSenseMap.html>Registrierung
+                                auf der openSenseMap</a>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+            <div class=" ut-item">
+                <div class="ut-item-head">
+                    <h1>Komponenten</h1>
+                    <p>Hier findest Du genaue Informationen zu den verschiedenen Komponenten der senseBox</p>
+                </div>
+                <div class="ut-item-body">
+                    <ol>
+                        <li><a target="_blank"
+                                href=https://sensebox.github.io/books-v2/home/de/komponenten/sensebox-mcu.html>senseBox
+                                MCU</a>
+                        </li>
+                        <li><a target="_blank"
+                                href=https://sensebox.github.io/books-v2/home/de/komponenten/bees />Bees</a>
+                        </li>
+                        <li><a target="_blank"
+                                href=https://sensebox.github.io/books-v2/home/de/komponenten/sensoren />Sensoren</a>
+                        </li>
+                        <li><a target="_blank"
+                                href=https://sensebox.github.io/books-v2/home/de/komponenten/zubehoer />Zubehör</a>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+            <div class="ut-item">
+                <div class="ut-item-head">
+                    <h1>Wo finde ich Hilfe?</h1>
+                    <p>Du benötigst Hilfe mit deiner senseBox, hier findest du die nötigen Informationen</p>
+                </div>
+                <div class="ut-item-body">
+                    <ul>
+                        <li><a target="_blank" href="https://forum.sensebox.de/">Forum</a></li>
+                        <li><a href="mailto:support@sensebox.de">Email</a></li>
+                        <li><a target="_blank" href=https://sensebox.github.io/books-v2/home/de/hilfe.html>FAQ</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="ut-item">
+                <div class="ut-item-head">
+                    <h1>Links</h1>
+                    <p>Hier findest du Links rund um das senseBox Projekt</p>
+                </div>
+                <div class="ut-item-body">
+                    <ul>
+                        <li><a target="_blank" href="https://opensensemap.org/">openSenseMap</a></li>
+                        <li><a target="_blank" href="https://blockly.sensebox.de/">Blockly für senseBox</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--senseBox:edu Content-->
+
+<div class="container">
+    <div id="content-edu" class="hide-content">
+        <button type="button" onclick="changeBack()" class="btn btn-outline-secondary">View</button>
+        <div class="edu-go-page">
+            <div class="topic-block">
+                <h1 class="title">Quick Start Guide</h1>
+                <div class="content-container">
+                    <p class="quick-start-text">Der einfachste Weg die senseBox auszuprobieren, ist mit Blockly einen
+                        Programmcode zu generieren und diesen auf das Board zu spielen:</p>
+                    <ol class="quick-start-list">
+                        <li>Gehe auf: <a target='_blank'
+                                href='https://blockly.sensebox.de/ardublockly/?lang=de&board=sensebox-mcu'>https://blockly.sensebox.de/</a>
+                        </li>
+                        <li>
+                            <div class="text">
+                                Per Drag & Drop kannst du dir einen kleinen Code zusammenziehen: z.B.
+                            </div>
+                            <div class="image">
+                                <img src="/images/senseBox_blockly.gif">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="text">
+                                Klicke jetzt auf das rote Symbol mit dem Notizblock “Sketch kompilieren”, wodurch der
+                                Sketch heruntergeladen wird.
+                            </div>
+                            <div class="image">
+                                <img src="/images/go/edu/blockly.png">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="text">
+                                Schließe die senseBox mit dem beiliegenden Mikro USB Kabel an deine Computer an und
+                                führe einen “Doppelklick” mit dem roten Knopf auf der senseBox durch.
+                            </div>
+                        </li>
+                        <li>Ziehe die Sketch-Datei auf die senseBox als wäre diese ein USB-Stick</li>
+                    </ol>
+
+                    <p>Wenn das funktioniert hat, hast du das Prinzip von Blockly schon verstanden und kannst loslegen.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="topic-block">
+                <h1 class="title">Experimente und Lernmaterial</h1>
+                <p>Experimente, Projekte und Lernmaterial findest du auf folgenden Seiten. Verwende den Filter um
+                    herauszufinden, welche Projekt du mit deiner senseBox:mini direkt umsetzten kannst.</p>
+                <div class="row">
+                    <div class="col-md-4 col-sm-6 col-md-offset-2">
+                        <div class="card" style="cursor: pointer;">
+                            <canvas class="header-bg" width="250" id="header-blur"
+                                style="background-image: url(/images/go/mini/material.png);"></canvas>
+                            <div class="content">
+                                <h4 style="clear:both">Materialien</h4>
+                                <div id="forum">
+                                    <a class="stretched-link" href="/material"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="card" style="cursor: pointer;">
+                            <canvas class="header-bg" width="250" id="header-blur"
+                                style="background-image: url(/images/material/projects.png);"></canvas>
+                            <div class="content">
+                                <h4 style="clear:both">Projekte</h4>
+                                <div id="forum">
+                                    <a class="stretched-link" href="/de/projects"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="topic-block">
+                <h1 class="title">Hilfe und Support</h1>
+                <p>Informationen zur Programmieroberfläche findest du im Blockly Buch. Benötigst du Hilfe oder möchtest
+                    du Ideen, Projekte oder ähnliches mit anderen senseBox Usern diskutieren schaue doch mal im Forum
+                    vorbei.</p>
+                <div class="row">
+
+                    <div class="col-md-4 col-sm-6 col-md-offset-2">
+                        <div class="card" style="cursor: pointer;">
+                            <canvas class="header-bg" width="250" id="header-blur"
+                                style="background-image: url(/images/material/blockly_book.png);"></canvas>
+                            <div class="content">
+                                <h4 style="clear:both">Blockly Dokumentation</h4>
+                                <div id="Blockly">
+                                    <a class="stretched-link"
+                                        href="https://sensebox.github.io/books-v2/blockly/de/"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 ">
+                        <div class="card" style="cursor: pointer;">
+                            <canvas class="header-bg" width="250" id="header-blur"
+                                style="background-image: url(/images/forum.png);"></canvas>
+                            <div class="content">
+                                <h4 style="clear:both">senseBox Forum</h4>
+                                <div id="forum">
+                                    <a class="stretched-link" href="https://forum.sensebox.de"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--senseBox:mini Content-->
+
+<div class="container">
+    <div id="content-mini" class="hide-content">
+        <button type="button" onclick="changeBack()" class="btn btn-outline-secondary">View</button>
+        <div class="edu-go-page">
+            <div class="topic-block">
+                <h1 class="title">Quick Start Guide</h1>
+                <div class="content-container">
+                    <p class="quick-start-text">Der einfachste Weg die senseBox auszuprobieren, ist mit Blockly einen
+                        Programmcode zu generieren und diesen auf das Board zu spielen:</p>
+                    <ol class="quick-start-list">
+                        <li>Gehe auf: <a target='_blank'
+                                href='https://blockly.sensebox.de/ardublockly/?lang=de&board=sensebox-mcu'>https://blockly.sensebox.de/</a>
+                        </li>
+                        <li>
+                            <div class="text">
+                                Per Drag & Drop kannst du dir einen kleinen Code zusammenziehen: z.B.
+                            </div>
+                            <div class="image">
+                                <img src="/images/senseBox_blockly.gif">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="text">
+                                Klicke jetzt auf das rote Symbol mit dem Notizblock “Sketch kompilieren”, wodurch der
+                                Sketch heruntergeladen wird.
+                            </div>
+                            <div class="image">
+                                <img src="/images/go/edu/blockly.png">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="text">
+                                Schließe die senseBox mit dem beiliegenden Mikro USB Kabel an deine Computer an und
+                                führe einen “Doppelklick” mit dem roten Knopf auf der senseBox durch.
+                            </div>
+                        </li>
+                        <li>Ziehe die Sketch-Datei auf die senseBox als wäre diese ein USB-Stick</li>
+                    </ol>
+
+                    <p>Wenn das funktioniert hat, hast du das Prinzip von Blockly schon verstanden und kannst loslegen.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="topic-block">
+                <h1 class="title">Experimente und Lernmaterial</h1>
+                <p>Experimente, Projekte und Lernmaterial findest du auf folgenden Seiten. Verwende den Filter um
+                    herauszufinden, welche Projekt du mit deiner senseBox:mini direkt umsetzten kannst.</p>
+                <div class="row">
+                    <div class="col-md-4 col-sm-6 col-md-offset-2">
+                        <div class="card" style="cursor: pointer;">
+                            <canvas class="header-bg" width="250" id="header-blur"
+                                style="background-image: url(/images/go/mini/material.png);"></canvas>
+                            <div class="content">
+                                <h4 style="clear:both">Materialien</h4>
+                                <div id="forum">
+                                    <a class="stretched-link" href="/material"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="card" style="cursor: pointer;">
+                            <canvas class="header-bg" width="250" id="header-blur"
+                                style="background-image: url(/images/material/projects.png);"></canvas>
+                            <div class="content">
+                                <h4 style="clear:both">Projekte</h4>
+                                <div id="forum">
+                                    <a class="stretched-link" href="/de/projects"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="topic-block">
+                <h1 class="title">Hilfe und Support</h1>
+                <p>Informationen zur Programmieroberfläche findest du im Blockly Buch. Benötigst du Hilfe oder möchtest
+                    du Ideen, Projekte oder ähnliches mit anderen senseBox Usern diskutieren schaue doch mal im Forum
+                    vorbei.</p>
+                <div class="row">
+
+                    <div class="col-md-4 col-sm-6 col-md-offset-2">
+                        <div class="card" style="cursor: pointer;">
+                            <canvas class="header-bg" width="250" id="header-blur"
+                                style="background-image: url(/images/material/blockly_book.png);"></canvas>
+                            <div class="content">
+                                <h4 style="clear:both">Blockly Dokumentation</h4>
+                                <div id="Blockly">
+                                    <a class="stretched-link"
+                                        href="https://sensebox.github.io/books-v2/blockly/de/"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 ">
+                        <div class="card" style="cursor: pointer;">
+                            <canvas class="header-bg" width="250" id="header-blur"
+                                style="background-image: url(/images/forum.png);"></canvas>
+                            <div class="content">
+                                <h4 style="clear:both">senseBox Forum</h4>
+                                <div id="forum">
+                                    <a class="stretched-link" href="https://forum.sensebox.de"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    function changeHome() {
+        document.getElementById('overview').classList.add("hide-content");
+        var element = document.getElementById("content-home");
+        element.classList.remove("hide-content");
+    };
+    function changeEdu() {
+        document.getElementById('overview').classList.add("hide-content");
+        var element = document.getElementById("content-edu");
+        element.classList.remove("hide-content");
+    };
+    function changeMini() {
+        document.getElementById('overview').classList.add("hide-content");
+        var element = document.getElementById("content-mini");
+        element.classList.remove("hide-content");
+    };
+    function changeBack() {
+        document.getElementById('overview').classList.remove("hide-content");
+        var elementHome = document.getElementById("content-home");
+        elementHome.classList.add("hide-content");
+        var elementEdu = document.getElementById("content-edu");
+        elementEdu.classList.add("hide-content");
+        var elementMini = document.getElementById("content-mini");
+        elementMini.classList.add("hide-content");
+
+    };
+</script>

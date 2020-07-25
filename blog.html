@@ -3,40 +3,8 @@ layout: default
 title: blog
 header: Blog
 description: Neuigkeiten und Entwicklungen
-
+lang: de
+permalink: /de/blog.html
 ---
 
-{% assign posts = site.posts | sort: 'date' | reverse %}
-<section class="blog-me pt-100 pb-100" id="blog">
-    <div class="container">
-        <div class="row">
-            {% for post in posts %}
-            <!-- Single Blog -->
-            <div class="col-lg-4 col-md-6">
-                <div class="single-blog">
-                    <div class="blog-img">
-                        <img src="{{ post.thumbnail }}" alt="">
-                        {% if post.tag %}
-                        <div class="post-category">
-                            <a href="{{ site.baseurl | append: post.url }}">{{ post.tag }} </a>
-                        </div>
-                        {% endif %}
-                    </div>
-                    <div class="blog-content">
-                        <div class="blog-title">
-                            <h4><a href="{{ site.baseurl | append: post.url }}">{{ post.title }}</a></h4>
-                            <div class="meta">
-                                <ul>
-                                    <li>{{ post.date | date: "%d/%m/%Y" }} von {{ post.author }}</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <p>{{ post.abstract | truncatewords: 10 }}</p>
-                        <a href="{{ site.baseurl | append: post.url }}" class="box_btn">weiterlesen</a>
-                    </div>
-                </div>
-            </div>
-            {% endfor %}
-        </div>
-    </div>
-</section>
+{% include _pages/blog.html %}

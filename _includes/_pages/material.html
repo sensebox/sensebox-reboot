@@ -1,0 +1,46 @@
+{% assign teaching = site.data.i18n.[page.lang].material | sort: 'position' %}
+
+<!-- count Material -> if odd, there has to be a blank col in the end -->
+<div hidden>
+    {% for teaching in teaching %}
+    {% increment teaching_count %}
+    {% capture oddOrEventeachingCount %}{% cycle 'odd', 'even' %}{% endcapture %}
+    {% endfor %}
+</div>
+
+<div class="row">
+    <div class="container">
+        <div class="row row-padding" style="background-color: whitesmoke;">
+            {% for teaching in teaching %}
+            {% capture firstLastInRow %}{% cycle 'first', 'last' %}{% endcapture %}
+            <div class="col-md-4">
+
+                <div class="card polygon-1" style="cursor: pointer;">
+                    <canvas class="header-bg" width="250" id="header-blur"
+                        style="background-image: url({{ teaching.bgImage }});"></canvas>
+                    <div class="content">
+                        <h4 style="clear:both">{{ teaching.name }}</h4>
+                        <div id="desc_{{ teaching.position }}">
+                            {% if teaching.download %}
+                            <a class="stretched-link" href="{{ teaching.download }}"></a>
+                            {% endif %}
+                            {% if teaching.link %}
+                            <a class="stretched-link" href="{{teaching.link }}"></a>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- if this is the last element and the count is even, add blank col -->
+            {% if teaching.position == teaching and oddOrteachingCount == 'odd' %}
+            <div class="col-md-6">
+            </div>
+        </div>
+        {% endif %}
+
+
+
+        {% endfor %}
+    </div>
+</div>

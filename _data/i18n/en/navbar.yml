@@ -1,0 +1,55 @@
+go-head: Get started
+products-head: Products
+resources-head: Resources
+about-us-head: About us
+ 
+#Go
+go-name: Choose your senseBox
+go-home-name: ":home"
+go-home-link: /go-home.html
+go-edu-name: ":edu"
+go-edu-link: /go-mini.html
+go-mini-name: ":home"
+go-mini-link: /go-mini.html
+#Products
+products-name: "Overview"
+products-link: /products.html
+products-home-name: ":home"
+products-home-link: /products-home.html
+products-edu-name: ":edu"
+products-edu-link: /products-edu.html
+products-mini-name: ":mini"
+products-mini-link: /products-edu.html
+products-sensoren-name: ":sensors"
+products-sensoren-link: /products-sensoren.html
+editoren-name: "Editors"
+editoren-link: /editoren.html
+blockly-name: "Blockly for senseBox"
+blockly-link: /blockly.html
+opensensemap-name: "openSenseMap"
+opensensemap-link: /opensensemap.html
+#Resources
+docs-name: "Docs"
+docs-link: https://docs.sensebox.de
+projects-name: "Projects"
+projects-link: /projects.html
+material-name: "Teaching-Material"
+material-link: /material.html
+forum-name: "Forum"
+forum-link: https://forum.sensebox.de
+#About-us
+team-name: "Team"
+team-link: /about-us.html
+foerderung-name: "Förderung"
+foerderung-link: /about-us.html#Förderung
+network-name: "Network"
+network-link: /network.html
+events-name: "Events"
+events-link: /events.html
+contact-name: "Contact"
+contact-link: /contact.html
+
+
+
+
+

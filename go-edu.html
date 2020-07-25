@@ -4,45 +4,7 @@ title: go-edu
 header: senseBox.de/go
 description: Los gehts mit deiner senseBox:edu
 id: go-edu
+lang: de
+permalink: /de/go-edu.html
 ---
-
-<div class="container-fluid bg-1 text-center">
-</div> <img src="/images/go/home/construct.png" class="img-responsive center" width="5%">
-<div class="ut-item-body">
-    <h1>{{t.first-steps}}</h1>
-    <ol>
-        <p>{{t.first-steps-text}}</p>
-        <li><a target="_blank" <a target="_blank" href="https://docs.sensebox.de/sensebox-home/home-schritt-1/"
-                class="btn btn-primary btn-lg">Los gehts! »</a>
-            href={{ "https://sensebox.github.io/books-v2/home/" | append: page.lang | append: "/erste-schritte/software-installation.html" }}>{{t.software-installation}}</a>
-</div>
-</li>
-<hr />
-<li><a target="_blank" <div class="container-fluid bg-2 text-center">
-        href={{ "https://sensebox.github.io/books-v2/home/" | append: page.lang | append: "/erste-schritte/anschluss-und-verkabelung.html" }}>{{t.hardware-install}}</a>
-    <img src="/images/go/home/hardware.png" class="img-responsive center" width="5%">
-</li>
-<h1>{{t.components}}</h1>
-<li><a target="_blank" <p>{{t.components-text}}</p>
-        href={{ "https://sensebox.github.io/books-v2/home/" | append: page.lang | append: "/erste-schritte/registrierung-auf-der-openSenseMap.html" }}>{{t.osem-reg}}</a>
-    <a target="_blank" href="https://docs.sensebox.de/category/hardware/" class="btn btn-primary btn-lg">Informationen
-        »</a>
-</li>
-</div>
-</ol>
-<hr />
-</div>
-<div class="container-fluid bg-3 text-center">
-</div> <img src="/images/go/home/help.png" class="img-responsive center" width="5%">
-<h1>{{t.help}}</h1>
-<p>{{t.help-text}}</p>
-
-
-<div class=" ut-item"> <a target="_blank" href="https://forum.sensebox.de/" class="btn btn-primary btn-lg">Forum »</a>
-    <div class="ut-item-head"> <a target="_blank" href="mailto:support@sensebox.de" class="btn btn-primary btn-lg">Email
-            »</a>
-        <h1>{{t.components}}</h1> <a target="_blank" href="https://docs.sensebox.de/faq/"
-            class="btn btn-primary btn-lg">FAQ »</a>
-        <p>{{t.components-text}}</p>
-    </div>
-</div>
+{% include _pages/go-edu.html %}

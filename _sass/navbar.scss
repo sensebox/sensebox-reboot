@@ -1,46 +1,81 @@
-.navbar{
+.navbar {
   position: absolute;
+  left: 0;
+  @media (max-width: $breakpoint-laptop) {
+    right: 0;
+  }
+  padding: 0;
 }
 
-.main-item{
+.navbar-brand {
+  padding-bottom: 1rem;
+
+  @media (min-width: $breakpoint-laptop) {
+    padding: 2rem;
+  }
+
+  clip-path: polygon(0 0, 100% 0, 86% 84%, 0 77%);
+  background-color: white;
+
+  > img {
+    width: 100%;
+    height: 4.5rem;
+  }
+}
+
+.navbar-collapse {
+  z-index: 1;
+
+  @media (max-width: $breakpoint-laptop) {
+    background-color: white;
+    padding: 1rem;
+    -webkit-box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.25);
+
+    > ul > li > a {
+      color: black !important;
+    }
+  }
+}
+
+.main-item {
   color: white;
 }
 
-.navbar-right{
-  float:right!important;
+.navbar-right {
+  float: right !important;
 }
 
-.navbar-first{
-    padding-left: 40px;
-    font-size: smaller;
-    float: right;
-  }
-  
-  .navbar-second{
-    padding-left: 40px;
-    font-family: BrixSlab-Bold; 
-    font-size: larger;
-  }
+.navbar-first {
+  padding-left: 40px;
+  font-size: smaller;
+  float: right;
+}
 
-  .navbar-brand {
-    font-family: "BrixSlab-Regular";
-  }
+.navbar-second {
+  padding-left: 40px;
+  font-family: BrixSlab-Bold;
+  font-size: larger;
+}
 
+.navbar-brand {
+  font-family: "BrixSlab-Regular";
+}
 
 .active {
-  > .nav-link{
-    color: #669933!important;
+  > .nav-link {
+    color: #669933 !important;
   }
-  
 }
 
-.heading{
+.heading {
   font-size: 4rem;
   color: white;
 }
 
-.subheading{
-  font-size:1.2rem;
+.subheading {
+  font-size: 1.2rem;
   color: white;
 }
 
@@ -69,10 +104,9 @@
   width: 100%;
   text-align: center;
   background-color: $warning;
-  padding: .6rem;
+  padding: 0.6rem;
   z-index: 1;
   animation: 1s ease-out 0s 1 slideInFromTop;
- 
 }
 
 @keyframes slideInFromTop {
@@ -88,7 +122,7 @@
   position: static;
 }
 
-.megamenu .container{
+.megamenu .container {
   display: table;
 }
 
@@ -96,13 +130,22 @@
   background: none;
   border: none;
   width: 100%;
+
+  a {
+    color: $text-black;
+  }
+
+  li {
+    display: flex;
+    align-items: baseline;
+  }
 }
 
-.navbar-polygon{
-  clip-path: polygon(0 0, 100% 0, 86% 84%, 0 77%); 
-  background-color: white; 
+.navbar-polygon {
+  clip-path: polygon(0 0, 100% 0, 86% 93%, 0 88%);
+  background-color: white;
 }
 
-.align-item-flex-end{
-align-items: flex-end;
+.align-item-flex-end {
+  align-items: flex-end;
 }

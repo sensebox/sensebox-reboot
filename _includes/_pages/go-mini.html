@@ -1,84 +1,67 @@
-<div class="row">
+{% assign t = site.data.i18n.[page.lang].go-mini %}
+
+<div class="row row-padding">
     <div class="container">
-        <div class="row">
-            <div class="col-md-4">
-                <img src="/images/go/construct.png" class="img-responsive" width="100%">
+        <div class="row align-items-center">
+            <div class="col-4">
+                <img src="/images/go/edu/blockly.png" class="img-responsive" style="width: inherit;">
             </div>
-            <div class="col-md-8">
-                <h1>Inbetriebnahme deiner senseBox:home</h1>
-                <p>In diesem dreischrittigen Tutorial erhälst du alle Infos zum Aufbau, der Registrierung und
-                    Programmierung
-                    deiner senseBox:home.</p>
-                <a href="https://docs.sensebox.de/sensebox-home/home-schritt-1/" class="btn btn-primary">Los gehts</a>
+            <div class="col-8 text-center">
+                    <h1>{{t.blockly}}</h1>
+                    <p>{{t.blockly-text}}</p>
+                    
+                    <a href="{{t.blockly-link}}" class="btn btn-primary">{{t.blockly-button}}</a>
+               
             </div>
         </div>
     </div>
 </div>
 
-<div class="row" style="background-color: whitesmoke;">
+<div class="row row-padding" style="background-color: whitesmoke;">
     <div class="container">
-        <div class="row">
-            <div class="col-md-8">
-                <h1>Informationen zu den Komponenten</h1>
-                <p>Hier findest Du genaue Informationen zu allen Komponenten der senseBox..</p>
-                <a href="https://docs.sensebox.de/sensebox-home/home-schritt-1/" class="btn btn-primary">Los gehts</a>
+        <div class="row align-items-center">
+            <div class="col-8 text-center">
+                <h1>{{t.arduino}}</h1>
+                <p>{{t.arduino-text}}</p>
+                <a href="{{t.arduino-link}}" class="btn btn-primary">{{t.arduino-button}}</a>
             </div>
-            <div class="col-md-4">
-                <img src="/images/go/construct.png" class="img-responsive" width="100%">
+            <div class="col-4" style="background-color: whitesmoke;">
+                <img src="/images/go/edu/arduino.png" class="img-responsive" style="width: inherit;">
             </div>
         </div>
     </div>
 </div>
 
-<div class="row">
+<div class="row row-padding">
     <div class="container">
-        <div class="row">
-            <div class="col-md-4">
-                <img src="/images/go/construct.png" class="img-responsive" width="100%">
+        <div class="row align-items-center">
+            <div class="col-4">
+                <img src="/images/go/edu/material.png" class="img-responsive" style="width: inherit;">
             </div>
-            <div class="col-md-8">
-                <h1>Wo finde ich Hilfe?</h1>
-                <p>Du benötigst Hilfe mit deiner senseBox, hier findest du die nötigen Informationen:</p>
-                <a target="_blank" href="mailto:support@sensebox.de" class="btn btn-primary">E-Mail</a>
-                <a target="_blank" href="https://forum.sensebox.de/" class="btn btn-primary">Forum</a>
-                <a target="_blank" href="https://docs.sensebox.de/faq/" class="btn btn-primary">Forum</a>
+            <div class="col-8 text-center">
+                <h1>{{t.material}}</h1>
+                <p>{{t.material.text}}
+                </p>
+                <a href="{{t.material-link-material}}" class="btn btn-primary">{{t.material-button-material}}</a>
+                <a href="{{t.material-link-projects}}" class="btn btn-primary">{{t.material-button-projects}}</a>
             </div>
         </div>
     </div>
 </div>
 
-<!-- 
-
-<div class="row bg-1 text-center">
-
-    <img src="/images/go/home/construct.png" class="img-responsive center" width="5%">
-
-
-    <a target="_blank" <a target="_blank" href="https://docs.sensebox.de/sensebox-home/home-schritt-1/"
-        class="btn btn-primary btn-lg">Los gehts! »</a>
-    <h1>{{t.components}}</h1>
-    <li><a target="_blank" <p>{{t.components-text}}</p>
-            href={{ "https://sensebox.github.io/books-v2/home/" | append: page.lang | append: "/erste-schritte/registrierung-auf-der-openSenseMap.html" }}>{{t.osem-reg}}</a>
-        <a target="_blank" href="https://docs.sensebox.de/category/hardware/"
-            class="btn btn-primary btn-lg">Informationen
-            »</a>
-    </li>
-</div>
-</ol>
-<hr class="featurette-divider">
-</div>
-<div class="container-fluid bg-3 text-center">
-</div> <img src="/images/go/home/help.png" class="img-responsive center" width="5%">
-<h1>{{t.help}}</h1>
-<p>{{t.help-text}}</p>
-
-<hr class="featurette-divider">
-
-<div class=" ut-item"> <a target="_blank" href="https://forum.sensebox.de/" class="btn btn-primary btn-lg">Forum »</a>
-    <div class="ut-item-head"> <a target="_blank" href="mailto:support@sensebox.de" class="btn btn-primary btn-lg">Email
-            »</a>
-        <h1>{{t.components}}</h1> <a target="_blank" href="https://docs.sensebox.de/faq/"
-            class="btn btn-primary btn-lg">FAQ »</a>
-        <p>{{t.components-text}}</p>
+<div class="row row-padding" style="background-color: whitesmoke;">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-8 text-center">
+                <h1>{{t.help}}</h1>
+                <p>{{t.help-text}}</p>
+                <a target="_blank" href="{{t.help-link-mail}}" class="btn btn-primary">{{t.help-button-mail}}</a>
+                <a target="_blank" href="{{t.help-link-forum}}" class="btn btn-primary">{{t.help-button-forum}}</a>
+                <a target="_blank" href="{{t.help-link-FAQ}}" class="btn btn-primary">{{t.help-button-FAQ}}</a>
+            </div>
+            <div class="col-4" style="background-color: whitesmoke;">
+                <img src="/images/go/edu/hilfe.png" class="img-responsive" style="width: inherit;">
+            </div>
+        </div>
     </div>
-</div> -->
+</div>

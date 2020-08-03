@@ -1,0 +1,19 @@
+setup: "Inbetriebnahme deiner senseBox:home"
+setup-text: "In diesem dreischrittigen Tutorial erhälst du alle Infos zum Aufbau, der Registrierung und Programmierung deiner senseBox:home."
+setup-link: "https://docs.sensebox.de/sensebox-home/home-schritt-1/"
+setup-button: "Los gehts!"
+
+
+components: "Informationen zu den Komponenten"
+components-text: "Hier findest Du genaue Informationen zu allen Komponenten der senseBox."
+components-link: "https://docs.sensebox.de/category/hardware/"
+components-button: "Los gehts!"
+
+help: "Wo finde ich Hilfe?"
+help-text: "Du benötigst Hilfe mit deiner senseBox, hier findest du die nötigen Informationen:"
+help-link-mail: "mailto:support@sensebox.de"
+help-link-forum: "https://forum.sensebox.de/"
+help-link-FAQ: "https://docs.sensebox.de/faq/"
+help-button-mail: "E-Mail"
+help-button-forum: "Forum"
+help-button-FAQ: "FAQ"

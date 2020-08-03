@@ -8,19 +8,26 @@ announcement-button: jetzt anmelden
 
 # senseBox Family
 sensebox-head: Was ist die senseBox?
-sensebox-short-description:  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor inviduntut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+sensebox-short-description: "Die senseBox wurde für den Einsatz in der <b>Digitale Bildung</b>, für <b>Citizen Science</b> und für <b>professionelle Umwelt-Datenerhebung</b> entwickelt. <br>
+Kern jeder senseBox ist der einfach zu programmierende senseBox Mini-Computer, an den verschiedene Sensoren angeschlossen werden."
+
+
 sensebox-overview: Die senseBox:familie im Überblick 
 sensebox-overview-button: Mehr Informationen &raquo;
-sensebox-overview-home: Die senseBox ist. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.
-sensebox-overview-edu: Die senseBox ist. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.
-sensebox-overview-mini: Die senseBox ist. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.
+sensebox-overview-home: Die senseBox:home ist ein Bausatz für eine Do-It-Yourself-Umweltmessstation. Durch den modularen Aufbau lässt sich jede senseBox:home individuell zusammenstellen.
+sensebox-overview-edu: Speziell für den Einsatz im Bildungsbereich wurde die senseBox:edu entwickelt. Spannende Projekte und viele kostenlose Lernmaterialien ermöglichen einen einfachen und unkomplizierten Einstieg. 
+sensebox-overview-mini: Die senseBox:mini das Set für den Einstieg in die Welt der senseBox. Sie bietet alles Nötige für erste eigene IoT-Projekte. Der enthaltene senseBox-Umweltsensor ermöglicht die Erfassung verschiedenster Umweltphänomene.
 
 # Blockly/openSenseMap Cards
 card-button: mehr Infos
 blockly-head: Blockly für senseBox
-blockly-short-text: Blockly für senseBox ist unsere visuelle Programmieroberfläche, die eine einfache und schnelle Programmierung der senseBox ermöglicht. Blockly wurde von Google entwickelt und findet sich in vielen verschiedenen visuellen Programmieroberflächen wieder. Dank der Arbeit von carlosperate lässt sich auch der Arduino über eine visuelle Programmieroberfläche programmieren. Wir haben die Oberfläche für unsere senseBox Sensoren und Bauteile angepasst um den Einstieg noch einfacher zu gestalten.
+blockly-short-text: "Blockly für senseBox ist die grafische Programmierumgebung für die senseBox. Mit Blockly erstellen auch absolute Programmier-Neulinge per Drag-&-Drop im Handumdrehen erste Programme. Aus den Programmierblöcke lassen sich Programme nach dem Baukastenprinzip zusammenstellen und so auch komplexe Projekte umsetzen.<br>
+Die Programmierumgebung kann jederzeit online ohne Installation genutzt werden und minimiert somit sowohl technische als auch fachliche Hürden."
+
 opensensemap-head: openSenseMap
-opensensemap-short-text: Die openSenseMap ist unsere Web-Plattform für die offenen Daten der senseBox und anderer Geräte. Jede senseBox:home übeträgt ihre Messdaten direkt auf diese Karte, wo sie betrachtet, analysiert und heruntergeladen werden können. Auch mit der senseBox:edu erfasste Daten können auf der openSenseMap angezeigt werden. Alle auf der openSenseMap veröffentlichten Daten sind Open Data unter der Public Domain Dedication and License 1.0.
+opensensemap-short-text: "Die openSenseMap ist unsere Datenplattform für offene Daten jeglicher Art. Jede senseBox:home, aber auch viele andere IoT-Messgeräte, übertragen ihre Daten auf die Karte, wo sie betrachtet, analysiert und heruntergeladen werden können.<br>
+Die Plattform ist komplett kostenlos und alle gesammelten Daten werden unter der Public Domain Dedication and License 1.0 veröffentlicht."
+
 
 # News
 news-head: Was gibts neues?
@@ -32,6 +39,9 @@ newsletter-head-2: Newsletter bestellen!
 newsletter-text: Trage dich in unserem Newsletter ein und erhalte aktuelle Informationen rund um die senseBox und Benachrichtungen zu anstehenden Veranstaltungen und spannende Workshops
 newsletter-placeholder: newsletter@sensebox.de
 newsletter-button: Anmelden
+
+#partner
+partner-see-all: "Alle ansehen"
 
 # grant
 grant-head: Förderung

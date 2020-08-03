@@ -1,3 +1,6 @@
+
+{% assign t = site.data.i18n.[page.lang].go-home %}
+
 <div class="row">
     <div class="container">
         <div class="row align-items-center">
@@ -5,13 +8,11 @@
                 <img src="/images/go/home/aufbau.png" class="img-responsive" width="100%">
             </div>
             <div class="col-md-8 text-center">
-                    <h1>Inbetriebnahme deiner senseBox:home</h1>
+                    <h1>{{t.setup}}</h1>
         
-                    <p>In diesem dreischrittigen Tutorial erhälst du alle Infos zum Aufbau, der Registrierung und
-                        Programmierung
-                        deiner senseBox:home.</p>
+                    <p>{{t.setup-text}}.</p>
                
-                    <a href="https://docs.sensebox.de/sensebox-home/home-schritt-1/" class="btn btn-primary">Los gehts</a>
+                    <a>{{t.setup-link}}</a>
                
             </div>
         </div>
@@ -22,9 +23,9 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-md-8 text-center">
-                <h1>Informationen zu den Komponenten</h1>
-                <p>Hier findest Du genaue Informationen zu allen Komponenten der senseBox..</p>
-                <a href="https://docs.sensebox.de/sensebox-home/home-schritt-1/" class="btn btn-primary">Los gehts</a>
+                <h1>{{t.components}}</h1>
+                <p>{{t.components-text}}</p>
+                <a {{t.components-link}}</a>
             </div>
             <div class="col-md-4" style="background-color: whitesmoke;">
                 <img src="/images/go/home/hardware.png" class="img-responsive" width="100%">

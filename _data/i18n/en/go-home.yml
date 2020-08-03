@@ -1,9 +1,20 @@
-setup: "Inbetriebnahme deiner senseBox:home ENGLISCH"
-setup-text: "n diesem dreischrittigen Tutorial erhälst du alle Infos zum Aufbau, der Registrierung undvProgrammierung deiner senseBox:home."
+setup: "Setting up your senseBox:home"
+setup-text: "In this three step tutorial you will get all information about the construction, registration and programming of your senseBox:home."
 setup-link: "https://en.docs.sensebox.de/sensebox-home/home-schritt-1/"
-setup-link-button: "Los gehts"
+setup-button: "Let's go!"
 
 
-components: "Informationen zu den Komponenten"
-components-text: "Hier findest Du genaue Informationen zu allen Komponenten der senseBox."
-components-link: "href=\"https://docs.sensebox.de/sensebox-home/home-schritt-1/\" class=\"btn btn-primary\">Los gehts"
+components: "Information about the components"
+components-text: "Here you can find detailed information about all components of the senseBox"
+components-link: "https://en.docs.sensebox.de/category/hardware/"
+components-button: "Let's go!"
+
+help: "Where can I find help?"
+help-text: "You need help with your senseBox, here you can find the necessary information:"
+help-link-mail: "mailto:support@sensebox.de"
+help-link-forum: "https://forum.sensebox.de/"
+help-link-FAQ: "https://en.docs.sensebox.de/faq/"
+help-button-mail: "E-Mail"
+help-button-forum: "Forum"
+help-button-FAQ: "FAQ"
+

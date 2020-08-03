@@ -22,7 +22,7 @@
                                             <h6 class="font-weight-bold text-uppercase">{{navbar-items.go-head}}</h6>
                                             <ul class="list-unstyled">
                                                 <li class="nav-item"><a
-                                                        href="{{site.url }}/{{ page.lang }}{{navbar-items.go-home-link}}""
+                                                        href="{{site.baseurl }}/{{ page.lang }}{{navbar-items.go-home-link}}""
                                                         class=" nav-link text-small
                                                         pb-0">{{navbar-items.go-home-name}}</a>
                                                 </li>
@@ -204,13 +204,13 @@
             <li class="nav-item">
                 {% if page.lang == 'de' %}
                 <a class="nav-link font-weight-bold text-uppercase main-item"
-                    href="{{ page.url | remove:'de/' | remove:'index.html' | prepend:'/en' | prepend: site.url }}">EN</a>
+                    href="{{ page.url | remove:'de/' | remove:'index.html' | prepend:'/en' | prepend: site.baseurl }}">EN</a>
                 {% else %} {% if page.id == 'index' %}
                 <a class="nav-link font-weight-bold text-uppercase main-item"
-                    href="{{ page.url | remove:'en/' | remove:'index.html'| prepend: site.url }}">DE</a>
+                    href="{{ page.url | remove:'en/' | remove:'index.html'| prepend: site.baseurl }}">DE</a>
                 {% else %}
                 <a class="nav-link font-weight-bold text-uppercase main-item"
-                    href="{{ page.url | remove:'en/' | remove:'index.html' | prepend:'/de' | prepend: site.url }}">DE</a>
+                    href="{{ page.url | remove:'en/' | remove:'index.html' | prepend:'/de' | prepend: site.baseurl }}">DE</a>
                 {% endif %} {% endif %}
             </li>
             <!-- <li class="nav-item"><a href={% if page.lang == 'de' %}"en"{% else if page.lang == 'en' %}"/"{% endif %}

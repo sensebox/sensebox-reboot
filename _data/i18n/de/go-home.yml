@@ -1,7 +1,9 @@
 setup: "Inbetriebnahme deiner senseBox:home"
-setup-text: "n diesem dreischrittigen Tutorial erhälst du alle Infos zum Aufbau, der Registrierung undvProgrammierung deiner senseBox:home."
-setup-link: "href="https://docs.sensebox.de/sensebox-home/home-schritt-1/" class="btn btn-primary">Los gehts"
+setup-text: "In diesem dreischrittigen Tutorial erhälst du alle Infos zum Aufbau, der Registrierung undvProgrammierung deiner senseBox:home."
+setup-link: "https://docs.sensebox.de/sensebox-home/home-schritt-1/"
+setup-link-button: "Los gehts"
+
 
 components: "Informationen zu den Komponenten"
 components-text: "Hier findest Du genaue Informationen zu allen Komponenten der senseBox."
-components-link: "href="https://docs.sensebox.de/sensebox-home/home-schritt-1/" class="btn btn-primary">Los gehts"
+components-link: "href=\"https://docs.sensebox.de/sensebox-home/home-schritt-1/\" class=\"btn btn-primary\">Los gehts"

@@ -8,8 +8,8 @@ go-name: Choose your senseBox
 go-home-name: ":home"
 go-home-link: /go-home.html
 go-edu-name: ":edu"
-go-edu-link: /go-mini.html
-go-mini-name: ":home"
+go-edu-link: /go-edu.html
+go-mini-name: ":mini"
 go-mini-link: /go-mini.html
 #Products
 products-name: "Overview"

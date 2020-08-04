@@ -1,3 +1,4 @@
+{% assign t = site.data.i18n.[page.lang].header %}
 {% if page.id == "index" %}
 
 <!-- Full Page Image Header with Vertically Centered Content -->
@@ -5,9 +6,7 @@
     <div class="container-fluid h-100">
         <div class="row h-100 align-item-flex-end">
             <div class="col-lg-4 text-center" style="color: white">
-                <h1>Dein Toolkit für digitale Bildung, Citizen
-                    Science und
-                    Umweltmonitoring</h1>
+                <h1>{{t.title-claim}}</h1>
             </div>
         </div>
     </div>

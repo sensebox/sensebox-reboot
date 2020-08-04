@@ -1,0 +1,36 @@
+
+sensebox-overview: The senseBox:family at a glance
+sensebox-overview-button: More Information &raquo;
+sensebox-overview-home: The senseBox:home is a kit for a do-it-yourself environmental measuring station. Thanks to its modular design, each senseBox:home can be put together individually.
+sensebox-overview-edu: The senseBox:edu was developed especially for use in the educational sector. Exciting projects and many free learning materials allow an easy and uncomplicated start.. 
+sensebox-overview-mini: The senseBox:mini the set for the entry into the world of senseBox. It offers everything you need for your first IoT projects. The included senseBox environmental sensor enables the detection of a wide range of environmental phenomena.
+
+sensebox-edu-text: "The senseBox:edu is your carefree package for entering the world of microcontrollers and programming. The senseBox:edu offers the largest hardware range in the senseBox:family and thus enables a huge selection of projects and experiments. All components are located in a robust plastic case with foam inlay. So you are perfectly prepared for the use in school."
+sensebox-mini-text: "The senseBox:mini the starter set into the world of senseBox. With it, a first measuring device which transfers the data to the Internet can be programmed in just a few minutes. The station can be used for continuous measurement of indoor air quality and for a variety of innovative projects such as an environmental data chatbot or an IoT alarm system."
+sensebox-home-text: "The senseBox:home is the stationary IoT environmental measuring station for outdoor measurements. Citizens, interested parties and local authorities use it to measure environmental data at their places of residence or wherever it is of interest. The station is supplied as a kit, is completely modular and therefore almost limitlessly expandable."
+
+which-sensebox: "Which senseBox is the right one for me?"
+i-want: "I want to..."
+get-data: "Collect environmental data"
+learn-2-code: "Learn to code"
+outdoor: "Outdoor"
+indoor: "Indoor"
+starter-set: "Starter set"
+pro-set: "Carefree package"
+
+
+home-list: "  <li>The IoT environmental station</li>
+                            <li>customisable</li>
+                            <li>no programming necessary</li>
+                            <li>Blockly and Arduino compatible</li>
+                            <li>freely extendable</li>"
+mini-list: "   <li>Das Einsteigerset</li>
+                            <li>teaching material inclusive</li>
+                            <li>Blockly and Arduino compatible</li>
+                            <li>freely extendable</li>"
+edu-list: " <li>Das Set für den Schuleinsatz</li>
+                            <li>largest hardware inventory</li>
+                            <li>teaching material inclusive</li>
+                            <li>Blockly and Arduino compatible</li>
+                            <li>freely extendable</li>"                          
+button: "More Information"

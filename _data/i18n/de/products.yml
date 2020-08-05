@@ -11,8 +11,8 @@ sensebox-home-text: "Die senseBox:home ist die stationäre IoT-Umweltmessstation
 
 which-sensebox: "Welche senseBox ist die richtige für mich?"
 i-want: "Ich möchte..."
-get-data: "Umweltdaten erfassen"
-learn-2-code: "Programmieren lernen"
+get-data: "Dauerhaft messen"
+learn-2-code: "Experimentieren"
 outdoor: "draußen"
 indoor: "drinnen"
 starter-set: "Einsteigerset"
@@ -20,16 +20,12 @@ pro-set: "Rundum sorglos Paket"
 
 home-list: "  <li>Die IoT-Umweltmessstation</li>
                             <li>individuell konfigurierbar</li>
-                            <li>keine Programmierung notwendig</li>
-                            <li>Blockly und Arduino kompatibel</li>
-                            <li>frei erweiterbar</li>"
+                            <li>keine Programmierung notwendig</li>"
 mini-list: "   <li>Das Einsteigerset</li>
-                            <li>Bildungsmaterialien inklusive</li>
-                            <li>Blockly und Arduino kompatibel</li>
-                            <li>frei erweiterbar</li>"
+                            <li>Spannende Einstiegsprojekte</li>
+                            <li>Blockly und Arduino kompatibel</li>"
 edu-list: " <li>Das Set für den Schuleinsatz</li>
                             <li>größter Hardwareumfang</li>
                             <li>Bildungsmaterialien inklusive</li>
-                            <li>Blockly und Arduino kompatibel</li>
-                            <li>frei erweiterbar</li>"                            
+                            <li>Blockly und Arduino kompatibel</li>"                            
 button: "Mehr Informationen"

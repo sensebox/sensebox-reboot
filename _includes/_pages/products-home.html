@@ -1,23 +1,19 @@
+{% assign content = site.data.i18n.[page.lang].products-home %}
 <div class="container">
-    <div class="row">
-        <div class="col-lg-12">
+    <div class="row row-padding">
+        <div class="col-lg-8">
             <h1>senseBox:home</h1>
-            <p>Ist die stationäre IoT-Umweltmessstation für Messungen im Outdoor Bereich. Citizen Scientist,
-                Interessierte
-                und Kommunen messen damit Umweltdaten an Ihren Wohnorten, oder wo es eben interessant ist. Die Station
-                wird
-                als Bausatz geliefert, ist vollständig modular und somit nahezu grenzenlos erweiterbar.
-
-                senseBox:home Stationen messen beispielsweise die Luftqualität in Ballungsräumen, überwachen Pflanzen
-                mit
-                Hilfe von Licht- und Bodenfeuchtesensoren oder sammeln Daten über Lärmverschmutzung in Stadt und Land.
-                Die
-                senseBoxen übertragen ihre Daten je nach Wunsch kabelgebunden oder drahtlos ins Internet. Neben der
-                Übertragung via WiFi steht außerdem die Möglichkeit der Übertragung via LoRaWAN zu Verfügung.
-
-                Aktuell teilen fast 7000 Stationen ihre Daten auf der openSenseMap, der Datenplattform für die senseBox.
-                Dort werden die Messdaten als Open Data veröffentlicht und kostenfrei zur Verfügung.
-            </p>
+            <p class="lead">{{content.home-text}}</p>
+            <br>
+            <p class="lead">Die senseBox:home bietet:
+                
+                <ul>
+                {{content.home-list}}
+             </ul></p>
+        </div>
+        <div class="col-lg-4">
+            <img class="img-fluid mx-auto" src="/images/products/home/home-big.png"
+            alt="Generic placeholder image">
         </div>
     </div>
 </div>
@@ -32,10 +28,11 @@
                     alt="Generic placeholder image">
             </div>
             <div class="col-md-7">
-                <h2 class="featurette-heading">Sensoren:</h2>
-                <p class="lead">Wähle zwischen einer großen Anzahl von Sensoren aus, die du direkt anschließen
-                    kannst.
+                <h2 class="featurette-heading">{{content.home-phenomenon-title}}</h2>
+                <p class="lead">{{content.home-phenomenon-text}}
                 </p>
+                <img class="img-fluid mx-auto" src="{{content.home-phenomenon-image}}"
+                alt="Generic placeholder image">
             </div>
         </div>
     </div>
@@ -46,19 +43,12 @@
     <div class="container">
         <div class="row">
             <div class="col-md-7">
-                <h2 class="featurette-heading">Datenübertragung:
+                <h2 class="featurette-heading">{{content.home-transmission-title}}
                 </h2>
-                <p class="lead">Wähle zwischen drei verschiedenen Datenübertragung Modulen aus und passe so
-                    die
-                    senseBox:home
-                    deiner Infrastruktur an.
-                    Die senseBox:home sendet ihr Daten an die openSenseMap, sodass diese von überall
-                    abrufbar sind.
-                    Die
-                    openSenseMap ermöglicht das Einfache sammeln und auswerten deiner Umweltdaten und über
-                    die freie
-                    Schnittstelle können die Daten auch in andere Systeme übertragen werden.
+                <p class="lead">{{content.home-transmission-text}}
                 </p>
+                <img class="img-fluid mx-auto" src="/images/products/home/home-transmission-de.png"
+                alt="Generic placeholder image">
             </div>
             <div class="col-md-5">
                 <img class="featurette-image img-fluid mx-auto" src="/images/products/home/bees.png"
@@ -78,31 +68,8 @@
                     alt="Generic placeholder image">
             </div>
             <div class="col-md-7">
-                <h2 class="featurette-heading">Gehäuse</h2>
-                <p class="lead">Die senseBox:home wird mit einem Gehäuse für den Mikrocontroller und dem Temperatur- und
-                    Luftfeuchtigkeitssensor geliefert. Weitere Sensoren werden über das einfache Stecksystem im Gehäuse
-                    angebracht oder je nach Sensor wird ein zusätzliches Gehäuse mitgeliefert. </p>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="row row-padding featurette" style="background-color: whitesmoke;">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-7">
-                <h2 class="featurette-heading">Zusammenbau
-                </h2>
-                <p class="lead">Die senseBox:home wird als Bausatz geliefert. Aber keine Sorge, der Aufbau ist so
-                    einfach
-                    wie
-                    möglich gestaltet und du benötigst keine Vorerfahrung.
-
-                </p>
-            </div>
-            <div class="col-md-5">
-                <img class="featurette-image img-fluid mx-auto" src="/images/products/home/assembly.jpg"
-                    alt="Generic placeholder image">
+                <h2 class="featurette-heading">{{content.home-housing-title}}</h2>
+                <p class="lead">{{content.home-housing-text}}</p>
             </div>
         </div>
     </div>

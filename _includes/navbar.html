@@ -115,12 +115,12 @@
                                                         class="nav-link text-small pb-0">{{navbar-items.docs-name}}</a>
                                                 </li>
                                                 <li class="nav-item"><a
-                                                        href="{{site.baseurl }}/{{ page.lang }}{navbar-items.projects-link}}"
-                                                        class="nav-link text-small pb-0 ">{{navbar-items.projects-name}}</a>
+                                                        href="{{site.baseurl }}/{{ page.lang }}{{navbar-items.projects-link}}"
+                                                        class="nav-link text-small pb-0">{{navbar-items.projects-name}}</a>
                                                 </li>
                                                 <li class="nav-item"><a
                                                         href="{{site.baseurl }}/{{ page.lang }}{{navbar-items.material-link}}"
-                                                        class="nav-link text-small pb-0 ">{{navbar-items.material-name}}</a>
+                                                        class="nav-link text-small pb-0">{{navbar-items.material-name}}</a>
                                                 </li>
                                                 <li class="nav-item"><a href="https://forum.sensebox.de"
                                                         class="nav-link text-small pb-0 ">Forum</a></li>
@@ -198,12 +198,25 @@
                     </div>
                 </div>
             </li>
-            <li class="nav-item"><a href="/blog.html"
-                    class="nav-link font-weight-bold text-uppercase main-item">Blog</a></li>
-            <li class="nav-item"><a href="" class="nav-link font-weight-bold text-uppercase main-item">Shop</a></li>
-            <li class="nav-item"><a href={% if page.lang == 'de' %}"en"{% else if page.lang == 'en' %}"/"{% endif %}
-                    class="nav-link font-weight-bold text-uppercase main-item">{% if page.lang == "de" %}EN{% else if page.lang == "en" %}DE{% endif %}</a>
+            <li class="nav-item"><a href="{{site.baseurl }}/{{ page.lang }}{{navbar-items.blog-link}}"
+                    class="nav-link font-weight-bold text-uppercase main-item">{{navbar-items.blog-name}}</a></li>
+            <li class="nav-item"><a href="{{navbar-items.shop-link}}"
+                    class="nav-link font-weight-bold text-uppercase main-item">{{navbar-items.shop-name}}</a></li>
+            <li class="nav-item">
+                {% if page.lang == 'de' %}
+                <a class="nav-link font-weight-bold text-uppercase main-item"
+                    href="{{ page.url | remove:'de/' | remove:'index.html' | prepend:'/en' | prepend: site.baseurl }}">EN</a>
+                {% else %} {% if page.id == 'index' %}
+                <a class="nav-link font-weight-bold text-uppercase main-item"
+                    href="{{ page.url | remove:'en/' | remove:'index.html'| prepend: site.baseurl }}">DE</a>
+                {% else %}
+                <a class="nav-link font-weight-bold text-uppercase main-item"
+                    href="{{ page.url | remove:'en/' | remove:'index.html' | prepend:'/de' | prepend: site.baseurl }}">DE</a>
+                {% endif %} {% endif %}
             </li>
+            <!-- <li class="nav-item"><a href={% if page.lang == 'de' %}"en"{% else if page.lang == 'en' %}"/"{% endif %}
+                    class="nav-link font-weight-bold text-uppercase main-item">{% if page.lang == "de" %}EN{% else if page.lang == "en" %}DE{% endif %}</a>
+            </li> -->
         </ul>
     </div>
 </nav>

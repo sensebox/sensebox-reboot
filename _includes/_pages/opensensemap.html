@@ -1,18 +1,12 @@
 <img src="/images/opensensemap/osem_main.png" class="img-fluid" alt="Responsive image">
 
+{% assign t = site.data.i18n.[page.lang].opensensemap %}
+
 <div class="row">
     <div class="col-lg-12">
-        <h1>openSenseMap</h1>
-        <p>Die openSenseMap ist unsere Web-Plattform für die offenen Daten der senseBox und anderer Geräte. Jede
-            senseBox:home
-            übeträgt ihre Messdaten direkt auf diese Karte, wo sie betrachtet, analysiert und heruntergeladen werden
-            können.
-            Auch mit der senseBox:edu erfasste Daten können auf der openSenseMap angezeigt werden.</p>
-
-        <p>Alle auf der openSenseMap veröffentlichten Daten sind Open Data unter der Public Domain Dedication and
-            License
-            1.0.
-        </p>
+        <h1>{{t.head-1}}</h1>
+        <p>{{ t.text-1 }}</p>
+        <p></p>
     </div>
 
 </div>
@@ -24,18 +18,15 @@
             alt="Generic placeholder image">
     </div>
     <div class="col-md-7">
-        <h2 class="featurette-heading">Analysieren</h2>
-        <p>Anayliseren deine Daten auf der openSenseMap. </p>
-        <a href="https://docs.opensensemap.org" class="btn btn-success">Zur API Dokumentation</a>
+        <h2 class="featurette-heading">{{t.head-2}}</h2>
+        <p>{{ t.text-2 }}</p>
     </div>
 </div>
 
 <div class="row featurette">
     <div class="col-md-7">
-        <h2 class="featurette-heading">API</h2>
-        <p>Mit unserer offenen API lassen sich sämtliche Sensordaten für andere Anwedungen weiterverwenden.
-            Außerdem können
-            Sensordaten von alternativen Quellen in die openSenseMap eingebunden werden.</p>
+        <h2 class="featurette-heading">{{ t.head-3 }}</h2>
+        <p>{{ t.text-3 }}</p>
         <a href="https://docs.opensensemap.org" class="btn btn-success">Zur API Dokumentation</a>
     </div>
     <div class="col-md-5">

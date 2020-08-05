@@ -1,6 +1,6 @@
 ---
 layout: project_page
-name: "LoRaWAN IoT waether station"
+name: "LoRaWAN IoT weather station"
 date: 2020-02-26
 author: David
 abstract: "The LoRaWAN-Bee is used to build an IoT weather station"

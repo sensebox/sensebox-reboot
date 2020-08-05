@@ -1,3 +1,6 @@
+{% assign content = site.data.i18n.[page.lang].footer%}
+
+
 <footer class="container py-5">
     <div class="row">
         <div class="col-12 col-md">
@@ -107,9 +110,9 @@
         <div class="col-6 col-md">
             <h5>{{ footer-item.resources}}</h5>
             <ul class="list-unstyled text-small">
-                <li><a class="text-muted" href="https://docs.sensebox.de">Dokumentation</a></li>
-                <li><a class="text-muted" href="/projects.html">Projekte</a></li>
-                <li><a class="text-muted" href="/material.html">Unterrichtsmaterial</a></li>
+                <li><a class="text-muted" href="https://docs.sensebox.de">{{content.resources-docs}}</a></li>
+                <li><a class="text-muted" href="/projects.html">{{content.resources-projects}}</a></li>
+                <li><a class="text-muted" href="/material.html">{{content.resources-teaching}}</a></li>
             </ul>
         </div>
         <div class="col-6 col-md">
@@ -130,7 +133,7 @@
             </ul>
         </div>
         <div class="col-6 col-md">
-            <h5>About</h5>
+            <h5>{{content.about-title}}</h5>
             <ul class="list-unstyled text-small">
                 <li><a class="text-muted"
                         href="{{site.baseurl }}/{{ page.lang }}{{footer-item.imprint-link}}">{{ footer-item.imprint-name }}</a>

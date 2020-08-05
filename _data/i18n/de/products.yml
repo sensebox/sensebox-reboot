@@ -1,0 +1,35 @@
+
+sensebox-overview: Die senseBox:familie im Überblick 
+sensebox-overview-button: Mehr Informationen &raquo;
+sensebox-overview-home: Die senseBox:home ist ein Bausatz für eine Do-It-Yourself-Umweltmessstation. Durch den modularen Aufbau lässt sich jede senseBox:home individuell zusammenstellen.
+sensebox-overview-edu: Speziell für den Einsatz im Bildungsbereich wurde die senseBox:edu entwickelt. Spannende Projekte und viele kostenlose Lernmaterialien ermöglichen einen einfachen und unkomplizierten Einstieg. 
+sensebox-overview-mini: Die senseBox:mini das Set für den Einstieg in die Welt der senseBox. Sie bietet alles Nötige für erste eigene IoT-Projekte. Der enthaltene senseBox-Umweltsensor ermöglicht die Erfassung verschiedenster Umweltphänomene.
+
+sensebox-edu-text: "Die senseBox:edu ist dein rundum sorglos Paket für den Einstieg in die Welt der Mikrocontroller und Programmierung. Die senseBox:edu bietet den größten Hardwareumfang in der senseBox:familie und ermöglicht somit eine riesige Auswahl von Projekten und Experimenten. Alle Bauteile befinden sich in einem robustem Kunststoffkoffer mit Schaumstoffeinlage. Du bist somit perfekt für den Einsatz in der Schule gewappnet."
+sensebox-mini-text: "Die senseBox:mini das Einsteigerset in die Welt der senseBox. Mit ihr ist in wenigen Minuten ein erstes Messgerät programmiert und die Daten ins Internet übertragen. Die Station kann zum dauerhaften Messen der Innenraumluftqualität, sowie für eine Vielzahl von innovativen Projekten wie einem Umweltdaten-Chatbot oder einer IoT-Alarmanlage genutzt werden."
+sensebox-home-text: "Die senseBox:home ist die stationäre IoT-Umweltmessstation für Messungen im Outdoor Bereich. Bürgerwissenschaflter, Interessierte und Kommunen messen damit Umweltdaten an Ihren Wohnorten, oder wo es eben interessant ist. Die Station wird als Bausatz geliefert, ist vollständig modular und somit nahezu grenzenlos erweiterbar."
+
+which-sensebox: "Welche senseBox ist die richtige für mich?"
+i-want: "Ich möchte..."
+get-data: "Umweltdaten erfassen"
+learn-2-code: "Programmieren lernen"
+outdoor: "draußen"
+indoor: "drinnen"
+starter-set: "Einsteigerset"
+pro-set: "Rundum sorglos Paket"
+
+home-list: "  <li>Die IoT-Umweltmessstation</li>
+                            <li>individuell konfigurierbar</li>
+                            <li>keine Programmierung notwendig</li>
+                            <li>Blockly und Arduino kompatibel</li>
+                            <li>frei erweiterbar</li>"
+mini-list: "   <li>Das Einsteigerset</li>
+                            <li>Bildungsmaterialien inklusive</li>
+                            <li>Blockly und Arduino kompatibel</li>
+                            <li>frei erweiterbar</li>"
+edu-list: " <li>Das Set für den Schuleinsatz</li>
+                            <li>größter Hardwareumfang</li>
+                            <li>Bildungsmaterialien inklusive</li>
+                            <li>Blockly und Arduino kompatibel</li>
+                            <li>frei erweiterbar</li>"                            
+button: "Mehr Informationen"

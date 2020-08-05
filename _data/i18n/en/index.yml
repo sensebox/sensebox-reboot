@@ -1,0 +1,50 @@
+# Put text for index page here
+
+# announcement
+new: "New:"
+announcement-text: Der "senseBox" Workshop mit Björn 
+announcement-link: /
+announcement-button: sign up now!
+
+# senseBox Family
+sensebox-head: What is the senseBox?
+sensebox-short-description: "The senseBox was developed for use in <b>digital education</b>, for <b>Citizen Science</b> and for <b>professional environmental data collection</b>. <bb>
+The core of every senseBox is the easy-to-program senseBox mini-computer to which various sensors are connected."
+
+
+sensebox-overview: The senseBox:family at a glance 
+sensebox-overview-button: More information &raquo;
+sensebox-overview-home: The senseBox:home is a kit for a do-it-yourself environmental measuring station. Thanks to its modular design, each senseBox:home can be put together individually.
+sensebox-overview-edu: The senseBox:edu was developed especially for use in the educational sector. Fascinating projects and many free learning materials allow an easy and uncomplicated start. 
+sensebox-overview-mini: The senseBox:mini the set for the entry into the world of senseBox. It offers everything you need for your first IoT projects. The included senseBox environmental sensor enables the detection of a wide range of environmental phenomena.
+
+# Blockly/openSenseMap Cards
+card-button: more information
+blockly-head: Blockly for senseBox
+blockly-short-text: "Blockly for senseBox is the graphical programming environment for the senseBox. With Blockly, even absolute programming beginners can create their first programs in no time at all using drag & drop. .<br>.
+The programming environment can be used online at any time without installation and thus minimizes both technical and professional hurdles."
+
+opensensemap-head: openSenseMap
+opensensemap-short-text: "The openSenseMap is our data platform for open data of any kind. Every senseBox:home, but also many other IoT measuring devices, transfer their data to the map, where they can be viewed, analysed and downloaded.<br>
+The platform is completely free and all collected data is published under the Public Domain Dedication and License 1.0."
+
+
+# News
+news-head: Whats new?
+news-from: from
+
+# Newsletter
+newsletter-head-1: Keep up to date?
+newsletter-head-2: Subscribe to our newsletter!
+newsletter-text: Subscribe to our newsletter and receive the latest information about the senseBox and notifications of upcoming events and exciting workshops.
+newsletter-placeholder: newsletter@sensebox.de
+newsletter-button: Subscribe
+
+#partner
+partner-see-all: "See all"
+
+# grant
+grant-head: Grant
+grant-text: The senseBox was developed at the University of Münster as part of a research project at the Institute for Geoinformatics. Thanks to various funding from different sponsors, the idea was able to mature further and further. Over a period of three years, until the end of 2019, the "BMBF Open Photonics" funding in particular provided significant support for the further development of the senseBox. Even during this period, the chance of a successful spin-off of the product division became apparent, which was followed by the founding of Reedu GmbH & Co. KG. This spin-off was additionally promoted with an EXIST start-up grant from the Federal Ministry of Economics and Energy. In order to continue researching innovative ideas related to the senseBox, the association of spin-off companies and university was able to successfully apply for another project in the field of "Photonics Research Germany". Since November 2019, the "senseBox:pro" research project has been one of several projects in the "Open Photonik Pro" funding measure. With this measure, the Federal Ministry of Education and Research (BMBF) is pursuing the goal of enabling new forms of cooperation between science and industry with the maker and founder scene.
+
+

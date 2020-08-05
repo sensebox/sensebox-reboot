@@ -198,9 +198,10 @@
                     </div>
                 </div>
             </li>
-            <li class="nav-item"><a href="/blog.html"
-                    class="nav-link font-weight-bold text-uppercase main-item">Blog</a></li>
-            <li class="nav-item"><a href="" class="nav-link font-weight-bold text-uppercase main-item">Shop</a></li>
+            <li class="nav-item"><a href="{{site.baseurl }}/{{ page.lang }}{{navbar-items.blog-link}}"
+                    class="nav-link font-weight-bold text-uppercase main-item">{{navbar-items.blog-name}}</a></li>
+            <li class="nav-item"><a href="{{navbar-items.shop-link}}"
+                    class="nav-link font-weight-bold text-uppercase main-item">{{navbar-items.shop-name}}</a></li>
             <li class="nav-item">
                 {% if page.lang == 'de' %}
                 <a class="nav-link font-weight-bold text-uppercase main-item"

@@ -90,15 +90,22 @@
             <small class="d-block mb-3 text-muted">senseBox &copy; 2014-2020</small>
         </div>
         <div class="col-6 col-md">
-            <h5>Hintergrund</h5>
+            <h5>{{ footer-item.background }}</h5>
             <ul class="list-unstyled text-small">
-                <li><a class="text-muted" href="/about-us.html">Über Uns</a></li>
-                <li><a class="text-muted" href="/press.html">Presse und Medien</a></li>
-                <li><a class="text-muted" href="/network.html">Netzwerk</a></li>
+
+                <li><a class="text-muted"
+                        href="{{site.baseurl }}/{{ page.lang }}{{footer-item.about-us-link}}">{{ footer-item.about-us-name }}</a>
+                </li>
+                <li><a class="text-muted"
+                        href="{{site.baseurl }}/{{ page.lang }}{{footer-item.press-link}}">{{ footer-item.press-name }}</a>
+                </li>
+                <li><a class="text-muted"
+                        href="{{site.baseurl }}/{{ page.lang }}{{footer-item.network-link}}">{{ footer-item.network-name }}</a>
+                </li>
             </ul>
         </div>
         <div class="col-6 col-md">
-            <h5>Resources</h5>
+            <h5>{{ footer-item.resources}}</h5>
             <ul class="list-unstyled text-small">
                 <li><a class="text-muted" href="https://docs.sensebox.de">Dokumentation</a></li>
                 <li><a class="text-muted" href="/projects.html">Projekte</a></li>
@@ -106,7 +113,7 @@
             </ul>
         </div>
         <div class="col-6 col-md">
-            <h5>Folge uns</h5>
+            <h5>{{ footer-item.follow-us }}</h5>
             <ul class="list-unstyled text-small">
                 <li><i class="fab fa-github footer-icon"></i><a class="text-muted"
                         href="https://github.com/sensebox">Github</a>

@@ -86,6 +86,7 @@
                     </g>
                 </g>
             </svg>
+            {% assign footer-item = site.data.i18n.[page.lang].footer %}
             <small class="d-block mb-3 text-muted">senseBox &copy; 2014-2020</small>
         </div>
         <div class="col-6 col-md">
@@ -124,9 +125,15 @@
         <div class="col-6 col-md">
             <h5>About</h5>
             <ul class="list-unstyled text-small">
-                <li><a class="text-muted" href="#">Privacy</a></li>
-                <li><a class="text-muted" href="#">Terms</a></li>
-                <li><a class="text-muted" href="/contact.html">Contact</a></li>
+                <li><a class="text-muted"
+                        href="{{site.baseurl }}/{{ page.lang }}{{footer-item.imprint-link}}">{{ footer-item.imprint-name }}</a>
+                </li>
+                <li><a class="text-muted"
+                        href="{{site.baseurl }}/{{ page.lang }}{{footer-item.privacy-link}}">{{ footer-item.privacy-name }}</a>
+                </li>
+                <li><a class="text-muted"
+                        href="{{site.baseurl }}/{{ page.lang }}{{footer-item.contact-link}}">{{ footer-item.contact-name }}</a>
+                </li>
             </ul>
         </div>
     </div>

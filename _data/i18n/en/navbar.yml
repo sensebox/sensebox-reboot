@@ -48,6 +48,11 @@ events-name: "Events"
 events-link: /events.html
 contact-name: "Contact"
 contact-link: /contact.html
+#
+blog-link: /blog.html
+blog-name: Blog
+shop-link: https://sensebox.shop
+shop-name: Shop
 
 
 

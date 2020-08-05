@@ -1,0 +1,24 @@
+home-text: "Ist die stationäre IoT-Umweltmessstation für Messungen im Outdoor Bereich. Citizen Scientist, Interessierte und Kommunen messen damit Umweltdaten an Ihren Wohnorten, oder wo es eben interessant ist."
+home-list: "<li>Hochauflösende Umweltdaten</li>
+            <li>Einfache Installation ohne Programmierung</li>
+            <li>Modulares System</li>
+            <li>Wetterfestes Gehäuse</li>
+            <li>Digitaler Datentransfer</li>
+            <li>Jederzeit digital abrufbare Daten</li>
+            <li>Daten verfügbar über offene API</li>"
+
+home-phenomenon-title: "Messbare Phänomene"
+home-phenomenon-text: "Wähle aus einer großen Auswahl von Sensoren um genau die Phänomene zu messen, die für dich interessant sind."
+home-phenomenon-image: "/images/products/home/home-phenomenon-de.png"
+
+
+home-transmission-title: "Datenübertragung"
+home-transmission-text: "Wähle zwischen drei verschiedenen Arten der Datenübertragung aus und passe die senseBox:home deiner Infrastruktur an."
+
+
+home-housing-title: "Gehäuse"
+home-housing-text: "Die senseBox:home wird mit einem wetterfesten Gehäuse für den Mikrocontroller und einem Strahlenschutz für den Temperatur- und
+                    Luftfeuchtigkeitssensor geliefert. Weitere Sensoren werden über das einfache Stecksystem im Gehäuse angebracht oder inklusive eigenem Gehäuse geliefert."
+
+home-setup-title: "Zusammenbau"
+home-setup-text: "Die senseBox:home wird als Bausatz geliefert. Aber keine Sorge, der Aufbau kinderleicht und die Box muss nicht selbst programmiert werden."

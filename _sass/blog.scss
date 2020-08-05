@@ -70,7 +70,7 @@ a {
 	content: "";
 	width: 50px;
 	height: 2px;
-	background-color:#669933;
+	background-color: $sensebox-green;
 	left: 0;
 	bottom: 0;
 	left: 50%;
@@ -84,7 +84,7 @@ a {
 }
 .post-category a {
 	display: inline-block;
-	background-color: #669933;
+	background-color: $sensebox-green;
 	color: #fff;
 	font-size: 15px;
 	padding: 5px 20px;

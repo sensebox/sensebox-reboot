@@ -1,6 +1,28 @@
+#
+about-us-name: "Über uns"
+about-us-link: /about-us.html
+network-name: "Netzwerk"
+network-link: /network.html
+press-link: /press.html
+press-name: Presse
+
+#
+docs-name: "Dokumentation"
+docs-link: https://docs.sensebox.de
+projects-name: "Projekte"
+projects-link: /projects.html
+
+
+#
+resources: Resources
+follow-us: Folge uns
+background: Hintergrund
+
+#
 imprint-name: "Impressum"
 imprint-link: /imprint.html
 privacy-name: "Datenschutz"
 privacy-link: /privacy.html
 contact-name: "Kontakt"
 contact-link: /contact.html
+

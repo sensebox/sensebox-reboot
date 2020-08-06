@@ -1,0 +1,11 @@
+edu-text: "The senseBox:edu is your all-round carefree package for the entry into the world of microcontrollers and programming. The senseBox:edu offers the largest hardware range in the senseBox:family and thus enables a huge selection of projects and experiments. All components are located in a robust plastic case with foam inlay. So you are perfectly prepared for the use in school."
+
+edu-material-title: "teaching and learning materials"
+edu-material-text: "The senseBox:edu includes not only the hardware but also a variety of materials. From projects to reproduce, to teaching ideas, to classification in educational standards, you can find everything free of charge on our website. 
+The collection of materials is constantly being revised and new projects are added, so it's worth taking a look from time to time."
+
+edu-programming-title: "Easy programming"
+edu-programming-text: "The senseBox is programmed using the graphical programming interface Blockly for senseBox. This offers blocks for all components and functions of the senseBox, from which a program can be assembled in no time at all - completely without working on the source code! The programming interface is freely available on the web, requires no software or driver installation and therefore no maintenance.<br> In addition, the senseBox can be programmed with the help of NEPO, the graphical programming interface of the Fraunhofer Institute IAIS. For advanced applications, the senseBox:edu can also be programmed directly in the Arduino IDE."
+
+edu-content-title: "Content"
+edu-content-text: "The senseBox:edu has the largest hardware range in the senseBox:family. It offers the possibility to measure temperature, humidity, barometric pressure, brightness, UV intensity, distances and noise and display them on the OLED display. In addition to the sensors, it also contains a WiFi and an mSD card module for transferring or storing data, as well as a range of small parts for exciting experiments."

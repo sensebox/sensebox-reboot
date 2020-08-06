@@ -1,0 +1,11 @@
+edu-text: "Die senseBox:edu ist dein Rundum-sorglos-Paket für den Einstieg in die Welt der Mikrocontroller und der Programmierung. Die senseBox:edu bietet den größten Hardwareumfang in der senseBox:familie und ermöglicht somit eine riesige Auswahl von Projekten und Experimenten. Alle Bauteile befinden sich in einem robusten Kunststoffkoffer mit Schaumstoffeinlage. Du bist somit perfekt für den Einsatz in der Schule gewappnet."
+
+edu-material-title: "Lehr- und Lernmaterial"
+edu-material-text: "Zur senseBox:edu gehören neben der Hardware auch eine Vielzahl an Materialien. Von Projekten zum Nachbauen über Unterrichtsideen bis hin zur Einordnung in die Bildungsstandards findest du alles kostenlos auf unserer Website. 
+Die Materialsammlung wird fortlaufend überarbeitet und um neue Projekte ergänzt, es lohnt sich also immer mal wieder einen Blick darauf zu werfen."
+
+edu-programming-title: "Kinderleichte Programmierung"
+edu-programming-text: "Programmiert wird die senseBox mit Hilfe der grafischen Programmieroberfläche “Blockly für senseBox”. Diese bietet Blöcke für alle Bauteile und Funktionen der senseBox an, aus denen sich ein Programm im Handumdrehen zusammenbauen lässt - komplett ohne Arbeit am Quellcode! Die Programmieroberfläche ist frei im Web verfügbar, benötigt keinerlei Software- oder Treiberinstallation und somit auch keinerlei Wartung.<br> Zusätzlich lässt sich die senseBox mit Hilfe von NEPO, der ebenfalls grafischen Programmieroberfläche des Fraunhofer Instituts IAIS programmieren. Für fortgeschrittene Anwendungen kann die senseBox:edu auch direkt in der Arduino IDE programmiert werden."
+
+edu-content-title: "Inhalt"
+edu-content-text: "Die senseBox:edu hat den größten Hardwarumfang in der senseBox:familie. Sie bietet die Möglichkeit Temperatur, Luftfeuchtigkeit, Luftdruckt, Helligkeit, UV-Intensität, Distanzen und Lärm zu messen und auf dem OLED-Display anzeigen zu lassen. Neben den Sensoren enthält sie ebenfalls ein WiFi- und ein mSD-Karten-Modul zum Übertragen bzw. Speichern der Daten, sowie ein Sortiment an Kleinteilen für spannende Experimente."

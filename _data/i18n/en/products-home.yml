@@ -1,27 +1,26 @@
-home-text: "Ist die stationäre IoT-Umweltmessstation für Messungen im Outdoor Bereich. Citizen Scientist, Interessierte und Kommunen messen damit Umweltdaten an Ihren Wohnorten, oder wo es eben interessant ist."
-home-list: "<li>Hochauflösende Umweltdaten</li>
-            <li>Einfache Installation ohne Programmierung</li>
-            <li>Modulares System</li>
-            <li>Wetterfestes Gehäuse</li>
-            <li>Digitaler Datentransfer</li>
-            <li>Jederzeit digital abrufbare Daten</li>
-            <li>Daten verfügbar über offene API</li>"
+home-text: "Is the stationary IoT environmental measuring station for outdoor measurements. Citizen Scientist, interested parties and local authorities use it to measure environmental data at their places of residence, or wherever it is of interest."
+home-offers: "The senseBox:home offers:"
+home-list: "<li>High-resolution environmental data</li>
+            <li>Easy setup without programming</li>
+            <li>Modular system</li>
+            <li>Weatherproof housing</li>
+            <li>Digital data transfer</li>
+            <li>Digitally retrievable data at any time</li>
+            <li>Data available via open API</li>"
 
-home-phenomenon-title: "Messbare Phänomene"
-home-phenomenon-text: "Wähle aus einer großen Auswahl von Sensoren um genau die Phänomene zu messen, die für dich interessant sind."
-home-phenomenon-image: "/images/products/home/home-phenomenon-de.png"
-
-
-home-transmission-title: "Datenübertragung"
-home-transmission-text: "Wähle zwischen drei verschiedenen Arten der Datenübertragung aus und passe die senseBox:home deiner Infrastruktur an."
+home-phenomenon-title: "Measurable phenomena"
+home-phenomenon-text: "Choose from a wide range of sensors to measure exactly the phenomena that interest you."
+home-phenomenon-image: "/images/products/home/home-phenomenon-en.png"
 
 
-home-housing-title: "Gehäuse"
-home-housing-text: "Die senseBox:home wird mit einem wetterfesten Gehäuse für den Mikrocontroller und einem Strahlenschutz für den Temperatur- und
-                    Luftfeuchtigkeitssensor geliefert. Weitere Sensoren werden über das einfache Stecksystem im Gehäuse angebracht oder inklusive eigenem Gehäuse geliefert."
+home-transmission-title: "Data transmission"
+home-transmission-text: "Choose between four different types of data transmission and adapt the senseBox:home to your infrastructure."
 
-home-setup-title: "Zusammenbau"
-home-setup-text: "Die senseBox:home wird als Bausatz geliefert. Aber keine Sorge, der Aufbau kinderleicht und die Box muss nicht selbst programmiert werden."
+
+home-housing-title: "Housing"
+home-housing-text: "The senseBox:home comes with a weatherproof housing for the microcontroller and a radiation protection for the temperature and
+                    Humidity sensor included. Further sensors are attached to the housing via the simple plug-in system or are supplied including their own housing."
+
 
 #Phenomenons
 phenomenon-temperatur: Temperature

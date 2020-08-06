@@ -6,14 +6,14 @@
             <p class="lead">{{content.home-text}}</p>
             <br>
             <p class="lead">Die senseBox:home bietet:
-                
-                <ul>
+
+            <ul>
                 {{content.home-list}}
-             </ul></p>
+            </ul>
+            </p>
         </div>
         <div class="col-lg-4">
-            <img class="img-fluid mx-auto" src="/images/products/home/home-big.png"
-            alt="Generic placeholder image">
+            <img class="img-fluid mx-auto" src="/images/products/home/home-big.png" alt="Generic placeholder image">
         </div>
     </div>
 </div>
@@ -31,8 +31,36 @@
                 <h2 class="featurette-heading">{{content.home-phenomenon-title}}</h2>
                 <p class="lead">{{content.home-phenomenon-text}}
                 </p>
-                <img class="img-fluid mx-auto" src="{{content.home-phenomenon-image}}"
-                alt="Generic placeholder image">
+                <ul class="list-group list-group-horizontal">
+                    <li class="list-group-item phenomenon-icon"><img class="phenomenon-icon-img"
+                            src="/images/products/home/phenomenons/temperature.svg">{{content.phenomenon-temperatur}}
+                    </li>
+                    <li class="list-group-item phenomenon-icon"><img class="phenomenon-icon-img"
+                            src="/images/products/home/phenomenons/humidity.svg">{{content.phenomenon-humidity}}
+                    </li>
+                    <li class="list-group-item phenomenon-icon"><img class="phenomenon-icon-img"
+                            src="/images/products/home/phenomenons/pressure.svg">{{content.phenomenon-pressure}}
+                    </li>
+                    <li class="list-group-item phenomenon-icon"><img class="phenomenon-icon-img"
+                            src="/images/products/home/phenomenons/light.svg">{{content.phenomenon-light}}
+                    </li>
+                </ul>
+                <ul class="list-group list-group-horizontal">
+                    <li class="list-group-item phenomenon-icon"><img class="phenomenon-icon-img"
+                            src="/images/products/home/phenomenons/PM.svg">{{content.phenomenon-pm}}
+                    </li>
+                    <li class="list-group-item phenomenon-icon"><img class="phenomenon-icon-img"
+                            src="/images/products/home/phenomenons/IAQ.svg">{{content.phenomenon-iaq}}
+                    </li>
+                    <li class="list-group-item phenomenon-icon"><img class="phenomenon-icon-img"
+                            src="/images/products/home/phenomenons/sound.svg">{{content.phenomenon-sound}}
+                    </li>
+                    <li class="list-group-item phenomenon-icon"><img class="phenomenon-icon-img"
+                            src="/images/products/home/phenomenons/windspeed.svg">{{content.phenomenon-windspeed}}
+                    </li>
+                </ul>
+                <!-- <img class="img-fluid mx-auto" src="{{content.home-phenomenon-image}}"
+                alt="Generic placeholder image"> -->
             </div>
         </div>
     </div>
@@ -47,8 +75,20 @@
                 </h2>
                 <p class="lead">{{content.home-transmission-text}}
                 </p>
-                <img class="img-fluid mx-auto" src="/images/products/home/home-transmission-de.png"
-                alt="Generic placeholder image">
+                <ul class="list-group list-group-horizontal">
+                    <li class="list-group-item phenomenon-icon"><img class="phenomenon-icon-img"
+                            src="/images/products/home/phenomenons/Wifi.svg">{{content.phenomenon-wifi}}
+                    </li>
+                    <li class="list-group-item phenomenon-icon"><img class="phenomenon-icon-img"
+                            src="/images/products/home/phenomenons/Ethernet.svg">{{content.phenomenon-ethernet}}
+                    </li>
+                    <li class="list-group-item phenomenon-icon"><img class="phenomenon-icon-img"
+                            src="/images/products/home/phenomenons/LoRa.svg">{{content.phenomenon-lora}}
+                    </li>
+                    <li class="list-group-item phenomenon-icon"><img class="phenomenon-icon-img"
+                            src="/images/products/home/phenomenons/sd-card.svg">{{content.phenomenon-sd}}
+                    </li>
+                </ul>
             </div>
             <div class="col-md-5">
                 <img class="featurette-image img-fluid mx-auto" src="/images/products/home/bees.png"

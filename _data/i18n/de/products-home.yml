@@ -22,3 +22,17 @@ home-housing-text: "Die senseBox:home wird mit einem wetterfesten Gehäuse für 
 
 home-setup-title: "Zusammenbau"
 home-setup-text: "Die senseBox:home wird als Bausatz geliefert. Aber keine Sorge, der Aufbau kinderleicht und die Box muss nicht selbst programmiert werden."
+
+#Phenomenons
+phenomenon-temperatur: Temperatur
+phenomenon-humidity: rel. Luftfeuchtigkeit
+phenomenon-pressure: Luftdruck
+phenomenon-light: Helligeit & UV-Intensität
+phenomenon-pm: Feinstaub (PM10 & 2.5)
+phenomenon-iaq: IAQ
+phenomenon-sound: Lautstärke
+phenomenon-windspeed: Windgeschwindigkeit
+phenomenon-wifi: Wifi
+phenomenon-ethernet: Ethernet
+phenomenon-lora: LoRa
+phenomenon-sd: mSD-Karte

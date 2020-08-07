@@ -1,0 +1,22 @@
+mini-text: "The senseBox:mini is the starter set for the world of senseBox. It can be used to program a first measuring device in just a few minutes and transfer the data to the Internet. The station can be used for continuous measurement of indoor air quality and for a variety of innovative projects, such as an environmental data chatbot or an IoT alarm system."
+
+mini-list-title: "The senseBox:mini offers:"
+mini-list: "<li>An easy start</li>
+            <li>Many exciting projects</li>
+            <li>full senseBox compatibility and expandability</li>
+            <li>Possibility to measure indoor air quality</li>"
+
+mini-programming-title: "Easy Programming"
+mini-programming-text: "The senseBox is programmed using the graphic programming interface Blockly for senseBox. This offers blocks for all components and functions of the senseBox, from which a program can be assembled in no time at all - completely without working on the source code! The programming interface is freely available on the web, requires no software installation and therefore no maintenance."
+
+mini-projects-title: "Project"
+mini-projects-text: "With senseBox:mini, a wide range of projects from our portfolio can be realized. From the first beginner's projects to complex IoT projects such as an environmental data chatbot, you can find all projects free of charge in the projects section.
+The collection of material is constantly being revised and new projects are added, so it's worth taking a look at it from time to time."
+
+mini-content-title: "Content"
+mini-content-text: "The senseBox:mini offers everything you need to enter the world of Internet of Things (IoT). In addition to the senseBox:MCU, it contains the OLED display for visualization and the WiFi module for transferring data to the Internet. The senseBox:environmental sensor (BME680 from Bosch), which is also included, offers the possibility of measuring the following phenomena: "
+
+phenomenon-temperature: "Temperature"
+phenomenon-humidity: "Humidity"
+phenomenon-pressure: "Atmospheric pressure"
+phenomenon-IAQ: "Indoor-Airquality"

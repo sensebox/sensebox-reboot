@@ -1,0 +1,22 @@
+mini-text: "Die senseBox:mini ist das Einsteigerset in die Welt der senseBox. Mit ihr lässt sich in wenigen Minuten ein erstes Messgerät programmieren und die Daten ins Internet übertragen. Die Station kann zum dauerhaften Messen der Innenraumluftqualität sowie für eine Vielzahl von innovativen Projekten, wie einem Umweltdaten-Chatbot oder einer IoT-Alarmanlage, genutzt werden."
+
+mini-list-title: "Die senseBox:mini bietet:"
+mini-list: "<li>Einen einfachen Einstieg</li>
+            <li>Viele spannende Projekte</li>
+            <li>Volle senseBox Kompatibilität und Erweiterbarkeit</li>
+            <li>Möglichkeit zur Messung der Innenraumluftqualität</li>"
+
+mini-programming-title: "Kinderleichte Programmierung"
+mini-programming-text: "Programmiert wird die senseBox mithilfe der grafischen Programmieroberfläche Blockly für senseBox. Diese bietet Blöcke für alle Bauteile und Funktionen der senseBox an, aus denen sich ein Programm im Handumdrehen zusammenbauen lässt - komplett ohne Arbeit am Quellcode! Die Programmieroberfläche ist frei im Web verfügbar, benötigt keinerlei Softwareinstallation und somit auch keinerlei Wartung."
+
+mini-projects-title: "Projekte"
+mini-projects-text: "Mit der senseBox:mini lassen sich eine Vielzahl von Projekten aus unserem Portfolio umsetzen. Von ersten Einsteiger- bis hin zu komplexen IoT-Projekten wie einem Umweltdaten-Chatbot findest du alle Projekte kostenlos in der Projekte-Sektion.
+Die Materialsammlung wird fortlaufend überarbeitet und um neue Projekte ergänzt, es lohnt sich also immer mal wieder einen Blick darauf zu werfen."
+
+mini-content-title: "Inhalt"
+mini-content-text: "Die senseBox:mini bietet alles für den Einstieg in die Welt des Internet of Things (IoT). Sie enthält neben der senseBox:MCU das OLED-Display zum Visualisieren und das WiFi-Modul zum Übertragen von Daten ins Internet. Der ebenfalls enthaltene senseBox:Umweltsensor (BME680 von Bosch) bietet die Möglichkeit die folgenden Phänomene zu messen: "
+
+phenomenon-temperature: "Temperatur"
+phenomenon-humidity: "rel. Luftfeuchtigkeit"
+phenomenon-pressure: "Luftdruck"
+phenomenon-IAQ: "Innenraumluftqualität"

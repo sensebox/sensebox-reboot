@@ -5,7 +5,11 @@
 <body>
   {% include navbar.html %}
   {% include masthead.html %}
-  <div style="height: 8rem;"></div>
+  {% if page.id == "index" %}
+    <div class="paperlike" style="height: 6rem;"></div>
+  {% else %}
+    <div style="height: 6rem;"></div>
+  {% endif %}
   <div class="container-fluid">
     {{ content }}
   </div>

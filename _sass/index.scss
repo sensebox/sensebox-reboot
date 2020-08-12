@@ -115,7 +115,10 @@ li.timeline-item::before {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  //clip-path: polygon(100% 0%, 0% 0%, 0% 100%, 29% 96%, 74% 98%, 100% 95%);
+  padding-top: 135px; // height of navbar
+  padding-bottom: 2rem;
+  margin-bottom: -2rem;
+  // clip-path: polygon(100% 0%, 0% 0%, 0% 100%, 29% 96%, 74% 98%, 100% 95%);
 }
 
 .masthead-small{
@@ -126,6 +129,43 @@ li.timeline-item::before {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  padding-top: 135px; // height of navbar
+  padding-bottom: 2rem;
+  margin-bottom: -2rem;
+  clip-path: polygon(100% 0%, 0% 0%, 0% 100%, 29% 96%, 74% 98%, 100% 95%);
+
+  > .container-fluid > .row {
+    height: 100%;
+
+    > div {
+      height: 100%;
+    }
+  }
+}
+
+.masthead-text {
+  display: flex;
+  align-items: flex-end;
+  color: white;
+
+  > div {
+    padding-bottom: 2rem;
+    max-width: 100%;
+  }
+}
+
+.masthead-image {
+  // Medium devices (tablets, 768px and up)
+  @media (max-width: 768px) { 
+    display: none; 
+  }
+}
+
+.featurette {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
 }
 
 .center-item{

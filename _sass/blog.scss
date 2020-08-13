@@ -121,7 +121,7 @@ a {
 }
 .blog-content a.box_btn {
 	display: inline-block;
-	background-color: #669933;
+	background-color: $sensebox-green;
 	padding: 5px 15px;
 	color: #fff;
 	text-transform: capitalize;
@@ -132,7 +132,7 @@ a.box_btn::before {
 	content: "";
 	width: 100%;
 	height: 100%;
-	background-color:#669933;
+	background-color: $sensebox-green;
 	left: -100%;
 	top: 0;
 	-webkit-transition: .5s;

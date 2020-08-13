@@ -20,7 +20,7 @@ ul.timeline {
  /* Timeline vertical line */
 ul.timeline:before {
     content: ' ';
-    background: #669933;
+    background: $sensebox-green;
     display: inline-block;
     position: absolute;
     left: 16px;

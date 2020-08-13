@@ -88,7 +88,7 @@
   position: absolute;
   content:" ";
   width: 4px;
-  background: #669933;
+  background: $sensebox-green;
   left: 50%;
   margin-left: -1.5px;
 }
@@ -223,9 +223,9 @@
       clear: left;
   }
   ul.timeline-events > li > .timeline-panel {
-      width: calc(100% - 65px);
-      width: -moz-calc(100% - 65px);
-      width: -webkit-calc(100% - 65px);
+      width: calc(100% - 80px);
+      width: -moz-calc(100% - 80px);
+      width: -webkit-calc(100% - 80px);
   }
   ul.timeline-events > li > .timeline-badge {
       left: 28px;

@@ -1,25 +1,22 @@
 {% assign t = site.data.i18n.[page.lang].go-mini %}
-
-<div class="row row-padding">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-4">
-                <img src="/images/go/edu/blockly.png" class="img-responsive" style="width: inherit;">
-            </div>
-            <div class="col-8 text-center">
-                    <h1>{{t.blockly}}</h1>
-                    <p>{{t.blockly-text}}</p>
-                    
-                    <a href="{{t.blockly-link}}" class="btn btn-primary">{{t.blockly-button}}</a>
-               
-            </div>
+<div class="container">
+    <div class="row row-padding align-items-center">
+        <div class="col-4">
+            <img src="/images/go/edu/blockly.png" class="img-responsive" style="width: inherit;">
+        </div>
+        <div class="col-8 text-center">
+                <h1>{{t.blockly}}</h1>
+                <p>{{t.blockly-text}}</p>
+                
+                <a href="{{t.blockly-link}}" class="btn btn-primary">{{t.blockly-button}}</a>
+            
         </div>
     </div>
 </div>
 
-<div class="row row-padding" style="background-color: whitesmoke;">
+<div class="container-fluid" style="background-color: whitesmoke;">
     <div class="container">
-        <div class="row align-items-center">
+        <div class="row row-padding align-items-center">
             <div class="col-8 text-center">
                 <h1>{{t.arduino}}</h1>
                 <p>{{t.arduino-text}}</p>
@@ -32,26 +29,24 @@
     </div>
 </div>
 
-<div class="row row-padding">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-4">
-                <img src="/images/go/edu/material.png" class="img-responsive" style="width: inherit;">
-            </div>
-            <div class="col-8 text-center">
-                <h1>{{t.material}}</h1>
-                <p>{{t.material.text}}
-                </p>
-                <a href="{{t.material-link-material}}" class="btn btn-primary">{{t.material-button-material}}</a>
-                <a href="{{t.material-link-projects}}" class="btn btn-primary">{{t.material-button-projects}}</a>
-            </div>
+<div class="container">
+    <div class="row row-padding align-items-center">
+        <div class="col-4">
+            <img src="/images/go/edu/material.png" class="img-responsive" style="width: inherit;">
+        </div>
+        <div class="col-8 text-center">
+            <h1>{{t.material}}</h1>
+            <p>{{t.material.text}}
+            </p>
+            <a href="{{t.material-link-material}}" class="btn btn-primary">{{t.material-button-material}}</a>
+            <a href="{{t.material-link-projects}}" class="btn btn-primary">{{t.material-button-projects}}</a>
         </div>
     </div>
 </div>
 
-<div class="row row-padding" style="background-color: whitesmoke;">
+<div class="container-fluid" style="background-color: whitesmoke;">
     <div class="container">
-        <div class="row align-items-center">
+        <div class="row row-padding align-items-center">
             <div class="col-8 text-center">
                 <h1>{{t.help}}</h1>
                 <p>{{t.help-text}}</p>

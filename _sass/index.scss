@@ -62,15 +62,20 @@ li.timeline-item::before {
 /*
 *
 * ==========================================
-* Pertner Section
+* Partner Section
 * ==========================================
 *
 */
 
 .partner {
   clip-path: polygon(25% 22%, 80% 8%, 100% 20%, 100% 80%, 68% 77%, 25% 86%, 0% 80%, 0% 20%);
+
+  @media (max-width: $breakpoint-tablet) {
+    clip-path: polygon(14% 15%, 67% 7%, 99% 14%, 100% 85%, 59% 90%, 25% 86%, 0% 90%, 0% 15%);
+  }
+
   background-color: white;
-  padding: 60px;
+  padding: 80px;
     ul {
       display: flex;
       flex-wrap: wrap;

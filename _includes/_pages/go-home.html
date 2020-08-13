@@ -1,26 +1,23 @@
 {% assign t = site.data.i18n.[page.lang].go-home %}
+<div class="container">
+    <div class="row row-padding align-items-center">
+        <div class="col-4">
+            <img src="/images/go/home/aufbau.png" class="img-responsive" style="width: inherit;">
+        </div>
+        <div class="col-8 text-center">
+            <h1>{{t.setup}}</h1>
 
-<div class="row row-padding">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-4">
-                <img src="/images/go/home/aufbau.png" class="img-responsive" style="width: inherit;">
-            </div>
-            <div class="col-8 text-center">
-                <h1>{{t.setup}}</h1>
+            <p>{{t.setup-text}}.</p>
 
-                <p>{{t.setup-text}}.</p>
+            <a href="{{t.setup-link}}" class="btn btn-primary">{{t.setup-button}}</a>
 
-                <a href="{{t.setup-link}}" class="btn btn-primary">{{t.setup-button}}</a>
-
-            </div>
         </div>
     </div>
 </div>
 
-<div class="row row-padding " style="background-color: whitesmoke;">
+<div class="container-fluid" style="background-color: whitesmoke;">
     <div class="container">
-        <div class="row align-items-center">
+        <div class="row row-padding align-items-center">
             <div class="col-8 text-center">
                 <h1>{{t.components}}</h1>
                 <p>{{t.components-text}}</p>
@@ -33,19 +30,17 @@
     </div>
 </div>
 
-<div class="row row-padding ">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-4">
-                <img src="/images/go/home/hilfe.png" class="img-responsive" style="width: inherit;">
-            </div>
-            <div class="col-8 text-center">
-                <h1>{{t.help}}</h1>
-                <p>{{t.help-text}}</p>
-                <a target="_blank" href="{{t.help-link-mail}}" class="btn btn-primary">{{t.help-button-mail}}</a>
-                <a target="_blank" href="{{t.help-link-forum}}" class="btn btn-primary">{{t.help-button-forum}}</a>
-                <a target="_blank" href="{{t.help-link-FAQ}}" class="btn btn-primary">{{t.help-button-FAQ}}</a>
-            </div>
+<div class="container">
+    <div class="row row-padding align-items-center">
+        <div class="col-4">
+            <img src="/images/go/home/hilfe.png" class="img-responsive" style="width: inherit;">
+        </div>
+        <div class="col-8 text-center">
+            <h1>{{t.help}}</h1>
+            <p>{{t.help-text}}</p>
+            <a target="_blank" href="{{t.help-link-mail}}" class="btn btn-primary">{{t.help-button-mail}}</a>
+            <a target="_blank" href="{{t.help-link-forum}}" class="btn btn-primary">{{t.help-button-forum}}</a>
+            <a target="_blank" href="{{t.help-link-FAQ}}" class="btn btn-primary">{{t.help-button-FAQ}}</a>
         </div>
     </div>
 </div>

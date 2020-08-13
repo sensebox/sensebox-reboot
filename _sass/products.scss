@@ -60,8 +60,25 @@ border: none;
 }
  
 .phenomenon-icon-img{
-  width: 40px;
-  height: 40px;
+  width: 80px;
+  height: 80px;
+}
+
+.circle-white {
+  display: inline-block;
+  border-radius: 100%;
+  //box-shadow: 0px 0px 2px #888;
+  padding: 0.5em 1.4em;
+  background: white
+
+}
+.circle-grey {
+  display: inline-block;
+  border-radius: 100%;
+  //box-shadow: 0px 0px 2px #888;
+  padding: 0.5em 1.4em;
+  background: whitesmoke
+
 }
 
 

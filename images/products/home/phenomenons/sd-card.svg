@@ -1,1 +1,62 @@
-<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="sd-card" class="svg-inline--fa fa-sd-card fa-w-12" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M320 0H128L0 128v320c0 35.3 28.7 64 64 64h256c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64zM160 160h-48V64h48v96zm80 0h-48V64h48v96zm80 0h-48V64h48v96z"></path></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4f, 2020-05-01)"
+   height="512"
+   width="512"
+   sodipodi:docname="sd-card.svg"
+   id="svg835"
+   version="1.1"
+   viewBox="0 0 512 512"
+   role="img"
+   class="svg-inline--fa fa-sd-card fa-w-12"
+   data-icon="sd-card"
+   data-prefix="fas"
+   focusable="false"
+   aria-hidden="true">
+  <metadata
+     id="metadata841">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs839" />
+  <sodipodi:namedview
+     inkscape:current-layer="svg835"
+     inkscape:window-maximized="0"
+     inkscape:window-y="23"
+     inkscape:window-x="0"
+     inkscape:cy="193.81061"
+     inkscape:cx="94.461244"
+     inkscape:zoom="0.74404969"
+     inkscape:pagecheckerboard="false"
+     showgrid="false"
+     id="namedview837"
+     inkscape:window-height="862"
+     inkscape:window-width="1294"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff" />
+  <path
+     id="path833"
+     d="m 389.88781,5.375985 h -192 L 69.887806,133.37599 v 320 c 0,35.3 28.7,64 64.000004,64 h 256 c 35.3,0 64,-28.7 64,-64 V 69.375985 c 0,-35.3 -28.7,-64 -64,-64 z m -160,160.000005 h -48 V 69.375985 h 48 z m 80,0 h -48 V 69.375985 h 48 z m 80,0 h -48 V 69.375985 h 48 z"
+     fill="currentColor" />
+</svg>

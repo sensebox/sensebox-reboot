@@ -124,6 +124,35 @@ li.timeline-item::before {
   padding-bottom: 2rem;
   margin-bottom: -3rem;
   clip-path: polygon(100% 0%, 0% 0%, 0% 100%, 29% 96%, 74% 98%, 100% 95%);
+  
+  .container {
+    position: relative;
+
+    .masthead-text {
+      position: absolute;
+      left: 0;
+      bottom: 2rem;
+
+      max-width: 50%;
+      @media (max-width: $breakpoint-laptop) {
+        max-width: 100%;
+      }
+
+      .heading {
+        @media (max-width: $breakpoint-mobile) {
+          font-size: 2.5rem;
+        }
+      }
+    }
+  }
+
+  > .container-fluid > .row {
+    height: 100%;
+
+    > div {
+      height: 100%;
+    }
+  }
 }
 
 .masthead-small{
@@ -163,6 +192,59 @@ li.timeline-item::before {
   // Medium devices (tablets, 768px and up)
   @media (max-width: 768px) { 
     display: none; 
+  }
+}
+
+.masthead-image-1 {
+  position: absolute;
+  left: 0;
+  top: -2rem;
+
+  // Small devices
+  @media (max-width: $breakpoint-mobile) { 
+    display: none; 
+  }
+
+  @media (max-height: 1500px) { 
+    display: none; 
+  }
+}
+
+.masthead-image-2 {
+  position: absolute;
+  right: -2rem;
+  top: 2rem;
+
+  // Medium devices (tablets, 768px and up)
+  @media (max-width: $breakpoint-tablet) { 
+    display: none; 
+  }
+  @media (min-width: $breakpoint-tablet) { 
+    top: -2rem; 
+  }
+
+  @media (max-height: 1300px) and (max-width: $breakpoint-laptop) { 
+    display: none; 
+  }
+}
+
+.masthead-image-3 {
+  position: absolute;
+  right: 20%;
+
+  // Medium devices (tablets, 768px and up)
+  @media (max-width: $breakpoint-laptop) { 
+    display: none; 
+  }
+
+  @media (max-height: 1350px) { 
+    display: none; 
+  }
+
+  .masthead-pic {
+    height: 60%;
+    max-height: 280px;
+    width: auto;
   }
 }
 

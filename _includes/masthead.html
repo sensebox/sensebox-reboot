@@ -3,11 +3,35 @@
 
 <!-- Full Page Image Header with Vertically Centered Content -->
 <header class="masthead">
-    <div class="container-fluid h-100">
-        <div class="row h-100 align-item-flex-end">
-            <div class="col-lg-4 text-center masthead-text">
-                <h1>{{t.title-claim}}</h1>
+    <div class="container h-100 center-item">
+        <div class="row align-item-center">
+            <div class="col masthead-text">
+                <h1 class="heading">{{t.title-claim}}</h1>
             </div>
+            {% if page.thumbnail %}
+            <div class="masthead-image-1">
+                    <!-- <img class="rounded-circle" src="/images/index/osem.png" height="200px"> -->
+                {% assign image_url = page.thumbnail %}
+                <img class="masthead-pic" src="{{ site.baseurl  | append: image_url }}"
+                    alt="{{ page.title }} - Logo" />
+            </div>
+            {% endif %}
+            {% if page.thumbnail2 %}
+            <div class="masthead-image-2">
+                    <!-- <img class="rounded-circle" src="/images/index/osem.png" height="200px"> -->
+                {% assign image_url = page.thumbnail2 %}
+                <img class="masthead-pic" src="{{ site.baseurl  | append: image_url }}"
+                    alt="{{ page.title }} - Logo" />
+            </div>
+            {% endif %}
+            {% if page.thumbnail3 %}
+            <div class="masthead-image-3">
+                    <!-- <img class="rounded-circle" src="/images/index/osem.png" height="200px"> -->
+                {% assign image_url = page.thumbnail3 %}
+                <img class="masthead-pic" src="{{ site.baseurl  | append: image_url }}"
+                    alt="{{ page.title }} - Logo" />
+            </div>
+            {% endif %}
         </div>
     </div>
 </header>
@@ -42,7 +66,6 @@
             </div>
             {% endif %}
         </div>
-    </div>
     </div>
 </header>
 

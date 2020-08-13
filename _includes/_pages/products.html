@@ -1,68 +1,66 @@
 {% assign content = site.data.i18n.[page.lang].products %}
-<!-- 
-    
-<div class="row">
-    <h1>{{content.sensebox-overview}}</h1>
-</div>
-<div class="row row-padding">
-    <div class="col-lg-4">
-        <img class="rounded-circle" src="/images/products/home_title.png" alt="Generic placeholder image"
-            width="100%" height="auto">
-        <h2>senseBox:home</h2>
-        <p>{{content.sensebox-overview-home}}</p>
-        <p><a class="btn btn-secondary" href="products-home.html"
-                role="button">{{ content.sensebox-overview-button }}</a></p>
+<div class="container">
+    <!-- 
+        
+    <div class="row">
+        <h1>{{content.sensebox-overview}}</h1>
     </div>
-    <div class="col-lg-4">
-        <img class="rounded-circle" src="/images/products/edu_title.png" alt="Generic placeholder image"
-            width="100%" height="auto">
-        <h2>senseBox:edu</h2>
-        <p>{{content.sensebox-overview-edu}}</p>
-        <p><a class="btn btn-secondary" href="/products-edu.html"
-                role="button">{{ content.sensebox-overview-button }}</a></p>
-    </div>
-    <div class="col-lg-4">
-        <img class="rounded-circle" src="/images/products/mini_title-2.png" alt="Generic placeholder image"
-            width="100%" height="auto">
-        <h2>senseBox:mini</h2>
-        <p>{{content.sensebox-overview-mini}}</p>
-        <p><a class="btn btn-secondary" href="products-mini.html"
-                role="button">{{ content.sensebox-overview-button }}</a></p>
-    </div>
-</div>
-</div>
-</div>
-
-<hr class="featurette-divider"> -->
-
-<div class="row row-padding">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-7">
-                <h2 class="featurette-heading">senseBox:edu</h2>
-                <p class="lead">{{content.sensebox-edu-text}}
-                </p>
-                <p><a class="btn btn-secondary" href="/products-edu.html"
+    <div class="row row-padding">
+        <div class="col-lg-4">
+            <img class="rounded-circle" src="/images/products/home_title.png" alt="Generic placeholder image"
+                width="100%" height="auto">
+            <h2>senseBox:home</h2>
+            <p>{{content.sensebox-overview-home}}</p>
+            <p><a class="btn btn-secondary" href="products-home.html"
                     role="button">{{ content.sensebox-overview-button }}</a></p>
-            </div>
-            <div class="col-md-5">
-                <img class="featurette-image img-fluid mx-auto" src="/images/products/edu-2.png"
-                    alt="Generic placeholder image">
-            </div>
+        </div>
+        <div class="col-lg-4">
+            <img class="rounded-circle" src="/images/products/edu_title.png" alt="Generic placeholder image"
+                width="100%" height="auto">
+            <h2>senseBox:edu</h2>
+            <p>{{content.sensebox-overview-edu}}</p>
+            <p><a class="btn btn-secondary" href="/products-edu.html"
+                    role="button">{{ content.sensebox-overview-button }}</a></p>
+        </div>
+        <div class="col-lg-4">
+            <img class="rounded-circle" src="/images/products/mini_title-2.png" alt="Generic placeholder image"
+                width="100%" height="auto">
+            <h2>senseBox:mini</h2>
+            <p>{{content.sensebox-overview-mini}}</p>
+            <p><a class="btn btn-secondary" href="products-mini.html"
+                    role="button">{{ content.sensebox-overview-button }}</a></p>
+        </div>
+    </div>
+    </div>
+    </div>
+    
+    <hr class="featurette-divider"> -->
+
+    <div class="row row-padding featurette">
+        <div class="col-md-7">
+            <h2 class="featurette-heading">senseBox:edu</h2>
+            <p class="lead">{{content.sensebox-edu-text}}
+            </p>
+            <p><a class="btn btn-secondary" href="/products-edu.html"
+                    role="button">{{ content.sensebox-overview-button }}</a></p>
+        </div>
+        <div class="col-md-5">
+            <img class="featurette-image img-fluid mx-auto" src="/images/products/edu-2.png"
+                alt="Generic placeholder image">
         </div>
     </div>
 </div>
 
 
-<div class="row row-padding" style="background-color: whitesmoke;">
+<div style="background-color: whitesmoke;">
     <div class="container">
-        <div class="row">
+        <div class="row row-padding featurette">
             <div class="col-md-7 order-md-2">
                 <h2 class="featurette-heading">senseBox:home</h2>
                 <p class="lead">{{content.sensebox-home-text}}
                 </p>
                 <p><a class="btn btn-secondary" href="products-home.html"
-                    role="button">{{ content.sensebox-overview-button }}</a></p>
+                        role="button">{{ content.sensebox-overview-button }}</a></p>
             </div>
             <div class="col-md-5 order-md-1">
                 <img class="featurette-image img-fluid mx-auto" src="/images/products/home-2.png"
@@ -72,44 +70,42 @@
     </div>
 </div>
 
-<div class="row featurette">
-    <div class="container">
-        <div class="row row-padding">
-            <div class="col-md-7">
-                <h2 class="featurette-heading">senseBox:mini</h2>
-                <p class="lead">{{content.sensebox-mini-text}}</p>
-                <p><a class="btn btn-secondary" href="products-mini.html"
+<div class="container">
+    <div class="row row-padding featurette">
+        <div class="col-md-7">
+            <h2 class="featurette-heading">senseBox:mini</h2>
+            <p class="lead">{{content.sensebox-mini-text}}</p>
+            <p><a class="btn btn-secondary" href="products-mini.html"
                     role="button">{{ content.sensebox-overview-button }}</a></p>
-            </div>
-            <div class="col-md-5">
-                <img class="featurette-image img-fluid mx-auto" src="/images/products/mini.png"
-                    alt="Generic placeholder image">
-            </div>
+        </div>
+        <div class="col-md-5">
+            <img class="featurette-image img-fluid mx-auto" src="/images/products/mini.png"
+                alt="Generic placeholder image">
         </div>
     </div>
 </div>
 
 
 
-<div class="row row-padding" style="background-color: whitesmoke;">
+<div style="background-color: whitesmoke;">
     <div class="container">
-        <div class="row">
+        <div class="row row-padding featurette">
             <div class="col-lg-12">
                 <h1 style="text-align: center;">{{content.which-sensebox}}</h1>
             </div>
             <div class="col-lg-12">
                 <h2 style="text-align: center;">{{content.i-want}}</h2>
             </div>
-    
-                              
-       <div class="col-md-4">
+
+
+            <div class="col-md-4">
                 <div class="card polygon-1" style="width: auto;">
                     <img src="/images/products/home_title.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">senseBox:home</h5>
                         <p class="card-text">
                         <ul>
-                          {{content.home-list}}
+                            {{content.home-list}}
                         </ul>
                         </p>
                         <a href="products-home.html" class="btn btn-success">{{content.button}}</a>
@@ -139,7 +135,7 @@
                         <h5 class="card-title">senseBox:edu</h5>
                         <p class="card-text">
                         <ul>
-                           {{content.edu-list}}
+                            {{content.edu-list}}
                         </ul>
                         </p>
                         <a href="products-edu.html" class="btn btn-success">{{content.button}}</a>

@@ -38,6 +38,29 @@
 
 <div class="paperlike" style="height: 6rem;"></div>
 
+{% elsif page.id == "products-sensoren" %}
+
+<!-- Full Page Image Header with Vertically Centered Content -->
+<header class="masthead-small">
+    <div class="container-fluid h-100 center-item">
+        <div class="sensor-grid">
+            <h1>Sensoren</h1>
+            {% for image in site.static_files %}
+                {% if image.path contains 'images/products/sensors' %}
+                    <img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
+                {% endif %}
+            {% endfor %}
+            {% for image in site.static_files %}
+                {% if image.path contains 'images/products/sensors' %}
+                    <img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
+                {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+</header>
+
+<div style="height: 6rem;"></div>
+
 {% else %}
 
 <!-- Full Page Image Header with Vertically Centered Content -->

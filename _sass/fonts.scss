@@ -42,6 +42,12 @@ h1, h2, h3, h4, h5, h6{
 }
 
 
+p, ul > li:not(.list-group-item):not(.nav-item) {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+
 /**
  * Icons
  */

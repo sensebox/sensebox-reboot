@@ -105,6 +105,7 @@ li.timeline-item::before {
 .paperlike{
   background-image: url("../images/elements/ODRAJ80.png");
   background-repeat: repeat;
+  padding-bottom: 4rem;
 }
 
 .polygon-1{
@@ -257,6 +258,33 @@ li.timeline-item::before {
 
 .center-item{
   justify-content: center;
-    align-items: center;
-    display: flex;
+  align-items: center;
+  display: flex;
+}
+
+div.container {
+  > :first-child {
+    padding-top: 2rem; 
+  }
+
+  > div {
+    padding-bottom: 4rem;
+  }
+}
+
+.section {
+  padding-bottom: 4rem;
+  padding-top: 4rem;
+}
+
+.software-card {
+  width: 100%;
+  padding: 2rem;
+  clip-path: polygon(89% 1%, 8% 3%, 0% 7%, 0% 49%, 0% 100%, 25% 98%, 85% 98%, 100% 96%, 100% 89%, 100% 74%, 100% 42%, 100% 0%);
+  transition: 100ms;
+
+  &:hover {
+    clip-path: polygon(73% 1%, 8% 2%, 0% 1%, 0% 61%, 0% 96%, 25% 98%, 85% 98%, 100% 100%, 100% 89%, 100% 81%, 100% 5%, 97% 0%)
+  }
+
 }

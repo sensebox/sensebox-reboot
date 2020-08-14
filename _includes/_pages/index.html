@@ -18,12 +18,12 @@
                 </div>
             </div>
         </div>
-        <div class="row row-padding">
+        <div class="row row-padding align-items-center">
             <div class="col-md-6">
                 <h1><mark>
                         {{content.sensebox-head}}
                     </mark></h1>
-                <p>
+                <p class="lead">
                     {{content.sensebox-short-description}}
                 </p>
             </div>
@@ -52,6 +52,8 @@
             </div>
         </div>
 
+        <!-- just a spacer -->
+        <div style="padding-top: 2rem;"></div> 
 
         <h1>{{content.sensebox-overview}}</h1>
         <div class="row row-padding">
@@ -83,12 +85,11 @@
     </div>
 </div>
 
-<div style="background-color: rgb( 58, 176, 232);">
+<div class="section" style="background-color: rgb( 58, 176, 232);">
     <div class="container">
         <div class="row row-padding">
-            <div class="col-md-6" style="padding: 20px">
-                <div class="card"
-                    style="width: 100%; padding: 20px; clip-path: polygon(92% 1%, 18% 4%, 0% 7%, 0% 49%, 0% 100%, 25% 98%, 85% 98%, 100% 96%, 100% 89%, 100% 74%, 100% 42%, 100% 0%);">
+            <div class="col-md-6" style="padding: 2rem">
+                <div class="card software-card">
                     <img class="card-img-top" style="padding: 10px;" src="/images/index/blockly.png"
                         alt="Card image cap">
                     <div class="card-body">
@@ -102,8 +103,7 @@
                 </div>
             </div>
             <div class="col-md-6">
-                <div class="card"
-                    style="width: 100%; padding: 20px; clip-path: polygon(92% 1%, 18% 4%, 0% 7%, 0% 49%, 0% 100%, 25% 98%, 85% 98%, 100% 96%, 100% 89%, 100% 74%, 100% 42%, 100% 0%);">
+                <div class="card software-card">
                     <img class="card-img-top" style="padding: 10px;" src="/images/index/osem.png" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title"><mark
@@ -119,9 +119,7 @@
     </div>
 </div>
 
-<hr class="featurette-divider">
-
-<div class="container">
+<div class="container section">
     {% assign news = site.data.i18n.[page.lang].news %}
     <h1><mark style="background-color: yellow;">{{content.news-head}}</mark></h1>
     <div class="row row-padding">
@@ -143,7 +141,7 @@
     </div>
 </div>
 
-<div style="background-color: rgb(67, 162, 56);">
+<div class="section" style="background-color: rgb(67, 162, 56);">
     <div class="container">
         <div class="row row-padding">
             <div class="col-md-6">
@@ -210,7 +208,7 @@
 </div>
 </div>
 
-<div style="background-color: rgb(238,238,238);">
+<div class="section" style="background-color: rgb(238,238,238);">
     <div class="container">
         <br>
         <h1>Partner</h1>
@@ -239,7 +237,7 @@
     </div>
 </div>
 
-<div class="container">
+<div class="container section">
     <div class="row row-padding">
         <div class="col-lg-4">
             <img src="/images/awards/BMBF_CMYK_Gef_L.png" class="img-fluid" alt="...">

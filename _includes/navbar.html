@@ -1,7 +1,13 @@
 {% assign navbar-items = site.data.i18n.[page.lang].navbar %}
 <nav class="navbar navbar-expand-xl">
-    <a class="navbar-brand" href="/"><img src="/images/logos/sensebox_wort_logo.svg" class="d-inline-block align-top"
+    {% if page.lang == 'de' %}
+        <a class="navbar-brand" href="{{ site.baseurl }}/"><img src="/images/logos/sensebox_wort_logo.svg" class="d-inline-block align-top"
+                alt=""></a>
+    {% else %}
+        <a class="navbar-brand" href="{{ site.baseurl }}/{{ page.lang }}"><img src="/images/logos/sensebox_wort_logo.svg" class="d-inline-block align-top"
             alt=""></a>
+    {% endif %}
+
     <button type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent"
         aria-expanded="false" aria-label="Toggle navigation" class="navbar-dark navbar-toggler">
         <span class="navbar-toggler-icon"></span>

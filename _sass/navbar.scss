@@ -5,6 +5,7 @@
     right: 0;
   }
   padding: 0;
+  z-index: 1;
 }
 
 .navbar-brand {
@@ -18,6 +19,7 @@
   background-color: white;
 
   > img {
+    min-width: 300px;
     width: 100%;
     height: 4.5rem;
   }
@@ -65,12 +67,15 @@
 
 .active {
   > .nav-link {
-    color: #669933 !important;
+    color: $sensebox-green !important;
   }
 }
 
 .heading {
-  font-size: 4rem;
+  font-size: 3.5rem;
+  @media (max-width: $breakpoint-laptop) {
+    font-size: 4rem;
+  }
   color: white;
 }
 

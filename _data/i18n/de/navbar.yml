@@ -20,8 +20,8 @@ products-edu-name: ":edu"
 products-edu-link: /products-edu.html
 products-mini-name: ":mini"
 products-mini-link: /products-mini.html
-products-sensoren-name: ":sensoren"
-products-sensoren-link: /products-sensoren.html
+products-parts-name: ":bauteile"
+products-parts-link: /products-parts.html
 editoren-name: "Editoren"
 editoren-link: /editoren.html
 blockly-name: "Blockly für senseBox"

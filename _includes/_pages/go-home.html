@@ -1,30 +1,27 @@
 {% assign t = site.data.i18n.[page.lang].go-home %}
+<div class="container">
+    <div class="row row-padding align-items-center">
+        <div class="col-4">
+            <img src="/images/go/home/aufbau.png" class="img-responsive" style="width: inherit;">
+        </div>
+        <div class="col-8 text-center">
+            <h1>{{t.setup}}</h1>
 
-<div class="row row-padding">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-4">
-                <img src="/images/go/home/aufbau.png" class="img-responsive" style="width: inherit;">
-            </div>
-            <div class="col-8 text-center">
-                <h1>{{t.setup}}</h1>
+            <p>{{t.setup-text}}.</p>
 
-                <p>{{t.setup-text}}.</p>
+            <a href="{{t.setup-link}}" class="btn btn-sensebox-green">{{t.setup-button}}</a>
 
-                <a href="{{t.setup-link}}" class="btn btn-primary">{{t.setup-button}}</a>
-
-            </div>
         </div>
     </div>
 </div>
 
-<div class="row row-padding " style="background-color: whitesmoke;">
+<div style="background-color: whitesmoke;">
     <div class="container">
-        <div class="row align-items-center">
+        <div class="row row-padding align-items-center">
             <div class="col-8 text-center">
                 <h1>{{t.components}}</h1>
                 <p>{{t.components-text}}</p>
-                <a href="{{t.components-link}}" class="btn btn-primary">{{t.components-button}}</a>
+                <a href="{{t.components-link}}" class="btn btn-sensebox-green">{{t.components-button}}</a>
             </div>
             <div class="col-4" style="background-color: whitesmoke;">
                 <img src="/images/go/home/hardware.png" class="img-responsive" style="width: inherit;">
@@ -33,55 +30,17 @@
     </div>
 </div>
 
-<div class="row row-padding ">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-4">
-                <img src="/images/go/home/hilfe.png" class="img-responsive" style="width: inherit;">
-            </div>
-            <div class="col-8 text-center">
-                <h1>{{t.help}}</h1>
-                <p>{{t.help-text}}</p>
-                <a target="_blank" href="{{t.help-link-mail}}" class="btn btn-primary">{{t.help-button-mail}}</a>
-                <a target="_blank" href="{{t.help-link-forum}}" class="btn btn-primary">{{t.help-button-forum}}</a>
-                <a target="_blank" href="{{t.help-link-FAQ}}" class="btn btn-primary">{{t.help-button-FAQ}}</a>
-            </div>
+<div class="container">
+    <div class="row row-padding align-items-center">
+        <div class="col-4">
+            <img src="/images/go/home/hilfe.png" class="img-responsive" style="width: inherit;">
+        </div>
+        <div class="col-8 text-center">
+            <h1>{{t.help}}</h1>
+            <p>{{t.help-text}}</p>
+            <a target="_blank" href="{{t.help-link-mail}}" class="btn btn-sensebox-green">{{t.help-button-mail}}</a>
+            <a target="_blank" href="{{t.help-link-forum}}" class="btn btn-sensebox-green">{{t.help-button-forum}}</a>
+            <a target="_blank" href="{{t.help-link-FAQ}}" class="btn btn-sensebox-green">{{t.help-button-FAQ}}</a>
         </div>
     </div>
 </div>
-
-<!-- 
-
-<div class="row bg-1 text-center">
-
-    <img src="/images/go/home/construct.png" class="img-responsive center" width="5%">
-
-
-    <a target="_blank" <a target="_blank" href="https://docs.sensebox.de/sensebox-home/home-schritt-1/"
-        class="btn btn-primary btn-lg">Los gehts! »</a>
-    <h1>{{t.components}}</h1>
-    <li><a target="_blank" <p>{{t.components-text}}</p>
-            href={{ "https://sensebox.github.io/books-v2/home/" | append: page.lang | append: "/erste-schritte/registrierung-auf-der-openSenseMap.html" }}>{{t.osem-reg}}</a>
-        <a target="_blank" href="https://docs.sensebox.de/category/hardware/"
-            class="btn btn-primary btn-lg">Informationen
-            »</a>
-    </li>
-</div>
-</ol>
-<hr class="featurette-divider">
-</div>
-<div class="container-fluid bg-3 text-center">
-</div> <img src="/images/go/home/help.png" class="img-responsive center" width="5%">
-<h1>{{t.help}}</h1>
-<p>{{t.help-text}}</p>
-
-<hr class="featurette-divider">
-
-<div class=" ut-item"> <a target="_blank" href="https://forum.sensebox.de/" class="btn btn-primary btn-lg">Forum »</a>
-    <div class="ut-item-head"> <a target="_blank" href="mailto:support@sensebox.de" class="btn btn-primary btn-lg">Email
-            »</a>
-        <h1>{{t.components}}</h1> <a target="_blank" href="https://docs.sensebox.de/faq/"
-            class="btn btn-primary btn-lg">FAQ »</a>
-        <p>{{t.components-text}}</p>
-    </div>
-</div> -->

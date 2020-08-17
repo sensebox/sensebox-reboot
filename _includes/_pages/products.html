@@ -1,32 +1,31 @@
 {% assign content = site.data.i18n.[page.lang].products %}
 
-<div class="row row-padding">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-7">
-                <h2 class="featurette-heading">senseBox:edu</h2>
-                <p class="lead">{{content.sensebox-edu-text}}
-                </p>
-                <p><a class="btn btn-sensebox-red" href="{{site.baseurl }}/{{ page.lang }}/products-edu.html"
-                        role="button">{{ content.sensebox-overview-button }}</a></p>
-            </div>
-            <div class="col-md-5">
-                <img class="featurette-image img-fluid mx-auto" src="/images/products/edu-2.png"
-                    alt="Generic placeholder image">
-            </div>
+<div class="container">
+
+    <div class="row row-padding featurette">
+        <div class="col-md-7">
+            <h2 class="featurette-heading">senseBox:edu</h2>
+            <p class="lead">{{content.sensebox-edu-text}}
+            </p>
+            <p><a class="btn btn-sensebox-red" href="{{page.baseurl}}/{{page.lang}}/products-edu.html"
+                    role="button">{{ content.sensebox-overview-button }}</a></p>
+        </div>
+        <div class="col-md-5">
+            <img class="featurette-image img-fluid mx-auto" src="/images/products/edu-2.png"
+                alt="Generic placeholder image">
         </div>
     </div>
 </div>
 
 
-<div class="row row-padding" style="background-color: whitesmoke;">
+<div style="background-color: whitesmoke;">
     <div class="container">
-        <div class="row">
+        <div class="row row-padding featurette">
             <div class="col-md-7 order-md-2">
                 <h2 class="featurette-heading">senseBox:home</h2>
                 <p class="lead">{{content.sensebox-home-text}}
                 </p>
-                <p><a class="btn btn-sensebox-blue" href="{{site.baseurl }}/{{ page.lang }}/products-home.html"
+                <p><a class="btn btn-sensebox-blue" href="{{ page.baseurl }}/{{ page.lang }}/products-home.html"
                         role="button">{{ content.sensebox-overview-button }}</a></p>
             </div>
             <div class="col-md-5 order-md-1">
@@ -37,28 +36,26 @@
     </div>
 </div>
 
-<div class="row featurette">
-    <div class="container">
-        <div class="row row-padding">
-            <div class="col-md-7">
-                <h2 class="featurette-heading">senseBox:mini</h2>
-                <p class="lead">{{content.sensebox-mini-text}}</p>
-                <p><a class="btn btn-sensebox-green" href="{{site.baseurl }}/{{ page.lang }}/products-mini.html"
-                        role="button">{{ content.sensebox-overview-button }}</a></p>
-            </div>
-            <div class="col-md-5">
-                <img class="featurette-image img-fluid mx-auto" src="/images/products/mini.png"
-                    alt="Generic placeholder image">
-            </div>
+<div class="container">
+    <div class="row row-padding featurette">
+        <div class="col-md-7">
+            <h2 class="featurette-heading">senseBox:mini</h2>
+            <p class="lead">{{content.sensebox-mini-text}}</p>
+            <p><a class="btn btn-sensebox-green" href="{{page.baseurl}}/{{page.lang}}/products-mini.html"
+                    role="button">{{ content.sensebox-overview-button }}</a></p>
+        </div>
+        <div class="col-md-5">
+            <img class="featurette-image img-fluid mx-auto" src="/images/products/mini.png"
+                alt="Generic placeholder image">
         </div>
     </div>
 </div>
 
 
 
-<div class="row row-padding" style="background-color: whitesmoke;">
+<div style="background-color: whitesmoke;">
     <div class="container">
-        <div class="row">
+        <div class="row row-padding featurette">
             <div class="col-lg-12">
                 <h1 style="text-align: center;">{{content.which-sensebox}}</h1>
             </div>
@@ -77,7 +74,7 @@
                             {{content.home-list}}
                         </ul>
                         </p>
-                        <a href="products-home.html" class="btn btn-sensebox-blue">{{content.button}}</a>
+                        <a href="{{page.baseurl}}/{{page.lang}}/products-home.html" class="btn btn-sensebox-blue">{{content.button}}</a>
                     </div>
                 </div>
             </div>
@@ -92,7 +89,7 @@
                             {{content.mini-list}}
                         </ul>
                         </p>
-                        <a href="products-mini.html" class="btn btn-sensebox-green">{{content.button}}</a>
+                        <a href="{{page.baseurl}}/{{page.lang}}/products-mini.html" class="btn btn-sensebox-green">{{content.button}}</a>
                     </div>
                 </div>
             </div>
@@ -107,7 +104,7 @@
                             {{content.edu-list}}
                         </ul>
                         </p>
-                        <a href="products-edu.html" class="btn btn-sensebox-red">{{content.button}}</a>
+                        <a href="{{page.baseurl}}/{{page.lang}}/products-edu.html" class="btn btn-sensebox-red">{{content.button}}</a>
                     </div>
                 </div>
             </div>

@@ -1,14 +1,16 @@
 {% assign partner = site.data.i18n.[page.lang].network %}
 
-{% for partner in partner %}
-<div class="row">
-    <div class="col-lg-4">
-        <img src="{{ partner.logo }}" class="img-fluid" alt="...">
+<div class="container">
+    {% for partner in partner %}
+    <div class="row">
+        <div class="col-lg-4">
+            <img src="{{ partner.logo }}" class="img-fluid" alt="...">
+        </div>
+        <div class="col-lg-8">
+            <h1>{{ partner.name }}</h1>
+            {{ partner.description | markdownify }}
+        </div>
     </div>
-    <div class="col-lg-8">
-        <h1>{{ partner.name }}</h1>
-        {{ partner.description | markdownify }}
-    </div>
+    <hr class="featurette-divider">
+    {% endfor %}
 </div>
-<hr class="featurette-divider">
-{% endfor %}

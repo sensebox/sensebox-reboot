@@ -44,7 +44,7 @@
 <header class="masthead-small">
     <div class="container-fluid h-100 center-item">
         <div class="sensor-grid">
-            <h1>Sensoren</h1>
+            <h1>{{ t.sensors }}</h1>
             {% for image in site.static_files %}
                 {% if image.path contains 'images/products/sensors' %}
                     <img src="{{ site.baseurl }}{{ image.path }}" alt="image" />

@@ -72,7 +72,10 @@
 }
 
 .heading {
-  font-size: 4rem;
+  font-size: 3.5rem;
+  @media (max-width: $breakpoint-laptop) {
+    font-size: 4rem;
+  }
   color: white;
 }
 

@@ -18,11 +18,14 @@ parts-MCU-onboard-list: "
               <li>1x BMX055 Lagesensor</li>"
 
 
+parts-button: "Mehr Informationen"
+
+
 parts-sensors-title: "Sensoren"
 parts-sensors-text: "Über die JST-Kabel der senseBox können folgende Sensoren direkt angeschlossen werden:"
 parts-sensors-temperature: "Luftfeuchtigkeit & Temperatur"
 parts-sensors-temperature-text: "rel. Luftfeuchtigkeit in % (0-100%, ±4 %)<br>Temperatur in °C (-40-85 °C, ±0,2 °C)"
-parts-sensors-pressure: "Luftruck & Temperatur"
+parts-sensors-pressure: "Luftdruck & Temperatur"
 parts-sensors-pressure-text: "Luftdruck in hPa (300-1100 hPa, ±1 hPa)<br>Temperatur in °C (-40-85 °C, ±1 °C)"
 parts-sensors-light: "Helligkeit & UV-Intensität"
 parts-sensors-light-text: "Helligkeit in lux (300-220k lux)<br>UV-Intensität in μW/cm&sup2; (0-328 μW/cm&sup2;, ±5 μW/cm&sup2;)"
@@ -33,7 +36,7 @@ parts-sensors-GPS-text: "Längengrad, Breitengrad & Höhe ü. NN (kompatibel mit
 parts-sensors-PM: "Feinstaub"
 parts-sensors-PM-text: "Feinstaub in PM10 & PM2,5 in μg/cm&sup3 (Auflösung bis zu 0,3 μg/cm&sup3)"
 parts-sensors-SMT: "Bodentemperatur & -feuchtigkeit"
-parts-sensors-SMT-text: "Bodentemperatur in °C (-20-85 °C, ±0,8 °C)  Volumetrischer Wassergehalt in % (0-50 %, ± 3 %)"
+parts-sensors-SMT-text: "Bodentemperatur in °C (-20-85 °C, ±0,8 °C)<br>Volumetrischer Wassergehalt in % (0-50 %, ± 3 %)"
 parts-sensors-Wind: "Anemometer"
 parts-sensors-Wind-text: "Windgeschwindigkeit in km/h (Toleranz etwa 10%)"
 parts-sensors-sound: "Schallpegelmesser"

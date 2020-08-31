@@ -1,22 +1,87 @@
-mini-text: "Die senseBox:mini ist das Einsteigerset in die Welt der senseBox. Mit ihr lässt sich in wenigen Minuten ein erstes Messgerät programmieren und die Daten ins Internet übertragen. Die Station kann zum dauerhaften Messen der Innenraumluftqualität sowie für eine Vielzahl von innovativen Projekten, wie einem Umweltdaten-Chatbot oder einer IoT-Alarmanlage, genutzt werden."
+parts-title: "senseBox:bauteile"
+parts-text: "Alle senseBoxen und ihre Bauteile sind vollständig untereinaner kompatibel. Ob eine senseBox:edu im Outdoorgehäuse oder eine senseBox:home mit dem senseBox-Umweltsensor, der Kreativität sind keine Grenzen gesetzt."
 
-mini-list-title: "Die senseBox:mini bietet:"
-mini-list: "<li>Einen einfachen Einstieg</li>
-            <li>Viele spannende Projekte</li>
-            <li>Volle senseBox Kompatibilität und Erweiterbarkeit</li>
-            <li>Möglichkeit zur Messung der Innenraumluftqualität</li>"
 
-mini-programming-title: "Kinderleichte Programmierung"
-mini-programming-text: "Programmiert wird die senseBox mithilfe der grafischen Programmieroberfläche Blockly für senseBox. Diese bietet Blöcke für alle Bauteile und Funktionen der senseBox an, aus denen sich ein Programm im Handumdrehen zusammenbauen lässt - komplett ohne Arbeit am Quellcode! Die Programmieroberfläche ist frei im Web verfügbar, benötigt keinerlei Softwareinstallation und somit auch keinerlei Wartung."
+parts-MCU-title: "Die senseBox MCU"
+parts-MCU-text: "Die senseBox MCU (MicroControllerUnit) ist der Herzstück jeder senseBox. Sie ist ein Einplatinencomputer auf Basis des ARM Cortex-M0 Prozessors aus der SAMD21 Familie. Dieser Prozessor macht die senseBox MCU vollständig kompatibel zu Arduino.<br>Sie verfügt über folgende fest verbaute Anschlüsse und Bauteile."
+parts-MCU-conntectors: "Anschlüsse:"
+parts-MCU-conntectors-list: "
+              <li>5x I2C</li>
+              <li>2x UART</li>
+              <li>6x digital/analog I/O</li>
+              <li>2x XBee Sockel</li>"
+parts-MCU-onboard: "Onboard Bauteile:"
+parts-MCU-onboard-list: "              
+              <li>1x Taster</li>
+              <li>1x Reset-Knopf</li>
+              <li>2x LED</li>
+              <li>1x BMX055 Lagesensor</li>"
 
-mini-projects-title: "Projekte"
-mini-projects-text: "Mit der senseBox:mini lassen sich eine Vielzahl von Projekten aus unserem Portfolio umsetzen. Von ersten Einsteiger- bis hin zu komplexen IoT-Projekten wie einem Umweltdaten-Chatbot findest du alle Projekte kostenlos in der Projekte-Sektion.
-Die Materialsammlung wird fortlaufend überarbeitet und um neue Projekte ergänzt, es lohnt sich also immer mal wieder einen Blick darauf zu werfen."
 
-mini-content-title: "Inhalt"
-mini-content-text: "Die senseBox:mini bietet alles für den Einstieg in die Welt des Internet of Things (IoT). Sie enthält neben der senseBox:MCU das OLED-Display zum Visualisieren und das WiFi-Modul zum Übertragen von Daten ins Internet. Der ebenfalls enthaltene senseBox:Umweltsensor (BME680 von Bosch) bietet die Möglichkeit die folgenden Phänomene zu messen: "
+parts-button: "Mehr Informationen"
 
-phenomenon-temperature: "Temperatur"
-phenomenon-humidity: "rel. Luftfeuchtigkeit"
-phenomenon-pressure: "Luftdruck"
-phenomenon-IAQ: "Innenraumluftqualität"
+
+parts-sensors-title: "Sensoren"
+parts-sensors-text: "Über die JST-Kabel der senseBox können folgende Sensoren direkt angeschlossen werden:"
+parts-sensors-temperature: "Luftfeuchtigkeit & Temperatur"
+parts-sensors-temperature-text: "rel. Luftfeuchtigkeit in % (0-100%, ±4 %)<br>Temperatur in °C (-40-85 °C, ±0,2 °C)"
+parts-sensors-temperature-link: "https://sensebox.kaufen/product/temperatur-luftfeuchte"
+parts-sensors-pressure: "Luftdruck & Temperatur"
+parts-sensors-pressure-text: "Luftdruck in hPa (300-1100 hPa, ±1 hPa)<br>Temperatur in °C (-40-85 °C, ±1 °C)"
+parts-sensors-pressure-link: "https://sensebox.kaufen/product/luftdruck-temperatur"
+parts-sensors-light: "Helligkeit & UV-Intensität"
+parts-sensors-light-text: "Helligkeit in lux (300-220k lux)<br>UV-Intensität in μW/cm&sup2; (0-328 μW/cm&sup2;, ±5 μW/cm&sup2;)"
+parts-sensors-light-link: "https://sensebox.kaufen/product/licht-sensor"
+parts-sensors-BME: "Umweltsensor"
+parts-sensors-BME-text: "Temperatur in °C (-40-85 °C)<br>rel. Luftfeuchtigkeit in %(0-100 %, ±3 %)<br>Luftdruck in Pa(300-1100 hPa, ±1 hPa)"
+parts-sensors-BME-link: "https://sensebox.kaufen/product/bme"
+parts-sensors-GPS: "GPS"
+parts-sensors-GPS-text: "Längengrad, Breitengrad & Höhe ü. NN (kompatibel mit GPS, QZSS, GLONASS, BeiDou & Galileo)"
+parts-sensors-GPS-link: "https://sensebox.kaufen/product/gps"
+parts-sensors-PM: "Feinstaub"
+parts-sensors-PM-text: "Feinstaub in PM10 & PM2,5 in μg/cm&sup3 (Auflösung bis zu 0,3 μg/cm&sup3)"
+parts-sensors-PM-link: "https://sensebox.kaufen/product/feinstaub-sds011"
+parts-sensors-SMT: "Bodentemperatur & -feuchtigkeit"
+parts-sensors-SMT-text: "Bodentemperatur in °C (-20-85 °C, ±0,8 °C)<br>Volumetrischer Wassergehalt in % (0-50 %, ± 3 %)"
+parts-sensors-SMT-link: "https://sensebox.kaufen/product/bodenfeuchte-temperatursensor-smt50"
+parts-sensors-Wind: "Anemometer"
+parts-sensors-Wind-text: "Windgeschwindigkeit in km/h (Toleranz etwa 10%)"
+parts-sensors-Wind-link: "https://sensebox.kaufen/product/windsensor"
+parts-sensors-sound: "Schallpegelmesser"
+parts-sensors-sound-text: "Schallpegel in dBA (30-130 dBA, ±1,5 dB)"
+parts-sensors-sound-link: "https://sensebox.kaufen/product/lautstarkesensor"
+
+
+parts-bees-title: "XBees"
+parts-bees-text: "Um die gemessenen Daten deiner senseBox zu speichern oder ins Internet zu übertragen können verschiedene Verbindugsmodule, sogenannte XBees aufgesteckt werden."
+parts-bees-WiFi: "WiFi-Bee"
+parts-bees-WiFi-text: "Ermöglicht eine Netzwerkverbindung via WiFi.<br>Single-band 2.4GHz b/g/n<br>Sicherheitsprotokolle: WPA/WPA2 Personal, TLS, SSL<br>Netzwerk-Dienste: DHCP, DNS, TCP/IP (IPv4), UDP, HTTP, HTTPS"
+parts-bees-WiFi-link: "https://sensebox.kaufen/product/wifi-bee"
+parts-bees-SD: "SD-Bee"
+parts-bees-SD-text: "Ermöglicht das Speichern von Daten auf microSD-Karte."
+parts-bees-SD-link: "https://sensebox.kaufen/product/sd-bee"
+parts-bees-LAN: "LAN-Bee"
+parts-bees-LAN-text: "Ermöglicht eine Netzwerkverbindung via Ethernet."
+parts-bees-LAN-link: "https://sensebox.kaufen/product/lan-bee"
+parts-bees-LoRa: "LoRa-Bee"
+parts-bees-LoRa-text: "Ermöglicht eine Netzwerkverbindung via Long-Range-WAN (LoRa) im 868 MHz Band.<br> HopeRF RFM95W/RFM96W LoRa Transceiver<br>LoRa IoT Integration (868 MHz)"
+parts-bees-LoRa-link: "https://sensebox.kaufen/product/lora-bee"
+
+
+parts-accessories-title: "Zubehör"
+parts-accessories-text: "Neben den Sensoren und XBees lässt sich weiteres Zubehör mit der senseBox verwenden."
+parts-accessories-display: "OLED-Display"
+parts-accessories-display-text: "OLED Display mit einer Auflösung von 128x64 Pixeln."
+parts-accessories-display-link: "https://sensebox.kaufen/product/led-display"
+parts-accessories-expander: "Expander"
+parts-accessories-expander-text: "Ein Sensor-Hub um vier weitere Sensoren an die senseBox anschließen zu können."
+parts-accessories-expander-link: "https://sensebox.kaufen/product/hub"
+parts-accessories-multiplexer: "Multiplexer"
+parts-accessories-multiplexer-text: "Mit diesem I2C-Multiplexer lassen sich bis zu 8 Geräte mit gleicher Adressierung parallel über den I2C-Bus betreiben."
+parts-accessories-multiplexer-link: "https://sensebox.kaufen/product/multiplexer"
+parts-accessories-solar: "Solar-Set"
+parts-accessories-solar-text: "Solarzelle mit passendem Powerbooster um die senseBox unabhängig von einer externen Stromquelle betreiben zu können.<br>max. Leistung: 10 W Klemmspannung<br>max. Spannung: 7,2 V"
+parts-accessories-solar-link: "https://sensebox.kaufen/product/solar-set"
+parts-accessories-housing: "Gehäuse"
+parts-accessories-housing-text: "Outdoor-Gehäuse für verschiedene Bauteile und Einsatzzwecke um die senseBox Wetterfest zu machen."
+parts-accessories-housing-link: "https://sensebox.kaufen/product/wetterhutte"

@@ -64,8 +64,102 @@ border: none;
   height: 40px;
 }
 
+figure {
+  margin: 0;
+  position: relative;
+  
+}
+
+figure img {
+  padding-top: 4rem;
+  max-width: 100%;
+  display: block;
+position: relative;
+  z-index: 10;
+  -webkit-transition: -webkit-transform 0.4s;
+  -moz-transition: -moz-transform 0.4s;
+  transition: transform 0.4s;
+  -webkit-transform: scale(0.5);
+  -moz-transform: scale(0.5);
+  -ms-transform: scale(0.5);
+  transform: scale(0.5);
+}
+
+figure:hover img {
+  -webkit-transform: scale(0.3);
+  -moz-transform: scale(0.3);
+  -ms-transform: scale(0.3);
+  transform: scale(0.3);
+  opacity: 0.1;
+}
+
+figure:hover figcaption {
+-webkit-transform: scale(1);
+-moz-transform: scale(1);
+-ms-transform: scale(1);
+transform: scale(1);
+opacity: 1;
+h3{
+  opacity: 0.8;
+}
+p,ul{
+  opacity: 1;
+  padding-top: 1em;
+  line-height: 2;
+  align-content: center;
+}
+a{
+  opacity:1;
+}
+
+}
+
+figure a {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+figcaption {
+position: absolute;
+top: 0;
+left: 0;
+height: 100%;
+width: 100%;
+opacity: 1;
+padding: 20px;
+background: none;
+color: #ff8b45;
+
+-webkit-transform: scale(0.7);
+-moz-transform: scale(0.7);
+-ms-transform: scale(0.7);
+transform: scale(0.7);
+-webkit-backface-visibility: hidden;
+-moz-backface-visibility: hidden;
+backface-visibility: hidden;
+-webkit-transition: -webkit-transform 0.4s, opacity 0.4s;
+-moz-transition: -moz-transform 0.4s, opacity 0.4s;
+transition: transform 0.4s, opacity 0.4s;
+
+h3{ 
+  opacity: 0.7;
+}
+p,a,ul{
+  opacity: 0;
+}
+}
+
+figcaption h3 {
+margin: 0;
+padding: 0;
+color: black;
+}
+
+.sensors-text{
+  background: none;
+}
+
 .icon{
-
   text-align: center;
-
 }

@@ -1,0 +1,87 @@
+parts-title: "senseBox:components"
+parts-text: "All senseBoxes and their components are fully compatible with each other. Whether a senseBox:edu in an outdoor housing or a senseBox:home with the senseBox environmental sensor, there are no limits to creativity."
+
+
+parts-MCU-title: "The senseBox MCU"
+parts-MCU-text: "The senseBox MCU (MicroControllerUnit) is the heart of every senseBox. It is a single-board computer based on the ARM Cortex-M0 processor from the SAMD21 family. This processor makes the senseBox MCU fully compatible with Arduino.<br> It has the following fixed connections and components."
+parts-MCU-conntectors: "Connections"
+parts-MCU-conntectors-list: "
+              <li>5x I2C</li>
+              <li>2x UART</li>
+              <li>6x digital/analog I/O</li>
+              <li>2x XBee Socket</li>"
+parts-MCU-onboard: "Onboard Components:"
+parts-MCU-onboard-list: "              
+              <li>1x Pushbutton</li>
+              <li>1x Resetbutton</li>
+              <li>2x LED</li>
+              <li>1x BMX055 Position sensor</li>"
+
+
+parts-button: "More information"              
+
+
+parts-sensors-title: "Sensors"
+parts-sensors-text: "The following sensors can be connected directly via the JST cables of the senseBox:"
+parts-sensors-temperature: "Humidity & Temperature"
+parts-sensors-temperature-text: "Relative humidity in % (0-100%, ±4 %)<br>Temperature in °C (-40-85 °C, ±0,2 °C)"
+parts-sensors-temperature-link: "https://sensebox.shop/product/temperatur-luftfeuchte"
+parts-sensors-pressure: "Air pressure& Temperature"
+parts-sensors-pressure-link: "https://sensebox.shop/product/luftdruck-temperatur"
+parts-sensors-pressure-text: "Air pressure in hPa (300-1100 hPa, ±1 hPa)<br>Temperature in °C (-40-85 °C, ±1 °C)"
+parts-sensors-light: "Brightness & UV Intensity"
+parts-sensors-light-text: "Brightness in lux (300-220k lux)<br>UV-Intensity in μW/cm&sup2; (0-328 μW/cm&sup2;, ±5 μW/cm&sup2;)"
+parts-sensors-light-link: "https://sensebox.shop/product/licht-sensor"
+parts-sensors-BME: "Environmental sensor"
+parts-sensors-BME-text: "Temperature in °C (-40-85 °C)<br>Realtive Humidity in %(0-100 %, ±3 %)<br>Air pressure in Pa(300-1100 hPa, ±1 hPa)"
+parts-sensors-BME-link: "https://sensebox.shop/product/bme"
+parts-sensors-GPS: "GPS"
+parts-sensors-GPS-text: "longitude, latitude & altitude (compatible with GPS, QZSS, GLONASS, BeiDou & Galileo)"
+parts-sensors-GPS-link: "https://sensebox.shop/product/gps"
+parts-sensors-PM: "Particulate matter"
+parts-sensors-PM-text: "Particulate matter in PM10 & PM2,5 in μg/cm&sup3 (Resolution up to 0,3 μg/cm&sup3)"
+parts-sensors-PM-link: "https://sensebox.shop/product/feinstaub-sds011"
+parts-sensors-SMT: "Soil Temperature & Moisture"
+parts-sensors-SMT-text: "Soil Temperature in °C (-20-85 °C, ±0,8 °C)<br>Volumetric water content in % (0-50 %, ± 3 %)"
+parts-sensors-SMT-link: "https://sensebox.shop/product/bodenfeuchte-temperatursensor-smt50"
+parts-sensors-Wind: "Anemometer"
+parts-sensors-Wind-text: "Windspeed in km/h (Tolerance approx. 10%)"
+parts-sensors-Wind-link: "https://sensebox.shop/product/windsensor"
+parts-sensors-sound: "Sound level meter"
+parts-sensors-sound-text: "Sound level in dBA (30-130 dBA, ±1,5 dB)"
+parts-sensors-sound-link: "https://sensebox.shop/product/lautstarkesensor"
+
+
+parts-bees-title: "XBees"
+parts-bees-text: "In order to save the measured data of your senseBox or to transfer it to the Internet, various connection modules, so-called XBees can be plugged in."
+parts-bees-WiFi: "WiFi-Bee"
+parts-bees-WiFi-text: "Enables a network connection via WiFi.<br>Single-band 2.4GHz b/g/n<br>Security Protocols: WPA/WPA2 Personal, TLS, SSL<br>Network services: DHCP, DNS, TCP/IP (IPv4), UDP, HTTP, HTTPS"
+parts-bees-WiFi-link: "https://sensebox.shop/product/wifi-bee"
+parts-bees-SD: "SD-Bee"
+parts-bees-SD-text: "Allows data to be stored on microSD card."
+parts-bees-SD-link: "https://sensebox.shop/product/sd-bee"
+parts-bees-LAN: "LAN-Bee"
+parts-bees-LAN-text: "Enables a network connection via Ethernet."
+parts-bees-LAN-link: "https://sensebox.shop/product/lan-bee"
+parts-bees-LoRa: "LoRa-Bee"
+parts-bees-LoRa-text: "Enables a network connection via Long-Range-WAN (LoRa) in the 868 MHz band.<br> HopeRF RFM95W/RFM96W LoRa Transceiver<br>LoRa IoT Integration (868 MHz)"
+parts-bees-LoRa-link: "https://sensebox.shop/product/lora-bee"
+
+
+parts-accessories-title: "Accessories"
+parts-accessories-text: "In addition to the sensors and XBees, other accessories can be used with the senseBox."
+parts-accessories-display: "OLED-Display"
+parts-accessories-display-text: "OLED display with a resolution of 128x64 pixels."
+parts-accessories-display-link: "https://sensebox.shop/product/led-display"
+parts-accessories-expander: "Expander"
+parts-accessories-expander-text: "A sensor hub to connect four additional sensors to the senseBox."
+parts-accessories-expander-link: "https://sensebox.shop/product/hub"
+parts-accessories-multiplexer: "Multiplexer"
+parts-accessories-multiplexer-text: "With this I2C multiplexer, up to 8 devices with the same addressing can be operated in parallel via the I2C bus."
+parts-accessories-multiplexer-link: "https://sensebox.shop/product/multiplexer"
+parts-accessories-solar: "Solar-Set"
+parts-accessories-solar-text: "SSolar cell with suitable power booster to operate the senseBox independently of an external power source.<br>max. power: 10 W clamp voltage<br>max. voltage: 7.2 V"
+parts-accessories-solar-link: "https://sensebox.shop/product/solar-set"
+parts-accessories-housing: "Housing"
+parts-accessories-housing-text: "Outdoor housing for various components and applications to make the senseBox weatherproof."
+parts-accessories-housing-link: "https://sensebox.shop/product/wetterhutte"

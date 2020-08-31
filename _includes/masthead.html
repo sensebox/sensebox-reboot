@@ -43,14 +43,19 @@
         <div class="sensor-grid">
             <h1>{{page.header}}</h1>
             {% for image in site.static_files %}
-            {% if image.path contains 'images/products/sensors' %}
+            {% if image.path contains 'images/products/parts' %}{% unless image.path contains 'orange' %}
             <img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
-            {% endif %}
+            {% endunless %}{% endif %}
             {% endfor %}
             {% for image in site.static_files %}
-            {% if image.path contains 'images/products/sensors' %}
+            {% if image.path contains 'images/products/parts' %}{% unless image.path contains 'orange' %}
             <img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
-            {% endif %}
+            {% endunless %}{% endif %}
+            {% endfor %}
+            {% for image in site.static_files %}
+            {% if image.path contains 'images/products/parts' %}{% unless image.path contains 'orange' %}
+            <img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
+            {% endunless %}{% endif %}
             {% endfor %}
         </div>
     </div>

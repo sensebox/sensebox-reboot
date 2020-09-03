@@ -61,19 +61,28 @@
         <div class="col-md-7">
             <h2 class="featurette-heading">{{content.mini-content-title}}</h2>
             <p class="lead">{{content.mini-content-text}}</p>
-            <ul class="list-group list-group-horizontal">
-                <li class="list-group-item phenomenon-icon"><img class="phenomenon-icon-img"
-                        src="/images/products/home/phenomenons/temperature.svg">{{content.phenomenon-temperature}}
-                </li>
-                <li class="list-group-item phenomenon-icon"><img class="phenomenon-icon-img"
-                        src="/images/products/home/phenomenons/humidity.svg">{{content.phenomenon-humidity}}
-                </li>
-                <li class="list-group-item phenomenon-icon"><img class="phenomenon-icon-img"
-                        src="/images/products/home/phenomenons/pressure.svg">{{content.phenomenon-pressure}}
-                </li>
-                <li class="list-group-item phenomenon-icon"><img class="phenomenon-icon-img"
-                        src="/images/products/home/phenomenons/IAQ.svg">{{content.phenomenon-IAQ}}
-                </li>
+            <div class="row">
+                <div class="icon col-md-3"><span class="fa-stack fa-2x">
+                        <i class="fas fa-circle fa-stack-2x" style="color: whitesmoke"></i>
+                        <i class="fas fa-temperature-high fa-stack-1x fa-inverse" style="color:#3fbdeb;"></i>
+                    </span>{{content.phenomenon-temperature}}
+                </div>
+                <div class="icon col-md-3"><span class="fa-stack fa-2x">
+                        <i class="fas fa-circle fa-stack-2x" style="color: whitesmoke"></i>
+                        <i class="fas fa-percent fa-stack-1x fa-inverse" style="color:#3fbdeb;"></i>
+                    </span>{{content.phenomenon-humidity}}
+                </div>
+                <div class="icon col-md-3"><span class="fa-stack fa-2x">
+                        <i class="fas fa-circle fa-stack-2x" style="color: whitesmoke"></i>
+                        <i class="fas fa-tachometer-alt fa-stack-1x fa-inverse" style="color:#3fbdeb;"></i>
+                    </span>{{content.phenomenon-pressure}}
+                </div>
+                <div class="icon col-md-3"><span class="fa-stack fa-2x">
+                        <i class="fas fa-circle fa-stack-2x" style="color: whitesmoke"></i>
+                        <i class="fas fa-cloud fa-stack-1x fa-inverse" style="color:#3fbdeb;"></i>
+                    </span>{{content.phenomenon-IAQ}}
+                </div>
+            </div>
         </div>
     </div>
 </div>

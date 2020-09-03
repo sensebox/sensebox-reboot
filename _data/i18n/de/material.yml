@@ -37,7 +37,7 @@
   position: t6
   organisation: 
   description: 
-  bgImage: /images/logo_bunt.png
+  bgImage: /images/projects/logo_bunt.png
   download: /docs/lehrkraefte_senseBox_de.pdf
 
 - name: Mikrocontroller im MINT-Unterricht

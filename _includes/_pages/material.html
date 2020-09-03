@@ -8,37 +8,35 @@
     {% endfor %}
 </div>
 
-<div class="container">
-    <div class="row row-padding" style="background-color: whitesmoke;">
-        {% for teaching in teaching %}
-        {% capture firstLastInRow %}{% cycle 'first', 'last' %}{% endcapture %}
-        <div class="col-md-4">
-
-            <div class="card polygon-1" style="cursor: pointer;">
-                <canvas class="header-bg" width="250" id="header-blur"
-                    style="background-image: url({{ teaching.bgImage }});"></canvas>
-                <div class="content">
-                    <h4 style="clear:both">{{ teaching.name }}</h4>
-                    <div id="desc_{{ teaching.position }}">
-                        {% if teaching.download %}
-                        <a class="stretched-link" href="{{ teaching.download }}"></a>
-                        {% endif %}
-                        {% if teaching.link %}
-                        <a class="stretched-link" href="{{teaching.link }}"></a>
-                        {% endif %}
+<div style="background-color: whitesmoke;">
+    <div class="container">
+        <div class="row row-padding" >
+            {% for teaching in teaching %}
+            {% capture firstLastInRow %}{% cycle 'first', 'last' %}{% endcapture %}
+            <div class="col-md-4">
+    
+                <div class="card polygon-1" style="cursor: pointer; border: none">
+                    <canvas class="header-bg" width="250" id="header-blur"
+                        style="background-image: url({{ teaching.bgImage }});"></canvas>
+                    <div class="content">
+                        <h4 style="clear:both">{{ teaching.name }}</h4>
+                        <div id="desc_{{ teaching.position }}">
+                            {% if teaching.download %}
+                            <a class="stretched-link" href="{{ teaching.download }}"></a>
+                            {% endif %}
+                            {% if teaching.link %}
+                            <a class="stretched-link" href="{{teaching.link }}"></a>
+                            {% endif %}
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-
-        <!-- if this is the last element and the count is even, add blank col -->
-        {% if teaching.position == teaching and oddOrteachingCount == 'odd' %}
-        <div class="col-md-6">
+    
+            <!-- if this is the last element and the count is even, add blank col -->
+            {% if teaching.position == teaching and oddOrteachingCount == 'odd' %}
+            <div class="col-md-6"></div>
+            {% endif %}
+            {% endfor %}
         </div>
     </div>
-    {% endif %}
-
-
-
-    {% endfor %}
 </div>

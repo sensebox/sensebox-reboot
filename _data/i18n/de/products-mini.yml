@@ -17,6 +17,6 @@ mini-content-title: "Inhalt"
 mini-content-text: "Die senseBox:mini bietet alles für den Einstieg in die Welt des Internet of Things (IoT). Sie enthält neben der senseBox:MCU das OLED-Display zum Visualisieren und das WiFi-Modul zum Übertragen von Daten ins Internet. Der ebenfalls enthaltene senseBox:Umweltsensor (BME680 von Bosch) bietet die Möglichkeit die folgenden Phänomene zu messen: "
 
 phenomenon-temperature: "Temperatur"
-phenomenon-humidity: "rel. Luftfeuchtigkeit"
+phenomenon-humidity: "rel.&nbsp;Luftfeuchtigkeit"
 phenomenon-pressure: "Luftdruck"
 phenomenon-IAQ: "Innenraumluftqualität"

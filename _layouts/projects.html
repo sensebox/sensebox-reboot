@@ -35,7 +35,9 @@ layout: default
 					{% endfor %}
 				</div>
 			</div>
-			{{ t.additional_info }}
+			<div style="margin-top: 1rem; margin-bottom: 1rem;">
+				{{ t.additional_info }}
+			</div>
 			<div class=" row row-eq-height">
 				{% assign sorted = site.projects | sort: 'date' | reverse %}
 				{% for i in sorted %}
@@ -65,12 +67,12 @@ layout: default
 								</div>
 							</a>
 							{% if i.url %} <a href="{{ site.baseurl | append: i.url }}"> {% endif %}
-								<h4 class="project-headlines">{{ i.name }}</h4>
+								<h4 class="project-headlines">{{ i.title }}</h4>
 								{% if i.url %} </a> {% endif %}
 							<p>{{ i.abstract }}</p>
 							<div class="project-content">
 								<div class="tag-holder">
-									<div class="row">
+									<!-- <div class="row"> -->
 										{% if i.tags %}
 										{% for j in i.tags %}
 										<span class="project-label tags tag-filter"
@@ -78,7 +80,7 @@ layout: default
 										{% endfor %}
 										{% endif %}
 
-									</div>
+									<!-- </div> -->
 								</div>
 
 							</div>

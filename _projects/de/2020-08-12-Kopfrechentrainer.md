@@ -18,8 +18,8 @@ material:
 ide: blockly
 version: ["edu"]    
 lang: de 
-tags: ["Informatik", "Mathematik"] 
-difficult: mittel
+tags: ["Informatik" "Mathematik"] 
+difficult: leicht
 
 ---
 # Kopfrechentrainer {#head}

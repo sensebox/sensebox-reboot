@@ -23,9 +23,9 @@
         <div class="item col-md-6 col-12">
             <div class="item-inner">
                 <div class="row">
-                    <figure class="figure col-md-5 col-12">
+                    <div class="figure col-md-5 col-12">
                         <img class="img-fluid" src="{{ teammember.image }}" alt="">
-                    </figure>
+                    </div>
                     <div class="info col-md-7 col-12">
                         <h3 class="name">{{ teammember.name }}</h3>
                         <h4 class="role">{{ teammember.role }}</h4>
@@ -53,9 +53,9 @@
         <div class="item col-md-6 col-12">
             <div class="item-inner">
                 <div class="row">
-                    <figure class="figure col-md-5 col-12">
+                    <div class="figure col-md-5 col-12">
                         <img class="img-fluid" src="{{ teammember.image }}" alt="">
-                    </figure>
+                    </div>
                     <div class="info col-md-7 col-12">
                         <h3 class="name">{{ teammember.name }}</h3>
                         <h5 class="role">{{ teammember.role }}</h5>
@@ -75,7 +75,7 @@
 <div class="container">
 
     <div class="row">
-        <h1>Förderungen</h1>
+        <h1 id="Förderung">Förderungen</h1>
         {% for award in awardslist %}
         {% if award.type == 'grant' %}
         <div class="posts">

@@ -330,8 +330,22 @@ div.container {
 }
 
 .sb-submit-button {
-  font-size: 18px;
+  font-size: 18px !important;
   padding: 10px 20px 10px 20px;
   margin: 5px;
 
+}
+
+.btn {
+  font-size: 1.2em;
+}
+
+mark {
+  font-size: 1em;
+  line-height: 0.5em;
+  -webkit-box-decoration-break: clone;
+  -ms-box-decoration-break: clone;
+  -o-box-decoration-break: clone;
+  box-decoration-break: clone;
+  display: inline;
 }

@@ -21,7 +21,7 @@
     <div class="row">
         {% for teammember in teammembers-uni %}
         <div class="item col-md-6 col-12">
-            <div class="item-inner">
+            <div class="item-inner m-2">
                 <div class="row">
                     <div class="figure col-md-5 col-12">
                         <img class="img-fluid" src="{{ teammember.image }}" alt="">
@@ -51,7 +51,7 @@
     <div class="row">
         {% for teammember in teammembers-reedu %}
         <div class="item col-md-6 col-12">
-            <div class="item-inner">
+            <div class="item-inner m-2">
                 <div class="row">
                     <div class="figure col-md-5 col-12">
                         <img class="img-fluid" src="{{ teammember.image }}" alt="">
@@ -75,10 +75,10 @@
 <div class="container">
 
     <div class="row">
-        <h1 id="Förderung">Förderungen</h1>
+        <h1 id="Förderung"><mark>Förderungen</mark></h1>
         {% for award in awardslist %}
         {% if award.type == 'grant' %}
-        <div class="posts">
+        <div class="posts py-5">
             <h2 style="clear:both">{{ award.title }}</h2>
             <div class="row">
                 {% if award.thumbnail %}
@@ -106,11 +106,11 @@
 
 
     <div class="row">
-        <h1>Auszeichnungen</h1>
+        <h1><mark>Auszeichnungen</mark></h1>
 
         {% for award in awardslist %}
         {% if award.type == 'award' %}
-        <div class="posts">
+        <div class="posts py-5">
             <h2 style="clear:both">{{ award.title }}</h2>
             <div class="row">
                 {% if award.thumbnail %}

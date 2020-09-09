@@ -154,3 +154,15 @@
 .align-item-flex-end {
   align-items: flex-end;
 }
+
+
+.dropdown-menu.show {
+  max-height: 350px;
+}
+
+.dropdown-menu {
+  max-height: 0;
+  overflow: hidden;
+  display: block !important;
+  transition: max-height 0.3s ease-out;
+}

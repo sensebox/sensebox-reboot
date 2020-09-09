@@ -163,3 +163,24 @@ color: black;
 .icon{
   text-align: center;
 }
+
+
+.phenos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.sb-pheno {
+  margin-top: 1em;
+  width: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &.sb-small-pheno {
+    width: 140px !important;
+  }
+  @media (max-width: 767px) {
+    text-align: left;
+    display: flex;
+  }
+}

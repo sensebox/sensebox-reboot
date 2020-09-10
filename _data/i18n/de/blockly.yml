@@ -1,5 +1,5 @@
 head-1: Blockly für senseBox
-text-1: Blockly für senseBox ist eine grafische Programmierumgebung für die senseBox. Erstelle mit Blockly in wenigen Minuten dein ersten Programm, auch ganz ohne vorherige Programmierkentnisse. 
+text-1: Blockly für senseBox ist eine grafische Programmierumgebung für die senseBox. Erstelle mit Blockly in wenigen Minuten dein ersten Programm, auch ganz ohne vorherige Programmierkenntnisse. 
 
 head-2: Perfekt für Anfänger und Fortgeschrittene
 text-2: Durch das intuitive Baukastenprinzip in Blockly lassen sich Programme ohne Kontakt mit dem Quellcode “zusammenpuzzeln”. Jeder Sensor und jede Funktion der senseBox wird in Blockly durch einen Block repräsentiert. Diese Blöcke können einfach per Drag-&-Drop zusammengesetzt und so Handlungsfolgen für die senseBox programmiert werden. Parallel zu den Blöcken wird der Arduino Quellcode in Echtzeit generiert und angezeigt, sodass zu jeder Zeit nachvollzogen werden kann, welcher Code sich hinter welchem Block verbirgt. Dies macht den Schritt zur textbasierten Programmierung besonders leicht.

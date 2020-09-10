@@ -3,7 +3,7 @@ parts-text: "Alle senseBoxen und ihre Bauteile sind vollständig untereinaner ko
 
 
 parts-MCU-title: "Die senseBox MCU"
-parts-MCU-text: "Die senseBox MCU (MicroControllerUnit) ist der Herzstück jeder senseBox. Sie ist ein Einplatinencomputer auf Basis des ARM Cortex-M0 Prozessors aus der SAMD21 Familie. Dieser Prozessor macht die senseBox MCU vollständig kompatibel zu Arduino.<br>Sie verfügt über folgende fest verbaute Anschlüsse und Bauteile."
+parts-MCU-text: "Die senseBox MCU (MicroControllerUnit) ist das Herzstück jeder senseBox. Sie ist ein Einplatinencomputer auf Basis des ARM Cortex-M0 Prozessors aus der SAMD21 Familie. Dieser Prozessor macht die senseBox MCU vollständig kompatibel zu Arduino.<br>Sie verfügt über folgende fest verbaute Anschlüsse und Bauteile."
 parts-MCU-conntectors: "Anschlüsse:"
 parts-MCU-conntectors-list: "
               <li>5x I2C</li>
@@ -29,7 +29,7 @@ parts-sensors-temperature-link: "https://sensebox.kaufen/product/temperatur-luft
 parts-sensors-pressure: "Luftdruck & Temperatur"
 parts-sensors-pressure-text: "Luftdruck in hPa (300-1100 hPa, ±1 hPa)<br>Temperatur in °C (-40-85 °C, ±1 °C)"
 parts-sensors-pressure-link: "https://sensebox.kaufen/product/luftdruck-temperatur"
-parts-sensors-light: "Helligkeit & UV-Intensität"
+parts-sensors-light: "Beleuchtungsstärke & UV-Intensität"
 parts-sensors-light-text: "Helligkeit in lux (300-220k lux)<br>UV-Intensität in μW/cm&sup2; (0-328 μW/cm&sup2;, ±5 μW/cm&sup2;)"
 parts-sensors-light-link: "https://sensebox.kaufen/product/licht-sensor"
 parts-sensors-BME: "Umweltsensor"
@@ -53,7 +53,7 @@ parts-sensors-sound-link: "https://sensebox.kaufen/product/lautstarkesensor"
 
 
 parts-bees-title: "XBees"
-parts-bees-text: "Um die gemessenen Daten deiner senseBox zu speichern oder ins Internet zu übertragen können verschiedene Verbindugsmodule, sogenannte XBees aufgesteckt werden."
+parts-bees-text: "Um die gemessenen Daten deiner senseBox zu speichern oder ins Internet zu übertragen, können verschiedene Verbindugsmodule, sogenannte XBees, aufgesteckt werden."
 parts-bees-WiFi: "WiFi-Bee"
 parts-bees-WiFi-text: "Ermöglicht eine Netzwerkverbindung via WiFi.<br>Single-band 2.4GHz b/g/n<br>Sicherheitsprotokolle: WPA/WPA2 Personal, TLS, SSL<br>Netzwerk-Dienste: DHCP, DNS, TCP/IP (IPv4), UDP, HTTP, HTTPS"
 parts-bees-WiFi-link: "https://sensebox.kaufen/product/wifi-bee"
@@ -74,7 +74,7 @@ parts-accessories-display: "OLED-Display"
 parts-accessories-display-text: "OLED Display mit einer Auflösung von 128x64 Pixeln."
 parts-accessories-display-link: "https://sensebox.kaufen/product/led-display"
 parts-accessories-expander: "Expander"
-parts-accessories-expander-text: "Ein Sensor-Hub um vier weitere Sensoren an die senseBox anschließen zu können."
+parts-accessories-expander-text: "Ein Sensor-Hub, um vier weitere Sensoren an die senseBox anschließen zu können."
 parts-accessories-expander-link: "https://sensebox.kaufen/product/hub"
 parts-accessories-multiplexer: "Multiplexer"
 parts-accessories-multiplexer-text: "Mit diesem I2C-Multiplexer lassen sich bis zu 8 Geräte mit gleicher Adressierung parallel über den I2C-Bus betreiben."

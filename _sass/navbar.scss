@@ -166,3 +166,20 @@
   display: block !important;
   transition: max-height 0.3s ease-out;
 }
+
+.nav-shop {
+  background-color: white;
+  border-radius: 50px;
+
+  > .nav-link {
+    color: $sensebox-green;
+
+    &:hover {
+      color: #0056b3;
+    }
+
+    svg {
+      margin-bottom: 4px;
+    }
+  }
+}

@@ -21,7 +21,7 @@ sensebox-overview-mini: The senseBox:mini the set for the entry into the world o
 # Blockly/openSenseMap Cards
 card-button: more information
 blockly-head: Blockly for senseBox
-blockly-short-text: "Blockly for senseBox is the graphical programming environment for the senseBox. With Blockly, even absolute programming beginners can create their first programs in no time at all using drag & drop. .<br>.
+blockly-short-text: "Blockly for senseBox is the graphical programming environment for the senseBox. With Blockly, even absolute programming beginners can create their first programs in no time at all using drag & drop.<br>
 The programming environment can be used online at any time without installation and thus minimizes both technical and professional hurdles."
 
 opensensemap-head: openSenseMap

@@ -230,6 +230,7 @@ li.timeline-item::before {
 }
 
 .masthead-image {
+  text-align: center;
   // Medium devices (tablets, 768px and up)
   @media (max-width: 768px) { 
     display: none; 

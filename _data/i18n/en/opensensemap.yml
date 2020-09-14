@@ -1,6 +1,6 @@
-text-1: Die openSenseMap ist unser Web-Portal für offene Daten aller Art. Dort werden standardmäßig alle von senseBoxen erhobenen Daten gesammelt, visualisiert und zum Download angeboten. Alle auf der openSenseMap veröffentlichten Daten sind Open Data unter der Public Domain Dedication and License 1.0. 
+text-1: The openSenseMap is our web portal for open data of all kind. Each measurement by a senseBox will be collected here and can be visualized and downloaded. All published measurements are available as open data under the Public Domain Dedication and License 1.0.
 
-go-to-opensensemap: "Zur openSenseMap &raquo;"
+go-to-opensensemap: "Open openSenseMap &raquo;"
 
 head-2: Umweltdaten analysieren
 text-2: Über die openSenseMap hast du Zugriff auf <b>Milliarden</b> von Messwerten. Sieh dir historische Messwerte an, erstelle einfache Diagramme, vergleiche Messwerte verschiedener Standorte oder lade dir die Daten zur Analyse auf dem Computer herunter.

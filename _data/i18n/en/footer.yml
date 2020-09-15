@@ -5,6 +5,8 @@ network-name: "Network"
 network-link: /network.html
 press-link: /press.html
 press-name: Press and media
+press-kit-link: /pressekit.html
+press-kit-name: Press Kit
 
 #
 docs-name: "Documentation"
@@ -19,8 +21,8 @@ resources-teaching: "Learning Materials"
 
 #
 resources: Resources
-follow-us: Folge uns
-background: Hintergrund
+follow-us: Follow us
+background: Background
 
 #
 imprint-name: "Imprint"

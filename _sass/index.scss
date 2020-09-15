@@ -303,15 +303,16 @@ li.timeline-item::before {
   display: flex;
 }
 
-div.container {
-  > :first-child {
-    padding-top: 2rem; 
-  }
+// div.container {
+//   > :first-child {
+//     padding-top: 2rem; 
+//   }
 
-  > div {
-    padding-bottom: 4rem;
-  }
-}
+//   > div {
+//     padding-bottom: 4rem;
+//   }
+// }
+
 
 .section {
   padding-bottom: 4rem;

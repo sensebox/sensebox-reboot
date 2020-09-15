@@ -198,10 +198,17 @@
 .nav-lang {
   margin-left: 10px;
 
+  @media (max-width: $breakpoint-laptop) {
+    margin: 0;
+  }
+
   > .nav-link {
     svg {
       margin-bottom: 4px;
       fill: white;
+      @media (max-width: $breakpoint-laptop) {
+        fill: black;
+      }
       -webkit-transition: .4s;
       transition: .4s;
     }

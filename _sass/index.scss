@@ -339,7 +339,7 @@ li.timeline-item::before {
 }
 
 .btn {
-  font-size: 1.2em;
+  font-size: 1em;
 }
 
 mark {
@@ -356,10 +356,10 @@ mark {
 
 .announcement {
   @media (min-width: $breakpoint-laptop){
-    font-size: 1.6em;
+    font-size: 1em;
   
     p {
-      margin-bottom: 0.35em;
+      margin-bottom: 0.5em;
     }
     mark {
       margin-right: 0.5em;

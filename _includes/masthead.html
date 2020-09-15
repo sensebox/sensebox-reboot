@@ -69,26 +69,48 @@
 <header class="masthead-small">
     <div class="container-fluid h-100 center-item">
         <div class="row align-item-center">
-            <div class="col-md-6 masthead-text">
-                <div>
-                    {% if page.header %}
-                    <h1 class="heading">{{ page.header }}</h1>
-                    {% else if page.title %}
-                    <h1 class="heading">{{ page.title }}</h1>
-                    {% endif %}
-                    <h3>{{ page.description }}</h3>
-                    {% if page.author %}
-                    <span class="author">Von {{ page.author }} am {{ page.date | date: "%d/%m/%Y" }}</span>
-                    {% endif %}
-                </div>
-            </div>
             {% if page.thumbnail %}
-            <div class="col-md-6 masthead-image">
-                <!-- <img class="rounded-circle" src="/images/index/osem.png" height="200px"> -->
-                {% assign image_url = page.thumbnail %}
-                <img class="masthead-small-pic" src="{{ site.baseurl  | append: image_url }}"
-                    alt="{{ page.title }} - Logo" />
-            </div>
+                <div class="col-md-6 masthead-text">
+                    <div>
+                        {% if page.header %}
+                        <h1 class="heading">{{ page.header }}</h1>
+                        {% else if page.title %}
+                        <h1 class="heading">{{ page.title }}</h1>
+                        {% endif %}
+                        <h3>{{ page.description }}</h3>
+                        {% if page.shoplink %}
+                            <a class="btn btn-sensebox-white" href="{{ page.shoplink }}"
+                            role="button">{{ t.order-here }}</a>
+                        {% endif %}
+                        {% if page.author %}
+                        <span class="author">Von {{ page.author }} am {{ page.date | date: "%d/%m/%Y" }}</span>
+                        {% endif %}
+                    </div>
+                </div>
+                <div class="col-md-6 masthead-image">
+                    <!-- <img class="rounded-circle" src="/images/index/osem.png" height="200px"> -->
+                    {% assign image_url = page.thumbnail %}
+                    <img class="masthead-small-pic" src="{{ site.baseurl  | append: image_url }}"
+                        alt="{{ page.title }} - Logo" />
+                </div>
+            {% else %}
+                <div class="masthead-text">
+                    <div>
+                        {% if page.header %}
+                        <h1 class="heading">{{ page.header }}</h1>
+                        {% else if page.title %}
+                        <h1 class="heading">{{ page.title }}</h1>
+                        {% endif %}
+                        <h3>{{ page.description }}</h3>
+                        {% if page.shoplink %}
+                            <a class="btn btn-sensebox-white" href="{{ page.shoplink }}"
+                            role="button">{{ t.order-here }}</a>
+                        {% endif %}
+                        {% if page.author %}
+                        <span class="author">Von {{ page.author }} am {{ page.date | date: "%d/%m/%Y" }}</span>
+                        {% endif %}
+                    </div>
+                </div>
             {% endif %}
         </div>
     </div>

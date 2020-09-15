@@ -1,7 +1,9 @@
-text-1: Die openSenseMap ist unser Web-Portal für offene Daten aller Art. Dort werden standardmäßig alle von senseBoxen erhobenen Daten gesammelt, visualisiert und zum Download angeboten. Alle auf der openSenseMap veröffentlichte Daten sind Open Data unter der Public Domain Dedication and License 1.0. 
+text-1: Die openSenseMap ist unser Web-Portal für offene Daten aller Art. Dort werden standardmäßig alle von senseBoxen erhobenen Daten gesammelt, visualisiert und zum Download angeboten. Alle auf der openSenseMap veröffentlichten Daten sind Open Data unter der Public Domain Dedication and License 1.0. 
+
+go-to-opensensemap: "Zur openSenseMap &raquo;"
 
 head-2: Umweltdaten analysieren
 text-2: Über die openSenseMap hast du Zugriff auf <b>Milliarden</b> von Messwerten. Sieh dir historische Messwerte an, erstelle einfache Diagramme, vergleiche Messwerte verschiedener Standorte oder lade dir die Daten zur Analyse auf dem Computer herunter.
 
 head-3: Offene API
-text-3: Die offene API bietet den Zugriff auf sämtliche Sensordaten für die Verwendung in anderen System. So werden zum Beispiel Umweltdaten in ein Exponat im Berliner Zukunftsmuseum Futurium visualisiert oder Webplattformen wie ArcGIS Online bietet direkten Zugriff auf die Messwerte. Neben Sensordaten der senseBox können auch andere Messgeräte, wie zum Beispiel aus den Projekten luftdaten.info oder HackAir ihre Messwerte an die openSenseMap senden.
+text-3: Die offene API bietet den Zugriff auf sämtliche Sensordaten für die Verwendung in anderen Systemen. So werden zum Beispiel Umweltdaten in ein Exponat im Berliner Zukunftsmuseum Futurium visualisiert oder Webplattformen wie ArcGIS Online bieten direkten Zugriff auf die Messwerte. Neben Sensordaten der senseBox können auch andere Messgeräte, wie zum Beispiel aus den Projekten luftdaten.info oder HackAir, ihre Messwerte an die openSenseMap senden.

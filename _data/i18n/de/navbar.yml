@@ -1,9 +1,10 @@
 go-head: Los geht's
 products-head: Produkte
-resources-head: Resources
+resources-head: Material
 about-us-head: Über uns
  
 #Go
+go-fist-steps-with: "Erste Schritte mit der..."
 go-name: Wähle deine senseBox
 go-home-name: ":home"
 go-home-link: /go-home.html

@@ -5,6 +5,8 @@ network-name: "Netzwerk"
 network-link: /network.html
 press-link: /press.html
 press-name: Presse
+press-kit-link: /pressekit.html
+press-kit-name: Pressekit
 
 #
 docs-name: "Dokumentation"

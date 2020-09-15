@@ -166,3 +166,39 @@
   display: block !important;
   transition: max-height 0.3s ease-out;
 }
+
+.nav-shop {
+  background-color: white;
+  border-radius: 50px;
+
+  > .nav-link {
+    color: $sensebox-green;
+
+    &:hover {
+      color: #0056b3;
+    }
+
+    svg {
+      margin-bottom: 4px;
+    }
+  }
+}
+
+.nav-lang {
+  margin-left: 10px;
+
+  > .nav-link {
+    svg {
+      margin-bottom: 4px;
+      fill: white;
+      -webkit-transition: .4s;
+      transition: .4s;
+    }
+
+    &:hover {
+      svg {
+        fill: #0056b3;
+      }
+    }
+  }
+}

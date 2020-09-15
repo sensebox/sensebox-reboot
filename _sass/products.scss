@@ -121,40 +121,40 @@ figure a {
 }
 
 figcaption {
-position: absolute;
-top: 0;
-left: 0;
-height: 100%;
-width: 100%;
-opacity: 1;
-padding: 20px;
-background: none;
-color: #ff8b45;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+  padding: 20px;
+  background: none;
+  color: #ff8b45;
 
--webkit-transform: scale(0.7);
--moz-transform: scale(0.7);
--ms-transform: scale(0.7);
-transform: scale(0.7);
--webkit-backface-visibility: hidden;
--moz-backface-visibility: hidden;
-backface-visibility: hidden;
--webkit-transition: -webkit-transform 0.4s, opacity 0.4s;
--moz-transition: -moz-transform 0.4s, opacity 0.4s;
-transition: transform 0.4s, opacity 0.4s;
+  -webkit-transform: scale(0.7);
+  -moz-transform: scale(0.7);
+  -ms-transform: scale(0.7);
+  transform: scale(0.7);
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transition: -webkit-transform 0.4s, opacity 0.4s;
+  -moz-transition: -moz-transform 0.4s, opacity 0.4s;
+  transition: transform 0.4s, opacity 0.4s;
 
-h3{ 
-  opacity: 0.7;
-}
-p,a,ul{
-  opacity: 0;
-}
+  h3{ 
+    opacity: 0.7;
+  }
+  p,a,ul{
+    opacity: 0;
+  }
 }
 
 figcaption h3 {
-margin: 0;
-padding: 0;
-color: black;
-}
+  margin: 0;
+  padding: 0;
+  color: black;
+  }
 
 .sensors-text{
   background: none;
@@ -164,11 +164,18 @@ color: black;
   text-align: center;
 }
 
+.featurette-heading {
+  @media (max-width: $breakpoint-tablet) {
+    padding-top: 1.5em;
+  }
+}
 
 .phenos {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  padding: 1em 0;
+  width: 100%;
 }
 .sb-pheno {
   margin-top: 1em;
@@ -176,11 +183,15 @@ color: black;
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
+  padding: 0.8em 0;
+
+  @media (max-width: 767px) {
+    // text-align: left;
+    display: flex;
+  }
+
   &.sb-small-pheno {
     width: 140px !important;
-  }
-  @media (max-width: 767px) {
-    text-align: left;
-    display: flex;
   }
 }

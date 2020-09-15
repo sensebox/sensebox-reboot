@@ -185,23 +185,20 @@
 }
 
 .nav-lang {
-  background-color: white;
-  border-radius: 50px;
   margin-left: 10px;
 
-  @media (max-width: $breakpoint-laptop) {
-    margin-left: 0px;
-  }
-
   > .nav-link {
-    color: $sensebox-green;
-
-    &:hover {
-      color: #0056b3;
-    }
-
     svg {
       margin-bottom: 4px;
+      fill: white;
+      -webkit-transition: .4s;
+      transition: .4s;
+    }
+
+    &:hover {
+      svg {
+        fill: #0056b3;
+      }
     }
   }
 }

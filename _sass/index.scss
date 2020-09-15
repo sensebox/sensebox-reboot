@@ -351,3 +351,23 @@ mark {
   box-decoration-break: clone;
   display: inline;
 }
+
+// ANNOUNCMENT
+
+.announcement {
+  @media (min-width: $breakpoint-laptop){
+    font-size: 1.6em;
+  
+    p {
+      margin-bottom: 0.35em;
+    }
+    mark {
+      margin-right: 0.5em;
+    }
+  
+    .btn {
+      margin: 0 0.5em;
+    }
+
+  }
+}

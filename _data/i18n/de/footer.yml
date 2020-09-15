@@ -12,6 +12,10 @@ docs-link: https://docs.sensebox.de
 projects-name: "Projekte"
 projects-link: /projects.html
 
+#
+resources-docs: "Dokumentation"
+resources-projects: "Projekte"
+resources-teaching: "Lernmaterialien"
 
 #
 resources: Resources

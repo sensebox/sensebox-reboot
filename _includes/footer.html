@@ -90,36 +90,35 @@
                         </g>
                     </g>
                 </svg>
-                {% assign footer-item = site.data.i18n.[page.lang].footer %}
                 <small class="pt-2 d-block mb-3 text-muted">senseBox &copy; 2014-2020</small>
 
             </div>
         </div>
         <div class="col-6 col-md">
-            <h5>{{ footer-item.background }}</h5>
+            <h5>{{ content.background }}</h5>
             <ul class="list-unstyled text-small">
 
                 <li><a class="text-muted"
-                        href="{{site.baseurl }}/{{ page.lang }}{{footer-item.about-us-link}}">{{ footer-item.about-us-name }}</a>
+                        href="{{site.baseurl }}/{{ page.lang }}{{content.about-us-link}}">{{ content.about-us-name }}</a>
                 </li>
                 <li><a class="text-muted"
-                        href="{{site.baseurl }}/{{ page.lang }}{{footer-item.press-link}}">{{ footer-item.press-name }}</a>
+                        href="{{site.baseurl }}/{{ page.lang }}{{content.press-link}}">{{ content.press-name }}</a>
                 </li>
                 <li><a class="text-muted"
-                        href="{{site.baseurl }}/{{ page.lang }}{{footer-item.network-link}}">{{ footer-item.network-name }}</a>
+                        href="{{site.baseurl }}/{{ page.lang }}{{content.network-link}}">{{ content.network-name }}</a>
                 </li>
             </ul>
         </div>
         <div class="col-6 col-md">
-            <h5>{{ footer-item.resources}}</h5>
+            <h5>{{ content.resources}}</h5>
             <ul class="list-unstyled text-small">
                 <li><a class="text-muted" href="https://docs.sensebox.de">{{content.resources-docs}}</a></li>
-                <li><a class="text-muted" href="/projects.html">{{content.resources-projects}}</a></li>
-                <li><a class="text-muted" href="/material.html">{{content.resources-teaching}}</a></li>
+                <li><a class="text-muted" href="{{site.baseurl }}/{{ page.lang }}/projects.html">{{content.resources-projects}}</a></li>
+                <li><a class="text-muted" href="{{site.baseurl }}/{{ page.lang }}/material.html">{{content.resources-teaching}}</a></li>
             </ul>
         </div>
         <div class="col-6 col-md">
-            <h5>{{ footer-item.follow-us }}</h5>
+            <h5>{{ content.follow-us }}</h5>
             <ul class="list-unstyled text-small">
                 <li class="pt-1"><i class="fab fa-github footer-icon px-1"></i><a class="text-muted"
                         href="https://github.com/sensebox">Github</a>
@@ -139,13 +138,13 @@
             <h5>{{content.about-title}}</h5>
             <ul class="list-unstyled text-small">
                 <li><a class="text-muted"
-                        href="{{site.baseurl }}/{{ page.lang }}{{footer-item.imprint-link}}">{{ footer-item.imprint-name }}</a>
+                        href="{{site.baseurl }}/{{ page.lang }}{{content.imprint-link}}">{{ content.imprint-name }}</a>
                 </li>
                 <li><a class="text-muted"
-                        href="{{site.baseurl }}/{{ page.lang }}{{footer-item.privacy-link}}">{{ footer-item.privacy-name }}</a>
+                        href="{{site.baseurl }}/{{ page.lang }}{{content.privacy-link}}">{{ content.privacy-name }}</a>
                 </li>
                 <li><a class="text-muted"
-                        href="{{site.baseurl }}/{{ page.lang }}{{footer-item.contact-link}}">{{ footer-item.contact-name }}</a>
+                        href="{{site.baseurl }}/{{ page.lang }}{{content.contact-link}}">{{ content.contact-name }}</a>
                 </li>
             </ul>
         </div>

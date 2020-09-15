@@ -303,15 +303,16 @@ li.timeline-item::before {
   display: flex;
 }
 
-div.container {
-  > :first-child {
-    padding-top: 2rem; 
-  }
+// div.container {
+//   > :first-child {
+//     padding-top: 2rem; 
+//   }
 
-  > div {
-    padding-bottom: 4rem;
-  }
-}
+//   > div {
+//     padding-bottom: 4rem;
+//   }
+// }
+
 
 .section {
   padding-bottom: 4rem;
@@ -349,4 +350,24 @@ mark {
   -o-box-decoration-break: clone;
   box-decoration-break: clone;
   display: inline;
+}
+
+// ANNOUNCMENT
+
+.announcement {
+  @media (min-width: $breakpoint-laptop){
+    font-size: 1.6em;
+  
+    p {
+      margin-bottom: 0.35em;
+    }
+    mark {
+      margin-right: 0.5em;
+    }
+  
+    .btn {
+      margin: 0 0.5em;
+    }
+
+  }
 }

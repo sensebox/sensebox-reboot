@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container main-container">
     <div class="row">
         <h1>Über uns</h1>
         <p>Unser Team des Schüler- und Forschungslabors GI@School am Institut für Geoinformatik sammelt seit mehreren
@@ -16,7 +16,7 @@
 {% assign teammembers-uni = site.data.i18n.[page.lang].team-uni | sort: 'position' %}
 {% assign awardslist = site.awards | sort: 'weight' %}
 
-<div class="container">
+<div class="container main-container">
     <h1>Team an der Westfälischen Wilhelms-Universität Münster</h1>
     <div class="row">
         {% for teammember in teammembers-uni %}
@@ -46,7 +46,7 @@
 
 
 
-<div class="container">
+<div class="container main-container">
     <h1>Team-Reedu</h1>
     <div class="row">
         {% for teammember in teammembers-reedu %}
@@ -72,7 +72,7 @@
 
 <hr>
 
-<div class="container">
+<div class="container main-container">
 
     <div class="row">
         <h1 id="Förderung"><mark>Förderungen</mark></h1>

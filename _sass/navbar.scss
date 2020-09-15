@@ -183,3 +183,22 @@
     }
   }
 }
+
+.nav-lang {
+  margin-left: 10px;
+
+  > .nav-link {
+    svg {
+      margin-bottom: 4px;
+      fill: white;
+      -webkit-transition: .4s;
+      transition: .4s;
+    }
+
+    &:hover {
+      svg {
+        fill: #0056b3;
+      }
+    }
+  }
+}

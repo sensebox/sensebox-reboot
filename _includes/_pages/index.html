@@ -31,13 +31,16 @@
                 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
+                            {% picture /images/index/Startseite-Karusel-3.jpg class="d-block w-100" %}
                             <img class="d-block w-100" src="/images/index/Startseite-Karusel-3.jpg" alt="First slide">
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100" src="/images/index/Startseite-Karusel-2.jpg" alt="Second slide">
+                            {% picture /images/index/Startseite-Karusel-2.jpg class="d-block w-100" %}
+                            <!-- <img class="d-block w-100" src="/images/index/Startseite-Karusel-2.jpg" alt="Second slide"> -->
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100" src="/images/index/Startseite-Karusel-1.jpg" alt="Third slide">
+                            {% picture /images/index/Startseite-Karusel-1.jpg class="d-block w-100" %}
+                            <!-- <img class="d-block w-100" src="/images/index/Startseite-Karusel-1.jpg" alt="Third slide"> -->
                         </div>
                     </div>
                     <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -58,24 +61,27 @@
         <h1>{{content.sensebox-overview}}</h1>
         <div class="row row-padding">
             <div class="col-lg-4">
-                <img class="rounded-circle" src="/images/products/home_title.png" alt="Generic placeholder image"
-                    width="100%" height="auto">
+                {% picture /images/products/home_title.png class="rounded-circle" width="100%" height="auto" %}
+                <!-- <img class="rounded-circle" src="/images/products/home_title.png" alt="Generic placeholder image"
+                    width="100%" height="auto"> -->
                 <h2>senseBox:home</h2>
                 <p>{{content.sensebox-overview-home}}</p>
                 <p><a class="btn btn-sensebox-blue" href="{{site.baseurl}}/{{page.lang}}/products-home.html"
                         role="button">{{ content.sensebox-overview-button }}</a></p>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4">
-                <img class="rounded-circle" src="/images/products/edu_title.png" alt="Generic placeholder image"
-                    width="100%" height="auto">
+                {% picture /images/products/edu_title.png class="rounded-circle" width="100%" height="auto" %}
+                <!-- <img class="rounded-circle" src="/images/products/edu_title.png" alt="Generic placeholder image"
+                    width="100%" height="auto"> -->
                 <h2>senseBox:edu</h2>
                 <p>{{content.sensebox-overview-edu}}</p>
                 <p><a class="btn btn-sensebox-red" href="{{site.baseurl}}/{{page.lang}}/products-edu.html"
                         role="button">{{ content.sensebox-overview-button }}</a></p>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4">
-                <img class="rounded-circle" src="/images/products/mini_title-2.png" alt="Generic placeholder image"
-                    width="100%" height="auto">
+                {% picture /images/products/mini_title-2.png class="rounded-circle" width="100%" height="auto" %}
+                <!-- <img class="rounded-circle" src="/images/products/mini_title-2.png" alt="Generic placeholder image"
+                    width="100%" height="auto"> -->
                 <h2>senseBox:mini</h2>
                 <p>{{content.sensebox-overview-mini}}</p>
                 <p><a class="btn btn-sensebox-green" href="{{site.baseurl}}/{{page.lang}}/products-mini.html"
@@ -90,8 +96,9 @@
         <div class="row row-padding">
             <div class="col-md-6" style="padding: 2rem">
                 <div class="card software-card">
-                    <img class="card-img-top" style="padding: 10px;" src="/images/index/blockly.png"
-                        alt="Card image cap">
+                    {% picture /images/index/blockly.png class="card-img-top" style="padding: 10px;" %}
+                    <!-- <img class="card-img-top" style="padding: 10px;" src="/images/index/blockly.png"
+                        alt="Card image cap"> -->
                     <div class="card-body">
                         <h5 class="card-title"><mark style=" background-color: rgb( 58, 176, 232);
                             color: white;">{{ content.blockly-head}}</mark></h5>
@@ -104,7 +111,8 @@
             </div>
             <div class="col-md-6">
                 <div class="card software-card">
-                    <img class="card-img-top" style="padding: 10px;" src="/images/index/osem.png" alt="Card image cap">
+                    {% picture /images/index/osem.png class="card-img-top" style="padding: 10px;" %}
+                    <!-- <img class="card-img-top" style="padding: 10px;" src="/images/index/osem.png" alt="Card image cap"> -->
                     <div class="card-body">
                         <h5 class="card-title"><mark
                                 style=" background-color: rgb( 58, 176, 232); color: white;">{{ content.opensensemap-head }}</mark>
@@ -219,7 +227,8 @@
 
                 <li>
                     <a href="{{ partner.link }}" target="_blank">
-                        <img src="{{ partner.logo }}" alt="giatschool Logo">
+                        {% picture {{ partner.logo }} %}
+                        <!-- <img src="{{ partner.logo }}" alt="giatschool Logo"> -->
                     </a>
                 </li>
                 {% if forloop.index == 5%}
@@ -240,7 +249,8 @@
 <div class="container section">
     <div class="row row-padding">
         <div class="col-lg-4">
-            <img src="/images/awards/BMBF_CMYK_Gef_L.png" class="img-fluid" alt="...">
+            {% picture /images/awards/BMBF_CMYK_Gef_L.png class="img-fluid" %}
+            <!-- <img src="/images/awards/BMBF_CMYK_Gef_L.png" class="img-fluid" alt="..."> -->
         </div>
         <div class="col-lg-8">
             <h1>{{content.grant-head}}</h1>

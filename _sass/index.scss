@@ -241,15 +241,22 @@ li.timeline-item::before {
   position: absolute;
   left: 0;
   top: -2rem;
+  z-index: -1;
 
   // Small devices
-  @media (max-width: $breakpoint-mobile) { 
+  @media (max-width: $breakpoint-tablet) { 
+    top: -4rem;
+    // display: none; 
+  }
+
+  // Small devices
+  @media (max-height: 1100px) { 
     display: none; 
   }
 
-  @media (max-height: 1500px) { 
-    display: none; 
-  }
+  // @media (max-height: 1500px) { 
+  //   display: none; 
+  // }
 }
 
 .masthead-image-2 {
@@ -262,11 +269,15 @@ li.timeline-item::before {
     display: none; 
   }
   @media (min-width: $breakpoint-tablet) { 
-    top: -2rem; 
+    top: -3rem; 
   }
 
   @media (max-height: 1300px) and (max-width: $breakpoint-laptop) { 
     display: none; 
+  }
+
+  .masthead-pic {
+    max-height: 500px;
   }
 }
 

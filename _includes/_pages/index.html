@@ -218,7 +218,7 @@
                 {% assign partner = site.data.i18n.[page.lang].network %}
                 {% for partner in partner %}
 
-                <li>
+                <li class="middle">
                     <a href="{{ partner.link }}" target="_blank">
                         <img src="{{ partner.logo }}" alt="giatschool Logo">
                     </a>
@@ -229,11 +229,9 @@
                 {% endfor %}
             </ul>
         </div>
-        <div class="row row-padding">
-            <div class="col-md-4 offset-4">
-                <a href="{{ site.baseurl }}/{{page.lang}}/network.html"
-                    class="btn btn-sensebox-green">{{content.partner-see-all}}</a>
-            </div>
+        <div style="text-align: center;">
+            <a href="{{ site.baseurl }}/{{page.lang}}/network.html"
+                class="btn btn-sensebox-green">{{content.partner-see-all}}</a>
         </div>
     </div>
 </div>

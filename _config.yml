@@ -19,3 +19,7 @@ collections:
     awards:
     projects: 
         output: true
+
+picture: 
+    ignore_missing_images: true
+    suppress_warnings: true

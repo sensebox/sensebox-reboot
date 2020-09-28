@@ -9,7 +9,7 @@ image1: /images/blog/2017-09-05-Zugspitze/team.jpg
 image2: /images/blog/2017-09-05-Zugspitze/kuh.jpg
 image3: /images/blog/2017-09-05-Zugspitze/aussicht1.jpg
 image4: /images/blog/2017-09-05-Zugspitze/schneefernhaus.jpg
-image5: /images/blog/2017-09-05-Zugspitze/senseBox_zugspitze.jpg
+# image5: /images/blog/2017-09-05-Zugspitze/senseBox_zugspitze.jpg
 image6: /images/blog/2017-09-05-Zugspitze/Lift.jpg
 image7: /images/blog/2017-09-05-Zugspitze/retreat_raum.jpg
 image8: /images/blog/2017-09-05-Zugspitze/schnee_zugspitze.jpg
@@ -36,7 +36,6 @@ Mittwoch morgen um 4:30 Uhr ging es  mit Traumwetter und 20 Grad Sonne los. Mit 
 {% include image.html image=page.image3 %}
 
 Unser Ziel war das <a href="http://www.schneefernerhaus.de/startseite.html">Schneefernhaus</a>, eine Umweltforschungsstation kurz unter dem Gipfel der Zugspitze. Dort betreiben wir seit zwei Jahren mehrere senseBoxen, die wir bei widrigen Bedingungen testen und verschiedenen Sensoren evaluieren. Bei den beiden senseBoxen beim Schneefernhaus wurden defekte Sensoren ausgetauscht und die Gehäuse abgedichtet, was bei den wechselnden Bedingungen auf der Zugspitze enorm wichtig ist.  Was diese beiden senseBoxen auf dem Messbalkon in genau diesem Moment messen, kannst du auf unserer <a href="https://opensensemap.org/explore/55a3a864a807ade00fc7d5ce">openSenseMap</a> nachschauen.  
-{% include image.html image=page.image5 %}
 {% include image.html image=page.image6 %}
 
 Neben einer spannenden Führung im Schneeferhaus hielten wir einen Retreat ab, also ein mehrtägiges Treffen, bei dem der wissenschaftliche Austausch im Vordergrund steht. Das wurde uns dadurch versüßt, da wir in unserem Raum „Gletscherstube“ tagten, in dem wir einen tollen Blick auf die Berge hatten.

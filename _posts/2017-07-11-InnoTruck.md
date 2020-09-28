@@ -8,7 +8,7 @@ thumbnail: /images/blog/2017-07-11-InnoTruck/InnoTruck2.jpg
 image1: /images/blog/2017-07-11-InnoTruck/InnoTruck1.JPG
 image2: /images/blog/2017-07-11-InnoTruck/cebit.jpg
 image3: /images/blog/2017-07-11-InnoTruck/InnoTruck3.JPG
-image4: /images/blog/2017-07-11-InnoTruck/InnoTruck 4.JPG
+image4: /images/blog/2017-07-11-InnoTruck/InnoTruck4.JPG
 lang: de
 ---
 Eine mobile Initiative

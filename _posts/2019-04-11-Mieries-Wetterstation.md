@@ -7,7 +7,7 @@ abstract: "Die Mierendorff Grundschule in Berlin-Charlottenburg arbeitet mit dem
 thumbnail: /images/blog/2019-04-11-Mieries-Wetterstation/Wetterstation_Grundschule_Mierendorff.jpg
 image1: /images/blog/2019-04-11-Mieries-Wetterstation/Pflanzensensorik1.jpg
 image2: /images/blog/2019-04-11-Mieries-Wetterstation/Pflanzensensorik.jpg
-image3: /images/blog/2019-04-11-Mieries-Wetterstation/LoRaWAN Umweltstation mit Solarpanel.jpg
+image3: /images/blog/2019-04-11-Mieries-Wetterstation/LoRaWAN_Umweltstation_mit_Solarpanel.jpg
 image4: /images/blog/2019-04-11-Mieries-Wetterstation/Übersicht-Mierie-Wetterstation.jpeg
 lang: de
 ---

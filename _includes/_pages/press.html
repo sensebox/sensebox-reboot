@@ -4,7 +4,11 @@
     <div class="row">
         {% if post.thumbnail %}
         <div class="col-4">
-            <img class="press-pic" src="{{ site.baseurl | append: post.thumbnail }}" alt="{{ post.title }} - Logo" />
+            {% if post.thumbnail contains "svg" %}
+                <img class="press-pic" src="{{ site.baseurl | append: post.thumbnail }}" alt="{{ post.title }} - Logo" />
+            {% else %}
+                {% picture {{ site.baseurl | append: post.thumbnail }}  alt="{{ post.title }} - Logo" class="press-pic" %}
+            {% endif %}
         </div>
 
         <div class="col-8">

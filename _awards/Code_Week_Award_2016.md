@@ -2,7 +2,7 @@
 layout: post
 title:  "Code Week Award 2016"
 weight:   5
-thumbnail: /images/awards/CWA Logo 2016 _M_White.svg
+# thumbnail: /images/awards/CWA_Logo_2016_M_White.svg
 type: award
 categories: awards
 year: 2016

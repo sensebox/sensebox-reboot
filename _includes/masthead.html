@@ -44,17 +44,20 @@
             <h1>{{page.header}}</h1>
             {% for image in site.static_files %}
             {% if image.path contains 'images/products/parts' %}{% unless image.path contains 'orange' %}
-            <img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
+                {% picture {{ site.baseurl }}{{ image.path }} %}
+                <!-- <img src="{{ site.baseurl }}{{ image.path }}" alt="image" /> -->
             {% endunless %}{% endif %}
             {% endfor %}
             {% for image in site.static_files %}
             {% if image.path contains 'images/products/parts' %}{% unless image.path contains 'orange' %}
-            <img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
+                {% picture {{ site.baseurl }}{{ image.path }} %}
+                <!-- <img src="{{ site.baseurl }}{{ image.path }}" alt="image" /> -->
             {% endunless %}{% endif %}
             {% endfor %}
             {% for image in site.static_files %}
             {% if image.path contains 'images/products/parts' %}{% unless image.path contains 'orange' %}
-            <img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
+                {% picture {{ site.baseurl }}{{ image.path }} %}
+                <!-- <img src="{{ site.baseurl }}{{ image.path }}" alt="image" /> -->
             {% endunless %}{% endif %}
             {% endfor %}
         </div>
@@ -90,8 +93,12 @@
                 <div class="col-md-6 masthead-image">
                     <!-- <img class="rounded-circle" src="/images/index/osem.png" height="200px"> -->
                     {% assign image_url = page.thumbnail %}
+                    {% if include.image contains "svg" %}
                     <img class="masthead-small-pic" src="{{ site.baseurl  | append: image_url }}"
                         alt="{{ page.title }} - Logo" />
+                    {% else %}
+                        {% picture {{ site.baseurl  | append: image_url }} class="masthead-small-pic" alt="{{ page.title }} - Logo" %}
+                    {% endif %}
                 </div>
             {% else %}
                 <div class="masthead-text">

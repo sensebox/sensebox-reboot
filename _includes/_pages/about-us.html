@@ -24,7 +24,8 @@
             <div class="item-inner m-2">
                 <div class="row">
                     <div class="figure col-md-5 col-12">
-                        <img class="img-fluid" src="{{ teammember.image }}" alt="">
+                        {% picture {{ teammember.image }} class="img-fluid" %}
+                        <!-- <img class="img-fluid" src="{{ teammember.image }}" alt=""> -->
                     </div>
                     <div class="info col-md-7 col-12">
                         <h3 class="name">{{ teammember.name }}</h3>

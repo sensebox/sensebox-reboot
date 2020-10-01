@@ -4,7 +4,7 @@
     <div class="row">
         {% if post.thumbnail %}
         <div class="col-4">
-            {% if post.thumbnail contains "svg" %}
+            {% if post.thumbnail contains "svg" or post.thumbnail contains "http://" or post.thumbnail contains "https://" or post.thumbnail contains "www" %}
                 <img class="press-pic" src="{{ site.baseurl | append: post.thumbnail }}" alt="{{ post.title }} - Logo" />
             {% else %}
                 {% picture {{ site.baseurl | append: post.thumbnail }}  alt="{{ post.title }} - Logo" class="press-pic" %}

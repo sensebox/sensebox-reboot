@@ -2,6 +2,6 @@ presets:
     default:
       formats: [original]
       widths: [400, 800, 1200]
-      link_source: true
+      link_source: false
       attributes:
         img: loading="lazy"

@@ -3,3 +3,5 @@ presets:
       formats: [original]
       widths: [400, 800, 1200]
       link_source: true
+      attributes:
+        img: loading="lazy"

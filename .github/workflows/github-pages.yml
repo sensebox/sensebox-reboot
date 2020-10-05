@@ -3,15 +3,15 @@ name: Build and deploy Jekyll site to GitHub Pages
 on:
   push:
     branches:
-      - responsive-images
+      - responsive-images-act
 
 jobs:
   github-pages:
-    runs-on: ubuntu-20.04
+    runs-on: macos-latest
     steps:
       - uses: actions/checkout@v2
-      - run: sudo apt-get update
-      - run: sudo apt-get install imagemagick --fix-missing
+      - run: brew install graphicsmagick
+      - run: brew install imagemagick
       - uses: helaili/jekyll-action@2.0.1
         env:
           JEKYLL_PAT: ${{ secrets.JEKYLL_PAT }}

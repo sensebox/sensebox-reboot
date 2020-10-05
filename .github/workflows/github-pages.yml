@@ -9,9 +9,9 @@ jobs:
   github-pages:
     runs-on: ubuntu-20.04
     steps:
-      - run: apt-get update
-      - run: apt-get install imagemagick --fix-missing
-      - run: apt-get install graphicsmagick
+      - run: sudo apt-get update
+      - run: sudo apt-get install imagemagick --fix-missing
+      - run: sudo apt-get install graphicsmagick
       - uses: actions/checkout@v2
       - uses: helaili/jekyll-action@2.0.1
         env:

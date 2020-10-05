@@ -2,17 +2,17 @@
 layout: default
 ---
 
-<article class="post">
+<article class="post pt-2">
 	<div class="container">{% assign t = site.data.i18n[page.lang].projects %}
 		<div class="post-content">
 			{{ content }}
-			<div class="projects row">
+			<div class="projects">
 				<a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button"
 					aria-expanded="false" aria-controls="collapseExample">
 					Filter
 				</a>
 			</div>
-			<div class="collapse" id="collapseExample" style="box-shadow: none;">
+			<div class="collapse mt-2" id="collapseExample" style="box-shadow: none;">
 				<div class="well project-outer">
 					{% include project_tags.html %}
 					{% for i in site.projects %}
@@ -35,7 +35,7 @@ layout: default
 					{% endfor %}
 				</div>
 			</div>
-			<div style="margin-top: 1rem; margin-bottom: 1rem;">
+			<div class="py-4" style="margin-top: 1rem; margin-bottom: 1rem;">
 				{{ t.additional_info }}
 			</div>
 			<div class=" row row-eq-height">

@@ -5,6 +5,8 @@ network-name: "Netzwerk"
 network-link: /network.html
 press-link: /press.html
 press-name: Presse
+press-kit-link: /pressekit.html
+press-kit-name: Pressekit
 
 #
 docs-name: "Dokumentation"
@@ -12,9 +14,13 @@ docs-link: https://docs.sensebox.de
 projects-name: "Projekte"
 projects-link: /projects.html
 
+#
+resources-docs: "Dokumentation"
+resources-projects: "Projekte"
+resources-teaching: "Lernmaterialien"
 
 #
-resources: Resources
+resources: Material
 follow-us: Folge uns
 background: Hintergrund
 

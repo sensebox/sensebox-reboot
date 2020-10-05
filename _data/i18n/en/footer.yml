@@ -1,16 +1,34 @@
-background-title: "Background"
-background-about-us: "About Us"
-brackground-press: "Press and media"
-background-network: "Network"
+#
+about-us-name: "About us"
+about-us-link: /about-us.html
+network-name: "Network"
+network-link: /network.html
+press-link: /press.html
+press-name: Press and media
+press-kit-link: /pressekit.html
+press-kit-name: Press Kit
 
-resources-title: "Ressources"
+#
+docs-name: "Documentation"
+docs-link: https://docs.sensebox.de
+projects-name: "Projects"
+projects-link: /projects.html
+
+#
 resources-docs: "Documentation"
 resources-projects: "Projects"
-resources-teaching: "Teaching material"
+resources-teaching: "Learning Materials"
 
-follow-tile: "Follow Us"
+#
+resources: Resources
+follow-us: Follow us
+background: Background
 
-about-title: "About"
-about-privacy: "Privacy"
-about-terms: "Terms"
-about-contact: "Contact"
+#
+imprint-name: "Imprint"
+imprint-link: /imprint.html
+privacy-name: "Privacy"
+privacy-link: /privacy.html
+contact-name: "Contact"
+contact-link: /contact.html
+

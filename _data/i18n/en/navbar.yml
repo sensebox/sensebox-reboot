@@ -4,6 +4,7 @@ resources-head: Resources
 about-us-head: About us
  
 #Go
+go-fist-steps-with: "Your first steps with..."
 go-name: Choose your senseBox
 go-home-name: ":home"
 go-home-link: /go-home.html
@@ -19,7 +20,7 @@ products-home-link: /products-home.html
 products-edu-name: ":edu"
 products-edu-link: /products-edu.html
 products-mini-name: ":mini"
-products-mini-link: /products-edu.html
+products-mini-link: /products-mini.html
 products-sensoren-name: ":sensors"
 products-sensoren-link: /products-sensoren.html
 editoren-name: "Editors"
@@ -40,7 +41,7 @@ forum-link: https://forum.sensebox.de
 #About-us
 team-name: "Team"
 team-link: /about-us.html
-foerderung-name: "Förderung"
+foerderung-name: "Sponsors"
 foerderung-link: /about-us.html#Förderung
 network-name: "Network"
 network-link: /network.html

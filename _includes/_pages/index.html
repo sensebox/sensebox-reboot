@@ -1,17 +1,18 @@
 {% assign content = site.data.i18n.[page.lang].index %}
 <div class="paperlike">
     <div class="container">
-        <div class="d-flex justify-content-center">
+        <div class="d-flex justify-content-center announcement">
             <div class="card"
                 style="padding: 2rem; border: none; clip-path: polygon(21% 12%, 80% 8%, 96% 20%, 98% 80%, 68% 77%, 25% 86%, 0% 80%, 1% 20%)">
-                <div class=" card-body">
+                <div class="card-body">
                     <p>
                         <mark style="background-color: rgb(252, 70, 43); color: white;">
                             {{ content.new }}
                         </mark>
-                        &nbsp;{{ content.announcement-text }}&nbsp;
-                        <a href="{{ content.announcement-link}}" class="btn"
-                            style="background-color: rgb(51,51,51); color: white;">
+                        <span>
+                            &nbsp;{{ content.announcement-text }}&nbsp;
+                        </span>
+                        <a href="{{ content.announcement-link}}" class="btn btn-sensebox-green">
                             {{ content.announcement-button}}
                         </a>
                     </p>
@@ -225,7 +226,7 @@
                 {% assign partner = site.data.i18n.[page.lang].network %}
                 {% for partner in partner %}
 
-                <li>
+                <li class="middle">
                     <a href="{{ partner.link }}" target="_blank">
                         {% picture {{ partner.logo }} %}
                         <!-- <img src="{{ partner.logo }}" alt="giatschool Logo"> -->
@@ -237,11 +238,9 @@
                 {% endfor %}
             </ul>
         </div>
-        <div class="row row-padding">
-            <div class="col-md-4 offset-4">
-                <a href="{{ site.baseurl }}/{{page.lang}}/network.html"
-                    class="btn btn-sensebox-green">{{content.partner-see-all}}</a>
-            </div>
+        <div style="text-align: center;">
+            <a href="{{ site.baseurl }}/{{page.lang}}/network.html"
+                class="btn btn-sensebox-green">{{content.partner-see-all}}</a>
         </div>
     </div>
 </div>

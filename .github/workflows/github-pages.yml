@@ -13,7 +13,7 @@ jobs:
       - uses: actions/cache@v2
         with:
           path: | 
-            images/
+            _site/generated/images/
           key: ${{ runner.os }}-${{ hashFiles('**/images/') }}
       - uses: felixerdy/jekyll-action@2.0.6
         env:

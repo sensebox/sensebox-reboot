@@ -10,6 +10,11 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v2
+      - uses: actions/cache@v2
+        with:
+          path: | 
+            images/
+          key: ${{ runner.os }}-${{ hashFiles('**/images/') }}
       - uses: felixerdy/jekyll-action@2.0.6
         env:
           JEKYLL_PAT: ${{ secrets.JEKYLL_PAT }}

@@ -16,7 +16,7 @@ layout: simple
 				{% if page.thumbnail %}
 				<div class="col-lg-6 col-sm-6 col-lg-offset-3 col-sm-offset-3 hidden-xs">
 					{% assign image_url = page.thumbnail %}
-					<img class="press-pic" src="{{ site.baseurl  | append: image_url }}"
+					<img loading="lazy" class="press-pic" src="{{ site.baseurl  | append: image_url }}"
 						alt="{{ page.title }} - Logo" />
 				</div>
 				{% endif %}

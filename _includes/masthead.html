@@ -10,23 +10,23 @@
             </div>
             {% if page.thumbnail %}
             <div class="masthead-image-1">
-                <!-- <img class="rounded-circle" src="/images/index/osem.png" height="200px"> -->
+                <!-- <img loading="lazy" class="rounded-circle" src="/images/index/osem.png" height="200px"> -->
                 {% assign image_url = page.thumbnail %}
-                <img class="masthead-pic" src="{{ site.baseurl  | append: image_url }}" alt="{{ page.title }} - Logo" />
+                <img loading="lazy" class="masthead-pic" src="{{ site.baseurl  | append: image_url }}" alt="{{ page.title }} - Logo" />
             </div>
             {% endif %}
             {% if page.thumbnail2 %}
             <div class="masthead-image-2">
-                <!-- <img class="rounded-circle" src="/images/index/osem.png" height="200px"> -->
+                <!-- <img loading="lazy" class="rounded-circle" src="/images/index/osem.png" height="200px"> -->
                 {% assign image_url = page.thumbnail2 %}
-                <img class="masthead-pic" src="{{ site.baseurl  | append: image_url }}" alt="{{ page.title }} - Logo" />
+                <img loading="lazy" class="masthead-pic" src="{{ site.baseurl  | append: image_url }}" alt="{{ page.title }} - Logo" />
             </div>
             {% endif %}
             {% if page.thumbnail3 %}
             <div class="masthead-image-3">
-                <!-- <img class="rounded-circle" src="/images/index/osem.png" height="200px"> -->
+                <!-- <img loading="lazy" class="rounded-circle" src="/images/index/osem.png" height="200px"> -->
                 {% assign image_url = page.thumbnail3 %}
-                <img class="masthead-pic" src="{{ site.baseurl  | append: image_url }}" alt="{{ page.title }} - Logo" />
+                <img loading="lazy" class="masthead-pic" src="{{ site.baseurl  | append: image_url }}" alt="{{ page.title }} - Logo" />
             </div>
             {% endif %}
         </div>
@@ -44,17 +44,17 @@
             <h1>{{page.header}}</h1>
             {% for image in site.static_files %}
             {% if image.path contains 'images/products/parts' %}{% unless image.path contains 'orange' %}
-            <img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
+            <img loading="lazy" src="{{ site.baseurl }}{{ image.path }}" alt="image" />
             {% endunless %}{% endif %}
             {% endfor %}
             {% for image in site.static_files %}
             {% if image.path contains 'images/products/parts' %}{% unless image.path contains 'orange' %}
-            <img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
+            <img loading="lazy" src="{{ site.baseurl }}{{ image.path }}" alt="image" />
             {% endunless %}{% endif %}
             {% endfor %}
             {% for image in site.static_files %}
             {% if image.path contains 'images/products/parts' %}{% unless image.path contains 'orange' %}
-            <img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
+            <img loading="lazy" src="{{ site.baseurl }}{{ image.path }}" alt="image" />
             {% endunless %}{% endif %}
             {% endfor %}
         </div>
@@ -88,9 +88,9 @@
                     </div>
                 </div>
                 <div class="col-md-6 masthead-image">
-                    <!-- <img class="rounded-circle" src="/images/index/osem.png" height="200px"> -->
+                    <!-- <img loading="lazy" class="rounded-circle" src="/images/index/osem.png" height="200px"> -->
                     {% assign image_url = page.thumbnail %}
-                    <img class="masthead-small-pic" src="{{ site.baseurl  | append: image_url }}"
+                    <img loading="lazy" class="masthead-small-pic" src="{{ site.baseurl  | append: image_url }}"
                         alt="{{ page.title }} - Logo" />
                 </div>
             {% else %}

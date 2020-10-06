@@ -37,7 +37,7 @@ Das Ziel ist die Entwicklung eines TTN Mappers mit Hilfe des LoRa Bees und des G
 
 <div class="row">
 	<div class="post-image">
-			<img src="https://sensebox.kaufen/api/public/uploads/1584028489927-TTN-Mapper.png" alt="TTN-Mapper-Shop - Logo" data-zoomable/>
+			<img loading="lazy" src="https://sensebox.kaufen/api/public/uploads/1584028489927-TTN-Mapper.png" alt="TTN-Mapper-Shop - Logo" data-zoomable/>
 	</div>
 </div>
 

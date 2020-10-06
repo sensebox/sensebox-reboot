@@ -4,7 +4,7 @@
     <div class="row">
         {% if post.thumbnail %}
         <div class="col-4">
-            <img class="press-pic" src="{{ site.baseurl | append: post.thumbnail }}" alt="{{ post.title }} - Logo" />
+            <img loading="lazy" class="press-pic" src="{{ site.baseurl | append: post.thumbnail }}" alt="{{ post.title }} - Logo" />
         </div>
 
         <div class="col-8">

@@ -24,7 +24,7 @@
             <div class="item-inner m-2">
                 <div class="row">
                     <div class="figure col-md-5 col-12">
-                        <img class="img-fluid" src="{{ teammember.image }}" alt="">
+                        <img loading="lazy" class="img-fluid" src="{{ teammember.image }}" alt="">
                     </div>
                     <div class="info col-md-7 col-12">
                         <h3 class="name">{{ teammember.name }}</h3>
@@ -54,7 +54,7 @@
             <div class="item-inner m-2">
                 <div class="row">
                     <div class="figure col-md-5 col-12">
-                        <img class="img-fluid" src="{{ teammember.image }}" alt="">
+                        <img loading="lazy" class="img-fluid" src="{{ teammember.image }}" alt="">
                     </div>
                     <div class="info col-md-7 col-12">
                         <h3 class="name">{{ teammember.name }}</h3>
@@ -83,7 +83,7 @@
             <div class="row">
                 {% if award.thumbnail %}
                 <div class="col-sm-4">
-                    <img class="award-pic" src="{{ site.baseurl | append: award.thumbnail }}"
+                    <img loading="lazy" class="award-pic" src="{{ site.baseurl | append: award.thumbnail }}"
                         alt="{{ award.title }} - Logo" />
                 </div>
 
@@ -115,7 +115,7 @@
             <div class="row">
                 {% if award.thumbnail %}
                 <div class="col-sm-4">
-                    <img class="award-pic" src="{{ site.baseurl | append: award.thumbnail }}"
+                    <img loading="lazy" class="award-pic" src="{{ site.baseurl | append: award.thumbnail }}"
                         alt="{{ award.title }} - Logo" />
                 </div>
                 <div class="col-sm-8">

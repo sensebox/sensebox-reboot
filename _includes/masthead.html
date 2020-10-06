@@ -43,17 +43,22 @@
         <div class="sensor-grid">
             <h1>{{page.header}}</h1>
             {% for image in site.static_files %}
-            {% if image.path contains 'images/products/parts' %}{% unless image.path contains 'orange' %}
+            {% if image.path contains 'images/products/parts/header' %}{% unless image.path contains 'orange' %}
             <img loading="lazy" src="{{ site.baseurl }}{{ image.path }}" alt="image" />
             {% endunless %}{% endif %}
             {% endfor %}
             {% for image in site.static_files %}
-            {% if image.path contains 'images/products/parts' %}{% unless image.path contains 'orange' %}
+            {% if image.path contains 'images/products/parts/header' %}{% unless image.path contains 'orange' %}
             <img loading="lazy" src="{{ site.baseurl }}{{ image.path }}" alt="image" />
             {% endunless %}{% endif %}
             {% endfor %}
             {% for image in site.static_files %}
-            {% if image.path contains 'images/products/parts' %}{% unless image.path contains 'orange' %}
+            {% if image.path contains 'images/products/parts/header' %}{% unless image.path contains 'orange' %}
+            <img loading="lazy" src="{{ site.baseurl }}{{ image.path }}" alt="image" />
+            {% endunless %}{% endif %}
+            {% endfor %}
+            {% for image in site.static_files %}
+            {% if image.path contains 'images/products/parts/header' %}{% unless image.path contains 'orange' %}
             <img loading="lazy" src="{{ site.baseurl }}{{ image.path }}" alt="image" />
             {% endunless %}{% endif %}
             {% endfor %}

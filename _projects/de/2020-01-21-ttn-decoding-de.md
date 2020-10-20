@@ -7,7 +7,7 @@ abstract: "Eine kleine Anleitung zum Decoding in TTN"
 thumbnail: /images/projects/ttn-decoding/animation.gif
 lang: de
 tags: ["LoRaWAN", "TTN"]
-difficult: "mittel"
+difficult: mittel
 ---
 # TTN Decoding für Anfänger
 

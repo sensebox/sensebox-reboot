@@ -2,9 +2,9 @@
 layout: project_page  
 date: 2020-09-15  
 author: Verena
-name: "Druck im Luftballon"
+title: "Druck im Luftballon"
 abstract: "Beobachte, wie sich der Druck in einem Luftballon verändert" 
-image: Titelbild_Druck.png
+thumbnail: /images/projects/Titelbild_Druck.png
 image0: /images/projects/Druck_Luftballon/Aufbau.png
 image1: /images/projects/Druck_Luftballon/Bild0.png
 image2: /images/projects/Druck_Luftballon/Bild1.png

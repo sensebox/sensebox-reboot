@@ -1,0 +1,10 @@
+co2-text: "Dieses Set enthält alle Baugruppen um eine CO2 Ampel mit CO2 ppm Anzeige zu bauen, es kommen dabei folgende Bauteile aus dem senseBox System zum Einsatz:"
+edu-material-title: "Lehr- und Lernmaterial"
+edu-material-text: "Zur senseBox:edu gehören neben der Hardware auch eine Vielzahl an Materialien. Von Projekten zum Nachbauen über Unterrichtsideen bis hin zur Einordnung in die Bildungsstandards findest du alles kostenlos auf unserer Website. 
+Die Materialsammlung wird fortlaufend überarbeitet und um neue Projekte ergänzt, es lohnt sich also immer mal wieder einen Blick darauf zu werfen."
+
+co2-project-title: "Erweiterungen für die CO<sub>2</sub>-Ampel"
+co2-project-text: "Die CO<sub>2</sub>-Ampel kann einfach um weitere Komponenten und Funktionen erweitert werden. Lasst euch die Messwerte der CO<sub>2</sub>-Ampel über Telegram auf euer Handy senden oder sammelt die Messwerte mit Hilfe der openSenseMap, um das Lüftungsverhalten noch besser verstehen zu können. Anleitungen für die weiterführenden Projecte findet ihr unter <a href=\"/de/projects/\">Projekt</a>"
+
+edu-content-title: "Inhalt"
+edu-content-text: "Die senseBox:edu hat den größten Hardwareumfang in der senseBox:familie. Sie bietet die Möglichkeit, Temperatur, Luftfeuchtigkeit, Luftdruckt, Beleuchtungsstärke, UV-Intensität, Distanzen und Lärm zu messen und auf dem OLED-Display anzeigen zu lassen. Neben den Sensoren enthält sie ebenfalls ein WiFi- und ein mSD-Karten-Modul zum Übertragen bzw. Speichern der Daten sowie ein Sortiment an Kleinteilen für spannende Experimente."

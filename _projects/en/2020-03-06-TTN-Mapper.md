@@ -76,7 +76,7 @@ Last but not least we need to change the Payload Format in order to send Cayenne
 
 ## Blockly 
 
-Open Blockly and start developing code for your senseBox MCU. As we want to use TTN's infrastructure, we need to perform an activation. Select the OTAA activation. Depending on your needs, you can change the transmission interval. Keep in mind that TTN runs on a fair use policy, which means that you should keep your transmission rate as low as possible. 
+Open [Blockly](https://blockly.sensebox.de/ardublockly/?board=sensebox-mcu) and start developing code for your senseBox MCU. As we want to use TTN's infrastructure, we need to perform an activation. Select the OTAA activation. Depending on your needs, you can change the transmission interval. Keep in mind that TTN runs on a fair use policy, which means that you should keep your transmission rate as low as possible. 
 
 {% include image.html image=page.image6 %}
 

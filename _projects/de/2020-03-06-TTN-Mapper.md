@@ -75,7 +75,7 @@ Zuletzt musst du das Payload Format bei TTN auf Cayenne LPP unstellen. Dazu klic
 
 ## Blockly 
 
-Öffne Blockly und beginne mit dem Code für deine senseBox MCU. Um die TTN Infrastruktur zu nutzen müssen wir zunächst eine Activation starten. Dazu nutzen wir die OTAA Activation. Je nach Anwendungsfall kannst Du das Übertragungsintervall anpassen. Bitte denke daran, dass TTN unter einer Fair Use Policy läuft. Das bedeutet, dass man seine Übertragungsrate möglichst gering halten sollte. 
+Öffne [Blockly](https://blockly.sensebox.de/ardublockly/?board=sensebox-mcu?lang=de) und beginne mit dem Code für deine senseBox MCU. Um die TTN Infrastruktur zu nutzen müssen wir zunächst eine Activation starten. Dazu nutzen wir die OTAA Activation. Je nach Anwendungsfall kannst Du das Übertragungsintervall anpassen. Bitte denke daran, dass TTN unter einer Fair Use Policy läuft. Das bedeutet, dass man seine Übertragungsrate möglichst gering halten sollte. 
 
 {% include image.html image=page.image6 %}
 
@@ -101,7 +101,7 @@ Nun kannst du einen Akku anschließen und den LoRa Empfang in deiner Umgebung me
 
 Deinen persönlichen TTN Mapper findest Du unter dem Namen deines Experiments. Öffne
 
-http://ttnmapper.org/experiments/?experiment=EXPERIMENT_NAME
+[https://ttnmapper.org/experiments/?experiment=EXPERIMENT_NAME](https://ttnmapper.org/experiments/?experiment=EXPERIMENT_NAME)
 
 und ersetze EXPERIMENT_NAME mit dem Namen deines Experiments. Es dauert ein bisschen bis die senseBox GPS Daten empfängt. Zwischendurch kannst Du die Seite neu laden um die neuesten Messungen zu sehen.
 

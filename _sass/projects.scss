@@ -219,3 +219,12 @@ background: rgb(242, 148, 0);
     display: block;
 }
 
+.post-content {
+    blockquote {
+        
+        padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+        background-color: #F2F2F2 ;
+        border-left: 6px solid $sensebox-green;
+        box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
+        } 
+}

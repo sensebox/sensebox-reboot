@@ -1,3 +1,9 @@
+- author: Mario
+  date: 2020-10-22
+  headline: senseBox CO<sub>2</sub>-Ampel
+  text: Wir haben einen Bausatz für eine CO<sub>2</sub> auf Basis der senseBox entwickelt. Mehr Informationen findet ihr unter <a href="/de/products-co2" class="btn btn-success">Produkte</a>
+  active: true
+
 - author: David
   date: 2020-05-15
   headline: senseBox Sprechstunde
@@ -14,7 +20,7 @@
   date: 2020-05-15
   headline: Die senseBox im Futurium
   text: Wir haben schon immer mal wieder von unsere Kooperation mit dem Zukunftsmuseum Futurium in Berlin berichtet. Auf deren Homepage haben wir nun eine Projektseite, auf welcher von unserem Exponat, Workshops vor Ort und weiteren Ideen berichtet wird <a href="https://futurium.de/de/sense-box">https://futurium.de/de/sense-box</a>
-  active: true
+  active: false
 
 
 

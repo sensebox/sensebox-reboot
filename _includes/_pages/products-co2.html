@@ -1,23 +1,45 @@
 {% assign content = site.data.i18n.[page.lang].products-co2 %}
 <div class="container">
     <div class="row row-padding">
-        <div class="col-lg-8 align-self-center middle">
+        <div class="col-6">
             <h2 class="featurette-heading">{{content.co2-title}}</h1>
                 <p class="lead">{{content.co2-text}}</p>
                 </p>
                 <ul>
-                    <li>senseBox:mcu</li>
-                    <li>senseBox WS2812 RGB LED</li>
-                    <li>senseBox SCD30 CO2 Sensor</li>
-                    <li>senseBox OLED</li>
+                    <li>senseBox:MCU lite</li>
+                    <li><a href="">senseBox WS2812 RGB LED</a></li>
+                    <li><a href="https://sensebox.kaufen/product/co2-sensor">senseBox SCD30 CO2 Sensor</a></li>
+                    <li><a href="https://sensebox.kaufen/product/led-display">senseBox OLED</a></li>
                     <li>lasergeschnittenes Acrylgehäuse</li>
                     <li>5m USB Kabel</li>
                     <li>USB Steckernetzteil</li>
                 </ul>
         </div>
-        <div class="col-lg-4 middle">
-            <img loading="lazy" class="img-fluid mx-auto" src="/images/products/co2/ampel_assembled.jpg"
-                alt="Generic placeholder image">
+        <div class="col-6">
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img loading="lazy" class="d-block w-100" src="/images/products/co2/carousel_01.jpg"
+                            alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img loading="lazy" class="d-block w-100" src="/images/products/co2/carousel_02.jpg"
+                            alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img loading="lazy" class="d-block w-100" src="/images/products/co2/carousel_03.jpg"
+                            alt="Third slide">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
         </div>
     </div>
 </div>
@@ -53,16 +75,85 @@
 </div>
 
 
-
-<div class="container">
-    <div class="row row-padding featurette">
-        <div class="col-md-5 middle">
-            <img loading="lazy" class="featurette-image img-fluid mx-auto" src="/images/products/edu/content.jpg"
-                alt="Generic placeholder image">
-        </div>
-        <div class="col-md-7 middle">
-            <h2 class="featurette-heading">{{content.co2-content-title}}</h2>
-            <p class="lead">{{content.co2-content-text}}</p>
+<div style="background-color: whitesmoke;">
+    <div class="container">
+        <div class="row row-padding featurette">
+            <div class="col-12">
+                <h2 class="featurette-heading">{{content.co2-school-title}}</h2>
+                <p class="lead">{{content.co2-school-text}}</p>
+            </div>
+            <p>
+            <h4>Physik:</h4>
+            <ul>
+                <li>
+                    Die Thematik der spezifischen Wärmekapazität der Luft kann in Verbindung mit dem Bereich des
+                    energieschonenden und effizienten Lüftens behandelt werden.
+                </li>
+                <li>
+                    Die CO2-Ampel ist ein DIY-Bausatz, weshalb grundlegende Kenntnisse im Bereich der Elektrizität
+                    notwendig
+                    sind. Mit dem Aufbau der Ampel können also grundlegende Kenntnisse zum Anschließen verschiedener
+                    Komponenten
+                    innerhalb eines Stromkreislaufs vermittelt bzw. wiederholt werden.
+                </li>
+            </ul>
+            <h4>Informatik:</h4>
+            <ul>
+                <li>
+                    Die CO2-Ampel kann eigenständig mittels “Blockly für senseBox” programmiert werden. Die graphische
+                    Programmierumgebung ist ohne Vorkenntnisse nutzbar und vermittelt grundlegende Kenntnisse im
+                    algorithmischen
+                    und logischen Denken.
+                </li>
+                <li> Als Alternative wird ein fertiger Programmcode zur Verfügung gestellt. Dieser kann mit den
+                    Lernenden
+                    durchgearbeitet werden, um die Funktionsweise der CO2-Ampel nachvollziehen zu können und einen
+                    Einblick
+                    in
+                    die ansonsten häufig verschleierte digitale Welt zu bekommen.</li>
+            </ul>
+            <h4>Chemie:</h4>
+            <ul>
+                <li>
+                    Mit Blick auf die Funktionsweise des CO2-Sensors, kann auf die Messung von Gasen in der Luft
+                    eingegangen
+                    werden. Des Weiteren bietet sich hier die Thematik der Zusammensetzung der Luft mit einem Fokus auf
+                    das
+                    Gas
+                    Kohlenstoffdioxid an.
+                </li>
+            </ul>
+            <h4>Biologie:</h4>
+            <ul>
+                <li>
+                    Da COVID-19 als greifbares Beispiel für einen Virus dient, kann anhand der Pandemie der Aufbau und
+                    die
+                    Replikation von Viren erarbeitet werden.
+                </li>
+                <li>
+                    Kohlenstoffdioxid ist ein Nebenprodukt der Atmung von Lebewesen. Um die Zusammenhänge zwischen der
+                    CO2-Belastung der Luft, der Verbreitung von Aerosolen und der Übertragung von Infektionen
+                    nachvollziehen
+                    zu
+                    können, sollte im Unterricht auf den Atmungsprozess eingegangen werden.
+                </li>
+            </ul>
+            <h4> Mathematik:</h4>
+            <ul>
+                <li>
+                    Um den Lernenden die Gefahr der Pandemie deutlich zu machen und sie für den Infektionsschutz zu
+                    sensibilisieren, können im Mathematikunterricht die dazugehörigen mathematischen Konstrukte
+                    betrachtet
+                    werden, wie beispielsweise die Reproduktionszahl oder das exponentielle Wachstum
+                </li>
+                <li>
+                    Die Konzentration von CO2 in der Luft wird in ppm angegeben. Hier kann zum einen auf die Maßeinheit
+                    eingegangen und zum anderen können Fragen zur Schnelligkeit der Minderung der Luftqualität auf Basis
+                    der
+                    Kenntnis der Menge der ein- und ausgeatmeten Luft gestellt werden.
+                </li>
+            </ul>
+            </p>
         </div>
     </div>
 </div>

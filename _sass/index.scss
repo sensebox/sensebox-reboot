@@ -393,3 +393,8 @@ mark {
     padding-bottom: 2rem;
   }
 }
+
+a.green-link:link {color: $sensebox-green;}
+  a.green-link:visited {color:$sensebox-green;}
+  a.green-link:active {color:$sensebox-green;}
+  a.green-link:hover {color: $sensebox-blue;}

@@ -76,7 +76,8 @@ Last but not least we need to change the Payload Format in order to send Cayenne
 
 ## Blockly 
 
-Open [Blockly](https://blockly.sensebox.de/ardublockly/?board=sensebox-mcu) and start developing code for your senseBox MCU. As we want to use TTN's infrastructure, we need to perform an activation. Select the OTAA activation. Depending on your needs, you can change the transmission interval. Keep in mind that TTN runs on a fair use policy, which means that you should keep your transmission rate as low as possible. 
+
+Open [Blockly](https://blockly.sensebox.de/ardublockly/?board=sensebox-mcu?lang=en) and start developing code for your senseBox MCU. As we want to use TTN's infrastructure, we need to perform an activation. Select the OTAA activation. Depending on your needs, you can change the transmission interval. Keep in mind that TTN runs on a fair use policy, which means that you should keep your transmission rate as low as possible. 
 
 {% include image.html image=page.image6 %}
 
@@ -102,7 +103,7 @@ Connect your external power supply and you are ready to measure LoRa connectivit
 
 You can find your personal TTN Mapper under your specific experiment name. Visit
 
-http://ttnmapper.org/experiments/?experiment=EXPERIMENT_NAME
+[https://ttnmapper.org/experiments/?experiment=EXPERIMENT_NAME](https://ttnmapper.org/experiments/?experiment=EXPERIMENT_NAME)
 
 and replace EXPERIMENT_NAME with your experiment name. It can take a while until the senseBox got GPS data. Reload the page to see the latest measurements.
 

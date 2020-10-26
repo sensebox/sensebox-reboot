@@ -1,0 +1,20 @@
+co2-title: "senseBox CO<sub>2</sub>-light"
+co2-text: "The senseBox CO<sub>2</sub>-light is designed as a <a href=\"https://sensebox.kaufen/product/co2-ampel-bausatz\" target=\"blank\">DIY-Kit</a> and contains all important components to build a CO<sub>2</sub>-light for monitoring the air quality in the room. The CO<sub>2</sub> measured values are shown on the OLED display and visualized quickly and easily via an RGB LED. On the one hand, the laser-cut housing ensures that the electronics are well protected, but on the other hand it allows free air exchange for the sensor"
+
+co2-material-title: "A simple kit"
+co2-material-text: "The CO<sub>2</sub> traffic light is a kit that can be easily assembled. No tools or programming skills are needed for the assembly"
+
+co2-sensor-text: "The CO<sub>2</sub> sensor"
+co2-sensor-text: "The sensor module is based on the Sensirion SCD30 CO<sub>2</sub> sensor. The sensor uses an optical method (NDIR) to determine the CO<sub>2</sub> concentration in the air. The sensor is characterized only by high quality and precision. Built-in calibration mechanisms ensure good data quality. Further information about the sensor can be found at <a href=\"https://docs.sensebox.de/hardware/sensoren-co2\">https://docs.sensebox.de</a>"
+
+co2-project-title: "Extensions for the CO<sub>2</sub> traffic light"
+co2-project-text: "The CO<sub>2</sub> traffic light can be simply extended by further components and functions. Let the measured values of the CO<sub>2</sub> traffic light be sent to your cell phone via telegram or collect the measured values with the help of the openSenseMap, in order to understand the ventilation behavior even better. Instructions for further projects can be found under <a href=\"/en/projects/\">Projects</a>.<br> If the CO<sub>2</sub>-light is no longer needed, all components can be used for further exciting projects, because everything is fully compatible to the whole senseBox system."
+
+
+co2-project-title: "Extensions for the CO<sub>2</sub> traffic light"
+co2-project-text: "The CO<sub>2</sub> traffic light can be simply extended by further components and functions. Let the measured values of the CO<sub>2</sub> traffic light be sent to your cell phone via telegram or collect the measured values with the help of the openSenseMap, in order to understand the ventilation behavior even better. Instructions for further projects can be found under <a href=\"/en/projects/\">Projects</a>.<br> If the CO<sub>2</sub>-light is no longer needed, all components can be used for further exciting projects, because everything is fully compatible to the whole senseBox system."
+
+
+co2-school-title: "Use in school"
+co2-school-text: "The CO<sub>2</sub> traffic light based on the senseBox is ideally suited for use in schools. Build together with your pupils: inside a CO<sub>2</sub>-light for the classroom. Thematically the function mode of the CO<sub>2</sub> traffic light and the meaning of the CO<sub>2</sub> concentration in the air in many different subjects can be discussed. Here only a few examples:"
+

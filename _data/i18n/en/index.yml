@@ -2,9 +2,9 @@
 
 # announcement
 new: "New:"
-announcement-text: Der "senseBox" Workshop mit Björn 
+announcement-text: The <a class="green-link" href="/de/products-co2.html">senseBox CO<sub>2</sub>-light</a> is here!
 announcement-link: /
-announcement-button: Sign up now!
+announcement-button: Shop
 
 # senseBox Family
 sensebox-head: What is the senseBox?

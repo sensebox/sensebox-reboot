@@ -1,56 +1,60 @@
-- name: :Lernkarten
+- name: Lernkarten
   position: t1
   organisation: senseBox - Team
   description: Lernkarten für das selbstständige Arbeiten mit der senseBox und der Programmierung mit Blockly. Die Lernkarten können doppelseitig ausgedruckt werden.
   bgImage: /images/material/cards.png
   download: https://sensebox.de/docs/senseBox_Lernkarten_v2.2_online.pdf
 
-- name: :Arbeitsblätter
+- name: senseBox Lehrhandreichung
   position: t2
-  organisation: senseBox - Team
-  description: Tutory bietet die Möglichkeit, interaktiv Arbeitsblätter zu gestalten. Auf der Plattform können unsere Arbeitsblätter nach den eigenen Wünschen angepasst werden. Alle Arbeitsblätter finden Sie auf unserem Profil veröffentlicht. 
-  bgImage: /images/material/sheets_tutory.png
-  link: https://www.tutory.de/user/sensebox
+  organisation: 
+  description: 
+  bgImage: /images/projects/logo_bunt.png
+  download: /docs/lehrkraefte_senseBox_de.pdf
+
+- name: CO2-Ampel Lehrhandreichung
+  position: t3
+  organisation: 
+  description: 
+  bgImage: /images/material/co2-ampel.png
+  link: /docs/CO2-Ampel_Lehrhandreichung.pdf
+
+- name: Moderner Informatikunterricht mit LoRaWAN in der Schule
+  position: t4
+  organisation: 
+  description: 
+  bgImage: /images/material/Material-TTN.png
+  link: /docs/informatikunterricht_lorawan.pdf
 
 - name: 'Unterrichtsreihe: Sense Your School'
-  position: t3
+  position: t5
   organisation: TüftelAkademie
   description: 
   bgImage: /images/material/sense-your-school.png
   link: https://tueftelakademie.de/fuer-lehrende/unterrichtsmaterialien/digital-literacy-lab/sense-your-school/
 
 - name: 'Unterrichtsreihe: Umweltverschmutzung und Daten'
-  position: t4
+  position: t6
   organisation: TüftelAkademie
   description: 
   bgImage: /images/material/umweltverschmutzung-und-daten.png
   link: https://tueftelakademie.de/fuer-lehrende/unterrichtsmaterialien/digital-literacy-lab/umwelt-und-daten/
 
 - name: :ETH Zürich
-  position: t5
+  position: t7
   organisation: ETH - Zürich
   description: Die ETH Zürich verwendet die senseBox in der Lehre in zwei verschiedenen Studiengängen und stellt uns und euch die Materialien aus der Lehre zu verfügung (Zurzeit nur auf Englisch)
   bgImage: /images/material/eth.jpg
   download: https://sensebox.de/docs/ETH_GeosensorsLab_tutorial.pdf
 
-- name: :Lehrhandreichung
-  position: t6
-  organisation: 
-  description: 
-  bgImage: /images/projects/logo_bunt.png
-  download: /docs/lehrkraefte_senseBox_de.pdf
 
 - name: Mikrocontroller im MINT-Unterricht
-  position: t7
+  position: t8
   organisation: 
   description: 
   bgImage: /images/material/hopp_foundation.png
   link: https://unterrichtsmaterialien.hopp-foundation.de/konzepte/mikrocontroller-im-mint-unterricht
 
-- name: Moderner Informatikunterricht mit LoRaWAN in der Schule
-  position: t8
-  organisation: 
-  description: 
-  bgImage: /images/material/Material-TTN.png
-  link: /docs/informatikunterricht_lorawan.pdf
+
+
 

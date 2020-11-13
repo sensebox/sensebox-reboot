@@ -12,6 +12,7 @@ image3: /images/projects/Gärprozesse/3.png
 
 
 material:
+    - CO2-Ampel Set oder
     - senseBox MCU
     - OLED-Display
     - CO2-Sensor
@@ -22,8 +23,8 @@ material:
     - abgeschlossenes Gefäß
 
 ide: blockly
-version: ["edu", "mini"]   
-addons: ["Gase"] 
+version: ["edu", "mini", "CO2-Ampel"]   
+addons: ["CO2-Sensor"] 
 lang: de
 tags: ["Informatik", "Chemie"]
 difficult: mittel

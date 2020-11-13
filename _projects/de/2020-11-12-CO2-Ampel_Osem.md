@@ -1,6 +1,6 @@
 ---
 layout: project_page
-title: "Datenübertragung mit der CO2-Ampel"
+title: "IoT CO2-Ampel"
 date: 2020-11-12
 author: Verena
 abstract: "Übertragt die Daten eurer CO2-Ampel per Wlan auf die openSenseMap"
@@ -14,12 +14,17 @@ image5: /images/projects/CO2-Ampel_Osem/5.png
 image6: /images/projects/CO2-Ampel_Osem/6.png
 
 material:
-    - CO2-Ampel
+    - CO2-Ampel Set oder
+    - senseBox MCU
+    - CO2-Sensor
     - WiFi-Bee
+    - OLED-Display
+    - 3x JST-JST Kabel
+
 
 ide: blockly
-version: ["edu", "mini"]   
-addons: ["Luftqualität"] 
+version: ["edu", "mini", "CO2-Ampel"]   
+addons: ["CO2-Sensor"] 
 lang: de
 tags: ["Informatik", "Geographie", "Chemie"]
 difficult: mittel
@@ -27,10 +32,10 @@ difficult: mittel
 <head><title>Datenübertragung mit der CO2-Ampel</title></head>
 
 # Datenübertragung mit der CO2-Ampel
-In diesem Projekt erfährst du, wie du die Daten, die mit der CO2-Ampel in deinem Klassenraum erfasst werden, auf die openSenseMap übertragen kannst. Somit wird deine CO2-Ampel teil eines Citizen-Science Projektes und du kannst deine Luftqualität im Raum mit der vieler anderer Schulen vergleichen. 
+In diesem Projekt erfährst du, wie du die Daten, die mit der CO2-Ampel in deinem Klassenraum erfasst werden, auf die openSenseMap übertragen kannst. Somit wird deine CO2-Ampel teil eines Citizen-Science Projektes und du kannst deine Luftqualität im Raum mit der vieler anderer Schulen vergleichen. Diese Projekt lässt sich auch mit der senseBox:edu oder senseBox:mini mit einem zusätzlichen [CO2-Sensor](https://sensebox.kaufen/product/co2-sensor) durchführen- 
 
 ## Aufbau
-Der Aufbau der CO2-Ampel ist ausführlich in dieser [Schritt-für-Schritt Anleitung][https://docs.sensebox.de/hardware/sets-co2-ampel/] beschrieben.
+Der Aufbau der CO2-Ampel ist ausführlich in dieser [Schritt-für-Schritt Anleitung](https://docs.sensebox.de/hardware/sets-co2-ampel/) beschrieben.
 Um eine Internetverbindung herstellen zu können, stecke zusätzlich das WiFi-Bee auf den Steckplatz __XBEE1__. 
 
 {% include image.html image=page.image0 %}

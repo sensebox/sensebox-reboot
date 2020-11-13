@@ -73,12 +73,12 @@ layout: default
 							<div class="project-content">
 								<div class="tag-holder">
 									<!-- <div class="row"> -->
-										{% if i.tags %}
-										{% for j in i.tags %}
-										<span class="project-label tags tag-filter"
-											data-tag="{{ j | downcase }}">{{ j }}</span>
-										{% endfor %}
-										{% endif %}
+									{% if i.tags %}
+									{% for j in i.tags %}
+									<span class="project-label tags tag-filter"
+										data-tag="{{ j | downcase }}">{{ j }}</span>
+									{% endfor %}
+									{% endif %}
 
 									<!-- </div> -->
 								</div>
@@ -99,6 +99,7 @@ layout: default
 
 			</div>
 		</div>
+		<p>{{ t.contribution }}</p>
 	</div>
-	<p>{{ t.contribution }}</p>
+
 </article>

@@ -13,7 +13,7 @@ image5: /images/projects/TTN-Mapper/ttn-mapper-integration.png
 image6: /images/projects/TTN-Mapper/blockly-activation-de.png
 image7: /images/projects/lora-osem-tago/device_overview_right_format.PNG
 image8: /images/projects/TTN-Mapper/blockly-gps-de.png
-image9: /images/projects/TTN-Mapper/ttn-mapper.png
+image9: /images/projects/TTN-Mapper/ttn-mapper.jpeg
 image10: /images/projects/TTN-Mapper/cayenne.png
 
 material:

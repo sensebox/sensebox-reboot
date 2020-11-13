@@ -17,7 +17,7 @@ sensebox-overview-button: More information &raquo;
 sensebox-overview-home: The senseBox:home is a kit for a do-it-yourself environmental measuring station. Thanks to its modular design, each senseBox:home can be put together individually.
 sensebox-overview-edu: The senseBox:edu was developed especially for use in the educational sector. Fascinating projects and many free learning materials allow an easy and uncomplicated start. 
 sensebox-overview-mini: The senseBox:mini the set for the entry into the world of senseBox. It offers everything you need for your first IoT projects. The included senseBox environmental sensor enables the detection of a wide range of environmental phenomena.
-
+sensebox-overview-co2: Measure the CO<sub>2</sub> concentration at  home or school and display the concentration live on the screen and visualize it with RGB LED. The senseBox CO<sub>2</sub> traffic light is designed as a <a class="green-link" href="https://sensebox.shop/product/co2-ampel-bausatz" target="blank">DIY-Kit</a> and contains all important components to build a CO<sub>2</sub> traffic light for monitoring the air quality in the room.
 # Blockly/openSenseMap Cards
 card-button: more information
 blockly-head: Blockly for senseBox

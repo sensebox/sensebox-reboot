@@ -92,6 +92,9 @@
                     {% if page.docslink %}
                     <a class="btn btn-sensebox-white" href="{{ page.docslink }}" role="button">{{ t.docs-here }}</a>
                     {% endif %}
+                    {% if page.edusetlink %}
+                    <a class="btn btn-sensebox-white" href="{{ page.edusetlink }}" role="button">{{ t.edu-set-here }}</a>
+                    {% endif %}
                     {% if page.author %}
                     <span class="author">Von {{ page.author }} am {{ page.date | date: "%d/%m/%Y" }}</span>
                     {% endif %}

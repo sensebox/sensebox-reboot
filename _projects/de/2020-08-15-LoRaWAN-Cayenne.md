@@ -2,7 +2,7 @@
 layout: project_page  
 date: 2020-08-15  
 author: Verena
-name: "LoRaWAN und der Cayenne Payload"
+title: "LoRaWAN und der Cayenne Payload"
 abstract: "Übertrage Daten per LoRa mit dem Cayenne Payload an die openSenseMap." 
 thumbnail: /images/projects/Titelbild_LoRaWAN-Cayenne.png
 image0: /images/projects/LoRaWAN-Cayenne/0.png

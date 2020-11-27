@@ -2,7 +2,7 @@
 layout: project_page  
 date: 2020-08-12  
 author: Verena
-name: "Kopfrechentrainer"
+title: "Kopfrechentrainer"
 abstract: "Erstelle deinen eignenen Trainer für Kopfrechenaufgaben" 
 thumbnail:  /images/projects/Titelbild_kopfrechentrainer.jpg
 image0: /images/projects/kopfrechentrainer/Bild0.png

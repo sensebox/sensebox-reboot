@@ -1,7 +1,7 @@
 ---
 layout: project_page
-title: "Advendtskranz mit Weihnachtscountdown"
-date: 2020-11-29
+title: "Adventskranz mit Weihnachtscountdown"
+date: 2020-11-27
 author: Verena
 abstract: "Erstelle einen automatischen Adventskranz mit der senseBox"
 thumbnail:  /images/projects/Titelbild_Adventskranz.png
@@ -27,7 +27,7 @@ lang: de
 tags: ["Informatik"]
 difficult: mittel
 ---
-<head><title>Advendtskranz mit Weihnachtscountdown</title></head>
+<head><title>Adventskranz mit Weihnachtscountdown</title></head>
 
 # Einen automatischen Adventskranz mit Weihnachtscountdown erstellen
 Um zusammen mit euch in die Weihnachtszeit zu starten, zeigt euch dieses Projekt, wie ihr mithilfe der senseBox einen automatischen Adventskranz mit integriertem Weihnachtscountdown generieren könnt. Die verwendeten LEDs schalten sich an jedem Adventssonntag automatisch ein und auf dem Display ist zu sehen, wie viele Tage bis Weihnachten verbleiben. 

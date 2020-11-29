@@ -2,7 +2,7 @@
 layout: project_page  
 date: 2020-08-11  
 author: Verena
-name: "Hitzefrei Alarm"
+title: "Hitzefrei Alarm"
 abstract: "Erstelle dein eigenes Messgerät um die Temperatur im Klassenraum zu überwachen." 
 thumbnail: /images/projects/Titelbild_Hitzefrei.png
 image0: /images/projects/Hitzefrei/Aufbau.png

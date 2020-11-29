@@ -2,7 +2,7 @@
 layout: project_page
 date: 2020-03-09
 author: Björn
-name: Thingspeak IoT
+title: Thingspeak IoT
 abstract: "Ein IoT-Geräte, welches Daten über Thingspeak visualisiert"
 thumbnail: /images/projects/Thingspeak.png
 image1: /images/projects/thingspeak-IoT/thingspeak-start.png

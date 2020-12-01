@@ -57,7 +57,7 @@ byte channels[] = {0,1,2};
 Für den Sensor erzeugen wir ein Objekt und starten dessen Instanz hinter der seriellen Verbindung in der Setup-Funktion.
 
 ```
-HDC1080 hdc
+HDC1080 hdc;
 
 void setup() {
     Serial.begin(115200);

@@ -60,8 +60,16 @@ $text_size: 18px;
 
     .project-img {
         height: 200px;
-        display: block;
-        @include bg( cover );
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+        // @include bg( cover );
+
+        img {
+            width: 100%;
+            height: auto;
+        }
     }
 
     span.tags {

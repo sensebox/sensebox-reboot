@@ -63,7 +63,8 @@ layout: default
 						<span class="ribbon"><span class={{i.ide}}>{{ i.ide }}</span></span>
 						<div class="project-inner">
 							<a href="{{ i.url }}" class="thickbox">
-								<div class="project-img bordered" style="background-image: url('{{ i.thumbnail }}');">
+								<div class="project-img bordered">
+									<img loading="lazy" src="{{ i.thumbnail }}" />
 								</div>
 							</a>
 							{% if i.url %} <a href="{{ site.baseurl | append: i.url }}"> {% endif %}

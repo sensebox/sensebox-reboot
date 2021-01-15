@@ -55,6 +55,13 @@
   bgImage: /images/material/hopp_foundation.png
   link: https://unterrichtsmaterialien.hopp-foundation.de/konzepte/mikrocontroller-im-mint-unterricht
 
+- name: "OpenSenseMap: Silvester in Berlin"
+  position: t9
+  organisation: ESRI
+  description: "Alles andere als Schall und Rauch ist die neue Unterrichtseinheit für die Klassenstufe 9 bis 12: Thema ist die Feinstaub-Belastung während der Silvester-Party in Berlin. ESRI hat eine 5-teilige Unterrichtssequenz mit Arbeitsblättern vorbereitet – und eine StoryMap als Überblick."
+  bgImage: https://gis-iq.esri.de/wp-content/uploads/2020/12/Screenshot-2020-12-16-160724.png
+  link: https://www.arcgis.com/sharing/rest/content/items/3aa108c52f2e4a92a1c88a5ae8f206dc/data
+
 
 
 

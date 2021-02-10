@@ -1,0 +1,40 @@
+{% assign publications = site.data.i18n.[page.lang].publications %}
+
+
+<div style="background-color: whitesmoke;">
+    <div class="container">
+        <div class="row row-padding">
+            <div class="col-12">
+                <h2>Journals</h2>
+                <ul>
+                    {% for publication in publications %}
+
+                    <li>
+                        <a href="{{publication.link}}">
+                            <p>{{ publication.author }} ({{publication.year}}): {{ publication.title }}</p>
+                        </a>
+                    </li>
+
+
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="col-12">
+                <h2>Books</h2>
+                <ul>
+                    {% for publication in publications %}
+                    {% if publication.type == "book" %}
+                    <li>
+                        <a href="{{publication.link}}">
+                            <p>{{ publication.author }} ({{publication.year}}): {{ publication.title }}</p>
+                        </a>
+                    </li>
+
+                    {% endif %}
+                    {% endfor %}
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</div>

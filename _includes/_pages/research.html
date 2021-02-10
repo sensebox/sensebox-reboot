@@ -1,0 +1,44 @@
+{% assign research = site.data.i18n.[page.lang].research %}
+{% assign awardslist = site.awards | sort: 'weight' %}
+
+<div class="container">
+    <div class="row row-padding">
+        <div class="col-12">
+            <h2></h2>
+            <p>{{ research.main-text}}</p>
+
+        </div>
+    </div>
+    <hr class="clear nomargin">
+
+    <div class="row">
+        <h1 id="Förderung"><mark>Förderungen</mark></h1>
+        {% for award in awardslist %}
+        {% if award.type == 'grant' %}
+        <div class="posts py-5">
+            <h2 style="clear:both">{{ award.title }}</h2>
+            <div class="row">
+                {% if award.thumbnail %}
+                <div class="col-sm-4">
+                    <img loading="lazy" class="award-pic" src="{{ site.baseurl | append: award.thumbnail }}"
+                        alt="{{ award.title }} - Logo" />
+                </div>
+
+                <div class="col-sm-8">
+                    <div class="content">
+                        {{ award.content }}
+                    </div>
+                </div>
+                {% else %}
+                <div class="content">
+                    {{ award.content }}
+                </div>
+                {% endif %}
+            </div>
+            <hr class="clear nomargin">
+        </div>
+        {% endif %}
+        {% endfor %}
+    </div>
+</div>
+</div>

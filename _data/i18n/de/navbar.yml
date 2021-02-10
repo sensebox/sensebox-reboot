@@ -2,7 +2,7 @@ go-head: Los geht's
 products-head: Produkte
 resources-head: Material
 about-us-head: Über uns
- 
+research-head: Forschung
 #Go
 go-fist-steps-with: "Erste Schritte mit der..."
 go-name: Wähle deine senseBox
@@ -40,6 +40,12 @@ material-name: "Unterrichtsmaterial"
 material-link: /material.html
 forum-name: "Forum"
 forum-link: https://forum.sensebox.de
+#Research
+publications-name: "Veröffentlichungen"
+publications-link: /research-publications.html
+
+
+
 #About-us
 team-name: "Team"
 team-link: /about-us.html

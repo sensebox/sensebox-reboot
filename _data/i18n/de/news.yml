@@ -1,4 +1,10 @@
 - author: Mario
+  date: 2020-02-09
+  headline: senseBox Webinare
+  text: Freut Euch auf kostenlose senseBox-Webinare bei Christiani. Mehr Informationen findet ihr unter <a href="/de/events" class="btn btn-success">Events</a>
+  active: true
+
+- author: Mario
   date: 2020-10-22
   headline: senseBox CO<sub>2</sub>-Ampel
   text: Wir haben einen Bausatz für eine CO<sub>2</sub> auf Basis der senseBox entwickelt. Mehr Informationen findet ihr unter <a href="/de/products-co2" class="btn btn-success">Produkte</a>
@@ -14,7 +20,7 @@
   date: 2020-05-15
   headline: Wir bleiben schlau! Die Allianz für MINT-Bildung zu Hause
   text: Zu Hause wird es langweilig? Wir beteiligen uns mit mehr als 50 Partnern an der Allianz für MINT-Bildung. Mehr Informationen findet ihr auf der <a href="https://sensebox.de/wirbleibenschlau">sensebox.de/wirbleibenschlau</a>.
-  active: true
+  active: false
 
 - author: David
   date: 2020-05-15

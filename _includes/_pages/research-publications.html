@@ -1,4 +1,4 @@
-{% assign publications = site.data.i18n.[page.lang].publications %}
+{% assign publications = site.data.i18n.[page.lang].publications | sort: 'year' | reverse %}
 
 
 <div style="background-color: whitesmoke;">
@@ -8,26 +8,44 @@
                 <h2>Journals</h2>
                 <ul>
                     {% for publication in publications %}
+                    {% if publication.orign == "sensebox" %}
+                    <li>
+                        {% if publication.link %}<a href="{{publication.link}}">
+                            <p>{{ publication.author }} ({{publication.year}}): {{ publication.title }}</p>
+                        </a>
+                        {% else %}
+                        <p>{{ publication.author }} ({{publication.year}}): {{ publication.title }}</p>
+                        {% endif %}
+                    </li>
 
+                    {% endif %}
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="col-12">
+                <h2>Bachelor/Masterarbeiten</h2>
+                <ul>
+                    {% for publication in publications %}
+                    {% if publication.type == "bachelor" or publication.type == "master" %}
                     <li>
                         <a href="{{publication.link}}">
                             <p>{{ publication.author }} ({{publication.year}}): {{ publication.title }}</p>
                         </a>
                     </li>
 
-
+                    {% endif %}
                     {% endfor %}
                 </ul>
             </div>
+
             <div class="col-12">
-                <h2>Books</h2>
+                <h2>Erwähnungen</h2>
                 <ul>
                     {% for publication in publications %}
-                    {% if publication.type == "book" %}
+                    {% if publication.type == "Mentions" %}
                     <li>
-                        <a href="{{publication.link}}">
-                            <p>{{ publication.author }} ({{publication.year}}): {{ publication.title }}</p>
-                        </a>
+                        {{ publication.author }} ({{publication.year}}): {{ publication.title }}
+                        {{publication.journal}}
                     </li>
 
                     {% endif %}

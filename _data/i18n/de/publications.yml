@@ -16,7 +16,7 @@
 - title: "Proceedings of the „Forum Citizen Science 2019"
   author: Bartoschek, T, Nüst, D., and Pesch, M.
   year: 2019
-  link:
+  link: 
   type: book
   orign: sensebox
   
@@ -63,25 +63,131 @@
 
 ## Bachelor/Masterarbeiten
 
-- title: senseBox:airqualtiy
-  author: Mario Pesch
-  year: 2015
+
+- title: Modeling of time-spatial processes using a timeseries database on the example of the open data portal openSenseMap
+  author: Moritz Migge
+  year: 2021
+  type: master
+
+- title: Implementierung von interaktiven Lerntutorials zu Grundkonzepten des Computational Thinkings in einer blockbasierten Programmierumgebung
+  author: Luc Niski
+  year: 2020
+  type: bachelor 
+
+- title: Implementierung einer Geo-Temporalen-Dateninfrastruktur auf Basis der SensorThings API zur Verarbeitung von heterogenen Sensordatenquellen am Beispiel eines siedlungswassertechnischen Pumpwerkes
+  author: Daniel Uemmelmann
+  year: 2020
+  type: bachelor 
+
+- title: Optimization of the Visual Representation of Mobile senseBox Data – Visualization Alternatives on the openSenseMap
+  author: Aysel Tandlik
+  year: 2020
   type: bachelor
 
-- title: 
-  author: Mario Pesch
-  year: 2018
-  type: Master
+- title: Unsupervised Anomaly Detection of Streaming Data in the openSenseMap Sensor Network
+  author: Boris Bäumer 
+  year: 2020
+  type: bachelor 
 
-- title: senseBox:waterquality
-  author: Björn Guntermann
-  year: 2015
-  type: bachelor
-
-- title: senseBox---björn Master
-  author: Björn Guntermann
+- title: Improving computational thinking competencies through visual programming interfaces
+  author: Björn Guntermann 
   year: 2019
-  type: Master
+  type: master 
+
+- title: Entwicklung und Evaluierung interaktiver Tutorials mit Gamification Ansatz für Blockly senseBox MCU
+  author: Niklas Aßelmann 
+  year: 2019
+  type: bachelor
+
+- title: Visualiisierung des Wärmeinseleffektes mit Hilfe der senseBox – Einbindung in den Bildungskontext und Evaluierung
+  author: Anja Oberhaus
+  year: 2019
+  type: bachelor 
+
+- title: Development of an Ontology for Environmental Phenomena and Sensors in the Citizen Science Context and its Implementation
+  author: Benjamin Karic 
+  year: 2019
+  type: bachleor 
+
+- title: Volunteer’s Interaction in Technology Driven Citizen Science Projects
+  author: Mario Pesch
+  year: 2019
+  type: master 
+
+- title: Story-Dashboard for the senseBox Project
+  author: Eric Thieme-Garmann 
+  year: 2019
+  type: bachelor
+
+- title: A multi-spatial dashboard related to senseBox data
+  author: Jasper Buß 
+  year: 2019 
+  type: bachelor
+
+- title: Machbarkeitsstudie über senseBox-Monitoring an den Quellen der Baumberge (Kreis Coesfeld, Nordrhein Westfalen)
+  author: Christopher Poitz
+  year: 2018
+  type: bachelor 
+
+- title: Entwicklung und empirische analytische Untersuchung der Usability der visuellen Programmierumgebung senseBlocks
+  author: Bernd van Rennigs
+  year: 2017
+  type: master
+
+- title: Integration mobiler Sensoren in die Datenstruktur und Nutzeroberfläche der Webplattform openSenseMap
+  author: Norwin Roosen 
+  year: 2017
+  type: bachelor 
+
+- title: "Low-Cost Sensor zur Berechnung der Wolkenbedeckung: Ein Citizen Science Projekt basierend auf Open Source Technologien"
+  author: Felix Erdmann 
+  year: 2016
+  type: bachelor
+
+- title: "Enhancement of a Citizen Driven Sensor Network: Usability Engineering for Successful Open Citizen Science"
+  author: Jan Wirwahn
+  year: 2016 
+  type: master
+
+- title: Geostatistical capabilities in OpenSenseMap
+  author: Marc Dragunski 
+  year: 2016
+  type: bachelor 
+
+- title:  OpenSenseMap – User Centered Design
+  author: Christoph Kisfeld
+  year: 2016
+  type: bachelor
+
+- title: senseBox:Waterquality – Entwicklung eines Wasserqualitätsmessgerätes auf Basis des Arduino Mikrokontrollers.
+  author: Björn Guntermann
+  year: 2015 
+  type: bachelor
+
+- title: SenseBox:Airquality – Entwicklung einer Low-Cost Luqualitätsmessstation auf Basis der SenseBox
+  author: Mario Pesch
+  year: 2015
+  type: bachelor 
+
+- title: Bereinigen und Klassifizieren von Daten gemessen mit der SenseBox
+  author: Joana Gockel
+  year: 2015
+  type: bachelor 
+
+- title: OpenSenseMap – a citizen science platform for publishing and exploring sensor data as open data
+  author: Matthias Pfeil
+  year: 2015
+  type: bachelor 
+
+- title: DIY- set prototype for learning about sensing, data and programming with school-aged children
+  author: Sergey Mukhametov
+  year: 2013
+  type: bachelor
+
+- title: "Weather SenseBox: An Arduino Based Approach to Integrate the Work on Sensor Platforms in High School Classes"
+  author: Jan Wirwahn
+  year: 2012
+  type: bachelor 
 
 
 ## Mentions

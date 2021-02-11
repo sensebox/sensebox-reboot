@@ -28,9 +28,8 @@
                     {% for publication in publications %}
                     {% if publication.type == "bachelor" or publication.type == "master" %}
                     <li>
-                        <a href="{{publication.link}}">
-                            <p>{{ publication.author }} ({{publication.year}}): {{ publication.title }}</p>
-                        </a>
+                        {{ publication.author }} ({{publication.year}}): {{ publication.title }}
+
                     </li>
 
                     {% endif %}

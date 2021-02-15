@@ -8,37 +8,54 @@
             <p>{{ research.main-text}}</p>
 
         </div>
+
+        <div class="col-8">
+            <p>{{ research.opensensemap}}</p>
+        </div>
+        <div class="col-4">
+            <img loading="lazy" class="img-fluid" src="/images/research/research-osem.jpg">
+        </div>
+
+        <div class="col-4">
+            <img loading="lazy" class="img-fluid" src="/images/research/research-blockly.jpg">
+        </div>
+
+        <div class="col-8">
+            <p>{{ research.blockly}}</p>
+        </div>
+
     </div>
+    <hr>
+    <div class="row">
+        <div class="col-12">
+            <h1>{{ research.publications-head }}</h1>
+            <p>{{ research.publications-text }}</p>
+            <a href="/research-publications.html" class="btn btn-sensebox-green">{{ research.publications-button }}</a>
+        </div>
+    </div>
+
     <hr class="clear nomargin">
 
     <div class="row">
-        <h1 id="Förderung"><mark>Förderungen</mark></h1>
-        {% for award in awardslist %}
-        {% if award.type == 'grant' %}
-        <div class="posts py-5">
-            <h2 style="clear:both">{{ award.title }}</h2>
-            <div class="row">
-                {% if award.thumbnail %}
-                <div class="col-sm-4">
-                    <img loading="lazy" class="award-pic" src="{{ site.baseurl | append: award.thumbnail }}"
-                        alt="{{ award.title }} - Logo" />
-                </div>
-
-                <div class="col-sm-8">
-                    <div class="content">
-                        {{ award.content }}
-                    </div>
-                </div>
-                {% else %}
-                <div class="content">
-                    {{ award.content }}
-                </div>
-                {% endif %}
-            </div>
-            <hr class="clear nomargin">
+        <div class="col-12">
+            <h1 id="Förderung"><mark>{{research.funding-head}}</mark></h1>
         </div>
-        {% endif %}
-        {% endfor %}
+        <div class="col-4">
+            <img loading="lazy" class="img-fluid" src="/images/awards/BMBF_CMYK_Gef_L.png">
+        </div>
+        <div class="col-8">
+            <p>{{ research.funding-text }}</p>
+        </div>
+
     </div>
-</div>
+    <hr>
+    <div class="row">
+        <div class="col-6">
+            <img src="/images/logos/reedu_white.png" class="partner-pic" alt="...">
+        </div>
+
+        <div class="col-6">
+            <img src="/images/logos/Logo_ifgi_long.png" class="partner-pic" alt="...">
+        </div>
+    </div>
 </div>

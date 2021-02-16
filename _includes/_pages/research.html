@@ -4,12 +4,33 @@
 <div class="container">
     <div class="row row-padding">
         <div class="col-12">
-            <h2></h2>
+            <h1>Laufendes Forschungsprojekt (2019-2022)</h1>
+            <h2>senseBox:pro</h2>
             <p>{{ research.main-text}}</p>
 
         </div>
+    </div>
+    <div class="row row-padding">
+        <div class="col-12">
+            <h2>Forschungsverbund</h2>
+            <p>Das senseBox:pro Projekt ist ein Verbundprojekt der Reedu GmbH & Co. KG und dem Instutit für
+                Geoinformatik der Westfälischen Wilhelm-Universität Münster</p>
+        </div>
+        <div class="col-6">
+            <img src="/images/logos/reedu_white.png" class="partner-pic" alt="...">
+        </div>
+
+        <div class="col-6">
+            <img src="/images/logos/Logo_ifgi_long.png" class="partner-pic" alt="...">
+        </div>
+    </div>
+    <div class="row row-padding">
+        <div class="col-12">
+            <h2>Forschungsschwerpunkte</h2>
+        </div>
 
         <div class="col-8">
+            <h4>openSenseMap</h4>
             <p>{{ research.opensensemap}}</p>
         </div>
         <div class="col-4">
@@ -21,24 +42,30 @@
         </div>
 
         <div class="col-8">
+            <h4>Lernumgebung</h4>
             <p>{{ research.blockly}}</p>
         </div>
 
     </div>
     <hr>
-    <div class="row">
-        <div class="col-12">
-            <h1>{{ research.publications-head }}</h1>
-            <p>{{ research.publications-text }}</p>
-            <a href="/research-publications.html" class="btn btn-sensebox-green">{{ research.publications-button }}</a>
-        </div>
-    </div>
-
-    <hr class="clear nomargin">
-
-    <div class="row">
+    <div class="row row-padding">
         <div class="col-12">
             <h1 id="Förderung"><mark>{{research.funding-head}}</mark></h1>
+        </div>
+        <div class="col-4">
+            <img loading="lazy" class="img-fluid" src="/images/awards/BMBF_CMYK_Gef_L.png">
+        </div>
+        <div class="col-8">
+            <p>{{ research.funding-text }}</p>
+            <a href="https://www.photonikforschung.de/projekte/open-innovation/foerdermassnahme/open-photonik-pro.html"
+                class="btn btn-sensebox-green">Mehr zu Förderung</a>
+        </div>
+
+    </div>
+    <hr>
+    <div class="row row-padding">
+        <div class="col-12">
+            <h1 id="Förderung"><mark>{{research.projectold-head}}</mark></h1>
         </div>
         <div class="col-4">
             <img loading="lazy" class="img-fluid" src="/images/awards/BMBF_CMYK_Gef_L.png">
@@ -48,14 +75,41 @@
         </div>
 
     </div>
-    <hr>
     <div class="row">
-        <div class="col-6">
-            <img src="/images/logos/reedu_white.png" class="partner-pic" alt="...">
+        <div class="col-12">
+            <h1>{{ research.publications-head }}</h1>
+            {% assign publications = site.data.i18n.[page.lang].publications | sort: 'year' | reverse %}
+            <ul>
+                {% assign i=0 %}
+                {% for publication in publications %}
+                {% if publication.orign == "sensebox" %}
+                {% assign i = i | plus: 1 %}
+                {% if i < 4 %} <li>
+                    {% if publication.link %}<a href="{{publication.link}}">
+                        <p>{{ publication.author }} ({{publication.year}}): {{ publication.title }}</p>
+                    </a>
+                    {% else %}
+                    <p>{{ publication.author }} ({{publication.year}}): {{ publication.title }}</p>
+                    {% endif %}
+                    </li>
+                    {% endif %}
+                    {% endif %}
+                    {% if i > 4 %}
+                    <p>...</p>
+                    <a href="/research-publications.html" class="btn btn-sensebox-green">{{ research.publications-button
+                        }}</a>
+                    {% break %}
+                    {% endif %}
+                    {% endfor %}
+            </ul>
         </div>
 
-        <div class="col-6">
-            <img src="/images/logos/Logo_ifgi_long.png" class="partner-pic" alt="...">
-        </div>
     </div>
+</div>
+
+<hr class="clear nomargin">
+
+
+<hr>
+
 </div>

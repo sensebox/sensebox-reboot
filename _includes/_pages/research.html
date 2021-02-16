@@ -12,9 +12,8 @@
     </div>
     <div class="row row-padding">
         <div class="col-12">
-            <h2>Forschungsverbund</h2>
-            <p>Das senseBox:pro Projekt ist ein Verbundprojekt der Reedu GmbH & Co. KG und dem Instutit für
-                Geoinformatik der Westfälischen Wilhelm-Universität Münster</p>
+            <h2>{{ research.partner-head }}</h2>
+            <p>{{ research.partner-text }}</p>
         </div>
         <div class="col-6">
             <img src="/images/logos/reedu_white.png" class="partner-pic" alt="...">
@@ -47,10 +46,9 @@
         </div>
 
     </div>
-    <hr>
     <div class="row row-padding">
         <div class="col-12">
-            <h1 id="Förderung"><mark>{{research.funding-head}}</mark></h1>
+            <h1 id="Förderung">{{research.funding-head}}</h1>
         </div>
         <div class="col-4">
             <img loading="lazy" class="img-fluid" src="/images/awards/BMBF_CMYK_Gef_L.png">
@@ -65,16 +63,18 @@
     <hr>
     <div class="row row-padding">
         <div class="col-12">
-            <h1 id="Förderung"><mark>{{research.projectold-head}}</mark></h1>
+            <h1 id="Förderung">{{research.projectold-head}}</h1>
+        </div>
+        <div class="col-8">
+            <p>{{ research.projectold-text }}</p>
         </div>
         <div class="col-4">
             <img loading="lazy" class="img-fluid" src="/images/awards/BMBF_CMYK_Gef_L.png">
         </div>
-        <div class="col-8">
-            <p>{{ research.funding-text }}</p>
-        </div>
+
 
     </div>
+    <hr>
     <div class="row">
         <div class="col-12">
             <h1>{{ research.publications-head }}</h1>
@@ -95,9 +95,11 @@
                     {% endif %}
                     {% endif %}
                     {% if i > 4 %}
-                    <p>...</p>
-                    <a href="/research-publications.html" class="btn btn-sensebox-green">{{ research.publications-button
-                        }}</a>
+
+                    <li>... <a href="/{{page.lang}}/research-publications.html">{{
+                            research.publications-button
+                            }}</a></li>
+
                     {% break %}
                     {% endif %}
                     {% endfor %}

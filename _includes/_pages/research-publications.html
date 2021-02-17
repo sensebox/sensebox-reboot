@@ -4,8 +4,7 @@
 <div class="container">
     <div class="row row-padding">
         <div class="col-12">
-            <h2>Journals</h2>
-            <p>{{ research-publications.journals }}</p>
+            <h2>{{research-publications.journals}}</h2>
             <ul>
                 {% for publication in publications %}
                 {% if publication.orign == "sensebox" %}
@@ -23,8 +22,7 @@
             </ul>
         </div>
         <div class="col-12">
-            <h2>Bachelor/Masterarbeiten</h2>
-            <p>{{ research-publications.bachelor-master }}</p>
+            <h2>{{ research-publications.bachelor-master }}</h2>
             <ul>
                 {% for publication in publications %}
                 {% if publication.type == "bachelor" or publication.type == "master" %}

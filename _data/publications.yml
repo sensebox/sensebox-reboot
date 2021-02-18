@@ -10,6 +10,7 @@
   author: Bartoschek, T., Fehrenbach, D., Fehrenbach, J., Pesch, M., Steinmann, L. 
   year: 2019
   link: https://dpunkt.de/produkt/das-sensebox-buch/
+  journal: dpunkt Verlag, Heidelberg
   type: book
   orign: sensebox
 
@@ -19,8 +20,23 @@
   link: https://osf.io/bq5s7/
   type: book
   orign: sensebox
+
+- title: "Volunteer’s demographics and motivations in senseBox and openSenseMap"
+  author:  Pesch, M. and Bartoschek, T.
+  year: 2019
+  link: https://osf.io/xn796/
+  type: journal
+  orign: sensebox
+
+- title: "SENPH - an Ontology for Environmental Phenomena and Sensors in the Citizen Science Context"
+  author: Bartoschek, T, and Karic, B.
+  year: 2019
+  link: https://osf.io/e3vkp/
+  type: book
+  orign: sensebox
   
-- title: "Digitale Bildung: Programmieren lernen mit Open-Source-Mikrocontrollern."
+  
+- title: "Digitale Bildung: Programmieren lernen mit Open-Source-Mikrocontrollern"
   author: Fehrenbach, D., Bartoschek, T., Pesch, M. Tandoğan, T.
   year: 2019
   journal: ATP Magazin 03/2019
@@ -28,7 +44,7 @@
   type: journal
   orign: sensebox
 
-- title: "Mit Umweltdaten die digitale Bildung verändern."
+- title: "Mit Umweltdaten die digitale Bildung verändern"
   author: Fehrenbach, David und Pesch, Mario
   year: 2019
   journal: Bildung+ Schule Digital
@@ -36,33 +52,35 @@
   type: journal
   orign: sensebox
 
-- title: Open Environmental Data Analysis.
+- title: Open Environmental Data Analysis
   author: Nüst, D., Bartoschek T. 
   year: 2018
+  link: https://zenodo.org/record/1217912
   journal: EGU General Assembly 2018, Vienna, Austria. DOI 10.5281/zenodo.1217911
   orign: sensebox
 
-- title: "MEASURING GROWTH CONDITIONS OF SALAD PLANTS USING SENSORS: A HIGH SCHOOL PROJECT."
+- title: "MEASURING GROWTH CONDITIONS OF SALAD PLANTS USING SENSORS: A HIGH SCHOOL PROJECT"
   author: Thapa, L., Naseer, H., El-Kaiy, S., & Bartoschek, T. 
   year: 2018
+  link: https://www.researchgate.net/publication/329049696_MEASURING_GROWTH_CONDITIONS_OF_SALAD_PLANTS_USING_SENSORS_A_HIGH_SCHOOL_PROJECT
   journal: International Archives of the Photogrammetry, Remote Sensing & Spatial Information Sciences.
   orign: sensebox
 
-- title: Usability Engineering for Successful Open Citizen Science.
+- title: Usability Engineering for Successful Open Citizen Science
   author: Wirwahn, J., Bartoschek, T. 
   year: 2015
   journal: Academic Track, FOSS4G’15, Seoul, Republic of Korea.
-  link:
+  link: https://scholarworks.umass.edu/foss4g/vol15/iss1/54/
   orign: sensebox
   
 - title: OpenSenseMap – A Citizen Science Platform for Publishing and Exploring Sensor Data as Open Data.
   author: Pfeil, M., Bartoschek, T., Wirwahn, J. 
   year: 2015
+  link: https://scholarworks.umass.edu/foss4g/vol15/iss1/39/
   journal: Academic Track, FOSS4G’15, Seoul, Republic of Korea.
   orign: sensebox
 
 ## Bachelor/Masterarbeiten
-
 
 - title: Modeling of time-spatial processes using a timeseries database on the example of the open data portal openSenseMap
   author: Moritz Migge

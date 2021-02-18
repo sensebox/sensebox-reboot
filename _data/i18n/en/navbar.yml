@@ -2,6 +2,7 @@ go-head: Get started
 products-head: Products
 resources-head: Resources
 about-us-head: About us
+research-head: Research
  
 #Go
 go-fist-steps-with: "Your first steps with..."
@@ -40,6 +41,13 @@ material-name: "Teaching-Material"
 material-link: /material.html
 forum-name: "Forum"
 forum-link: https://forum.sensebox.de
+
+#Research
+senseboxpro-link: /research.html
+senseboxpro-name: "senseBox:pro"
+publications-name: "Publications"
+publications-link: /research-publications.html
+
 #About-us
 team-name: "Team"
 team-link: /about-us.html

@@ -1,4 +1,4 @@
-{% assign publications = site.data.i18n.[page.lang].publications | sort: 'year' | reverse %}
+{% assign publications = site.data.publications | sort: 'year' | reverse %}
 {% assign research-publications = site.data.i18n.[page.lang].research-publications %}
 
 <div class="container">
@@ -10,10 +10,13 @@
                 {% if publication.orign == "sensebox" %}
                 <li>
                     {% if publication.link %}<a href="{{publication.link}}">
-                        <p>{{ publication.author }} ({{publication.year}}): {{ publication.title }}</p>
+                        <p>{{ publication.author }} ({{publication.year}}): {{ publication.title }}.
+                            {% if publication.journal %}{{publication.journal}}{% endif %}</p>
                     </a>
                     {% else %}
-                    <p>{{ publication.author }} ({{publication.year}}): {{ publication.title }}</p>
+                    <p>{{ publication.author }} ({{publication.year}}): {{ publication.title }}. {% if
+                        publication.journal %}{{publication.journal}}{% endif %}
+                    </p>
                     {% endif %}
                 </li>
 

@@ -37,31 +37,35 @@
         <div class="col-12">
             <h2>{{ research.goals-head }} </h2>
         </div>
-        <div class="col-4">
-            <img loading="lazy" class="img-fluid" src="/images/research/research-hardware.jpg">
-        </div>
+        <div class="row row-padding">
+            <div class="col-4">
+                <img loading="lazy" class="img-fluid" src="/images/research/research-hardware.jpg">
+            </div>
 
-        <div class="col-8">
-            <h4>Hardware</h4>
-            <p>{{ research.hardware}}</p>
+            <div class="col-8">
+                <h4>Hardware</h4>
+                <p>{{ research.hardware}}</p>
+            </div>
         </div>
-        <div class="col-8">
-            <h4>openSenseMap</h4>
-            <p>{{ research.opensensemap}}</p>
+        <div class="row row-padding">
+            <div class="col-8">
+                <h4>openSenseMap</h4>
+                <p>{{ research.opensensemap}}</p>
+            </div>
+            <div class="col-4">
+                <img loading="lazy" class="img-fluid" src="/images/research/research-osem.jpg">
+            </div>
         </div>
-        <div class="col-4">
-            <img loading="lazy" class="img-fluid" src="/images/research/research-osem.jpg">
-        </div>
+        <div class="row row-padding">
+            <div class="col-4">
+                <img loading="lazy" class="img-fluid" src="/images/research/research-blockly.jpg">
+            </div>
 
-        <div class="col-4">
-            <img loading="lazy" class="img-fluid" src="/images/research/research-blockly.jpg">
+            <div class="col-8">
+                <h4>{{ research.blockly-head }}</h4>
+                <p>{{ research.blockly}}</p>
+            </div>
         </div>
-
-        <div class="col-8">
-            <h4>{{ research.blockly-head }}</h4>
-            <p>{{ research.blockly}}</p>
-        </div>
-
     </div>
     <div class="row row-padding">
         <div class="col-12">
@@ -95,7 +99,7 @@
     <div class="row">
         <div class="col-12">
             <h1>{{ research.publications-head }}</h1>
-            {% assign publications = site.data.i18n.[page.lang].publications | sort: 'year' | reverse %}
+            {% assign publications = site.data.publications | sort: 'year' | reverse %}
             <ul>
                 {% assign i=0 %}
                 {% for publication in publications %}

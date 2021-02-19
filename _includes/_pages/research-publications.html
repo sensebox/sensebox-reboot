@@ -1,0 +1,59 @@
+{% assign publications = site.data.publications | sort: 'year' | reverse %}
+{% assign research-publications = site.data.i18n.[page.lang].research-publications %}
+
+<div class="container">
+    <div class="row row-padding">
+        <div class="col-12">
+            <h2>{{research-publications.journals}}</h2>
+            <ul>
+                {% for publication in publications %}
+                {% if publication.orign == "sensebox" %}
+                <li>
+                    {% if publication.link %}<a href="{{publication.link}}">
+                        <p>{{ publication.author }} ({{publication.year}}): {{ publication.title }}.
+                            {% if publication.journal %}{{publication.journal}}{% endif %}</p>
+                    </a>
+                    {% else %}
+                    <p>{{ publication.author }} ({{publication.year}}): {{ publication.title }}. {% if
+                        publication.journal %}{{publication.journal}}{% endif %}
+                    </p>
+                    {% endif %}
+                </li>
+
+                {% endif %}
+                {% endfor %}
+            </ul>
+        </div>
+        <div class="col-12">
+            <h2>{{ research-publications.bachelor-master }}</h2>
+            <ul>
+                {% for publication in publications %}
+                {% if publication.type == "bachelor" or publication.type == "master" %}
+                <li>
+                    {{ publication.author }} ({{publication.year}}): {{ publication.title }}
+
+                </li>
+
+                {% endif %}
+                {% endfor %}
+            </ul>
+        </div>
+
+        <div class="col-12">
+            <h2>Erwähnungen</h2>
+            <p>{{ research-publications.mentions }}</p>
+            <ul>
+                {% for publication in publications %}
+                {% if publication.type == "Mentions" %}
+                <li>
+                    {{ publication.author }} ({{publication.year}}): {{ publication.title }}
+                    {{publication.journal}}
+                </li>
+
+                {% endif %}
+                {% endfor %}
+            </ul>
+        </div>
+
+    </div>
+</div>

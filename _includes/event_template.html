@@ -17,11 +17,14 @@
 
 <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
   <div class="timeline-arrow"></div>
-  <h2 class="h5 mb-0">{{ include.event.title }}</h2><span class="small text-gray"><i
-      class="fa fa-clock-o mr-1"></i>{{ include.event.starting-date | date: '%d.%m.%Y' }}
+  <h2 class="h5 mb-0">{{ include.event.title }}</h2><span class="small text-gray"><i class="fa fa-clock-o mr-1"></i>{{
+    include.event.starting-date | date: '%d.%m.%Y' }}
     {% if include.event.starting-date != include.event.ending-date %} -
     {{ include.event.ending-date | date: '%d.%m.%Y' }} {% endif %} {% if include.event.time %}
     {{ include.event.time }} in {{ event.place }}</p>{% endif %}</span>
   <p class="text-small mt-2 font-weight-light">
     {% if include.event.description %}{{ include.event.description }}{% endif %}</p>
+  {% if include.event.link %}
+  <a href="{{include.event.link}}" class="btn btn-sensebox-green" target="_blank">mehr Informationen</a>
+  {% endif %}
 </li>

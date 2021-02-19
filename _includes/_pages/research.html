@@ -1,0 +1,138 @@
+{% assign research = site.data.i18n.[page.lang].research %}
+{% assign awardslist = site.awards | sort: 'weight' %}
+
+<div class="container">
+    <div class="row row-padding">
+        <div class="col-12">
+            <h1>{{ research.main-head }}</h1>
+            <h2>senseBox:pro</h2>
+            <p>{{ research.main-text}}</p>
+
+        </div>
+    </div>
+    <div class="row row-padding">
+        <div class="col-12">
+            <h2>{{ research.partner-head }}</h2>
+            <p>{{ research.partner-text }}</p>
+        </div>
+        <div class="col-6">
+            <div class="card partner-card">
+                <img src="/images/logos/reedu_white.png" class="partner-pic" alt="...">
+                <div class="card-body">
+                    <p class="card-text">{{ research.partner-reedu }}</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="card partner-card">
+                <img src="/images/logos/Logo_ifgi_long.png" class="partner-pic" alt="...">
+                <div class="card-body">
+                    <p class="card-text">{{ research.partner-ifgi }}</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="row row-padding">
+        <div class="col-12">
+            <h2>{{ research.goals-head }} </h2>
+        </div>
+        <div class="row row-padding">
+            <div class="col-4">
+                <img loading="lazy" class="img-fluid" src="/images/research/research-hardware.jpg">
+            </div>
+
+            <div class="col-8">
+                <h4>Hardware</h4>
+                <p>{{ research.hardware}}</p>
+            </div>
+        </div>
+        <div class="row row-padding">
+            <div class="col-8">
+                <h4>openSenseMap</h4>
+                <p>{{ research.opensensemap}}</p>
+            </div>
+            <div class="col-4">
+                <img loading="lazy" class="img-fluid" src="/images/research/research-osem.jpg">
+            </div>
+        </div>
+        <div class="row row-padding">
+            <div class="col-4">
+                <img loading="lazy" class="img-fluid" src="/images/research/research-blockly.jpg">
+            </div>
+
+            <div class="col-8">
+                <h4>{{ research.blockly-head }}</h4>
+                <p>{{ research.blockly}}</p>
+            </div>
+        </div>
+    </div>
+    <div class="row row-padding">
+        <div class="col-12">
+            <h1 id="Förderung">{{research.funding-head}}</h1>
+        </div>
+        <div class="col-4">
+            <img loading="lazy" class="img-fluid" src="/images/awards/BMBF_CMYK_Gef_L.png">
+        </div>
+        <div class="col-8">
+            <p>{{ research.funding-text }}</p>
+            <a href="https://www.photonikforschung.de/projekte/open-innovation/foerdermassnahme/open-photonik-pro.html"
+                class="btn btn-sensebox-green"> {{ research.funding-button }}</a>
+        </div>
+
+    </div>
+    <hr>
+    <div class="row row-padding">
+        <div class="col-12">
+            <h1 id="Förderung">{{research.projectold-head}}</h1>
+        </div>
+        <div class="col-8">
+            <p>{{ research.projectold-text }}</p>
+        </div>
+        <div class="col-4">
+            <img loading="lazy" class="img-fluid" src="/images/awards/BMBF_CMYK_Gef_L.png">
+        </div>
+
+
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col-12">
+            <h1>{{ research.publications-head }}</h1>
+            {% assign publications = site.data.publications | sort: 'year' | reverse %}
+            <ul>
+                {% assign i=0 %}
+                {% for publication in publications %}
+                {% if publication.orign == "sensebox" %}
+                {% assign i = i | plus: 1 %}
+                {% if i < 4 %} <li>
+                    {% if publication.link %}<a href="{{publication.link}}">
+                        <p>{{ publication.author }} ({{publication.year}}): {{ publication.title }}</p>
+                    </a>
+                    {% else %}
+                    <p>{{ publication.author }} ({{publication.year}}): {{ publication.title }}</p>
+                    {% endif %}
+                    </li>
+                    {% endif %}
+                    {% endif %}
+                    {% if i > 4 %}
+
+                    <li>... <a href="/{{page.lang}}/research-publications.html">{{
+                            research.publications-button
+                            }}</a></li>
+
+                    {% break %}
+                    {% endif %}
+                    {% endfor %}
+            </ul>
+        </div>
+
+    </div>
+</div>
+
+<hr class="clear nomargin">
+
+
+<hr>
+
+</div>

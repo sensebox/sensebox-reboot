@@ -16,11 +16,18 @@
   position: 3
   description: Felix entwickelte seine Begeisterung für Bastelelektronik und Programmierung bereits als Schüler in einem der senseBox-Workshops mit Thomas und Jan. Nach seinem Geoinformatik-Studium ist er als <b>Softwareentwickler</b> bei Reedu mit eingestiegen und arbeitet weiterhin gerne mit Open-Source Technik.
 
-- name: Björn Guntermann
-  role: Head of Education
-  image: /images/team/bjoern.jpg
+- name: Verena Witte
+  image: /images/team/verena.jpg
+  role: 
   position: 4
-  description: Björn ist Head of Education bei Reedu und arbeitet an der <b>Konzeption und Durchführung von Workshops und Fortbildungen</b>. Schon seit Projektbeginn motiviert er Lehrer*innen und Schüler*innen für Umweltbildung und Informatik.
+  description: Verena arbeitet neben ihrem Studium im Master of Education bei Reedu. Hier ist sie überwiegend für die Konzeption von Unterrichtsmaterialien zuständig und gibt sowohl Schülerinnen als auch Lehrerinnen Workshops mit der senseBox. 
+
+# - name: Björn Guntermann
+#   role: Head of Education
+#   image: /images/team/bjoern.jpg
+#   position: 4
+#   description: Björn ist Head of Education bei Reedu und arbeitet an der <b>Konzeption und Durchführung von Workshops und Fortbildungen</b>. Schon seit Projektbeginn motiviert er Lehrer*innen und Schüler*innen für Umweltbildung und Informatik.
+
 
 # - name: David Fehrenbach
 #   image: /images/team/david.jpeg

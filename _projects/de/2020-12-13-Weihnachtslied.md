@@ -20,9 +20,8 @@ material:
     
 ide: blockly
 version: ["edu", "mini"]   
-addons: ["Weihnachten"] 
 lang: de
-tags: ["Informatik", "Musik"]
+tags: ["Informatik", "Musik", "Weihnachten"]
 difficult: leicht
 ---
 <head><title>Weihnachtslied</title></head>

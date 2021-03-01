@@ -22,9 +22,8 @@ material:
     
 ide: blockly
 version: ["edu", "mini"]   
-addons: ["Weihnachten"] 
 lang: de
-tags: ["Informatik", "Biologie"]
+tags: ["Informatik", "Biologie", "Weihnachten"]
 difficult: mittel
 ---
 <head><title>Intelligenter Weihnachtsbaum</title></head>

@@ -78,7 +78,7 @@
     <div class="container-fluid h-100 center-item">
         <div class="row align-item-center">
             {% if page.thumbnail %}
-            <div class="col-md-6 masthead-text">
+            <div class="col-6 masthead-text">
                 <div>
                     {% if page.header %}
                     <h1 class="heading">{{ page.header }}</h1>
@@ -93,14 +93,15 @@
                     <a class="btn btn-sensebox-white" href="{{ page.docslink }}" role="button">{{ t.docs-here }}</a>
                     {% endif %}
                     {% if page.edusetlink %}
-                    <a class="btn btn-sensebox-white" href="{{ page.edusetlink }}" role="button">{{ t.edu-set-here }}</a>
+                    <a class="btn btn-sensebox-white" href="{{ page.edusetlink }}" role="button">{{ t.edu-set-here
+                        }}</a>
                     {% endif %}
                     {% if page.author %}
                     <span class="author">Von {{ page.author }} am {{ page.date | date: "%d/%m/%Y" }}</span>
                     {% endif %}
                 </div>
             </div>
-            <div class="col-md-6 masthead-image">
+            <div class="col-6 masthead-image">
                 <!-- <img loading="lazy" class="rounded-circle" src="/images/index/osem.png" height="200px"> -->
                 {% assign image_url = page.thumbnail %}
                 <img loading="lazy" class="masthead-small-pic" src="{{ site.baseurl  | append: image_url }}"

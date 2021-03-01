@@ -1,6 +1,6 @@
 ---
 layout: project_page
-title: "Adventskranz mit Weihnachtscountdown"
+title: "Adventskranz mit Weihnachts&shy;countdown"
 date: 2020-11-27
 author: Verena
 abstract: "Erstelle einen automatischen Adventskranz mit der senseBox"

@@ -1,6 +1,6 @@
 ---
 layout: project_page
-title: "Intelligenter Weihnachtsbaum"
+title: "Intelligenter Weihnachts&shy;baum"
 date: 2020-12-20
 author: Verena
 abstract: "Überprüfe die Versorgung deines Weihnachtsbaums mit der senseBox"

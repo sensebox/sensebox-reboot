@@ -1,6 +1,6 @@
 ---
 layout: project_page
-title: "Fotosyntheseleistung erfassen"
+title: "Fotosynthese&shy;leistung erfassen"
 date: 2020-11-13
 author: Verena
 abstract: "Beobachte die Fotosyntheseleistung einer Pflanze, indem du den CO2-Gehalt misst"

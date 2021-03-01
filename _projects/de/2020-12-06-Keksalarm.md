@@ -21,9 +21,8 @@ material:
     
 ide: blockly
 version: ["edu", "mini"]   
-addons: ["Weihnachten"] 
 lang: de
-tags: ["Informatik"]
+tags: ["Informatik", "Weihnachten"]
 difficult: mittel
 ---
 <head><title>Keksalarm</title></head>

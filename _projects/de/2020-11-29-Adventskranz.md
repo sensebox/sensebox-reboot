@@ -1,6 +1,6 @@
 ---
 layout: project_page
-title: "Adventskranz mit Weihnachtscountdown"
+title: "Adventskranz mit Weihnachts&shy;countdown"
 date: 2020-11-27
 author: Verena
 abstract: "Erstelle einen automatischen Adventskranz mit der senseBox"
@@ -22,9 +22,8 @@ material:
     
 ide: blockly
 version: ["edu", "mini"]   
-addons: ["Weihnachten"] 
 lang: de
-tags: ["Informatik"]
+tags: ["Informatik", "Weihnachten"]
 difficult: mittel
 ---
 <head><title>Adventskranz mit Weihnachtscountdown</title></head>

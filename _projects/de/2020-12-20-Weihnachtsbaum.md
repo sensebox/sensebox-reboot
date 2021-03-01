@@ -1,6 +1,6 @@
 ---
 layout: project_page
-title: "Intelligenter Weihnachtsbaum"
+title: "Intelligenter Weihnachts&shy;baum"
 date: 2020-12-20
 author: Verena
 abstract: "Überprüfe die Versorgung deines Weihnachtsbaums mit der senseBox"
@@ -22,9 +22,8 @@ material:
     
 ide: blockly
 version: ["edu", "mini"]   
-addons: ["Weihnachten"] 
 lang: de
-tags: ["Informatik", "Biologie"]
+tags: ["Informatik", "Biologie", "Weihnachten"]
 difficult: mittel
 ---
 <head><title>Intelligenter Weihnachtsbaum</title></head>

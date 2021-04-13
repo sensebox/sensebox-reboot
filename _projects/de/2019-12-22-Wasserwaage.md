@@ -2,7 +2,7 @@
 layout: project_page
 title: "Wasserwaage"
 date: 2019-12-18
-author: Björn 
+author: Björn
 abstract: "Es wird eine Wasserwaage mit der senseBox programmiert"
 thumbnail: /images/projects/Wasserwaage/Wasserwaage_title.jpeg
 image0: /images/projects/Punktefang/Punktefang_Image00.png
@@ -14,21 +14,22 @@ image5: /images/projects/Wasserwaage/step_3.png
 imageSolution: /images/projects/Wasserwaage/final.png
 
 material:
-    - senseBox MCU
-    - JST Adaperkabel
-    - OLED-Display
-ide: blockly  
+  - senseBox MCU
+  - JST Adaperkabel
+  - OLED-Display
+ide: blockly
 lang: de
 tags: ["Informatik"]
-version: ["edu", "mini"]
-difficult: mittel    
+version: ["edu", "mini", "CO2-Ampel Set Edu"]
+difficult: mittel
 ---
+
 # senseBox Wasserwaage {#head}
 
 Auf der senseBox ist ein Lagesensor verbaut. Dieser kann messen, ob sie senseBox sich bewegt oder ob sie gerade oder schief liegt. In diesem Projekt machst du dir diesen Sensor zunutze um eine digitale Wasserwaage zu programmieren
 
+## Aufbau
 
-## Aufbau 
 Der Aufbau für das Projekt ist einfach. Der Beschleunigungssensor ist bereits auf der senseBox MCU aufgelötet und kann direkt genutzt werden. Das Display verbindest du mit dem JST-JST-Kabel mit einem der fünf I2C Ports.
 
 {% include image.html image=page.image0 %}
@@ -42,7 +43,7 @@ Im ersten Schritt solltest du dir die Messwerte des Beschleunigungssensors auf d
 Wenn du dir Messwerte auf dem Display anzeigen lassen möchtest funktioniert dies immer gleich. Zuerst muss das Display im Setup() initialisiert werden und anschließend in der Endlosschleife() angegeben werden WAS (Wert) auf dem Display, WIE (Schriftfarbe und Schriftgröße) und WO (Koordinaten) angezeigt werden soll. Bei Messwerten bietet es sich an, diese direkt mit einer Beschriftung zu versehen. Dies geht mit dem "Erstelle Text aus"-Block am einfachsten.
 Für die Wasserwaage müssen zwei Messwerte angezeigt werden: Die Neigung in x-Richtung und die Neigung in y-Richtung.
 
-Baue den oben abgebildeten Programmcode nach und übertrage den Code auf deine senseBox MCU. 
+Baue den oben abgebildeten Programmcode nach und übertrage den Code auf deine senseBox MCU.
 
 ### Schritt 2
 
@@ -66,4 +67,5 @@ Nun bewegt sich dein Punkt je nach Ausrichtung der MCU. Was jetzt noch fehlt ist
 {% include image.html image=page.image4 %}
 
 ### Fertiger Code
+
 Du kannst dir die Lösung dieses Projektes direkt in Blockly [öffnen](https://blockly.sensebox.de/ardublockly/index.html?board=sensebox-mcu&lang=de&gallery=projects/wasserwaage)

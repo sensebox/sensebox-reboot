@@ -7,16 +7,17 @@ abstract: "Es wird ein Kaminfeuer simuliert, indem eine rote LED zum flackern ge
 thumbnail: /images/projects/Titelbild_Kaminfeuer.png
 image0: /images/projects/kaminfeuer_setup.png
 material:
-    - senseBox MSU
-    - rote LED
-    - 470Ω Widerstand
-    - 1x JST-Adapterkabel
-ide: arduino    
+  - senseBox MSU
+  - rote LED
+  - 470Ω Widerstand
+  - 1x JST-Adapterkabel
+ide: arduino
 lang: de
 tags: ["Informatik", "Physik"]
 difficult: leicht
-version: ["edu"]
+version: ["edu", "CO2-Ampel Set Edu"]
 ---
+
 # Kaminfeuer
 
 Ziel dieses Projektes ist es, ein Kaminfeuer zu simulieren. Dazu wird eine rote LED zum flackern gebracht.
@@ -44,6 +45,7 @@ void setup() {
   pinMode(led, OUTPUT);
 }
 ```
+
 Du speicherst den digitalen Port 1 in einer Variable, damit du dir nur noch den aussagekräftigen Variablennamen merken musst und nicht die Portnummer. Das ist vorallem bei mehreren angeschlossenen LEDs hilfreich.
 
 ### Schritt 2: loop()-Funktion
@@ -65,8 +67,7 @@ void loop() {
   delay(randomDelayAus);
 }
 ```
+
 Die Funktion random(max) generiert Zufallszahlen von 0 bis max. Falls man ebenfalls ein Minimum angeben will, kann man die Funktion random(min, max) benutzen.
 
-Damit ist die Programmierung abgeschlossen und du hast ein Kaminfeuer durch eine flackernde LED erzeugt. 
-
-
+Damit ist die Programmierung abgeschlossen und du hast ein Kaminfeuer durch eine flackernde LED erzeugt.

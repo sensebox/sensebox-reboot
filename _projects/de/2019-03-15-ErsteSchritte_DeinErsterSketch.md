@@ -10,15 +10,16 @@ image2: /images/projects/ES_ersterSketch/builtin1_on.png
 image3: /images/projects/ES_ersterSketch/builtin1_blink.png
 
 material:
-    - senseBox MCU
-ide: blockly  
+  - senseBox MCU
+ide: blockly
 lang: de
-version: ["edu", "mini"]   
+version: ["edu", "mini", "CO2-Ampel Set Edu"]
 tags: ["Erste Schritte", "Informatik"]
 difficult: leicht
 ---
 
 # Erste Schritte: Dein erster Sketch
+
 Ziel dieses Projektes ist es, Blockly kennenzulernen und mit einem ersten Sketch die LED auf der senseBox MCU blinken zu lassen.
 
 ## Programmierung

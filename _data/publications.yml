@@ -6,8 +6,16 @@
   type: journal
   orign: sensebox
 
+- title: Citizen Science mit Sensoren und Offenen Umweltdaten
+  author: Bartoschek, T.
+  year: 2019
+  journal: gis.business 01/2019. S. 41-42
+  link: https://gispoint.de/index.php?eID=tx_securedownloads&p=414&u=0&g=0&t=1618426291&hash=ec38f8530f005ee969e605d168fa133b51455367&file=fileadmin/user_upload/Artikel_Archiv/Articles_PDF/gis/2019/gis.Business_1_S.37-44_Special.pdf
+  type: journal
+  orign: sensebox
+
 - title: "Das senseBox Buch"
-  author: Bartoschek, T., Fehrenbach, D., Fehrenbach, J., Pesch, M., Steinmann, L. 
+  author: Bartoschek, T., Fehrenbach, D., Fehrenbach, J., Pesch, M., Steinmann, L.
   year: 2019
   link: https://dpunkt.de/produkt/das-sensebox-buch/
   journal: dpunkt Verlag, Heidelberg
@@ -22,7 +30,7 @@
   orign: sensebox
 
 - title: "Volunteer’s demographics and motivations in senseBox and openSenseMap"
-  author:  Pesch, M. and Bartoschek, T.
+  author: Pesch, M. and Bartoschek, T.
   year: 2019
   link: https://osf.io/xn796/
   type: journal
@@ -34,13 +42,12 @@
   link: https://osf.io/e3vkp/
   type: book
   orign: sensebox
-  
-  
+
 - title: "Digitale Bildung: Programmieren lernen mit Open-Source-Mikrocontrollern"
   author: Fehrenbach, D., Bartoschek, T., Pesch, M. Tandoğan, T.
   year: 2019
   journal: ATP Magazin 03/2019
-  link: 
+  link:
   type: journal
   orign: sensebox
 
@@ -53,28 +60,28 @@
   orign: sensebox
 
 - title: Open Environmental Data Analysis
-  author: Nüst, D., Bartoschek T. 
+  author: Nüst, D., Bartoschek T.
   year: 2018
   link: https://zenodo.org/record/1217912
   journal: EGU General Assembly 2018, Vienna, Austria. DOI 10.5281/zenodo.1217911
   orign: sensebox
 
 - title: "MEASURING GROWTH CONDITIONS OF SALAD PLANTS USING SENSORS: A HIGH SCHOOL PROJECT"
-  author: Thapa, L., Naseer, H., El-Kaiy, S., & Bartoschek, T. 
+  author: Thapa, L., Naseer, H., El-Kaiy, S., & Bartoschek, T.
   year: 2018
   link: https://www.researchgate.net/publication/329049696_MEASURING_GROWTH_CONDITIONS_OF_SALAD_PLANTS_USING_SENSORS_A_HIGH_SCHOOL_PROJECT
   journal: International Archives of the Photogrammetry, Remote Sensing & Spatial Information Sciences.
   orign: sensebox
 
 - title: Usability Engineering for Successful Open Citizen Science
-  author: Wirwahn, J., Bartoschek, T. 
+  author: Wirwahn, J., Bartoschek, T.
   year: 2015
   journal: Academic Track, FOSS4G’15, Seoul, Republic of Korea.
   link: https://scholarworks.umass.edu/foss4g/vol15/iss1/54/
   orign: sensebox
-  
+
 - title: OpenSenseMap – A Citizen Science Platform for Publishing and Exploring Sensor Data as Open Data.
-  author: Pfeil, M., Bartoschek, T., Wirwahn, J. 
+  author: Pfeil, M., Bartoschek, T., Wirwahn, J.
   year: 2015
   link: https://scholarworks.umass.edu/foss4g/vol15/iss1/39/
   journal: Academic Track, FOSS4G’15, Seoul, Republic of Korea.
@@ -90,62 +97,72 @@
 - title: Implementierung von interaktiven Lerntutorials zu Grundkonzepten des Computational Thinkings in einer blockbasierten Programmierumgebung
   author: Luc Niski
   year: 2020
-  type: bachelor 
+  type: bachelor
 
 - title: Implementierung einer Geo-Temporalen-Dateninfrastruktur auf Basis der SensorThings API zur Verarbeitung von heterogenen Sensordatenquellen am Beispiel eines siedlungswassertechnischen Pumpwerkes
   author: Daniel Uemmelmann
   year: 2020
-  type: bachelor 
+  type: bachelor
 
 - title: Optimization of the Visual Representation of Mobile senseBox Data – Visualization Alternatives on the openSenseMap
-  author: Aysel Tandlik
+  author: Aysel Tandik
   year: 2020
   type: bachelor
 
 - title: Unsupervised Anomaly Detection of Streaming Data in the openSenseMap Sensor Network
-  author: Boris Bäumer 
+  author: Boris Bäumer
   year: 2020
-  type: bachelor 
+  type: bachelor
 
 - title: Improving computational thinking competencies through visual programming interfaces
-  author: Björn Guntermann 
+  author: Björn Guntermann
   year: 2019
-  type: master 
+  type: master
 
 - title: Entwicklung und Evaluierung interaktiver Tutorials mit Gamification Ansatz für Blockly senseBox MCU
-  author: Niklas Aßelmann 
+  author: Niklas Aßelmann
   year: 2019
   type: bachelor
 
 - title: Visualiisierung des Wärmeinseleffektes mit Hilfe der senseBox – Einbindung in den Bildungskontext und Evaluierung
   author: Anja Oberhaus
   year: 2019
-  type: bachelor 
+  type: bachelor
 
 - title: Development of an Ontology for Environmental Phenomena and Sensors in the Citizen Science Context and its Implementation
-  author: Benjamin Karic 
+  author: Benjamin Karic
   year: 2019
-  type: bachleor 
+  type: bachleor
 
 - title: Volunteer’s Interaction in Technology Driven Citizen Science Projects
   author: Mario Pesch
   year: 2019
-  type: master 
+  type: master
 
 - title: Story-Dashboard for the senseBox Project
-  author: Eric Thieme-Garmann 
+  author: Eric Thieme-Garmann
   year: 2019
   type: bachelor
 
 - title: A multi-spatial dashboard related to senseBox data
-  author: Jasper Buß 
-  year: 2019 
+  author: Jasper Buß
+  year: 2019
   type: bachelor
 
 - title: Machbarkeitsstudie über senseBox-Monitoring an den Quellen der Baumberge (Kreis Coesfeld, Nordrhein Westfalen)
   author: Christopher Poitz
   year: 2018
-  type: bachelor 
+  type: bachelor
+
+- title: Evaluation and Prototyping of Low-Cost Air Quality Solutions for Participatory Sensing in Citizen Science Applications
+  author: Kiana Kazemi
+  year: 2017
+  type: master
+
+- title: UAV-based 3D mapping of noise phenomenon for residential quality assessment by use of the senseBox
+  author: Jana Martins
+  year: 2017
+  type: master
 
 - title: Entwicklung und empirische analytische Untersuchung der Usability der visuellen Programmierumgebung senseBlocks
   author: Bernd van Rennigs
@@ -153,49 +170,49 @@
   type: master
 
 - title: Integration mobiler Sensoren in die Datenstruktur und Nutzeroberfläche der Webplattform openSenseMap
-  author: Norwin Roosen 
+  author: Norwin Roosen
   year: 2017
-  type: bachelor 
+  type: bachelor
 
 - title: "Low-Cost Sensor zur Berechnung der Wolkenbedeckung: Ein Citizen Science Projekt basierend auf Open Source Technologien"
-  author: Felix Erdmann 
+  author: Felix Erdmann
   year: 2016
   type: bachelor
 
 - title: "Enhancement of a Citizen Driven Sensor Network: Usability Engineering for Successful Open Citizen Science"
   author: Jan Wirwahn
-  year: 2016 
+  year: 2016
   type: master
 
 - title: Geostatistical capabilities in OpenSenseMap
-  author: Marc Dragunski 
+  author: Marc Dragunski
   year: 2016
-  type: bachelor 
+  type: bachelor
 
-- title:  OpenSenseMap – User Centered Design
+- title: OpenSenseMap – User Centered Design
   author: Christoph Kisfeld
   year: 2016
   type: bachelor
 
 - title: senseBox:Waterquality – Entwicklung eines Wasserqualitätsmessgerätes auf Basis des Arduino Mikrokontrollers.
   author: Björn Guntermann
-  year: 2015 
+  year: 2015
   type: bachelor
 
 - title: SenseBox:Airquality – Entwicklung einer Low-Cost Luqualitätsmessstation auf Basis der SenseBox
   author: Mario Pesch
   year: 2015
-  type: bachelor 
+  type: bachelor
 
 - title: Bereinigen und Klassifizieren von Daten gemessen mit der SenseBox
   author: Joana Gockel
   year: 2015
-  type: bachelor 
+  type: bachelor
 
 - title: OpenSenseMap – a citizen science platform for publishing and exploring sensor data as open data
   author: Matthias Pfeil
   year: 2015
-  type: bachelor 
+  type: bachelor
 
 - title: DIY- set prototype for learning about sensing, data and programming with school-aged children
   author: Sergey Mukhametov
@@ -205,15 +222,14 @@
 - title: "Weather SenseBox: An Arduino Based Approach to Integrate the Work on Sensor Platforms in High School Classes"
   author: Jan Wirwahn
   year: 2012
-  type: bachelor 
-
+  type: bachelor
 
 ## Mentions
 
 - title: Citizens in the Loop for Air Quality Monitoring in Thessaloniki, Greece.
-  author: Kassandros, T., Gavros, A., Bakousi, K., & Karatzas, K. 
+  author: Kassandros, T., Gavros, A., Bakousi, K., & Karatzas, K.
   year: 2021
-  journal: In Advances and New Trends in Environmental Informatics (pp. 121-130). Springer, Cham. 
+  journal: In Advances and New Trends in Environmental Informatics (pp. 121-130). Springer, Cham.
   type: Mentions
 
 - title: Digitalkompetenz für die Bildung der Zukunft.
@@ -223,7 +239,7 @@
   type: Mentions
 
 - title: "Knowledge Discovery on Blockchains: Challenges and Opportunities for Distributed Event Detection Under Constraints"
-  author: Sanders, C., & Liebig, T. 
+  author: Sanders, C., & Liebig, T.
   year: 2020
   journal: In Joint European Conference on Machine Learning and Knowledge Discovery in Databases (pp. 113-128). Springer, Cham.
   type: Mentions
@@ -235,17 +251,16 @@
   type: Mentions
 
 - title: "StreamPipes Connect: Semantics-Based Edge Adapters for the IIoT."
-  author: Zehnder, P., Wiener, P., Straub, T., & Riemer, D. 
+  author: Zehnder, P., Wiener, P., Straub, T., & Riemer, D.
   year: 2020
   journal: In European Semantic Web Conference (pp. 665-680). Springer, Cham.
   type: Mentions
 
 - title: "LoRaWAN und Open Data öffnen den Unterricht für die Umwelt."
-  author: Becker, S., & Riemann, T. 
+  author: Becker, S., & Riemann, T.
   year: 2020
   journal: "In Mobil mit Informatik: 9. Münsteraner Workshop zur Schulinformatik (p. 61). BoD–Books on Demand."
   type: Mentions
-
 
 - title: "Packaging geoscience research for transparency and reproducibility: approaches and examples."
   author: Nüst, D.
@@ -253,13 +268,13 @@
   journal: In Geophysical Research Abstracts (Vol. 21).
 
 - title: Entwicklung ökologischen Denkens im Informatikunterricht.
-  author: Petrenko, I. & Thomas, M., 
-  year: 2019 
+  author: Petrenko, I. & Thomas, M.,
+  year: 2019
   journal: "In Pasternak, A. (Hrsg.), Informatik für alle. Bonn: Gesellschaft für Informatik. (S. 149-158). DOI: 10.18420/infos2019-b11"
   type: Mentions
 
 - title: Shared data sources in the geographical domain—A classification schema and corresponding visualization techniques.
-  author: Mocnik, F. B., Ludwig, C., Grinberger, A. Y., Jacobs, C., Klonner, C., & Raifer, M. 
+  author: Mocnik, F. B., Ludwig, C., Grinberger, A. Y., Jacobs, C., Klonner, C., & Raifer, M.
   year: 2019
   journal: ISPRS international journal of geo-information, 8(5), 242.
   type: Mentions
@@ -271,67 +286,67 @@
   type: Mentions
 
 - title: Modeling, Monitoring, and Validating Green Roof and Green Facade Solutions with Semantic City Models Using Low Cost Sensors and Open Software Infrastructures.
-  author: Vo, T. T., Nichersu, A., & Wendel, J. 
+  author: Vo, T. T., Nichersu, A., & Wendel, J.
   year: 2019
   journal: Urban Science, 3(2), 39.
   type: Mentions
 
 - title: Towards establishing cross-platform interoperability for sensors in smart cities.
-  author: Chaturvedi, K., & Kolbe, T. H. 
+  author: Chaturvedi, K., & Kolbe, T. H.
   year: 2019
   journal: Sensors, 19(3), 562.
   type: Mentions
 
 - title: Arduino visual programming.
-  author: Chochiang, K., Chaowanawatee, K., Silanon, K., & Kliangsuwan, T. 
+  author: Chochiang, K., Chaowanawatee, K., Silanon, K., & Kliangsuwan, T.
   year: 2019
   journal: In 2019 23rd International Computer Science and Engineering Conference (ICSEC) (pp. 82-86). IEEE.
   type: Mentions
 
 - title: Joint Statement on new opportunities for air quality sensing-lower-cost sensors for public authorities and citizen science initiatives.
-  author: Schade, S., Herding, W., Fellermann, A., & Kotsev, A. 
+  author: Schade, S., Herding, W., Fellermann, A., & Kotsev, A.
   year: 2019
   journal: Research Ideas and Outcomes, 5, e34059.
   type: Mentions
 
 - title: Automated quality assessment of (citizen) weather stations.
-  author: Bruns, J., Riesterer, J., Wang, B., Riedel, T., & Beigl, M. 
+  author: Bruns, J., Riesterer, J., Wang, B., Riedel, T., & Beigl, M.
   year: 2018
   journal: arXiv preprint arXiv:1802.06018.
   type: Mentions
 
 - title: Providing open environmental data—The scalable and Web-friendly way.
-  author: Borges, M. C., Pallas, F., & Peise, M. 
+  author: Borges, M. C., Pallas, F., & Peise, M.
   year: 2018
   journal: In Advances and New Trends in Environmental Informatics (pp. 21-37). Springer, Cham.
   type: Mentions
 
 - title: In search of light enhancing touristic recommender services with local weather data.
-  author: Dionisio, M., Paulino, T., Suri, T., Autzen, N., & Schöning, J. 
+  author: Dionisio, M., Paulino, T., Suri, T., Autzen, N., & Schöning, J.
   year: 2017
   journal: In Proceedings of the 19th International Conference on Human-Computer Interaction with Mobile Devices and Services (pp. 1-8).
   type: Mentions
 
-- title: Technik zur Unterstützung von Citizen Science und Open Science. 
-  author: Weber, K., Kleine, N., Pallas, F., & Ulbricht, M. R. 
+- title: Technik zur Unterstützung von Citizen Science und Open Science.
+  author: Weber, K., Kleine, N., Pallas, F., & Ulbricht, M. R.
   year: 2017
   journal: TATuP-Zeitschrift für Technikfolgenabschätzung in Theorie und Praxis, 26(1-2), 25-30.
   type: Mentions
 
 - title: "CSMON-LIFE: data from the people, data for the people."
-  author: Martellos, S., Attore, F., Cesaroni, D., Di Marco, S., Petruzzella, D., Spinelli, O., ... & Mereu, A. 
+  author: Martellos, S., Attore, F., Cesaroni, D., Di Marco, S., Petruzzella, D., Spinelli, O., ... & Mereu, A.
   year: 2016
   journal: In First ECSA Conference 2016-Citizen Science-Innovation in Open Science, Society and Policy. DE.
   type: Mentions
 
 - title: "Scientists by chance: what tell us data from unaware citizen scientists?"
-  author: De Felici, S., Sorge, F., Sbordoni, V., & Cesaroni, D. 
+  author: De Felici, S., Sorge, F., Sbordoni, V., & Cesaroni, D.
   year: 2016
   journal: In First International ECSA Conference 2016-Citizen Science–Innovation in Open Science, Society and Policy. DE.
   type: Mentions
 
 - title: Quantified Self, Participatory Sensing und die Grenzen der Regulierung.
-  author: Weber, K., Pallas, F., & Ulbricht, M. R. 
+  author: Weber, K., Pallas, F., & Ulbricht, M. R.
   year: 2015
   journal: Jahrbuch für Recht und Ethik/Annual Review of Law and Ethics, 75-94.
   type: Mentions

@@ -21,8 +21,8 @@ material:
   - 2x JST-Adapterkabel
 ide: blockly
 lang: de
-version: ["edu", "CO2-Ampel Set Edu"]
-tags: ["Informatik", "Physik"]
+version: ["edu"]
+tags: ["Informatik", "Physik", "CO2-Ampel Set Edu"]
 difficult: leicht
 ---
 

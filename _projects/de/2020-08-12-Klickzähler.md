@@ -17,9 +17,9 @@ material:
   - evtl. Powerbank
 
 ide: blockly
-version: ["edu", "CO2-Ampel Set Edu"]
+version: ["edu", "mini"]
 lang: de
-tags: ["Informatik", "Mathematik"]
+tags: ["Informatik", "Mathematik", "CO2-Ampel Set Edu"]
 difficult: leicht
 ---
 

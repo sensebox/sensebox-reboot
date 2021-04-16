@@ -17,9 +17,9 @@ material:
   - OLED Display
   - JST-JST Kabel
 ide: blockly
-version: ["edu", "mini", "CO2-Ampel Set Edu"]
+version: ["edu", "mini"]
 lang: de
-tags: ["Informatik"]
+tags: ["Informatik", "CO2-Ampel Set Edu"]
 difficult: mittel
 ---
 

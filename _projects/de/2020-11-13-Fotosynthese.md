@@ -10,7 +10,6 @@ image1: /images/projects/Fotosynthese/1.png
 image2: /images/projects/Fotosynthese/2.png
 
 material:
-  - CO2-Ampel Set oder
   - senseBox MCU
   - OLED-Display
   - CO2-Sensor
@@ -19,10 +18,10 @@ material:
   - verschließbares Gefäß
 
 ide: blockly
-version: ["edu", "mini", "CO2-Ampel", "CO2-Ampel Set Edu"]
+version: ["edu", "mini", "CO2-Ampel"]
 addons: ["CO2-Sensor"]
 lang: de
-tags: ["Informatik", "Biologie"]
+tags: ["Informatik", "Biologie", "CO2-Ampel Set Edu"]
 difficult: leicht
 ---
 

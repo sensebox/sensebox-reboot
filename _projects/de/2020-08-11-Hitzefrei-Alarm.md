@@ -19,9 +19,9 @@ material:
   - 1x 470 Ohm Widerstand
   - LED rot
 ide: blockly
-version: ["edu", "CO2-Ampel Set Edu"]
+version: ["edu"]
 lang: de
-tags: ["Informatik"]
+tags: ["Informatik", "CO2-Ampel Set Edu"]
 difficult: leicht
 ---
 

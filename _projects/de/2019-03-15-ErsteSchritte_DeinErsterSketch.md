@@ -13,8 +13,8 @@ material:
   - senseBox MCU
 ide: blockly
 lang: de
-version: ["edu", "mini", "CO2-Ampel Set Edu"]
-tags: ["Erste Schritte", "Informatik"]
+version: ["edu", "mini"]
+tags: ["Erste Schritte", "Informatik", "CO2-Ampel Set Edu"]
 difficult: leicht
 ---
 

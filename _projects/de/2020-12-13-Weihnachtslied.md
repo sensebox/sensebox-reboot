@@ -19,9 +19,9 @@ material:
   - 1x Piezo
 
 ide: blockly
-version: ["edu", "mini", "CO2-Ampel Set Edu"]
+version: ["edu"]
 lang: de
-tags: ["Informatik", "Musik", "Weihnachten"]
+tags: ["Informatik", "Musik", "Weihnachten", "CO2-Ampel Set Edu"]
 difficult: leicht
 ---
 

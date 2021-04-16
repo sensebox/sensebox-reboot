@@ -18,9 +18,9 @@ material:
   - Draht
 
 ide: blockly
-version: ["edu", "CO2-Ampel Set Edu"]
+version: ["edu", "mini"]
 lang: de
-tags: ["Physik", "Geographie"]
+tags: ["Physik", "Geographie", "CO2-Ampel Set Edu"]
 difficult: leicht
 ---
 

@@ -12,9 +12,9 @@ material:
   - 1x JST-Adapterkabel
 ide: arduino
 lang: de
-tags: ["Informatik", "Physik"]
+tags: ["Informatik", "Physik", "CO2-Ampel Set Edu"]
 difficult: mittel
-version: ["edu", "CO2-Ampel Set Edu"]
+version: ["edu"]
 ---
 
 # Lauschangriff

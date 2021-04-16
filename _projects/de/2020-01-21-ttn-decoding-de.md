@@ -8,7 +8,7 @@ thumbnail: /images/projects/ttn-decoding/animation.gif
 lang: de
 tags: ["LoRaWAN", "TTN"]
 difficult: mittel
-version: ["CO2-Ampel Set Edu"]
+
 ---
 
 # TTN Decoding für Anfänger

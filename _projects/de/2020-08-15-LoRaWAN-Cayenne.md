@@ -23,9 +23,10 @@ material:
   - evtl. Powerbank
 
 ide: blockly
-version: ["edu", "CO2-Ampel Set Edu"]
+version: ["edu", "mini" ]
+addons: ["LoRa-Bee"]
 lang: de
-tags: ["Informatik", "IoT"]
+tags: ["Informatik", "IoT", "CO2-Ampel Set Edu"]
 difficult: mittel
 ---
 

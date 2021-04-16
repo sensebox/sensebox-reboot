@@ -12,7 +12,6 @@ image3: /images/projects/Gärprozesse/3.png
 
 
 material:
-    - CO2-Ampel Set oder
     - senseBox MCU
     - OLED-Display
     - CO2-Sensor

@@ -1,22 +1,113 @@
 <div class="container">
-    <h1><mark style="background-color: yellow;">Events</mark></h1>
-    <div class="row row-padding">
-        <div class="col-lg-7 mx-auto">
-            <ul class="timeline">
-                {% assign events = site.events | sort: 'ending-date' %}
-                {% for event in events %}
-                {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
-                {% capture eventendingdateunix %}{{event.ending-date | date: '%s'}}{% endcapture %}
-                {% if eventendingdateunix > nowunix %}
-                {% assign index = forloop.length | minus: forloop.index %}
-                {% include event_template.html event=event %}
-                {% assign i = i | plus: 1 %}
-                {% endif %}
-                {% if i == 8 %}
-                {% break %}
-                {% endif %}
-                {% endfor %}
-            </ul><!-- End -->
-        </div>
+  <h1><mark style="background-color: yellow">Aktuelle Events</mark></h1>
+  <div class="row row-padding">
+    <div class="col-lg-7 mx-auto">
+      <ul class="timeline">
+        {% assign events = site.events | sort: 'ending-date' %} {% for event in
+        events %} {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %} {%
+        capture eventendingdateunix %}{{event.ending-date | date: '%s'}}{%
+        endcapture %} {% if eventendingdateunix > nowunix %} {% assign index =
+        forloop.length | minus: forloop.index %} {% include event_template.html
+        event=event %} {% assign i = i | plus: 1 %} {% endif %} {% if i == 8 %}
+        {% break %} {% endif %} {% endfor %}
+      </ul>
+      <!-- End -->
     </div>
+  </div>
+</div>
+
+<div style="background-color: whitesmoke">
+  <div class="container">
+    {% assign t = site.data.i18n.[page.lang].events %}
+    <h1>Vergangene Events</h1>
+
+    <h3>{{t.intro}}</h3>
+
+    <div style="text-align: center" id="2021">
+      <h1>2021</h1>
+      <div class="row events-row">
+        {% assign events = site.events | sort: 'ending-date' | reverse %} {% for
+        event in events %} {% capture nowunix %}{{'now' | date: '%s'}}{%
+        endcapture %} {% capture eventendingdateunix %}{{event.ending-date |
+        date: '%s'}}{% endcapture %} {% capture year %}{{event.ending-date |
+        date: '%Y'}}{% endcapture %} {% if nowunix > eventendingdateunix and
+        year =='2021' %} {% include event_history.html event=event %} {% endif
+        %} {% endfor %}
+      </div>
+    </div>
+
+    <div style="text-align: center" id="2020">
+      <h1>2020</h1>
+      <div class="row events-row">
+        {% assign events = site.events | sort: 'ending-date' | reverse %} {% for
+        event in events %} {% capture nowunix %}{{'now' | date: '%s'}}{%
+        endcapture %} {% capture eventendingdateunix %}{{event.ending-date |
+        date: '%s'}}{% endcapture %} {% capture year %}{{event.ending-date |
+        date: '%Y'}}{% endcapture %} {% if nowunix > eventendingdateunix and
+        year =='2020' %} {% include event_history.html event=event %} {% endif
+        %} {% endfor %}
+      </div>
+    </div>
+
+    <hr />
+
+    <div style="text-align: center" id="2019">
+      <h1>2019</h1>
+      <div class="row events-row">
+        {% assign events = site.events | sort: 'ending-date' | reverse %} {% for
+        event in events %} {% capture nowunix %}{{'now' | date: '%s'}}{%
+        endcapture %} {% capture eventendingdateunix %}{{event.ending-date |
+        date: '%s'}}{% endcapture %} {% capture year %}{{event.ending-date |
+        date: '%Y'}}{% endcapture %} {% if nowunix > eventendingdateunix and
+        year =='2019' %} {% include event_history.html event=event %} {% endif
+        %} {% endfor %}
+      </div>
+    </div>
+
+    <hr />
+
+    <div style="text-align: center" id="2018">
+      <h1>2018</h1>
+      <div class="row events-row">
+        {% assign events = site.events | sort: 'ending-date' | reverse %} {% for
+        event in events %} {% capture nowunix %}{{'now' | date: '%s'}}{%
+        endcapture %} {% capture eventendingdateunix %}{{event.ending-date |
+        date: '%s'}}{% endcapture %} {% capture year %}{{event.ending-date |
+        date: '%Y'}}{% endcapture %} {% if nowunix > eventendingdateunix and
+        year =='2018' %} {% include event_history.html event=event %} {% endif
+        %} {% endfor %}
+      </div>
+    </div>
+    <hr />
+
+    <div style="text-align: center" id="2017">
+      <h1>2017</h1>
+      <h1 style="text-align: center">{{ t.past_events }}</h1>
+      <div class="row events-row">
+        {% assign events = site.events | sort: 'ending-date' | reverse %} {% for
+        event in events %} {% capture nowunix %}{{'now' | date: '%s'}}{%
+        endcapture %} {% capture eventendingdateunix %}{{event.ending-date |
+        date: '%s'}}{% endcapture %} {% capture year %}{{event.ending-date |
+        date: '%Y'}}{% endcapture %} {% if nowunix > eventendingdateunix and
+        year =='2017' %} {% include event_history.html event=event %} {% endif
+        %} {% endfor %}
+      </div>
+    </div>
+
+    <hr />
+
+    <div style="text-align: center" id="2016">
+      <h1>2016</h1>
+      <h1 style="text-align: center">{{ t.past_events }}</h1>
+      <div class="row events-row">
+        {% assign events = site.events | sort: 'ending-date' | reverse %} {% for
+        event in events %} {% capture nowunix %}{{'now' | date: '%s'}}{%
+        endcapture %} {% capture eventendingdateunix %}{{event.ending-date |
+        date: '%s'}}{% endcapture %} {% capture year %}{{event.ending-date |
+        date: '%Y'}}{% endcapture %} {% if nowunix > eventendingdateunix and
+        year =='2016' %} {% include event_history.html event=event %} {% endif
+        %} {% endfor %}
+      </div>
+    </div>
+  </div>
 </div>

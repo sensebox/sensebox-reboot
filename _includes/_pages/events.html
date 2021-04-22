@@ -1,5 +1,7 @@
+{% assign t = site.data.i18n.[page.lang].events %}
+
 <div class="container">
-  <h1><mark style="background-color: yellow">Aktuelle Events</mark></h1>
+  <h1><mark style="background-color: yellow">{{ t.head }}</mark></h1>
   <div class="row row-padding">
     <div class="col-lg-7 mx-auto">
       <ul class="timeline">
@@ -18,10 +20,7 @@
 
 <div style="background-color: whitesmoke">
   <div class="container">
-    {% assign t = site.data.i18n.[page.lang].events %}
-    <h1>Vergangene Events</h1>
-
-    <h3>{{t.intro}}</h3>
+    <h1>{{ t.past-head }}</h1>
 
     <div style="text-align: center" id="2021">
       <h1>2021</h1>
@@ -35,6 +34,7 @@
         %} {% endfor %}
       </div>
     </div>
+    <hr />
 
     <div style="text-align: center" id="2020">
       <h1>2020</h1>

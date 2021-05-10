@@ -6,8 +6,8 @@
   description: Die Hopp Foundation setzt sich dafür ein, Schüler*innen den wichtigen Bereich der IT, vom Umgang mit dem Internet bis hin zu Programmiersprachen, zu vermitteln.
   logo: /images/logos/network/hopp_logo.png
   link: https://www.hopp-foundation.de/
-- name: openRoberta
-  description: Das Frauenhofer Institut hat 2014 die Programmierplattform "Open Roberta Lab" initiiert. Gemeinsam haben wir es möglich gemacht, dass die senseBox auch mit der Open Roberta Programmiersprache [NEPO](https://lab.open-roberta.org/) programmiert werden kann.
+- name: Open Roberta
+  description: Das Fraunhofer IAIS hat 2014 die Programmierplattform "Open Roberta Lab" initiiert. Gemeinsam haben wir es möglich gemacht, dass die senseBox auch mit der Open Roberta Programmiersprache [NEPO](https://lab.open-roberta.org/) programmiert werden kann, mit der inzwischen Millionen Menschen aus mehr als 120 Ländern weltweit unter höchsten [Datenschutz-Maßnahmen](https://www.iais.fraunhofer.de/de/presse/presseinformationen/presseinformationen-2020/presseinformation-200121.html) ins Coden einsteigen.
   logo: /images/logos/network/Logo_Open_Roberta_RGB.png
   link: https://www.roberta-home.de/
 - name: Watterott

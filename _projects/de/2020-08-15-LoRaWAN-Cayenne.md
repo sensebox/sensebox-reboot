@@ -30,6 +30,8 @@ tags: ["Informatik", "IoT", "CO2-Ampel Set Edu"]
 difficult: mittel
 ---
 
+> <b>Dieses Tutorial ist veraltet, da TTN in der Zwischenzeit einige Änderungen vorgenommen hat! Ein aktualisiertes Tutorial von Mario und Felix findest du [hier](https://sensebox.de/projects/de/2021-02-19-ttnv3)!</b>
+
 # Datenübertragung mit dem Cayenne Payload {#head}
 
 Ziel dieses Projektes ist es, ein Umweltphänomen deiner Umgebung mithilfe der senseBox zu messen und die Daten per LoRa zu messen und im The Things Network abzurufen (sowie an die openSenseMap weiterzuleiten).

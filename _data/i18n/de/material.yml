@@ -1,67 +1,69 @@
 - name: Lernkarten
   position: t1
   organisation: senseBox - Team
-  description: Lernkarten für das selbstständige Arbeiten mit der senseBox und der Programmierung mit Blockly. Die Lernkarten können doppelseitig ausgedruckt werden.
+  description: Lernkarten für das selbstständige Arbeiten mit der senseBox und der Programmierung mit Blockly.
   bgImage: /images/material/cards.png
   download: https://sensebox.de/docs/senseBox_Lernkarten_v2.2_online.pdf
 
 - name: senseBox Lehrhandreichung
   position: t2
-  organisation: 
-  description: 
+  organisation:
+  description:
   bgImage: /images/projects/logo_bunt.png
   download: /docs/lehrkraefte_senseBox_de.pdf
 
 - name: CO2-Ampel Lehrhandreichung
   position: t3
-  organisation: 
-  description: 
+  organisation:
+  description:
   bgImage: /images/material/co2-ampel.png
   link: /docs/CO2-Ampel_Lehrhandreichung.pdf
 
-- name: Moderner Informatikunterricht mit LoRaWAN in der Schule
+- name: CO2-Ampel Edu Set Projektkarten
   position: t4
-  organisation: 
-  description: 
+  organisation:
+  description:
+  bgImage: /images/material/co2-ampel-edu.png
+  link: /docs/CO2-Ampel_edu_projektkarten.pdf
+
+- name: Moderner Informatikunterricht mit LoRaWAN in der Schule
+  position: t5
+  organisation:
+  description:
   bgImage: /images/material/Material-TTN.png
   link: /docs/informatikunterricht_lorawan.pdf
 
-- name: 'Unterrichtsreihe: Sense Your School'
-  position: t5
+- name: "Unterrichtsreihe: Sense Your School"
+  position: t6
   organisation: TüftelAkademie
-  description: 
+  description:
   bgImage: /images/material/sense-your-school.png
   link: https://tueftelakademie.de/fuer-lehrende/unterrichtsmaterialien/digital-literacy-lab/sense-your-school/
 
-- name: 'Unterrichtsreihe: Umweltverschmutzung und Daten'
-  position: t6
+- name: "Unterrichtsreihe: Umweltverschmutzung und Daten"
+  position: t7
   organisation: TüftelAkademie
-  description: 
+  description:
   bgImage: /images/material/umweltverschmutzung-und-daten.png
   link: https://tueftelakademie.de/fuer-lehrende/unterrichtsmaterialien/digital-literacy-lab/umwelt-und-daten/
 
 - name: :ETH Zürich
-  position: t7
+  position: t8
   organisation: ETH - Zürich
   description: Die ETH Zürich verwendet die senseBox in der Lehre in zwei verschiedenen Studiengängen und stellt uns und euch die Materialien aus der Lehre zu verfügung (Zurzeit nur auf Englisch)
   bgImage: /images/material/eth.jpg
   download: https://sensebox.de/docs/ETH_GeosensorsLab_tutorial.pdf
 
-
 - name: Mikrocontroller im MINT-Unterricht
-  position: t8
-  organisation: 
-  description: 
+  position: t9
+  organisation:
+  description:
   bgImage: /images/material/hopp_foundation.png
   link: https://unterrichtsmaterialien.hopp-foundation.de/konzepte/mikrocontroller-im-mint-unterricht
 
 - name: "OpenSenseMap: Silvester in Berlin"
-  position: t9
+  position: t10
   organisation: ESRI
   description: "Alles andere als Schall und Rauch ist die neue Unterrichtseinheit für die Klassenstufe 9 bis 12: Thema ist die Feinstaub-Belastung während der Silvester-Party in Berlin. ESRI hat eine 5-teilige Unterrichtssequenz mit Arbeitsblättern vorbereitet – und eine StoryMap als Überblick."
   bgImage: https://gis-iq.esri.de/wp-content/uploads/2020/12/Screenshot-2020-12-16-160724.png
   link: https://www.arcgis.com/sharing/rest/content/items/3aa108c52f2e4a92a1c88a5ae8f206dc/data
-
-
-
-

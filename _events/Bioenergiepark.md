@@ -1,7 +1,7 @@
 ---
 place: "Saerbeck"
 title: "senseBox-Workshop – Sensorstation für Umweltmesswerte"
-link: "https://www.klimakommune-saerbeck.de/city_info/webaccessibility/index.cfm?item_id=872300&waid=317"
+link: "https://klimakommune-saerbeck.de/city_info/display/dokument/show.cfm?region_id=408&id=404157"
 starting-date: 2018-09-09 
 ending-date: 2018-09-09
 ---

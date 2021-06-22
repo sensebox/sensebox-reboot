@@ -5,9 +5,9 @@ date: 2020-02-12
 author: Björn
 abstract: "Let the LED on the senseBox MCU flash with your first sketch"
 thumbnail: /images/projects/ErsterSketch_Titel.png
-image1: /images/projects/FirstSketch_Image00.PNG
-image2: /images/projects/FirstSketch_Image01.PNG
-image3: /images/projects/FirstSketch_Image02.PNG
+image1: /images/projects/FirstSketch/FirstSketch_Image00.PNG
+image2: /images/projects/FirstSketch/FirstSketch_Image01.PNG
+image3: /images/projects/FirstSketch/FirstSketch_Image02.PNG
 
 material:
     - senseBox MCU

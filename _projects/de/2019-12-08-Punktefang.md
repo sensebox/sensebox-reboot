@@ -1,9 +1,9 @@
 ---
-layout: project_page  
-date: 2019-12-08  
+layout: project_page
+date: 2019-12-08
 author: Mario
 title: "Geh auf Punktefang"
-abstract: "Erstelle dein eigenes kleines Spiel mit der senseBox" 
+abstract: "Erstelle dein eigenes kleines Spiel mit der senseBox"
 thumbnail: /images/projects/Titelbild_Punktefang.jpg
 image0: /images/projects/Punktefang/Punktefang_Image00.png
 image1: /images/projects/Punktefang/Punktefang_Image01.png
@@ -17,32 +17,36 @@ image8: /images/projects/Punktefang/Punktefang_Image08.png
 image9: /images/projects/Punktefang/Punktefang_Image09.png
 image10: /images/projects/Punktefang/Punktefang_Image10.png
 image11: /images/projects/Punktefang/Punktefang_Image11.png
-material: 
-    - senseBox MCU 
-    - OLED Display
-    - JST-JST Kabel
+material:
+  - senseBox MCU
+  - OLED Display
+  - JST-JST Kabel
 ide: blockly
-version: ["edu", "mini"]    
-lang: de 
-tags: ["Informatik"] 
-difficult: schwer 
-
+version: ["edu", "mini"]
+lang: de
+tags: ["Informatik", "CO2-Ampel Set Edu"]
+difficult: schwer
 ---
 
-*Dieses Projekt ist eines der vielen spannenden Projekte, die auch im [senseBox Buch](https://www.dpunkt.de/buecher/13482/9783864906848-das-sensebox-buch.html) (erschienen im dPunkt Verlag 2019) veröffentlicht wurden.*
+_Dieses Projekt ist eines der vielen spannenden Projekte, die auch im [senseBox Buch](https://www.dpunkt.de/buecher/13482/9783864906848-das-sensebox-buch.html) (erschienen im dPunkt Verlag 2019) veröffentlicht wurden._
 
 # Gehe auf Punktefang
+
 Du kennst bestimmt noch die ersten Computerspiele aus den 80er-Jahren wie zum Beispiel Pong oder Tetris. Auf alten zweifarbigen Fernsehern wurden in 2-D spannende und einfache Spiele erstellt. Einfache grafische Elemente wurden kombiniert mit tollen Spielkonzepten, und es entstanden
 Spiele mit Suchtpotenzial.
 
 ## Aufbau
+
 Der Aufbau für das Projekt ist relativ einfach, da keine Schaltung auf dem Breadboard erstellt werden muss. Der Beschleunigungssensor ist bereits auf der senseBox MCU aufgelötet und kann direkt genutzt werden. Das Display verbindest du mit dem JST-JST-Kabel mit einem der fünf I2C Ports.
 
 {% include image.html image=page.image0 %}
 
 ## Programmierung
+
 Die Programmierung des kleinen Spiels erfolgt schrittweise, da verschiedene Bereiche nacheinander abgedeckt werden müssen. Neben den grafischen Komponenten müssen die Spielsteuerung und das Gewinnprinzip programmiert werden. Diese drei Bereiche werden in den folgenden Schritten erklärt und zusammengefügt.
+
 ### Spielsteuerung - der Fänger
+
 Vom Smartphone kennt man die Spielsteuerung über den Bewegungssensor des Handys. Für dieses Spiel soll eine ähnliche Steuerung gebaut werden. Im ersten Schritt ist es wichtig zu verstehen, welche Messwerte der Beschleunigungssensor erfasst und welche drei Bewegungsrichtungen erfasst werden können. Der Beschleunigungssensor kann über den folgenden Block ausgelesen werden:
 
 {% include image.html image=page.image1 %}
@@ -83,13 +87,15 @@ Die Spielsteuerung ist fertig, jetzt fehlt noch der gejagte Punkt! Dieser Punkt 
 {% include image.html image=page.image6 %}
 {% include image.html image=page.image7 %}
 
-### Das Fangen 
+### Das Fangen
+
 Im aktuellen Programm sollten nun immer zwei Punkte zu sehen sein: Der eine Punkt bewegt sich über die Steuerung der MCU, und der zweite ist bewegungslos. Der nächste Schritt des Programms ist das Fangen. Das Fangen des Punkts lässt sich über eine Wenn-Dann-Bedingung realisieren.Wenn die x- und y-Koordinaten des Punkts, der über die MCU gesteuert wird, gleich den zufällig erstellen Koordinaten sind, wurde der Punkt gefangen.
 {% include image.html image=page.image8 %}
 
 Die Wenn-Dann-Bedingung setzt sich aus zwei Bedingungen zusammen, die mit dem logischen UND verknüpft werden. Wenn die Bedingungen erfüllt sind, dann wird das Display gelöscht, und auf dem Display wird angezeigt, dass der Punkt gefangen wurde. Damit das Spiel auch wirklich endet, füge noch den Block `Warte für immer` aus der Kategorie `Zeit` in die Wenn-Dann-Bedingung ein.
 
 ### Das Spiel erweitern
+
 Bisher ist das Spiel noch nicht wirklich ausgefeilt. Der zufällige Punkt wird nur einmal erstellt, und das Spiel ist bereits vorbei, wenn der Punkt gefangen wurde. In diesem Schritt wird das Spiel erweitert, sodass es ein Endlosspiel wird. Folgende Schritte müssen dafür durchgeführt werden. Zum einen muss fortlaufend ein neuer Punkt generiert werden, wenn der vorherige Punkt gefangen worden ist.
 Damit immer wieder ein neuer Punkt generiert wird, muss das Erstellen
 in der Endlosschleife passieren. Anstelle der Anzeige auf dem Display,
@@ -97,7 +103,9 @@ dass der Punkt gefangen wurde, werden in der Wenn-Dann-Bedingung
 neue Koordinaten erstellt. So wird sichergestellt, dass immer, wenn du
 einen Punkt gefangen hast, direkt ein neuer erstellt wird.
 {% include image.html image=page.image9 %}
+
 ### Spielzeit und Zähler
+
 Ein Spiel ist natürlich erst dann vollständig, wenn es eine Spielzeit und einen Spielstandzähler gibt. Die Spielzeit kann über den Block `Messintervall` erfasst werden, für den Zähler des Spielstands wird eine neue Variable angelegt, die immer um eins hochgezählt wird, wenn die Bedingungen zum Fangen eines Punkts erfüllt wird.
 {% include image.html image=page.image10 %}
 Den Block zum Anlegen und Hochzählen der Variablen findest du in der Kategorie `Mathematik`. Die Variable wird automatisch angelegt, und du kannst ihr wieder einen Namen geben.
@@ -111,6 +119,5 @@ einen kleinen Wettstreit mit Freunden und der Familie starten, wer die
 meisten Punkte fängt.
 
 ## Lösung
+
 Du kannst dir die Lösung dieses Projektes direkt in Blockly [öffnen](https://blockly.sensebox.de/ardublockly/index.html?board=sensebox-mcu&gallery=buch/Kapitel_14)
-
-

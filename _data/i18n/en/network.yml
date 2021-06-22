@@ -4,14 +4,14 @@
 - name: Hopp Foundation
   description: Die Hopp Foundation setzt sich dafür ein Schülern den wichtigen Bereich der IT, vom Umgang mit dem Internet bis hin zu Programmiersprachen, zu vermitteln.
   logo: /images/logos/network/hopp_logo.png
-- name: openRoberta
-  description: Das Frauenhofer Institut hat 2014 die Programmierplattform "Open Roberta Lab" initiiert. Gemeinsam haben wir es möglich gemacht, dass die senseBox auch mit der Open Roberta Programmiersprache [NEPO](https://lab.open-roberta.org/) programmiert werden. 
-  logo: /images/logos/network/Roberta_Logo_wp-600x338.png
+- name: Open Roberta
+  description: Das Fraunhofer IAIS hat 2014 die Programmierplattform "Open Roberta Lab" initiiert. Gemeinsam haben wir es möglich gemacht, dass die senseBox auch mit der Open Roberta Programmiersprache [NEPO](https://lab.open-roberta.org/) programmiert werden kann, mit der inzwischen Millionen Menschen aus mehr als 120 Ländern weltweit unter höchsten [Datenschutz-Maßnahmen](https://www.iais.fraunhofer.de/de/presse/presseinformationen/presseinformationen-2020/presseinformation-200121.html) ins Coden einsteigen.<br>[https://www.open-roberta.org/](https://www.open-roberta.org/)
+  logo: /images/logos/network/Logo_Open_Roberta_RGB.png
 - name: Watterott
   description: Bereits seit vielen Jahren arbeiten wir gemeinsam mit Watterott zusammen. Er unterstüzt uns in allen Fragen und Prozessen rund um die Herstellung, Verpackung und Versand der Hardware.
   logo: /images/logos/network/watterott.png
 - name: Institut für Geoinformatik
-  description: Das Ifgi ist der Geburtsort der senseBox und ist maßgeblich an der Entwicklung der senseBox beteiligt. Aktuell ist das Institut im Kooperationsprojekt senseBox:pro gemeinsam mit der Reedu GmbH & Co. KG an der Weiterentwicklung des Systems beteiligt.  
+  description: Das Ifgi ist der Geburtsort der senseBox und ist maßgeblich an der Entwicklung der senseBox beteiligt. Aktuell ist das Institut im Kooperationsprojekt senseBox:pro gemeinsam mit der Reedu GmbH & Co. KG an der Weiterentwicklung des Systems beteiligt.
   logo: /images/logos/network/logo-ifgi-text-de.png
 - name: Forschungs- und Schülerlabor GI@School
   description: GI@School - Geoinformation in der Schule - stellt das am ifgi generierte Wissen und stellt es der Öffentlichkeit insbesondere im Bildungsbereich zur Verfügung. Die Idee zur senseBox und zur openSenseMap entstand hier.
@@ -29,8 +29,8 @@
   description: Das Unternehmen aus Konstanz hat sich auf technische Bildung spezialisiert. Auch die senseBox zählt zum [Sortiment](https://www.christiani.de/schule/schulstufen/sekundarstufe/messen-mit-sensoren/sensebox-edu.html) des Unternehmens welches zudem auch Fortbildungen und Workshops damit anbietet.
   logo: /images/logos/network/logo_christiani.png
 - name: EducaTec AG
-  description: Im Jahr 2004 wurde EducaTec AG  mit dem Ziel gegründet Technik und ingenieurwissenschaftliches Denken in öffentlichen und privaten Schulen der Schweiz zu fördern. Das Unternehmen ist unser [Partner](https://educatec.ch/tectools/sensebox/) in der Schweiz und kümmert um Kunden vor Ort. 
+  description: Im Jahr 2004 wurde EducaTec AG  mit dem Ziel gegründet Technik und ingenieurwissenschaftliches Denken in öffentlichen und privaten Schulen der Schweiz zu fördern. Das Unternehmen ist unser [Partner](https://educatec.ch/tectools/sensebox/) in der Schweiz und kümmert um Kunden vor Ort.
   logo: /images/logos/network/educatec.png
 - name: TRUEBNER GmbH
-  description: Trübner ist unser Partner wenn es um den Bereich Bewässerungstechnik geht. So wurde zum Beispiel der Sensor für Boderfeuchte [SMT50](https://sensebox.kaufen/product/bodenfeuchte-temperatursensor-smt50) gemeinsam ausgewählt und für die senseBox angepasst. 
+  description: Trübner ist unser Partner wenn es um den Bereich Bewässerungstechnik geht. So wurde zum Beispiel der Sensor für Boderfeuchte [SMT50](https://sensebox.kaufen/product/bodenfeuchte-temperatursensor-smt50) gemeinsam ausgewählt und für die senseBox angepasst.
   logo: /images/logos/network/truebner.png

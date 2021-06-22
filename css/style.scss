@@ -1,25 +1,25 @@
 ---
-
 ---
+
 @charset "UTF-8";
 /* modify Bootstrap variables here */
-
-@import 'bootstrap/bootstrap';
-@import '../_sass/variables';
-@import '../_sass/blog';
-@import '../_sass/fonts';
-@import '../_sass/products';
-@import '../_sass/projects';
-@import '../_sass/events';
-@import '../_sass/carousel';
-@import '../_sass/about-us';
-@import '../_sass/navbar';
-@import '../_sass/go';
-@import '../_sass/images';
-@import '../_sass/index';
-@import '../_sass/contact';
-@import '../_sass/elements';
-@import '../_sass/opensensemap';
-@import '../_sass/research';
+@import "bootstrap/bootstrap";
+@import "../_sass/variables";
+@import "../_sass/blog";
+@import "../_sass/fonts";
+@import "../_sass/products";
+@import "../_sass/projects";
+@import "../_sass/events";
+@import "../_sass/carousel";
+@import "../_sass/about-us";
+@import "../_sass/navbar";
+@import "../_sass/go";
+@import "../_sass/images";
+@import "../_sass/index";
+@import "../_sass/publications.scss";
+@import "../_sass/contact";
+@import "../_sass/elements";
+@import "../_sass/opensensemap";
+@import "../_sass/research";
 
 /* add additional CSS rules below */

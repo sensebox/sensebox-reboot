@@ -3,7 +3,6 @@ baseurl: "" # the subpath of your site, e.g. /blog
 
 title: senseBox.de
 tagline: senseBox | Dein Toolkit für digitale Bildung, Citizen Science und Umwelt­monitoring
-url: sensebox.de
 twitter:
   username: sensebox_de
   card: summary

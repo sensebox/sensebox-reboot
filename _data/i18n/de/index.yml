@@ -8,13 +8,13 @@ announcement-button: Zum Shop
 
 # senseBox Family
 sensebox-head: Was ist die senseBox?
-sensebox-short-description:  Die drei verschiedenen modularen senseBox-Bausätze sind ideal für den Einsatz in der Digitalen Bildung, Citizen Science und für professionelle Umwelt-Datenerhebung. Ein einfach zu programmierender Mikrocontroller bildet die Basis und viele verschiedene Sensoren können direkt angeschlossen werden, um eine individuelle Umweltmessstation zu erstellen. Vielseitige Module ermöglichen die Datenübertragung an eine Internetplattform von nahezu jedem Standort aus.
-sensebox-overview: Die senseBox:familie im Überblick 
+sensebox-short-description: Die drei verschiedenen modularen senseBox-Bausätze sind ideal für den Einsatz in der Digitalen Bildung, Citizen Science und für professionelle Umwelt-Datenerhebung. Ein einfach zu programmierender Mikrocontroller bildet die Basis und viele verschiedene Sensoren können direkt angeschlossen werden, um eine individuelle Umweltmessstation zu erstellen. Vielseitige Module ermöglichen die Datenübertragung an eine Internetplattform von nahezu jedem Standort aus.
+sensebox-overview: Die senseBox:familie im Überblick
 sensebox-overview-button: Mehr Informationen &raquo;
 sensebox-overview-home: Die senseBox:home ist ein Bausatz für eine Do-It-Yourself-Umweltmessstation, welche ihre Messwerte online auf der openSenseMap teilen kann. Alle Sensoren und Bauteile können selbstständig und modular ausgewählt werden, wodurch eine individuelle Umweltmessstation kreiert werden kann. Den passenden Programmcode gibt es von uns dazu, es muss also nicht programmiert werden.
-sensebox-overview-edu: Speziell für den Einsatz im Bildungsbereich wurde die senseBox:edu entwickelt. In einer praktischen grünen Kunststoffkiste sind alle Sensoren, Datenübertragungsmodule und weitere elektronische Bauteile gut sortiert. Spannende Projekte und viele weitere kostenlose Lernmaterialien ermöglichen einen einfachen und unkomplizierten Einstieg. 
+sensebox-overview-edu: Speziell für den Einsatz im Bildungsbereich wurde die senseBox:edu entwickelt. In einer praktischen grünen Kunststoffkiste sind alle Sensoren, Datenübertragungsmodule und weitere elektronische Bauteile gut sortiert. Spannende Projekte und viele weitere kostenlose Lernmaterialien ermöglichen einen einfachen und unkomplizierten Einstieg.
 sensebox-overview-mini: Mit der senseBox:mini gibt es ein preiswertes Set für den Einstieg in die Welt der senseBox. Sie bietet alles Nötige für erste eigene IoT-Projekte und der enthaltene Umweltsensor ermöglicht die Erfassung verschiedenster Umweltphänomene.
-
+sensebox-overview-co2-head: senseBox CO<sub>2</sub>-Ampel
 sensebox-overview-co2: Miss die CO<sub>2</sub>-Konzentration bei dir zuhause oder in deiner Schule und zeige diese live auf dem Display und mit Hilfe einer RGB-LED an. Die senseBox CO<sub>2</sub>-Ampel ist als <a class="green-link" href="https://sensebox.kaufen/product/co2-ampel-bausatz" target="blank">Bausatz</a> konzipiert und enthält alle wichtigen Bauteile, um eine CO<sub>2</sub>-Ampel zur Überwachung der Luftqualität im Raum zu bauen.
 # Blockly/openSenseMap Cards
 card-button: mehr Infos
@@ -22,7 +22,6 @@ blockly-head: Blockly für senseBox
 blockly-short-text: Blockly für senseBox ist unsere frei verfügbare grafische Programmierumgebung für die senseBox. Mit Blockly erstellen auch absolute Programmier-Neulinge per Drag & Drop im Handumdrehen erste Programme. Mit Hilfe der Programmierblöcke lassen sich Programme nach dem Baukastenprinzip zusammenstellen und so auch komplexe Projekte umsetzen. Die Programmierumgebung kann jederzeit online ohne Installation genutzt werden und minimiert somit sowohl technische als auch fachliche Hürden.
 opensensemap-head: openSenseMap
 opensensemap-short-text: Die openSenseMap ist unsere Datenplattform für offene Daten jeglicher Art. Jede senseBox:home, aber auch viele andere IoT-Messgeräte, übertragen ihre Daten auf die Karte, wo sie betrachtet, analysiert und heruntergeladen werden können. Die Plattform ist komplett kostenlos und alle gesammelten Daten werden unter der Public Domain Dedication and License 1.0 veröffentlicht.
-
 
 # News
 news-head: Was gibt's Neues?
@@ -41,5 +40,3 @@ partner-see-all: "Alle ansehen"
 # grant
 grant-head: Förderung
 grant-text: Das senseBox ist an der <a href="https://www.uni-muenster.de/de/" target="_blank">Universität Münster</a> im Rahmen eines Forschungsprojekts am <a href="https://www.uni-muenster.de/Geoinformatics/" target="_blank">Institut für Geoinformatik</a> entstanden. Dank verschiedener Förderungen von unterschiedlichen Trägern konnte die Idee immer weiter reifen. Über drei Jahre, bis Ende 2019, war insbesondere die Förderung “BMBF Open Photonics” für die Weiterentwicklung der senseBox maßgeblich unterstützend. Schon in diesem Zeitraum zeichnete sich die Chance einer erfolgreichen Ausgründung der Produktsparte ab, welche mit der Gründung der <a href="https://reedu.de/" target="_blank">Reedu GmbH & Co. KG</a> erfolgte. Diese Ausgründung wurde zusätzlich mit einem EXIST-Gründerstipendium des Bundesministeriums für Wirtschaft und Energie forciert. Um weiter innovative Ideen rund um die senseBox zu erforschen, konnte sich der Verbund aus Spin-off Unternehmen und Universität erfolgreich um ein weiteres Projekt aus dem Bereich “Photonik Forschung Deutschland” bewerben. Seit November 2019 ist das Forschungsprojekt “senseBox:pro” eines von mehreren Projekten in der Fördermaßnahme "Open Photonik Pro". Mit der Maßnahme verfolgt das Bundesministerium für Bildung und Forschung (BMBF) das Ziel, neue Formen der Zusammenarbeit von Wissenschaft und Wirtschaft mit der Maker- und Gründerszene zu ermöglichen.
-
-

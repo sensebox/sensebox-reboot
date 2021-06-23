@@ -53,7 +53,7 @@ Hierzu benötigst du neben deiner senseBox MCU, das WiFi-Bee und einen OLED-Disp
 {% include image.html image=page.image0 %}
 
 ### Blockly Programm IP
-Nun erstellst du in [Blockly](https://blockly.sensebox.de/ardublockly/?lang=de#) den folgenden Sketch:
+Nun erstellst du in [Blockly](https://blockly.sensebox.de/ardublockly/?board=sensebox-mcu&lang=de) den folgenden Sketch:
 
 {% include image.html image=page.image1 %}
 

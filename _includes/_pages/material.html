@@ -10,16 +10,17 @@
 
 <div style="background-color: whitesmoke;">
     <div class="container">
-        <div class="row row-padding" >
+        <div class="row row-padding">
             {% for teaching in teaching %}
             {% capture firstLastInRow %}{% cycle 'first', 'last' %}{% endcapture %}
-            <div class="col-md-4">
-    
+            <div class="col-md-6 ">
+
                 <div class="card polygon-1" style="cursor: pointer; border: none">
                     <canvas class="header-bg" width="250" id="header-blur"
                         style="background-image: url({{ teaching.bgImage }});"></canvas>
                     <div class="content">
                         <h4 style="clear:both">{{ teaching.name }}</h4>
+                        <p>{{ teaching.description }}</p>
                         <div id="desc_{{ teaching.position }}">
                             {% if teaching.download %}
                             <a class="stretched-link" href="{{ teaching.download }}"></a>
@@ -31,7 +32,7 @@
                     </div>
                 </div>
             </div>
-    
+
             <!-- if this is the last element and the count is even, add blank col -->
             {% if teaching.position == teaching and oddOrteachingCount == 'odd' %}
             <div class="col-md-6"></div>

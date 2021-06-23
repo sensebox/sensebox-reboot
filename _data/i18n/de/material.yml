@@ -51,7 +51,7 @@
 - name: Mikrocontroller im MINT-Unterricht
   position: t8
   organisation: 
-  description: 
+  description: "Die Materielen der Hopp-Foundation zeigen Anwendungsbereiche von Mikrocontrollern im MINT Unterricht. Das Skript beinhaltet jeweils eine Unterrichtseinheit zu den Fächern Mathematik, Informatik, NaWi und Geografie."
   bgImage: /images/material/hopp_foundation.png
   link: https://unterrichtsmaterialien.hopp-foundation.de/konzepte/mikrocontroller-im-mint-unterricht
 

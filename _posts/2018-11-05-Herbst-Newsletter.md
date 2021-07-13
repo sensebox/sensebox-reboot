@@ -33,7 +33,7 @@ Hier kannst du das LoRa-Bee bestellen [Shop](https://sensebox.kaufen/product/lor
 
 Materialien und Experimente
 ============
-In unseren Books findet Ihr neue Anleitungen für die senseBox:MCU sowie die gesamte Dokumentation rund um die senseBox und die openSenseMap. Mittlerweile sind sie auch auf Englisch verfügbar. Damit wir die bestehenden Texte weiterentwickeln können, benötigen wir Euer Feedback! Außerdem würden wir uns freuen, wenn Ihr uns neue Experimente oder Projekte zur Erweiterung unserer Books schicken würdet. Alle bisherigen Projektdokumentationen sind als Open Educational Resources (OER) kostenlos unter [Books](https://sensebox.de/de/books).
+In unseren Books findet Ihr neue Anleitungen für die senseBox:MCU sowie die gesamte Dokumentation rund um die senseBox und die openSenseMap. Mittlerweile sind sie auch auf Englisch verfügbar. Damit wir die bestehenden Texte weiterentwickeln können, benötigen wir Euer Feedback! Außerdem würden wir uns freuen, wenn Ihr uns neue Experimente oder Projekte zur Erweiterung unserer Books schicken würdet. Alle bisherigen Projektdokumentationen sind als Open Educational Resources (OER) kostenlos unter [Books](https://docs.sensebox.de/).
 
 Nächste Termine und Workshops!
 ============

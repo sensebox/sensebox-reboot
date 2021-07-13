@@ -43,7 +43,7 @@ Connect the sensors of your choice to the I2C connectors of the senseBox MCU usi
 
 ### Step 1: Registration on the openSenseMap
 
-To enable you to retrieve the values of your measuring station from anywhere, the values can be uploaded to the [openSenseMap](www.opensensemap.org) on the Internet. For this purpose, a user account must be created on this platform. Call up the [openSenseMap](www.opensensemap.org) in an Internet browser. Click on the menu item "Registration" in the upper bar. Fill in all free fields. Make sure to enter your e-mail address correctly, as you will need it for the next steps. 
+To enable you to retrieve the values of your measuring station from anywhere, the values can be uploaded to the [openSenseMap](https://www.opensensemap.org/) on the Internet. For this purpose, a user account must be created on this platform. Call up the [openSenseMap](https://www.opensensemap.org/) in an Internet browser. Click on the menu item "Registration" in the upper bar. Fill in all free fields. Make sure to enter your e-mail address correctly, as you will need it for the next steps. 
 
 
 ### Step 2: Creating a new 'senseBox'
@@ -54,7 +54,7 @@ Once the registration is complete, log in and select "New senseBox" from the dro
 
 <div class="panel panel-success">
   <div class="panel-heading">
-  Sensor IDs: The sensor IDs can be used to distinguish sensors. Each senseBox and each sensor registered on the <a href='www.opensensemap.org'>openSenseMap</a> has a unique ID. These IDs are needed when uploading the readings so that the openSenseMap knows which sensors the readings belong to.
+  Sensor IDs: The sensor IDs can be used to distinguish sensors. Each senseBox and each sensor registered on the [openSenseMap](https://www.opensensemap.org/) has a unique ID. These IDs are needed when uploading the readings so that the openSenseMap knows which sensors the readings belong to.
   </div>
 </div>
 
@@ -63,7 +63,7 @@ Once the registration is complete, log in and select "New senseBox" from the dro
 ## Programming
 ### Step 1: Start of programming
 
-Great, the registration on the [openSenseMap](www.opensensemap.org) is finished! Now you can devote yourself to programming. Go to the [Ardublockly](https://blockly.sensebox.de/ardublockly/?lang=de&board=sensebox-mcu) page for this. You should know how to use Ardublockly from previous instructions. If not, visit the [senseBox Go](www.sensebox.de/go) page.
+Great, the registration on the [openSenseMap](https://www.opensensemap.org/) is finished! Now you can devote yourself to programming. Go to the [Ardublockly](https://blockly.sensebox.de/ardublockly/?lang=de&board=sensebox-mcu) page for this. You should know how to use Ardublockly from previous instructions. If not, visit the [senseBox Go](https://sensebox.de/en/go-edu.html) page.
 The first step is to connect to the Internet via WiFi. For this you need the name and password for the WLAN you want to use for uploading data. The blocks used for this can be found in the category 'Web'-> 'WiFi'.
 
 
@@ -80,11 +80,11 @@ Important! Also make sure that you insert the sensor IDs in the block 'Send meas
 
 ### Step 3: Transfer Code
 
-Transfer the code to the senseBox as described on [senseBox Go](www.sensebox.de/go).
+Transfer the code to the senseBox as described on [senseBox Go](https://sensebox.de/en/go-edu.html).
 
 ### Step 4: Ready!
 
-Congratulations! You've programmed your own measuring station. What else you can use the senseBox for, you can find out in other exciting [projects](www.sensebox.de/de/projects).
+Congratulations! You've programmed your own measuring station. What else you can use the senseBox for, you can find out in other exciting [projects](https://sensebox.de/en/projects.html).
 
 
 ## Download 

@@ -6,4 +6,4 @@ author: Felix
 categories: press
 ---
 "Um equipamento desenvolvido numa universidade alemã deve facilitar a vida dos meteorologistas e contribuir para a conscientização sobre as mudanças climáticas."
-<a href="http://www.agrosoft.org.br/br/site-atualiza-dados-do-tempo-a-cada-minuto/meio-ambiente">Agrosoft Brasil</a>
+<a href="http://blogagrosoft.blogspot.com/2016_10_08_archive.html">Agrosoft Brasil</a>

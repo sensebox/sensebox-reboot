@@ -13,20 +13,20 @@ lang: de
 ---
 Eine DIY Unterwassermessstation
 ============
-Im Rahmen des openSea Projekts (<a href="https://www.opensea.ms/">openSea</a>) erforschte die senseBox mit neuen Sensoren ein komplett neues Umfeld. 
+Im Rahmen des openSea-Projektes erforschte die senseBox mit neuen Sensoren ein komplett neues Umfeld. 
 Zusammen mit dem Nationalpark Wattenmeer wurde eine Station konzipiert, die im Wattenmeer in Büsum und Husum zum Einsatz kam. Ziel war es über einen Zeitraum von 48h im Wattenmeer die Parameter Temperatur, Trübung und die Fließgeschwindigkeit zu messen. Hierfür mussten im ersten Schritt günstige Sensoren gefunden werden. Konkret fiel die Wahl auf folgende Sensorik:
 
 Temperatur
 ============
-Der <a href="http://www.watterott.com/de/Temperatur-Sensor-Wasserdicht-DS18B20/">DS18B20</a> ist ein wasserdichter Temperatursensor, der es ermöglicht, einfach und kostengünstig die Wassertemperatur zu messen. Mit einem Messbereich von -10°C bis +85°C bei einer Genauigkeit von +- 0.5°C bietet der Sensor eine ausreichende Leistung für den Anwendungsfall des Deutschen Wattenmeer.
+Der DS18B20 ist ein wasserdichter Temperatursensor, der es ermöglicht, einfach und kostengünstig die Wassertemperatur zu messen. Mit einem Messbereich von -10°C bis +85°C bei einer Genauigkeit von +- 0.5°C bietet der Sensor eine ausreichende Leistung für den Anwendungsfall des Deutschen Wattenmeer.
 
 Trübung
 ============
-Mithilfe des Analog Turbidity Sensor von <a href="https://www.dfrobot.com/product-1394.html/">Df-Robot</a> lässt sich die Trübung von Wasser bestimmen. Der Sensor selbst stammt aus einem Geschirrspüler und liefert in Abhängigkeit der Trübung unterschiedliche Spannungswerte. Es können somit keine konkreten Trübungswerte in einer standardisierten Einheit gemessen werden, sondern nur relative Werte, die eine Deutung des Verlaufs zulassen.
+Mithilfe des Analog Turbidity Sensor von Df-Robot lässt sich die Trübung von Wasser bestimmen. Der Sensor selbst stammt aus einem Geschirrspüler und liefert in Abhängigkeit der Trübung unterschiedliche Spannungswerte. Es können somit keine konkreten Trübungswerte in einer standardisierten Einheit gemessen werden, sondern nur relative Werte, die eine Deutung des Verlaufs zulassen.
 
 Fließgeschwindigkeit
 ============
-Bei der <a href="http://www.exp-tech.de/adafruit-9-dof-accel-mag-gyro-temp-breakout-board-lsm9ds1/">Fließgeschwindigkeit</a> ging es vor allem um die Frage, ob unterschiedliche Standorte im Wattenmeer unterschiedliche Fließgeschwindigkeiten aufweisen und ob sich die Fließgeschwindigkeit bei Ebbe und Flut unterscheiden. Die Fließgeschwindigkeit wurde mithilfe eines Beschleunigungssensors gemessen. Die Stärke der Neigung des Messgerätes sollte Aufschluss auf unterschiedliche Fließgeschwindigkeiten geben. 
+Bei der Fließgeschwindigkeit ging es vor allem um die Frage, ob unterschiedliche Standorte im Wattenmeer unterschiedliche Fließgeschwindigkeiten aufweisen und ob sich die Fließgeschwindigkeit bei Ebbe und Flut unterscheiden. Die Fließgeschwindigkeit wurde mithilfe eines Beschleunigungssensors gemessen. Die Stärke der Neigung des Messgerätes sollte Aufschluss auf unterschiedliche Fließgeschwindigkeiten geben. 
 
 {% include image.html image=page.image1 %}
 {% include image.html image=page.image2 %}

@@ -5,7 +5,7 @@ date: 2020-03-06
 author: Mario und Felix
 abstract: "Neue Blockly Version bringt Blöcke für LoRa und die openSenseMap"
 thumbnail: /images/blog/2020-03-06-new-blockly-release/thumbnail.jpg
-image1: /images/blog_images/blockly_release_march/new_osem_block.png
+image1: /images/blog/2020-03-06-new-blockly-release/new_osem_block.png
 image2: /images/projects/TTN-Mapper/blockly-gps-de.png
 lang: de
 ---

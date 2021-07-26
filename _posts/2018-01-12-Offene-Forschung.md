@@ -7,7 +7,6 @@ abstract: "Die offenen Daten der openSenseMap werden inzwischen in vielen weiter
 thumbnail: /images/blog/2018-01-12-Offene-Forschung/2018-01_sensebox-binder-rstudio-screenshot.png
 image1: /images/blog/2018-01-12-Offene-Forschung/2018-01_sensebox-binder-rstudio-screenshot.png
 image2: https://media.giphy.com/media/l49JRjO65S0WQ1Kyk/giphy.gif
-image3: https://raw.githubusercontent.com/JohannesFriedrich/JohannesFriedrich.github.io/master/_posts/img/PM_Silvester/PM_10_silvester2017.png
 lang: de
 ---
 
@@ -35,6 +34,4 @@ Der folgende Screenshots zeigt die das Analyseskript und das erzeugte Dokument i
 Wenn Du es nicht erwarten kannst, dann schau Dir unter [diesem Link](https://nuest.github.io/sensebox-binder/sensebox-analysis.html) die lesbare (aber nicht editierbare) fertige Version der Analyse an.
 
 Und Daniel ist nicht alleine mit seinem Interesse an Feinstaubmessungen in der Neujahrsnacht.
-[Johannes Friedrich](https://github.com/JohannesFriedrich/), Wissenschaftler an der [Universität Bayreuth](https://www.uni-bayreuth.de/de/index.html), hat mit seiner Software [senseBox](https://johannesfriedrich.github.io/senseBox/) die Daten von _über 400 senseBoxen_ heruntergeladen, visualisiert, und in [diesem Blogpost](https://johannesfriedrich.github.io/2018-01-11-particular-matter-new-year/) veröffentlicht.
-
-{% include image.html image=page.image3 %}
+[Johannes Friedrich](https://github.com/JohannesFriedrich/), Wissenschaftler an der [Universität Bayreuth](https://www.uni-bayreuth.de/de/index.html), hat mit seiner Software [senseBox](https://johannesfriedrich.github.io/senseBox/) die Daten von _über 400 senseBoxen_ heruntergeladen, visualisiert und bei Twitter für die Jahre [2018](https://twitter.com/johnsenfr/status/951568789526732800?s=21), [2019](https://twitter.com/johnsenfr/status/1080228102695985159?s=21) und [2020](https://twitter.com/johnsenfr/status/1345097543152242689?s=21) veröffentlicht.

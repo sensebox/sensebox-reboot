@@ -5,10 +5,10 @@ date: 2019-09-06
 author: Thomas
 abstract: "Am 5. September wurde das Futurium in Berlin feierlich eröffnet. Im Futurium könnt Ihr die senseBox an verschiedenen Stellen sehen und ausprobieren."
 thumbnail: /images/blog/2019-09-06-Futurium-opening/thumbnail.jpg
-image1: /images/blog_images/futurium_opening/exponat.png
-image2: /images/blog_images/futurium_opening/openSenseMap_visualisierung.png
-image3: /images/blog_images/futurium_opening/mieris.png
-image4: /images/blog_images/futurium_opening/uebergabe_sensebox.png
+image1: /images/blog/2019-09-06-Futurium-opening/exponat.png
+image2: /images/blog/2019-09-06-Futurium-opening/openSenseMap_visualisierung.png
+image3: /images/blog/2019-09-06-Futurium-opening/mieris.png
+image4: /images/blog/2019-09-06-Futurium-opening/uebergabe_sensebox.png
 lang: de
 ---
 
@@ -18,7 +18,7 @@ Gestern hat das [Futurium](https://futurium.de/) in Berlin in Sichtweite des Bun
 
 Die senseBox ist dabei zu einem zentralen Baustein des Hauses geworden. Ein integriertes Konzept verzahnt viele Ideen der senseBox mit der Idee mögliche Zukunftsvisionen zu kommunizieren, zu verstehen und mitzugestalten. Aber der Reihe nach.
 
-Alles fing vor gut einem Jahr an, bei den Testläufen zum Futurium-Betrieb – den [Werkstattwochen im Juni 2018](https://sensebox.de/blog/2018-06-15-Futurium). In Workshops beim Klima-Tag und bei der Langen Nacht der Wissenschaften konnten die Besucher\*innen die senseBox und die openSenseMap im Futurium Lab kennenlernen, ausprobieren und erfuhren, welche Rolle Partizipation im Kontext Citizen Science spielen kann und warum der Ansatz in Zukunft so wichtig sein wird. Bei diesen Veranstaltungen wurde auch für Teilnehmer\*innen an einem Futurium – senseBox - Messnetzwerk in Berlin geworben, die sich auch zahlreich meldeten. 
+Alles fing vor gut einem Jahr an, bei den Testläufen zum Futurium-Betrieb – den [Werkstattwochen im Juni 2018](https://sensebox.de/2018/06/15/futurium). In Workshops beim Klima-Tag und bei der Langen Nacht der Wissenschaften konnten die Besucher\*innen die senseBox und die openSenseMap im Futurium Lab kennenlernen, ausprobieren und erfuhren, welche Rolle Partizipation im Kontext Citizen Science spielen kann und warum der Ansatz in Zukunft so wichtig sein wird. Bei diesen Veranstaltungen wurde auch für Teilnehmer\*innen an einem Futurium – senseBox - Messnetzwerk in Berlin geworben, die sich auch zahlreich meldeten. 
 
 Im Herbst wurden dann 50 Berliner\*innen in drei Workshops im Futurium Lab beim Aufbau einer eigenen senseBox:home mit Sensoren für Temperatur, Luftfeuchte, Luftdruck, Beleuchtungsstärke, UV(A)-Strahlung und Feinstaub begleitet. 15 davon bauten sogar die aufwändigere, experimentelle Variante mit zusätzlichen Sensoren für Stickoxide und Ozon. Die Teilnehmer*innen installierten die Stationen bei sich zu Hause und die von da an erfassten Daten sollten ihren Weg wieder zurück ins Futurium finden. 
 

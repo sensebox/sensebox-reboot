@@ -17,19 +17,19 @@ Unsere Messehighlights
 ============
 Ende Januar waren wir mit der senseBox bei der Learntec in Karlsruhe und ziehen eine sehr positive Bilanz: Wir gewannen bei den Kurzpräsentationen "Pecha Kucha" und machten Platz 3. beim Learntec-Startup Pitch im Bereich Schule. Darüber hinaus belegten wir den 2. Platz beim Delina Award im Bereich Hochschule. Hier findet Ihr unser Bewerbungsvideo zum Nachschauen [YouTube](https://www.youtube.com/watch?v=98bHBH4WApI).
 
-Anschließend waren wir im Februar bei der Didacta Bildungsmesse in Köln. Unsere Eindrücke der Messewoche könnt Ihr in unserem [Blog](https://sensebox.de/blog/2019-02-26-Didacta19) nachlesen.
+Anschließend waren wir im Februar bei der Didacta Bildungsmesse in Köln. 
 
 Die Messesaison geht weiter! Vom 23. bis 25. Mai sind wir am Gemeinschaftsstand von eduvation mit auf der Didacta DIGITAL Austria in Linz. Außerdem sind wir vom 1. bis 5. April erstmalig auf der Hannover Messe am Gemeinschaftsstand F20 des Kompetenznetzwerks Umweltwirtschaft NRW in Halle 13. Kommt vorbei, wir freuen uns auf Euren Besuch!
 
-Zu unseren [Events](https://sensebox.de/#newsletter)
+Zu unseren [Events](https://sensebox.de/de/events.html)
 
 {% include image.html image=page.image2 %}
 
 Neue Materialien für die senseBox
 ============
-Wir bedanken uns bei Nils Buxel und Karl Wollmann aus dem Bereich Grundschuldidaktik Sachunterricht der Erziehungswissenschaftlichen Fakultät der Universität Leipzig für die Erstellung eines Erklärvideos über die senseBox. Das kurze Video soll den Einstieg insbesondere für Grundschüler in die Programmierung, Sensorik und Umweltthematik erleichtern und erklärt bildlich die Funktionen der senseBox als Elektronikbausatz zur Erhebung von Umweltdaten. Das Erklärvideo findet Ihr unter: [YouTube](https://www.youtube.com/watch?v=sf3RzXq6iVo&t=1s). Außerdem hat die ETH Zürich im Rahmen des Masterkurses „GIS III“ Materialien für den Einsatz der senseBox in der Lehre an Hochschulen entwickelt. Genauere Infos findet Ihr in unserem [Blogbeitrag](https://sensebox.de/blog/2019-01-19-senseBox_Hochschule). 
+Wir bedanken uns bei Nils Buxel und Karl Wollmann aus dem Bereich Grundschuldidaktik Sachunterricht der Erziehungswissenschaftlichen Fakultät der Universität Leipzig für die Erstellung eines Erklärvideos über die senseBox. Das kurze Video soll den Einstieg insbesondere für Grundschüler in die Programmierung, Sensorik und Umweltthematik erleichtern und erklärt bildlich die Funktionen der senseBox als Elektronikbausatz zur Erhebung von Umweltdaten. Das Erklärvideo findet Ihr unter: [YouTube](https://www.youtube.com/watch?v=sf3RzXq6iVo&t=1s). Außerdem hat die ETH Zürich im Rahmen des Masterkurses „GIS III“ Materialien für den Einsatz der senseBox in der Lehre an Hochschulen entwickelt. Genauere Infos findet Ihr in unserem [Blogbeitrag](https://sensebox.de/2019/01/19/sensebox_hochschule). 
 
-Zu unserer [Materialseite](https://sensebox.de/de/material)
+Zu unserer [Materialseite](https://sensebox.de/de/material.html)
 
 {% include image.html image=page.image3 %}
 

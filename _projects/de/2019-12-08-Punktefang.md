@@ -28,7 +28,7 @@ tags: ["Informatik", "CO2-Ampel Set Edu"]
 difficult: schwer
 ---
 
-_Dieses Projekt ist eines der vielen spannenden Projekte, die auch im [senseBox Buch](https://www.dpunkt.de/buecher/13482/9783864906848-das-sensebox-buch.html) (erschienen im dPunkt Verlag 2019) veröffentlicht wurden._
+_Dieses Projekt ist eines der vielen spannenden Projekte, die auch im [senseBox Buch](https://dpunkt.de/produkt/das-sensebox-buch/) (erschienen im dPunkt Verlag 2019) veröffentlicht wurden._
 
 # Gehe auf Punktefang
 

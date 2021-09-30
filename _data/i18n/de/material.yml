@@ -7,36 +7,36 @@
 
 - name: senseBox Lehrhandreichung
   position: t2
-  organisation: 
-  description: 
+  organisation:
+  description:
   bgImage: /images/projects/logo_bunt.png
   download: /docs/lehrkraefte_senseBox_de.pdf
 
 - name: CO2-Ampel Lehrhandreichung
   position: t3
-  organisation: 
-  description: 
+  organisation:
+  description:
   bgImage: /images/material/co2-ampel.png
   link: /docs/CO2-Ampel_Lehrhandreichung.pdf
 
 - name: Moderner Informatikunterricht mit LoRaWAN in der Schule
   position: t4
-  organisation: 
-  description: 
+  organisation:
+  description:
   bgImage: /images/material/Material-TTN.png
   link: /docs/informatikunterricht_lorawan.pdf
 
-- name: 'Unterrichtsreihe: Sense Your School'
+- name: "Unterrichtsreihe: Sense Your School"
   position: t5
   organisation: TüftelAkademie
-  description: 
+  description:
   bgImage: /images/material/sense-your-school.png
   link: https://tueftelakademie.de/fuer-lehrende/unterrichtsmaterialien/digital-literacy-lab/sense-your-school/
 
-- name: 'Unterrichtsreihe: Umweltverschmutzung und Daten'
+- name: "Unterrichtsreihe: Umweltverschmutzung und Daten"
   position: t6
   organisation: TüftelAkademie
-  description: 
+  description:
   bgImage: /images/material/umweltverschmutzung-und-daten.png
   link: https://tueftelakademie.de/fuer-lehrende/unterrichtsmaterialien/digital-literacy-lab/umwelt-und-daten/
 
@@ -47,10 +47,9 @@
   bgImage: /images/material/eth.jpg
   download: https://sensebox.de/docs/ETH_GeosensorsLab_tutorial.pdf
 
-
 - name: Mikrocontroller im MINT-Unterricht
   position: t8
-  organisation: 
+  organisation:
   description: "Die Materielen der Hopp-Foundation zeigen Anwendungsbereiche von Mikrocontrollern im MINT Unterricht. Das Skript beinhaltet jeweils eine Unterrichtseinheit zu den Fächern Mathematik, Informatik, NaWi und Geografie."
   bgImage: /images/material/hopp_foundation.png
   link: https://unterrichtsmaterialien.hopp-foundation.de/konzepte/mikrocontroller-im-mint-unterricht
@@ -62,6 +61,9 @@
   bgImage: https://gis-iq.esri.de/wp-content/uploads/2020/12/Screenshot-2020-12-16-160724.png
   link: https://www.arcgis.com/sharing/rest/content/items/3aa108c52f2e4a92a1c88a5ae8f206dc/data
 
-
-
-
+- name: "Analyse von Umweltdaten: Datenanalyse mit der Sensebox, Jupyter Notebooks und Python"
+  position: t10
+  organisation: Didaktik der Informatik Universität Paderborn
+  description: 'Das übergeordnete Thema dieser Unterrichtsreihe lautet "Data Science mit Python". In dieser konkreten Unterrichtsreihe beziehen sich die Daten auf umweltbezogene Aspekte wie Temperatur, Luftfeuchtigkeit oder Feinstaubbelastung, sodass die SuS eine Umweltanalyse auf Grundlage einer eigenen Fragestellung durchführen sollen.'
+  bgImage: /images/material/jupyter_ddipaderborn.png
+  link: https://unterrichtsmaterial-ddi.cs.upb.de/Analyse_von_Umweltdaten

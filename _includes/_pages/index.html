@@ -1,190 +1,309 @@
 {% assign content = site.data.i18n.[page.lang].index %}
 <div class="paperlike">
-    <div class="container">
-        <!-- ------ ANNOUNCEMENT START ----- -->
-        <div class="d-flex justify-content-center announcement">
-            <div class="card"
-                style="padding: 2rem; border: none; clip-path: polygon(21% 12%, 80% 8%, 96% 20%, 98% 80%, 68% 77%, 25% 86%, 0% 80%, 1% 20%)">
-                <div class="card-body">
-                    <p>
-                        <mark style="background-color: rgb(252, 70, 43); color: white;">
-                            {{ content.new }}
-                        </mark>
-                        <span>
-                            &nbsp;{{ content.announcement-text }}&nbsp;
-                        </span>
-                        <a href="{{ content.announcement-link}}" class="btn btn-sensebox-green">
-                            {{ content.announcement-button}}
-                        </a>
-                    </p>
-                </div>
-            </div>
+  <div class="container">
+    <!-- ------ ANNOUNCEMENT START ----- -->
+    <div class="d-flex justify-content-center announcement">
+      <div
+        class="card"
+        style="
+          padding: 2rem;
+          border: none;
+          clip-path: polygon(
+            21% 12%,
+            80% 8%,
+            96% 20%,
+            98% 80%,
+            68% 77%,
+            25% 86%,
+            0% 80%,
+            1% 20%
+          );
+        "
+      >
+        <div class="card-body">
+          <p>
+            <mark style="background-color: rgb(252, 70, 43); color: white">
+              {{ content.new }}
+            </mark>
+            <span> &nbsp;{{ content.announcement-text }}&nbsp; </span>
+            <a
+              href="{{ content.announcement-link}}"
+              class="btn btn-sensebox-green"
+            >
+              {{ content.announcement-button}}
+            </a>
+          </p>
         </div>
-        <!-- ------ ANNOUNCEMENT END ----- -->
-        <div class="row row-padding align-items-center">
-            <div class="col-md-6">
-                <h1><mark style="background-color: yellow;">
-                        {{content.sensebox-head}}
-                    </mark></h1>
-                <p class="lead">
-                    {{content.sensebox-short-description}}
-                </p>
-            </div>
-            <div class="col-md-6">
-                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img loading="lazy" class="d-block w-100" src="/images/index/Startseite-Karusel-3.jpg"
-                                alt="First slide">
-                        </div>
-                        <div class="carousel-item">
-                            <img loading="lazy" class="d-block w-100" src="/images/index/Startseite-Karusel-2.jpg"
-                                alt="Second slide">
-                        </div>
-                        <div class="carousel-item">
-                            <img loading="lazy" class="d-block w-100" src="/images/index/Startseite-Karusel-1.jpg"
-                                alt="Third slide">
-                        </div>
-                    </div>
-                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
-                </div>
-            </div>
-        </div>
-
-        <!-- just a spacer -->
-        <div style="padding-top: 2rem;"></div>
-
-        <h1>{{content.sensebox-overview}}</h1>
-        <div class="row row-padding">
-            <div class="col-lg-3 d-flex flex-column col-eq">
-                <img loading="lazy" class="rounded-circle" src="/images/products/home_title.png"
-                    alt="Generic placeholder image" width="100%" height="auto">
-                <h2>senseBox:home</h2>
-                <p>{{content.sensebox-overview-home}}</p>
-                <p><a class="btn btn-end btn-sensebox-blue" href="{{site.baseurl}}/{{page.lang}}/products-home.html"
-                        role="button">{{ content.sensebox-overview-button }}</a></p>
-            </div><!-- /.col-lg-4 -->
-            <div class="col-lg-3 d-flex flex-column col-eq">
-                <img loading="lazy" class="rounded-circle" src="/images/products/edu_title.png"
-                    alt="Generic placeholder image" width="100%" height="auto">
-                <h2>senseBox:edu</h2>
-                <p>{{content.sensebox-overview-edu}}</p>
-                <p><a class="btn btn-end  btn-sensebox-red" href="{{site.baseurl}}/{{page.lang}}/products-edu.html"
-                        role="button">{{ content.sensebox-overview-button }}</a></p>
-
-            </div><!-- /.col-lg-4 -->
-            <div class="col-lg-3 d-flex flex-column col-eq">
-                <img loading="lazy" class="rounded-circle" src="/images/products/mini_title-2.png"
-                    alt="Generic placeholder image" width="100%" height="auto">
-                <h2>senseBox:mini</h2>
-                <p>{{content.sensebox-overview-mini}}</p>
-                <p><a class="btn btn-end btn-sensebox-green" href="{{site.baseurl}}/{{page.lang}}/products-mini.html"
-                        role="button">{{ content.sensebox-overview-button }}</a></p>
-
-            </div><!-- /.col-lg-4 -->
-            <div class="col-lg-3 d-flex flex-column col-eq">
-                <img loading="lazy" class="rounded-circle" src="/images/products/co2_title.png"
-                    alt="Generic placeholder image" width="100%" height="auto">
-                <h2>{{ content.sensebox-overview-co2-head }}</h2>
-                <p>{{content.sensebox-overview-co2}}</p>
-                <p> <a class="btn btn-end btn-sensebox-orange" href="{{site.baseurl}}/{{page.lang}}/products-co2.html"
-                        role="button">{{ content.sensebox-overview-button }}</a></p>
-
-            </div><!-- /.col-lg-4 -->
-        </div><!-- /.row -->
+      </div>
     </div>
+    <!-- ------ ANNOUNCEMENT END ----- -->
+    <div class="row row-padding align-items-center">
+      <div class="col-md-6">
+        <h1>
+          <mark style="background-color: yellow">
+            {{content.sensebox-head}}
+          </mark>
+        </h1>
+        <p class="lead">{{content.sensebox-short-description}}</p>
+      </div>
+      <div class="col-md-6">
+        <div
+          id="carouselExampleControls"
+          class="carousel slide"
+          data-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                loading="lazy"
+                class="d-block w-100"
+                src="/images/index/Startseite-Karusel-3.jpg"
+                alt="First slide"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                loading="lazy"
+                class="d-block w-100"
+                src="/images/index/Startseite-Karusel-2.jpg"
+                alt="Second slide"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                loading="lazy"
+                class="d-block w-100"
+                src="/images/index/Startseite-Karusel-1.jpg"
+                alt="Third slide"
+              />
+            </div>
+          </div>
+          <a
+            class="carousel-control-prev"
+            href="#carouselExampleControls"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#carouselExampleControls"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- just a spacer -->
+    <div style="padding-top: 2rem"></div>
+
+    <h1>{{content.sensebox-overview}}</h1>
+    <div class="row row-padding">
+      <div class="col-lg-3 d-flex flex-column col-eq">
+        <img
+          loading="lazy"
+          class="rounded-circle"
+          src="/images/products/home_title.png"
+          alt="Generic placeholder image"
+          width="100%"
+          height="auto"
+        />
+        <h2>senseBox:home</h2>
+        <p>{{content.sensebox-overview-home}}</p>
+        <p>
+          <a
+            class="btn btn-end btn-sensebox-blue"
+            href="{{site.baseurl}}/{{page.lang}}/products-home.html"
+            role="button"
+            >{{ content.sensebox-overview-button }}</a
+          >
+        </p>
+      </div>
+      <!-- /.col-lg-4 -->
+      <div class="col-lg-3 d-flex flex-column col-eq">
+        <img
+          loading="lazy"
+          class="rounded-circle"
+          src="/images/products/edu_title.png"
+          alt="Generic placeholder image"
+          width="100%"
+          height="auto"
+        />
+        <h2>senseBox:edu</h2>
+        <p>{{content.sensebox-overview-edu}}</p>
+        <p>
+          <a
+            class="btn btn-end btn-sensebox-red"
+            href="{{site.baseurl}}/{{page.lang}}/products-edu.html"
+            role="button"
+            >{{ content.sensebox-overview-button }}</a
+          >
+        </p>
+      </div>
+      <!-- /.col-lg-4 -->
+      <div class="col-lg-3 d-flex flex-column col-eq">
+        <img
+          loading="lazy"
+          class="rounded-circle"
+          src="/images/products/mini_title-2.png"
+          alt="Generic placeholder image"
+          width="100%"
+          height="auto"
+        />
+        <h2>senseBox:mini</h2>
+        <p>{{content.sensebox-overview-mini}}</p>
+        <p>
+          <a
+            class="btn btn-end btn-sensebox-green"
+            href="{{site.baseurl}}/{{page.lang}}/products-mini.html"
+            role="button"
+            >{{ content.sensebox-overview-button }}</a
+          >
+        </p>
+      </div>
+      <!-- /.col-lg-4 -->
+      <div class="col-lg-3 d-flex flex-column col-eq">
+        <img
+          loading="lazy"
+          class="rounded-circle"
+          src="/images/products/co2_title.png"
+          alt="Generic placeholder image"
+          width="100%"
+          height="auto"
+        />
+        <h2>{{ content.sensebox-overview-co2-head }}</h2>
+        <p>{{content.sensebox-overview-co2}}</p>
+        <p>
+          <a
+            class="btn btn-end btn-sensebox-orange"
+            href="{{site.baseurl}}/{{page.lang}}/products-co2.html"
+            role="button"
+            >{{ content.sensebox-overview-button }}</a
+          >
+        </p>
+      </div>
+      <!-- /.col-lg-4 -->
+    </div>
+    <!-- /.row -->
+  </div>
 </div>
 
-<div class="section" style="background-color: rgb( 58, 176, 232);">
-    <div class="container">
-        <div class="row row-padding">
-            <div class="col-md-6" style="padding: 2rem">
-                <div class="card software-card">
-                    <img loading="lazy" class="card-img-top" style="padding: 10px;" src="/images/index/blockly.png"
-                        alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title"><mark style=" background-color: rgb( 58, 176, 232);
-                            color: white;">{{ content.blockly-head}}</mark></h5>
+<div class="section" style="background-color: rgb(58, 176, 232)">
+  <div class="container">
+    <div class="row row-padding">
+      <div class="col-md-6" style="padding: 2rem">
+        <div class="card software-card">
+          <img
+            loading="lazy"
+            class="card-img-top"
+            style="padding: 10px"
+            src="/images/index/blockly.png"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h5 class="card-title">
+              <mark style="background-color: rgb(58, 176, 232); color: white"
+                >{{ content.blockly-head}}</mark
+              >
+            </h5>
 
-                        <p class="card-text">{{ content.blockly-short-text }}</p>
-                        <a href="{{site.baseurl}}/{{page.lang}}/blockly.html" class="btn"
-                            style="background-color: rgb(51,51,51); color: white;">{{ content.card-button}}</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="card software-card">
-                    <img loading="lazy" class="card-img-top" style="padding: 10px;" src="/images/index/osem.png"
-                        alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title"><mark style=" background-color: rgb( 58, 176, 232); color: white;">{{
-                                content.opensensemap-head }}</mark>
-                        </h5>
-                        <p class="card-text">{{ content.opensensemap-short-text }}</p>
-                        <a href="{{site.baseurl}}/{{page.lang}}/opensensemap.html" class="btn"
-                            style="background-color: rgb(51,51,51); color: white;">{{ content.card-button}}</a>
-                    </div>
-                </div>
-            </div>
+            <p class="card-text">{{ content.blockly-short-text }}</p>
+            <a
+              href="{{site.baseurl}}/{{page.lang}}/blockly.html"
+              class="btn"
+              style="background-color: rgb(51, 51, 51); color: white"
+              >{{ content.card-button}}</a
+            >
+          </div>
         </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card software-card">
+          <img
+            loading="lazy"
+            class="card-img-top"
+            style="padding: 10px"
+            src="/images/index/osem.png"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h5 class="card-title">
+              <mark style="background-color: rgb(58, 176, 232); color: white"
+                >{{ content.opensensemap-head }}</mark
+              >
+            </h5>
+            <p class="card-text">{{ content.opensensemap-short-text }}</p>
+            <a
+              href="{{site.baseurl}}/{{page.lang}}/opensensemap.html"
+              class="btn"
+              style="background-color: rgb(51, 51, 51); color: white"
+              >{{ content.card-button}}</a
+            >
+          </div>
+        </div>
+      </div>
     </div>
+  </div>
 </div>
 
 <div class="container section">
-    {% assign news = site.data.i18n.[page.lang].news %}
-    <h1><mark style="background-color: yellow;">{{content.news-head}}</mark></h1>
-    <div class="row row-padding">
-        <div class="col-lg-7 mx-auto">
-            <ul class="timeline">
-                {% for news in news %}
-                {% if news.active == true %}
-                <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
-                    <div class="timeline-arrow"></div>
-                    <h2 class="h5 mb-0">{{ news.headline }}</h2><span class="small text-gray"><i
-                            class="fa fa-clock-o mr-1"></i>{{ news.date | date: "%d/%m/%Y" }} {{content.news-from}}
-                        {{ news.author }}</span>
-                    <p class="text-small mt-2 font-weight-light">{{ news.text }}</p>
-                </li>
-                {% endif %}
-                {% endfor %}
-            </ul><!-- End -->
-        </div>
+  {% assign news = site.data.i18n.[page.lang].news %}
+  <h1><mark style="background-color: yellow">{{content.news-head}}</mark></h1>
+  <div class="row row-padding">
+    <div class="col-lg-7 mx-auto">
+      <ul class="timeline">
+        {% for news in news %} {% if news.active == true %}
+        <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
+          <div class="timeline-arrow"></div>
+          <h2 class="h5 mb-0">{{ news.headline }}</h2>
+          <span class="small text-gray"
+            ><i class="fa fa-clock-o mr-1"></i>{{ news.date | date: "%d/%m/%Y"
+            }} {{content.news-from}} {{ news.author }}</span
+          >
+          <p class="text-small mt-2 font-weight-light">{{ news.text }}</p>
+        </li>
+        {% endif %} {% endfor %}
+      </ul>
+      <!-- End -->
     </div>
+  </div>
 </div>
 
-<div class="section" style="background-color: rgb(67, 162, 56);">
-    <div class="container">
-        <div class="row row-padding">
-            <div class="col-md-6">
-                <h1><mark style="background-color: rgb(252, 70, 43); color:white">{{content.newsletter-head-1}}</mark>
-                </h1>
-                <h1><mark style="background-color: rgb(252, 70, 43); color:white">{{ content.newsletter-head-2}}</mark>
-                </h1>
-                </mark>
-            </div>
-            <div class="col-md-6">
-                <p style="color: white">{{content.newsletter-text}}</p>
-            </div>
-            <div class="col-lg-12">
-                <div style="text-align: center;" id="newsletter">
+<div class="section" style="background-color: rgb(67, 162, 56)">
+  <div class="container">
+    <div class="row row-padding">
+      <div class="col-md-6">
+        <h1>
+          <mark style="background-color: rgb(252, 70, 43); color: white"
+            >{{content.newsletter-head-1}}</mark
+          >
+        </h1>
+        <h1>
+          <mark style="background-color: rgb(252, 70, 43); color: white"
+            >{{ content.newsletter-head-2}}</mark
+          >
+        </h1>
+      </div>
+      <div class="col-md-6">
+        <p style="color: white">{{content.newsletter-text}}</p>
+      </div>
+      <div class="col-lg-12">
+        <div style="text-align: center" id="newsletter">
+          <!-- Begin Mailchimp Signup Form -->
 
-                    <!-- Begin MailChimp Signup Form -->
-                    <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet"
-                        type="text/css">
-                    <style type="text/css">
+          <!-- <style type="text/css">
                         #mc_embed_signup {
                             /* background: #fff;*/
+                            color: white;
                             clear: left;
-                            font: 14px Helvetica, Arial, sans-serif;
+                            font: 14px;
                             width: 100%;
-                            font-family: BrixSlab-Regular, Helvetica, sans-serif;
                         }
 
                         #mc_embed_signup input.email {
@@ -193,75 +312,157 @@
                             padding: 10px 20px 10px 20px;
                             border: solid rgb(252, 70, 43) 2px;
                             text-decoration: none;
-                            background: white;
+                            /*background: white;*/
                             margin: 5px;
                             text-align: center;
                             height: 49px;
                         }
 
-                        /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-        We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-                    </style>
-                    <div id="mc_embed_signup">
-                        <form
-                            action="https://sensebox.us18.list-manage.com/subscribe/post?u=0d572f7997d4dae2c9e424299&amp;id=46738cd0bd"
-                            method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
-                            class="validate" target="_blank" novalidate>
-                            <div id="mc_embed_signup_scroll">
-
-                                <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL"
-                                    placeholder="{{content.newsletter-placeholder}}" required>
-                                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
-                                        name="b_0d572f7997d4dae2c9e424299_46738cd0bd" tabindex="-1" value=""></div>
-                                <div class="clear"><input type="submit" value="{{content.newsletter-button}}"
-                                        name="subscribe" id="mc-embedded-subscribe"
-                                        class="btn btn-sensebox-red sb-submit-button"></div>
-                            </div>
-                        </form>
-                    </div>
+	/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style> -->
+          <div id="mc_embed_signup" class="mc_embed_signup">
+            <form
+              action="https://sensebox.us18.list-manage.com/subscribe/post?u=0d572f7997d4dae2c9e424299&amp;id=46738cd0bd"
+              method="post"
+              id="mc-embedded-subscribe-form"
+              name="mc-embedded-subscribe-form"
+              class="validate"
+              target="_blank"
+              novalidate
+            >
+              <div id="mc_embed_signup_scroll">
+                <label for="mce-EMAIL">Anmeldung zum Newsletter</label>
+                <input
+                  type="email"
+                  value=""
+                  name="EMAIL"
+                  class="email"
+                  id="mce-EMAIL"
+                  placeholder="email addresse"
+                  required
+                />
+                <div
+                  id="mergeRow-gdpr"
+                  class="
+                    mergeRow
+                    gdpr-mergeRow
+                    content__gdprBlock
+                    mc-field-group
+                  "
+                >
+                  <div class="content__gdpr">
+                    <label>Erlaubnis zum Marketing</label>
+                    <p>
+                      Bitte wählen Sie aus, wie Sie von uns hören möchten
+                      senseBox | Institut für Geoinformatik:
+                    </p>
+                    <fieldset
+                      class="mc_fieldset gdprRequired mc-field-group"
+                      name="interestgroup_field"
+                    >
+                      <label class="checkbox subfield" for="gdpr_73450"
+                        ><input
+                          type="checkbox"
+                          id="gdpr_73450"
+                          name="gdpr[73450]"
+                          value="Y"
+                          class="av-checkbox gdpr"
+                        /><span>E-Mail</span></label
+                      >
+                    </fieldset>
+                    <p>
+                      Sie können sich jederzeit abmelden, indem Sie auf den Link
+                      in der Fußzeile unserer E-Mails klicken. Informationen zu
+                      unseren Datenschutzpraktiken finden Sie auf unserer
+                      Website.
+                    </p>
+                  </div>
+                  <div class="content__gdprLegal">
+                    <p>
+                      We use Mailchimp as our marketing platform. By clicking
+                      below to subscribe, you acknowledge that your information
+                      will be transferred to Mailchimp for processing.
+                      <a href="https://mailchimp.com/legal/" target="_blank"
+                        >Learn more about Mailchimp's privacy practices here.</a
+                      >
+                    </p>
+                  </div>
                 </div>
-            </div>
+                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                <div
+                  style="position: absolute; left: -5000px"
+                  aria-hidden="true"
+                >
+                  <input
+                    type="text"
+                    name="b_0d572f7997d4dae2c9e424299_46738cd0bd"
+                    tabindex="-1"
+                    value=""
+                  />
+                </div>
+                <div class="clear">
+                  <input
+                    type="submit"
+                    value="{{content.newsletter-button}}"
+                    name="subscribe"
+                    id="mc-embedded-subscribe"
+                    class="btn btn-sensebox-red"
+                  />
+                </div>
+              </div>
+            </form>
+          </div>
         </div>
+      </div>
     </div>
-</div>
+  </div>
 </div>
 
-<div class="section" style="background-color: rgb(238,238,238);">
-    <div class="container">
-        <br>
-        <h1>Partner</h1>
-        <div class="row partner">
-            <ul>
-                {% assign partner = site.data.i18n.[page.lang].network %}
-                {% for partner in partner %}
+<div class="section" style="background-color: rgb(238, 238, 238)">
+  <div class="container">
+    <br />
+    <h1>Partner</h1>
+    <div class="row partner">
+      <ul>
+        {% assign partner = site.data.i18n.[page.lang].network %} {% for partner
+        in partner %}
 
-                <li class="middle">
-                    <a href="{{ partner.link }}" target="_blank">
-                        <img loading="lazy" src="{{ partner.logo }}" alt="giatschool Logo">
-                    </a>
-                </li>
-                {% if forloop.index == 5%}
-                {% break %}
-                {% endif %}
-                {% endfor %}
-            </ul>
-        </div>
-        <div style="text-align: center;">
-            <a href="{{ site.baseurl }}/{{page.lang}}/network.html"
-                class="btn btn-sensebox-green">{{content.partner-see-all}}</a>
-        </div>
+        <li class="middle">
+          <a href="{{ partner.link }}" target="_blank">
+            <img
+              loading="lazy"
+              src="{{ partner.logo }}"
+              alt="giatschool Logo"
+            />
+          </a>
+        </li>
+        {% if forloop.index == 5%} {% break %} {% endif %} {% endfor %}
+      </ul>
     </div>
+    <div style="text-align: center">
+      <a
+        href="{{ site.baseurl }}/{{page.lang}}/network.html"
+        class="btn btn-sensebox-green"
+        >{{content.partner-see-all}}</a
+      >
+    </div>
+  </div>
 </div>
 
 <div class="container section">
-    <div class="row row-padding">
-        <div class="col-lg-4">
-            <img loading="lazy" src="/images/awards/BMBF_CMYK_Gef_L.png" class="img-fluid" alt="...">
-        </div>
-        <div class="col-lg-8">
-            <h1>{{content.grant-head}}</h1>
-            <p>{{content.grant-text }}</p>
-        </div>
+  <div class="row row-padding">
+    <div class="col-lg-4">
+      <img
+        loading="lazy"
+        src="/images/awards/BMBF_CMYK_Gef_L.png"
+        class="img-fluid"
+        alt="..."
+      />
     </div>
+    <div class="col-lg-8">
+      <h1>{{content.grant-head}}</h1>
+      <p>{{content.grant-text }}</p>
+    </div>
+  </div>
 </div>

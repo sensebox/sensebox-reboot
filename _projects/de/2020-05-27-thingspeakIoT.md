@@ -24,10 +24,10 @@ difficult: mittel
 ---
 <head><title>Thingspeak IoT</title></head>
 
-In diesem Projekt werden die Daten senseBox mit Hilfe von Thingspeak visualisiert. [Thingspeak](https://thingspeak.com/) ist ein IoT-Platform, die es ermöglicht Daten online zu Sammeln, Analysen und Visualisierungen durchzuführen und Aktionen festzulegen.
+In diesem Projekt werden die Daten der senseBox mit Hilfe von Thingspeak visualisiert. [Thingspeak](https://thingspeak.com/) ist ein IoT-Platform, die es ermöglicht Daten online zu sammeln, zu analysieren und Visualisierungen durchzuführen sowie Aktionen festzulegen.
 Für dieses Projekt musst du dir einen kostenlosen Thingspeak-Account anlegen.
 
->Die Programmierung des IoT-Gerätes erfolgt mit Hilfe der Arduino IDE. Falls du bisher nicht mit der Arduino IDE gearbeitet hast, findest du in unseren Docs eine [Einführung](https://docs.sensebox.de/category/arduino/). Dort ist erklärt, wie du die Software installierst und alle Vorkehrungen triffstn um durchstarten zu können.
+>Die Programmierung des IoT-Gerätes erfolgt mit Hilfe der Arduino IDE. Falls du bisher nicht mit der Arduino IDE gearbeitet hast, findest du in unseren Docs eine [Einführung](https://docs.sensebox.de/category/arduino/). Dort ist erklärt, wie du die Software installierst und alle Vorkehrungen triffst, um durchstarten zu können.
 
 ## Aufbau
 Stecke das WiFi-Bee auf den Steckplatz __XBEE1__. Der Umweltsensor wird mit einem JST-JST Kabel an einen der 5 __I2C/Wire Ports__ angeschlossen.
@@ -36,7 +36,7 @@ Stecke das WiFi-Bee auf den Steckplatz __XBEE1__. Der Umweltsensor wird mit eine
 
 Um den Service von Thingspeak nutzen zu können, musst du dir zuerst einen kostenlosen Account auf [https://thingspeak.com](https://thingspeak.com) erstellen. 
 {% include image.html image=page.image1 %}
-Nach der erfolgreichen Registrierung landest du auf der Seite "*My Channels*". Als nächstes müsst ihr einen neuen Channel anlegen, in den die senseBox ihre Messdaten übertragen kann.
+Nach der erfolgreichen Registrierung landest du auf der Seite "*My Channels*". Als Nächstes musst du einen neuen Channel anlegen, in den die senseBox ihre Messdaten übertragen kann.
 {% include image.html image=page.image2 %}
 Jeder Channel enthält bis zu 8 "fields" für Messdaten, plus 3 "fields" für Standortdaten und ein weiteres "field" für Statusdaten. Daten, die in einem Channel gesammelt werden, können dann mit Hilfe der Thingspeak Apps analysiert und visualisiert werden.
 {% include image.html image=page.image3 %}
@@ -47,13 +47,13 @@ Als letzten Schritt der Vorbereitung müsst du dir deine __Channel ID__ und dein
 {% include image.html image=page.image4 %}
 
 ## Vorbereitungen in der Arduino IDE
-Auch in der Arduino IDE müssen Vorkehrungen getroffen werden, um die Thingspeak Services zu nutzen. Um die Programmierung zu erleichern bietet Thingspeak eine eigene Arduino Bibliothek an.
-Um diese hinzuzufügen wähle in der Arduino IDE *Werkzeuge* --> *Bibliotheken verwalten* und suche dort nach "Thingspeak" und installieren die gleichnamige Bibliothek von "MathWorks".
+Auch in der Arduino IDE müssen Vorkehrungen getroffen werden, um die Thingspeak Services zu nutzen. Um die Programmierung zu erleichtern, bietet Thingspeak eine eigene Arduino Bibliothek an.
+Um diese hinzuzufügen, wähle in der Arduino IDE *Werkzeuge* --> *Bibliotheken verwalten* und suche dort nach "Thingspeak" und installiere die gleichnamige Bibliothek von "MathWorks".
 {% include image.html image=page.image5 %}
 
 ## Programmierung
 ### Schritt 1: Senden einer einfachen Zahl
-Im Ersten Schritt soll zum Testen der Verbindung nur eine einfache Zahl an Thingspeak gesendet werden, die nach jedem Sendevorgang um 1 erhöht wird.
+Im ersten Schritt soll zum Testen der Verbindung nur eine einfache Zahl an Thingspeak gesendet werden, die nach jedem Sendevorgang um 1 erhöht wird.
 
 Noch vor dem `void setup()` müssen die Bibliotheken hinzugefügt, Variablen definiert und das WiFi Bee initialisiert werden.
 
@@ -71,7 +71,7 @@ Bee* b = new Bee();                          // Initialisieren des WiFi Bees
 WiFiClient  client;
 ```
 <br>
-Im `void setup` muss nun die Verbindung mit dem Internet hergestellt werden und der Serielle Monitor sowie der Thingspeak Client gestartet werden
+Im `void setup` muss nun die Verbindung mit dem Internet hergestellt werden und der Serielle Monitor sowie der Thingspeak Client gestartet werden.
 >Vergiss nicht in der ersten Zeile `b->connectToWiFi("SSID","Passwort")` __SSID__ durch deinen __Netzwerknamen__ und __Passwort__ durch dein __WLAN Passwort__ zu ersetzen!
 
 ```arduino
@@ -105,7 +105,7 @@ if(x == 200){
     Serial.println("Problem updating channel. HTTP error code " + String(x));
   }
 ```
-War der Sendevorgang erfolgreich wird der Hinweis "Channel update successful." an den Seriellen Monitor gesendet. Falls dies nicht der Fall ist wird der Hinweis "Problem updating channel." mit einen angehängten Fehlercode ausgegeben.
+War der Sendevorgang erfolgreich, wird der Hinweis "Channel update successful." an den Seriellen Monitor gesendet. Falls dies nicht der Fall ist, wird der Hinweis "Problem updating channel." mit einen angehängten Fehlercode ausgegeben.
 
 
 > Den Seriellen Monitor kannst du mit einem Klick auf die kleine Lupe oben rechts in der Arduino IDE öffnen. Er bietet die einfachste Möglichkeit sich Informationen ausgeben zu lassen.
@@ -145,16 +145,16 @@ void loop() {
 }
 ```
 <br>
-Übertrage nun deinen Programmcode auf die senseBox MCU. Nachdem das Hochladen des Programmcodes abgeschlossen ist kannst du den Seriellen Monitor öffnen und dir die Statusmeldungen anschauen.
-Wenn alles funktionert sollte deine Channelübersicht auf Thingspeak etwa so aussehen:
+Übertrage nun deinen Programmcode auf die senseBox MCU. Nachdem das Hochladen des Programmcodes abgeschlossen ist, kannst du den Seriellen Monitor öffnen und dir die Statusmeldungen anschauen.
+Wenn alles funktionert, sollte deine Channelübersicht auf Thingspeak etwa so aussehen:
 
 {% include image.html image=page.image6 %}
 
 ### Schritt 2: Senden eines Messwertes
-Nachdem das Senden einer einfachen zahl erfolgreich war, soll diese nun durch echte Sensorwerte ersetzt werden. In diesem Beispiel wird der senseBox Umweltsensor (BME680) verwendet. 
->Wenn du dich sicher in der Programmierung fühlst kannst du selbstverständlich auch jeden anderen Sensor verwenden.
+Nachdem das Senden einer einfachen Zahl erfolgreich war, soll diese nun durch echte Sensorwerte ersetzt werden. In diesem Beispiel wird der senseBox Umweltsensor (BME680) verwendet. 
+>Wenn du dich sicher in der Programmierung fühlst, kannst du selbstverständlich auch jeden anderen Sensor verwenden.
 
-Auch hier müssen noch vor dem `void setup()` verschiedene Variablen deklariert
+Auch hier müssen noch vor dem `void setup()` verschiedene Variablen deklariert 
 
 ```Arduino
 #include "ThingSpeak.h"                      // Hinzufügen der Thingspeak Bibliothek
@@ -209,7 +209,7 @@ void errLeds(void)
 }
 ```
 <br>
-Im `void setup()` müssen dann die WiFi-Verbindung hergestellt, der Serielle Monitor, der Thingspeak Client und der Umweltsensor initialisiert werden
+Im `void setup()` müssen dann die WiFi-Verbindung hergestellt, der Serielle Monitor, der Thingspeak Client und der Umweltsensor initialisiert werden:
 ```Arduino
 void setup() {
   b->connectToWifi("SSID","Passwort");            // Herstellen der WiFi Verbindung 
@@ -239,7 +239,7 @@ checkIaqSensorStatus();
   }
 ```
 <br>
-Im `void loop()` schließlich wird der Sensor gestartet und der jeweilige Messwert abgerufen. In diesem Beispiel die Temperatur. Anschließend wird der Messwert, zusammen mit Channel ID und Write API Key, an die Thingspeak Server gesendet. Auch hier wird im Seriellen Monitor angezeigt, ob der Sendevorgang erfolgreich war.
+Im `void loop()` wird schließlich der Sensor gestartet und der jeweilige Messwert abgerufen. In diesem Beispiel die Temperatur. Anschließend wird der Messwert, zusammen mit Channel ID und Write API Key, an die Thingspeak Server gesendet. Auch hier wird im Seriellen Monitor angezeigt, ob der Sendevorgang erfolgreich war.
 
 ```Arduino
 void loop() {
@@ -269,7 +269,7 @@ if (iaqSensor.run()) { // Starten des Sensors
 }
 ```
 ## Gesamter Code
- Hier findest du den gesamten Code noch einmal in einem Block.
+ Hier findest du den gesamten Code noch einmal in einem Block:
  ```Arduino
 #include "ThingSpeak.h"                      // Hinzufügen der Thingspeak Bibliothek
 #include "SenseBoxMCU.h"                     // Hinzufügen der senseBoxMCU Bilbiothek

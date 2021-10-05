@@ -25,18 +25,24 @@
 - name: Innotruck
   description: Der Innotruck ist durch Deutschland unterwegs und zeigt innovative Technologien. Mit dabei ist auch eine Klassenkiste voll mit senseBoxen.
   logo: /images/logos/network/innotruck.jpg
+  link: https://www.innotruck.de/initiative-innotruck-startseite
 - name: Photonik Forschung Deutschland
   description: Mit der Fördermaßnahme "Open Photonik Pro" verfolgt das Bundesministerium für Bildung und Forschung (BMBF) das Ziel, neue Formen der Zusammenarbeit von Wissenschaft und Wirtschaft mit der Maker- und Gründerszene zu ermöglichen. Mit dem Projekt [senseBox:pro](https://www.photonikforschung.de/projekte/open-innovation/projekt/sensebox-pro.html) wird eine Weiterentwicklung der senseBox und der openSenseMap als Photonik-Tool für Innovationen von professionellen Nutzer*innen gefördert.
   logo: /images/logos/network/LogoPhotonikforschung.png
-- name: Junge Tüftler
-  description: Junge Tüftler ist eine gemeinnützige Organisation mit dem Ziel, Menschen zur aktiven und nachhaltigen Gestaltung der Welt mit digitalen Werkzeugen zu befähigen. Die Tüftler nutzen die senseBox in unseren Workshops, entwickeln gemeinsame Workshop-Formate und Veranstaltungen und arbeiten zusammen mit uns am Thema Open Badges.
+  link: https://www.photonikforschung.de/
+- name: Junge Tüftler:innen
+  description: Junge Tüftler:innen ist eine gemeinnützige Organisation mit dem Ziel, Menschen zur aktiven und nachhaltigen Gestaltung der Welt mit digitalen Werkzeugen zu befähigen. Die Tüftler nutzen die senseBox in unseren Workshops, entwickeln gemeinsame Workshop Formate und Veranstaltungen, und arbeiten zusammen am Thema Open Badges.
   logo: /images/logos/network/junge-tueftler.svg
+  link: https://junge-tueftler.de/
 - name: Dr.-Ing. Paul Christiani GmbH & Co. KG
   description: Das Unternehmen aus Konstanz hat sich auf technische Bildung spezialisiert. Auch die senseBox zählt zum [Sortiment](https://www.christiani.de/schule/schulstufen/sekundarstufe/messen-mit-sensoren/sensebox-edu.html) des Unternehmens, welches zudem auch Fortbildungen und Workshops damit anbietet.
   logo: /images/logos/network/logo_christiani.png
+  link: https://www.christiani.de/
 - name: EducaTec AG
   description: Im Jahr 2004 wurde EducaTec AG mit dem Ziel gegründet, Technik und ingenieurwissenschaftliches Denken in öffentlichen und privaten Schulen der Schweiz zu fördern. Das Unternehmen ist unser [Partner](https://educatec.ch/tectools/sensebox/) in der Schweiz und kümmert sich um Kunden vor Ort.
   logo: /images/logos/network/educatec.png
+  link: https://educatec.ch/
 - name: TRUEBNER GmbH
+  link: https://www.truebner.de/de/startseite.php
   description: Trübner ist unser Partner, wenn es um den Bereich Bewässerungstechnik geht. So wurde zum Beispiel der Sensor für Boderfeuchte [SMT50](https://sensebox.kaufen/product/bodenfeuchte-temperatursensor-smt50) gemeinsam ausgewählt und für die senseBox angepasst.
   logo: /images/logos/network/truebner.png

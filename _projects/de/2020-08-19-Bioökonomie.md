@@ -2,7 +2,7 @@
 layout: project_page  
 date: 2020-08-19  
 author: Verena
-title: "Digital Farming mit der seseBox"
+title: "Digital Farming mit der senseBox"
 abstract: "Ein Projekt im Rahmen des Wissenschaftsjahres 2020 unter dem Motto 'Bioökonomie'."
 thumbnail: /images/projects/Titelbild_Biooekonomie.jpg
 image0: /images/projects/Bioökonomie/Bild0.png

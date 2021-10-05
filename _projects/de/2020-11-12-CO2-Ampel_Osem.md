@@ -3,7 +3,7 @@ layout: project_page
 title: "IoT CO2-Ampel"
 date: 2020-11-12
 author: Verena
-abstract: "Übertragt die Daten eurer CO2-Ampel per Wlan auf die openSenseMap"
+abstract: "Übertragt die Daten eurer CO2-Ampel per Wlan auf die openSenseMap."
 thumbnail:  /images/projects/Titelbild_CO2-Ampel_Osem.png
 image0: /images/projects/CO2-Ampel_Osem/0.png
 image1: /images/projects/CO2-Ampel_Osem/1.png
@@ -32,7 +32,7 @@ difficult: mittel
 <head><title>Datenübertragung mit der CO2-Ampel</title></head>
 
 # Datenübertragung mit der CO2-Ampel
-In diesem Projekt erfährst du, wie du die Daten, die mit der CO2-Ampel in deinem Klassenraum erfasst werden, auf die openSenseMap übertragen kannst. Somit wird deine CO2-Ampel teil eines Citizen-Science Projektes und du kannst deine Luftqualität im Raum mit der vieler anderer Schulen vergleichen. Diese Projekt lässt sich auch mit der senseBox:edu oder senseBox:mini mit einem zusätzlichen [CO2-Sensor](https://sensebox.kaufen/product/co2-sensor) durchführen- 
+In diesem Projekt erfährst du, wie du die Daten, die mit der CO2-Ampel in deinem Klassenraum erfasst werden, auf die openSenseMap übertragen kannst. Somit wird deine CO2-Ampel teil eines Citizen Science Projektes und du kannst deine Luftqualität im Raum mit der vieler anderer Schulen vergleichen. Dieses Projekt lässt sich auch mit der senseBox:edu oder senseBox:mini mit einem zusätzlichen [CO2-Sensor](https://sensebox.kaufen/product/co2-sensor) durchführen. 
 
 ## Aufbau
 Der Aufbau der CO2-Ampel ist ausführlich in dieser [Schritt-für-Schritt Anleitung](https://docs.sensebox.de/hardware/sets-co2-ampel/) beschrieben.
@@ -71,7 +71,7 @@ Damit dir die Werte auf dem Display angezeigt werden, benötigst du die Blöcke 
 
 
 ### Schritt 5: Übertragen der Messwerte an die openSenseMap
-Für ein effizientes Versenden der Daten reicht es aus, wenn dies minütlich geschieht. Daher kannst du aus der Kategorie 'Zeit' den Block 'Messintervall' verwenden und hier das Intervall anpassen. In der Kategorie Web/ openSensemap findest du die Blöcke, die benötigt werden, um die erfassten Daten per Wlan zu übertragen. Als Wert des Sensors kannst du hier ernut die vorhandenen Variablen nutzen. Nun ist es wichtig, dass du die freien Felder ausfüllst. Die dazugehörigen Informationen erhältst du im nächsten Schritt.  
+Für ein effizientes Versenden der Daten reicht es aus, wenn dies minütlich geschieht. Daher kannst du aus der Kategorie 'Zeit' den Block 'Messintervall' verwenden und hier das Intervall anpassen. In der Kategorie Web/openSensemap findest du die Blöcke, die benötigt werden, um die erfassten Daten per Wlan zu übertragen. Als Wert des Sensors kannst du hier ernut die vorhandenen Variablen nutzen. Nun ist es wichtig, dass du die freien Felder ausfüllst. Die dazugehörigen Informationen erhältst du im nächsten Schritt.  
 
 {% include image.html image=page.image5 %}
 

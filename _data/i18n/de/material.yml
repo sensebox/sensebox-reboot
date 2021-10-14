@@ -67,3 +67,10 @@
   description: 'Das übergeordnete Thema dieser Unterrichtsreihe lautet "Data Science mit Python". In dieser konkreten Unterrichtsreihe beziehen sich die Daten auf umweltbezogene Aspekte wie Temperatur, Luftfeuchtigkeit oder Feinstaubbelastung, sodass die SuS eine Umweltanalyse auf Grundlage einer eigenen Fragestellung durchführen sollen.'
   bgImage: /images/material/jupyter_ddipaderborn.png
   link: https://unterrichtsmaterial-ddi.cs.upb.de/Analyse_von_Umweltdaten
+
+- name: "Digitales Mobiles Umweltlabor für die MINT-Fächer"
+  position: t11
+  organisation: Reedu GmbH & Co. KG
+  description: "Verwende die senseBox mit Bluetooth Bee und der Phyphox App als digitales mobiles Umweltlabor."
+  bgImage: /images/material/ble_handreichung.jpg
+  link: https://sensebox.de/docs/senseBox_BluetoothBee_ver1.0.pdf

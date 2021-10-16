@@ -1,3 +1,4 @@
+---
 place: "Bonn"
 title: "Bau und Programmierung einer Umweltmessstation"
 description: "In diesem Workshop werden die Grundlagen der Mikrocontrollerprogrammierung mithilfe der senseBox und ihrer grafischen Programmieroberfläche Blockly vermittelt. Dabei wird gemeinsam eine Umweltmessstation, die die Wetterphänomene deiner Umgebung erfasst und die Grundlage für die Umsetzung der eigenen kreativen Idee bildet, zusammengebaut."

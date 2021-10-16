@@ -1,3 +1,4 @@
+---
 place: "Bonn"
 title: "FutureCamp"
 description: "Das FutureCamp basiert auf dem offenen Veranstaltungsformat eines Barcamps. Jugendliche können sich aktiv einbringen und das Programm mitgestalten. Wir werden dabei eine Session mit der senseBox anbieten."

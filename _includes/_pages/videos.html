@@ -1,5 +1,11 @@
 {% assign videos = site.data.videos %}
 <div class="container">
+  {% if page.lang == "en" %}
+  <div class="row">
+    <p>Most videos are in german, but you can use the english subtitles.</p>
+  </div>
+  {% endif %}
+
   <div class="row row-eq-height">
     {% for video in videos %}
     <div class="col-6 project-item">

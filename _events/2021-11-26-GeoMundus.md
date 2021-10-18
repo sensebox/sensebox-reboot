@@ -1,6 +1,6 @@
 ---
 place: "Lissabon/Online"
-title: "Workshop: Environmental Citizen Science with senesBox and openSenseMap"
+title: "Workshop: Environmental Citizen Science with senseBox and openSenseMap"
 description: "In this workshop participants will learn about environmental citizen science using the modular sensor platform senseBox and the open citizen science data infrastructure openSenseMap."
 link: "https://geomundus.org/2021/"
 starting-date: 2021-11-26

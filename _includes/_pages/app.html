@@ -1,10 +1,13 @@
+{% assign t = site.data.i18n.[page.lang].app %}
 <div class="container">
   <div class="row row-padding">
     <div class="col-lg-12 pb-4 middle">
-      <h1>senseBox APP</h1>
+      <h1>senseBox App</h1>
     </div>
-    <div class="col-lg-12">
-      <p></p>
+    <div class="col-12">
+      <p>{{t.intro}}</p>
+      <p>{{t.explaination}}</p>
+      <p>{{t.attention}}</p>
     </div>
   </div>
 </div>

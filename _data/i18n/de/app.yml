@@ -1,0 +1,4 @@
+headline:
+intro: "Verwende die senseBox Connect App auf deinem Tablet, um Programmcodes über WLAN auf deine senseBox zu übertragen."
+explaination: "Um Programmcodes auf die senseBox zu übertragen muss einmalig über einen Computer ein bestimmter Programmcode übertragen werden. Den Programmcode findest du hier als kompilierte .bin Datei. Kopiere die Datei einfach auf deine senseBox MCU und stecke das WiFi-Bee auf den Steckplatz XBEE1 und du kannst starten"
+attention: "Dieser Schritt muss nur einmalig durchgeführt werden, solange Programmcodes über die App auf die senseBox übertragen werden bleibt die Funktionalität bestehen. Kopierst du allerdings einen Programmcode über deinen Computer auf die senseBox MCU musst du den oben beschriebenen Schritt wiederholen."

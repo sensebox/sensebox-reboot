@@ -1,20 +1,26 @@
 - author: Mario
-  date: 2020-02-09
-  headline: senseBox Webinare
-  text: Freut Euch auf kostenlose senseBox-Webinare bei Christiani. Mehr Informationen findet ihr unter <a href="/de/events" class="btn btn-success">Events</a>
+  date: 2021-11-08
+  headline: senseBox Workshops im Futurium
+  text: Fahrräder sind ein beliebtes nachhaltiges Verkehrsmittel in der Stadt. Man ist unabhängig, bewegt sich, ist an der frischen Luft... Frische Luft?! Autoabgase machen Radfahrern oftmals zu schaffen. Gemeinsam mit dem Start-Up re:edu aus der Fahrradstadt Münster wollen wir prüfen, wo es stinkt und sehen, wo sich Rad- und Autofahrer auf die Pelle rücken. Ein erster Workshop zur senseBox:Bike hat jetzt im Futurium Lab stattgefunden. Mehr Informationen findet ihr unter <a href="https://futurium.de/en/blog/umweltmesser-auf-dem-fahrrad" class="green-link">Produkte</a>
   active: true
 
 - author: Mario
   date: 2020-10-22
   headline: senseBox CO<sub>2</sub>-Ampel
-  text: Wir haben einen Bausatz für eine CO<sub>2</sub> auf Basis der senseBox entwickelt. Mehr Informationen findet ihr unter <a href="/de/products-co2" class="btn btn-success">Produkte</a>
+  text: Wir haben einen Bausatz für eine CO<sub>2</sub> auf Basis der senseBox entwickelt. Mehr Informationen findet ihr unter <a href="/de/products-co2" class="green-link">Produkte</a>
   active: true
 
 - author: David
   date: 2020-05-15
   headline: senseBox Sprechstunde
-  text: Aufgrund der aktuellen Situation (Corona-Krise) können auch wir keine Veranstaltungen vor Ort anbieten. Wir möchten jedoch gerne weiterhin mit Euch in Kontakt bleiben und bieten Sprechtunden an. Ihr habt Fragen zu Blockly, benötigt einen Tipp für die senseBox:home oder wollt einfach mal über Erfahrungen berichten? Dann meldet euch hier an <a href="https://sensebox.de/fortbildung" class="btn btn-success">zur Anmeldung</a>
+  text: Aufgrund der aktuellen Situation (Corona-Krise) können auch wir keine Veranstaltungen vor Ort anbieten. Wir möchten jedoch gerne weiterhin mit Euch in Kontakt bleiben und bieten Sprechtunden an. Ihr habt Fragen zu Blockly, benötigt einen Tipp für die senseBox:home oder wollt einfach mal über Erfahrungen berichten? Dann meldet euch hier an <a href="https://sensebox.de/fortbildung" class="green-link">zur Anmeldung</a>
   active: true
+
+- author: Mario
+  date: 2020-02-09
+  headline: senseBox Webinare
+  text: Freut Euch auf kostenlose senseBox-Webinare bei Christiani. Mehr Informationen findet ihr unter <a href="/de/events" class="green-link">Events</a>
+  active: false
 
 - author: Björn
   date: 2020-05-15
@@ -27,6 +33,3 @@
   headline: Die senseBox im Futurium
   text: Wir haben schon immer mal wieder von unsere Kooperation mit dem Zukunftsmuseum Futurium in Berlin berichtet. Auf deren Homepage haben wir nun eine Projektseite, auf welcher von unserem Exponat, Workshops vor Ort und weiteren Ideen berichtet wird <a href="https://futurium.de/de/sense-box">https://futurium.de/de/sense-box</a>
   active: false
-
-
-

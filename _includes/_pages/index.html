@@ -253,10 +253,14 @@
 </div>
 
 <div class="container section">
-  {% assign news = site.data.i18n.[page.lang].news %}
-  <h1><mark style="background-color: yellow">{{content.news-head}}</mark></h1>
+  {% assign news = site.data.i18n.[page.lang].news %} {% assign t =
+  site.data.i18n.[page.lang].events %}
+
   <div class="row row-padding">
-    <div class="col-lg-7 mx-auto">
+    <div class="col-lg-6 mx-auto">
+      <h2>
+        <mark style="background-color: yellow">{{content.news-head}}</mark>
+      </h2>
       <ul class="timeline">
         {% for news in news %} {% if news.active == true %}
         <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
@@ -269,6 +273,21 @@
           <p class="text-small mt-2 font-weight-light">{{ news.text }}</p>
         </li>
         {% endif %} {% endfor %}
+      </ul>
+      <!-- End -->
+    </div>
+    <div class="col-lg-6 mx-auto">
+      <h2>
+        <mark style="background-color: yellow">{{content.event-head}}</mark>
+      </h2>
+      <ul class="timeline">
+        {% assign events = site.events | sort: 'ending-date' %} {% for event in
+        events %} {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %} {%
+        capture eventendingdateunix %}{{event.ending-date | date: '%s'}}{%
+        endcapture %} {% if eventendingdateunix > nowunix %} {% assign index =
+        forloop.length | minus: forloop.index %} {% include event_template.html
+        event=event %} {% assign i = i | plus: 1 %} {% endif %} {% if i == 8 %}
+        {% break %} {% endif %} {% endfor %}
       </ul>
       <!-- End -->
     </div>

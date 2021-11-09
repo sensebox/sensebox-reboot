@@ -14,7 +14,7 @@
   date: 2020-05-15
   headline: senseBox Sprechstunde
   text: Aufgrund der aktuellen Situation (Corona-Krise) können auch wir keine Veranstaltungen vor Ort anbieten. Wir möchten jedoch gerne weiterhin mit Euch in Kontakt bleiben und bieten Sprechtunden an. Ihr habt Fragen zu Blockly, benötigt einen Tipp für die senseBox:home oder wollt einfach mal über Erfahrungen berichten? Dann meldet euch hier an <a href="https://sensebox.de/fortbildung" class="green-link">zur Anmeldung</a>
-  active: true
+  active: false
 
 - author: Mario
   date: 2020-02-09

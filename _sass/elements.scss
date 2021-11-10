@@ -1,27 +1,35 @@
-.btn-sensebox-red{
+ul {
+  margin-top: 0.5rem;
+  li {
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+  }
+}
+
+.btn-sensebox-red {
   background-color: rgb(252, 70, 43);
   color: white;
 }
 
-.btn-sensebox-green{
-    background-color: rgb(67, 162, 56);
-    color: white;
-  }
+.btn-sensebox-green {
+  background-color: rgb(67, 162, 56);
+  color: white;
+}
 
-  .btn-sensebox-orange{
-    background-color: #F5B22F;
-    color: white;
-  }
+.btn-sensebox-orange {
+  background-color: #f5b22f;
+  color: white;
+}
 
-.btn-sensebox-blue{
-    background-color: rgb( 58, 176, 232);
-    color: white;
-  }
+.btn-sensebox-blue {
+  background-color: rgb(58, 176, 232);
+  color: white;
+}
 
-.btn-sensebox-white{
-    background-color:white;
-    margin-bottom: 1rem;
-  }
+.btn-sensebox-white {
+  background-color: white;
+  margin-bottom: 1rem;
+}
 
 .middle {
   margin-top: auto;
@@ -32,15 +40,11 @@
   }
 }
 
-
 .partner-card {
   display: block;
   border: none;
   .card-body {
-    
     padding-top: 1.25rem;
     padding-left: 0px;
-    
-    
   }
 }

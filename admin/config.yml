@@ -19,6 +19,7 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Author", name: "author", widget: "string" }
-      - { label: "Abstract", name: "abcstract", widget: "string" }
+      - { label: "Abstract", name: "abstract", widget: "string" }
       - { label: "Featured Image", name: "thumbnail", widget: "image" }
       - { label: "Language", name: "lang", widget: "string", default: "de" }
+      - { label: "Body", name: "body", widget: "markdown" }

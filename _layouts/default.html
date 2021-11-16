@@ -1,14 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-{% include header.html %}
+  {% include header.html %}
 
-<body>
-  {% include navbar.html %}
-  {% include masthead.html %}
-  <!-- <div class="container-fluid"> -->
+  <body>
+    {% include navbar.html %} {% include masthead.html %}
+    <!-- <div class="container-fluid"> -->
     {{ content }}
-  <!-- </div> -->
-  {% include footer.html %}
-</body>
-
+    <!-- </div> -->
+    {% include footer.html %}
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", (user) => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
+            });
+          }
+        });
+      }
+    </script>
+  </body>
 </html>

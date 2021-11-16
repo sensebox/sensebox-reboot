@@ -23,3 +23,17 @@ collections:
       - { label: "Featured Image", name: "thumbnail", widget: "image" }
       - { label: "Language", name: "lang", widget: "string", default: "de" }
       - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "events" # Used in routes, e.g., /admin/collections/blog
+    label: "Events" # Used in the UI
+    folder: "_events" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - { label: "Place", name: "place", widget: "string" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Link", name: "link", widget: "string" }
+      - { label: "Start Date", name: "starting-date", widget: "datetime" }
+      - { label: "End Date", name: "ending-date", widget: "datetime" }
+      - { label: "Time", name: "time", widget: "string" }

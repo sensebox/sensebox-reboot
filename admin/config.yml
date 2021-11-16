@@ -37,3 +37,56 @@ collections:
       - { label: "Start Date", name: "starting-date", widget: "datetime" }
       - { label: "End Date", name: "ending-date", widget: "datetime" }
       - { label: "Time", name: "time", widget: "string" }
+
+  - name: "projects" # Used in routes, e.g., /admin/collections/blog
+    label: "Projects DE" # Used in the UI
+    folder: "_projects" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    filter: { field: "lang", value: "de" }
+    fields: # The fields for each document, usually in front matter
+      - {
+          label: "Layout",
+          name: "layout",
+          widget: "hidden",
+          default: "project_page",
+        }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Author", name: "author", widget: "string" }
+      - { label: "Abstract", name: "abstract", widget: "string" }
+      - { label: "Featured Image", name: "thumbnail", widget: "image" }
+      - {
+          label: "Material",
+          name: "material",
+          widget: "select",
+          multiple: true,
+          options:
+            [
+              { value: "senseBox MCU", label: "senseBox MCU" },
+              { value: "RGB-LED", label: "RGB-LED" },
+              { value: "JST Adaperkabel", label: "JST Adaperkabel" },
+              { value: "470Ω Widerstand", label: "470Ω Widerstand" },
+            ],
+        }
+      - { label: "IDE", name: "ide", widget: "string" }
+      - { label: "Language", name: "lang", widget: "string", default: "de" }
+      - {
+          label: "Difficult",
+          name: "difficult",
+          widget: "select",
+          options:
+            [
+              { value: "leicht", label: "easy" },
+              { value: "mittel", label: "medium" },
+              { value: "schwer", label: "hard" },
+            ],
+        }
+      - {
+          label: "senseBox Version",
+          name: "version",
+          widget: "select",
+          multiple: true,
+          options: ["edu", "mini"],
+        }
+      - { label: "tags", name: "tags", widget: "list" }
+      - { label: "Body", name: "body", widget: "markdown" }

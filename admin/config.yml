@@ -6,7 +6,7 @@ backend:
 publish_mode: editorial_workflow
 
 # This line should *not* be indented
-media_folder: "images/" # Media files will be stored in the repo under images/uploads
+media_folder: "images/uploads" # Media files will be stored in the repo under images/uploads
 
 collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
@@ -67,7 +67,17 @@ collections:
               { value: "470Ω Widerstand", label: "470Ω Widerstand" },
             ],
         }
-      - { label: "IDE", name: "ide", widget: "string" }
+      - {
+          label: "IDE",
+          name: "ide",
+          widget: "select",
+          options:
+            [
+              { value: "blockly", label: "blockly" },
+              { value: "arduino", label: "arduino" },
+              { value: "nepo", label: "nepo" },
+            ],
+        }
       - { label: "Language", name: "lang", widget: "string", default: "de" }
       - {
           label: "Difficult",

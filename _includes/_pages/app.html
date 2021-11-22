@@ -8,7 +8,7 @@
       <h2>Vorbereitungen</h2>
       <p>
         Damit du die senseBox App zum übertragen von Programmcodes verwenden
-        kannst musst du zunächst einige Vorbereitungen treffen
+        kannst musst du zunächst einige Vorbereitungen treffen.
       </p>
       <ol>
         <li>
@@ -32,24 +32,54 @@
         </li>
         <li>
           <p>
-            Kopiere den OTA-Sketch über deinen Computer auf die senseBox MCU.
+            Für die Verbindung zur senseBox wird später deine WiFi-ID benötigt.
+            Die WiFi-ID ist eine einzigartige Identifikation, die du in der
+            senseBox Connect App eingeben kannst. Die WiFi-ID deiner senseBox
+            bzw. deines WiFi-Bees findest du auf der Rückseite und besteht aus
+            den letzten 4 Stellen der MAC-Adresse deines WiFi-Bees. Am besten
+            notierst du dir irgendwo deine WiFi-ID, damit du sie später wieder
+            finden kannst.
           </p>
           <p>
+            Stecke das WiFi-Bee auf den Steckplatz XBee-1 auf der senseBox MCU.
+          </p>
+          <div class="row">
+            <div class="col-6">
+              <img
+                src="/images/app/wifi-id.jpg"
+                alt="WiFi-ID"
+                class="img-fluid"
+              />
+            </div>
+            <div class="col-6">
+              <img
+                src="/images/app/wifibee.jpeg"
+                alt="WiFi-ID"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+        </li>
+        <li>
+          <p>
+            Kopiere den OTA-Sketch über deinen Computer auf die senseBox MCU.
+          </p>
+          <em>
             Dieser Schritt muss nur einmal ausgeführt werden solange du deine
             senseBox MCU über das Tablet programmierst. Sobald du erneut einen
             Programmcode über den Computer auf die senseBox MCU kopierst muss
             dieser Schritt erneut ausgeführt werden.
+          </em>
+          <p>
+            <a class="btn btn-sensebox-green" href="/docs/ota_boot.bin"
+              >Download</a
+            >
           </p>
-          <a class="btn btn-sensebox-green" href="/docs/ota_boot.bin"
-            >Download</a
-          >
         </li>
         <li>
           <p>
-            Erstelle deinen Programmcode auf dem Tablet in der
-            <a href="https://blockly-react.netlify.app" class=""
-              >senseBox Lern- und Programmierumgebung</a
-            >
+            Verbinde die senseBox MCU mit einer Stromquelle. Du kannst hierfür
+            ein USB-Netzteil oder auch eine Powerbank nutzen.
           </p>
         </li>
       </ol>
@@ -59,15 +89,19 @@
       <h2>Programmieren und Programmcode übertragen</h2>
       <ul>
         <li>
-          Erstelle deinen Programmcode in der
-          <a
-            href="https://deploy-preview-118--blockly-react.netlify.app/"
-            class=""
-            >senseBox Lern- und Programmierumgebung</a
-          >
-          Wenn du die Programmierung abgeschlossen hast Klicke auf den orangen
-          Button, um den Programmcode zu kompilieren und die Übertragung zu
-          starten.
+          <p>
+            Erstelle deinen Programmcode in der
+            <a
+              href="https://deploy-preview-118--blockly-react.netlify.app/"
+              class=""
+              >senseBox Lern- und Programmierumgebung</a
+            >
+          </p>
+          <p>
+            Wenn du die Programmierung abgeschlossen hast Klicke auf den orangen
+            Button, um den Programmcode zu kompilieren und die Übertragung zu
+            starten.
+          </p>
         </li>
         <li>
           Nachdem der Code erfolgreich kompiliert und überprüft wurde starte die
@@ -99,9 +133,10 @@
       </ul>
     </div>
     <div class="col-12">
+      <h2>Video</h2>
       <p>
-        Ein Video wie du senseBox mit dem Tablet programmieren kannst findest du
-        auch hier
+        Ein Video welches dir den kompletten Prozess zeigt du senseBox mit dem
+        Tablet programmieren kannst findest du auch hier
       </p>
     </div>
   </div>

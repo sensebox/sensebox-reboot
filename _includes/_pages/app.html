@@ -2,7 +2,7 @@
 <div class="container">
   <div class="row row-padding">
     <div class="col-lg-12 pb-4 middle">
-      <h1>senseBox App</h1>
+      <h1>senseBox Connect App</h1>
     </div>
     <div class="col-12">
       <h2>Vorbereitungen</h2>
@@ -17,7 +17,12 @@
             Smartphone. (Wir empfehlen zum Programmieren des Programmcodes ein
             Tablet zu verwenden)
           </p>
-          <a href="/" class="" target="_blank" style="display: inline-block">
+          <a
+            href="https://apps.apple.com/app/id1586961095#?platform=ipad"
+            class=""
+            target="_blank"
+            style="display: inline-block"
+          >
             <object
               style="pointer-events: none"
               data="/images/app/Download_on_the_App_Store_Badge_DE_RGB_blk_092917.svg"
@@ -45,18 +50,10 @@
           </p>
           <div class="row">
             <div class="col-6">
-              <img
-                src="/images/app/wifi-id.jpg"
-                alt="WiFi-ID"
-                class="img-fluid"
-              />
+              {% include image.html image="/images/app/wifi-id.jpg" %}
             </div>
             <div class="col-6">
-              <img
-                src="/images/app/wifibee.jpeg"
-                alt="WiFi-ID"
-                class="img-fluid"
-              />
+              {% include image.html image="/images/app/wifibee.jpeg" %}
             </div>
           </div>
         </li>
@@ -87,7 +84,7 @@
 
     <div class="col-12">
       <h2>Programmieren und Programmcode übertragen</h2>
-      <ul>
+      <ol>
         <li>
           <p>
             Erstelle deinen Programmcode in der
@@ -96,7 +93,11 @@
               class=""
               >senseBox Lern- und Programmierumgebung</a
             >
+            {% include image.html image="/images/app/IMG_0067.PNG" %}
+
           </p>
+          <p>Die Programmieroberfläche erkennt in der Regel automatisch welches Gerät du zum Programmieren verwendest und aktiviert, wenn du die Oberfläche von einem Tablet öffnest automatisch den Tabletmodus. Dies wird durch ein Begrüßungsfenster dargestellt. Sollte dieses Fenster nicht angezeigt werden, wenn du die Seite auf einem Tablet öffnest, kannst du den Tablet Modus auch in den Einstellung unter "Tablet Modus" aktivieren.</p>
+          {% include image.html image="/images/app/tablet_modus01.png" %}
           <p>
             Wenn du die Programmierung abgeschlossen hast Klicke auf den orangen
             Button, um den Programmcode zu kompilieren und die Übertragung zu
@@ -106,29 +107,38 @@
         <li>
           Nachdem der Code erfolgreich kompiliert und überprüft wurde starte die
           Übertragung.
+          {% include image.html image="/images/app/IMG_0068.PNG" %}
         </li>
         <li>
           Nachdem du den Button "Starte Übertragung" gedrückt hast wirst du
           gefragt ob du die senseBox App öffnen möchtest.
+          {% include image.html image="/images/app/IMG_0069.PNG" %}
         </li>
         <li>
           Nach dem Öffnen der App kannst du den Prozess des Übertragens auf
           deine senseBox mit einem Drücken auf dem Button starten.
+          {% include image.html image="/images/app/IMG_0070.PNG" %}
         </li>
         <li>
           Starte den OTA Modus auf deiner senseBox durch halten des Switch
-          Buttons und drücken des Reset Buttons. Im Video siehst du wie du den
-          OTA Modus aktivierst.
+          Buttons und drücken des Reset Buttons. Lasse den Reset Button los und
+          halte den Switch Button für weitere 5 Sekunden gedrückt, bis die gelbe
+          LED neben dem Reset Button anfängt zu blinken. 
+          <p>Im Video siehst du wie
+          du den OTA Modus aktivierst.</p>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/jzlOJ7Zuqqw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </li>
         <li>
           Trage die WiFi-ID deiner senseBox ein und stelle die Verbindung durch
           einen Klick auf den Button her. Sobald die Verbindung hergestellt
           wurde kannst du den Programmcode übertragen.
+          {% include image.html image="/images/app/IMG_0071.PNG" %}
         </li>
         <li>
           Super! Der Programmcode wurde übertragen und wird nun von der senseBox
           MCU ausgeführt. Beachte, dass du jedes mal, wenn du einen Programmcode
           neu übertragen willst diese Schritte erneut ausgeführt werden müssen.
+        {% include image.html image="/images/app/IMG_0073.PNG" %}
         </li>
       </ul>
     </div>

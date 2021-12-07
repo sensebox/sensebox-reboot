@@ -81,10 +81,3 @@
   description: "Eine Unterrichtsreihe zur Thematik des Klimawandels"
   bgImage: /images/material/klimawandel_lehrkonzept.png
   link: /docs/Klimawandel_Lehrkonzept_Masterarbeit.pdf
-
-- name: "Moderner Physik- und Geographieunterricht mit der senseBox: Der Einsatz einer Solarzelle"
-  position: t13
-  organisation: Reedu GmbH & Co. KG
-  description: "Ein Unterrichtskonzept zum Einsatz einer durch Solarenergie betriebenen senseBox. Theorie, Praxisbeispiel und eine Einbindung in die Bildungsstandards"
-  bgImage: /images/material/solarzelle.jpeg
-  link: /docs/sensebox_unterrichtskonzept_solarzelle.pdf

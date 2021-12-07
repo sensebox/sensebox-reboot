@@ -3,7 +3,7 @@
   organisation: senseBox - Team
   description: Lernkarten für das selbstständige Arbeiten mit der senseBox und der Programmierung mit Blockly. Die Lernkarten können doppelseitig ausgedruckt werden.
   bgImage: /images/material/cards.png
-  download: https://sensebox.de/docs/senseBox_Lernkarten_v2.2_online.pdf
+  download: /docs/senseBox_Lernkarten_v2.2_online.pdf
 
 - name: senseBox Lehrhandreichung
   position: t2
@@ -45,7 +45,7 @@
   organisation: ETH - Zürich
   description: Die ETH Zürich verwendet die senseBox in der Lehre in zwei verschiedenen Studiengängen und stellt uns und euch die Materialien aus der Lehre zu verfügung (Zurzeit nur auf Englisch)
   bgImage: /images/material/eth.jpg
-  download: https://sensebox.de/docs/ETH_GeosensorsLab_tutorial.pdf
+  download: /docs/ETH_GeosensorsLab_tutorial.pdf
 
 - name: Mikrocontroller im MINT-Unterricht
   position: t8
@@ -73,4 +73,18 @@
   organisation: Reedu GmbH & Co. KG
   description: "Verwende die senseBox mit Bluetooth Bee und der Phyphox App als digitales mobiles Umweltlabor. In diesem Material werden dir 3 spannende Einsatzzwecke für verschiede MINT-Fächer gezeigt."
   bgImage: /images/material/ble_handreichung.jpg
-  link: https://sensebox.de/docs/senseBox_BluetoothBee_ver1.0.pdf
+  link: /docs/senseBox_BluetoothBee_ver1.0.pdf
+
+- name: "Die senseBox als Toolkit für zukunftsweisenden Geographieunterricht"
+  position: t12
+  organisation: Reedu GmbH & Co. KG
+  description: "Eine Unterrichtsreihe zur Thematik des Klimawandels"
+  bgImage: /images/material/klimawandel_lehrkonzept.png
+  link: /docs/Klimawandel_Lehrkonzept_Masterarbeit.pdf
+
+- name: "Moderner Physik- und Geographieunterricht mit der senseBox: Der Einsatz einer Solarzelle"
+  position: t13
+  organisation: Reedu GmbH & Co. KG
+  description: "Ein Unterrichtskonzept zum Einsatz einer durch Solarenergie betriebenen senseBox. Theorie, Praxisbeispiel und eine Einbindung in die Bildungsstandards"
+  bgImage: /images/material/solarzelle.jpeg
+  link: /docs/sensebox_unterrichtskonzept_solarzelle.pdf

@@ -8,7 +8,7 @@ thumbnail: /images/projects/Titelbild_Hitzefrei.png
 image0: /images/projects/Hitzefrei/Aufbau.png
 image1: /images/projects/Hitzefrei/1.svg
 image2: /images/projects/Hitzefrei/2.svg
-image3: /images/projects/Hitzefrei/3.svg
+image3: /images/projects/Hitzefrei/3.PNG
 
 material:
   - senseBox MCU

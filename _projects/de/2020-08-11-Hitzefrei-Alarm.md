@@ -8,7 +8,7 @@ thumbnail: /images/projects/Titelbild_Hitzefrei.png
 image0: /images/projects/Hitzefrei/Aufbau.png
 image1: /images/projects/Hitzefrei/1.svg
 image2: /images/projects/Hitzefrei/2.svg
-image3: /images/projects/Hitzefrei/3.svg
+image3: /images/projects/Hitzefrei/3.PNG
 
 material:
   - senseBox MCU
@@ -27,7 +27,7 @@ difficult: leicht
 
 ## Aufbau
 
-Das Display sowie den Temperatursensor schließt du mithilfe eines JST-JST-Kabels an einem der I2C/Wire Anschlüsse der senseBox MCU an. Um die rote LED anzuschließen, brauchst du das JST-Adapterkabel. Dies verbindest du mit einem der Digital/Analog Ports. Nun besitzt du vier freie Kabel in den Farben Schwarz, Rot, Grün und Gelb. Das schwarze Kabel ist die Erdung (GND) und somit auch der Minuspol des Stromkreises. Das rote Kabel ist der Pluspol, hier herrschen dauerhaft 5 Volt. Mithilfe des grünen und gelben Kabels kann man später bei der Programmierung selbst bestimmen, ob Strom fließt, und wenn, wie viel. Um nun deinen Stromkreis zu vollenden, schließe das schwarze Kabel an den Minuspol der LED (kürzerer Draht) und das grüne oder gelbe Kabel an den Widerstand, der mit dem Pluspol der LED (längerer Draht) verbunden ist. Die folgende Abbildung zeigt dir, wie der Aufbau abschließend aussehen sollte.
+Das Display sowie den Temperatursensor schließt du mithilfe eines JST-JST-Kabels an einem der I2C/Wire Anschlüsse der senseBox MCU an. Um die rote LED anzuschließen, brauchst du das JST-Adapterkabel. Dies verbindest du mit einem der Digital/Analog Ports. Nun besitzt du vier freie Kabel in den Farben schwarz, rot, grün und gelb. Das schwarze Kabel ist die Erdung (GND) und somit auch der Minuspol des Stromkreises. Das rote Kabel ist der Pluspol, hier herrschen dauerhaft 5 Volt. Mithilfe des grünen und gelben Kabels kann man später bei der Programmierung selbst bestimmen, ob Strom fließt, und wenn, wie viel. Um nun deinen Stromkreis zu vollenden, schließe das schwarze Kabel an den Minuspol der LED (kürzerer Draht) und das grüne oder gelbe Kabel an den Widerstand, der mit dem Pluspol der LED (längerer Draht) verbunden ist. Die folgende Abbildung zeigt dir, wie der Aufbau abschließend aussehen sollte.
 
 {% include image.html image=page.image0 %}
 

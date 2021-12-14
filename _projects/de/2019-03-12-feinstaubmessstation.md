@@ -35,7 +35,7 @@ wird, auch die Temperatur und die Luftfeuchtigkeit gemessen werden, um die Messw
 
 ## Aufbau 
 Verbinde im ersten Schritt das Wifi Bee mit dem XBee Steckplatz 1. Anschließend verbindest du mit dem JST-Kabel das Display und
-den Temperatur- und Luftfeuchtigkeitssensor mit einem der I2C/Wire Steckplätzen. Der Feinstaubsensor wird mit dem entsprechenden
+den Temperatur- und Luftfeuchtigkeitssensor mit einem der I2C/Wire Steckplätze. Der Feinstaubsensor wird mit dem entsprechenden
 Kabel an einen UART/Serial Anschluss angeschlossen. 
 
 ## Programmierung 

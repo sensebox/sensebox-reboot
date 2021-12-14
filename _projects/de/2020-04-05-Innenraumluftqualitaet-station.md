@@ -40,7 +40,7 @@ Die Programmierung der Messstation wird in [Blockly](https://blockly.sensebox.de
 
 ### Schritt 1: Die erste Anzeige auf dem Display 
 
-Initialisiere das Display im __Setup()__ und füge den Block __Zeige auf dem Display__ in die Endlosschleife ein. Mit dem Block __Schreibe Text/Zahl__ kannst du die jeweilen Messwerte auf dem Display anzeigen lassen. Um zwei Messwerte auf dem Display gleichzeitg anzuzeigen musst du jeweils die Platzierung (Verschiebung auf der Y-Achse) auf dem Display anpassen. Als ersten wird ein Block __Text__ hinzufügt, um zu beschreiben um welchen Sensorwert es sich handelt. Der Sensorwert selber wird in Schriftgröße 2 dargstellt und über die Koordinaten in Y- und X-Richtung verschoben. 
+Initialisiere das Display im __Setup()__ und füge den Block __Zeige auf dem Display__ in die Endlosschleife ein. Mit dem Block __Schreibe Text/Zahl__ kannst du die jeweilen Messwerte auf dem Display anzeigen lassen. Um zwei Messwerte auf dem Display gleichzeitg anzuzeigen musst du jeweils die Platzierung (Verschiebung auf der Y-Achse) auf dem Display anpassen. Als ersten wird ein Block __Text__ hinzufügt, um zu beschreiben, um welchen Sensorwert es sich handelt. Der Sensorwert selber wird in Schriftgröße 2 dargstellt und über die Koordinaten in Y- und X-Richtung verschoben. 
 
  {% include block.html image=page.image1 %}
 
@@ -52,7 +52,7 @@ Zusätzlich zum Temperaturmesswert kann auf dem Display noch der Messwert für d
 
 Damit die anderen Messwerte auch auf dem Display angezeigt werden können, muss ein Abfolge erstellt werden. Am einfachsten lässt sich die Abfolge, mit verschiedenen Displayinhalten über die __Fallunterscheidung__ umsetzten. Hierbei wird je nach Wert ein bestimmten Variablen ein anderer Programmcode ausgeführt. Die Variable kann einfach nach einem bestimmten Zeitintervall hochgezählt werden, sodass alle Fälle nacheinander ausgeführt werden.
 
-Lege dazu im __Setup()__ eine neue Variable mit den Namen __status__ an und weise ihr den Wert __0__ zu. Anschließend füge die Fallunterscheidung hinzu. Die Fallunterscheidung findest du unter __Logik__. Als Variable fügst du dort __status__ and und gibst an was beim Fall __0__ ausgeführt werden soll. Über das Zahnrad kannst du weitere Fälle hinzufügen.
+Lege dazu im __Setup()__ eine neue Variable mit den Namen __status__ an und weise ihr den Wert __0__ zu. Anschließend füge die Fallunterscheidung hinzu. Die Fallunterscheidung findest du unter __Logik__. Als Variable fügst du dort __status__ ein und gibst an was beim Fall __0__ ausgeführt werden soll. Über das Zahnrad kannst du weitere Fälle hinzufügen.
 
  {% include block.html image=page.imageFall00 %}
 
@@ -65,7 +65,7 @@ Im ersten Fall (status = 0) wird die Temperatur und Luftfeuchtigkeit angezeigt.
 #### Fall 01 
 Im zweiten Fall (status = 1) wird nun der Messwerte für den Luftdruck und den Indoor Airquality Index angezeigt.
   {% include block.html image=page.imageFall01 %}
-Nun wird über den Block __Messintervall__ alle 10 Sekunden die Variable Status um 1 hochgezählt. Wenn die Variable 2 erreicht hat wird diese wieder auf 0 gesetzt, sodass wieder der erste Bildschirm angezeigt wird. Je nach Anzahl der Fälle wird der Zähler hochgesetzt und bei insgesamt 4 Fällen erst bei 5 wieder auf 0 gesetzt. 
+Nun wird über den Block __Messintervall__ alle 10 Sekunden die Variable Status um 1 hochgezählt. Wenn die Variable den Wert 2 erreicht hat, wird diese wieder auf 0 gesetzt, sodass wieder der erste Bildschirm angezeigt wird. Je nach Anzahl der Fälle wird der Zähler hochgesetzt und bei insgesamt 4 Fällen erst bei 5 wieder auf 0 gesetzt. 
 
 ### Schritt 3: Weitere Messwerte hinzufügen
 
@@ -81,7 +81,7 @@ Im nächsten Schritt werden weitere Fälle hinzugefügt und die Messwerte für V
 
 
 ### Kalibrierungswert
-Um zuverlässige Messwerte zu liefern kalibriert sich der Sensor anhand der Umgebungsluft selbst. Der Status wird jeweils über den Kalibrierungswert angezeigt. Daher ist es sinnvoll diesen auch auf dem Display anzeigen zulassen, sodass man sehen kann ob die Kalibrierung abgeschlossen ist und die Messwerte verwendet werden können. Wenn der Sensor nicht kalibriert ist oder sich gerade kalibriert werden Messwerte ausgegeben, die allerdings nicht verwendet werden sollten. Folgende Werte für den Kalibrierungswert gibt es:
+Um zuverlässige Messwerte zu liefern, kalibriert sich der Sensor anhand der Umgebungsluft selbst. Der Status wird jeweils über den Kalibrierungswert angezeigt. Daher ist es sinnvoll diesen auch auf dem Display anzeigen zulassen, sodass man sehen kann, ob die Kalibrierung abgeschlossen ist und die Messwerte verwendet werden können. Wenn der Sensor nicht kalibriert ist oder sich gerade kalibriert, werden Messwerte ausgegeben, die allerdings nicht verwendet werden sollten. Folgende Werte für den Kalibrierungswert gibt es:
 - 0: Der Sensor ist gerade gestartet und befindet sich in der Warm Up Phase
 - 1: Die bisheringen Messwerte zeigen zu wenig Unterschiede und können nicht zum Kalibrieren verwendet werden.
 - 2: Der Sensor wird kalibriert
@@ -99,9 +99,9 @@ Zuerst musst du deine Messstation auf [https://workshop.opensensemap.org](https:
 {% include image.html image=page.image4 %}
 
 Klicke auf die entsprechenden Messwerte unter dem BME680, um diese deinem Messgerät hinzuzufügen.
-Nach dem Abschluss der Registrierung erhälst du eine Übersicht über die registrierten Phänomene und die zugehörigen ID's. Lasse die Seite geöffnet, da du die ID's in Blockly kopieren musst. 
+Nach dem Abschluss der Registrierung erhälst du eine Übersicht über die registrierten Phänomene und die zugehörigen ID's. Lasse die Seite geöffnet, da du die ID's in Blockly kopieren musst. Zusätzlich benötigst du den API-Schlüssel, der unter dem Punkt "Sicherheit" zu finden ist, wenn du deine senseBox auf der openSenseMap editierst.
 
-Um Messwerte an die openSenseMap zu übertragen muss eine Internetverbindung hergestellt werden. Dazu wird die senseBox einfach mit deinem Wlan verbunden, so erhälst du Zugriff auf deine Messwerte überall auf der Welt. Ziehe dazu den Block __Verbinde mit WLAN__ in das __Setup()__ und füge dort deinen Netzwerknamen und das Passwort ein.
+Um Messwerte an die openSenseMap zu übertragen, muss eine Internetverbindung hergestellt werden. Dazu wird die senseBox einfach mit deinem Wlan oder mobilen Hotspot verbunden, so erhälst du Zugriff auf deine Messwerte überall auf der Welt. Ziehe dazu den Block __Verbinde mit WLAN__ in das __Setup()__ und füge dort deinen Netzwerknamen und das Passwort ein.
 Für das Übertragen der Messwerte wird ein zusätzlicher Fall in der Fallunterscheidung angelegt, der ausgeführt wird, wenn die Variable __status__ den Wert 4 hat. 
 Ziehe zum Übertragen der Messwerte den Block **Verbinde mit der openSenseMap** in den Blockabschnitt für den offenen Fall. Wähle bei diesem Block den __Typ__ **Stationär** und kopiere deine senseBox ID aus der Übersicht. 
 

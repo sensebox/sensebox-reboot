@@ -47,13 +47,13 @@ Baue den oben abgebildeten Programmcode nach und übertrage den Code auf deine s
 
 ### Schritt 2
 
-Wie dir bestimmt aufgefallen ist, halten sich die Werte in einem Wertebereich von -2 bis 2 auf, was keine genauen Aussagen über die Lage deiner MCU zulässt. Dies liegt daran, dass bei einem Messbereich von 2G die Werte auf ganzzahlige Werte gerundet werden und so die Nachkommastellen nicht angezeigt werden. Um dieses Problem zu lösen, kannst du den Wert einfach mit 100 multiplizieren, um so Werte von -200 bis 200 zu erhalten.
+Wie dir bestimmt aufgefallen ist, halten sich die Werte in einem Wertebereich von -2 bis 2 auf, was keine genauen Aussagen über die Lage deiner MCU zulässt. Dies liegt daran, dass bei einem Messbereich von 2G die Werte auf ganzzahlige Werte gerundet und so die Nachkommastellen nicht angezeigt werden. Um dieses Problem zu lösen, kannst du den Wert einfach mit 100 multiplizieren, um so Werte von -200 bis 200 zu erhalten.
 
 {% include image.html image=page.image2 %}
 
 ### Schritt 3
 
-Nun da die Werte aussagekräftiger sind, kannst du sie verwenden, um eine wirkliche Wasserwaage zu programmieren. Dazu musst du eine "Luftblase" oder einen Punkt programmieren, der sich je nach Ausrichtung deiner MCU bewegt. In der Toolbox findest du in der Display-Kategorie einen Block, um Punkte auf dem Display zeichnen zu lassen. Der Block "Zeichne Punkt" kann verwendet werden, um einen Punkt mit einer bestimmten Größe auf dem Display anzeigen zu lassen.
+Da die Werte aussagekräftig sind, kannst du sie verwenden, um eine wirkliche Wasserwaage zu programmieren. Dazu musst du eine "Luftblase" oder einen Punkt programmieren, der sich je nach Ausrichtung deiner MCU bewegt. In der Toolbox findest du in der Display-Kategorie einen Block, um Punkte auf dem Display zeichnen zu lassen. Der Block "Zeichne Punkt" kann verwendet werden, um einen Punkt mit einer bestimmten Größe auf dem Display anzeigen zu lassen.
 Um einen Punkt zu zeichnen, müssen drei verschiedene Parameter angegeben werden: Die x- und y-Koordinate auf dem Display und der Radius. Der Radius wird in Pixeln angegeben und sollte nicht zu groß sein. In diesem Beispiel wird immer ein Radius von 5 Pixeln verwendet. Das Display hat auf seiner x-Achse 128 und auf der y-Achse 64 Pixel, deine Messwerte des Beschleunigungssensors liegen allerdings zwischen -100 und 100 beim normalen Bewegen der Platine. Damit deine Werte nun sinnvoll zur Steuerung des Punktes eingesetzt werden können, müssen sie auf den Wertebereich des Displays, also einen x-Wert von 0-128 und einen y-Wert von 0-64, angepasst werden. Dafür hält die Informatik eine praktische Funktion bereit: Das Mapping.
 {% include image.html image=page.image3 %}
 
@@ -62,7 +62,7 @@ Um den Punkt mit Hilfe der Ausrichtung zu steuern, legst du am besten zwei Varia
 
 ### Schritt 4
 
-Nun bewegt sich dein Punkt je nach Ausrichtung der MCU. Was jetzt noch fehlt, ist ein Kreis um zu erkennen, ob die programmierte "Luftblase" wirklich in der Mitte des Displays liegt, die Wasserwaage also gerade liegt. Dazu kannst du mit den Block "Zeichne Punkt" genau in der Mitte des Displays, also bei einem x-Wert von 64 und einem y-Wert von 32 einen Punkt zeichnen. Wichtig ist, dass du das Häkchen bei "ausgefüllt" entfernst. Den Radius kannst du frei wählen und so die Genauigkeit deiner Wasserwaage anpassen. In unserem Beispiel haben wir einen Radius von 10 gewählt.
+Nun bewegt sich dein Punkt je nach Ausrichtung der MCU. Was jetzt noch fehlt ist ein Kreis, um zu erkennen, ob die programmierte "Luftblase" wirklich in der Mitte des Displays liegt, die Wasserwaage also gerade liegt. Dazu kannst du mit den Block "Zeichne Punkt" genau in der Mitte des Displays, also bei einem x-Wert von 64 und einem y-Wert von 32, einen Punkt zeichnen. Wichtig ist, dass du das Häkchen bei "ausgefüllt" entfernst. Den Radius kannst du frei wählen und so die Genauigkeit deiner Wasserwaage anpassen. In unserem Beispiel haben wir einen Radius von 10 gewählt.
 
 {% include image.html image=page.image4 %}
 

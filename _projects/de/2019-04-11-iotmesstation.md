@@ -16,6 +16,7 @@ material:
   - Luftdrucksensor
   - Helligkeits- und UV-Sensor
   - JST-Kabel
+  - Wifi-Bee
 ide: blockly
 lang: de
 version: ["edu"]
@@ -29,7 +30,7 @@ Ziel dieses Projektes ist es, eine senseBox Umweltstation aufzubauen. Am Ende wi
 
 ## Aufbau
 
-Schließe die Sensoren deiner Wahl mithilfe der mitgelieferten JST-Kabel an den I2C-Anschlüssen der senseBox MCU an.
+Schließe die Sensoren deiner Wahl mithilfe der mitgelieferten JST-Kabel an den I2C-Anschlüssen der senseBox MCU an. Das Wifi-Bee wird auf den Steckplatz XBEE1 gesteckt.
 
 <div class="panel panel-success">
   <div class="panel-heading">
@@ -73,8 +74,8 @@ Im ersten Schritt wird eine Verbindung mit dem Internet über WiFi hergestellt. 
 
 ### Schritt 2: Verbindung zur openSenseMap und hochladen der Messwerte
 
-Hast du den korrekten Netzwerknamen und das Passwort eingegeben, kann nun eine Verbindung zur openSenseMap hergestellt werden. Um das Netzwerk nicht zu überlasten, werden die Messwerte alle 60 Sekunden übertragen. Den passenden Block hierfür findest du in der Kategorie `Zeit`. Ziehe diesen in die Endlosschleife und ändere das Messintervall zu 60000 Millisekunden. Nun soll alle 60 Sekunden eine Verbindung zur openSenseMap hergestellt werden. Den Block dafür findest du in der Kategorie `Web`-> `openSenseMap`. Ähnlich, wie bei der Verbindug über WiFi aus Schritt 1, musst du in diesem Block deine senseBox ID aus Schritt 2 der Vorbereitung angeben.
-In diesem Block kannst du nun alle Sensoren, die du registriert hast, angeben und somit hochladen. Dafür wird der Block `Sende Messwerte an die openSenseMap` aus der Kategorie `Web`-> `openSenseMap` benötigt. An diesen Block kann nun der Wert für den Sensor aus der Kategorie `Sensoren` eingefügt werden.
+Hast du den korrekten Netzwerknamen und das Passwort eingegeben, kann nun eine Verbindung zur openSenseMap hergestellt werden. Damit es bei dieser Verbindung keine Probleme gibt, empfiehlt sich vor allem in der Schule die Verwendung eines mobilen Hotspots über das Smartphone. Dafür muss der Hotspot am Handy aktiviert und ebenfalls der Netzwerkname und das Passwort im vorgesehenen Feld in Blockly eingetragen werden. Um das Netzwerk nicht zu überlasten, werden die Messwerte alle 60 Sekunden übertragen. Den passenden Block hierfür findest du in der Kategorie `Zeit`. Ziehe diesen in die Endlosschleife und ändere das Messintervall zu 60000 Millisekunden. Nun soll alle 60 Sekunden eine Verbindung zur openSenseMap hergestellt werden. Den Block dafür findest du in der Kategorie `Web`-> `openSenseMap`. Ähnlich, wie bei der Verbindug über WiFi aus Schritt 1, musst du in diesem Block deine senseBox ID aus Schritt 2 der Vorbereitung angeben. In diesem Block kannst du nun alle Sensoren, die du registriert hast, angeben und somit hochladen. Dafür wird der Block `Sende Messwerte an die openSenseMap` aus der Kategorie `Web`-> `openSenseMap` benötigt. An diesen Block kann nun der Wert für den Sensor aus der Kategorie `Sensoren` eingefügt werden.
+Abhängig davon, welche Blockly-Version du nutzt, muss zusätzlich der API-Schlüssel angegeben werden. Dieser ist unter dem Punkt "Sicherheit" zu finden, wenn du deine senseBox über den Button im Dashboard editierst. 
 
 {% include image.html image=page.image3 %}
 

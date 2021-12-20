@@ -38,6 +38,8 @@ projects-name: "Projekte"
 projects-link: /projects.html
 material-name: "Unterrichtsmaterial"
 material-link: /material.html
+videos-name: "Videos"
+videos-link: /videos.html
 forum-name: "Forum"
 forum-link: https://forum.sensebox.de
 #Research
@@ -47,7 +49,6 @@ publications-name: "Veröffentlichungen"
 publications-link: /research-publications.html
 citsci-link: /research-citizenscience.html
 citsci-name: "Citizen Science"
-
 
 #About-us
 team-name: "Team"
@@ -65,8 +66,3 @@ blog-link: /blog.html
 blog-name: Blog
 shop-link: https://sensebox.kaufen
 shop-name: Shop
-
-
-
-
-

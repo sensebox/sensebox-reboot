@@ -5,10 +5,10 @@
     <p>Most videos are in german, but you can use the english subtitles.</p>
   </div>
   {% endif %}
-
+  <h2>Tutorials</h2>
   <div class="row row-eq-height">
-    {% for video in videos %}
-    <div class="col-6 project-item">
+    {% for video in videos %} {% if video.type == "tutorial" %}
+    <div class="col-md-6 col-sm-12 project-item">
       <div class="well project-outer">
         <div class="project-inner">
           <div class="h4">{{video.name}}</div>
@@ -18,6 +18,30 @@
         </div>
       </div>
     </div>
-    {% endfor %}
+    {% endif %} {% endfor %}
   </div>
+  <h2>Weitere Videos</h2>
+  <div class="row row-eq-height">
+    {% for video in videos %} {% if video.type == "misc" %}
+    <div class="col-md-6 col-sm-12 project-item">
+      <div class="well project-outer">
+        <div class="project-inner">
+          <div class="h4">{{video.name}}</div>
+          <div class="project-content">
+            {% include youtube.html id = video.id %}
+          </div>
+        </div>
+      </div>
+    </div>
+    {% endif %} {% endfor %}
+  </div>
+  <p>
+    Um immer auf dem neusten Stand zu bleiben abboniere unseren
+    <a
+      href="https://www.youtube.com/c/senseBox_de"
+      class="green-link"
+      target="_blank"
+      >Youtube Channel</a
+    >
+  </p>
 </div>

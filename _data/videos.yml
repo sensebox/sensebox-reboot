@@ -1,23 +1,51 @@
 - name: senseBox Tutorial - Aktivieren des Lernmodus auf der senseBox MCU
   id: "jzlOJ7Zuqqw"
+  type: "tutorial"
 
 - name: "Tutorial 1: Erste Schritte mit der senseBox"
   id: "f3UqvTFt7Ek"
+  type: "tutorial"
 
 - name: "Tutorial 2a: Messwerte auf dem Display anzeigen"
   id: "ZEdxzyDnzF4"
+  type: "tutorial"
 
 - name: "Tutorial 2b: Messwerte auf dem Display beschriften"
   id: "dYiqcBYGwAQ"
+  type: "tutorial"
 
 - name: "Tutorial 2c: Mehrere Messwerte auf dem Display"
   id: "rkhnJq19l2A"
+  type: "tutorial"
 
 - name: "Tutorial 3: IoT Umweltmessstation"
   id: "Gz9RzoVp_NI"
+  type: "tutorial"
 
 - name: "Tutorial 4: Einparkhilfe"
   id: "_VPqKrjeTNo"
+  type: "tutorial"
 
 - name: "Tutorial 5: Umweltdatenchatbot"
   id: "dZo_oR-YtNk"
+  type: "tutorial"
+
+- name: "Aktiveren des Lernmodus"
+  id: "jzlOJ7Zuqqw"
+  type: "tutorial"
+
+- name: "Aufbau der senseBox:home"
+  id: "dUuRfZI39U8"
+  type: "tutorial"
+
+- name: Umwelt erforschen mit der senseBox
+  id: "lPe2r4ROum4"
+  type: "misc"
+
+- name: senseBox - Was ist das eigentlich?
+  id: "KhpE4xQsXRw"
+  type: "misc"
+
+- name: senseBox - So funktionierts
+  id: "8ThlZ0DQJ9Y"
+  type: "misc"

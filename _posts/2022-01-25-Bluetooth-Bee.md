@@ -5,7 +5,7 @@ date: 2022-01-25
 author: Mario
 abstract: "Die Verbindung von LoRaWAN, The Things Network und der senseBox bietet viel Potential für einen zukunftsweisenden Unterricht"
 thumbnail: /images/blog/2022-01-25-Bluetooth-Bee/DSCF9880.jpg
-image1: /images/blog/2022-01-25-Bluetooth-Bee/TTN.png
+image1: /images/blog/2022-01-25-Bluetooth-Bee/DSCF9809.jpg
 image2: /images/blog/2022-01-25-Bluetooth-Bee/blockly.png
 blocks: /images/blog/2022-01-25-Bluetooth-Bee/phyphox-blocks.jpg
 lang: de
@@ -13,9 +13,14 @@ tag: News
 ---
 Das neue Bluetooth Bee für die senseBox ist da
 ============
+ 
+Das neue Bluetooth Bee für die senseBox ermöglicht nun ein Übertragen von Messwerten über Bluetooth an dein Smartphone oder Tablet. Zur Visualisierung und Analyse der Daten wird die [Phyphox App](https://phyphox.org/) der RWTH Aachen verwendet. Dank der tollen [Arduino Bibliothek](https://phyphox.org/arduino/), die von Phyphox bereitgestellt wird, können so eigene Messgerät auf Arduino Basis gebaut werden. Durch die Integration des neuen Bluetooth Bees in das senseBox System kannst du alle Sensoren, die du direkt an die senseBox anschließen kannst, verwenden und die Programmierung läuft wie gewohnt über die graphische Programmierumgebung. 
 
+ {% include image.html image=page.image1 %}
 
+## Technisches
 
+Das Bluetooth Bee verwendet den [uBlox B312](https://www.u-blox.com/en/product/nina-b31-series-u-connect?lang=de), dessen Basis ein ein nRF52840 von Nordic Semiconductors ist. Das Bluetooth Bee ist kompatible zu Bluetooth 5.0 und unterstütz Bluetooth Low Energy. Das Bee kann direkt auf die senseBox MCU gesteckt werden und benötigt keine weitere verkabelung. 
 
 ## Programmierung
 

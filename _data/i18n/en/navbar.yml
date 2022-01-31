@@ -3,7 +3,7 @@ products-head: Products
 resources-head: Resources
 about-us-head: About us
 research-head: Research
- 
+
 #Go
 go-fist-steps-with: "Your first steps with..."
 go-name: Choose your senseBox
@@ -30,6 +30,8 @@ editoren-name: "Editors"
 editoren-link: /editoren.html
 blockly-name: "Blockly for senseBox"
 blockly-link: /blockly.html
+connectApp-name: "senseBox Connect App"
+connectApp-link: /app.html
 opensensemap-name: "openSenseMap"
 opensensemap-link: /opensensemap.html
 #Resources
@@ -64,8 +66,3 @@ blog-link: /blog.html
 blog-name: Blog
 shop-link: https://sensebox.shop
 shop-name: Shop
-
-
-
-
-

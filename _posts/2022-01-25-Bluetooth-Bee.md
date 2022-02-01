@@ -22,7 +22,7 @@ Mit Unterstützung der Deutschen Telekom Stiftung konnten wir ein Bluetooth Bee 
 
 ## Technisches
 
-Das Bluetooth Bee verwendet den [uBlox B312](https://www.u-blox.com/en/product/nina-b31-series-u-connect?lang=de), dessen Basis ein ein nRF52840 von Nordic Semiconductors ist. Das Bluetooth Bee ist kompatibel zu Bluetooth 5.0 und unterstützt Bluetooth Low Energy. Das Bee kann direkt auf die senseBox MCU gesteckt werden und benötigt keine weitere verkabelung. Mehr Informationen und das Datenblatt findest Du hier (Link zu docs.sensebox.de, wenn da was da ist)
+Das Bluetooth Bee verwendet den [uBlox B312](https://www.u-blox.com/en/product/nina-b31-series-u-connect?lang=de), dessen Basis ein ein nRF52840 von Nordic Semiconductors ist. Das Bluetooth Bee ist kompatibel zu Bluetooth 5.0 und unterstützt Bluetooth Low Energy. Das Bee kann direkt auf die senseBox MCU gesteckt werden und benötigt keine weitere verkabelung.
 
 
 ## Programmierung

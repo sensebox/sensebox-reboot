@@ -64,7 +64,7 @@ parts-bees-LoRa-text: "Enables a network connection via Long-Range-WAN (LoRa) in
 parts-bees-LoRa-link: "https://sensebox.shop/product/lora-bee"
 parts-bees-ble: "BLE-Bee"
 parts-bees-ble-text: "Bluetooth Bee lets you send and store readings from your senseBox to your smartphone or tablet."
-parts-bees-ble-link: "https://sensebox.kaufen/product/ble-bee"
+parts-bees-ble-link: "https://sensebox.kaufen/product/bluetooth-bee"
 
 parts-accessories-title: "Accessories"
 parts-accessories-text: "In addition to the sensors and XBees, other accessories can be used with the senseBox."

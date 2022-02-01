@@ -39,7 +39,7 @@ Ein Beispielcode kannst du direkt [hier](https://blockly-react.netlify.app/galle
 Durch die Anbindung der senseBox an Phyphox ergeben sich viele spannende Einsatzmöglichkeiten für den Einsatz im Naturwissenschaftlichen Unterricht. Für den leichten Einstieg haben wir verschiedene Unterrichtsmaterialien und das folgende Video vorbereitet. 
 
 
-  {% include youtube.html id = rs1DoW6p2Hs %}
+  {% include youtube.html id = "rs1DoW6p2Hs" %}
 
 ----
 

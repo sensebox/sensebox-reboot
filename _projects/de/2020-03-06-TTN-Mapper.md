@@ -17,6 +17,19 @@ addons: ["LoRa-Bee"]
 lang: de
 tags: ["Geographie", "Informatik", "LoRa", "TTN", "Blockly"]
 difficult: mittel
+image1: /images/projects/TTNv3/add-application.png
+image2: /images/projects/TTNv3/add-device.png
+image3: /images/projects/TTNv3/register-device.png
+image4: /images/projects/TTNv3/register-device-euis.png
+image5: /images/projects/TTN-Mapper/add-integration.png
+image6: /images/projects/TTN-Mapper/find-ttn-mapper-integration.png
+image7: /images/projects/TTN-Mapper/ttn-mapper-integration.png
+image8: /images/projects/TTN-Mapper/cayenne.png
+image9: /images/projects/TTN-Mapper/blockly-activation-de.png
+image10: /images/projects/TTN-Mapper/formatting.png
+image11: /images/projects/TTN-Mapper/blockly-gps-de.png
+image12: /images/projects/TTN-Mapper/ttn-mapper.jpeg
+
 ---
 # senseBox TTN Mapper
 
@@ -41,19 +54,22 @@ Zusätzlich brauchst du eine möglichst mobile Stromversorgung. Am einfachsten i
 
 Gehe auf die [TTN-Console](eu1.cloud.thethings.network) und erstelle dir dort einen Account. Sobald du angemeldet bist, klicke auf **Go to applications**. Hier klickst du jetzt oben in der rechten Ecke auf **Add Application**. Die ID und den Namen kannst du frei wählen.
 
-![](/images/projects/TTNv3/add-application.png)
+{% include image.html image=page.image1 %}
+
 
 Nun musst du in deiner neuen Application noch ein Device hinzufügen. Klicke auf "+ Add end Device" und füge ein neues Device (z.B. eine senseBox hinzu).
 
-![](/images/projects/TTNv3/add-device.png)
+{% include image.html image=page.image2 %}
+
 
 Wähle jetzt oben **Manually** aus. Als **Frequency Plan** muss *Europe 863-870 MHz (SF9 for RX2 - recommended)*, als **LoRaWAN version** die Option *MAC V1.0.2* und als **Regional Parameters Version** die Option *PHY V1.0.2 REV A* ausgewählt werden.
 
-![](/images/projects/TTNv3/register-device.png)
+{% include image.html image=page.image3 %}
 
 Im nächsten Schritt müssen die EUIs eingetragen werden. Die DevEUI kann von TTNv3 über den Button automatisch generiert werden. Pro Application können jedoch nur 50 EUIs genutzt werden, da diese einmalig sein müssen. Die AppEUI kann über den Button mit Nullen gefüllt werden und der AppKey kann auch wieder automatisch generiert werden.
 
-![](/images/projects/TTNv3/register-device-euis.png)
+{% include image.html image=page.image4 %}
+
 
 Abschließend kannst du deinem Device noch eine ID geben oder die automatisch generierte ID nutzen.
 
@@ -63,38 +79,43 @@ Fertig, TTN "kennt" nun deine senseBox.
 
 Da wir die Daten später an den TTN Mapper senden möchten, musst Du jetzt noch eine "Integration" hinzufügen. Dafür gehst du im Menü an der Seite auf "Integrations" und dann zu Webhooks. Hier sollte jetzt dieses Menü auftauchen:
 
-![](/images/projects/TTN-Mapper/add-integration.png)
+{% include image.html image=page.image5 %}
 
 Hier klickst du jetzt auf "+ Add Webhook" in der oberen rechten Ecke. Im nun erscheinenden Auswahlmenü suchst du die Option "TTN Mapper" und klickst diese an:
 
-![](/images/projects/TTN-Mapper/find-ttn-mapper-integration.png)
+{% include image.html image=page.image6 %}
+
 
 
 Gib deine E-Mail Adresse an und gebe einen Experimente Namen an. Du könntest den Experimente Namen auch auslassen, bist dann aber nicht mehr in der Lage deine eigenen Messungen auf dem TTN Mapper zu identifizieren. Außerdem musst du der Integration noch eine beliebige ID geben. Klicke dann auf "Create ttn mapper webhook".
 
-![](/images/projects/TTN-Mapper/ttn-mapper-integration.png)
+{% include image.html image=page.image7 %}
+
 
 Zuletzt musst du das Payload Format bei TTN auf Cayenne LPP unstellen. Dazu klickst du auf den Reiter Payload formatters, dann auf Uplink und wählst dann Cayenne LPP aus und klickst auf "Save changes". Nun entschlüsselt TTN die Nachrichten selbstständig nach der [Cayenne LPP Spezifikation](https://developers.mydevices.com/cayenne/docs/lora/#lora-cayenne-low-power-payload).
 
-![](/images/projects/TTN-Mapper/cayenne.png)
+{% include image.html image=page.image8 %}
 
 ## Blockly 
 
 Öffne [Blockly](https://blockly.sensebox.de/ardublockly/?board=sensebox-mcu?lang=de) und beginne mit dem Code für deine senseBox MCU. Um die TTN Infrastruktur zu nutzen müssen wir zunächst eine Activation starten. Dazu nutzen wir die OTAA Activation. Je nach Anwendungsfall kannst Du das Übertragungsintervall anpassen. Bitte denke daran, dass TTN unter einer Fair Use Policy läuft. Das bedeutet, dass man seine Übertragungsrate möglichst gering halten sollte. 
 
-![](/images/projects/TTN-Mapper/blockly-activation-de.png)
+{% include image.html image=page.image9 %}
+
+
 
 Füge nun deine TTN EUIs ein. Achte darauf, dass Du die Keys im richtigen Format einfügst. "Device EUI" und "Application EUI" müssen im ``lsb`` Format genutzt werden. Der "AppKey" im ``msb`` Format. 
 
 Beim Kopieren der Keys musst du deshalb bei TTN in der Device Overview die Einstellungen wie hier gezeigt vornehmen. Du kannst das Format ändern indem Du auf die Icons am Anfang (<> und ⇆) klickst.
 
-![](/images/projects/TTN-Mapper/formatting.png)
+
+{% include image.html image=page.image10 %}
 
 Es gibt verschiedene Wege LoRa Daten zu versenden. In diesem Fall nutzen wir das Cayenne Low Power Payload (LPP) da es sehr einfach ist und bereits fertiger Code für diesen Anwendungsfall existiert. Von TTN Mapper gibt es aber folgende Informationen zum Cayenne LPP:
 
 > When using the Cayenne LPP data format, the GPS coordinates will be decoded into a different JSON format which is also supported. Cayenne LPP does not contain the GPS accuracy, and therefore this data will be considered as inferior and will carry less weight in calculation of coverage, and will be deleted first during data cleanup. [Quelle](https://www.thethingsnetwork.org/docs/applications/ttnmapper/)
 
-![](/images/projects/TTN-Mapper/blockly-gps-de.png)
+{% include image.html image=page.image11 %}
 
 Wähle den `Sende als Cayenne Nachricht` Block und sende eine Koordinaten Messung. Füge die entsprechenden GPS Blöcke ein. Den Channel brauchst Du nicht zu ändern.
 
@@ -110,7 +131,9 @@ Deinen persönlichen TTN Mapper findest Du unter dem Namen deines Experiments. �
 
 und ersetze EXPERIMENT_NAME mit dem Namen deines Experiments. Es dauert ein bisschen bis die senseBox GPS Daten empfängt. Zwischendurch kannst Du die Seite neu laden um die neuesten Messungen zu sehen.
 
-![](/images/projects/TTN-Mapper/ttn-mapper.jpeg)
+{% include image.html image=page.image12 %}
+
+
 
 ## Hilfe
 

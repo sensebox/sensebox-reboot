@@ -1,25 +1,22 @@
 parts-title: "senseBox:components"
 parts-text: "All senseBoxes and their components are fully compatible with each other. Whether a senseBox:edu in an outdoor housing or a senseBox:home with the senseBox environmental sensor, there are no limits to creativity."
 
-
 parts-MCU-title: "The senseBox MCU"
 parts-MCU-text: "The senseBox MCU (MicroControllerUnit) is the heart of every senseBox. It is a single-board computer based on the ARM Cortex-M0 processor from the SAMD21 family. This processor makes the senseBox MCU fully compatible with Arduino.<br> It has the following fixed connections and components."
 parts-MCU-conntectors: "Connections"
 parts-MCU-conntectors-list: "
-              <li>5x I2C</li>
-              <li>2x UART</li>
-              <li>6x digital/analog I/O</li>
-              <li>2x XBee Socket</li>"
+  <li>5x I2C</li>
+  <li>2x UART</li>
+  <li>6x digital/analog I/O</li>
+  <li>2x XBee Socket</li>"
 parts-MCU-onboard: "Onboard Components:"
-parts-MCU-onboard-list: "              
-              <li>1x Pushbutton</li>
-              <li>1x Resetbutton</li>
-              <li>2x LED</li>
-              <li>1x BMX055 Position sensor</li>"
+parts-MCU-onboard-list: "
+  <li>1x Pushbutton</li>
+  <li>1x Resetbutton</li>
+  <li>2x LED</li>
+  <li>1x BMX055 Position sensor</li>"
 
-
-parts-button: "More information"              
-
+parts-button: "More information"
 
 parts-sensors-title: "Sensors"
 parts-sensors-text: "The following sensors can be connected directly via the JST cables of the senseBox:"
@@ -51,7 +48,6 @@ parts-sensors-sound: "Sound level meter"
 parts-sensors-sound-text: "Sound level in dBA (30-130 dBA, ±1,5 dB)"
 parts-sensors-sound-link: "https://sensebox.shop/product/lautstarkesensor"
 
-
 parts-bees-title: "XBees"
 parts-bees-text: "In order to save the measured data of your senseBox or to transfer it to the Internet, various connection modules, so-called XBees can be plugged in."
 parts-bees-WiFi: "WiFi-Bee"
@@ -66,7 +62,9 @@ parts-bees-LAN-link: "https://sensebox.shop/product/lan-bee"
 parts-bees-LoRa: "LoRa-Bee"
 parts-bees-LoRa-text: "Enables a network connection via Long-Range-WAN (LoRa) in the 868 MHz band.<br> HopeRF RFM95W/RFM96W LoRa Transceiver<br>LoRa IoT Integration (868 MHz)"
 parts-bees-LoRa-link: "https://sensebox.shop/product/lora-bee"
-
+parts-bees-ble: "BLE-Bee"
+parts-bees-ble-text: "Bluetooth Bee lets you send and store readings from your senseBox to your smartphone or tablet."
+parts-bees-ble-link: "https://sensebox.kaufen/product/bluetooth-bee"
 
 parts-accessories-title: "Accessories"
 parts-accessories-text: "In addition to the sensors and XBees, other accessories can be used with the senseBox."

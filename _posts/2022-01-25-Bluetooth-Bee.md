@@ -3,7 +3,7 @@ layout: post
 title: "Bluetooth Bee"
 date: 2022-01-25
 author: Mario
-abstract: "Die Verbindung von LoRaWAN, The Things Network und der senseBox bietet viel Potenzial für einen zukunftsweisenden Unterricht."
+abstract: "Das neue Bluetooth Bee für die senseBox ist da!"
 thumbnail: /images/blog/2022-01-25-Bluetooth-Bee/DSCF9880.jpg
 image1: /images/blog/2022-01-25-Bluetooth-Bee/DSCF9809.jpg
 image2: /images/blog/2022-01-25-Bluetooth-Bee/blockly.png

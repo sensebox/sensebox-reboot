@@ -3,7 +3,7 @@ layout: post
 title: "Bluetooth Bee"
 date: 2022-01-25
 author: Mario
-abstract: "Die Verbindung von LoRaWAN, The Things Network und der senseBox bietet viel Potential für einen zukunftsweisenden Unterricht"
+abstract: "Die Verbindung von LoRaWAN, The Things Network und der senseBox bietet viel Potenzial für einen zukunftsweisenden Unterricht."
 thumbnail: /images/blog/2022-01-25-Bluetooth-Bee/DSCF9880.jpg
 image1: /images/blog/2022-01-25-Bluetooth-Bee/DSCF9809.jpg
 image2: /images/blog/2022-01-25-Bluetooth-Bee/blockly.png
@@ -15,35 +15,35 @@ Das neue Bluetooth Bee für die senseBox ist da
 ============
  
 
-Mit Unterstützung der Deutschen Telekom Stiftung konnten wir ein Bluetooth Bee für die senseBox entwickeln,  das ein Übertragen von Messwerten über Bluetooth an dein Smartphone oder Tablet ermöglicht und die senseBox zu einem mobilen Umweltlabor macht. Zur Visualisierung und Analyse der Daten wird die [Phyphox App](https://phyphox.org/) der RWTH Aachen verwendet. Dank der tollen [Arduino Bibliothek](https://phyphox.org/arduino/), die von Phyphox bereitgestellt wird, können so eigene Messgeräte auf Arduino und eben auch senseBox Basis gebaut werden. Durch die Integration des neuen Bluetooth Bees in das senseBox System kannst du alle Sensoren, die du direkt an die senseBox anschließen kannst, verwenden und die Programmierung läuft wie gewohnt über die graphische Programmierumgebung.
+Mit Unterstützung der Deutschen Telekom Stiftung konnten wir ein Bluetooth Bee für die senseBox entwickeln, das ein Übertragen von Messwerten über Bluetooth an dein Smartphone oder Tablet ermöglicht und die senseBox zu einem mobilen Umweltlabor macht. Zur Visualisierung und Analyse der Daten wird die [Phyphox App](https://phyphox.org/) der RWTH Aachen verwendet. Dank der tollen [Arduino Bibliothek](https://phyphox.org/arduino/), die von Phyphox bereitgestellt wird, können so eigene Messgeräte auf Arduino und eben auch auf senseBox Basis gebaut werden. Durch die Integration des neuen Bluetooth Bees in das senseBox System kannst du alle Sensoren, die du direkt an die senseBox anschließen kannst, verwenden und die Programmierung läuft wie gewohnt über die grafische Programmierumgebung [Blockly](https://blockly-react.netlify.app/).
 
 
  {% include image.html image=page.image1 %}
 
 ## Technisches
 
-Das Bluetooth Bee verwendet den [uBlox B312](https://www.u-blox.com/en/product/nina-b31-series-u-connect?lang=de), dessen Basis ein ein nRF52840 von Nordic Semiconductors ist. Das Bluetooth Bee ist kompatibel zu Bluetooth 5.0 und unterstützt Bluetooth Low Energy. Das Bee kann direkt auf die senseBox MCU gesteckt werden und benötigt keine weitere verkabelung.
+Das Bluetooth Bee verwendet den [uBlox B312](https://www.u-blox.com/en/product/nina-b31-series-u-connect?lang=de), dessen Basis ein nRF52840 von Nordic Semiconductors ist. Das Bluetooth Bee ist kompatibel zu Bluetooth 5.0 und unterstützt Bluetooth Low Energy. Das Bee kann direkt auf die senseBox MCU gesteckt werden und benötigt keine weitere Verkabelung.
 
 
 ## Programmierung
 
-Die Programmierung des Messgerätes kann in der unserer grafischen [Programmier- und Lernumgebung](https://blockly-react.netlify.app/) durchgeführt werden. Neue Blöcke ermöglichen dir dein Experiment genau für deinen Anwendungsfall zu erstellen. Alle Sensoren, die du an die senseBox anschließen kannst, kannst du verwenden und die Messwerte einfach übertragen.
+Die Programmierung des Messgerätes kann in unserer grafischen [Programmier- und Lernumgebung](https://blockly-react.netlify.app/) durchgeführt werden. Neue Blöcke ermöglichen dir dein Experiment genau für deinen Anwendungsfall zu erstellen. Alle Sensoren, die du an die senseBox anschließen kannst, kannst du verwenden und die Messwerte einfach übertragen.
 
 
  {% include image.html image=page.blocks %}
 
-Ein Beispielcode kannst du direkt [hier](https://blockly-react.netlify.app/gallery/60ae27f41842740018c65b07) öffnen. Zusätzlich zum Beispielcode gibt es auch ein Tutorial, welches dir die einzelnen Blöcke der Programmier erläutert. Zum Tutorial kommst du [hier](https://blockly-react.netlify.app/tutorial/6167e944830e50001898bcd8).
+Ein Beispielcode kannst du direkt [hier](https://blockly-react.netlify.app/gallery/60ae27f41842740018c65b07) öffnen. Zusätzlich zum Beispielcode gibt es auch ein Tutorial, welches dir die einzelnen Blöcke der Programmierung erläutert. Zum Tutorial kommst du [hier](https://blockly-react.netlify.app/tutorial/6167e944830e50001898bcd8).
 
 ## Materialien
 
-Durch die Anbindung der senseBox an Phyphox ergeben sich viele spannende Einsatzmöglichkeiten für den Einsatz im Naturwissenschaftlichen Unterricht. Für den leichten Einstieg haben wir verschiedene Unterrichtsmaterialien und das folgende Video vorbereitet. 
+Durch die Anbindung der senseBox an Phyphox ergeben sich viele spannende Möglichkeiten für den Einsatz im naturwissenschaftlichen Unterricht. Für den leichten Einstieg haben wir verschiedene Unterrichtsmaterialien und das folgende Video vorbereitet. 
 
 
   {% include youtube.html id = "rs1DoW6p2Hs" %}
 
 ----
 
-Neben der Einführung im Video findest du drei weitere Projekte
+Neben der Einführung im Video findest du drei weitere Projekte:
 
 <div class="row">
      <div class="col-3">

@@ -98,7 +98,7 @@ Zuletzt musst du das Payload Format bei TTN auf Cayenne LPP unstellen. Dazu klic
 
 ## Blockly 
 
-Öffne [Blockly](https://blockly.sensebox.de/ardublockly/?board=sensebox-mcu?lang=de) und beginne mit dem Code für deine senseBox MCU. Um die TTN Infrastruktur zu nutzen müssen wir zunächst eine Activation starten. Dazu nutzen wir die OTAA Activation. Je nach Anwendungsfall kannst Du das Übertragungsintervall anpassen. Bitte denke daran, dass TTN unter einer Fair Use Policy läuft. Das bedeutet, dass man seine Übertragungsrate möglichst gering halten sollte. 
+Öffne [Blockly](https:https://blockly-react.netlify.app/) und beginne mit dem Code für deine senseBox MCU. Um die TTN Infrastruktur zu nutzen müssen wir zunächst eine Activation starten. Dazu nutzen wir die OTAA Activation. Alternativ gibt es auch die ABP Activation, diese ist jedoch in TTN komplizierter einzurichten und wird deshalb hier vermieden. Je nach Anwendungsfall kannst Du das Übertragungsintervall anpassen. Bitte denke daran, dass TTN unter einer Fair Use Policy läuft. Das bedeutet, dass man seine Übertragungsrate möglichst gering halten sollte. 
 
 {% include image.html image=page.image9 %}
 
@@ -111,13 +111,9 @@ Beim Kopieren der Keys musst du deshalb bei TTN in der Device Overview die Einst
 
 {% include image.html image=page.image10 %}
 
-Es gibt verschiedene Wege LoRa Daten zu versenden. In diesem Fall nutzen wir das Cayenne Low Power Payload (LPP) da es sehr einfach ist und bereits fertiger Code für diesen Anwendungsfall existiert. Von TTN Mapper gibt es aber folgende Informationen zum Cayenne LPP:
-
-> When using the Cayenne LPP data format, the GPS coordinates will be decoded into a different JSON format which is also supported. Cayenne LPP does not contain the GPS accuracy, and therefore this data will be considered as inferior and will carry less weight in calculation of coverage, and will be deleted first during data cleanup. [Quelle](https://www.thethingsnetwork.org/docs/applications/ttnmapper/)
+Zum Versenden der Daten an TTN Mapper nutzen wir den neuen TTN Mapper Block in Blockly, hier muss nichts weiter verändert werden:
 
 {% include image.html image=page.image11 %}
-
-Wähle den `Sende als Cayenne Nachricht` Block und sende eine Koordinaten Messung. Füge die entsprechenden GPS Blöcke ein. Den Channel brauchst Du nicht zu ändern.
 
 Kompiliere nun den Sketch und lade ihn auf die senseBox MCU. Sie sollte nun auf GPS Daten warten und diese zum TTN übertragen. 
 

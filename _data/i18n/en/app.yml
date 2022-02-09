@@ -1,0 +1,18 @@
+intro: "Use the senseBox Connect app on your tablet or smartphone to transfer program codes to your senseBox via WiFi."
+preperations-head: preperations
+preperations-text1: In order to use the senseBox app to transfer program codes, you need to make some preparations first.
+preperations-text2: Install the senseBox Connect app on your tablet or smartphone. We recommend to use a tablet for programming the program code!
+preperations-text3: For the connection to the senseBox you will need your WiFi-ID later on. The WiFi-ID is a unique identification that you can enter in the senseBox Connect app. You can find the WiFi ID of your senseBox or WiFi Bees on the back. The ID consists of the last 4 digits of the MAC address of your WiFi Bees. It is best to write down your WiFi ID somewhere so that you can find it again later.
+preperations-text4: Plug the WiFi-Bee into the XBee-1 slot on the senseBox MCU.
+preperations-text5: Copy the OTA sketch to the senseBox MCU via your computer.
+preperations-text6: This step only needs to be done once as long as you are programming your senseBox MCU via the tablet. As soon as you copy a program code via the computer to the senseBox MCU again, this step must be executed again.
+preperations-text7: Connect the senseBox MCU to a power source. You can use a USB power supply or a powerbank.
+programming-head: Programming and transferring program code
+programming-text1: The programming interface usually automatically detects which device you are using for programming and automatically activates tablet mode when you open the interface from a tablet. This is represented by a welcome window. If this window is not displayed when you open the site on a tablet, you can also enable tablet mode in the settings under "Tablet Mode".
+programming-text2: When you have finished programming, click on the orange button to compile the program code and start the transfer.
+programming-text3: After the code has been successfully compiled and verified, start the transfer.
+programming-text4: After pressing the "Start Transfer" button, you will be asked if you want to open the senseBox app.
+programming-text5: After opening the app, you can start the process of transferring to your senseBox by pressing the button.
+programming-text6: Start the OTA mode on your senseBox by holding the Switch button and pressing the Reset button. Release the Reset Button and hold the Switch Button for another 5 seconds until the yellow LED next to the Reset Button starts blinking.
+programming-text7: Enter the WiFi ID of your senseBox and establish the connection by clicking the button. As soon as the connection is established, you can transfer the program code.
+programming-text8: Great! The program code has been transferred and will now be executed by the senseBox MCU. Note that every time you want to retransmit a program code, these steps have to be executed again.

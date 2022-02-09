@@ -5,17 +5,14 @@
       <h1>senseBox Connect App</h1>
     </div>
     <div class="col-12">
-      <h2>Vorbereitungen</h2>
+      <h2>{{ t.preperations-head}}</h2>
       <p>
-        Damit du die senseBox-App zum Übertragen von Programmcodes verwenden
-        kannst, musst du zunächst einige Vorbereitungen treffen.
+        {{ t.preperations-text1}} 
       </p>
       <ol>
         <li>
           <p>
-            Installiere die senseBox Connect App auf deinem Tablet oder
-            Smartphone. Wir empfehlen zum Programmieren des Programmcodes ein
-            Tablet zu verwenden!
+            {{ t.preperations-text2}} 
           </p>
           <a
             href="https://apps.apple.com/app/id1586961095#?platform=ipad"
@@ -53,15 +50,10 @@
         </li>
         <li>
           <p>
-            Für die Verbindung zur senseBox wird später deine WiFi-ID benötigt.
-            Die WiFi-ID ist eine einzigartige Identifikation, die du in der
-            senseBox Connect App eingeben kannst. Die WiFi-ID deiner senseBox
-            bzw. deines WiFi-Bees findest du auf der Rückseite. Die ID besteht aus
-            den letzten 4 Stellen der MAC-Adresse deines WiFi-Bees. Am besten
-            notierst du dir irgendwo deine WiFi-ID, damit du sie später wiederfinden kannst.
+            {{ t.preperations-text3}}  
           </p>
           <p>
-            Stecke das WiFi-Bee auf den Steckplatz XBee-1 auf der senseBox MCU.
+            {{ t.preperations-text4 }} 
           </p>
           <div class="row">
             <div class="col-6">
@@ -74,13 +66,10 @@
         </li>
         <li>
           <p>
-            Kopiere den OTA-Sketch über deinen Computer auf die senseBox MCU.
+            {{ t.preperations-text5}} 
           </p>
           <em>
-            Dieser Schritt muss nur einmal ausgeführt werden, solange du deine
-            senseBox MCU über das Tablet programmierst. Sobald du erneut einen
-            Programmcode über den Computer auf die senseBox MCU kopierst, muss
-            dieser Schritt erneut ausgeführt werden.
+            {{ t.preperations-text6}}  
           </em>
           <p>
             <a class="btn btn-sensebox-green" href="/docs/ota_boot.bin"
@@ -90,15 +79,14 @@
         </li>
         <li>
           <p>
-            Verbinde die senseBox MCU mit einer Stromquelle. Du kannst hierfür
-            ein USB-Netzteil oder auch eine Powerbank nutzen.
+            {{ t.preperations-text7 }} 
           </p>
         </li>
       </ol>
     </div>
 
     <div class="col-12">
-      <h2>Programmieren und Programmcode übertragen</h2>
+      <h2>{{t.programming-head }}</h2>
       <ol>
         <li>
           <p>
@@ -111,58 +99,47 @@
             {% include image.html image="/images/app/IMG_0067.PNG" %}
 
           </p>
-          <p>Die Programmieroberfläche erkennt in der Regel automatisch, welches Gerät du zum Programmieren verwendest und aktiviert automatisch den Tabletmodus, wenn du die Oberfläche von einem Tablet öffnest. Dies wird durch ein Begrüßungsfenster dargestellt. Sollte dieses Fenster nicht angezeigt werden, wenn du die Seite auf einem Tablet öffnest, kannst du den Tabletmodus auch in den Einstellungen unter "Tablet Modus" aktivieren.</p>
+          <p>
+            {{t.programming-text1}}</p>
           {% include image.html image="/images/app/tablet_modus01.png" %}
           <p>
-            Wenn du die Programmierung abgeschlossen hast, klicke auf den orangenen
-            Button, um den Programmcode zu kompilieren und die Übertragung zu
-            starten.
+            {{t.programming-text2}} 
           </p>
         </li>
         <li>
-          Nachdem der Code erfolgreich kompiliert und überprüft wurde, starte die
-          Übertragung.
+          {{t.programming-text3}} 
           {% include image.html image="/images/app/IMG_0068.PNG" %}
         </li>
         <li>
-          Nachdem du den Button "Starte Übertragung" gedrückt hast, wirst du
-          gefragt, ob du die senseBox-App öffnen möchtest.
+          {{t.programming-text4}} 
           {% include image.html image="/images/app/IMG_0069.PNG" %}
         </li>
         <li>
-          Nach dem Öffnen der App kannst du den Prozess des Übertragens auf
-          deine senseBox mit einem Drücken auf den Button starten.
+          {{t.programming-text5}}  
           {% include image.html image="/images/app/IMG_0070.PNG" %}
         </li>
         <li>
-          Starte den OTA-Modus auf deiner senseBox durch Halten des Switch
-          Buttons und Drücken des Reset Buttons. Lasse den Reset Button los und
-          halte den Switch Button für weitere 5 Sekunden gedrückt, bis die gelbe
-          LED neben dem Reset Button anfängt zu blinken. 
+          {{t.programming-text6}} 
           <p>Im Video siehst du, wie
           du den OTA-Modus aktivierst.</p>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/jzlOJ7Zuqqw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          {% include youtube.html id = "jzlOJ7Zuqqw" %}
         </li>
         <li>
-          Trage die WiFi-ID deiner senseBox ein und stelle die Verbindung durch
-          einen Klick auf den Button her. Sobald die Verbindung hergestellt
-          wurde, kannst du den Programmcode übertragen.
+          {{t.programming-text7}}
           {% include image.html image="/images/app/IMG_0071.PNG" %}
         </li>
         <li>
-          Super! Der Programmcode wurde übertragen und wird nun von der senseBox
-          MCU ausgeführt. Beachte, dass du jedes Mal, wenn du einen Programmcode
-          neu übertragen willst, diese Schritte erneut ausgeführt werden müssen.
+          {{t.programming-text8}} 
         {% include image.html image="/images/app/IMG_0073.PNG" %}
         </li>
       </ul>
     </div>
-    <div class="col-12">
+    <!-- <div class="col-12">
       <h2>Video</h2>
       <p>
         Hier findest du ein Video, welches dir den kompletten Prozess zeigt, wie du die senseBox mit dem
         Tablet programmieren kannst.
       </p>
-    </div>
+    </div> -->
   </div>
 </div>

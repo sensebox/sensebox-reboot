@@ -1,4 +1,4 @@
-# sensebox.github.io
+# sensebox-reboot
 
 This Repo holds the new senseBox website.
 

@@ -24,7 +24,7 @@ image4: /images/projects/TTNv3/register-device-euis.png
 image5: /images/projects/TTN-Mapper/add-integration.png
 image6: /images/projects/TTN-Mapper/find-ttn-mapper-integration.png
 image7: /images/projects/TTN-Mapper/ttn-mapper-integration.png
-image8: /images/projects/TTN-Mapper/cayenne.png
+image8: /images/projects/TTN-Mapper/payload-format.png
 image9: /images/projects/TTN-Mapper/blockly-activation-de.png
 image10: /images/projects/TTN-Mapper/formatting.png
 image11: /images/projects/TTN-Mapper/blockly-gps-de.png
@@ -92,7 +92,23 @@ Gib deine E-Mail Adresse an und gebe einen Experimente Namen an. Du könntest de
 {% include image.html image=page.image7 %}
 
 
-Zuletzt musst du das Payload Format bei TTN auf Cayenne LPP unstellen. Dazu klickst du auf den Reiter Payload formatters, dann auf Uplink und wählst dann Cayenne LPP aus und klickst auf "Save changes". Nun entschlüsselt TTN die Nachrichten selbstständig nach der [Cayenne LPP Spezifikation](https://developers.mydevices.com/cayenne/docs/lora/#lora-cayenne-low-power-payload).
+Zuletzt musst du das Payload Format bei TTN auf Javascript umstellen und den Decodercode in die Konsole kopieren. Dazu klickst du auf den Reiter Payload formatters, dann auf Uplink und wählst dann Javascript aus. In das nun erscheinende Feld kopierst du folgenden Code 
+```
+function Decoder(b, port) {
+  var lat = (b[0] | (b[1] << 8) | (b[2] << 16) | (b[3] << 24)) / 10000000;
+  var lon = (b[4] | (b[5] << 8) | (b[6] << 16) | (b[7] << 24)) / 10000000;
+  var alt = (b[8] | (b[9] << 8)) / 10; // in m
+  var pdop = (b[10] | (b[11] << 8)) / 100;
+
+  return {
+    latitude: lat,
+    longitude: lon,
+    altitude: alt,
+    hdop: pdop,
+  };
+}
+```
+und klickst auf "Save changes". Nun entschlüsselt TTN die Nachrichten selbstständig für TTN-Mapper.
 
 {% include image.html image=page.image8 %}
 

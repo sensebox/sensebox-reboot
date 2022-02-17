@@ -15,7 +15,7 @@ ide: blockly
 version: ["edu", "mini"]
 addons: ["LoRa-Bee"]  
 lang: de
-tags: ["Geographie", "Informatik", "LoRa", "TTN", "Blockly"]
+tags: ["Geographie", "Informatik", "LoRa", "TTN", "Blockly", "LoRaWAN"]
 difficult: mittel
 image1: /images/projects/TTNv3/add-application.png
 image2: /images/projects/TTNv3/add-device.png

@@ -8,10 +8,9 @@
   z-index: 1;
 
   .nav-item {
-    @media (min-width: $breakpoint-laptop){
+    @media (min-width: $breakpoint-laptop) {
       padding: 0 0.4em;
     }
-
   }
 }
 
@@ -155,7 +154,7 @@
 
 .navbar-polygon {
   background-color: white;
-  @media (min-width: $breakpoint-laptop){
+  @media (min-width: $breakpoint-laptop) {
     clip-path: polygon(0 0, 100% 0, 86% 93%, 0 88%);
     padding-bottom: 4rem;
     padding-top: 2rem;
@@ -166,7 +165,6 @@
   align-items: flex-end;
 }
 
-
 .dropdown-menu.show {
   max-height: 530px;
 }
@@ -176,6 +174,32 @@
   overflow: hidden;
   display: block !important;
   transition: max-height 0.3s ease-out;
+}
+
+nav-blog {
+  margin-left: 10px;
+
+  @media (max-width: $breakpoint-laptop) {
+    margin: 0;
+  }
+
+  > .nav-link {
+    svg {
+      margin-bottom: 4px;
+      fill: white;
+      @media (max-width: $breakpoint-laptop) {
+        fill: black;
+      }
+      -webkit-transition: 0.4s;
+      transition: 0.4s;
+    }
+
+    &:hover {
+      svg {
+        fill: #0056b3;
+      }
+    }
+  }
 }
 
 .nav-shop {
@@ -209,8 +233,8 @@
       @media (max-width: $breakpoint-laptop) {
         fill: black;
       }
-      -webkit-transition: .4s;
-      transition: .4s;
+      -webkit-transition: 0.4s;
+      transition: 0.4s;
     }
 
     &:hover {
@@ -222,5 +246,4 @@
 }
 
 .navbar-polygon {
-
 }

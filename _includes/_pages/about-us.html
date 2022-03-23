@@ -1,137 +1,128 @@
 <div class="container main-container">
+  <div class="row">
+    <h1>Über uns</h1>
+    <p>
+      Unser Team des Schüler- und Forschungslabors GI@School am Institut für
+      Geoinformatik sammelt seit mehreren Jahren praktische Erfahrung in
+      Workshops mit Schülern und Lehrern. Dabei hat sich herausgestellt, dass
+      die Datenerhebung mit selbstgebauten Sensorstationen einen besonders
+      zugänglichen Weg bei der Arbeit mit Geoinformation und Umweltdaten bietet.
+      Ganz nebenbei werden Kompetenzen in der Programmierung auf eine sehr
+      anschauliche Art und Weise vermittelt. Diese Erfahrung führte zur
+      Entwicklung der senseBox:edu basierend auf Arduino Mikrokontrollern,
+      Sensoren und Zubehör zur Gruppenarbeit im Klassen-/Kurskontext. Die
+      senseBox:home ergänzt diesen Ansatz und komplettiert das Citizen Science
+      Toolkit.
+    </p>
+  </div>
+
+  {% assign teammembers = site.data.i18n.[page.lang].team | sort: 'position' %}
+  {% assign awardslist = site.awards | sort: 'weight' %}
+
+  <div class="row">
+    <h1>Das Team hinter der senseBox</h1>
+    <p>
+      Das senseBox Team besteht aus Mitarbeiter:innen der Westfälischen
+      Wilhelms-Universtität und des, in Münster ansässigen, Startup Re:edu
+    </p>
     <div class="row">
-        <h1>Über uns</h1>
-        <p>Unser Team des Schüler- und Forschungslabors GI@School am Institut für Geoinformatik sammelt seit mehreren
-            Jahren praktische Erfahrung in Workshops mit Schülern und Lehrern. Dabei hat sich herausgestellt, dass die
-            Datenerhebung mit selbstgebauten Sensorstationen einen besonders zugänglichen Weg bei der Arbeit mit
-            Geoinformation und Umweltdaten bietet. Ganz nebenbei werden Kompetenzen in der Programmierung auf eine sehr
-            anschauliche Art und Weise vermittelt. Diese Erfahrung führte zur Entwicklung der senseBox:edu basierend auf
-            Arduino Mikrokontrollern, Sensoren und Zubehör zur Gruppenarbeit im Klassen-/Kurskontext. Die senseBox:home
-            ergänzt diesen Ansatz und komplettiert das Citizen Science Toolkit.</p>
-    </div>
-</div>
-
-
-{% assign teammembers-reedu = site.data.i18n.[page.lang].team-reedu | sort: 'position' %}
-{% assign teammembers-uni = site.data.i18n.[page.lang].team-uni | sort: 'position' %}
-{% assign awardslist = site.awards | sort: 'weight' %}
-
-<div class="container main-container">
-    <h1>Team an der Westfälischen Wilhelms-Universität Münster</h1>
-    <div class="row">
-        {% for teammember in teammembers-uni %}
-        <div class="item col-md-6 col-12">
-            <div class="item-inner m-2">
-                <div class="row">
-                    <div class="figure col-md-5 col-12">
-                        <img loading="lazy" class="img-fluid" src="{{ teammember.image }}" alt="">
-                    </div>
-                    <div class="info col-md-7 col-12">
-                        <h3 class="name">{{ teammember.name }}</h3>
-                        <h4 class="role">{{ teammember.role }}</h4>
-                        <p>{{ teammember.description }}</p>
-                    </div>
-                    <!--//info-->
-                </div>
+      {% for teammember in teammembers %}
+      <div class="item col-4">
+        <div class="item-inner m-2">
+          <div class="row">
+            <div class="figure">
+              <img
+                loading="lazy"
+                class="img-fluid"
+                src="{{ teammember.image }}"
+                alt=""
+              />
+              <h3 class="name">{{ teammember.name }}</h3>
+              <h5 class="role">{{ teammember.role }}</h5>
+              <p>{{ teammember.description }}</p>
             </div>
-            <!--//item-inner-->
+
+            <!--//info-->
+          </div>
         </div>
-        {% endfor %}
+        <!--//item-inner-->
+      </div>
+      {% endfor %}
     </div>
-</div>
+  </div>
 
+  <hr />
 
-
-<hr>
-
-
-
-<div class="container main-container">
-    <h1>Team-Reedu</h1>
+  <div class="container">
     <div class="row">
-        {% for teammember in teammembers-reedu %}
-        <div class="item col-md-6 col-12">
-            <div class="item-inner m-2">
-                <div class="row">
-                    <div class="figure col-md-5 col-12">
-                        <img loading="lazy" class="img-fluid" src="{{ teammember.image }}" alt="">
-                    </div>
-                    <div class="info col-md-7 col-12">
-                        <h3 class="name">{{ teammember.name }}</h3>
-                        <h5 class="role">{{ teammember.role }}</h5>
-                        <p>{{ teammember.description }}</p>
-                    </div>
-                    <!--//info-->
-                </div>
-            </div>
-            <!--//item-inner-->
-        </div>
-        {% endfor %}
+      <div class="figure col-12">
+        <img
+          loading="lazy"
+          class="img-fluid"
+          src="{{ teammember.image }}"
+          alt=""
+        />
+      </div>
     </div>
-</div>
+  </div>
 
-<hr>
+  <hr />
 
-<div class="container main-container">
-
+  <div class="container main-container">
     <div class="row">
-        <h1 id="Förderung"><mark>Förderungen</mark></h1>
-        {% for award in awardslist %}
-        {% if award.type == 'grant' %}
-        <div class="posts py-5">
-            <h2 style="clear:both">{{ award.title }}</h2>
-            <div class="row">
-                {% if award.thumbnail %}
-                <div class="col-sm-4">
-                    <img loading="lazy" class="award-pic" src="{{ site.baseurl | append: award.thumbnail }}"
-                        alt="{{ award.title }} - Logo" />
-                </div>
+      <h1 id="Förderung"><mark>Förderungen</mark></h1>
+      {% for award in awardslist %} {% if award.type == 'grant' %}
+      <div class="posts py-5">
+        <h2 style="clear: both">{{ award.title }}</h2>
+        <div class="row">
+          {% if award.thumbnail %}
+          <div class="col-sm-4">
+            <img
+              loading="lazy"
+              class="award-pic"
+              src="{{ site.baseurl | append: award.thumbnail }}"
+              alt="{{ award.title }} - Logo"
+            />
+          </div>
 
-                <div class="col-sm-8">
-                    <div class="content">
-                        {{ award.content }}
-                    </div>
-                </div>
-                {% else %}
-                <div class="content">
-                    {{ award.content }}
-                </div>
-                {% endif %}
-            </div>
-            <hr class="clear nomargin">
+          <div class="col-sm-8">
+            <div class="content">{{ award.content }}</div>
+          </div>
+          {% else %}
+          <div class="content">{{ award.content }}</div>
+          {% endif %}
         </div>
-        {% endif %}
-        {% endfor %}
+        <hr class="clear nomargin" />
+      </div>
+      {% endif %} {% endfor %}
     </div>
-
 
     <div class="row">
-        <h1><mark>Auszeichnungen</mark></h1>
+      <h1><mark>Auszeichnungen</mark></h1>
 
-        {% for award in awardslist %}
-        {% if award.type == 'award' %}
-        <div class="posts py-5">
-            <h2 style="clear:both">{{ award.title }}</h2>
-            <div class="row">
-                {% if award.thumbnail %}
-                <div class="col-sm-4">
-                    <img loading="lazy" class="award-pic" src="{{ site.baseurl | append: award.thumbnail }}"
-                        alt="{{ award.title }} - Logo" />
-                </div>
-                <div class="col-sm-8">
-                    <div class="content">
-                        {{ award.content }}
-                    </div>
-                </div>
-                {% else %}
-                <div class="content">
-                    {{ award.content }}
-                </div>
-                {% endif %}
-            </div>
-            <hr class="clear nomargin">
+      {% for award in awardslist %} {% if award.type == 'award' %}
+      <div class="posts py-5">
+        <h2 style="clear: both">{{ award.title }}</h2>
+        <div class="row">
+          {% if award.thumbnail %}
+          <div class="col-sm-4">
+            <img
+              loading="lazy"
+              class="award-pic"
+              src="{{ site.baseurl | append: award.thumbnail }}"
+              alt="{{ award.title }} - Logo"
+            />
+          </div>
+          <div class="col-sm-8">
+            <div class="content">{{ award.content }}</div>
+          </div>
+          {% else %}
+          <div class="content">{{ award.content }}</div>
+          {% endif %}
         </div>
-        {% endif %}
-        {% endfor %}
+        <hr class="clear nomargin" />
+      </div>
+      {% endif %} {% endfor %}
     </div>
+  </div>
 </div>

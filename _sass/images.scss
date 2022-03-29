@@ -2,45 +2,42 @@
 
 .team-pic,
 .press-pic,
-.award-pic
- {
+.award-pic {
   //float: left;
   margin: 2px;
   margin-right: 15px;
   max-width: 100%;
 }
-.footer-icon{
+.footer-icon {
   padding-right: 2px;
 }
 
-.partner-pic{
+.partner-pic {
   max-height: 100px;
 }
 
-.masthead-small-pic{
-  
+.masthead-small-pic {
   // Large devices (desktops, 992px and up)
-  @media (min-width: 992px) { 
+  @media (min-width: 992px) {
     height: 100%;
-    width: auto; 
+    width: auto;
   }
-  @media (max-width: 992px) { 
+  @media (max-width: 992px) {
     height: auto;
-    width: 100%; 
+    width: 100%;
   }
 }
 
 .masthead-pic {
-  
   // Large devices (desktops, 992px and up)
-  @media (min-width: 992px) { 
+  @media (min-width: 992px) {
     height: 80%;
     max-height: 400px;
-    width: auto; 
+    width: auto;
   }
-  @media (max-width: 992px) { 
+  @media (max-width: 992px) {
     height: auto;
-    width: 80%; 
+    width: 80%;
     max-width: 400px;
   }
 }
@@ -57,4 +54,9 @@
   border-bottom: 1px #fff solid;
   /* This positions the canvas under the text */
   z-index: 1;
+}
+
+.store-logo {
+  width: 150px;
+  height: auto;
 }

@@ -29,6 +29,8 @@ editoren-name: "Editoren"
 editoren-link: /editoren.html
 blockly-name: "Blockly für senseBox"
 blockly-link: /blockly.html
+connectApp-name: "senseBox Connect App"
+connectApp-link: /app.html
 opensensemap-name: "openSenseMap"
 opensensemap-link: /opensensemap.html
 #Resources

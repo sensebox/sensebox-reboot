@@ -1,4 +1,18 @@
-headline:
 intro: "Verwende die senseBox Connect App auf deinem Tablet, um Programmcodes über WLAN auf deine senseBox zu übertragen."
-explaination: "Um Programmcodes auf die senseBox zu übertragen, muss einmalig über einen Computer ein bestimmter Programmcode übertragen werden. Den Programmcode findest du hier als kompilierte .bin Datei. Kopiere die Datei einfach auf deine senseBox MCU und stecke das WiFi-Bee auf den Steckplatz XBEE1 und du kannst starten."
-attention: "Dieser Schritt muss nur einmalig durchgeführt werden. Solange Programmcodes über die App auf die senseBox übertragen werden, bleibt die Funktionalität bestehen. Kopierst du allerdings einen Programmcode über deinen Computer auf die senseBox MCU, musst du den oben beschriebenen Schritt wiederholen."
+preperations-head: Vorbereitungen
+preperations-text1: Damit du die senseBox-App zum Übertragen von Programmcodes verwenden kannst, musst du zunächst einige Vorbereitungen treffen.
+preperations-text2: Installiere die senseBox Connect App auf deinem Tablet oder Smartphone. Wir empfehlen zum Programmieren des Programmcodes ein Tablet zu verwenden!
+preperations-text3: Für die Verbindung zur senseBox wird später deine WiFi-ID benötigt. Die WiFi-ID ist eine einzigartige Identifikation, die du in der senseBox Connect App eingeben kannst. Die WiFi-ID deiner senseBox bzw. deines WiFi-Bees findest du auf der Rückseite. Die ID besteht aus den letzten 4 Stellen der MAC-Adresse deines WiFi-Bees. Am besten notierst du dir irgendwo deine WiFi-ID, damit du sie später wiederfinden kannst.
+preperations-text4: Stecke das WiFi-Bee auf den Steckplatz XBee-1 auf der senseBox MCU.
+preperations-text5: Kopiere den OTA-Sketch über deinen Computer auf die senseBox MCU.
+preperations-text6: Dieser Schritt muss nur einmal ausgeführt werden, solange du deine senseBox MCU über das Tablet programmierst. Sobald du erneut einen Programmcode über den Computer auf die senseBox MCU kopierst, muss dieser Schritt erneut ausgeführt werden.
+preperations-text7: Verbinde die senseBox MCU mit einer Stromquelle. Du kannst hierfür ein USB-Netzteil oder auch eine Powerbank nutzen.
+programming-head: Programmieren und Programmcode übertragen
+programming-text1: Die Programmieroberfläche erkennt in der Regel automatisch, welches Gerät du zum Programmieren verwendest und aktiviert automatisch den Tabletmodus, wenn du die Oberfläche von einem Tablet öffnest. Dies wird durch ein Begrüßungsfenster dargestellt. Sollte dieses Fenster nicht angezeigt werden, wenn du die Seite auf einem Tablet öffnest, kannst du den Tabletmodus auch in den Einstellungen unter "Tablet Modus" aktivieren.
+programming-text2: Wenn du die Programmierung abgeschlossen hast, klicke auf den orangenen Button, um den Programmcode zu kompilieren und die Übertragung zu starten.
+programming-text3: Nachdem der Code erfolgreich kompiliert und überprüft wurde, starte die Übertragung.
+programming-text4: Nachdem du den Button "Starte Übertragung" gedrückt hast, wirst du gefragt, ob du die senseBox-App öffnen möchtest.
+programming-text5: Nach dem Öffnen der App kannst du den Prozess des Übertragens auf deine senseBox mit einem Drücken auf den Button starten.
+programming-text6: Starte den OTA-Modus auf deiner senseBox durch Halten des Switch Buttons und Drücken des Reset Buttons. Lasse den Reset Button los und halte den Switch Button für weitere 5 Sekunden gedrückt, bis die gelbe LED neben dem Reset Button anfängt zu blinken.
+programming-text7: Trage die WiFi-ID deiner senseBox ein und stelle die Verbindung durch einen Klick auf den Button her. Sobald die Verbindung hergestellt wurde, kannst du den Programmcode übertragen.
+programming-text8: Super! Der Programmcode wurde übertragen und wird nun von der senseBox MCU ausgeführt. Beachte, dass du jedes Mal, wenn du einen Programmcode neu übertragen willst, diese Schritte erneut ausgeführt werden müssen.

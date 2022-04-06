@@ -81,3 +81,10 @@
   description: "Eine Unterrichtsreihe zur Thematik des Klimawandels"
   bgImage: /images/material/klimawandel_lehrkonzept.png
   link: /docs/Klimawandel_Lehrkonzept_Masterarbeit.pdf
+
+- name: "Temperaturerfassung mit selbstgebauten/-programmiertem Messgerät"
+  position: t13
+  organisation: Stefan Lesch
+  description: "Ausgehend von einem Bunsenbrenner, einer Herdplatte & einem Wasserkocher wird die mögliche Leitfrage entwickelt: Was erwärmt Wasser am höchsten? Anschließend beginnen die SuS mit dem Bauen des digitalen Thermometers, programmieren es & führen das Experiment durch."
+  bgImage: /images/material/wassertemp.jpeg
+  link: /docs/Experiment_Wassertemp.zip

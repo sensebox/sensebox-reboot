@@ -8,6 +8,8 @@ thumbnail: /images/projects/Titelbild_CSV.png
 image0: /images/projects/csv-upload/set-rtc.png
 image1: /images/projects/csv-upload/setup-main.png
 image2: /images/projects/csv-upload/loop-main.png
+image3: /images/projects/csv-upload/upload-button.png
+image4: /images/projects/csv-upload/upload-window.png
 material:
     - senseBox MCU
     - SD-Karte
@@ -63,4 +65,12 @@ Trage bei sensorID die passende **sensorID** aus der openSenseMap ein und wähle
 Jetzt kannst du das Programm kompilieren und auf die MCU übertragen.
 
 ## Upload zur openSenseMap
-Wenn deine Station ein paar Messdaten gesammelt hat, kannst du diese auf die openSenseMap hochladen. 
+Wenn deine Station ein paar Messdaten gesammelt hat, kannst du diese auf die openSenseMap hochladen. Gehe dazu auf dein [Dashboard](https://opensensemap.org/account) und klicke bei deiner Box auf **Daten-Upload**.
+
+{% include image.html image=page.image3 %}
+
+Du solltest jetzt folgendes Fenster sehen:
+
+{% include image.html image=page.image4 %}
+
+Jetzt nimmst du die SD-Karte aus deiner senseBox heraus und legst sie in dein Lesegerät ein. Dann klickst du auf ``Wähle eine Datei`` und wählst die Datei aus, die sich auf deiner SD-Karte befindet. Anschließend klickst du auf ``Upload``. Fertig, deine Daten sind auf die openSenseMap hochgeladen worden und sollten jetzt in deiner Box auftauchen.

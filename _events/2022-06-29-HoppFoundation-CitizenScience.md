@@ -5,5 +5,5 @@ description: "Die Hopp Foundation for computer literacy & informatics bietet kos
 link: "https://www.hopp-foundation.de/lehrer/citizen-science-mit-der-sensebox-die-bruecke-zwischen-wissenschaft-umwelt-und-bildung/"
 starting-date: 2022-06-29
 time: "10:00-13:00"
-ending-date: 2020-06-29
+ending-date: 2022-06-29
 ---

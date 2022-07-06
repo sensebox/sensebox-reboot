@@ -286,9 +286,15 @@
         capture eventendingdateunix %}{{event.ending-date | date: '%s'}}{%
         endcapture %} {% if eventendingdateunix > nowunix %} {% assign index =
         forloop.length | minus: forloop.index %} {% include event_template.html
-        event=event %} {% assign i = i | plus: 1 %} {% endif %} {% if i == 8 %}
+        event=event %} {% assign i = i | plus: 1 %} {% endif %} {% if i == 3 %}
         {% break %} {% endif %} {% endfor %}
       </ul>
+      <a
+        href="{{site.baseurl}}/{{page.lang}}/events.html"
+        class="btn btn-sensebox-green"
+      >
+        {{ content.event-button}}
+      </a>
       <!-- End -->
     </div>
   </div>
@@ -363,12 +369,7 @@
                 />
                 <div
                   id="mergeRow-gdpr"
-                  class="
-                    mergeRow
-                    gdpr-mergeRow
-                    content__gdprBlock
-                    mc-field-group
-                  "
+                  class="mergeRow gdpr-mergeRow content__gdprBlock mc-field-group"
                 >
                   <div class="content__gdpr">
                     <label>Erlaubnis zum Marketing</label>

@@ -5,5 +5,5 @@ description: "Die Hopp Foundation for computer literacy & informatics bietet kos
 link: "https://www.hopp-foundation.de/lehrer/smart-city-und-smart-home-mit-der-sensebox/#"
 starting-date: 2022-06-29
 time: "14:00-17:00"
-ending-date: 2020-06-29
+ending-date: 2022-06-29
 ---

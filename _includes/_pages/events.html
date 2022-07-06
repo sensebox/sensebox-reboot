@@ -21,6 +21,19 @@
 <div style="background-color: whitesmoke">
   <div class="container">
     <h1>{{ t.past-head }}</h1>
+    <div style="text-align: center" id="2022">
+      <h1>2022</h1>
+      <div class="row events-row">
+        {% assign events = site.events | sort: 'ending-date' | reverse %} {% for
+        event in events %} {% capture nowunix %}{{'now' | date: '%s'}}{%
+        endcapture %} {% capture eventendingdateunix %}{{event.ending-date |
+        date: '%s'}}{% endcapture %} {% capture year %}{{event.ending-date |
+        date: '%Y'}}{% endcapture %} {% if nowunix > eventendingdateunix and
+        year =='2022' %} {% include event_history.html event=event %} {% endif
+        %} {% endfor %}
+      </div>
+    </div>
+    <hr />
 
     <div style="text-align: center" id="2021">
       <h1>2021</h1>

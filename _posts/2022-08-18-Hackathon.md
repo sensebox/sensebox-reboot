@@ -39,7 +39,7 @@ Neben dem gemeinsamen Coden waren auch das Pizzaessen, Grillen und die Übernach
 
 Der Hackathon wurde über das Projekt „HackYourCity“ realisiert, das im Rahmen der [EASE Corona Förderung](https://www.ease-corona.de/) des Bundesministeriums für Bildung und Forschung, der Universität Würzburg und [Lernort Labor](https://www.lernortlabor.de/), dem Bundesverband der Schülerlabore, gefördert wird. Ziel ist es, Lernrückstände im MINT-Bereich durch den Einsatz von digitalen Technologien am Projektbeispiel der Smart-City zu überwinden. Preise und Verpflegung wurden zum Teil von lokalen IT-Unternehmen und StartUps wie [re:edu](https://reedu.de/), [Liba](https://liba-trinken.de/), [OVSoftware](https://ovsoftware.de/) und dem MÜNSTERHACK gesponsert. Neben dem Hackathon bietet das Projekt in einer attraktiven und modernen Lernumgebung des Schülerlabors „[GI@School](https://gi-at-school.org/)“ auch weitere Angebote wie Ferienakademien und AG´s an. 
 
-Neugierig geworden? Die nächste Ferienakademie findet in den Herbstferien am Institut für Geoinformatik in der Heisenbergstraße 2 in Münster statt. Außerdem bietet das Team regelmäßige Labs für Jugendliche im Rahmen der Initiative “Jugend hackt” an. 
+Neugierig geworden? Die nächste Ferienakademie findet in den Herbstferien am Institut für Geoinformatik in der Heisenbergstraße 2 in Münster statt. Außerdem bietet das Team regelmäßige Labs für Jugendliche im Rahmen der Initiative “[Jugend hackt](https://jugendhackt.org/)” an. 
 
 Weitere Informationen & Anmeldung: 
 https://gi-at-school.org/hackyourcity/

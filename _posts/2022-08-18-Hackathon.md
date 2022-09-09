@@ -4,16 +4,16 @@ title: "HackYourCity Hackathon"
 date: 2022-08-18
 author: Gina
 abstract: "Kinder und Jugendliche entwickeln in 48 Stunden spannende Ideen, um Münster noch smarter zu machen"
-thumbnail: /images/blog/HackYourCity_Hackathon.jpg
-image1: /images/blog/HackYourCity_Hackathon_1.jpg
-image2: /images/blog/HackYourCity_Hackathon_2.jpg
-image3: /images/blog/HackYourCity_Hackathon_3.jpg
-image4: /images/blog/HackYourCity_Hackathon_4.jpg
-image5: /images/blog/HackYourCity_Hackathon_5.jpg
-image6: /images/blog/HackYourCity_Hackathon_9.jpg
-image7: /images/blog/HackYourCity_Hackathon_6.jpg
-image8: /images/blog/HackYourCity_Hackathon_7.jpg
-image9: /images/blog/HackYourCity_Hackathon_8.jpg
+thumbnail: /images/blog/2022-08-18-Hackathon/HackYourCity_Hackathon.jpg
+image1: /images/blog/2022-08-18-Hackathon/HackYourCity_Hackathon_1.jpg
+image2: /images/blog/2022-08-18-Hackathon/HackYourCity_Hackathon_2.jpg
+image3: /images/blog/2022-08-18-Hackathon/HackYourCity_Hackathon_3.jpg
+image4: /images/blog/2022-08-18-Hackathon/HackYourCity_Hackathon_4.jpg
+image5: /images/blog/2022-08-18-Hackathon/HackYourCity_Hackathon_5.jpg
+image6: /images/blog/2022-08-18-Hackathon/HackYourCity_Hackathon_9.jpg
+image7: /images/blog/2022-08-18-Hackathon/HackYourCity_Hackathon_6.jpg
+image8: /images/blog/2022-08-18-Hackathon/HackYourCity_Hackathon_7.jpg
+image9: /images/blog/2022-08-18-Hackathon/HackYourCity_Hackathon_8.jpg
 lang: de
 tag: News
 ---

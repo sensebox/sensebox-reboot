@@ -66,7 +66,7 @@
   organisation: Didaktik der Informatik Universität Paderborn
   description: 'Das übergeordnete Thema dieser Unterrichtsreihe lautet "Data Science mit Python". In dieser konkreten Unterrichtsreihe beziehen sich die Daten auf umweltbezogene Aspekte wie Temperatur, Luftfeuchtigkeit oder Feinstaubbelastung, sodass die SuS eine Umweltanalyse auf Grundlage einer eigenen Fragestellung durchführen sollen.'
   bgImage: /images/material/jupyter_ddipaderborn.png
-  link: https://unterrichtsmaterial-ddi.cs.upb.de/Analyse_von_Umweltdaten
+  link: https://unterrichtsmaterial-ddi.cs.upb.de/Analyse_von_Umweltdaten/Modulsteckbrief
 
 - name: "Digitales Mobiles Umweltlabor für die MINT-Fächer"
   position: t11

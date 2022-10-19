@@ -6,5 +6,4 @@ author: Manuela
 thumbnail: /images/press/wunderding.png
 categories: press
 ---
-„Wenn Sie wissen wollen, wie warm es gestern in Stuttgart, Frankfurt oder Münster, dann können Sie das auf jeder beliebigen Wetterseite nachschauen. Wenn Sie dazu aber mehr wissen wollen zu Luftdruck, relativer Luftfeuchte, Feinstaubgehalt oder UV-Strahlung, dann unbedingt mal auf die openSenseMap schauen und am besten gleich mitmachen."
-<a href="https://www.buero-wunderding.de/portfolio/wunderding-journal/" target="_blank">"Wunderding" 15.05.2017</a>
+„Wenn Sie wissen wollen, wie warm es gestern in Stuttgart, Frankfurt oder Münster, dann können Sie das auf jeder beliebigen Wetterseite nachschauen. Wenn Sie dazu aber mehr wissen wollen zu Luftdruck, relativer Luftfeuchte, Feinstaubgehalt oder UV-Strahlung, dann unbedingt mal auf die openSenseMap schauen und am besten gleich mitmachen." Wunderding, 15.05.2017

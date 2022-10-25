@@ -3,7 +3,7 @@ layout: project_page
 title: "Kaminfeuer"
 date: 2019-04-29
 author: Bernd
-abstract: "Es wird ein Kaminfeuer simuliert, indem eine rote LED zum flackern gebracht wird."
+abstract: "Es wird ein Kaminfeuer simuliert, indem eine rote LED zum Flackern gebracht wird."
 thumbnail: /images/projects/Titelbild_Kaminfeuer.png
 image0: /images/projects/kaminfeuer_setup.png
 material:
@@ -20,7 +20,7 @@ version: ["edu"]
 
 # Kaminfeuer
 
-Ziel dieses Projektes ist es, ein Kaminfeuer zu simulieren. Dazu wird eine rote LED zum flackern gebracht.
+Ziel dieses Projektes ist es, ein Kaminfeuer zu simulieren. Dazu wird eine rote LED zum Flackern gebracht.
 
 ## Aufbau
 
@@ -46,7 +46,7 @@ void setup() {
 }
 ```
 
-Du speicherst den digitalen Port 1 in einer Variable, damit du dir nur noch den aussagekräftigen Variablennamen merken musst und nicht die Portnummer. Das ist vorallem bei mehreren angeschlossenen LEDs hilfreich.
+Du speicherst den digitalen Port 1 in einer Variable, damit du dir nur noch den aussagekräftigen Variablennamen merken musst und nicht die Portnummer. Das ist vor allem bei mehreren angeschlossenen LEDs hilfreich.
 
 ### Schritt 2: loop()-Funktion
 

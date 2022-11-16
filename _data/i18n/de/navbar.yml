@@ -12,6 +12,8 @@ go-edu-name: ":edu"
 go-edu-link: /go-edu.html
 go-mini-name: ":mini"
 go-mini-link: /go-mini.html
+go-co2-name: ":CO<sub>2</sub>-Ampel"
+go-co2-link: /go-co2.html
 #Products
 products-name: "Übersicht"
 products-link: /products.html
@@ -23,8 +25,14 @@ products-mini-name: ":mini"
 products-mini-link: /products-mini.html
 products-parts-name: "Bauteile"
 products-parts-link: /products-parts.html
+products-bees-name: "Bees"
+products-bees-link: /products-bees.html
+products-sensors-name: "Sensoren"
+products-sensors-link: /products-sensors.html
 products-co2-name: "CO<sub>2</sub>-Ampel"
 products-co2-link: /products-co2.html
+products-boards-name: "Boards"
+products-boards-link: "/products-boards.html"
 editoren-name: "Editoren"
 editoren-link: /editoren.html
 blockly-name: "Blockly für senseBox"

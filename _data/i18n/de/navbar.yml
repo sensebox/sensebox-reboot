@@ -15,8 +15,12 @@ go-mini-link: /go-mini.html
 go-co2-name: ":CO<sub>2</sub>-Ampel"
 go-co2-link: /go-co2.html
 #Products
-products-name: "Übersicht"
+products-name: "Bausätze"
 products-link: /products.html
+products-hardware-name: "Hardware"
+products-hardware-link: /products-hardware.html
+products-software-name: "Software"
+products-software-link: /products-software.html
 products-home-name: ":home"
 products-home-link: /products-home.html
 products-edu-name: ":edu"

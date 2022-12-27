@@ -8,9 +8,10 @@ thumbnail:  /images/projects/Mini-Umweltmessstation.png
 image0: /images/projects/Messstation-mini/0.png
 image1: /images/projects/Messstation-mini/1.png
 image2: /images/projects/Messstation-mini/2.png
-image4: /images/projects/Messstation-mini/3.png
-image5: /images/projects/Messstation-mini/4.png
-image6: /images/projects/Messstation-mini/5.png
+image3: /images/projects/Messstation-mini/3.png
+image4: /images/projects/Messstation-mini/4.png
+image5: /images/projects/Messstation-mini/5.png
+image6: /images/projects/Messstation-mini/6.png
 material:
     - senseBox MCU mini
     - OLED Display
@@ -18,7 +19,7 @@ material:
     - Mikro SD-Karte
     - 2x JST-Qwicc-Kabel
 ide: blockly
-version: ["mini"]   
+version: ["mini:v2"]   
 lang: de
 tags: ["Informatik", "Geographie"]
 difficult: leicht

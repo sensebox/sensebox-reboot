@@ -24,13 +24,13 @@ image15: /images/projects/bme680-webserver/heimserver_blockly_full.png
 image16: /images/projects/bme680-webserver/heimserver_site.png
 material:
     - senseBox MCU
-    - OLED Display
-    - beliebiger Umweltsensor
+    - 1x OLED Display
+    - 1x beliebiger Umweltsensor
 ide: blockly   
-version: ["edu", "mini"] 
+version: ["edu", "mini v1"] 
 lang: de
-tags: ["Informatik"]
-difficult: mittel
+tags: ["Informatik", "IoT"]
+difficult: schwer
 ---
 # Heimserver mit der senseBox
 Dieses Projekt zeigt dir eine Möglichkeit deine senseBox ohne viel Aufwand in dein lokales WLAN zu integrieren. Das bedeutet, dass jeder, der mit diesem WLAN verbunden ist, die Sensor-Werte über einen Link auf seinem Smartphone oder Laptop aufrufen kann. Wie das im Grunde funktioniert: Auf eine Anfrage, die du später mit deinem Smartphone über die Eingabe eines Links ausführst, gibt die senseBox dir eine Antwort in Form einer Webseite zurück. Daher entspringt auch das Wort "Server", was man auf deutsch etwa als "Diener" übersetzen kann. Man stellt eine "Forderung"(engl. request) und bekommt darauf etwas zurückgegeben.
@@ -53,7 +53,7 @@ Hierzu benötigst du neben deiner senseBox MCU, das WiFi-Bee und einen OLED-Disp
 {% include image.html image=page.image0 %}
 
 ### Blockly Programm IP
-Nun erstellst du in [Blockly](https://blockly.sensebox.de/ardublockly/?board=sensebox-mcu&lang=de) den folgenden Sketch:
+Nun erstellst du in [Blockly](blockly.sensebox.de) den folgenden Sketch:
 
 {% include image.html image=page.image1 %}
 
@@ -167,4 +167,4 @@ Nun müsst ihr nur noch das Skript auf eure senseBox übertragen. Am einfachsten
 
 {% include image.html image=page.image16 %}
 
-Für alle die es weiterführend interessiert oder zu faul sind die Blöcke alle einzeln zu setzen, findet ihr [hier](https://github.com/yhallowiegeht/adventsproject_heimserver) ein github-Repository mit den beiden Blockly-Sketches, den fertigen arduino-Skripts und dem zu grunde liegenden HTML.
+Für alle die es weiterführend interessiert oder zu faul sind die Blöcke alle einzeln zu setzen, findet ihr [hier](https://github.com/yhallowiegeht/adventsproject_heimserver) ein github-Repository mit den beiden Blockly-Sketches, den fertigen arduino-Skripts und dem zu Grunde liegenden HTML.

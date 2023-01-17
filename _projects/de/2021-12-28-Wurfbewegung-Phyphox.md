@@ -14,10 +14,12 @@ material:
     - senseBox MCU
     - 1x Bluetooth-Bee
     - 1x Powerbank
+    - 1x Beschleunigungssensor (on Board)
     - evtl. Ball, Schaumstoff
 
 ide: blockly
 version: ["edu"]   
+addons: ["Bluetooth-Bee"]  
 lang: de
 tags: ["Informatik", "Physik", "Phyphox"]
 difficult: mittel
@@ -26,6 +28,8 @@ difficult: mittel
 
 # Erfasse die Beschleunigungsdaten der senseBox
 In Physik stellt das Zusammenwirken verschiedener Kräfte einen zentralen Gegnstandsbereich dar. Dabei sind vor allem die Phänomene der Kraft, Trägheit und Beschleunigung, beispielsweise bei einem freien Fall, von Relevanz. Ein Wurf der senseBox, die durch das Bluetooth-Bee mit der Phyphox App verbunden ist, ermöglicht die zeitgleiche Betrachtung der Beschleunigungsdaten in unterschiedliche Richtungen auf dem Smartphone oder Tablet. Dadurch kann die Nachvollziehbarkeit der erhobenen Messwerte unterstützt, sowie eine Grundlage für weitergehende Berechnungen gelegt werden.
+
+> Hinweis: Nicht jede Version der senseBox MCU ist mit einem Beschleunigungssensor ausgestattet. Prüfe mithife der [Docs](https://docs.sensebox.de/hardware/allgemein-sensebox-mcu/), ob dein Mikrocontroller den für dieses Projekt notwendigen Sensor besitzt.
 
 ## Aufbau
 Der Beschleunigungssensor ist direkt im Mikrocontroller der senseBox integriert, sodass dieser nicht angeschlossen werden muss. Das Bluetooth-Bee wird auf den Steckplatz XBee1 des Mikrocontrollers gesteckt. 
@@ -47,6 +51,8 @@ In der Endlosschleife bindest du den Beschleunigungssensor ein und wählst die g
 {% include image.html image=page.image2 %}
 
 Damit ist der Programmcode fertig! Du kannst nun den Sketch kompilieren und auf die senseBox MCU übertragen. Nun solltest du eine Stromversorgung mit einer Powerbank sicherstellen, sodass du die senseBox frei bewegen kannst. Um die senseBox beim Experiment zu schützen, empfiehlt sich beispielsweise ein gefütteter Ball oder Schaumstoff. Des Weiteren werden Gewichte mit 2kg benötigt. 
+
+Den fertigen Programmcode in Blockly findest du hier: [Analyse von Wurfbewegungen] (https://blockly.sensebox.de/gallery/63b58edcd2853f0013b1d804)
 
 ## Verbindung mit der Phyphox-App
 Öffnet die Phyphox App, klicke auf das + und wähle ‚Neues Experiment für Bluetooth-Gerät‘ aus. Es wird nun eine Liste von verfügbaren Messgeräten angezeigt. Klicke auf dein Messgerät, um die Verbindung herzustellen. Zum Einstellen des Messzeitraums für das Experiment klicke auf die drei Punkte und öffne den Punkt ‚Zeitautomatik‘. Da ein Wurf nur wenig Zeit in Anspruch nimmt, reicht für das Experiment eine Dauer von 10 Sekunden aus. Betätige anschließend den Button ‚Zeitautomatik aktivieren‘.

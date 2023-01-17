@@ -15,12 +15,12 @@ imageSolution: /images/projects/Wasserwaage/final.png
 
 material:
   - senseBox MCU
-  - JST Adaperkabel
-  - OLED-Display
+  - 1x JST-JST Kabel
+  - 1x OLED-Display
 ide: blockly
 lang: de
-tags: ["Informatik", "CO2-Ampel Set Edu"]
-version: ["edu", "mini"]
+tags: ["Informatik"]
+version: ["edu", "mini v1"]
 difficult: mittel
 ---
 
@@ -28,9 +28,12 @@ difficult: mittel
 
 Auf der senseBox ist ein Lagesensor verbaut. Dieser kann messen, ob die senseBox sich bewegt oder ob sie gerade oder schief liegt. In diesem Projekt machst du dir diesen Sensor zunutze, um eine digitale Wasserwaage zu programmieren.
 
+> Hinweis: Nicht jede Version der senseBox MCU ist mit einem Beschleunigungssensor ausgestattet. Prüfe mithife der [Docs](https://docs.sensebox.de/hardware/allgemein-sensebox-mcu/), ob dein Mikrocontroller den für dieses Projekt notwendigen Sensor besitzt.
+
+
 ## Aufbau
 
-Der Aufbau für das Projekt ist einfach. Der Beschleunigungssensor ist bereits auf der senseBox MCU aufgelötet und kann direkt genutzt werden. Das Display verbindest du mit dem JST-JST-Kabel mit einem der fünf I2C Ports.
+Der Aufbau für das Projekt ist einfach. Der Beschleunigungssensor ist je nach Version bereits auf der senseBox MCU aufgelötet und kann direkt genutzt werden. Das Display verbindest du mit dem JST-JST-Kabel mit einem der fünf I2C Ports.
 
 {% include image.html image=page.image0 %}
 
@@ -68,4 +71,4 @@ Nun bewegt sich dein Punkt je nach Ausrichtung der MCU. Was jetzt noch fehlt ist
 
 ### Fertiger Code
 
-Du kannst dir die Lösung dieses Projektes direkt in Blockly [öffnen](https://blockly.sensebox.de/ardublockly/index.html?board=sensebox-mcu&lang=de&gallery=projects/wasserwaage).
+Du kannst dir die Lösung dieses Projektes direkt in Blockly [öffnen](https://blockly.sensebox.de/gallery/63bd6967d2853f0013b1e118).

@@ -11,16 +11,16 @@ image3: /images/projects/iot_messstation/upload_osem.png
 image0: /images/projects/iot_messstation/neueSenseBox.png
 material:
   - senseBox MCU
-  - OLED Display
-  - Temperatur- und Luftfeuchtigkeitssensor
-  - Luftdrucksensor
-  - Helligkeits- und UV-Sensor
-  - JST-Kabel
-  - Wifi-Bee
+  - 1x OLED Display
+  - 1x Temperatur- und Luftfeuchtigkeitssensor
+  - 1x Luftdrucksensor
+  - 1x Helligkeits- und UV-Sensor
+  - 4x JST-Kabel
+  - 1x Wifi-Bee
 ide: blockly
 lang: de
-version: ["edu"]
-tags: ["Informatik", "Geographie"]
+version: ["edu", "mini v1", "home"]
+tags: ["Informatik", "Geographie", "IoT"]
 difficult: mittel
 ---
 
@@ -42,6 +42,8 @@ Schließe die Sensoren deiner Wahl mithilfe der mitgelieferten JST-Kabel an den 
     </div>
   </div>
 </div>
+
+>Beachte: Es gibt zwei verschiedene Luftdruck-Sensoren (BMP280 & DPS310). Anhand der Beschriftung auf dem Luftdruck-Sensor kannst du deinen Typ identifizieren. Achte bei der Programmierung darauf, dass du den richtigen Sensorblock auswählst. 
 
 ## Vorbereitung
 
@@ -67,7 +69,7 @@ Ist die Registrierung abgeschlossen, melde dich an und wähle über das Dropdown
 
 ### Schritt 1: Anfang der Programmierung
 
-Super, die Registrierung auf der [openSenseMap](https://www.opensensemap.org/) ist abgeschlossen! Nun kannst du dich der Programmierung widmen. Gehe hierfür auf die [Ardublockly](https://blockly.sensebox.de/ardublockly/?lang=de&board=sensebox-mcu) Seite. Der Umgang mit Ardublockly sollte dir aus vorherigen Anleitungen bekannt sein. Falls dem nicht so ist, besuche die [senseBox Go](https://sensebox.de/de/go-edu.html) Seite.
+Super, die Registrierung auf der [openSenseMap](https://www.opensensemap.org/) ist abgeschlossen! Nun kannst du dich der Programmierung widmen. Gehe hierfür auf die [Ardublockly](https://blockly.sensebox.de/ardublockly/?lang=de&board=sensebox-mcu) Seite oder nutze den [senseBox - Code Editor](https://blockly.sensebox.de/codeeditor). Der Umgang mit Ardublockly sollte dir aus vorherigen Anleitungen bekannt sein. Falls dem nicht so ist, besuche die [senseBox Go](https://sensebox.de/de/go-edu.html) Seite.
 Im ersten Schritt wird eine Verbindung mit dem Internet über WiFi hergestellt. Hierfür brauchst du den Namen und das Passwort für das WLAN, welches du zum Datenupload benutzen möchtest. Die hierfür verwendeten Blöcke befinden sich in der Kategorie `Web`->`WiFi`.
 
 {% include image.html image=page.image2 %}
@@ -91,4 +93,4 @@ Herzlichen Glückwunsch! Du hast eine eigene Messstation programmiert. Für was 
 
 ## Download
 
-Die fertigen Blockly Blöcke findest du <a href="https://raw.githubusercontent.com/sensebox/resources/master/code/Blockly_Sketch.xml" download="https://raw.githubusercontent.com/sensebox/resources/master/code/Blockly_Sketch.xml">hier</a>.
+Die fertigen Blockly Blöcke findest du [hier](https://blockly.sensebox.de/gallery/620ba2e5830e5000189b8d74).

@@ -5,23 +5,23 @@ date: 2020-03-09
 author: Mario
 abstract: "Eine Messstation für die Innenraumluftqualität"
 thumbnail:  /images/projects/IAQ.png
-image1: /images/projects/iaq-station/temperatur_display.svg
-image2: /images/projects/iaq-station/temp_humi_display.svg
-imageFall00: /images/projects/iaq-station/fall_00.svg
-imageFall01: /images/projects/iaq-station/fall_01.svg
-imageFall02: /images/projects/iaq-station/fall_02.svg
-imageFall03: /images/projects/iaq-station/fall_03.svg
+image1: /images/projects/iaq-station/0.png
+image2: /images/projects/iaq-station/1.png
+imageFall00: /images/projects/iaq-station/2.png
+imageFall01: //images/projects/iaq-station/3.png
+imageFall02: /images/projects/iaq-station/4.png
+imageFall03: /images/projects/iaq-station/5.png
 image4: /images/projects/iaq-station/osem_bme680.png
-image5: /images/projects/iaq-station/osem_blockly.svg
-image6: /images/projects/iaq-station/gesamt.svg
+image5: /images/projects/iaq-station/6.png
+image6: /images/projects/iaq-station/7.png
 material:
     - senseBox MCU
-    - OLED Display
-    - Umweltsensor BME680
-    - WiFi-Bee
+    - 1x OLED Display
+    - 1x Umweltsensor BME680
+    - 1x WiFi-Bee
     - 2x JST Kabel
 ide: blockly
-version: ["mini"]   
+version: ["mini v1"]   
 lang: de
 tags: ["Informatik", "Chemie"]
 difficult: mittel
@@ -109,5 +109,7 @@ Für jeden Messwert, den du nun senden möchtest, ziehe einen Block __Sende Mess
 {% include block.html image=page.image5 %}
 
 ## Gesamter Code
-
+[Hier](https://blockly.sensebox.de/gallery/63b6cdc6d2853f0013b1da74) findest du den gesamten Code in Blockly. 
  {% include block.html image=page.image6 %}
+
+

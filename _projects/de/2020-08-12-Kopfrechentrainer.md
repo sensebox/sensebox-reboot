@@ -3,7 +3,7 @@ layout: project_page
 date: 2020-08-12
 author: Verena
 title: "Kopfrechentrainer"
-abstract: "Erstelle deinen eignenen Trainer für Kopfrechenaufgaben"
+abstract: "Erstelle deinen eigenen Trainer für Kopfrechenaufgaben"
 thumbnail: /images/projects/Titelbild_kopfrechentrainer.jpg
 image0: /images/projects/kopfrechentrainer/Bild0.png
 image1: /images/projects/kopfrechentrainer/Bild1.png
@@ -12,13 +12,13 @@ image3: /images/projects/kopfrechentrainer/Bild3.png
 
 material:
   - senseBox MCU
-  - OLED Display
+  - 1x OLED Display
   - 1x JST-JST Kabel
 
 ide: blockly
-version: ["edu", "mini"]
+version: ["edu", "mini v1"]
 lang: de
-tags: ["Informatik", "Mathematik", "CO2-Ampel Set Edu"]
+tags: ["Informatik", "Mathematik"]
 difficult: leicht
 ---
 
@@ -42,14 +42,16 @@ Da du das Display verwendest, ist es zuerst einmal wichtig, dies im Setup() zu i
 
 ### Schritt 2: Die 'wenn...mache'-Bedingung
 
-Damit dir laufend neue Aufgaben angezeigt werden, ist es wichtig, eine Schleife zu verwenden. Hier kannst du einstellen, wie viele Aufgaben du insgesamt machen möchtest, zum Beispiels 30 Stück. Als nächstes solltest du festlegen, unter welchen Bedingungen eine Aufgabe angezeigt werden soll. Bei der senseBox bietet sich dafür die Betätigung des grauen Buttons auf dem Mikrocontroller an, der mit 'Switch' gekennzeichnet ist. Wenn also der Button gedrückt wurde, dann soll eine Aufgabe angezeigt werden. Um die Anzeige auf dem Display zu programmieren, verwende die Blöcke 'Zeige auf dem Display' und 'Schreibe Text/ Zahl'aus der Kategorie 'Display'. Hier kannst du die Schriftgröße oder auch die Position der Anzeige verändern. Bei 'Wert' gibst du dann an, welche Art von Aufgabe mithilfe der zuvor definierten Variablen angezeigt werden soll. Dafür verwendest du den Textbaustein 'Erstelle Text aus' und fügst hier die Variablen sowie ein freies Textelement, in das du manuell die Rechenoperation einträgst, ein. Bevor dann das Display wieder gelöscht wird, bestimmst du noch mithilfe des 'Warte'-Blocks aus der Kategorie 'Zeit', wie lange du für die Bearbeitung der Aufgabe brauchst.
+Damit dir laufend neue Aufgaben angezeigt werden, ist es wichtig, eine Schleife zu verwenden. Hier kannst du einstellen, wie viele Aufgaben du insgesamt machen möchtest, zum Beispiels 10 Stück. Als nächstes solltest du festlegen, unter welchen Bedingungen eine Aufgabe angezeigt werden soll. Bei der senseBox bietet sich dafür die Betätigung des Buttons auf dem Mikrocontroller an, der mit 'Switch' gekennzeichnet ist. Wenn also der Button gedrückt wurde, dann soll die erste Aufgabe angezeigt werden. Um die Anzeige auf dem Display zu programmieren, verwende die Blöcke 'Zeige auf dem Display' und 'Schreibe Text/ Zahl'aus der Kategorie 'Display'. Hier kannst du die Schriftgröße oder auch die Position der Anzeige verändern. Bei 'Wert' gibst du dann an, welche Art von Aufgabe mithilfe der zuvor definierten Variablen angezeigt werden soll. Dafür verwendest du den Textbaustein 'Erstelle Text aus' und fügst hier die Variablen sowie ein freies Textelement, in das du manuell die Rechenoperation einträgst, ein. Bevor dann das Display wieder gelöscht wird, bestimmst du noch mithilfe des 'Warte'-Blocks aus der Kategorie 'Zeit', wie lange du für die Bearbeitung der Aufgabe brauchst.
 
 {% include image.html image=page.image2 %}
 
 ### Schritt 3: Anzeigen der Lösung
 
-Nun wird dir auf dem Display die Aufgabe angezeigt. Damit dir aber auch die Lösung angezeigt wird, musst du der senseBox diesen Befehl geben. Verwende dazu nochmal den Blog 'Zeige auf dem Display'. Statt bei 'Wert' den Text nun mauell zu erstellen, fügst du hier eine mathematische Operation ein. Beispielsweise die Multiplikation mit den beiden Variablen x und y. Damit der Text immer richtig überschrieben wird, folgt hier ebenfalls der Blog 'Display löschen'.
+Nun wird dir auf dem Display die Aufgabe angezeigt. Damit dir aber auch die Lösung angezeigt wird, musst du der senseBox diesen Befehl geben. Verwende dazu nochmal den Blog 'Zeige auf dem Display'. Statt bei 'Wert' den Text nun mauell zu erstellen, fügst du hier eine mathematische Operation ein. Beispielsweise die Multiplikation mit den beiden Variablen x und y. Damit der Text immer für ein paar Sekunden auf dem Display steht, folgt auch hier ein 'Warte'-Block. 
 
 {% include image.html image=page.image3 %}
 
-Damit bist du fertig und hast das Projekt erfolgreich abgeschlossen! Mit dieser Programmierung wird dir auf dem Display nun eine Aufgabe des großen Einmaleins angezeigt. Die Lösung erscheint nach 10 Sekunden und sobald du auf dem Button drückst, bekommst du eine neue Aufgabe gestellt.
+[Hier](https://blockly.sensebox.de/gallery/63b6c66ed2853f0013b1da5f) findest du den gesamten Blockly-Sketch.
+
+Damit bist du fertig und hast das Projekt erfolgreich abgeschlossen! Mit dieser Programmierung wird dir auf dem Display nun eine Aufgabe des großen Einmaleins angezeigt. Die Lösung erscheint nach 10 Sekunden und nach weiteren 5 Sekunden bekommst du eine neue Aufgabe gestellt.

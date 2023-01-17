@@ -17,7 +17,7 @@ material:
   - evtl. Powerbank
 
 ide: blockly
-version: ["edu", "mini"]
+version: ["edu", "mini v1"]
 lang: de
 tags: ["Informatik", "Mathematik", "CO2-Ampel Set Edu"]
 difficult: leicht
@@ -51,6 +51,8 @@ Nun solltest du eine Bedingung aufstellen, die vorgibt, unter welchen Voraussetz
 Nun wird bereits die Anzahl erfasst. Damit dir diese aber auch auf dem Display angezeigt wird, solltest du diese Programmierung ebenfalls in Blockly vornehmen. Dafür verwendest du die Blöcke 'Zeige auf dem Display' und 'Schreibe Text/ Zahl'. Letzterer gibt dir die Möglichkeit, die Annzeige zu konfigurieren, beispielsweise indem du die Schriftgröße oder die Position des Textes änderst. Bei 'Wert' fügst du nun den Block 'Erstelle Text aus' ein, damit dir zum einen die Bezeichnung der sich auf dem Display befindenden Zahl und zum anderen die konkrete Zahl auf dem Display angezeigt wird. Du fügst dort also noch einen Textbaustein ein, in dem du einen frei wählbaren Text eintragen kannst, und die Variable, die du bereits definiert hast. Diese wird dann nämlich als Zahl auf dem Display erscheinen und durch einen Klick auf dem Button um 1 erhöht.
 
 {% include image.html image=page.image3 %}
+
+Den Blockly-Sketch findest du [hier](https://blockly.sensebox.de/gallery/63b6b867d2853f0013b1da4d).
 
 Damit der Klickzähler nun auch mobil verwendet werden kann, empfiehlt es sich, die senseBox mithilfe einer Powerbank mit Strom zu versorgen.
 Damit hast du das Projekt erfolgreich abgeschlossen und du kannst nun problemlos Zählungen von Personen oder Gegenständen durchführen.

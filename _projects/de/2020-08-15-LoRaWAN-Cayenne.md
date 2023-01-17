@@ -23,10 +23,10 @@ material:
   - evtl. Powerbank
 
 ide: blockly
-version: ["edu", "mini" ]
+version: ["edu", "mini v1" ]
 addons: ["LoRa-Bee"]
 lang: de
-tags: ["Informatik", "IoT", "CO2-Ampel Set Edu"]
+tags: ["Informatik", "IoT", "TTN"]
 difficult: mittel
 ---
 
@@ -93,3 +93,5 @@ Füge anschließend in der ‘Endlosschleife’ den Block ‘Sende als Cayenne N
 {% include image.html image=page.image8 %}
 
 Kompiliere nun den Sketch und übertrage ihn auf deine senseBox. Damit hast du das Projekt abgeschlossen und kannst nun eigenständig Umweltdaten erheben und sie effizient per LoRa verschicken. Der Abruf erfolgt am schnellsten über die TTN Konsole. Klicke dazu in deiner Application auf den Data Tab und die neusten Nachrichten sollten nach kurzer Zeit auftauchen. Falls keine Nachrichten ankommen, schau nochmal über deine EUIs und dessen Format. Ansonsten könnte es sein, dass in deiner Umgebung kein LoRa Gateway in Reichweite ist.
+
+Den gesamten Blockly-Sketch findest du [hier](https://blockly.sensebox.de/gallery/63b6b637d2853f0013b1da41).

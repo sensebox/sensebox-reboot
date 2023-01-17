@@ -21,15 +21,15 @@ image13: /images/projects/lora-osem-tago/Integration_osem.PNG
 material:
     - senseBox MCU
     - 3x JST-Kabel 
-    - LoRa-Bee
-    - Temperatur-/Luftfeuchtigkeitssensor
-    - Luftdrucksensor
-    - Beleuchtungsstärke-/UV-Sensor
+    - 1x LoRa-Bee
+    - 1x Temperatur-/Luftfeuchtigkeitssensor
+    - 1x Luftdrucksensor
+    - 1x Beleuchtungsstärke-/UV-Sensor
 ide: arduino  
-version: ["edu", "mini"]
+version: ["edu", "mini v1, "home""]
 addons: ["LoRa-Bee"]  
 lang: de
-tags: ["Geographie", "Informatik", "LoRa", "TTN"]
+tags: ["Geographie", "Informatik", "LoRa", "TTN", "IoT"]
 difficult: schwer
 ---
 # LoRaWAN IoT-Sensorstation
@@ -42,6 +42,8 @@ Das TheThingsNetwork ist eine communitybasierte Initiative zur Errichtung eines 
 
 ## Aufbau
 Die Sensoren werden mit JST-Kabel mit der I2C/Wire Ports der senseBox MCU verbunden. Das LoRa-Bee wird auf den XBEE1 Steckplatz gesteckt.
+
+>Beachte: Es gibt zwei verschiedene Luftdruck-Sensoren (BMP280 & DPS310). Anhand der Beschriftung auf dem Luftdruck-Sensor kannst du deinen Typ identifizieren. Achte bei der Programmierung darauf, dass du den richtigen Sensorblock auswählst. 
 
 ## Registrierung bei TheThingsNetwork und auf der openSenseMap
 
@@ -87,7 +89,8 @@ Du kommst dann auf eine Übersichtsseite und kannst dort auf "Abschließen" klic
 
 ## Einstellungen in der Arduino IDE
 
-Öffne nun Arduino und kopiere den generierten Code der openSenseMap in die Programmierumgebung. Scrolle zur Stelle im Code, an der du die Schlüssel "DEVEUI" den "APPEUI" und den "APPKEY" eingeben musst. 
+Nutze den [senseBox - Code Editor](https://blockly.sensebox.de/codeeditor) oder die Arduino IDE, um die Programmierung für dieses Projekt durchzuführen. 
+Kopiere den generierten Code der openSenseMap in die Programmierumgebung. Scrolle zur Stelle im Code, an der du die Schlüssel "DEVEUI" den "APPEUI" und den "APPKEY" eingeben musst. 
 
 ```arduino
 

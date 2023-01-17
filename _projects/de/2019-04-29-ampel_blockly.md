@@ -4,7 +4,7 @@ title: "Ampelschaltung"
 date: 2019-04-29
 author: Björn und Benni
 abstract: "Es wird eine Ampel simuliert, die sich mit einem Button umschalten lässt."
-thumbnail: /images/projects/Titelbild_Ampelschaltung.jpg
+thumbnail: /images/projects/Titelbild_Ampelschaltung.png
 image1: /images/projects/traffic_light/ampelschaltung_setup.png
 image2: /images/projects/traffic_light/Setup.png
 image3: /images/projects/traffic_light/Wenn_mache.png
@@ -12,17 +12,18 @@ image4: /images/projects/traffic_light/Endlosschleife.png
 image5: /images/projects/traffic_light/Gesamt.png
 material:
   - senseBox MCU
-  - rote LED
-  - gelbe LED
-  - grüne LED
+  - 1x rote LED
+  - 1x gelbe LED
+  - 1x grüne LED
   - 3x 470Ω Widerstand
-  - Button
-  - 10kΩ (10000Ω) Widerstand
+  - 1x Button
+  - 1x 10kΩ (10000Ω) Widerstand
   - 2x JST-Adapterkabel
+  - 5x Steckkabel
 ide: blockly
 lang: de
 version: ["edu"]
-tags: ["Informatik", "Physik", "CO2-Ampel Set Edu"]
+tags: ["Informatik", "Physik"]
 difficult: leicht
 ---
 
@@ -69,6 +70,6 @@ Damit hast du das Ende der if-Bedingung erreicht. Das Programm verharrt nun im a
 
 ## Gesamter Code
 
-Hier findest du nochmal den gesamten Code als zusammenhängenden Block.
+[Hier](https://blockly.sensebox.de/gallery/63bc2b33d2853f0013b1dfe8) findest du nochmal den gesamten Code als zusammenhängenden Block.
 
 {% include image.html image=page.image5 %}

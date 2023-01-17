@@ -24,6 +24,7 @@ material:
 
 ide: blockly
 version: ["edu"]    
+addons: ["Bodenfeuchtesensor"] 
 lang: de 
 tags: ["Geographie", "Informatik"] 
 difficult: mittel
@@ -59,6 +60,7 @@ Zur besseren Übersichtlichkeit führen wir nun Variablen ein. Je Wert, den du m
 ### Schritt 4: Die ‚wenn...mache‘ Bedingung 
 Nun kannst du bereits mit der senseBox die Umweltphänomene messen und diese als Variablen definieren. Da das Ziel ist, eine Alarmanlage zu bauen, die dich warnt, falls die Werte abweichen, musst du nun die dafür notwendigen Bedingungen aufstellen. Dafür benötigst du den ‚wenn...mache‘-Block aus der Kategorie ‚Logik‘. Wenn also ein bestimmtes Phänomen einen kritischen Wert über- bzw. unterschreitet, sodass die Pflanze gefährdet werden könnte, wird der Befehl in dem ‚mache‘-Teil des Blockes ausgeführt. An dieser Stelle kannst du die zuvor definierten Variablen verwenden und durch Blöcke aus der Kategorie ‚Mathematik‘ eine Operation (z.B. ‚größer als‘ oder ‚gleich‘) hinzufügen. Sollte sowohl eine Unter- als auch eine Obergrenze des Messwertes in Bezug auf die Schädigung der Pflanze existieren, so kannst du die beiden Möglichkeiten mit einem ‚oder‘ aus der Kategorie ‚Logik‘ verbinden. Trifft dann eine der beiden Bedingungen zu, so wird der festgelegte Befehl innerhalb des ‚mache‘-Blocks ausgeführt. 
 
+Hier siehst du die Programmierung exemplarisch am Beispiel der Temperatur:
 {% include image.html image=page.image4 %}
 
 ### Schritt 4: Die ‚For-Schleife‘
@@ -68,4 +70,5 @@ Jetzt solltest du noch festlegen, welcher Befehl ausgeführt werden soll, falls 
 
 Da jede Pflanze unterschiedliche Ansprüche an ihre Umwelt hat, stellt der Programmcode nur ein Beispiel für Grenzwerte in Bezug auf die Temperatur dar. Je nachdem, auf welche Phänomene du dein Bodenmanagementsystem anpassen möchtest, solltest du dich erkundigen, in welchem Bereich sie für deine Pflanze oder dein Getreide das Wachstum fördern. Du könntest den Programmcode zudem erweitern, indem du für jeden Messwert ein anderes Intervall des Alarmtons festlegst, sodass ausschließlich durch das individuelle Piepen erkannt wird, bei welchem Phänomen eine Abweichung vom Mittelwert vorliegt.  
 
+[Hier](https://blockly.sensebox.de/gallery/63b6b53bd2853f0013b1da34) kannst du den Programmcode in Blockly abrufen. 
 

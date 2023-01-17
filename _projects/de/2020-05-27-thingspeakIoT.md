@@ -3,7 +3,7 @@ layout: project_page
 date: 2020-03-09
 author: Björn
 title: Thingspeak IoT
-abstract: "Ein IoT-Geräte, welches Daten über Thingspeak visualisiert"
+abstract: "Ein IoT-Gerät, welches Daten über Thingspeak visualisiert"
 thumbnail: /images/projects/Thingspeak.png
 image1: /images/projects/thingspeak-IoT/thingspeak-start.png
 image2: /images/projects/thingspeak-IoT/thingspeak-channels.png
@@ -14,17 +14,17 @@ image6: /images/projects/thingspeak-IoT/thingspeak-test.png
 
 material:
     - senseBox MCU
-    - Umweltsensor BME680
-    - WiFi-Bee
+    - 1x Umweltsensor BME680
+    - 1x WiFi-Bee
 ide: arduino
-version: ["mini"]   
+version: ["mini v1"]   
 lang: de
-tags: ["Informatik","IoT"]
+tags: ["Informatik", "IoT"]
 difficult: mittel
 ---
 <head><title>Thingspeak IoT</title></head>
 
-In diesem Projekt werden die Daten der senseBox mit Hilfe von Thingspeak visualisiert. [Thingspeak](https://thingspeak.com/) ist ein IoT-Platform, die es ermöglicht Daten online zu sammeln, zu analysieren und Visualisierungen durchzuführen sowie Aktionen festzulegen.
+In diesem Projekt werden die Daten der senseBox mithilfe von Thingspeak visualisiert. [Thingspeak](https://thingspeak.com/) ist ein IoT-Platform, die es ermöglicht Daten online zu sammeln, zu analysieren und Visualisierungen durchzuführen sowie Aktionen festzulegen.
 Für dieses Projekt musst du dir einen kostenlosen Thingspeak-Account anlegen.
 
 >Die Programmierung des IoT-Gerätes erfolgt mit Hilfe der Arduino IDE. Falls du bisher nicht mit der Arduino IDE gearbeitet hast, findest du in unseren Docs eine [Einführung](https://docs.sensebox.de/category/arduino/). Dort ist erklärt, wie du die Software installierst und alle Vorkehrungen triffst, um durchstarten zu können.

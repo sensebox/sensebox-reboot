@@ -19,7 +19,7 @@ material:
     - Mikro SD-Karte
     - 2x JST-Qwicc-Kabel
 ide: blockly
-version: ["mini:v2"]   
+version: ["mini v2"]   
 lang: de
 tags: ["Informatik", "Geographie"]
 difficult: leicht
@@ -64,6 +64,8 @@ Damit du die Entwicklung der Messwerte über einen längeren Zeitraum überprüf
 ## Gesamter Code
 
  {% include block.html image=page.image5 %}
+
+ Schaue dir den Programmcode in Blockly an: [Mini-Umweltmessstation](https://blockly.sensebox.de/gallery/63b5853fd2853f0013b1d7ce)
 
  Kompiliere nun den Progranmmcode und übertrage ihn anschließend auf die senseBox MCU mini. 
  Nach der Datenerhebung kannst du die SD-Karte mit deinem Laptop oder PC auslesen. In einem einfachen Textprogramm werden dir dann die erhoben Umweltdaten angezeigt. Diese kannst du anschließend in Excel oder weiteren Datenverarbeitungsprogrammen importieren und beispielsweise analysieren und visualisieren. 

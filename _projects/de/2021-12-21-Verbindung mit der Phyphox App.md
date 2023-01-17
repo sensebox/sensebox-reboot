@@ -1,6 +1,6 @@
 ---
 layout: project_page
-title: "Verbindung der senseBox und Phyphox"
+title: "senseBox und die Phyphox App"
 date: 2021-12-21
 author: Verena
 abstract: "Übertrage mit der senseBox gemessene Werte via Bluetooth an die Phyphox-App."
@@ -18,11 +18,12 @@ material:
     
 ide: blockly
 version: ["edu"]   
+addons: ["Bluetooth-Bee"]  
 lang: de
 tags: ["Informatik", "Physik", "Phyphox"]
 difficult: leicht
 ---
-<head><title>Verbindung mit der Phyphox-App</title></head>
+<head><title>senseBox und die Phyphox-App</title></head>
 
 # Die Phyphox-App
 Mit der kostenfreien App Phyphox kannst du dein Smartphone zum Experimentieren einsetzen und dabei unentdeckte Möglichkeiten deines täglichen Begleiters kennenlernen. Die App verwendet dazu die in Smartphones verbauten Sensoren und ersetzt somit kostspielige Versuchsaufbauten. Phyphox soll dazu beitragen, dass physikalische Zusammenhänge und wissenschaftliche Arbeitsweisen ohne viel Aufwand erlernt werden können. Durch die Übertragung via Bluetooth ist eine Beobachtung der Messwerte in Echtzeit möglich.  
@@ -46,6 +47,8 @@ In der Endlosschleife bindest du nun den Temperatursensor als Wert für den erst
 Damit ist der Programmcode fertig! Du kannst nun den Sketch kompilieren und auf die senseBox MCU übertragen.
 
 {% include image.html image=page.image2 %}
+
+Den fertigen Blockly-Programmcode findest du [hier] (https://blockly.sensebox.de/gallery/63b59232d2853f0013b1d837). 
 
 ## Verbindung mit der Phyphox-App
 Öffnet die Phyphox App, klicke auf das + und wähle ‚Neues Experiment für Bluetooth-Gerät‘ aus. Es wird nun eine Liste von verfügbaren Messgeräten angezeigt. Klicke auf dein Messgerät, um die Verbindung herzustellen. Zum Einstellen des Messzeitraums für das Experiment klicke auf die drei Punkte und öffne den Punkt ‚Zeitautomatik‘. Da das Experiment 10 Minuten laufen soll, trage bei der Dauer 600 Sekunden ein.

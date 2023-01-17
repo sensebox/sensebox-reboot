@@ -3,7 +3,7 @@ layout: project_page
 title: "Keksalarm"
 date: 2020-12-06
 author: Verena
-abstract: "Kreiere eine Alaramanlage, um deine Kekse vor Dieben zu schützen"
+abstract: "Kreiere eine Alarmanlage, um deine Kekse vor Dieben zu schützen"
 thumbnail:  /images/projects/Titelbild_Keksalarm.png
 image0: /images/projects/Keksalarm/0.png
 image1: /images/projects/Keksalarm/1.png
@@ -20,7 +20,7 @@ material:
     - 1x Keksdose
     
 ide: blockly
-version: ["edu", "mini"]   
+version: ["edu"]   
 lang: de
 tags: ["Informatik", "Weihnachten"]
 difficult: mittel
@@ -57,5 +57,7 @@ In unserem Fall wird der Ultraschall-Distanzsensor mit der senseBox MCU unter de
 Bisher wird die Alarmanlage nur eingeschaltet und nicht wieder ausgeschaltet. Damit letzteres auch geschieht, kannst du die 'wenn...mache'-Bedingung durch einen Klick auf das Zahnrädchen um ein 'sonst' erweitern. Das beschriebt dann den Fall, wenn sich der Abstand nicht verändert und deine Kekse in Sicherheit sind. Hier sollte sowohl der Piezo ausgeschaltet als auch auf dem Display Entwarnung gegeben werden. Damit ist die Programmierung abgeschlossen.
 
 {% include image.html image=page.image3 %}
+
+Den gesamten Blockly-Sketch findest du [hier](https://blockly.sensebox.de/gallery/63b6aca9d2853f0013b1da11). 
 
 In diesem Sinne wünschen wir euch einen schönen zweiten Advent und viel Spaß bei der Durchführung des Projekts! 

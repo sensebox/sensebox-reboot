@@ -18,15 +18,17 @@ material:
   - Draht
 
 ide: blockly
-version: ["edu", "mini"]
+version: ["edu", "mini v1"]
 lang: de
-tags: ["Physik", "Geographie", "CO2-Ampel Set Edu"]
+tags: ["Physik", "Geographie"]
 difficult: leicht
 ---
 
 # Druck im Luftballon {#head}
 
 Ziel dieses Projektes ist es, dass dich die senseBox und ein Luftabllon dabei unterstützen, das Phänomen Druck näher zu verstehen.
+
+>Beachte: Es gibt zwei verschiedene Luftdruck-Sensoren (BMP280 & DPS310). Anhand der Beschriftung auf dem Luftdruck-Sensor kannst du deinen Typ identifizieren. Achte bei der Programmierung darauf, dass du den richtigen Sensorblock auswählst. 
 
 ## Aufbau
 
@@ -47,6 +49,8 @@ Damit dir der Wert des Luftdrucks auf dem Display angezeigt werden kann, muss di
 Nun hast du im 'Schreibe Text/Zahl'-Block noch ein freies Feld bei 'Wert'. Hier fügst du aus der Katgorie 'Sensoren' den passenden Block für die Messung des Luftdrucks ein. Soll auf dem Display nicht nur der Luftdruck als Zahl, sondern eine Kombination aus Text (z.B. eine Beschriftung) und dem gemessenen Wert erscheinen, so kannst du noch den Block 'Erstelle Text aus' dazwischen einfügen. In einem einfachen Textbaustein benennst du dann das Phänomen, während an zweiter Stelle der Block des Sensors eingebunden wird.
 
 {% include image.html image=page.image2 %}
+
+Den gesamten Blockly-Sketch findest du [hier] (https://blockly.sensebox.de/gallery/63b6aebdd2853f0013b1da19).
 
 Damit ist die Programmieung abgeschlossen und der Luftdruck innerhalb des Luftballons wird nun gemessen. Drücke den Luftballon nun mit deinen Händen zusammen und beobachte, wie sich der Wert auf dem Display verändert. Überlege anschließend, welche Aussage du daraus über das Phänomen 'Luftdruck' folgern kannst.
 

@@ -1,6 +1,6 @@
 ---
 layout: project_page
-title: "Erste Schritte: Dein erster Sketch"
+title: "Dein erster Sketch"
 date: 2019-03-15
 author: Björn
 abstract: "Lasse mit deinem ersten Sketch die LED auf der senseBox MCU blinken"
@@ -13,8 +13,8 @@ material:
   - senseBox MCU
 ide: blockly
 lang: de
-version: ["edu", "mini"]
-tags: ["Erste Schritte", "Informatik", "CO2-Ampel Set Edu"]
+version: ["edu", "mini v1"]
+tags: ["Erste Schritte", "Informatik"]
 difficult: leicht
 ---
 
@@ -58,3 +58,5 @@ Um die eingebaute LED blinken zu lassen, ist es nötig, sie mit einem weiteren `
   <div class="panel-body">
   </div>
 </div>
+
+Den fertigen Blockly-Code findest du [hier](https://blockly.sensebox.de/gallery/5fd08ffb64d32d0011cab222). 

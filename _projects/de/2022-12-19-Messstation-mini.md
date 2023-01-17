@@ -24,7 +24,6 @@ lang: de
 tags: ["Informatik", "Geographie"]
 difficult: leicht
 ---
-<head><title>Innenraumluftqualitäts Messstation</title></head>
 
 In diesem Projekt wird die senseBox:mini verwendet, um eine Umweltmessstation zu bauen. Mithilfe des Umweltsensors werden im ersten Schritt Messwerte, wie Temperatur, Luftdruck oder Luftfeuchtigkeit, auf dem Display angezeigt und im zweiten Schritt auf der SD-Karte gespeichert. Damit können die genannten Umweltphänome über einen längeren Zeitraum erhoben und anschließend analysiert werden. 
 

@@ -26,7 +26,7 @@ material:
     - 1x Luftdrucksensor
     - 1x Beleuchtungsstärke-/UV-Sensor
 ide: arduino  
-version: ["edu", "mini v1, "home""]
+version: ["edu", "mini v1", "home"]
 addons: ["LoRa-Bee"]  
 lang: de
 tags: ["Geographie", "Informatik", "LoRa", "TTN", "IoT"]

@@ -18,7 +18,7 @@ material:
     - 1x WiFi-Bee
     - 2x JST-JST Kabel
 ide: blockly
-version: ["edu", "mini v1, "home""]   
+version: ["edu", "mini v1", "home"]   
 addons: ["GPS", "Feinstaubsensor"] 
 lang: de
 tags: ["Informatik","Geographie"]

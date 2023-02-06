@@ -7,13 +7,13 @@ abstract: "Es wird ein Kaminfeuer simuliert, indem eine rote LED zum Flackern ge
 thumbnail: /images/projects/Titelbild_Kaminfeuer.png
 image0: /images/projects/kaminfeuer_setup.png
 material:
-  - senseBox MSU
-  - rote LED
-  - 470Ω Widerstand
+  - senseBox MCU
+  - 1x rote LED
+  - 1x 470Ω Widerstand
   - 1x JST-Adapterkabel
 ide: arduino
 lang: de
-tags: ["Informatik", "Physik", "CO2-Ampel Set Edu"]
+tags: ["Informatik", "Physik"]
 difficult: leicht
 version: ["edu"]
 ---
@@ -29,6 +29,8 @@ Es wird nur die rote LED mithilfe eines JST-Adapterkabels an die senseBox MCU an
 {% include image.html image=page.image0 %}
 
 ## Programmierung
+
+Nutze den [senseBox - Code Editor](https://blockly.sensebox.de/codeeditor) oder die Arduino IDE, um die Programmierung für dieses Projekt durchzuführen. 
 
 ### Schritt 1
 

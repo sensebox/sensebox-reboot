@@ -19,12 +19,11 @@ material:
     - Mikro SD-Karte
     - 2x JST-Qwicc-Kabel
 ide: blockly
-version: ["mini:v2"]   
+version: ["mini v2"]   
 lang: de
 tags: ["Informatik", "Geographie"]
 difficult: leicht
 ---
-<head><title>Innenraumluftqualitäts Messstation</title></head>
 
 In diesem Projekt wird die senseBox:mini verwendet, um eine Umweltmessstation zu bauen. Mithilfe des Umweltsensors werden im ersten Schritt Messwerte, wie Temperatur, Luftdruck oder Luftfeuchtigkeit, auf dem Display angezeigt und im zweiten Schritt auf der SD-Karte gespeichert. Damit können die genannten Umweltphänome über einen längeren Zeitraum erhoben und anschließend analysiert werden. 
 
@@ -64,6 +63,8 @@ Damit du die Entwicklung der Messwerte über einen längeren Zeitraum überprüf
 ## Gesamter Code
 
  {% include block.html image=page.image5 %}
+
+ Schaue dir den Programmcode in Blockly an: [Mini-Umweltmessstation](https://blockly.sensebox.de/gallery/63b59c8fd2853f0013b1d8a5)
 
  Kompiliere nun den Progranmmcode und übertrage ihn anschließend auf die senseBox MCU mini. 
  Nach der Datenerhebung kannst du die SD-Karte mit deinem Laptop oder PC auslesen. In einem einfachen Textprogramm werden dir dann die erhoben Umweltdaten angezeigt. Diese kannst du anschließend in Excel oder weiteren Datenverarbeitungsprogrammen importieren und beispielsweise analysieren und visualisieren. 

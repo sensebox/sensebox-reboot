@@ -30,10 +30,13 @@ difficult: schwer
 
 _Dieses Projekt ist eines der vielen spannenden Projekte, die auch im [senseBox Buch](https://dpunkt.de/produkt/das-sensebox-buch/) (erschienen im dPunkt Verlag 2019) veröffentlicht wurden._
 
+> Hinweis: Nicht jede Version der senseBox MCU ist mit einem Beschleunigungssensor ausgestattet. Prüfe mithife der [Docs](https://docs.sensebox.de/hardware/allgemein-sensebox-mcu/), ob dein Mikrocontroller den für dieses Projekt notwendigen Sensor besitzt.
+
 # Gehe auf Punktefang
 
 Du kennst bestimmt noch die ersten Computerspiele aus den 80er-Jahren wie zum Beispiel Pong oder Tetris. Auf alten zweifarbigen Fernsehern wurden in 2-D spannende und einfache Spiele erstellt. Einfache grafische Elemente wurden kombiniert mit tollen Spielkonzepten, und es entstanden
 Spiele mit Suchtpotenzial.
+
 
 ## Aufbau
 
@@ -118,6 +121,6 @@ das Programm auf die senseBox MCU. Anschließend kannst du
 einen kleinen Wettstreit mit Freunden und der Familie starten, wer die
 meisten Punkte fängt.
 
-## Lösung
+## Gesamter Code
 
-Du kannst dir die Lösung dieses Projektes direkt in Blockly [öffnen](https://blockly.sensebox.de/ardublockly/index.html?board=sensebox-mcu&gallery=buch/Kapitel_14)
+Du kannst dir die Lösung dieses Projektes direkt in Blockly [öffnen](https://blockly.sensebox.de/gallery/63bc06e7d2853f0013b1df9a).

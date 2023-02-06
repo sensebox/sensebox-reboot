@@ -1,6 +1,6 @@
 ---
 layout: project_page
-title: "Erstelle einen TTN Mapper in unter 10 Minuten"
+title: "TTN Mapper in unter 10 Minuten"
 date: 2020-03-06
 author: Felix & Paul
 abstract: "Mit dem LoRa-Bee und GPS Modul bauen wir einen senseBox TTN Mapper"
@@ -8,14 +8,14 @@ thumbnail: /images/projects/ttn-mapper-de.png
 
 material:
     - senseBox MCU
-    - 1x JST-Kabel 
-    - LoRa-Bee
-    - GPS Modul
+    - 1x JST-JST-Kabel 
+    - 1x LoRa-Bee
+    - 1x GPS Modul
 ide: blockly  
-version: ["edu", "mini"]
-addons: ["LoRa-Bee"]  
+version: ["edu", "mini v1"]
+addons: ["LoRa-Bee", "GPS-Modul"]  
 lang: de
-tags: ["Geographie", "Informatik", "LoRa", "TTN", "Blockly", "LoRaWAN"]
+tags: ["Geographie", "Informatik", "IoT", "TTN"]
 difficult: mittel
 image1: /images/projects/TTNv3/add-application.png
 image2: /images/projects/TTNv3/add-device.png
@@ -130,6 +130,8 @@ Beim Kopieren der Keys musst du deshalb bei TTN in der Device Overview die Einst
 Zum Versenden der Daten an TTN Mapper nutzen wir den neuen TTN Mapper Block in Blockly, hier muss nichts weiter verändert werden:
 
 {% include image.html image=page.image11 %}
+
+Den gesamten Blockly-Sketch findest du [hier](https://blockly.sensebox.de/gallery/63b6d65dd2853f0013b1da8e).
 
 Kompiliere nun den Sketch und lade ihn auf die senseBox MCU. Sie sollte nun auf GPS Daten warten und diese zum TTN übertragen. 
 

@@ -7,11 +7,11 @@ abstract: "Es wird ein Lügendetektor gebaut, der die Leitfähigkeit deiner Haut
 thumbnail: /images/projects/titelbild_luegendetektor.png
 material:
     - senseBox MCU
-    - OLED-Display
-    - JST-Adapterkabel
-    - JST-Kabel
-    - Steckkabel
-    - 470Ω Widerstand
+    - 1x OLED-Display
+    - 1x JST-Adapterkabel
+    - 1x JST-JST-Kabel
+    - 1x Steckkabel
+    - 1x 470Ω Widerstand
 ide: arduino    
 lang: de
 tags: ["Informatik", "Physik"]
@@ -28,6 +28,7 @@ Ziel dieses Projektes ist es, einen Lügendetektor zu bauen, der die Leitfähigk
 Zunächst wird das Display über das JST Kabel an einen der I2C/Wire Ports angeschlossen. Nun steckst du das JST-Male Kabel in einen Digital Port deiner Wahl. Das schwarze Kabel (GND) findet in diesem Experiment keine Verwendung. Das rote Kabel (5V) steckst du auf dein Breadboard und verlängerst dieses mittels eines Male-Male Kabels, sodass hier ein freies Ende entsteht. Schließe nun eines der beiden übrig gebliebenen Kabel (grün/gelb) ebenfalls an einen freiliegenden Slot des Breadboards an. Über einen Widerstand verbindest du nun das Kabel (grün/gelb) mit einem Male-Male Kabel, sodass du jetzt ein freies Ende hast, welches du in die Hand nehmen kannst. Das Kabel dient als dein Leitfähigkeitssensor.
 
 ## Programmierung
+Nutze den [senseBox - Code Editor](https://blockly.sensebox.de/codeeditor) oder die Arduino IDE, um die Programmierung für dieses Projekt durchzuführen. 
 
 ### Schritt 1: Auslesen des Sensors
 

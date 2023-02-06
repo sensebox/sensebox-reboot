@@ -13,7 +13,7 @@ image4: /images/projects/Adventskranz/4.png
 
 material:
     - senseBox MCU
-    - OLED-Display
+    - 1x OLED-Display
     - 1x JST-JST-Kabel
     - 2x JST-Adapterkabel
     - 3x Steckkabel
@@ -21,7 +21,7 @@ material:
     - 4x LED (gelb)
     
 ide: blockly
-version: ["edu", "mini"]   
+version: ["edu"]   
 lang: de
 tags: ["Informatik", "Weihnachten"]
 difficult: mittel
@@ -60,5 +60,9 @@ Deine bisher programmierte Schleife kannst du sowohl für die Anzeige des Countd
 Nun hast du bereits einen Adventskranz programmiert, bei dem sich die LEDs an jedem Adventssonntag automatisch einschalten. Diesen kannst du noch um einen Countdown ergänzen, der die verbleibenden Tage bis Weihnachten zählt. Verwende dafür die Blöcke 'Zeige auf dem Display' und 'Schreibe Text/ Zahl'. Durch einen Klick auf das Zahnrädchen des letzten Blocks, kannst du ihn um ein weiteres Element ergänzen, sodass eine Textkombination erstellt werden kann. In diesem Fall wurde 'Noch x Tage bis Weihnachten' gewählt. Damit das ganze Programm einmal pro Tag abgespielt wird, ziehe den bereits verwendeten 'Warte'-Block an das Ende der Schleife. Damit hast du die Programmierung abgeschlossen!
 
 {% include image.html image=page.image4 %}
+
+## Gesamter Code
+
+Den gesamten Blockly-Sketch findest du [hier](https://blockly.sensebox.de/gallery/63b6a094d2853f0013b1d9e9).
 
 In diesem Sinne wünschen wir euch eine schöne und besinnliche Weihnachtszeit, in der etwas Spaß bei der Durchführung neuer Projekte mit der senseBox nicht fehlen darf!  

@@ -48,7 +48,7 @@ Damit ist der Programmcode fertig! Du kannst nun den Sketch kompilieren und auf 
 
 {% include image.html image=page.image2 %}
 
-Den fertigen Blockly-Programmcode findest du [hier] (https://blockly.sensebox.de/gallery/63b59232d2853f0013b1d837). 
+Den fertigen Blockly-Programmcode findest du [hier] (https://blockly.sensebox.de/gallery/63b59fe5d2853f0013b1d8f5). 
 
 ## Verbindung mit der Phyphox-App
 Öffnet die Phyphox App, klicke auf das + und wähle ‚Neues Experiment für Bluetooth-Gerät‘ aus. Es wird nun eine Liste von verfügbaren Messgeräten angezeigt. Klicke auf dein Messgerät, um die Verbindung herzustellen. Zum Einstellen des Messzeitraums für das Experiment klicke auf die drei Punkte und öffne den Punkt ‚Zeitautomatik‘. Da das Experiment 10 Minuten laufen soll, trage bei der Dauer 600 Sekunden ein.

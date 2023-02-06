@@ -49,7 +49,7 @@ In der Endlosschleife bindest du den CO2-Sensor ein und wählst zum einen die Te
 {% include image.html image=page.image2 %}
 
  Damit ist der Programmcode fertig! Du kannst nun den Sketch kompilieren und auf die senseBox MCU übertragen.
- [Hier] (https://blockly.sensebox.de/gallery/63b59109d2853f0013b1d829) kannst du den fertigen Programmcode in Blockly abrufen. 
+ [Hier] (https://blockly.sensebox.de/gallery/63b5a057d2853f0013b1d900) kannst du den fertigen Programmcode in Blockly abrufen. 
 
 ## Verbindung mit der Phyphox-App
 Öffnet die Phyphox App, klicke auf das + und wähle ‚Neues Experiment für Bluetooth-Gerät‘ aus. Es wird nun eine Liste von verfügbaren Messgeräten angezeigt. Klicke auf dein Messgerät, um die Verbindung herzustellen. Zum Einstellen des Messzeitraums für das Experiment klicke auf die drei Punkte und öffne den Punkt ‚Zeitautomatik‘. Da das Experiment 10 Minuten laufen soll, trage bei der Dauer 600 Sekunden ein.

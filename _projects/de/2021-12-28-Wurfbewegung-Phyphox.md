@@ -52,7 +52,7 @@ In der Endlosschleife bindest du den Beschleunigungssensor ein und wählst die g
 
 Damit ist der Programmcode fertig! Du kannst nun den Sketch kompilieren und auf die senseBox MCU übertragen. Nun solltest du eine Stromversorgung mit einer Powerbank sicherstellen, sodass du die senseBox frei bewegen kannst. Um die senseBox beim Experiment zu schützen, empfiehlt sich beispielsweise ein gefütteter Ball oder Schaumstoff. Des Weiteren werden Gewichte mit 2kg benötigt. 
 
-Den fertigen Programmcode in Blockly findest du hier: [Analyse von Wurfbewegungen] (https://blockly.sensebox.de/gallery/63b58edcd2853f0013b1d804)
+Den fertigen Programmcode in Blockly findest du hier: [Analyse von Wurfbewegungen](https://blockly.sensebox.de/gallery/63b59d69d2853f0013b1d8c7)
 
 ## Verbindung mit der Phyphox-App
 Öffnet die Phyphox App, klicke auf das + und wähle ‚Neues Experiment für Bluetooth-Gerät‘ aus. Es wird nun eine Liste von verfügbaren Messgeräten angezeigt. Klicke auf dein Messgerät, um die Verbindung herzustellen. Zum Einstellen des Messzeitraums für das Experiment klicke auf die drei Punkte und öffne den Punkt ‚Zeitautomatik‘. Da ein Wurf nur wenig Zeit in Anspruch nimmt, reicht für das Experiment eine Dauer von 10 Sekunden aus. Betätige anschließend den Button ‚Zeitautomatik aktivieren‘.

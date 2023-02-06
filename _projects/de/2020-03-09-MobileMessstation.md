@@ -69,6 +69,8 @@ Für jeden Messwert, den du nun senden möchtest, ziehe einen Block __Sende Mess
 
 Damit die gemessenen Messwerte immer mit dem aktuellen Standort verknüpft werden, müssen 4 verschiedene Parameter vom GPS Modul abgefragt werden. Neben dem Längen und Breitengrad wird auch die Höhe über NN und ein Zeitstempel im RFC 3339 Format übertragen. 
 
+## Gesamter Code
+
  {% include image.html image=page.image3 %}
 
  [Hier](https://blockly.sensebox.de/gallery/63b6d1b3d2853f0013b1da7f) findest du den gesamten Blockly-Code. 

@@ -109,7 +109,10 @@ Für jeden Messwert, den du nun senden möchtest, ziehe einen Block __Sende Mess
 {% include block.html image=page.image5 %}
 
 ## Gesamter Code
-[Hier](https://blockly.sensebox.de/gallery/63b6cdc6d2853f0013b1da74) findest du den gesamten Code in Blockly. 
+
  {% include block.html image=page.image6 %}
+
+[Hier](https://blockly.sensebox.de/gallery/63b6cdc6d2853f0013b1da74) findest du den gesamten Code in Blockly. 
+
 
 

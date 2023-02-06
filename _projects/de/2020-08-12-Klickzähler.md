@@ -52,6 +52,8 @@ Nun wird bereits die Anzahl erfasst. Damit dir diese aber auch auf dem Display a
 
 {% include image.html image=page.image3 %}
 
+## Gesamter Code
+
 Den Blockly-Sketch findest du [hier](https://blockly.sensebox.de/gallery/63b6b867d2853f0013b1da4d).
 
 Damit der Klickzähler nun auch mobil verwendet werden kann, empfiehlt es sich, die senseBox mithilfe einer Powerbank mit Strom zu versorgen.

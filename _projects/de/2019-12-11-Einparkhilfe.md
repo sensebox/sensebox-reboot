@@ -74,7 +74,8 @@ noch den „und“ Block aus der Kategorie Logik, um für die mittlere und letzt
 
 {% include image.html image=page.image3 %}
 
-### Fertiger Code
+## Gesamter Code
+
 Den gesamten Code in Blockly findest du [hier](https://blockly.sensebox.de/gallery/63bbe977d2853f0013b1df78). 
 
 

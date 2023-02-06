@@ -61,6 +61,8 @@ Nun hast du bereits einen Adventskranz programmiert, bei dem sich die LEDs an je
 
 {% include image.html image=page.image4 %}
 
+## Gesamter Code
+
 Den gesamten Blockly-Sketch findest du [hier](https://blockly.sensebox.de/gallery/63b6a094d2853f0013b1d9e9).
 
 In diesem Sinne wünschen wir euch eine schöne und besinnliche Weihnachtszeit, in der etwas Spaß bei der Durchführung neuer Projekte mit der senseBox nicht fehlen darf!  

@@ -91,6 +91,6 @@ Wichtig! Achte auch hier darauf, dass du die Sensor IDs in den Block `Sende Mess
 
 Herzlichen Glückwunsch! Du hast eine eigene Messstation programmiert. Für was du die senseBox sonst noch benutzen kannst, erfährst du in anderen spannenden [Projekten](https://sensebox.de/de/projects.html).
 
-## Download
+## Gesamter Code
 
 Die fertigen Blockly Blöcke findest du [hier](https://blockly.sensebox.de/gallery/620ba2e5830e5000189b8d74).

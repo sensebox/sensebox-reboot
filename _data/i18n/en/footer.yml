@@ -31,4 +31,5 @@ privacy-name: "Privacy"
 privacy-link: /privacy.html
 contact-name: "Contact"
 contact-link: /contact.html
-
+status-name: "Status"
+status-link: https://status.opensensemap.org/status/blockly

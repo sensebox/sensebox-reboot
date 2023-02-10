@@ -4,17 +4,17 @@ title: "senseBox I2C-Multiplexer"
 date: 2019-10-08
 author: Jan
 abstract: "Sensoren gleicher Bauart parallel am I2C-Bus anschließen"
-thumbnail: /images/projects/logo_bunt.png
+thumbnail: /images/projects/multiplex.png
 image0: /images/projects/multiplex/hardware_setup.png
 image1: /images/projects/multiplex/datasheet_table.png
 material:
     - senseBox MCU
-    - I2C Multiplexer
+    - 1x I2C Multiplexer
     - 3x Temperatur-/Luftfeuchtigkeitssensor
     - 4x JST-JST Kabel
 ide: arduino
 addons: ["Multiplexer"]
-version: ["edu", "mini"]
+version: ["edu", "mini v1"]
 lang: de
 tags: ["Informatik"]
 difficult: leicht
@@ -24,11 +24,6 @@ Bei der I2C Schnittstelle kann es vorkommen, dass zwei oder mehrere Geräte die 
 Im Folgenden ein Beispiel für die Implementierung von drei [HDC1080 Sensoren aus der senseBox Baureihe](https://sensebox.kaufen/product/temperatur-luftfeuchte). 
 
 ## Aufbau
-Für unser Beispiel benöten wir die folgenden Bauteile:
-- senseBox MCU
-- I2C Multiplexer
-- 3x Temperatur-/Luftfeuchtigkeitssensor
-- 4x JST-JST Kabel
 
 Zunächst wird der I2C-Multiplexer mit einem JST-JST Kabel an einen der I2C/Wire Ports der MCU angeschlossen. Die Temperatursensoren wiederum werden mit den Anschlüssen 1, 2 und 3 vom I2C-Multiplexer (entspricht den Kanälen 0, 1 und 2) verbunden.
 
@@ -36,9 +31,11 @@ Zunächst wird der I2C-Multiplexer mit einem JST-JST Kabel an einen der I2C/Wire
 
 
 ## Programmierung
-Der senseBox I2C-Multiplexer basiert auf dem [TCA9548A von Texas Instruments](http://www.ti.com/product/TCA9548A), welcher bereits Bestandteil vieler Tutorials aus der Community geworden ist. Mit dem folgenden Beispielcode von [Retians Blog](https://arduino-projekte.webnode.at/meine-libraries/i2c-multiplexer-tca9548a/) könnt ihr den Multiplex testen und überprüfen, an welche Kanälen etwas angeschlossen ist:
+Der senseBox I2C-Multiplexer basiert auf dem [TCA9548A von Texas Instruments](http://www.ti.com/product/TCA9548A), welcher bereits Bestandteil vieler Tutorials aus der Community geworden ist. Mit dem folgenden Beispielcode von [Retians Blog](https://arduino-projekte.webnode.at/meine-libraries/i2c-multiplexer-tca9548a/) könnt ihr den Multiplexer testen und überprüfen, an welchen Kanälen etwas angeschlossen ist:
 
 [https://arduino-projekte.webnode.at/_files/200002383-38c7539c19/TCA9548A_Scanner.ino.txt](https://arduino-projekte.webnode.at/_files/200002383-38c7539c19/TCA9548A_Scanner.ino.txt)
+
+Nutze den [senseBox - Code Editor](https://blockly.sensebox.de/codeeditor) oder die Arduino IDE, um die Programmierung für dieses Projekt durchzuführen. 
 
 Für die Implementierung des o.g. Beispiels binden wir zuerst die benötigten Bibliotheken ein. `Wire.h` für die I2C Funktionalität und `SenseBoxMCU.h` für die Funktionen des Sensors. 
 
@@ -47,7 +44,7 @@ Für die Implementierung des o.g. Beispiels binden wir zuerst die benötigten Bi
 #include <SenseBoxMCU.h>
 ```
 
-Nun definieren wir die Adresse des Multiplex und eine Liste von Kanälen, an denen die Sensoren angeschlossen sind. 
+Nun definieren wir die Adresse des Multiplexers und eine Liste von Kanälen, an denen die Sensoren angeschlossen sind. 
 
 ```
 byte multiplexAddress = 0x77;
@@ -65,7 +62,7 @@ void setup() {
 }
 ```
 
-In der Endlosschleife werden mit Hilfe einer for-Schleife die Kanäle fortlaufend gewechselt. Für jeden Kanal wird der Multiplex über seine Adresse angesprochen. Dann übergeben wir lediglich die Nummer des Kanals an den alle Folgebefehle gesendet werden. Das geschieht so lange bis ein neuer Kanal kommuniziert wird. 
+In der Endlosschleife werden mit Hilfe einer for-Schleife die Kanäle fortlaufend gewechselt. Für jeden Kanal wird der Multiplexer über seine Adresse angesprochen. Dann übergeben wir lediglich die Nummer des Kanals an den alle Folgebefehle gesendet werden. Das geschieht so lange bis ein neuer Kanal kommuniziert wird. 
 
 ```
 for (int i = 0; i < (sizeof(channels)/sizeof(channels[0])); i++){
@@ -87,7 +84,7 @@ Nun lassen sich die Sensoren einzeln auslesen. Man erkennt dabei minimale Abweic
 2. channel temperature: 22.14
 ```
 
-Äquivalent lässt sich jedes I2C Gerät mehrfach mit dem Multiplexer nutzen. Falls mehr als acht Geräte mit gleicher Kennung parallel betrieben werden sollen, lässt sich die Adressierung vom Multiplex anhand der drei Lötstellen auf seiner Rückseite und der folgenden Tabelle aus seinem [Datenblatt](http://www.ti.com/lit/ds/symlink/tca9548a.pdf) anpassen:
+Äquivalent lässt sich jedes I2C Gerät mehrfach mit dem Multiplexer nutzen. Falls mehr als acht Geräte mit gleicher Kennung parallel betrieben werden sollen, lässt sich die Adressierung vom Multiplexer anhand der drei Lötstellen auf seiner Rückseite und der folgenden Tabelle aus seinem [Datenblatt](http://www.ti.com/lit/ds/symlink/tca9548a.pdf) anpassen:
 
 {% include image.html image=page.image1 %}
 

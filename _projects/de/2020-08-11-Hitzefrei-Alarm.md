@@ -12,16 +12,16 @@ image3: /images/projects/Hitzefrei/3.PNG
 
 material:
   - senseBox MCU
-  - OLED Display
-  - Temperatur- & Luftfeuchtigkeitssensor (HDC1080)
+  - 1x OLED Display
+  - 1x Temperatur- & Luftfeuchtigkeitssensor (HDC1080)
   - 2x JST-JST Kabel
   - 1x JST-Adapterkabel
   - 1x 470 Ohm Widerstand
-  - LED rot
+  - 1x LED rot
 ide: blockly
 version: ["edu"]
 lang: de
-tags: ["Informatik", "CO2-Ampel Set Edu"]
+tags: ["Informatik"]
 difficult: leicht
 ---
 
@@ -52,3 +52,7 @@ Wie bereits erwähnt, gibt es die Möglichkeit, den ‚wenn…mache‘-Block um 
 Mit dem fertigen Programmcode soll somit nun bei Temperaturen über 27°C die LED leuchten und der Display ‚Hitzefrei‘ anzeigen, während bei niedrigeren Temperaturen die LED nicht leuchten und ‚Angenehme Arbeitstemperatur‘ als Text erscheinen soll.
 
 {% include image.html image=page.image3 %}
+
+## Gesamter Code
+
+Den gesamten Blockly-Sketch findest du [hier](https://blockly.sensebox.de/gallery/63b6c8c3d2853f0013b1da67). 

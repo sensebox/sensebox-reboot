@@ -11,17 +11,17 @@ image2: /images/projects/Fotosynthese/2.png
 
 material:
   - senseBox MCU
-  - OLED-Display
-  - CO2-Sensor
+  - 1x OLED-Display
+  - 1x CO2-Sensor
   - 2x JST-JST-Kabel
   - Pflanze
   - verschließbares Gefäß
 
 ide: blockly
-version: ["edu", "mini", "CO2-Ampel"]
+version: ["edu", "mini v1", "CO2-Ampel"]
 addons: ["CO2-Sensor"]
 lang: de
-tags: ["Informatik", "Biologie", "CO2-Ampel Set Edu"]
+tags: ["Informatik", "Biologie"]
 difficult: leicht
 ---
 
@@ -52,6 +52,11 @@ Da du das Display als Anzeige verwendest, sollte dies zuerst im Setup() initiali
 Unter der Kategorie 'Display' findest du die Blöcke 'Zeige auf dem Display' und 'Zeichne Diagramm'. Diese benötigst du, um das Diagramm zu konfigurieren. Dabei ist es wichtig, dass du die Lücken des letzten Blocks sinnvoll ausfüllst. Überlege dir also, welche CO2-Konzentration in dem Gefäß realistisch ist und inwieweit sich diese verändern kann. Während diese Werte der y-Achse zugeordnet werden, gibt die x-Achse einen Überblick über die vergangene Zeit (t). Auch hier solltest du darüber nachdenken, welche Intervalle sinnvoll sind, um Veränderungen zu sehen. Als 'Wert' verwendest du den passenden Block zum CO2-Sensor (Sensirion SCD30).
 
 {% include image.html image=page.image2 %}
+
+
+## Gesamter Code
+
+Den gesamten Blockly-Sketch findest du [hier](https://blockly.sensebox.de/gallery/63b69647d2853f0013b1d9c1).
 
 ## Weiterführende Ideen und Anpassungen
 

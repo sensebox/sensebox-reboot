@@ -8,11 +8,12 @@ thumbnail: /images/projects/Titelbild_akustischer_lichtschalter.png
 image1: /images/projects/akustischer_schalter/akustischer_lichtschalter_setup.png
 lang: de
 material:
+    - senseBox MCU
     - Mikrofon (Mic-Breakout)
-    - LED
-    - 470Ω Widerstand
-    - JST-Adapterkabel
-    - Steckkabel
+    - 1x LED
+    - 1x 470Ω Widerstand
+    - 1x JST-Adapterkabel
+    - 2x Steckkabel
 ide: arduino    
 version: ["edu"]
 tags: ["Physik", "Informatik"]
@@ -34,6 +35,8 @@ Stecke den Schaltkreis so, wie du ihn unten in der Grafik siehst.
 {% include image.html image=page.image1 %}
 
 ## Programmierung
+
+Nutze den [senseBox - Code Editor](https://blockly.sensebox.de/codeeditor) oder die Arduino IDE, um die Programmierung für dieses Projekt durchzuführen. 
 
 ### Schritt 1
 

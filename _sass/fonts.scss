@@ -43,7 +43,19 @@
     url("webfonts/2EF157_1_0.ttf") format("truetype");
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+
+@font-face {
+  font-family: 'Lato';
+  src: url("webfonts/Lato-Regular.eot");
+  src: url("webfonts/Lato-Regular.eot?#iefix") format("embedded-opentype"), 
+      url('webfonts/Lato-Regular.woff2') format('woff2'),
+      url('webfonts/Lato-Regular.woff') format('woff'),
+      url('webfonts/Lato-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 
 body {
   font-family: "Lato", sans-serif;

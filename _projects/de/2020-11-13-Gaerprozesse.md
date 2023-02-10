@@ -13,16 +13,16 @@ image3: /images/projects/Gärprozesse/3.png
 
 material:
     - senseBox MCU
-    - OLED-Display
-    - CO2-Sensor
-    - mSD-Bee mit SD-Karte
+    - 1x OLED-Display
+    - 1x CO2-Sensor
+    - 1x mSD-Bee mit SD-Karte
     - 2x JST-JST-Kabel
     - Hefe
     - warmes Zuckerwasser
     - abgeschlossenes Gefäß
 
 ide: blockly
-version: ["edu", "mini", "CO2-Ampel"]   
+version: ["edu", "mini v1", "CO2-Ampel"]   
 addons: ["CO2-Sensor"] 
 lang: de
 tags: ["Informatik", "Chemie"]
@@ -58,6 +58,11 @@ Damit sind die Programmierung und der Aufbau abgeschlossen.
 Der fertige Programmcode ist in der folgenden Abbildung zu sehen.
 
 {% include image.html image=page.image3 %}
+
+
+## Gesamter Code
+
+Den gesamten Blockly-Sketch findest du [hier](https://blockly.sensebox.de/gallery/63b69e07d2853f0013b1d9e0).
 
 Hast du nun den Programmcode auf die senseBox übertragen und den Sensor zusammen mit dem Hefegemisch in einem abgeschlossenen Gefäß positioniert, heißt es zuerst einmal abwarten. Falls du ein durchsichtiges Gefäß verwendest, kannst du beobachten, wann die Hefe beginnt, den Zucker abzubauen und Kohlenstoffdioxid zu produzieren. Mit dem oben genannten Mischverhältnis empfiehlt es sich, das Experiment für ca. 30 Minuten laufen zu lassen und anschließend mit der Datenauswertung zu beginnen. 
 

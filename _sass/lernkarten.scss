@@ -7,8 +7,20 @@
     float: left;
     display: block;
     margin: 0 0 1% 1%;
-    width: 19%;
+    width: 24%;
 }
+    
+  @media screen and (max-width: 800px) {
+    .image-gallery li {
+        width: 45%;
+      }
+  }
+  @media screen and (max-width: 500px) {
+    .image-gallery li {
+        width: 100%;
+      }
+  }
+  
 
 .image-gallery li {
     text-align: center;

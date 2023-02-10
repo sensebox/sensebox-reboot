@@ -4,13 +4,15 @@
     <div class="row">
         <div class="col-12">
             <h1>{{ page.header }}</h1>
-            <p>Die senseBox Lernkarten geben dir einen Überblick über die senseBox und die verschiedenen Sensoren.</p>
+            <p>Die senseBox Lernkarten geben dir Informationen darüber, wie du Sensoren an die senseBox MCU anschließt und programmierst.</p>
             <p>Klicke auf die jeweilige Lernkarte, um diese zu vergrößern</p>
+            <p>Du kannst die Lernkarten auch <a href="/docs/senseBox_Lernkarten_v2.2_online.pdf" class="green-link">hier</a> als PDF-Dokument zum Drucken herunterladen</p>
         </div>
     </div>
     <div class="row">
         <div class="col-12">
-            <ul class="image-gallery">{% for lernkarte in lernkarten %}<li>
+            <ul class="image-gallery">{% for lernkarte in lernkarten %}
+                <li>
                     <img data-zoomable loading="lazy" src="{{ lernkarte.image | relative_url }}"
                         alt="{{ lernkarte.head }}" title="{{ lernkarte.head }}" /><span>{{ lernkarte.head }}</span>
                 </li>{% endfor %}</ul>

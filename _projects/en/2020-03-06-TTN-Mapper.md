@@ -22,10 +22,10 @@ material:
     - LoRa-Bee
     - GPS module
 ide: blockly  
-version: ["edu", "mini"]
+version: ["edu", "mini v1"]
 addons: ["LoRa-Bee"]  
 lang: en
-tags: ["Geography", "Computer Science", "LoRa", "TTN", "Blockly"]
+tags: ["Geography", "Computer Science", "TTN"]
 difficult: medium
 ---
 # senseBox TTN Mapper
@@ -93,7 +93,7 @@ There are different ways of sending LoRa data. We want to use the Cayenne Low Po
 
 {% include image.html image=page.image8 %}
 
-Add the `Send as Cayenne Payload` Block and send a `Latitude, Longitute and Altitude` message. Insert the corresponding GPS block here. You don't need to change the channel.
+Add the `TTN Mapper` Block and send a `Latitude, Longitute and Altitude` message. Insert the corresponding GPS block here. You don't need to change the channel.
 
 Compile the sketch and upload it to the senseBox MCU. The senseBox should now look for GPS data and transmit them to TTN which forwards them to TTN Mapper.
 
@@ -115,3 +115,6 @@ and replace EXPERIMENT_NAME with your experiment name. It can take a while until
 You can check the incoming LoRa data in your TTN console. In your application, click the `Data` tab and you will see incoming messages. If there are no messages, please check your EUIs and their format. If there is no TTN coverage in your area, you will also not be able to see incoming messages.
 
 Please notice that it can take quite a while until the GPS module receives GPS data. Sometimes, it takes up to multiple hours on the first time. After the module successfully received some information, it usually won't take that long on the next time. It helps to insert a small coin cell to the GPS module.
+
+## Entire Code
+You can find the finished Blockly Code [here](https://blockly.sensebox.de/gallery/63b6d65dd2853f0013b1da8e).

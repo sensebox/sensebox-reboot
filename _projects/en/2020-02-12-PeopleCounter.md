@@ -4,7 +4,7 @@ name: "People Counter"
 date: 2020-02-19
 author: Lia
 abstract: "With the ultrasonic distance sensor and the display a people counter can be built"
-thumbnail: /images/projects/traffic_counter.png
+thumbnail: /images/projects/traffic_counter_en.png
 image1: /images/projects/personenzaehler/01_personenzaehler_schaltung.jpg
 image2: /images/projects/personenzaehler/en/02_sensor_displayEn.PNG
 image3: /images/projects/personenzaehler/en/03_wenn_bedingungEn.PNG
@@ -67,3 +67,7 @@ If you have transferred and tested the program, you will have noticed that the c
 {% include image.html image=page.image4 %}
 
 The variable *locked* is set to "false" at the beginning of the program. Whenever the distance is less than 40cm and at the same time *locked* "false", the counter is increased and the variable *locked* is set to "true". This interrupts the counter for the time being. Counting is only started again when the lock is removed. 
+
+## Entire Code
+
+You can find the finished Blockly Code [here](https://blockly.sensebox.de/gallery/63bc4556d2853f0013b1e01a).

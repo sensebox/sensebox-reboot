@@ -52,6 +52,8 @@ Nun wird dir auf dem Display die Aufgabe angezeigt. Damit dir aber auch die Lös
 
 {% include image.html image=page.image3 %}
 
+## Gesamter Code
+
 [Hier](https://blockly.sensebox.de/gallery/63b6c66ed2853f0013b1da5f) findest du den gesamten Blockly-Sketch.
 
 Damit bist du fertig und hast das Projekt erfolgreich abgeschlossen! Mit dieser Programmierung wird dir auf dem Display nun eine Aufgabe des großen Einmaleins angezeigt. Die Lösung erscheint nach 10 Sekunden und nach weiteren 5 Sekunden bekommst du eine neue Aufgabe gestellt.

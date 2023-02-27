@@ -64,6 +64,6 @@ Anschließend musst du weitere Bedingungen hinzufügen, die dafür sorgen, dass 
 
 Die beiden Bedingungen müssen nun ineinander verschachtelt werden, sodass wenn die MCU geschüttelt wird, eine Zufallszahl generiert und dementsprechend geantwortet wird.
 
-### Fertiger Code
+## Gesamter Code
 
 Du kannst dir die Lösung dieses Projektes direkt in Blockly [öffnen](https://blockly.sensebox.de/gallery/63bbd934d2853f0013b1df5f).

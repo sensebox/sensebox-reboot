@@ -68,6 +68,8 @@ Wenn du das Programm übertragen und getestet hast, wirst du festgestellt haben,
 
 Die Variable *gesperrt* wird zu Beginn des Programms auf "falsch" gesetzt. Immer, wenn die Distanz kleiner als 40cm und gleichzeit *gesperrt* "falsch" ist, wird der Zähler erhöht und die Variable *gesperrt* auf "wahr" gesetzt. Damit wird der Zähler zunächst einmal unterbrochen. Erneut gezählt wird erst dann, wenn die Sperrung aufgehoben wird. 
 
+## Gesamter Code
+
 Der gesamte Blockly-Code kann [hier](https://blockly.sensebox.de/gallery/63bc4556d2853f0013b1e01a) abgerufen werden. 
 
 

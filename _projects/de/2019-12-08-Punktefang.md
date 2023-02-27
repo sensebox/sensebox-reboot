@@ -121,6 +121,6 @@ das Programm auf die senseBox MCU. Anschließend kannst du
 einen kleinen Wettstreit mit Freunden und der Familie starten, wer die
 meisten Punkte fängt.
 
-## Lösung
+## Gesamter Code
 
 Du kannst dir die Lösung dieses Projektes direkt in Blockly [öffnen](https://blockly.sensebox.de/gallery/63bc06e7d2853f0013b1df9a).

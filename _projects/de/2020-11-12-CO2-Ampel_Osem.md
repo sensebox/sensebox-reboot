@@ -75,10 +75,14 @@ Für ein effizientes Versenden der Daten reicht es aus, wenn dies minütlich ges
 
 {% include image.html image=page.image5 %}
 
-Den gesamten Blockly-Sketch kannst du [hier](https://blockly.sensebox.de/gallery/63b69bbbd2853f0013b1d9ce) abrufen.
-
 ## Registrierung auf der openSenseMap
 Du hast nun alle notwendigen Schritte der Programmierung in Blockly abgeschlossen. Jetzt muss deine CO2-Ampel nur noch auf der openSenseMap registriert werden. Besuche dazu die Seite der [openSenseMap](https://opensensemap.org/), registriere dich und lege eine neue Box an. Gebe anschließend den Standort deiner stationären senseBox an und wähle als Sensor unter der Kategorie 'edu' zweimal den CO2-Sensor: Einmal für die Temperatur und einmal für den CO2-Gehalt der Luft. Mit der Bestätigung deiner Angaben erhältst du dann die nötigen IDs und Kennzeichnungen, die du im letzten Block deines Codes bei Blockly eintragen musst.
 Den API-Schlüssel findest du im Gegensatz zu den IDs nicht in der Übersicht, sondern unter dem Punkt 'Sicherheit', wenn du deine senseBox editierst. 
 
 {% include image.html image=page.image6 %}
+
+## Gesamter Code
+
+Den gesamten Blockly-Sketch kannst du [hier](https://blockly.sensebox.de/gallery/63b69bbbd2853f0013b1d9ce) abrufen.
+
+

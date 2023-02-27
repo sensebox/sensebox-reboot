@@ -69,6 +69,6 @@ Nun bewegt sich dein Punkt je nach Ausrichtung der MCU. Was jetzt noch fehlt ist
 
 {% include image.html image=page.image4 %}
 
-### Fertiger Code
+## Gesamter Code
 
 Du kannst dir die Lösung dieses Projektes direkt in Blockly [öffnen](https://blockly.sensebox.de/gallery/63bd6967d2853f0013b1e118).

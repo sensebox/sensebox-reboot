@@ -70,5 +70,7 @@ Jetzt solltest du noch festlegen, welcher Befehl ausgeführt werden soll, falls 
 
 Da jede Pflanze unterschiedliche Ansprüche an ihre Umwelt hat, stellt der Programmcode nur ein Beispiel für Grenzwerte in Bezug auf die Temperatur dar. Je nachdem, auf welche Phänomene du dein Bodenmanagementsystem anpassen möchtest, solltest du dich erkundigen, in welchem Bereich sie für deine Pflanze oder dein Getreide das Wachstum fördern. Du könntest den Programmcode zudem erweitern, indem du für jeden Messwert ein anderes Intervall des Alarmtons festlegst, sodass ausschließlich durch das individuelle Piepen erkannt wird, bei welchem Phänomen eine Abweichung vom Mittelwert vorliegt.  
 
+## Gesamter Code
+
 [Hier](https://blockly.sensebox.de/gallery/63b6b53bd2853f0013b1da34) kannst du den Programmcode in Blockly abrufen. 
 

@@ -4,7 +4,7 @@ name: "LoRaWAN IoT weather station"
 date: 2020-02-26
 author: David
 abstract: "The LoRaWAN-Bee is used to build an IoT weather station"
-thumbnail: /images/projects/Final_Temp.PNG
+thumbnail: /images/projects/Final_Temp_en.PNG
 image1: /images/projects/lora-osem-tago/station_anlegen_ttn.PNG
 image2: /images/projects/lora-osem-tago/station_anlegen_ttn_final.PNG
 image3: /images/projects/lora-osem-tago/device_anlegen_ttn.PNG
@@ -22,10 +22,10 @@ material:
     - Air pressure sensor
     - Illuminance-/UV sensor
 ide: arduino  
-version: ["edu", "mini"]
+version: ["edu", "mini v1"]
 addons: ["LoRa-Bee"]  
 lang: en
-tags: ["Geography", "Computer Science", "LoRa", "TTN"]
+tags: ["Geography", "Computer Science", "TTN", "IoT"]
 difficult: difficult
 ---
 # LoRaWAN IoT Sensor Station

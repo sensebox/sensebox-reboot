@@ -4,9 +4,9 @@ name: "TTN Decoding for Dummies"
 date: 2020-01-23
 author: Felix
 abstract: "A small walkthrough"
-thumbnail: /images/projects/ttn-decoding/animation.gif
+thumbnail: /images/projects/ttn-decoding/logo_en.png
 lang: en
-tags: ["LoRaWAN", "TTN"]
+tags: ["computer science", "TTN"]
 difficult: "medium"
 ---
 # TTN Decoding isn't hard

@@ -10,11 +10,11 @@
   image: /images/lernkarten/3.jpg
   position: 3
 
-- head: Digital-/Analog-Ports
+- head: senseBox Kabel
   image: /images/lernkarten/4.jpg
   position: 4
 
-- head: senseBox Kabel
+- head: Digital-/Analog-Ports
   image: /images/lernkarten/5.jpg
   position: 5
 
@@ -46,7 +46,7 @@
   image: /images/lernkarten/12.jpg
   position: 12
 
-- head: Die modulare RGB-LED
+- head: Die RGB-LED (WS2812)
   image: /images/lernkarten/13.jpg
   position: 13
 
@@ -62,19 +62,19 @@
   image: /images/lernkarten/16.jpg
   position: 16
 
-- head: Das GPS-Modul
+- head: Der Feinstaubsensor (SPS30)
   image: /images/lernkarten/17.jpg
   position: 17
 
-- head: Der Bodensensor
+- head: Das GPS-Modul
   image: /images/lernkarten/18.jpg
   position: 18
 
-- head: Datenübertragung auf die openSenseMap I
+- head: Der Bodensensor
   image: /images/lernkarten/19.jpg
   position: 19
 
-- head: Datenübertragung auf die openSenseMap II
+- head: Datenübertragung auf die openSenseMap
   image: /images/lernkarten/20.jpg
   position: 20
 

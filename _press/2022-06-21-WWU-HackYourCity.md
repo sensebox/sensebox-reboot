@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Ferienprogramm "HackYourCity" des Schülerlabors "GI@School""
+title: "Ferienprogramm 'HackYourCity' des Schülerlabors GI@School"
 date:   2022-06-21
 author: Gina
 thumbnail: /images/press/wwu.jpg

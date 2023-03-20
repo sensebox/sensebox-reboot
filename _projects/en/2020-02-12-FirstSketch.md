@@ -4,7 +4,7 @@ name: "First steps: Your first sketch"
 date: 2020-02-12
 author: Björn
 abstract: "Let the LED on the senseBox MCU flash with your first sketch"
-thumbnail: /images/projects/ErsterSketch_Titel.png
+thumbnail: /images/projects/ErsterSketch_Titel_en.png
 image1: /images/projects/FirstSketch/FirstSketch_Image00.PNG
 image2: /images/projects/FirstSketch/FirstSketch_Image01.PNG
 image3: /images/projects/FirstSketch/FirstSketch_Image02.PNG
@@ -13,7 +13,7 @@ material:
     - senseBox MCU
 ide: blockly  
 lang: en
-version: ["edu", "mini"]   
+version: ["edu", "mini v1"]   
 tags: ["first steps", "computer science"]
 difficult: easy
 ---
@@ -23,7 +23,7 @@ The goal of this project is to get to know Blockly and to make the LED on the se
 
 ## Programming
 
-###Step 1: Setup und Loop
+### Step 1: Setup und Loop
 
 This block is loaded directly when you start the interface and should always be used. The two basic functions `Setup()` and `Loop()` are always needed to write a working program.
 All blocks within the `Setup()` function are only executed once at the beginning of the program. In this function the display is initialized or the WLAN connection is established for example. All blocks within the `Endless Loop()` function are executed continuously. The microcontroller executes all blocks again and again from the top to the bottom. In the 'endless loop', for example, the sensors are read out or the measured values are stored or transferred to the SD card.
@@ -56,3 +56,7 @@ To make the built-in LED flash, it is necessary to switch it off again with anot
   <div class="panel-body">
   </div>
 </div>
+
+## Entire Code
+
+ Check out the [Blockly code](https://blockly.sensebox.de/gallery/5fd08ffb64d32d0011cab222).  

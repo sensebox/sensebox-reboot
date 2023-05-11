@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: "Mobiler Datenlogger"
-date: 2020-03-09
+date: 2023-05-11
 author: Mario
 abstract: "Ein mobiler Datenlogger, der die Daten per WLAN an die openSenseMap sendet"
 thumbnail:  /images/projects/MobilerDatenlogger.png
@@ -13,7 +13,7 @@ material:
     - senseBox MCU
     - 1x OLED Display
     - 1x Temperatur und Luftfeuchtesensor (HDC 1080)
-    - 1x Feinstaubsensor (SDS011) inkl. Kabel
+    - 1x Feinstaubsensor (SDS011 oder SPS30) inkl. Kabel
     - 1x GPS Modul
     - 1x WiFi-Bee
     - 2x JST-JST Kabel
@@ -27,11 +27,11 @@ difficult: schwer
 <head><title>Mobiler Feinstaublogger mit GPS</title></head>
 
 # Mobiler Datenlogger für Feinstaubwerte
-In diesem Projekt wird mit der senseBox ein mobiler Datenlogger gebaut, der die Messwerte über WLAN, mithilfe eines Handyhotspot, direkt an die openSenseMap überträgt. Der aktuelle Standort wird über das GPS-Modul bestimmt und zusätzlich zu den Messwerten übertragen.  
+In diesem Projekt wird mit der senseBox ein mobiler Datenlogger gebaut, der die Messwerte über WLAN, mithilfe eines Handyhotspot, direkt an die openSenseMap überträgt. Der aktuelle Standort wird über das GPS-Modul bestimmt und zusätzlich zu den Messwerten übertragen. Solltest du kein GPS-Modul zur Verfügung haben, kannst du deine senseBox auch als stationäre Messstation auf der openSensemap registrieren und das Projekt trotzdem durchführen.  
 
 ## Aufbau
 Stecke das WiFi-Bee auf den Steckplatz __XBEE1__. 
-Das OLED Display, der Temperatur- und Luftfeuchtesensor und das GPS Modul werden mit jeweils einem JST-JST Kabel an die I2C Ports angeschlossen. Der Feinstaubsensor mit dem JST-Feinstaubkabel an einen der beiden Serial/UART Ports.
+Das OLED Display, der Temperatur- und Luftfeuchtesensor und das GPS Modul werden mit jeweils einem JST-JST Kabel an die I2C Ports angeschlossen. Der Feinstaubsensor (SDS011) mit dem JST-Feinstaubkabel an einen der beiden Serial/UART Ports. Solltest du den Feinstaubsensor SPS30 nutzen, verbinde diesen ebenfalls mit einen der fünf I2C Ports.
 
 ## Registrierung auf der openSenseMap
 
@@ -71,7 +71,9 @@ Damit die gemessenen Messwerte immer mit dem aktuellen Standort verknüpft werde
 
  {% include image.html image=page.image3 %}
 
- [Hier](https://blockly.sensebox.de/gallery/63b6d1b3d2853f0013b1da7f) findest du den gesamten Blockly-Code. 
+ [Hier](https://blockly.sensebox.de/gallery/63b6d1b3d2853f0013b1da7f) findest du den gesamten Blockly-Code für die Verwendung des Feinstaubsensors SDS011.
+ [Hier](https://blockly.sensebox.de/gallery/645ca8a8e20614001a3ff659) findest du den gesamten Blockly-Code für die Verwendung des Feinstaubsensors SPS30. Er hat den Vorteil, dass du neben PM2.5 und PM10 auch weitere Partikelgrößen (PM1.0, PM4.0) messen kannst.  
+
 
 Beachte, dass das GPS Modul nach dem ersten Anschließen unter Umständen sehr lange benötigt, um ein erstes Standortsignal zu bekommen. Lege dazu die Box nach draußen und achte darauf, dass keine Gegenstände, wie Dächer oder Bäume, den Blick in den Himmel versperren.
 

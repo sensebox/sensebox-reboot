@@ -1,9 +1,9 @@
 - name: :Lernkarten
   position: t1
   organisation: senseBox - Team
-  description: Lernkarten für das selbstständige Arbeiten mit der senseBox und der Programmierung mit Blockly. Die Lernkarten können doppelseitig ausgedruckt werden.
+  description: The senseBox flashcards give you information on how to connect and program sensors to the senseBox MCU.
   bgImage: /images/material/cards.png
-  download: https://sensebox.de/docs/en_senseBox Lernkarten_v2.pdf
+  link: /en/lernkarten.html
 
 - name: :ETH Zürich
   position: t2

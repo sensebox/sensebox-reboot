@@ -51,7 +51,8 @@ publications-name: "Veröffentlichungen"
 publications-link: /research-publications.html
 citsci-link: /research-citizenscience.html
 citsci-name: "Citizen Science"
-
+tinyaiot-name: "Tiny AIoT"
+tinyaiot-link: /research-tinyaiot.html
 #About-us
 team-name: "Team"
 team-link: /about-us.html

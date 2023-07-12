@@ -1,0 +1,167 @@
+{% assign tinyaiot = site.data.i18n.[page.lang].research-tinyaiot %}
+{% assign awardslist = site.awards | sort: 'weight' %}
+
+<div class="container">
+    <div class="row row-padding">
+        <div class="col-4">
+
+        </div>
+        <div class="col-8">
+            <img src="/images/logos/tinyaiot/tinyaiot_logo.png" class="partner-pic" alt="...">
+        </div>
+        <div class="col-4">
+            
+        </div>
+    </div>
+    <div class="row row-padding">
+        <div class="col-12">
+            <h2>{{tinyaiot.idea}}</h2>
+            <p>{{tinyaiot.idea-text}}</p>
+            <h3>{{tinyaiot.resource-efficiency}}</h3>
+            <p>{{tinyaiot.resource-efficiency-text}}</p>
+        </div>
+    </div>
+    <div class="row row-padding">
+        <div class="col-12">
+            <h2>{{tinyaiot.partners}}</h2>
+            <p> {{tinyaiot.partners-text}} </p>
+        </div>
+    </div>
+    <div class="row row-padding">
+        <div class="col-6">
+            <div class="card partner-card">
+                <img src="/images/logos/reedu_white.png" class="partner-pic" alt="...">
+                <div class="card-body">
+                    <p class="card-text">{{ research.partner-reedu }}</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="card partner-card">
+                <img src="/images/logos/Logo_ifgi_long.png" class="partner-pic" alt="...">
+                <div class="card-body">
+                    <p class="card-text">{{ research.partner-ifgi }}</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="row row-padding">
+        <div class="col-12">
+            <h2>{{tinyaiot.associate-partners}}</h2>
+             <p>{{tinyaiot.associate-partners-text}} </p>
+        </div>
+    </div>
+    <div class="row row-padding">
+        <div class="col-4">
+            <div class="card partner-card">
+                <img src="/images/logos/tinyaiot/stadtwerke_emsdetten.png" class="partner-pic" alt="...">
+                <div class="card-body">
+                    <p class="card-text">{{tinyaiot.partner-emsdetten}} </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card partner-card">
+                <img src="/images/logos/tinyaiot/SmartCityMs.png" class="partner-pic" alt="...">
+                <div class="card-body">
+                    <p class="card-text">{{tinyaiot.partner-smartcity}} </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card partner-card">
+                <img src="/images/logos/tinyaiot/naturschutzzentrum-coesfeld-logo.png" class="partner-pic" alt="...">
+                <div class="card-body">
+                    <p class="card-text">{{tinyaiot.partner-coesfeld}} </p>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="row row-padding">
+        <div class="col-4">
+            <div class="card partner-card">
+                <img src="/images/logos/tinyaiot/Hof-Homann_Logo.png" class="partner-pic" alt="...">
+                <div class="card-body">
+                    <p class="card-text"> {{tinyaiot.partner-homann}} </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <img src="/images/logos/tinyaiot/openSenseLab-Logo.svg" class="partner-pic" alt="...">
+            <div class="card-body">
+                <p class="card-text">{{tinyaiot.partner-opensenselab}} </p>
+            </div>
+        </div>
+        <div class="col-4">
+            <img src="/images/logos/tinyaiot/budelmann_logo.png" class="partner-pic" alt="...">
+            <div class="card-body">
+                <p class="card-text">{{tinyaiot.partner-budelmann}} </p>
+            </div>
+        </div>
+    </div>
+    <div class="row row-padding">
+        <div class="col-12">
+            <h2>{{ tinyaiot.ressource-efficiency }} </h2>
+        </div>
+        <div class="row row-padding">
+            <div class="col-4">
+                <img loading="lazy" class="img-fluid" src="/images/research/tinyaiot/wiediversistmeingarten.jpg">
+            
+            </div>
+            <div class="col-4">
+                <img loading="lazy" class="img-fluid" src="/images/research/research-hardware.jpg">
+
+            </div>
+            <div class="col-4">
+                <img loading="lazy" class="img-fluid" src="/images/research/research-hardware.jpg">
+
+            </div>
+        </div>
+        <div class="row row-padding">
+            <div class="col-12">
+                {{tinyaiot.ressource-efficiency-text}}
+            </div>
+        </div>
+        <div class="row row-padding">
+            <div class="col-12">
+                <h3>{{ tinyaiot.ressource-efficiency }}</h3>
+                <div>{{tinyaiot.ressource-efficiency-text}}</div>
+
+                <h3>{{tinyaiot.resource-efficiency-potential}} </h3>
+                <div>
+                    {{tinyaiot.resource-efficiency-potential-text}}
+                </div>
+                <ul>
+                    <li>{{tinyaiot.resource-efficiency-potential-list-1}} </li>
+                    <li>{{tinyaiot.resource-efficiency-potential-list-2}} </li>
+                </ul>
+                <div>
+                    {{tinyaiot.resource-efficiency-potential-text-2}}
+                </div>
+                <br>
+                <div>
+                    {{tinyaiot.resource-efficiency-potential-text-3}}
+                </div>
+            </div>
+        </div>
+        <div class="row row-padding">
+            <div class="col-12">
+                <h3>{{tinyaiot.transparency}} </h3>
+                <div>
+                    {{tinyaiot.transparency-text}}
+                </div>
+            </div>
+        </div>
+        <div class="row row-padding">
+            <div class="col-12">
+                <h3>{{tinyaiot.relation-to-potential-risks}} </h3>
+                <div>
+                    {{tinyaiot.relation-to-potential-risks-text}}
+                </div>
+            </div>
+        </div>
+
+    <hr>
+
+    <hr>

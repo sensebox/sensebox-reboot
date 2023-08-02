@@ -1,13 +1,13 @@
 - author: Gina
   date: 2023-05-25
   headline: Neue Blockly-Version für die senseBox
-  text: Schon gesehen? Unsere grafische Programmieroberfläche Blockly für die senseBox wurde aktualisiert. Mit neuen Features und Tutorials wird der Einstieg in die Programmierung noch leichter gemacht. Schaut doch mal rein: <a href="https://blockly.sensebox.de/" class="green-link"</a>
+  text: Schon gesehen? Unsere grafische Programmieroberfläche Blockly für die senseBox wurde aktualisiert. Mit neuen Features und Tutorials wird der Einstieg in die Programmierung noch leichter gemacht. Schaut doch mal rein <a href=\"https://blockly.sensebox.de/" class="green-link"</a>
   active: true
 
 - author: Gina
   date: 2023-01-20
-  headline: Let´s connect mit der senseBox App
-  text: Für alles gibt es eine App, für die senseBox jetzt auch! Zur Übertragung des in Blockly erstellten Porgrammcodes auf Smartphones oder Tablets haben wir die senseBox Connect App entwickelt. Sie ist im Apple und im Google Play Store kostenlos erhältlich. Wichtig: Ihr braucht ein Wifi-Bee bzw. die Wifi-ID eurer senseBox, um den Code in die App übertragen zu können. Zur <a href="https://sensebox.de/de/app.html" class="green-link">senseBox Connect App</a>
+  headline: Lets connect mit der senseBox App
+  text: Für alles gibt es eine App, für die senseBox jetzt auch! Zur Übertragung des in Blockly erstellten Porgrammcodes auf Smartphones oder Tablets haben wir die senseBox Connect App entwickelt. Sie ist im Apple und im Google Play Store kostenlos erhältlich. Wichtig - Ihr braucht ein Wifi-Bee bzw. die Wifi-ID eurer senseBox, um den Code in die App übertragen zu können. Zur <a href="https://sensebox.de/de/app.html" class="green-link">senseBox Connect App</a>
   active: true
 
 - author: Gina

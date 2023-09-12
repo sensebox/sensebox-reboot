@@ -22,6 +22,10 @@ products-edu-name: ":edu"
 products-edu-link: /products-edu.html
 products-mini-name: ":mini"
 products-mini-link: /products-mini.html
+products-senseboxbike-name: ":bike"
+products-senseboxbike-link: /products-senseboxbike.html
+products-data-logger-name: "Data logger"
+products-data-logger-link: /products-data-logger.html
 products-parts-name: ":parts"
 products-parts-link: /products-parts.html
 products-co2-name: ":CO<sub>2</sub>-Ampel"

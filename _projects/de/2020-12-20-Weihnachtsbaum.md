@@ -12,7 +12,7 @@ image3: /images/projects/Weihnachtsbaum/3.png
 
 material:
     - senseBox MCU
-    - OLED-Display
+    - 1x OLED-Display
     - 2x JST-JST-Kabel
     - 1x JST-Adapterkabel
     - 1x Bodenfeuchtesensor
@@ -21,7 +21,8 @@ material:
     - 1x RGB-LED
     
 ide: blockly
-version: ["edu", "mini"]   
+version: ["edu"]   
+addons: ["Bodenfeuchtesensor"] 
 lang: de
 tags: ["Informatik", "Biologie", "Weihnachten"]
 difficult: mittel
@@ -30,6 +31,8 @@ difficult: mittel
 
 # Überprüfe die Versorgung deines Weihnachtsbaums mit der senseBox
 Weihnachten rückt immer näher und damit auch die Zeit, den Weihnachtsbaum aufzustellen. Damit dieser möglichst lange schön bleibt und keine Nadeln verliert, ist es besonders wichtig, die richtigen Voraussetzungen zu schaffen. Dazu gehören eine ausreichende Wasserversorgung sowie eine angemessene Raumtemperatur. Die senseBox hilft dir dabei, diese beiden Phänomene zu überwachen, sodass du möglichst lange die Schönheit deines Weihnachtsbaums genießen kannst.
+
+>Beachte, dass dieses Projekt für die zum Breadboard zugehörige RGB-LED vorgesehen ist. Sollte deine senseBox:edu die verkettbare/ modulare RGB-LED (WS2818) enthalten, verbinde sie mit einen der drei digital/ analaog Ports und passe deine Programmierung in Blockly dementsprechend an.
 
 ## Aufbau
 Zuerst verbindest du das Display mit dem JST-JST-Kabel. Dies schließt du an einem der fünf I2C/Wire-Anschlüsse deiner senseBox MCU an. Ebenso verbindest du den Temperatursensor mit deiner senseBox MCU. Der Bodenfeuchtesensor wird hingegen an einem der drei Digital-Ports angeschlossen. Je nachdem, welchen du wählst, solltest du den Port (A, B oder C) in Blockly anpassen. Um die RGB-LED zum Leuchten bringen zu können, benötigst du die restlichen Komponenten. Die untenstehende Abbildung zeigt dir detailliert, wie der Aufbau aussehen sollte. Dabei ist es wichtig zu beachten, dass die langen Beinchen der LED jeweils mit dem roten und schwarzen Kabel verbunden werden sowie das kurze Beinchen mit einem Widerstand und einem grünen oder gelben Kabel. Als Anschluss auf der senseBox wählst du wieder einen Digital-Port aus. Die kleinen Ziffern an der Stelle des grünen oder gelben Kabels zeigen dir, welchen digitalen Pin du in Blockly auswählen solltest. 
@@ -56,4 +59,7 @@ Je nach Wasserstand soll die RGB-LED in einer anderen Farbe leuchten. Dafür mus
 
 {% include image.html image=page.image3 %}
 
+## Gesamter Code
+
+Den gesamten Blockly-Sketch findest du [hier](https://blockly.sensebox.de/gallery/63b6aadbd2853f0013b1da02).
 Wir hoffen, dass dir dieses Projekt dabei hilft, deinen Weihnachtsbaum optimal versorgen zu können und wünschen dir somit einen schönen 4. Advent und wunderbare Weihnachtstage!

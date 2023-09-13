@@ -11,17 +11,17 @@ image2: /images/projects/mobile_feinstaubstation/wifi/RegistrierungOSEM.png
 image3: /images/projects/mobile_feinstaubstation/wifi/SendeOSEM.png
 material:
     - senseBox MCU
-    - OLED Display
-    - Temperatur und Luftfeuchtesensor(HDC 1080)
-    - Feinstaubsensor(SDS011) inkl. Kabel
-    - GPS Modul
-    - WiFi-Bee
-    - JST Kabel
+    - 1x OLED Display
+    - 1x Temperatur und Luftfeuchtesensor (HDC 1080)
+    - 1x Feinstaubsensor (SDS011) inkl. Kabel
+    - 1x GPS Modul
+    - 1x WiFi-Bee
+    - 2x JST-JST Kabel
 ide: blockly
-version: ["edu", "mini"]   
+version: ["edu", "mini v1", "home"]   
 addons: ["GPS", "Feinstaubsensor"] 
 lang: de
-tags: ["Informatik","GPS","Feinstaub","Geographie"]
+tags: ["Informatik","Geographie"]
 difficult: schwer
 ---
 <head><title>Mobiler Feinstaublogger mit GPS</title></head>
@@ -69,7 +69,11 @@ Für jeden Messwert, den du nun senden möchtest, ziehe einen Block __Sende Mess
 
 Damit die gemessenen Messwerte immer mit dem aktuellen Standort verknüpft werden, müssen 4 verschiedene Parameter vom GPS Modul abgefragt werden. Neben dem Längen und Breitengrad wird auch die Höhe über NN und ein Zeitstempel im RFC 3339 Format übertragen. 
 
+## Gesamter Code
+
  {% include image.html image=page.image3 %}
+
+ [Hier](https://blockly.sensebox.de/gallery/63b6d1b3d2853f0013b1da7f) findest du den gesamten Blockly-Code. 
 
 Beachte, dass das GPS Modul nach dem ersten Anschließen unter Umständen sehr lange benötigt, um ein erstes Standortsignal zu bekommen. Lege dazu die Box nach draußen und achte darauf, dass keine Gegenstände, wie Dächer oder Bäume, den Blick in den Himmel versperren.
 

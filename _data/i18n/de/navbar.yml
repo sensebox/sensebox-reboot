@@ -27,10 +27,10 @@ products-edu-name: ":edu"
 products-edu-link: /products-edu.html
 products-mini-name: ":mini"
 products-mini-link: /products-mini.html
-products-bike-name: ":bike"
-products-bike-link: /products-bike.html
-products-data-name: ":datalogger"
-products-data-link: /products-datalogger.html
+products-senseboxbike-name: ":bike"
+products-senseboxbike-link: /products-senseboxbike.html
+products-data-logger-name: "Datenlogger"
+products-data-logger-link: /products-data-logger.html
 products-parts-name: "Bauteile"
 products-parts-link: /products-parts.html
 products-bees-name: "Bees"
@@ -67,7 +67,8 @@ publications-name: "Veröffentlichungen"
 publications-link: /research-publications.html
 citsci-link: /research-citizenscience.html
 citsci-name: "Citizen Science"
-
+tinyaiot-name: "Tiny AIoT"
+tinyaiot-link: /research-tinyaiot.html
 #About-us
 team-name: "Team"
 team-link: /about-us.html

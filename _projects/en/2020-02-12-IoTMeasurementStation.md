@@ -4,9 +4,9 @@ name: "IoT Measurement station"
 date: 2020-02-12
 author: Eric
 abstract: "Create a measuring station that sends measured values for temperature, humidity, air pressure, brightness and UV intensity to the openSenseMap."
-thumbnail: /images/projects/home.jpg
+thumbnail: /images/projects/home_en.jpg
 image1: /images/projects/iot_messstation/senseBox_Uebersicht.png
-image2: /images/projects/iot_messstation/WiFi.png
+image2: /images/projects/iot_messstation/WiFi_en.png
 image3: /images/projects/iot_messstation/upload_osemEn.PNG
 image0: /images/projects/iot_messstation/neueSenseBox.png
 material:
@@ -87,6 +87,6 @@ Transfer the code to the senseBox as described on [senseBox Go](https://sensebox
 Congratulations! You've programmed your own measuring station. What else you can use the senseBox for, you can find out in other exciting [projects](https://sensebox.de/en/projects.html).
 
 
-## Download 
+## Entire Code
 
-You can find the finished Blockly Blocks here <a href="https://raw.githubusercontent.com/sensebox/resources/master/code/Blockly_Sketch.xml" download="https://raw.githubusercontent.com/sensebox/resources/master/code/Blockly_Sketch.xml"></a>.
+You can find the finished Blockly Code [here](https://blockly.sensebox.de/gallery/620ba2e5830e5000189b8d74).

@@ -13,7 +13,7 @@ image4: /images/projects/Weihnachtslied/4.png
 
 material:
   - senseBox MCU
-  - OLED-Display
+  - 1x OLED-Display
   - 1x JST-JST-Kabel
   - 1x JST-Adapterkabel
   - 1x Piezo
@@ -21,7 +21,7 @@ material:
 ide: blockly
 version: ["edu"]
 lang: de
-tags: ["Informatik", "Musik", "Weihnachten", "CO2-Ampel Set Edu"]
+tags: ["Informatik", "Musik", "Weihnachten"]
 difficult: leicht
 ---
 
@@ -60,6 +60,11 @@ Im nächsten Schritt solltest du dir Noten für ein Weihnachtslied raussuchen, b
 Überträgtst du den bisherigen Programmcode auf deine senseBox, so wird dir auffallen, dass das Lied noch nicht zu erkennen ist. Der Grund dafür liegt in der fehlenden Melodie, welche du nun mithilfe des Notenwerts generieren musst. Dafür verwendest du die 'Warte'-Blöcke aus der Kategorie 'Zeit'. Je länger eine Note ist, desto länger muss folglich auch die Wartezeit sein, bis der nächste Ton abgespielt wird. In diesem Beispiel wurden 2000 Millisekunden für einen Takt gewählt und die Wartezeit auf die jeweilige Notenlänge angepasst. Es ergibt sich also folgendes Schema: Ganze Note - 2000 ms; Halbe Note - 1000 ms; Viertelnote - 500 ms; Achtelnote - 250 ms; usw. Möchtest du eine Zeile des Lieds wiederholen, so bietet es sich an, eine Schleife zu verwenden, mit der du die Anzahl der Wiederholungen anpasst.
 
 {% include image.html image=page.image4 %}
+
+
+## Gesamter Code
+
+Den gesamten Blockly-Sketch findest du [hier](https://blockly.sensebox.de/gallery/63b68de4d2853f0013b1d9ad).
 
 ## Weiterführende Ideen
 

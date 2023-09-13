@@ -1,9 +1,9 @@
 - name: Lernkarten
   position: t1
   organisation: senseBox - Team
-  description: Lernkarten für das selbstständige Arbeiten mit der senseBox und der Programmierung mit Blockly. Die Lernkarten können doppelseitig ausgedruckt werden.
+  description: Lernkarten für das selbstständige Arbeiten mit der senseBox und der Programmierung mit Blockly. Die Lernkarten können online angeschaut oder ausgedruckt werden.
   bgImage: /images/material/cards.png
-  download: /docs/senseBox_Lernkarten_v2.2_online.pdf
+  link: /de/lernkarten.html
 
 - name: senseBox Lehrhandreichung
   position: t2

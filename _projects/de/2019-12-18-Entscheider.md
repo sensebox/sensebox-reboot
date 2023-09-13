@@ -14,18 +14,20 @@ imageSolution: /images/projects/Entscheider/final.png
 
 material:
   - senseBox MCU
-  - OLED Display
-  - JST-JST Kabel
+  - 1x OLED Display
+  - 1x JST-JST Kabel
 ide: blockly
-version: ["edu", "mini"]
+version: ["edu", "mini v1"]
 lang: de
-tags: ["Informatik", "CO2-Ampel Set Edu"]
+tags: ["Informatik"]
 difficult: mittel
 ---
 
 # Die senseBox entscheidet {#head}
 
 Du kannst dich nie entscheiden? Dann haben wir die Lösung für dein Problem! In diesem Projekt wird die senseBox zu einem Entscheider, dem du jede Frage stellen kannst und der für dich entscheidet, wenn du ihn schüttelst.
+
+> Hinweis: Nicht jede Version der senseBox MCU ist mit einem Beschleunigungssensor ausgestattet. Prüfe mithife der [Docs](https://docs.sensebox.de/hardware/allgemein-sensebox-mcu/), ob dein Mikrocontroller den für dieses Projekt notwendigen Sensor besitzt.
 
 ## Aufbau
 
@@ -62,6 +64,6 @@ Anschließend musst du weitere Bedingungen hinzufügen, die dafür sorgen, dass 
 
 Die beiden Bedingungen müssen nun ineinander verschachtelt werden, sodass wenn die MCU geschüttelt wird, eine Zufallszahl generiert und dementsprechend geantwortet wird.
 
-### Fertiger Code
+## Gesamter Code
 
-Du kannst dir die Lösung dieses Projektes direkt in Blockly [öffnen](https://blockly.sensebox.de/ardublockly/index.html?board=sensebox-mcu&gallery=projects/entscheidet).
+Du kannst dir die Lösung dieses Projektes direkt in Blockly [öffnen](https://blockly.sensebox.de/gallery/63bbd934d2853f0013b1df5f).

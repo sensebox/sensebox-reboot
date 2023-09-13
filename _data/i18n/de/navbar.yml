@@ -15,7 +15,7 @@ go-mini-link: /go-mini.html
 go-co2-name: ":CO<sub>2</sub>-Ampel"
 go-co2-link: /go-co2.html
 #Products
-products-name: "Bausätze"
+products-name: "senseBox"
 products-link: /products.html
 products-hardware-name: "Hardware"
 products-hardware-link: /products-hardware.html
@@ -27,13 +27,17 @@ products-edu-name: ":edu"
 products-edu-link: /products-edu.html
 products-mini-name: ":mini"
 products-mini-link: /products-mini.html
+products-bike-name: ":bike"
+products-bike-link: /products-bike.html
+products-data-name: ":datalogger"
+products-data-link: /products-datalogger.html
 products-parts-name: "Bauteile"
 products-parts-link: /products-parts.html
 products-bees-name: "Bees"
 products-bees-link: /products-bees.html
 products-sensors-name: "Sensoren"
 products-sensors-link: /products-sensors.html
-products-co2-name: "CO<sub>2</sub>-Ampel"
+products-co2-name: ":CO<sub>2</sub>-Ampel"
 products-co2-link: /products-co2.html
 products-boards-name: "Boards"
 products-boards-link: "/products-boards.html"

@@ -1,0 +1,17 @@
+bike-text: "The senseBox:bike expands the focus on environmental monitoring to include the component of road safety for cyclists. With a kit that can be mounted on the bicycle saddle, statements can thus be made about the condition of the cycle path, the distance between the bicycle and the car, and the speed of the cyclist. The following sensors and components are available for this purpose"
+bike-phenomenon-title: "Measurable Phenomena"
+bike-phenomenon-text: "The following phenomena can be measured with the senseBox:bike mobil."
+phenomenon-temperature: temperature
+phenomenon-humidity: relative humidity
+phenomenon-pm: fine dust (PM1.0, PM2.5, PM4 & PM10)
+phenomenon-acceleration: vibration
+phenomenon-speed: speed
+phenomenon-distance: Distance (to the left)
+phenomenon-text: "The senseBox:bike expands the focus on environmental monitoring to include the component of road safety for cyclists. With a kit that can be mounted on the bicycle saddle, statements can thus be made about the condition of the cycle path, the distance between the bicycle and the car, and the speed of the cyclist."
+bike-transmission-title: "The data transmission"
+bike-transmission-text: "The data transmission During the ride on the bike, the traffic and environmental data are automatically collected and stored on the SD card. Once home, the senseBox:bike automatically connects to the local WLAN and uploads the data to the openSenseMap (openSenseMap.org). Through the participation of many citizens, a comprehensive picture of the city's cycling infrastructure can be determined. To protect their privacy, participants can make privacy settings, such as an individually defined radius around their own home. No data is then recorded in this area."
+bike-housing-title: "The Enclosure"
+bike-housing-text: "The senseBox:bike housing is a clever solution that attaches effortlessly to almost any bike and removes just as easily. This versatile design has been developed to meet the requirements of different types of bikes. An integrated small fan provides pleasant ventilation so that your senseBox:bike always works optimally. Easy to assemble, easy to disassemble and suitable for a wide range of bikes - the senseBox:bike remains flexible and comfortable in every way."
+bike-example-title: "An example: Meals on Wheels"
+bike-example-text-link: "In this project"
+bike-example-text: "Pupils from five schools in Essen are independently collecting data with the senseBox:bike. This data serves as a basis for analysing the cycling infrastructure of the city of Essen, identifying danger spots and finally developing suggestions for improvement based on this data. In a final step, the students discuss the findings with local politicians and are thus motivated to actively participate in urban planning processes with the help of Citizen Science"

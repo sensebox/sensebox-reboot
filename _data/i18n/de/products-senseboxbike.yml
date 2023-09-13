@@ -1,0 +1,18 @@
+bike-text: "Die senseBox:bike erweitert den Fokus auf Umweltmonitoring um die Komponente der Verkehrssicherheit für Fahrradfahrende. Mit einem am Fahrradsattel montierbaren Bausatz können somit Aussagen über die Radwegbeschaffenheit, den Abstand zwischen Fahrrad und Auto sowie zur Geschwindigkeit des Radfahrenden getroffen werden. Dafür stehen folgende Sensoren und Bauteile zur Verfügung"
+bike-phenomenon-title: "Messbare Phänomene"
+bike-phenomenon-text: "Folgende Phänomene lassen sich mit der senseBox:bike mobil messen."
+phenomenon-temperatur: Temperatur
+phenomenon-humidity: rel. Luftfeuchtigkeit
+phenomenon-pm: Feinstaub (PM1.0, PM2.5, PM4 & PM10)
+phenomenon-acceleration: Erschütterung
+phenomenon-speed: Geschwindigkeit
+phenomenon-distance: Abstand (nach links)
+phenomenon-text: "Die senseBox:bike erweitert den Fokus auf Umweltmonitoring um die Komponente der Verkehrssicherheit für Fahrradfahrende. Mit einem am Fahrradsattel montierbaren Bausatz können somit Aussagen über die Radwegbeschaffenheit, den Abstand zwischen Fahrrad und Auto sowie zur Geschwindigkeit des Radfahrenden getroffen werden."
+bike-transmission-title: "Die Datenübertragung"
+bike-transmission-text: "Die Datenübertragung Während der Fahrt auf dem Fahrrad werden die Verkehrs- und Umweltdaten automatisch erhoben und auf der SD-Karte gespeichert. Zu Hause angekommen, verbindet sich die senseBox:bike automatisch mit dem heimischen WLAN und lädt die Daten auf die openSenseMap (openSenseMap.org) hoch. Durch die Partizipation vieler Bürger:innen kann somit ein flächendeckendes Bild über die Fahrradinfrastruktur der Stadt ermittelt werden. Zum Schutz der Privatsphäre können die Teilnehmenden Privatsphäre-Einstellungen treffen, wie einen individuell festgelegten Radius um das eigene Zuhause. In diesem Bereich werden dann keine Daten aufgezeichnet."
+phenomenon-wifi: Wifi
+bike-housing-title: "Das Gehäuse"
+bike-housing-text: "Das Gehäuse der senseBox:bike ist eine clevere Lösung, die sich mühelos an nahezu jedem Fahrrad anbringen und genauso leicht wieder entfernen lässt. Diese vielseitige Konstruktion wurde entwickelt, um die Anforderungen unterschiedlicher Fahrradtypen zu erfüllen. Ein integrierter kleiner Ventilator sorgt für eine angenehme Belüftung, damit Ihre senseBox:bike stets optimal funktioniert. Einfach zu montieren, einfach zu demontieren und für eine breite Palette von Fahrrädern geeignet – die senseBox:bike bleibt flexibel und komfortabel in jeder Hinsicht."
+bike-example-title: "Ein Beispiel: Essen auf Rädern"
+bike-example-text-link: "In diesem Projekt"
+bike-example-text: " erheben Schüler:innen von fünf Essener Schulen eigenständig Daten mit der senseBox:bike. Diese Daten dienen als Grundlage, um die Fahrradinfrastruktur der Stadt Essen zu analysieren, Gefahrenstellen zu identifizieren und schließlich darauf aufbauend Verbesserungsvorschläge zu erarbeiten. In einem letzten Schritt diskutieren die Lernenden die gewonnenen Erkenntnisse mit der Lokalpolitik und werden somit zur aktiven Teilhabe an stadtplanerischen Prozessen mithilfe von Citizen Science motiviert."

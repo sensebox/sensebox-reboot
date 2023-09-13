@@ -1,14 +1,32 @@
+- author: Gina
+  date: 2023-05-25
+  headline: Neue Blockly-Version für die senseBox
+  text: Schon gesehen? Unsere grafische Programmieroberfläche Blockly für die senseBox wurde aktualisiert. Mit neuen Features und Tutorials wird der Einstieg in die Programmierung noch leichter gemacht. Schaut doch mal rein. Zu <a href="https://blockly.sensebox.de" target="_blank" class="green-link">Blockly</a>
+  active: true
+
+- author: Gina
+  date: 2023-01-20
+  headline: Lets connect mit der senseBox App
+  text: Für alles gibt es eine App, für die senseBox jetzt auch! Zur Übertragung des in Blockly erstellten Porgrammcodes auf Smartphones oder Tablets haben wir die senseBox Connect App entwickelt. Sie ist im Apple und im Google Play Store kostenlos erhältlich. Wichtig - Ihr braucht ein Wifi-Bee bzw. die Wifi-ID eurer senseBox, um den Code in die App übertragen zu können. Zur <a href="https://sensebox.de/de/app.html" class="green-link">senseBox Connect App</a>
+  active: true
+
+- author: Gina
+  date: 2022-12-18
+  headline: Klein & kompakt - die neue senseBox MCU mini
+  text: Die senseBox gibt es nun im Miniaturformat! Das kleine Messgerät ist etwa so groß wie das OLED-Display und ist damit ideal für mobile Erhebungen z.B. zu Fuß oder mit dem Fahrrad geeignet. Es lässt sich genauso in Arduino programmieren wie die MCU und ist auch in Blockly integriert. So können auch ohne Programmiervorkenntnisse verschiedene Experimente durchgeführt werden. Wie ihr eure eigene Mini-Umweltmessstation zusammenbaut erfahrt ihr <a href="https://sensebox.de/projects/de/2022-12-19-messstation-mini" class="green-link">hier</a>. Die senseBox MCU mini ist als einzelnes <a href="https://sensebox.kaufen/product/sensebox-mcu-mini" class="green-link">Board</a> oder als <a href="https://sensebox.kaufen/product/sensebox-mini-v2" class="green-link">Bausatz</a> erhältlich. Wir wünschen viel Spaß beim Ausprobieren!
+  active: true
+
 - author: Mario
   date: 2021-11-08
   headline: senseBox Workshops im Futurium
   text: Fahrräder sind ein beliebtes nachhaltiges Verkehrsmittel in der Stadt. Man ist unabhängig, bewegt sich, ist an der frischen Luft... Frische Luft?! Autoabgase machen Radfahrern oftmals zu schaffen. Gemeinsam mit dem Start-Up re:edu aus der Fahrradstadt Münster wollen wir prüfen, wo es stinkt und sehen, wo sich Rad- und Autofahrer auf die Pelle rücken. Ein erster Workshop zur senseBox:Bike hat jetzt im Futurium Lab stattgefunden. Mehr Informationen findet ihr unter <a href="https://futurium.de/en/blog/umweltmesser-auf-dem-fahrrad" class="green-link">Produkte</a>
-  active: true
+  active: false
 
 - author: Mario
   date: 2020-10-22
   headline: senseBox CO<sub>2</sub>-Ampel
   text: Wir haben einen Bausatz für eine CO<sub>2</sub> auf Basis der senseBox entwickelt. Mehr Informationen findet ihr unter <a href="/de/products-co2" class="green-link">Produkte</a>
-  active: true
+  active: false
 
 - author: David
   date: 2020-05-15

@@ -1,8 +1,9 @@
-boards-title: "senseBox:bauteile"
-boards-text: "Die verschiedenen senseBox-Modelle und ihre Bauteile sind vollständig untereinander kompatibel. Die Sensoren und Datenübertragungsmodule verwenden ein einheitliches Stecksystem und können so Modellunabhängig verwendet werden."
+boards-title: "senseBox:boards"
+boards-text: "Das Herzstück eines jeden Projektes mit der senseBox ist ein Arduino kompatibler Mikrocontroller, an dem verschiedene Sensoren und Datenübertragungsmodule angeschlossen werden können. Je nach Bedarf und Einsatzbereich, gibt es hier unterschiedliche Versionen mit speziellen Eigenschaften: die senseBox MCU, die senseBox MCU mini und die senseBox MCU-S2. Im Folgenden werden diese drei Boards vorgestellt. "
 
 boards-MCU-title: "Die senseBox MCU"
 boards-MCU-text: "Die senseBox MCU (MicroControllerUnit) ist das Herzstück jeder senseBox. Sie ist ein Einplatinencomputer auf Basis des ARM Cortex-M0 Prozessors aus der SAMD21 Familie. Dieser Prozessor macht die senseBox MCU vollständig kompatibel zu Arduino.<br>Sie verfügt über folgende fest verbaute Anschlüsse und Bauteile."
+sensebox-mcu-shop-button: "senseBox MCU kaufen"
 boards-MCU-connectors: "Anschlüsse:"
 boards-MCU-connectors-list: "
   <li>5x I2C</li>
@@ -21,7 +22,7 @@ boards-MCU-onboard-list: "
 
 boards-MCU-mini-title: "Die senseBox MCU mini"
 boards-MCU-mini-text: "Sie ist ein Einplatinencomputer auf Basis des ARM Cortex-M0 Prozessors aus der SAMD21 Familie. Dieser Prozessor macht die senseBox MCU vollständig kompatibel zu Arduino.<br>Sie verfügt über folgende fest verbaute Anschlüsse und Bauteile."
-
+sensebox-mcu-mini-shop-button: "senseBox MCU mini kaufen"
 boards-MCU-mini-connectors-list: "
   <li>2x I2C (QWIIC)</li>
   <li>1x UART</li>
@@ -36,19 +37,22 @@ boards-MCU-mini-onboard-list: "
   <li>1x RGB-LED</li>
   <li>mSD-Karten Slot</li>"
 
-boards-MCU-esp32-title: "Die senseBox MCU ESP32"
-boards-MCU-esp32-text: "Sie ist ein Einplatinencomputer auf Basis des ARM Cortex-M0 Prozessors aus der SAMD21 Familie. Dieser Prozessor macht die senseBox MCU vollständig kompatibel zu Arduino.<br>Sie verfügt über folgende fest verbaute Anschlüsse und Bauteile."
-
-boards-MCU-esp32-connectors-list: "
+boards-MCU-s2-title: "Die senseBox MCU-S2"
+boards-MCU-s2-text: "Sie ist ein Einplatinencomputer auf Basis des ARM Cortex-M0 Prozessors aus der SAMD21 Familie. Dieser Prozessor macht die senseBox MCU vollständig kompatibel zu Arduino.<br>Sie verfügt über folgende fest verbaute Anschlüsse und Bauteile."
+sensebox-mcu-s2-shop-button: "senseBox MCU-S2 kaufen"
+boards-MCU-s2-connectors-list: "
   <li>2x I2C (QWIIC)</li>
   <li>1x UART</li>
-  <li>1x digital/analog I/O</li>
+  <li>3x digital/analog I/O</li>
   <li>1x XBee Sockel</li>
   <li>USB-C Anschluss</li>"
-boards-MCU-esp32-onboard: "Onboard Bauteile:"
-boards-MCU-esp32-onboard-list: "
+boards-MCU-s2-onboard: "Onboard Bauteile:"
+boards-MCU-s2-onboard-list: "
   <li>1x Taster</li>
   <li>1x Reset-Knopf</li>
   <li>2x LED</li>
   <li>1x RGB-LED</li>
+  <li>LiPo-Laderegler</li>
+  <li>Helligkeitsensor</li>
+  <li>6-Achsen Beschleunigungssensor</li>
   <li>mSD-Karten Slot</li>"

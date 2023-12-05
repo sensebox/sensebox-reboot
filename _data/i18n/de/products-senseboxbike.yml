@@ -3,11 +3,17 @@ bike-text: "Die senseBox:bike erweitert unseren bisherigen Fokus auf Umweltmonit
 bike-phenomenon-title: "Messbare Phänomene"
 bike-phenomenon-text: "Folgende Phänomene lassen sich mit der senseBox:bike mobil messen."
 phenomenon-temperatur: Temperatur
+phenomenon-temperatur-text: mit dem HDC1080 Sensor wird jede Sekunde die Lufttemperatur erfasst und gespeichert. Ein aktivläufter über dem Sensor bringt Frischluft durch die Öffnungen im Gehäuse
 phenomenon-humidity: rel. Luftfeuchtigkeit
-phenomenon-pm: Feinstaub (PM1.0, PM2.5, PM4 & PM10)
+phenomenon-humidity-text: wird mit ebenfalls mit dem HDC1080 Sensor gemessen
+phenomenon-pm: Feinstaub
+phenomenon-pm-text: der Sensirion SPS0 misst ein Mal pro Sekunde den Feinstaubgehalt in der Luft in um/m3 für die Korngrößen PM10, PM4, PM2.5 und sogar PM1. Die Luft wird durch eine Öffnung in Fahrtricthung eingesogen und über die Seitenöffnungen wieder rausgelassen
 phenomenon-acceleration: Erschütterung
+phenomenon-acceleration-text: der verbaute MPU6050 Sensor misst die Beschleunigung in drei Achsen. Die Beschleunigung über die vertikale z-Achse zeigt den Ausmaß der Erschütterung auf. Diese wird über 10 Messungen akkumuliert/gemittelt usw
 phenomenon-speed: Geschwindigkeit
+phenomenon-speed-text: die Geschwidigkeit wird neben der Position über das verbaute GPS - Beitan BN220  - ermittelt und jede Sekunde mit der Position gespeichert
 phenomenon-distance: Abstand (nach links)
+phenomenon-distance-text: ein Ultraschallsensor HC-SR04 misst kontinuirlich den Abstand nach links. Jede Messung unterhalb des geofrderten Sicherheitsabtandes von 150cm wird mit enstprechender Koordinate gespeichert. Achtung diese Rohdaten beinhalten nicht nur Abstände zu Fahrzeugen!)
 phenomenon-text: Die senseBox:bike misst die unten genannten Phänomene zur Erfassung der Fahrradinfrastruktur als auch der Gefahren mit der Fahraddfahrer:innen im Straßenverkehr konfrontiert sind.
 bike-transmission-title: "Die Datenübertragung"
 bike-transmission-text: "Die Messwerte werden von der senseBox:bike per Bluetooth (Bluetooth Low Energy) an ein Smartphone übertragen. Die Übertragung der Daten vom Smartphone ins Internet erfolgt über die senseBox:bike App. Aus der App werden die Daten an die openSenseMap (opensSenseMap.org) übertragen. Durch die Partizipation vieler Bürger:innen kann somit ein flächendeckendes Bild über die Fahrradinfrastruktur der Stadt ermittelt werden. In der App können die Teilnehmenden Privatsphäre-Einstellungen treffen, wie einen individuell festgelegten Radius um das eigene Zuhause. In diesem Bereich werden dann keine Daten aufgezeichnet."

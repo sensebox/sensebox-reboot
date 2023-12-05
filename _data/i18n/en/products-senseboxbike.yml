@@ -2,12 +2,18 @@ title: senseBox:bike
 bike-text: "The senseBox:bike expands the focus on environmental monitoring to include the component of road safety for cyclists. With a kit that can be mounted on the bicycle saddle, statements can thus be made about the condition of the cycle path, the distance between the bicycle and the car, and the speed of the cyclist. The following sensors and components are available for this purpose"
 bike-phenomenon-title: "Measurable Phenomena"
 bike-phenomenon-text: "The following phenomena can be measured with the senseBox:bike mobil."
-phenomenon-temperature: temperature
-phenomenon-humidity: relative humidity
-phenomenon-pm: fine dust (PM1.0, PM2.5, PM4 & PM10)
-phenomenon-acceleration: vibration
-phenomenon-speed: speed
+phenomenon-temperatur: Temperature
+phenomenon-temperatur-text: The HDC1080 sensor captures and stores the air temperature every second. An active fan above the sensor brings fresh air through the openings in the housing.
+phenomenon-humidity: Relative Humidity
+phenomenon-humidity-text: Also measured with the HDC1080 sensor.
+phenomenon-pm: Particulate Matter
+phenomenon-pm-text: The Sensirion SPS30 measures particulate matter content in the air once per second in µg/m³ for particle sizes PM10, PM4, PM2.5, and even PM1. Air is drawn in through an opening in the direction of travel and released through the side openings.
+phenomenon-acceleration: Vibration
+phenomenon-acceleration-text: The built-in MPU6050 sensor measures acceleration in three axes. The acceleration along the vertical z-axis indicates the magnitude of the vibration. This is accumulated/averaged over 10 measurements, etc.
+phenomenon-speed: Speed
+phenomenon-speed-text: Speed is determined alongside the position using the built-in GPS - Beitan BN220 - and is stored every second with the position.
 phenomenon-distance: Distance (to the left)
+phenomenon-distance-text: An ultrasonic sensor HC-SR04 continuously measures the distance to the left. Each measurement below the safety distance of 150cm is stored with the corresponding coordinates. Note that these raw data include not only distances to vehicles!
 phenomenon-text: "The senseBox:bike measures the phenomena listed below to capture both the bicycle infrastructure and the hazards faced by cyclists on the road."
 bike-transmission-title: "The data transmission"
 bike-transmission-text: "Data is transferred from the smartphone to the internet via an app that is connected to the senseBox:bike via Bluetooth. The data is uploaded from the smartphone to the openSenseMap (opensSenseMap.org). Through the participation of many citizens, a comprehensive picture of the city's cycling infrastructure can be determined. Participants can make privacy settings in the app, such as an individually defined radius around their own home. No data is then recorded in this area."

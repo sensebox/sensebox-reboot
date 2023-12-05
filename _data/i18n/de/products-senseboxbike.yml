@@ -8,7 +8,7 @@ phenomenon-pm: Feinstaub (PM1.0, PM2.5, PM4 & PM10)
 phenomenon-acceleration: Erschütterung
 phenomenon-speed: Geschwindigkeit
 phenomenon-distance: Abstand (nach links)
-phenomenon-text: "Die senseBox:bike erweitert den Fokus auf Umweltmonitoring um die Komponente der Verkehrssicherheit für Fahrradfahrende. Mit einem am Fahrradsattel montierbaren Bausatz können somit Aussagen über die Radwegbeschaffenheit, den Abstand zwischen Fahrrad und Auto sowie zur Geschwindigkeit des Radfahrenden getroffen werden."
+phenomenon-text: Die senseBox:bike misst die unten genannten Phänomene zur Erfassung der Fahrradinfrastruktur als auch der Gefahren mit der Fahraddfahrer:innen im Straßenverkehr konfrontiert sind.
 bike-transmission-title: "Die Datenübertragung"
 bike-transmission-text: "Die Übertragung der Daten vom Smartphone ins Internet erfolgt über eine App, welche mit Bluetooth zur senseBox:bike verbunden ist. Vom Smartphone werden die Daten an die openSenseMap (opensSenseMap.org) hochgeladen. Durch die Partizipation vieler Bürger:innen kann somit ein flächendeckendes Bild über die Fahrradinfrastruktur der Stadt ermittelt werden. In der App können die Teilnehmenden Privatsphäre-Einstellungen treffen, wie einen individuell festgelegten Radius um das eigene Zuhause. In diesem Bereich werden dann keine Daten aufgezeichnet."
 bike-app-title: "Die senseBox:bike App"

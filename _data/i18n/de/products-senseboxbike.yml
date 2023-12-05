@@ -9,7 +9,7 @@ phenomenon-humidity-text: wird mit ebenfalls mit dem HDC1080 Sensor gemessen
 phenomenon-pm: Feinstaub
 phenomenon-pm-text: der Sensirion SPS0 misst ein Mal pro Sekunde den Feinstaubgehalt in der Luft in um/m3 für die Korngrößen PM10, PM4, PM2.5 und sogar PM1. Die Luft wird durch eine Öffnung in Fahrtricthung eingesogen und über die Seitenöffnungen wieder rausgelassen
 phenomenon-acceleration: Erschütterung
-phenomenon-acceleration-text: der verbaute MPU6050 Sensor misst die Beschleunigung in drei Achsen. Die Beschleunigung über die vertikale z-Achse zeigt den Ausmaß der Erschütterung auf. Diese wird über 10 Messungen akkumuliert/gemittelt usw
+phenomenon-acceleration-text: der verbaute MPU6050 Sensor misst die Beschleunigung in drei Achsen. Die Beschleunigung über die vertikale z-Achse zeigt den Ausmaß der Erschütterung auf. Diese wird über 10 Sekunden akkumuliert/gemittelt
 phenomenon-speed: Geschwindigkeit
 phenomenon-speed-text: die Geschwidigkeit wird neben der Position über das verbaute GPS - Beitan BN220  - ermittelt und jede Sekunde mit der Position gespeichert
 phenomenon-distance: Abstand (nach links)

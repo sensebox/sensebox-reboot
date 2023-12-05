@@ -9,7 +9,7 @@ phenomenon-humidity-text: Also measured with the HDC1080 sensor.
 phenomenon-pm: Particulate Matter
 phenomenon-pm-text: The Sensirion SPS30 measures particulate matter content in the air once per second in µg/m³ for particle sizes PM10, PM4, PM2.5, and even PM1. Air is drawn in through an opening in the direction of travel and released through the side openings.
 phenomenon-acceleration: Vibration
-phenomenon-acceleration-text: The built-in MPU6050 sensor measures acceleration in three axes. The acceleration along the vertical z-axis indicates the magnitude of the vibration. This is accumulated/averaged over 10 measurements, etc.
+phenomenon-acceleration-text: The built-in MPU6050 sensor measures acceleration in three axes. The acceleration along the vertical z-axis indicates the magnitude of the vibration. This is accumulated/averaged over 10 second.
 phenomenon-speed: Speed
 phenomenon-speed-text: Speed is determined alongside the position using the built-in GPS - Beitan BN220 - and is stored every second with the position.
 phenomenon-distance: Distance (to the left)

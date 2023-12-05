@@ -8,7 +8,7 @@ phenomenon-pm: fine dust (PM1.0, PM2.5, PM4 & PM10)
 phenomenon-acceleration: vibration
 phenomenon-speed: speed
 phenomenon-distance: Distance (to the left)
-phenomenon-text: "The senseBox:bike expands the focus on environmental monitoring to include the component of road safety for cyclists. With a kit that can be mounted on the bicycle saddle, statements can thus be made about the condition of the cycle path, the distance between the bicycle and the car, and the speed of the cyclist."
+phenomenon-text: "The senseBox:bike measures the phenomena listed below to capture both the bicycle infrastructure and the hazards faced by cyclists on the road."
 bike-transmission-title: "The data transmission"
 bike-transmission-text: "Data is transferred from the smartphone to the internet via an app that is connected to the senseBox:bike via Bluetooth. The data is uploaded from the smartphone to the openSenseMap (opensSenseMap.org). Through the participation of many citizens, a comprehensive picture of the city's cycling infrastructure can be determined. Participants can make privacy settings in the app, such as an individually defined radius around their own home. No data is then recorded in this area."
 bike-app-title: "The senseBox:bike app"

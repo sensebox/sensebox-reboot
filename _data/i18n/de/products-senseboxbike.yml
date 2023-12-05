@@ -1,5 +1,5 @@
 title: "Die senseBox:bike"
-bike-text: "Die senseBox:bike erweitert unseren bisherigen Fokus auf Umweltmonitoring um die Komponente der Verkehrssicherheit für Fahrradfahrende. Mit einem am Fahrradsattel (oder Gepäckträger) montierbaren Bausatz können mit der senseBox:bike Daten zur  Fahrbahn-/Radwegbeschaffenheit, den Abstand zwischen Fahrrad und anderen Verkehrsteilnehmer:innen sowie zur Geschwindigkeit des Radfahrenden gesammelt werden. Dafür werden folgende Sensoren und Bauteile verbaut:"
+bike-text: "Die senseBox:bike erweitert unseren bisherigen Fokus auf Umweltmonitoring um die Komponente der Verkehrssicherheit für Fahrradfahrende. Mit einem am Fahrradsattel (oder Gepäckträger) montierbaren Bausatz können mit der senseBox:bike Daten zur  Fahrbahn-/Radwegbeschaffenheit, dem Abstand zwischen Fahrrad und anderen Verkehrsteilnehmer:innen sowie zur Geschwindigkeit des Radfahrenden gesammelt werden. Dafür werden folgende Sensoren und Bauteile verbaut:"
 bike-phenomenon-title: "Messbare Phänomene"
 bike-phenomenon-text: "Folgende Phänomene lassen sich mit der senseBox:bike mobil messen."
 phenomenon-temperatur: Temperatur
@@ -13,7 +13,7 @@ phenomenon-acceleration-text: der verbaute MPU6050 Sensor misst die Beschleunigu
 phenomenon-speed: Geschwindigkeit
 phenomenon-speed-text: die Geschwidigkeit wird neben der Position über das verbaute GPS - Beitan BN220  - ermittelt und jede Sekunde mit der Position gespeichert
 phenomenon-distance: Abstand (nach links)
-phenomenon-distance-text: ein Ultraschallsensor HC-SR04 misst kontinuirlich den Abstand nach links. Jede Messung unterhalb des geofrderten Sicherheitsabtandes von 150cm wird mit enstprechender Koordinate gespeichert. Achtung diese Rohdaten beinhalten nicht nur Abstände zu Fahrzeugen!
+phenomenon-distance-text: ein Ultraschallsensor HC-SR04 misst kontinuierlich den Abstand nach links. Jede Messung unterhalb des geofrderten Sicherheitsabtandes von 150cm wird mit enstprechender Koordinate gespeichert. Achtung diese Rohdaten beinhalten nicht nur Abstände zu Fahrzeugen!
 phenomenon-text: Die senseBox:bike misst die unten genannten Phänomene zur Erfassung der Fahrradinfrastruktur als auch der Gefahren mit der Fahraddfahrer:innen im Straßenverkehr konfrontiert sind.
 bike-transmission-title: "Die Datenübertragung"
 bike-transmission-text: "Die Messwerte werden von der senseBox:bike per Bluetooth (Bluetooth Low Energy) an ein Smartphone übertragen. Die Übertragung der Daten vom Smartphone ins Internet erfolgt über die senseBox:bike App. Aus der App werden die Daten an die openSenseMap (opensSenseMap.org) übertragen. Durch die Partizipation vieler Bürger:innen kann somit ein flächendeckendes Bild über die Fahrradinfrastruktur der Stadt ermittelt werden. In der App können die Teilnehmenden Privatsphäre-Einstellungen treffen, wie einen individuell festgelegten Radius um das eigene Zuhause. In diesem Bereich werden dann keine Daten aufgezeichnet."

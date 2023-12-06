@@ -1,11 +1,11 @@
 - author: Eric
   date: 2023-12-05
-  headline: senseBox:bike - jetzt vorbestellen!
+  headline: senseBox:bike - jetzt vorbestellen
   text: Die senseBox:bike ist ein Bausatz für eine mobile Umweltmessstation auf dem Fahrrad. Sie misst Temperatur, Luftfeuchtigkeit, Luftdruck, Lautstärke, UV-Intensität und die Konzentration von Die Daten werden über eine Bluetooth Verbindung an dein Handy übertragen, von welchem Sie dann an die openSenseMap hochgeladen werden können! Die senseBox:bike ist ab sofort vorbestellbar. Zur <a href="/de/products-bike" class="green-link">senseBox:bike</a>
   active: true
 - author: Eric
   date: 2023-11-01
-  headline: Der senseBox Regensensor! !
+  headline: Der senseBox Regensensor
   text: Wir freuen uns, den brandneuen Regensensor für senseBox vorzustellen! Jetzt erhältlich, um präzise Niederschläge in Echtzeit zu erfassen. Integriere ihn nahtlos in deine senseBox MCU, MCU mini oder MCU-S2 und optimiere deine Projekte für jede Wetterlage. Zum <a href="https://sensebox.kaufen/product/hydreon-rg-15-regensensor" target="_blank" class="green-link">Sensor</a>
   active: true
 - author: Gina

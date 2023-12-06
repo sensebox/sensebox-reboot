@@ -1,12 +1,12 @@
 {% assign content = site.data.i18n.[page.lang].products-senseboxbike %}
 <div class="container">
     <div class="row row-padding">
-        <div class="col-lg-8 middle">
+        <div class="col-lg-6 middle">
             <h2 class="featurette-heading">{{content.title}}</h2>
             <p class="lead">{{content.bike-text}}</p>
         </div>
-        <div class="col-lg-4 middle">
-            <img loading="lazy" class="img-fluid mx-auto" src="/images/products/bike/bike_sattel.jpg" alt="Generic placeholder image">
+        <div class="col-lg-6 middle">
+            <img loading="lazy" class="img-fluid mx-auto" src="/images/products/bike/bike-data-overview.png" alt="Generic placeholder image">
         </div>
     </div>
 </div>
@@ -24,23 +24,25 @@
             <p class="lead">{{content.phenomenon-text}}</p>
         </div>
         <div class="phenos">
-            <div class="sb-pheno">
+            <div class="sb-pheno-bike">
                 <div class="icon"><span class="fa-stack fa-2x">
                     <i class="fas fa-circle fa-stack-2x" style="color: whitesmoke"></i>
                     <i class="fas fa-temperature-high fa-stack-1x fa-inverse" style="color:#3fbdeb;"></i>
                 </div>
-                </span><span>{{content.phenomenon-temperatur}}</span>
+                </span><span><b>{{content.phenomenon-temperatur}} </b></span>
+                <span>{{content.phenomenon-temperatur-text}}</span>
             </div>
-            <div class="sb-pheno">
+            <div class="sb-pheno-bike">
                 <div class="icon">
                     <span class="fa-stack fa-2x">
                         <i class="fas fa-circle fa-stack-2x" style="color: whitesmoke"></i>
                         <i class="fas fa-percent fa-stack-1x fa-inverse" style="color:#3fbdeb;"></i>
                     </span>
                 </div>
-                <span>{{content.phenomenon-humidity}}</span>
+                <span> <b>{{content.phenomenon-humidity}} </b></span>
+                <span>{{content.phenomenon-humidity-text}}</span>
             </div>
-            <div class="sb-pheno">
+            <div class="sb-pheno-bike">
                 <div class="icon">
 
                     <span class="fa-stack fa-2x">
@@ -48,9 +50,10 @@
                         <i class="fas fa-smog fa-stack-1x fa-inverse" style="color:#3fbdeb;"></i>
                     </span>
                 </div>
-                <span>{{content.phenomenon-pm}}</span>
+                <span><b>{{content.phenomenon-pm}}</b></span>
+                <span>{{content.phenomenon-pm-text}}</span>
             </div>
-            <div class="sb-pheno">
+            <div class="sb-pheno-bike">
                 <div class="icon">
 
                     <span class="fa-stack fa-2x">
@@ -58,9 +61,11 @@
                         <i class="fas fa-wave-square fa-stack-1x fa-inverse" style="color:#3fbdeb;"></i>
                     </span>
                 </div>
-                <span>{{content.phenomenon-acceleration}}</span>
+                <span><b>{{content.phenomenon-acceleration}}</b></span>
+                <span>{{content.phenomenon-acceleration-text}}</span>
+
             </div>
-            <div class="sb-pheno">
+            <div class="sb-pheno-bike">
                 <div class="icon">
 
                     <span class="fa-stack fa-2x">
@@ -68,9 +73,11 @@
                         <i class="fas fa-heart fa-stack-1x fa-inverse" style="color:#3fbdeb;"></i>
                     </span>
                 </div>
-                <span>{{content.phenomenon-speed}}</span>
+                <span><b>{{content.phenomenon-speed}}</b></span>
+                <span>{{content.phenomenon-speed-text}}</span>
+
             </div>
-            <div class="sb-pheno">
+            <div class="sb-pheno-bike">
                 <div class="icon">
 
                     <span class="fa-stack fa-2x">
@@ -78,7 +85,8 @@
                         <i class="fas fa-traffic-light fa-stack-1x fa-inverse" style="color:#3fbdeb"></i>
                     </span>
                 </div>
-                <span>{{content.phenomenon-distance}}</span>
+                <span><b>{{content.phenomenon-distance}}</b></span>
+                <span>{{content.phenomenon-distance-text}}</span>
             </div>
         </div>
     </div>
@@ -94,22 +102,26 @@
                 
             </div>
             <div class="col-md-5 middle">
-                <img loading="lazy" class="featurette-image img-fluid mx-auto" src="/images/products/home/bees.png"
+                <img loading="lazy" class="featurette-image img-fluid mx-auto" src="/images/products/bike/bike-bluetooth.jpg"
                     alt="Generic placeholder image">
             </div>
         </div>
     </div>
 </div>
 
-<div class="container">
-    <div class="row row-padding featurette">
-        <div class="col-md-5 middle">
-            <img loading="lazy" class="featurette-image img-fluid mx-auto" src="/images/products/bike/bike_sattel.jpg"
-                alt="Generic placeholder image">
-        </div>
-        <div class="col-md-7 middle">
-            <h2 class="featurette-heading">{{content.bike-housing-title}}</h2>
-            <p class="lead">{{content.bike-housing-text}}</p>
+
+<div>
+    <div class="container">
+        <div class="row row-padding featurette">
+            <div class="col-md-5 middle">
+                <img loading="lazy" class="featurette-image img-fluid mx-auto" src="/images/products/bike/bike-app.png"
+                    alt="Generic placeholder image">
+            </div>
+            <div class="col-md-7 middle">
+                <h2 class="featurette-heading">{{content.bike-app-title}}
+                </h2>
+                <p class="lead">{{content.bike-app-text}}</p>
+            </div>
         </div>
     </div>
 </div>
@@ -118,16 +130,65 @@
     <div class="container">
         <div class="row row-padding featurette">
             <div class="col-md-7 middle">
-                <h2 class="featurette-heading">{{content.bike-example-title}}
-                </h2>
-                <p class="lead"> <a href="https://essen.aufraedern.org"> {{content.bike-example-text-link}} </a> {{content.bike-example-text}}</p>
-                
+                <h2 class="featurette-heading">{{content.bike-housing-title}}</h2>
+                <p class="lead">{{content.bike-housing-text}}</p>
             </div>
             <div class="col-md-5 middle">
-                <img loading="lazy" class="featurette-image img-fluid mx-auto" src="/images/products/bike/aufraedern.png"
+                <img loading="lazy" class="featurette-image img-fluid mx-auto" src="/images/products/bike/bike_sattel.jpg"
                     alt="Generic placeholder image">
             </div>
-            
         </div>
+    </div>
+</div>
+
+<div>
+    <div class="container">
+        <div class="row row-padding featurette">
+            <div class="col-md-5 middle">
+                <img loading="lazy" class="featurette-image img-fluid mx-auto" src="/images/products/bike/story.jpg"
+                    alt="Generic placeholder image">
+            </div>
+            <div class="col-md-7 middle">
+                <h2 class="featurette-heading">{{content.bike-story-title}}
+                </h2>
+                <p class="lead">{{content.bike-story-text}} {{content.bike-story-link}}</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="container" style="text-align: center;">
+    <h2 class="featurette-heading">{{content.bike-example-title}}
+    </h2>
+</div>
+<div style="background-color: whitesmoke;">
+<div class="container" >
+        <div class="row row-padding featurette">
+            <div class="col-md-5 middle">
+                <a href="https://essen.aufraedern.org" target="_blank"> <img loading="lazy" class="featurette-image img-fluid mx-auto" src="/images/products/bike/aufraedern.png"
+                    alt="Generic placeholder image"></a>
+            </div>
+            <div class="col-md-7 middle">
+                <h2 class="featurette-heading">{{content.bike-example-1-title}}</h2>
+                <p class="lead"> <a href="https://essen.aufraedern.org"> {{content.bike-example-text-link}} </a> {{content.bike-example-1-text}}</p>
+            </div>            
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="container">
+    <div class="row row-padding featurette">
+        <div class="col-md-7 middle">
+            <h2 class="featurette-heading">{{content.bike-example-2-title}}</h2>
+            <p class="lead"> <a href="https://essen.aufraedern.org"> {{content.bike-example-text-link}} </a> {{content.bike-example-2-text}}</p>
+        </div>    
+        <div class="col-md-5 middle">
+            <a href="https://www.hs-osnabrueck.de/iip/" target="_blank"> <img loading="lazy" class="featurette-image img-fluid mx-auto" src="/images/products/bike/iipLogo.png"
+                alt="Generic placeholder image"></a>
+        </div>        
     </div>
 </div>

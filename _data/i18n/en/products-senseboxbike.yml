@@ -1,0 +1,33 @@
+title: senseBox:bike
+bike-text: "The senseBox:bike expands the focus on environmental monitoring to include the component of road safety for cyclists. With a kit that can be mounted on the bicycle saddle, statements can thus be made about the condition of the cycle path, the distance between the bicycle and the car, and the speed of the cyclist. The following sensors and components are available for this purpose"
+bike-phenomenon-title: "Measurable Phenomena"
+bike-phenomenon-text: "The following phenomena can be measured with the senseBox:bike mobil."
+phenomenon-temperatur: Temperature
+phenomenon-temperatur-text: The HDC1080 sensor captures and stores the air temperature every second. An active fan above the sensor brings fresh air through the openings in the housing.
+phenomenon-humidity: Relative Humidity
+phenomenon-humidity-text: Also measured with the HDC1080 sensor.
+phenomenon-pm: Particulate Matter
+phenomenon-pm-text: The Sensirion SPS30 measures particulate matter content in the air once per second in µg/m³ for particle sizes PM10, PM4, PM2.5, and even PM1. Air is drawn in through an opening in the direction of travel and released through the side openings.
+phenomenon-acceleration: Vibration
+phenomenon-acceleration-text: The built-in MPU6050 sensor measures acceleration in three axes. The acceleration along the vertical z-axis indicates the magnitude of the vibration. This is accumulated/averaged over 10 second.
+phenomenon-speed: Speed
+phenomenon-speed-text: Speed is determined alongside the position using the built-in GPS - Beitan BN220 - and is stored every second with the position.
+phenomenon-distance: Distance (to the left)
+phenomenon-distance-text: An ultrasonic sensor HC-SR04 continuously measures the distance to the left. Each measurement below the safety distance of 150cm is stored with the corresponding coordinates. Note that these raw data include not only distances to vehicles!
+phenomenon-text: "The senseBox:bike measures the phenomena listed below to capture both the bicycle infrastructure and the hazards faced by cyclists on the road."
+bike-transmission-title: "The data transmission"
+bike-transmission-text: "The measurements are transmitted from the senseBox:bike via Bluetooth (Bluetooth Low Energy) to a smartphone. The transfer of data from the smartphone to the internet is done through the senseBox:bike app. From the app, the data is sent to the openSenseMap (openSenseMap.org). With the participation of many citizens, a comprehensive picture of the city's bicycle infrastructure can be determined. In the app, participants can set privacy settings, such as an individually defined radius around their own home. No data will be recorded in this area."
+bike-app-title: "The senseBox:bike app"
+bike-app-text: "With the senseBox:bike app, the data from the senseBox:bike can be recorded and transferred to the openSenseMap. In addition, live values from the senseBox:bike and the route travelled are displayed. The app is available for Android and iOS."
+bike-housing-title: "The Enclosure"
+bike-housing-text: "The housing of the senseBox:bike has been designed so that it can be effortlessly attached to almost any bike and just as easily removed again. This versatile design has been developed to fulfil the requirements of different types of bike. An integrated small fan ensures pleasant ventilation so that your senseBox:bike always functions optimally. Easy to fit, easy to remove and suitable for a wide range of bikes - the senseBox:bike remains flexible and comfortable in every respect."
+bike-story-title: "The story of the senseBox:bike"
+bike-story-text: "Which data should the senseBox collect for bicycles to make statements about bicycle infrastructure, and how should the housing be designed to be attached to different types of bicycles and withstand bumpy roads? It quickly became clear that we couldn't answer these questions alone. So, in collaboration with Futurium Berlin, the Academy of Fine Arts (ABK) Stuttgart, and the Fab Lab Munich, we brainstormed in a Makeathon in February 2021 on how the senseBox:bike should look and function. That's how the senseBox:bike came to life. Learn more about the history of the senseBox:bike in our "
+bike-story-link: "<a href='https://sensebox.de/blog/2021-03-01-sensebox-bike/' target='_blank'>blog post</a>"
+bike-example-title: "Reference projects"
+bike-example-1-title: "Meals on Wheels"
+bike-example-text-1-link: "In this project"
+bike-example-1-text: "Pupils from five schools in Essen are independently collecting data with the senseBox:bike. This data serves as a basis for analysing the cycling infrastructure of the city of Essen, identifying danger spots and finally developing suggestions for improvement based on this data. In a final step, the students discuss the findings with local politicians and are thus motivated to actively participate in urban planning processes with the help of Citizen Science"
+bike-example-2-title: "Smart Intermodal Commuting ( Intelligenter Intermodaler Pendlerverkehr (IIP))"
+bike-example-2-text-link: "IIP"
+bike-example-2-text: "In the Smart Intermodal Commuting (Intelligenter Intermodaler Pendlerverkehr(IIP)) project, senseBox:bikes are used to collect bicycle data in Münster and Osnabrück."

@@ -19,7 +19,6 @@ boards-MCU-onboard-list: "
   <li>2x LED</li>
   <li>1x BMX055 Lagesensor</li>"
 
-
 boards-MCU-mini-title: "Die senseBox MCU mini"
 boards-MCU-mini-text: "Sie ist ein Einplatinencomputer auf Basis des ARM Cortex-M0 Prozessors aus der SAMD21 Familie. Dieser Prozessor macht die senseBox MCU vollständig kompatibel zu Arduino.<br>Sie verfügt über folgende fest verbaute Anschlüsse und Bauteile."
 sensebox-mcu-mini-shop-button: "senseBox MCU mini kaufen"
@@ -38,7 +37,7 @@ boards-MCU-mini-onboard-list: "
   <li>mSD-Karten Slot</li>"
 
 boards-MCU-s2-title: "Die senseBox MCU-S2"
-boards-MCU-s2-text: "Sie ist ein Einplatinencomputer auf Basis des ARM Cortex-M0 Prozessors aus der SAMD21 Familie. Dieser Prozessor macht die senseBox MCU vollständig kompatibel zu Arduino.<br>Sie verfügt über folgende fest verbaute Anschlüsse und Bauteile."
+boards-MCU-s2-text: "MCU S2 ist mit einem ESP32-Kern ausgestattet und verfügt über einen integrierten Laderegler, der eine einfache Nutzung über Batterie ermöglicht. Es beinhaltet ein fest verbautes WLAN-Modul und repräsentiert allgemein die nächste Generation der senseBox.<br>Sie verfügt über folgende fest verbaute Anschlüsse und Bauteile."
 sensebox-mcu-s2-shop-button: "senseBox MCU-S2 kaufen"
 boards-MCU-s2-connectors-list: "
   <li>2x I2C (QWIIC)</li>
@@ -48,6 +47,7 @@ boards-MCU-s2-connectors-list: "
   <li>USB-C Anschluss</li>"
 boards-MCU-s2-onboard: "Onboard Bauteile:"
 boards-MCU-s2-onboard-list: "
+  <li>WiFi-Modul</li>
   <li>1x Taster</li>
   <li>1x Reset-Knopf</li>
   <li>2x LED</li>

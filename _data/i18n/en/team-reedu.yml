@@ -1,30 +1,23 @@
+- name: Umut Tas
+  image: /images/team/umut.jpg
+  role: Managing Director
+  position: 1
+  description: Umut, along with Jan, was one of the developers of the first senseBox prototype as part of a student project in 2010. After his studies, he worked as a software developer in the field of data journalism. Today, at Reedu, he oversees the maintenance and <b>development of the openSenseMap as well as the visualization of environmental data</b>.
+
 - name: Jan Wirwahn
   image: /images/team/Wirwahn.jpg
   position: 1
-  role: Geschäftsführer
-  description: Jan begleitet die Entwicklung der senseBox seit ihrer Geburt an der Uni Münster. Damals noch als Student und wissenschaftlicher Mitarbeiter. Heute ist er für die <b>Weiterentwicklung der Hardware und den Support für die Bausätze</b> zuständig.
-  
-- name: Umut Tas
-  image: /images/team/umut.jpg
-  role: Softwareentwickler
-  position: 2
-  description: Umut war zusammen mit Jan einer der Entwickler des ersten senseBox Prototypen im Rahmen eines Studienprojekts im Jahr 2010. Nach seinem Studium arbeitete er als Softwareentwickler im Bereich Datenjournalismus. Heute kümmert er sich bei Reedu um die Wartung und <b>Entwicklung der openSenseMap sowie um die Visualisierung von Umweltdaten</b>.
+  role: Software Developer
+  description: Jan has been involved in the development of senseBox since its inception at the University of Münster, initially as a student and research assistant. Today, he is responsible for the <b>continuous improvement of hardware and support for the kits</b>.
 
 - name: Felix Erdmann
   image: /images/team/Erdmann.png
-  role: Softwareentwickler
+  role: Software Developer
   position: 3
-  description: Felix entwickelte seine Begeisterung für Bastelelektronik und Programmierung bereits als Schüler in einem der senseBox-Workshops mit Thomas und Jan. Nach seinem Geoinformatik-Studium ist er als <b>Softwareentwickler</b> bei Reedu mit eingestiegen und arbeitet weiterhin gerne mit Open-Source Technik.
+  description: Felix developed his passion for DIY electronics and programming during one of the senseBox workshops with Thomas and Jan while still in school. After his studies in geoinformatics, he joined Reedu as a <b>software developer</b> and continues to enjoy working with open-source technology.
 
-- name: Björn Guntermann
-  role: Head of Education
-  image: /images/team/bjoern.jpg
+- name: Verena Witte
+  image: /images/team/verena.jpg
+  role:
   position: 4
-  description: Björn ist Head of Education bei Reedu und arbeitet an der <b>Konzeption und Durchführung von Workshops und Fortbildungen</b>. Schon seit Projektbeginn motiviert er Lehrer*innen und Schüler*innen für Umweltbildung und Informatik.
-
-# - name: David Fehrenbach
-#   image: /images/team/david.jpeg
-#   role: Geschäftsführer
-#   position: 5
-#   description: David ist operativer Geschäftsführer der Reedu GmbH & Co. KG.  Er kümmert sich um <b>Vertrieb, Management und Organisation</b>. In brenzligen Situationen bewahrt er stets einen kühlen Kopf und koordiniert das Team bei Projektarbeiten.
-
+  description: Verena works at Reedu alongside her Master of Education studies. She is mainly responsible for designing educational materials and conducts workshops with senseBox for both students and teachers.

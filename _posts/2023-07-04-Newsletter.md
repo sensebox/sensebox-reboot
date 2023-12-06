@@ -18,4 +18,4 @@ Aktuell überarbeiten wir unseren Newsletter, um euch weiterhin mit Neuigkeiten 
 
 Wenn du also weiterhin spannende Informationen zur senseBox von uns per E-Mail erhalten möchtest, fülle bitte das unten stehende Formular aus und bestätige deine Anmeldung für unseren Newsletter.
 
-Hier geht es zur [Anmeldung](https://sensebox.de/newsletter)!
+Hier geht es zur [Anmeldung](https://sensebox.de/de/newsletter)!

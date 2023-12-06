@@ -52,4 +52,4 @@ Eine mobile Datenerhebung erfordert auch eine mobile Datenvisualisierung. Mit de
 Mit dem Projekt „[Essen auf Rädern](https://essen.aufraedern.org/)“ soll die Verkehrswende hin zu mehr Radverkehr auch im Schulkontext beleuchtet werden. Dazu werden Jugendliche von fünf Essener Schulen mit unterschiedlichen sozialräumlichen Umfeld mit der senseBox:bike die Radverkehrsinfrastruktur in ihrem jeweiligen Schulviertel untersuchen und mit politischen Akteuren ihre auf Grundlage der selbst erhobenen Daten erstellten Konzepte und Vorschläge diskutieren.
 Alle weiteren Informationen zur senseBox:bike findet ihr [hier](https://sensebox.de/de/products-bike).
 
-Die senseBox:bike ist auch ab sofort bei uns im [Shop]() erhältlich!
+Die senseBox:bike ist auch ab sofort bei uns im [Shop](https://sensebox.kaufen/product/sensebox-bike) erhältlich!

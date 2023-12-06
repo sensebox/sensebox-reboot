@@ -27,25 +27,19 @@ Welche Daten soll die senseBox für das Fahrrad erheben, um Aussagen zur Fahrrad
 
 Hier die Ergebnisse der ersten Prototypen:
 
-{% include image.html image=page.image1 %}
-{% include image.html image=page.image2 %}
-{% include image.html image=page.image3 %}
+{% include image_gallery.html id="gallery1" image1=page.image1 image2=page.image2 image3=page.image3 %}
 
 # Weiterentwicklung des Prototypen und Workshop mit Bürger:innen
 
 Der Makeathon machte erste Herausforderungen deutlich, etwa die Stromversorgung oder die Unterbringung aller Komponenten auf möglichst minimalen Raum. Doch anhand der ersten Prototypen konnten wir das Gehäuse weiterentwickeln. Im Oktober 2021 war es dann so weit: Im Rahmen eines Workshops im Futurium Berlin bauten wir die senseBox:bike mit 30 Teilnehmenden zusammen und an die Fahrräder montiert. Anschließend radelten die Bürgerinnen und Bürger durch Berlin und erhoben während der Fahrt erste mobile Umweltdaten. Diese wurden an die openSenseMap übertragen und wurden im Futurium als Visualisierung in der Ausstellung präsentiert. Ein Video dazu findet ihr [hier](https://www.youtube.com/watch?v=mgcFX256XSk&t=163s). Nach einem Jahr wurden die Testmessungen bei einem [Open Lab Abend](https://futurium.de/de/open-lab-abend/open-lab-abend-6/open-lab-abend-2) im Futurium mit den Teilnehmenden sowie weiteren interessierten Bürger:innen evaluiert und diskutiert. Auf Basis des Feedbacks konnten finale Anpassungen des Gehäuses vorgenommen werden. Es wurde z.B. ein kleiner Ventilator für eine optimale Belüftung integriert und die senseBox MCU durch die [senseBox MCU mini](https://docs.sensebox.de/hardware/allgemein-sensebox-mcu-mini/) ersetzt, um deutlich Platz zu sparen.
 
-{% include image.html image=page.image4 %}
-{% include image.html image=page.image5 %}
-{% include image.html image=page.image6 %}
+{% include image_gallery.html id="gallery2" image1=page.image4 image2=page.image5 image3=page.image6 %}
 
 # Outtakes: Die space:Box
 
-Ursprünglich war die Idee, alles im 3D-Druck herzustellen. Die senseBox:bike im Rahmen der Bürger:innen-Werkstatt im Futurium war noch gewichtmäßig sehr schwer, weil unter anderem alle Sensorik und die MCU auf einer Eisenplatte befestigt waren. Deswegen war eins der größten Takeaways, dass die Box leichter sein muss und ausschließlich aus 3D-Druck-Teilen bestehen sollte. Wir haben also einen Entwurf für ein 3D-Druck-Gehäuse gemacht und 1:1 die Teile aus der Bike-Box des Futuriums integriert. Das neue Gehäuse sah allerdings eher wie ein kleines Raumschiff aus, sodass wir sie eher eine Space-Box als eine Bike-Box war. Daraufhin haben wir uns daran gemacht die MCU durch die MCU mini sowie die große Powerbank mit einem kleinen Laderegler + 2 LiPo Batterien und den SDS011 Feinstaubsensor mit dem wesentlich kleineren SPS30 zu ersetzen. Die finale senseBox:bike ist somit etwa 1,5 x kleiner und eutlich leichter als die Box, die für die Futurium-Workshops verwendet wurde. Außerdem hatten wir noch schnell gemerkt, dass das Gehäuse unbedingt eine Lüftung braucht, um für adäquate Temperatur- und Feinstaubwerte zu sorgen. 
+Ursprünglich war die Idee, alles im 3D-Druck herzustellen. Die senseBox:bike im Rahmen der Bürger:innen-Werkstatt im Futurium war noch gewichtmäßig sehr schwer, weil unter anderem alle Sensorik und die MCU auf einer Eisenplatte befestigt waren. Deswegen war eins der größten Takeaways, dass die Box leichter sein muss und ausschließlich aus 3D-Druck-Teilen bestehen sollte. Wir haben also einen Entwurf für ein 3D-Druck-Gehäuse gemacht und 1:1 die Teile aus der Bike-Box des Futuriums integriert. Das neue Gehäuse sah allerdings eher wie ein kleines Raumschiff aus, sodass wir sie eher eine Space-Box als eine Bike-Box war. Daraufhin haben wir uns daran gemacht die MCU durch die MCU mini sowie die große Powerbank mit einem kleinen Laderegler + 2 LiPo Batterien und den SDS011 Feinstaubsensor mit dem wesentlich kleineren SPS30 zu ersetzen. Die finale senseBox:bike ist somit etwa 1,5 x kleiner und eutlich leichter als die Box, die für die Futurium-Workshops verwendet wurde. Außerdem hatten wir noch schnell gemerkt, dass das Gehäuse unbedingt eine Lüftung braucht, um für adäquate Temperatur- und Feinstaubwerte zu sorgen.
 
-{% include image.html image=page.image7 %}
-{% include image.html image=page.image8 %}
-{% include image.html image=page.image9 %}
+{% include image_gallery.html id="gallery3" image1=page.image7 image2=page.image8 image3=page.image9 %}
 
 # Weiteres Feature: Die senseBox:bike App
 
@@ -59,7 +53,3 @@ Mit dem Projekt „[Essen auf Rädern](https://essen.aufraedern.org/)“ soll di
 Alle weiteren Informationen zur senseBox:bike findet ihr [hier](https://sensebox.de/de/products-bike).
 
 Die senseBox:bike ist auch ab sofort bei uns im [Shop]() erhältlich!
-
-
-
-

@@ -1,0 +1,102 @@
+{% assign content = site.data.i18n.[page.lang].products-boards %}
+
+<div class="container">
+
+    <div class="row row-padding featurette">
+        <div class="col-md-7 middle">
+            <h2 class="featurette-heading">senseBox Mikrocontroller</h2>
+            <p class="lead">{{ content.boards-text }}</p>
+            </p>
+        </div>
+        <div class="col-md-5 middle">
+            <img loading="lazy" class="featurette-image img-fluid mx-auto" src="/images/products/edu-2.png"
+                alt="Generic placeholder image">
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+    <div class="row row-padding featurette">
+      <div class="col-md-5 middle">
+        <img loading="lazy" class="featurette-image img-fluid mx-auto" src="/images/products/parts/MCU-orange.png"
+          alt="Generic placeholder image">
+      </div>
+      <div class="col-md-7 middle">
+        <h2 class="featurette-heading">{{content.boards-MCU-title}}</h2>
+        <p class="lead">{{content.boards-MCU-text}}</p>
+        <div class="row">
+          <div class="col-md-6">
+            <p class="lead">{{content.boards-MCU-connectors}}</p>
+            <ul>
+              {{content.boards-MCU-connectors-list}}
+          </div>
+          <div class="col-md-6">
+            <p class="lead">{{content.boards-MCU-onboard}}</p>
+            <ul>
+              {{content.boards-MCU-onboard-list}}
+            </ul>
+          </div>
+          <p><a class="btn btn-sensebox-red" href="{{page.baseurl}}/{{page.lang}}/products-edu.html" role="button">{{
+            content.sensebox-mcu-shop-button }}</a></p>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row row-padding featurette">
+        <div class="col-md-7 middle">
+            <h2 class="featurette-heading">{{content.boards-MCU-mini-title}}</h2>
+            <p class="lead">{{content.boards-MCU-mini-text}}</p>
+            <div class="row">
+              <div class="col-md-6">
+                <p class="lead">{{content.boards-MCU-connectors}}</p>
+                <ul>
+                  {{content.boards-MCU-mini-connectors-list}}
+              </div>
+              <div class="col-md-6">
+                <p class="lead">{{content.boards-MCU-mini-onboard}}</p>
+                <ul>
+                  {{content.boards-MCU-mini-onboard-list}}
+                </ul>
+              </div>
+              <p><a class="btn btn-sensebox-red" href="https://sensebox.kaufen/product/sensebox-mini-v2" role="button">{{
+                content.sensebox-mcu-mini-shop-button }}</a></p>
+            </div>
+          </div>
+      <div class="col-md-5 middle">
+        <img loading="lazy" class="featurette-image img-fluid mx-auto" src="/images/products/parts/MCU-mini-orange.png"
+          alt="Generic placeholder image">
+      </div>
+    </div>
+  </div>
+
+<div style="background-color: whitesmoke;">
+    <div class="container">
+        <div class="row row-padding featurette">
+          <div class="col-md-5 middle">
+            <img loading="lazy" class="featurette-image img-fluid mx-auto" src="/images/products/parts/MCU-S2-orange.jpg"
+                alt="Generic placeholder image">
+        </div>
+              <div class="col-md-7 middle">
+                <h2 class="featurette-heading">{{content.boards-MCU-s2-title}}</h2>
+                <p class="lead">{{content.boards-MCU-s2-text}}</p>
+                <div class="row">
+                  <div class="col-md-6">
+                    <p class="lead">{{content.boards-MCU-connectors}}</p>
+                    <ul>
+                      {{content.boards-MCU-s2-connectors-list}}
+                  </div>
+                  <div class="col-md-6">
+                    <p class="lead">{{content.boards-MCU-s2-onboard}}</p>
+                    <ul>
+                      {{content.boards-MCU-s2-onboard-list}}
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+

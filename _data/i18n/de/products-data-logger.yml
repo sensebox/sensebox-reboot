@@ -1,0 +1,14 @@
+title: Der mobile Datenlogger
+intro-text: Der mobile Datenlogger bietet die Möglichkeit, unterwegs mit einer miniaturisierten Version der senseBox Umweltdaten zu erheben. Die Basis bildet die senseBox:mini, welche mit verschiedenen Umweltsensoren und einem Akku in einem belüfteten Gehäuse untergebracht ist.
+intro-text-part2: "Folgende Komponenten sind im mobilen Datenlogger verbaut:"
+components-list: "<li>senseBox MCU mini</li>
+  <li>Temperatur- und Luftfeuchtigkeitssensor (HDC1080)</li>
+  <li>GNSS-Modul</li>
+  <li>SD-Karte</li>
+  <li>Batterie & Laderegler</li>
+  <li>Knopf zum An-/ Ausschalten</li>"
+transmission-title: "Die Datenübertragung"
+transmission-text: "Der mobile senseBox-Datenlogger speichert die Daten auf einer micoSD-Karte. Dabei werden jeweils die Temperatur und relative Luftfeuchte samt Koordinaten (Längen- und Breitengrad im WGS84-Referenzsystem) und Zeitstempel (in UTC) aufgenommen. Die Daten werden in einer CSV-Datei gespeichert und können anschließend als Open Data auf der openSenseMap veröffentlicht werden."
+example-title: "Ein Beispiel: 321-heiss im Kanton Aargau"
+example-text: "In der Schweiz wurde der mobile Datenlogger als Citizen Science Toolkit eingesetzt, um 
+Hitzeinseln im Kanton Aargau zu identifizieren. Interessierte Einwohner:innen wurden mit dieser Version der senseBox ausgestattet und haben ganz nebenbei flächendeckend Daten in ihrer Region gesammelt. Mit offenen Workshops zur Datenauswertung und Reflektion der Datenerhebung konnten dann besonders warme Orte lokalisiert und Ideen zur Schaffung von kühlen Aufenthaltsorten entwickelt werden. Weitere Infos findest du hier: "

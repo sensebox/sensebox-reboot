@@ -1,0 +1,51 @@
+{% assign content = site.data.i18n.[page.lang].products-data-logger %}
+
+<div class="container">
+    <div class="row row-padding">
+        <div class="col-lg-8 middle">
+            <h2 class="featurette-heading">{{content.title}}</h2>
+            <p class="lead">{{content.intro-text}}</p>
+            <br>
+            <p class="lead">{{content.intro-text-part2}}
+
+            <ul>
+                {{content.components-list}}
+            </ul>
+            </p>
+        </div>
+        <div class="col-lg-4 middle">
+            <img loading="lazy" class="img-fluid mx-auto" src="/images/products/datalogger/datenloga2.jpeg" alt="Generic placeholder image">
+        </div>
+    </div>
+</div>
+
+
+<div style="background-color: whitesmoke;">
+    <div class="container">
+        <div class="row row-padding featurette">
+            <div class="col-md-5 middle">
+                <img loading="lazy" class="featurette-image img-fluid mx-auto" src="/images/products/datalogger/datenloga1.jpeg"
+                    alt="Generic placeholder image">
+            </div>
+            <div class="col-md-7 middle">
+                <h2 class="featurette-heading">{{content.transmission-title}}
+                </h2>
+                <p class="lead">{{content.transmission-text}}</p>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row row-padding featurette">
+        <div class="col-md-7 middle">
+            <h2 class="featurette-heading">{{content.example-title}}</h2>
+            <p class="lead">{{content.example-text}} <a href="https://www.catta.ch/321heiss">https://www.catta.ch/321heiss</a></p>
+        </div>
+        <div class="col-md-5 middle">
+            <img loading="lazy" class="featurette-image img-fluid mx-auto" src="/images/products/datalogger/321.webp"
+                alt="Generic placeholder image">
+        </div>
+    </div>
+</div>

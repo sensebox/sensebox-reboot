@@ -4,7 +4,7 @@ title: "Die Entstehung der senseBox:bike – von der Idee zum Produkt"
 date: 2023-12-06
 author: Gina
 abstract: "Wie können Verkehrs- und Umweltdaten gemessen werden? Dazu wurde die senseBox:bike als Erweiterung der senseBox:familie entwickelt, um mobile Messwerte beim Radfahren zu erheben. Mehr zum Entstehungsprozess der senseBox:bike erfahrt ihr hier."
-thumbnail:  /images/blog/Bike-Box-6.png
+thumbnail: /images/blog/Bike-Box-6.png
 image1: /images/blog/Bike-Box-1.jpg
 image2: /images/blog/Bike-Box-2.jpg
 image3: /images/blog/Bike-Box-3.jpg
@@ -14,7 +14,7 @@ image6: /images/blog/Bike-Box-6.png
 image7: /images/blog/Bike-Box-7.png
 image8: /images/blog/Bike-Box-8.png
 image9: /images/blog/Bike-Box-9.png
-image9: /images/blog/bike-app.png
+image10: /images/blog/bike-app.png
 lang: de
 tag: News
 ---

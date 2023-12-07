@@ -1,0 +1,27 @@
+<div class="container">
+    {% assign placemats = site.data.i18n.[page.lang].placemats-content | sort: "position" %}
+    {% assign text = site.data.i18n.[page.lang].placemats %}
+    <div class="row">
+        <div class="col-12">
+            <h1>{{ page.header }}</h1>
+            <p>{{text.description}} </p>
+        </div>
+    </div>
+    {% for placemat in placemats %}
+    <div class="row">
+        <div class="col-4">
+                    <img class="img-thumbnail" data-zoomable loading="lazy" src="{{ placemat.front | relative_url }}"
+                        alt="{{ lernkarte.head }}" title="{{ lernkarte.head }}" />
+                        <p>Vorderseite</p>
+                        <img class="img-thumbnail" data-zoomable loading="lazy" src="{{ placemat.back | relative_url }}"
+                        alt="{{ lernkarte.head }}" title="{{ lernkarte.head }}" />
+                        <p>Rückseite</p>
+        </div>
+        <div class="col-8">
+            <p>{{ placemat.head }}</p>
+            <p>{{ placemat.description }}</p>
+            <a class="green-link" href="{{placemat.download}}" target="_blank">>>Download der Placemat</a>
+    </div>
+    {% endfor %}
+
+</div>

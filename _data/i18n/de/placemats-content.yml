@@ -1,0 +1,6 @@
+- head: Luftqualitätsmessung mit der senseBox
+  front: /images/placemats/01_Placemat-Luftqualitaet-front.png
+  back: /images/placemats/01_Placemat-Luftqualitaet-back.png
+  position: 1
+  download: /docs/material/01_Placemat-Luftqualitaet.pdf
+

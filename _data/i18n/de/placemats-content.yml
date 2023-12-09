@@ -4,3 +4,9 @@
   position: 1
   download: /docs/material/01_Placemat-Luftqualitaet.pdf
 
+- head: Verkehrszähler mit der senseBox
+  front: /images/placemats/02_Placemat-Verkehrszaehler-front.png
+  back: /images/placemats/02_Placemat-Verkehrszaehler-back.png
+  position: 2
+  download: /docs/material/02_Placemat-Verkehrszaehler.pdf
+

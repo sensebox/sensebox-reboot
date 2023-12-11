@@ -14,16 +14,26 @@
         <div class="col-6">
             <img class="img-thumbnail" data-zoomable loading="lazy" src="{{ placemat.front | relative_url }}"
                 alt="{{ lernkarte.head }}" title="{{ lernkarte.head }}" />
-            <p>Vorderseite</p>
+            <p>{{text.front}}</p>
         </div>
         <div class="col-6">
             <img class="img-thumbnail" data-zoomable loading="lazy" src="{{ placemat.back | relative_url }}"
                 alt="{{ lernkarte.head }}" title="{{ lernkarte.head }}" />
-            <p>Rückseite</p>
+                <p>{{text.back}}</p>
         </div>
         <div class="col-12">
             <a class="green-link" href="{{placemat.download}}" target="_blank">>>Download der Placemat</a>
         </div>
+        {% if placemat.downloadEN %}
+        <div class="col-12">
+            <a class="green-link" href="{{placemat.downloadEN}}" target="_blank">>>Download der Placemat (Englisch)</a>
+        </div>
+        {% endif %}
+        {% if placemat.downloadUKR %}
+        <div class="col-12">
+            <a class="green-link" href="{{placemat.downloadUKR}}" target="_blank">>>Download der Placemat (Ukrainisch)</a>
+        </div>
+        {% endif %}
         {% endfor %}
 
     </div>

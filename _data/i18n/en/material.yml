@@ -11,3 +11,10 @@
   description: Die ETH Zürich verwendet die senseBox in der Lehre in zwei verschiedenen Studiengängen und stellt uns und euch die Materialien aus der Lehre zu verfügung (Zurzeit nur auf Englisch)
   bgImage: /images/material/eth.jpg
   download: https://sensebox.de/docs/ETH_GeosensorsLab_tutorial.pdf
+
+- name: senseBox Placemats
+  position: t3
+  organisation: senseBox - Team
+  description: The senseBox Instruction Placemats are a collection of placemats that summarize the most important information about senseBox and programming with Blockly at a glance. The placemats can be viewed online or printed out.
+  bgImage: /images/material/Placemat_thumbnail.jpeg
+  link: /en/placemats.html

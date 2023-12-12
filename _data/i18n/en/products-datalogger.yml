@@ -1,0 +1,13 @@
+title: The Mobile Data Logger
+intro-text: The mobile data logger provides the opportunity to collect environmental data on the go using a miniaturized version of the senseBox. The foundation is the senseBox:mini, housed in a ventilated casing and equipped with various environmental sensors and a rechargeable battery.
+intro-text-part2: "The following components are integrated into the mobile data logger:"
+components-list: "<li>senseBox MCU mini</li>
+  <li>Temperature and humidity sensor (HDC1080)</li>
+  <li>GNSS module</li>
+  <li>SD card</li>
+  <li>Battery & charging controller</li>
+  <li>Power on/off button</li>"
+transmission-title: "Data Transmission"
+transmission-text: "The mobile senseBox data logger stores the data on a microSD card. It records temperature and relative humidity along with coordinates (longitude and latitude in the WGS84 reference system) and timestamps (in UTC). The data is stored in a CSV file and can be subsequently published as Open Data on the openSenseMap."
+example-title: "An Example: 321-hot in the Aargau Canton"
+example-text: "In Switzerland, the mobile data logger was used as a Citizen Science Toolkit to identify heat islands in the Aargau Canton. Interested residents were equipped with this version of the senseBox, and they collected comprehensive data in their region incidentally. Through open workshops on data analysis and reflection on data collection, particularly warm areas were identified, and ideas for creating cool hangout spots were developed. For more information, visit: "

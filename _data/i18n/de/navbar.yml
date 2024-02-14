@@ -25,6 +25,8 @@ products-home-name: ":home"
 products-home-link: /products-home.html
 products-edu-name: ":edu"
 products-edu-link: /products-edu.html
+products-edus2-name: ":edu-S2"
+products-edus2-link: /products-eduS2.html
 products-mini-name: ":mini"
 products-mini-link: /products-mini.html
 products-bike-name: ":bike"

@@ -6,39 +6,41 @@ answer-1: "Alle wichtigen Informationen zu den verschiedenen senseBox-Varianten 
 
 question-2: "Welcher senseBox-Bausatz ist der richtige für mich?"
 question-2-intro-text: "Es gibt vier verschiedene Bausätze der senseBox:"
-answer-2-1: "Die senseBox:edu wurde speziell für den Einsatz im Bildungsbereich (insbesondere in den MINT-Fächern) entwickelt. Neben einem einfachen Einstieg in die Programmierung können naturwissenschaftliche Themen anwendungs- und projektbezogen vermittelt werden. Alle Bauteile befinden sich in einer aufgeräumten und stabilen Kunststoffkiste und sind so auch bei regelmäßigem Einsatz direkt griffbereit. Weitere Informationen findest du hier. "
-answer-2-2: "Die senseBox:mini ist das Einstiegsset in die Welt der senseBox. Es enthält alles Nötige, um mit IoT-Projekten, wie zum Beispiel einem Homeserver oder einem Chatbot, zu starten. Weitere Informationen findest du hier."
-answer-2-3: "Die CO2-Ampel wurde zur Überwachung der Luftqualität konzipiert. Die CO2-Messwerte werden auf dem OLED-Display angezeigt und über eine RGB-LED schnell und einfach visualisert. Das lasergeschnittene Gehäuse sorgt dafür, dass die Elektronik gut geschützt ist, aber dennoch ein freier Luftaustausch für den Sensor stattfinden kann. Weitere Informationen findest du hier."
-answer-2-4: "Die senseBox:home ist ein Bausatz für eine DIY-Umweltmessstation, um selbst Umweltdaten zu erheben und eigene Projektideen durchzuführen (Stichwort: Citizen Science). Den Mikrocontroller und einige Grundkomponenten haben wir bereits als Set zusammengestellt. Alle weiteren Sensoren und Bauteile können selbständig ausgewählt und so eine individuelles Umweltmessgerät kreiert werden. Den passenden Programmcode gibt es von uns dazu, es muss also nicht programmiert werden. Weitere Informationen findest du hier."
-
+answer-2-1: Die senseBox:edu wurde speziell für den Einsatz im Bildungsbereich (insbesondere in den MINT-Fächern) entwickelt. Neben einem einfachen Einstieg in die Programmierung können naturwissenschaftliche Themen anwendungs- und projektbezogen vermittelt werden. Alle Bauteile befinden sich in einer aufgeräumten und stabilen Kunststoffkiste und sind so auch bei regelmäßigem Einsatz direkt griffbereit. Weitere Informationen findest du <a href="https://sensebox.de/de/products-edu.html"> hier </a>.
+answer-2-2: Die <a href="https://sensebox.kaufen/product/sensebox-mini"> senseBox:mini </a>  ist das Einstiegsset in die Welt der senseBox. Es enthält alles Nötige, um mit IoT-Projekten, wie zum Beispiel einem Homeserver oder einem Chatbot, zu starten. Weitere Informationen findest du <a href="https://sensebox.de/de/products-mini.html"> hier </a>.
+answer-2-3: Die CO2-Ampel wurde zur Überwachung der Luftqualität konzipiert. Die CO2-Messwerte werden auf dem OLED-Display angezeigt und über eine RGB-LED schnell und einfach visualisert. Das lasergeschnittene Gehäuse sorgt dafür, dass die Elektronik gut geschützt ist, aber dennoch ein freier Luftaustausch für den Sensor stattfinden kann. Weitere Informationen findest du <a href="https://sensebox.de/de/products-co2.html"> hier </a>.
+answer-2-4: Die <a href="https://sensebox.kaufen/product/sensebox-home"> senseBox:home </a> ist ein Bausatz für eine DIY-Umweltmessstation, um selbst Umweltdaten zu erheben und eigene Projektideen durchzuführen (Stichwort Citizen Science). Den Mikrocontroller und einige Grundkomponenten haben wir bereits als Set zusammengestellt. Alle weiteren Sensoren und Bauteile können selbständig ausgewählt und so eine individuelles Umweltmessgerät kreiert werden. Den passenden Programmcode gibt es von uns dazu, es muss also nicht programmiert werden. Weitere Informationen findest du <a href="https://sensebox.de/de/products-home.html"> hier </a>.
 question-3: "Für wen ist die senseBox geeignet?"
 answer-3: "Die senseBox ist auch ohne Programmier-Vorkenntnisse verwendbar. Im Schulkontext empfehlen wir ein Mindestalter von 12 Jahren. Mit einem höheren Betreuungsschlüssel und einfachen Anwendungsfällen, kann die senseBox aber auch schon von jüngeren Kindern verwendet werden."
 
 question-4: "Was brauche ich für die senseBox?"
-answer-4 : "In einer senseBox ist alles enthalten, was du zur Erhebung von Umweltdaten brauchst. Mit Ausnahme eines Computers und einer Internetverbindung. Je nach Bedarf werden weiteres Zubehör sowie zusätzliche Sensoren benötigt. Diese sind in unserem Shop erhältlich."
+answer-4 : In einer senseBox ist alles enthalten, was du zur Erhebung von Umweltdaten brauchst. Mit Ausnahme eines Computers und einer Internetverbindung. Je nach Bedarf werden weiteres Zubehör sowie zusätzliche Sensoren benötigt. Diese sind in unserem <a href="https://sensebox.kaufen/"> Shop </a> erhältlich.
 
 question-5: "Ich brauche Hilfe mit der senseBox. An wen kann ich mich wenden?"
-answer-5: "Wenn du Hilfe benötigst oder du Probleme mit der senseBox hast, wende dich gerne per Mail an support@sensebox.de oder wende dich an unser Forum."
+answer-5: Wenn du Hilfe benötigst oder du Probleme mit der senseBox hast, wende dich gerne per Mail an support@sensebox.de oder wende dich an unser <a href="https://forum.sensebox.de/"> Forum </a>.
 
 question-6: "Wo kann ich die senseBox kaufen?"
-answer-6: "Die senseBox ist in unserem Online-Shop unter sensebox.kaufen erhältlich."
+answer-6: Die senseBox ist in unserem Online-Shop unter <a href="sensebox.kaufen"> sensebox.kaufen </a> erhältlich.
 
 question-7: "Wo finde ich die Anleitung für die ersten Schritte mit meiner senseBox?"
 answer-7: "Eine ausführliche Anleitung für den Aufbau und die Programmierung der senseBox sowie weitere Informationen über die einzelnen Bauteile findest du in unserer Dokumentation. Für einen schnellen Start, schau hier vorbei! [muss noch anders formuliert werden.]"
 
 question-8: "Wie kann die senseBox programmiert werden?"
-answer-8: "In den Docs findest du Anleitungen für die ersten Schritte mit Blockly für senseBox, openroberta und der Arduino IDE. Die senseBox kann grafisch über unsere Lern- und Programmierumgebung (Blockly) und dem Open Roberta Lab programmiert werden. Alternativ kann die senseBox textbasiert über die Arduino IDE programmiert werden. Mehr Informationen zum Umgang mit den Programmierumgebungen findest du in den einzelnen Anleitungen:"
+answer-8: In den <a href="https://docs.sensebox.de/">Docs </a> findest du Anleitungen für die ersten Schritte mit Blockly für senseBox, openroberta und der Arduino IDE. Die senseBox kann grafisch über unsere Lern- und Programmierumgebung (<a href="https://blockly.sensebox.de/">Blockly</a>) und dem Open Roberta Lab programmiert werden. Alternativ kann die senseBox textbasiert über die Arduino IDE programmiert werden. Mehr Informationen zum Umgang mit den Programmierumgebungen findest du in den einzelnen Anleitungen
+answer-8-1: <a href="https://blockly.sensebox.de/"> Blockly für die senseBox </a>
+answer-8-2: <a href="https://docs.sensebox.de/misc/allgemein-einfuehrung-openroberta/"> openRoberta </a>
+answer-8-3: <a href="https://docs.sensebox.de/category/arduino/"> Arduino IDE </a>
 
 question-9: "Gibt es Unterrichtsmaterialien oder Praxisbeispiele für die senseBox?"
-answer-9: "Ja! Für die senseBox:edu und senseBox:mini findest du Lehrmaterial und Projekte auf unserer Website. Außerdem gibt es verschiedene Video-Tutorials zur senseBox. Alle Materialien sind open educational resources (OER) und somit frei verfügbar."
+answer-9: Ja! Für die senseBox:edu und senseBox:mini findest du <a href="https://sensebox.de/de/material.html"> Lehrmaterial </a> und <a href="https://sensebox.de/de/projects.html"> Projekte </a> auf unserer Website. Außerdem gibt es verschiedene <a href="https://sensebox.de/de/videos.html">Video-Tutorials </a> zur senseBox. Alle Materialien sind open educational resources (OER) und somit frei verfügbar.
 
 question-10: "Was ist die openSenseMap?"
-question-10: "Die openSenseMap ist eine Internetplattform für offene Umweltdaten aus der ganzen Welt. Hier können die Messwerte deiner Umweltmessstation hochgeladen, visualisiert, mit anderen geteilt und analysiert werden."
+answer-10: Die <a href="https://opensensemap.org/">openSenseMap</a> ist eine Internetplattform für offene Umweltdaten aus der ganzen Welt. Hier können die Messwerte deiner Umweltmessstation hochgeladen, visualisiert, mit anderen geteilt und analysiert werden.
 
 question-11: "Wer steckt hinter der senseBox?"
-answer-11: "Die senseBox enstand im Schülerlabor GI@School der Universität Münster. Nach einer Förderung des Bundesministeriums für Bildung und Forschung fand 2018 die Ausgründung der reedu GmbH & Co. KG statt, welche sich heute zusammen mit der Universität um alles rund um die senseBox kümmert."
+answer-11: Die senseBox enstand im Schülerlabor <a href="https://gi-at-school.org/"> GI@School </a> der Universität Münster. Nach einer Förderung des Bundesministeriums für Bildung und Forschung fand 2018 die Ausgründung der <a href="https://reedu.de/">reedu GmbH & Co. KG</a> statt, welche sich heute zusammen mit der Universität um alles rund um die senseBox kümmert.
 
 question-12: "Gibt es für die senseBox eine App?"
-answer-12: "Für die Programmierung der senseBox haben wir die senseBox Connect App entwickelt. Du kannst die App im Apple Appstore oder im Google Play Store herunterladen. Weitere Informationen zur App findest unter sensebox.de/app"
+answer-12: Für die Programmierung der senseBox haben wir die senseBox Connect App entwickelt. Du kannst die App im <a href="https://apps.apple.com/ca/app/sensebox-connect/id1586961095?ign-mpt=uo%3D2">Apple Appstore</a> oder im Google Play Store herunterladen. Weitere Informationen zur App findest unter <a href="sensebox.de/app"> sensebox.de/app </a>.
 
 

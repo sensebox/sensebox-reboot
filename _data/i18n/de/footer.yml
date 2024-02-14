@@ -23,7 +23,9 @@ resources-teaching: "Lernmaterialien"
 resources: Material
 follow-us: Folge uns
 background: Hintergrund
-
+support: Support
+FAQ: FAQ
+forum: Forum
 #
 imprint-name: "Impressum"
 imprint-link: /imprint.html

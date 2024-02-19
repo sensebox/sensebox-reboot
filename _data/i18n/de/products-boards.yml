@@ -36,9 +36,9 @@ boards-MCU-mini-onboard-list: "
   <li>1x RGB-LED</li>
   <li>mSD-Karten Slot</li>"
 
-boards-MCU-s2-title: "Die senseBox MCU-S2"
-boards-MCU-s2-text: "Die leistungsfähige MCU-S2 ist die neueste Entwicklung in der senseBox Mikrocontroller-Reihe und ermöglicht besonders rechenintensive Use-Cases auf dem Board. Neben der integrierten WiFi Funktionalität, bietet der XBEE Steckplatz die Möglichkeit, die Datenübertragung mithilfe von zusätzlichen weiteren Modulen um LoRa, GSM oder Bluetooth zu erweitern. Die senseBox MCU-S2 verfügt über folgende fest verbaute Anschlüsse und Bauteile:"
-sensebox-mcu-s2-shop-button: "senseBox MCU-S2 kaufen"
+boards-MCU-s2-title: "Die senseBox MCU S2"
+boards-MCU-s2-text: "Die leistungsfähige MCU S2 ist die neueste Entwicklung in der senseBox Mikrocontroller-Reihe und ermöglicht besonders rechenintensive Use-Cases auf dem Board. Neben der integrierten WiFi Funktionalität, bietet der XBEE Steckplatz die Möglichkeit, die Datenübertragung mithilfe von zusätzlichen weiteren Modulen um LoRa, GSM oder Bluetooth zu erweitern. Die senseBox MCU-S2 verfügt über folgende fest verbaute Anschlüsse und Bauteile:"
+sensebox-mcu-s2-shop-button: "senseBox MCU S2 kaufen"
 boards-MCU-s2-connectors-list: "
   <li>2x I2C Port (3,3V QWIIC kompatibel)</li>
   <li>1x UART Port</li>

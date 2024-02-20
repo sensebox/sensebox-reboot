@@ -1,0 +1,58 @@
+{% assign t = site.data.i18n.[page.lang].faq %}
+
+<div class="container py-3">
+    <div class="row">
+        <div class="col-10 mx-auto">
+            <h2>Allgemein</h2>
+            <div class="accordion" id="faqGeneral">
+                {% for faq in t  %}
+                {% if faq.category == "general" %}
+                <div class="card">
+                    <div class="card-header p-2" id="heading-{{forloop.index}}">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse-{{forloop.index}}" aria-expanded="false" aria-controls="collapse-{{forloop.index}}">
+                             {{ faq.question }}
+                            </button>
+                          </h5>
+                    </div>
+                    <div id="collapse-{{forloop.index}}" class="collapse show" aria-labelledby="heading-{{forloop.index}}" data-parent="#faqGeneral">
+                        <div class="card-body">
+                            {{ faq.answer }}
+                        </div>
+                    </div>
+                </div>
+                {% endif %}
+                {% endfor %}
+            </div>
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-10 mx-auto">
+            <h2>hardware</h2>
+            <div class="accordion" id="faqHardware">
+                {% for faq in t  %}
+                {% if faq.category == "hardware" %}
+                <div class="card">
+                    <div class="card-header p-2" id="heading-{{forloop.index}}">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse-{{forloop.index}}" aria-expanded="false" aria-controls="collapse-{{forloop.index}}">
+                             {{ faq.question }}
+                            </button>
+                          </h5>
+                    </div>
+                    <div id="collapse-{{forloop.index}}" class="collapse show" aria-labelledby="heading-{{forloop.index}}" data-parent="#faqHardware">
+                        <div class="card-body">
+                            {{ faq.answer }}
+                        </div>
+                    </div>
+                </div>
+                {% endif %}
+                {% endfor %}
+            </div>
+
+        </div>
+    </div>
+    <!--/row-->
+</div>
+<!--container-->

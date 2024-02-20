@@ -212,3 +212,24 @@ figcaption h3 {
     width: 140px !important;
   }
 }
+
+.comparisonTable td:nth-child(2)  {
+  text-align: right;
+}
+.comparisonTable td:nth-child(3)  {
+  text-align: right;
+}
+
+.table-subhead {
+ color: $sensebox-green;
+ font-family: BrixSlab-Bold;
+  font-size: 1.2em;
+}
+
+.table-product-comparison .fa {
+  color: $sensebox-green!important;
+}
+
+.news-items {
+  padding:0px 35px 0 35px;
+}

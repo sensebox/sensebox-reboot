@@ -1,7 +1,11 @@
+- author: Gina
+  date: 2024-02-20
+  headline: Neu im Shop! Die senseBox:edu S2
+  text: Die senseBox:edu S2 ist die nächste Generation der senseBox:edu. Wie die Vorgängerversionen ist sie speziell für den Bildungsbereich konzipiert. Die S2 bietet einen erweiterten Hardwareumfang, um noch mehr Vielfalt in Projekten und Experimenten zu ermöglichen. Weitere neue Features:Eine LED-Matrix zur farblichen Darstellung und zur Vermittlung weiterer Konzepte aus der Informatik (z.B. Arrays), der Time-of-Flight-Sensor, um hochauflösende Tiefenbilder zu erzeugen sowie ein integrierter Akkuladeregler für eine unkomplizierte und zuverlässige Stromversorgung und ESP Now zur direkten Kommunikation zwischen mehreren MCUs S2. Zur <a href="https://sensebox.kaufen/product/sensebox-edu-s2" class="green-link">senseBox:edu S2</a>
 - author: Eric
   date: 2023-12-05
-  headline: senseBox:bike - jetzt vorbestellen
-  text: Die senseBox:bike ist ein Bausatz für eine mobile Umweltmessstation auf dem Fahrrad. Sie misst Temperatur, Luftfeuchtigkeit, Luftdruck, Lautstärke, UV-Intensität und die Konzentration von Die Daten werden über eine Bluetooth Verbindung an dein Handy übertragen, von welchem Sie dann an die openSenseMap hochgeladen werden können! Die senseBox:bike ist ab sofort vorbestellbar. Zur <a href="/de/products-bike" class="green-link">senseBox:bike</a>
+  headline: senseBox:bike - jetzt bestellen
+  text: Die senseBox:bike ist ein Bausatz für eine mobile Umweltmessstation auf dem Fahrrad. Sie misst Temperatur, Luftfeuchtigkeit, Luftdruck, Lautstärke, UV-Intensität und die Konzentration von Die Daten werden über eine Bluetooth Verbindung an dein Handy übertragen, von welchem Sie dann an die openSenseMap hochgeladen werden können! Die senseBox:bike ist ab sofort bestellbar. Zur <a href="/de/products-bike" class="green-link">senseBox:bike</a>
   active: true
 - author: Eric
   date: 2023-11-01
@@ -12,19 +16,19 @@
   date: 2023-05-25
   headline: Neue Blockly-Version für die senseBox
   text: Schon gesehen? Unsere grafische Programmieroberfläche Blockly für die senseBox wurde aktualisiert. Mit neuen Features und Tutorials wird der Einstieg in die Programmierung noch leichter gemacht. Schaut doch mal rein. Zu <a href="https://blockly.sensebox.de" target="_blank" class="green-link">Blockly</a>
-  active: true
+  active: false
 
 - author: Gina
   date: 2023-01-20
   headline: Lets connect mit der senseBox App
   text: Für alles gibt es eine App, für die senseBox jetzt auch! Zur Übertragung des in Blockly erstellten Porgrammcodes auf Smartphones oder Tablets haben wir die senseBox Connect App entwickelt. Sie ist im Apple und im Google Play Store kostenlos erhältlich. Wichtig - Ihr braucht ein Wifi-Bee bzw. die Wifi-ID eurer senseBox, um den Code in die App übertragen zu können. Zur <a href="https://sensebox.de/de/app.html" class="green-link">senseBox Connect App</a>
-  active: true
+  active: false
 
 - author: Gina
   date: 2022-12-18
   headline: Klein & kompakt - die neue senseBox MCU mini
   text: Die senseBox gibt es nun im Miniaturformat! Das kleine Messgerät ist etwa so groß wie das OLED-Display und ist damit ideal für mobile Erhebungen z.B. zu Fuß oder mit dem Fahrrad geeignet. Es lässt sich genauso in Arduino programmieren wie die MCU und ist auch in Blockly integriert. So können auch ohne Programmiervorkenntnisse verschiedene Experimente durchgeführt werden. Wie ihr eure eigene Mini-Umweltmessstation zusammenbaut erfahrt ihr <a href="https://sensebox.de/projects/de/2022-12-19-messstation-mini" class="green-link">hier</a>. Die senseBox MCU mini ist als einzelnes <a href="https://sensebox.kaufen/product/sensebox-mcu-mini" class="green-link">Board</a> oder als <a href="https://sensebox.kaufen/product/sensebox-mini-v2" class="green-link">Bausatz</a> erhältlich. Wir wünschen viel Spaß beim Ausprobieren!
-  active: true
+  active: false
 
 - author: Mario
   date: 2021-11-08

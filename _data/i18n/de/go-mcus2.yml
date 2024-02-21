@@ -1,6 +1,6 @@
 setup: "Lege Los mit der senseBox MCU S2"
 setup-1: ""
-setup-text: "Wenn du die senseBox MCU S2 zum Ersten mal vor dir hast, folge den Schritten in der Anleitung, um einen ersten Test durchzuführen und die Komponenten auf der Platine kennenzulernen. Standardmäßig ist jede MCU S2 mit einem Test Sketch ausgestattet, der die Funktion der Komponenten überprüft. "
+setup-text: "Wenn du die senseBox MCU S2 zum ersten mal vor dir hast, folge den Schritten in der Anleitung, um einen ersten Test durchzuführen und die Komponenten auf der Platine kennenzulernen. Standardmäßig ist jede MCU S2 mit einem Test Sketch ausgestattet, der die Funktion der Komponenten überprüft."
 setup-link: "https://docs.sensebox.de/sensebox-home/home-schritt-1/"
 setup-button: "Los geht's!"
 

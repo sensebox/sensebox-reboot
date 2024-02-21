@@ -1,0 +1,39 @@
+title: senseBox:edu S2
+intro_text: The senseBox:edu S2 is the next generation of the senseBox:edu. Like its predecessors, it is specifically designed for the education sector. The S2 offers an expanded hardware scope to allow even more diversity in projects and experiments. The ESP S2 microcontroller has many components integrated directly on the board, such as an RGB LED, a battery charger for uncomplicated and reliable power supply, as well as Wi-Fi and an mSD card for data storage, simplifying assembly and saving time. Additionally, new features in the senseBox:edu S2 include a Bluetooth Bee for use with the Phyphox app, an LED matrix for color representation and conveying additional concepts from computer science (e.g., arrays), and ESP Now for direct communication between multiple S2 MCUs. Everything needed for classroom use is housed in a robust plastic case with foam insert. Programming is possible using senseBox-Blockly, and teaching materials, instructions, and projects are available as Open Educational Resources (OER).
+
+at_a_glance: New Features at a Glance
+new_mcu: New MCU S2
+new_mcu_text: The new microcontroller based on ESP-32 offers a variety of new possibilities in terms of data transmission, data exchange, and operation.
+wifi: Integrated WiFi
+wifi_text: With the integrated WiFi on the board, there is no longer a need for a WiFi Bee. Furthermore, the senseBox can now connect to WPA2-secured networks.
+rgb_led: RGB LED
+rgb_led_text: An integrated RGB LED can now provide direct feedback on the program's status.
+tof: ToF Imager (VL53L0X)
+tof_text: The new Time of Flight (ToF) sensor allows you to measure distances very precisely. Not only simple distances can be measured, but also a simple 8x8 pixel image.
+led_matrix: LED Matrix
+led_matrix_text: The LED matrix with 12x8 small RGB LEDs allows for beautiful new visualization possibilities of data and information.
+battery: Battery connection with charger
+battery_text: Simply connect the included battery, and you can use your senseBox on the go. The battery can be charged directly through the integrated charger. The status can be monitored at any time via the two LEDs.
+to_overview: Back to Overview
+comparison_table_title: Comparison Content
+sensebox_edu: senseBox:edu
+sensebox_edu_s2: senseBox:edu S2
+data_transmission: Data Transmission
+wifi_table: WiFi
+bt_table: Bluetooth
+sd_bee: SD-Bee
+onboard: Onboard
+sensors: Sensors
+tof_sensor: ToF Sensor
+ultrasonic: Ultrasonic Distance Sensor
+temp_and_humidity: Temperature and Humidity
+temp_and_pressure: Temperature and Air Pressure
+illuminance_and_uv: Brightness and UV Radiation
+accele_and_gyro: Acceleration and Gyro Sensor
+additional_components: Additional Components
+battery_table: Battery
+display: Display
+sd_card: SD Card
+breadboard: Breadboard
+misc: LEDs, Resistors, etc.
+price: Price

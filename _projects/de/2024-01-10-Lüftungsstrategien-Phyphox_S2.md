@@ -1,25 +1,24 @@
 ---
 layout: project_page
 title: "Optimierung von Lüftungsstrategien"
-date: 2021-12-28
+date: 2024-01-10
 author: Verena
 abstract: "Messe die CO2-Konzentration in deinem Zimmer mithilfe der Phyphox-App."
 thumbnail:  /images/projects/Titelbild_Lueftungsstrategien.png
-image0: /images/projects/Lüftungsstrategien/0.png
-image1: /images/projects/Lüftungsstrategien/1.png
-image2: /images/projects/Lüftungsstrategien/2.png
-image3: /images/projects/Lüftungsstrategien/3.png
+image0: /images/projects/Lüftungsstrategien_S2/0.png
+image1: /images/projects/Lüftungsstrategien_S2/1.png
+image2: /images/projects/Lüftungsstrategien_S2/2.png
+image3: /images/projects/Lüftungsstrategien_S2/3.png
 
 material:
-    - senseBox MCU
+    - senseBox MCU-S2
     - 1x CO2-Sensor
     - 1x Bluetooth-Bee
-    - 1x JST-JST-Kabel 
-    - evtl. Powerbank
+    - 1x QWICC-Kabel 
+    - evtl. Batterie
     
 ide: blockly
-version: ["edu"]   
-addons: ["Bluetooth-Bee"]  
+version: ["edu-S2"]   
 lang: de
 tags: ["Informatik", "Physik", "Phyphox"]
 difficult: leicht
@@ -30,7 +29,7 @@ difficult: leicht
 In diesem Projekt findest du heraus, wie hoch die CO2-Konzentration in deinem Zimmer ist. Für die Messung verwendest du die senseBox, welche die Daten via Bluetooth an Phyphox sendet. In der App kannst du deine Datenerhebung verfolgen und den dort sichtbaren Graphen als Ausgangslage für die Interpretation der CO2-Konzentration und folglich der Lüftungsstrategien nutzen.  
 
 ## Aufbau
-Zuerst verbindest du den CO2-Sensor mit dem JST-JST-Kabel. Diesen schließt du an einem der fünf I2C/Wire-Anschlüsse deiner senseBox MCU an. Das Bluetooth-Bee wird auf den Steckplatz XBee1 des Mikrocontrollers gesteckt. 
+Zuerst verbindest du den CO2-Sensor mit dem QWIIC-Kabel. Diesen schließt du an einen der beiden I2C-Anschlüsse deiner senseBox MCU-S2 an. Das Bluetooth-Bee wird auf den Steckplatz XBee des Mikrocontrollers gesteckt. Bei Bedarf schließt du die Batterie inkl. Batteriepack an den Anschluss 'Battery' an. 
 
 {% include image.html image=page.image0 %}
 
@@ -60,7 +59,3 @@ In der Endlosschleife bindest du den CO2-Sensor ein und wählst zum einen die Te
 Starte das Experiment mit einem Klick auf den ‚Start‘ Button. Die Messwerte der senseBox werden nun von der App aufgezeichnet. 
 Gehe nun schrittweise vor und öffne bzw. schließe das Fenster nach einigen Minuten vollständig oder teilweise. Nachdem das Experiment beendet wurde, kannst du über die drei Punkte 'Zustand speichern' auswählen und es benennen. Der gespeicherte Graph gibt dir nun die Möglichkeit, dein Lüftungsverhalten auf Grundlage der CO2-Konzentration zu analysieren und geeignete Strategien abzuleiten. 
 
-
-## Gesamter Code
-
- [Hier](https://blockly.sensebox.de/gallery/63b5a057d2853f0013b1d900) kannst du den fertigen Programmcode in Blockly abrufen. 

@@ -1,9 +1,9 @@
-{% assign content = site.data.i18n.[page.lang].products-edu %}
+{% assign content = site.data.i18n.[page.lang].products-edus2 %}
 <div class="container">
     <div class="row row-padding">
         <div class="col-lg-8 align-self-center middle">
-              <h2>senseBox:edu S2</h1>
-            <p class="lead">Die senseBox:edu S2 ist die nächste Generation der senseBox:edu. Wie die Vorgängerversionen ist sie speziell für den Bildungsbereich konzipiert. Die S2 bietet einen erweiterten Hardwareumfang, um noch mehr Vielfalt in Projekten und Experimenten zu ermöglichen. Der MCU esp S2 Mikrocontroller hat zudem viele Komponenten direkt auf dem Board integriert, wie eine RGB-LED, einen Akkuladeregler für eine unkomplizierte und zuverlässige Stromversorgung sowie W-LAN und eine mSD-Karte zur Datenspeicherung, wodurch der Zusammenbau vereinfacht und zeitsparender gestaltet wird. Zudem sind ein Bluetooth-Bee zur Verwendung mit der Phyphox-App, eine LED-Matrix zur farblichen Darstellung und zur Vermittlung weiterer Konzepte aus der Informatik (z.B. Arrays) und ESP Now zur direkten Kommunikation zwischen mehreren MCUs S2 in der neuen senseBox:edu S2 als neue Features enthalten. Alles, was für den Einsatz im Unterricht benötigt wird, ist in einem robusten Kunststoffkoffer mit Schaumstoffeinlage untergebracht. Die Programmierung ist in senseBox-Blockly möglich und Unterrichtsmaterialien sowie Anleitungen und Projekte stehen als Open Educational Resources (OER) frei zur Verfügung.
+              <h2>{{content.title}} </h1>
+            <p class="lead">{{content.intro_text}}
             </p>
             </p>
         </div>
@@ -17,54 +17,54 @@
 
 <div class="container">
     <div class="featurette">
-        <h1> Neuheiten auf einem Blick </h1>
+        <h1> {{content.at_a_glance}} </h1>
         <div class="row baseline">
             <div class="col-lg-4 col-md-6 news-items">
                 <img loading="lazy" class="featurette-image img-fluid mx-auto" src="/images/products/edus2/mcus2.png"
                     alt="Generic placeholder image">
                     <div>
-                        <h2>neue MCU S2</h2>
-                        <p>Der neue Mikrocontroller auf ESP-32 Basis bietet eine Vielzahl von neuen Möglichkeiten in Hinsicht auf Datenübertragung, Datenaustausch und Bedienung.</p>
+                        <h2>{{content.new_mcu}} </h2>
+                        <p>{{content.new_mcu_text}}<p>
                     </div>
             </div>
             <div class="col-lg-4 col-md-6 news-items">
                 <img loading="lazy" class="featurette-image img-fluid mx-auto" src="/images/products/edus2/mcus2-wifi.gif"
                     alt="Generic placeholder image">
                     <div>
-                        <h2>Integriertes WiFi</h2>
-                        <p>Mit dem im Board integrierten WiFi ist nun kein WiFi-Bee mehr von Nöten. Darüber hinaus lässt sich die senseBox nun mit WPA2-gesicherten Netzwerken verbinden. </p>
+                        <h2>{{content.wifi}} </h2>
+                        <p>{{content.wifi_text}} </p>
                     </div>
             </div>
             <div class="col-lg-4 col-md-6 news-items">
                 <img loading="lazy" class="featurette-image img-fluid mx-auto" src="/images/products/edus2/RGB-LED.gif"
                     alt="Generic placeholder image">
                     <div>
-                        <h2>RGB-LED</h2>
-                        <p>Eine integrierte RGB-LED gibt kann nun ein direktes Feedback zum Programmstatus geben. </p>
+                        <h2>{{content.rgb_led}} </h2>
+                        <p>{{content.rgb_led}} </p>
                     </div>
             </div>
             <div class="col-lg-4 col-md-6 news-items">
                 <img loading="lazy" class="featurette-image img-fluid mx-auto" src="/images/products/edus2/tof-zoom.gif"
                     alt="Generic placeholder image">
                     <div>
-                        <h2>ToF Imager</h2>
-                        <p>Der neue ToF (Time of Flight) Sensor ermöglicht es dir nun sehr präszise Distanzen zu messen. Und nicht nur einfache Distanzen können gemessen werden sondern auch ein einfache 8x8 Pixel Bild</p>
+                        <h2>{{content.tof}} </h2>
+                        <p>{{content.tof_text}} </p>
                     </div>
             </div>
             <div class="col-lg-4 col-md-6 news-items">
                 <img loading="lazy" class="featurette-image img-fluid mx-auto" src="/images/products/edus2/LED-Matrix-glow.gif"
                     alt="Generic placeholder image">
                     <div>
-                        <h2>LED-Matrix</h2>
-                        <p>Die LED-Matrix mit 12x8 kleine RGB-Leds ermöglicht dir schöne neue Visualisierungsmöglichkeiten von Daten und Informationen</p>
+                        <h2>{{content.led_matrix}} </h2>
+                        <p>{{content.led_matrix_text}} </p>
                     </div>
             </div>
             <div class="col-lg-4 col-md-6 news-items">
                 <img loading="lazy" class="featurette-image img-fluid mx-auto" src="/images/products/edus2/MCU-S2-Battery.gif"
                     alt="Generic placeholder image">
                     <div>
-                        <h2>Akkuanschluss mit Laderegler</h2>
-                        <p>Schließe einfach beiliegenden Akku an und du kannst deine senseBox mobil verwenden. Der Akku kann direkt über den integrierten Laderegler aufgeladen werden. Über die beiden LEDs kannst du jederzeit den Status verfolgen.</p>
+                        <h2>{{content.battery}} </h2>
+                        <p>{{content.battery_text}} </p>
                     </div>
             </div>
 
@@ -76,7 +76,7 @@
     </div>
     <div class="cold-md-12 text-center">
       <a href="{{site.baseurl }}/{{ page.lang }}/products-edus2-overview">
-        <button class="btn btn-sensebox-green middle" >Zur Übersicht</button>
+        <button class="btn btn-sensebox-green middle" >{{content.to_overview}} </button>
       </a>
     </div>
 </div>
@@ -100,7 +100,7 @@
 <div class="container">
     <div class="row">
         <div class="col-lg-10 my-4 mx-auto">
-            <h2 class="text-center">Vergleich Inhalt</h2>
+            <h2 class="text-center">{{content.comparison_table_title}} </h2>
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">
                     <div class="table-responsve table-product-comparison">
@@ -114,7 +114,7 @@
                       </thead>
                       <tbody>
                         <tr>
-                            <td class="table-subhead">Datenübertragung</td>
+                            <td class="table-subhead">{{content.data_transmission}} </td>
                             
                      
                           </tr>
@@ -130,93 +130,93 @@
                   
                         </tr>
                         <tr>
-                          <td class="option">SD-Bee</td>
+                          <td class="option">{{content.sd_bee}} </td>
                           <td><i class="fa fa-check"></i></td>
                           <td>onboard</td>
                           
                 
                         </tr>
                         <tr>
-                            <td class="table-subhead">Sensoren</td>
+                            <td class="table-subhead">{{content.sensors}} </td>
                             
                      
                           </tr>
                         <tr>
-                          <td class="option">ToF-Sensor</td>
+                          <td class="option">{{content.tof_sensor}} </td>
                           <td>-</td>
                           <td><i class="fa fa-check"></i></td>
                    
                         </tr>
                         <tr>
-                          <td class="option">Ultraschall-Distanzsensor</td>
+                          <td class="option">{{content.ultrasonic}} </td>
                           <td><i class="fa fa-check"></i></td>
                           <td><i class="fa fa-minus"></i></td>
                   
                         </tr>
                         <tr>
-                          <td class="option">Temperatur- und Luftfeuchtigkeit</td>
+                          <td class="option">{{content.temp_and_humidity}} </td>
                           <td><i class="fa fa-check"></i></td>
                           <td><i class="fa fa-check"></i></td>
                      
                         </tr>
                         <tr>
-                            <td class="option">Temperatur- und Luftdruck</td>
+                            <td class="option">{{content.temp_and_pressure}} </td>
                             <td><i class="fa fa-check"></i></td>
                             <td><i class="fa fa-check"></i></td>
                        
                           </tr>
                           <tr>
-                            <td class="option">Helligkeit- und UV-Strahlung</td>
+                            <td class="option">{{content.illuminance_and_uv}} </td>
                             <td><i class="fa fa-check"></i></td>
                             <td><i class="fa fa-check"></i></td>
                           </tr>
                           <tr>
-                            <td class="option">Beschleunigungssensor</td>
+                            <td class="option">{{content.accele_and_gyro}} </td>
                             <td><i class="fa fa-check"></i></td>
                             <td><i class="fa fa-check"></i></td>
                           </tr>
                           <tr>
-                            <td class="table-subhead">weitere Komponenten</td>
+                            <td class="table-subhead">{{content.additional_components}} </td>
                           </tr>
                         <tr>
-                          <td class="option">Akku</td>
+                          <td class="option">{{content.battery_table}} </td>
                           <td><i class="fa fa-minus"></i></td>
                           <td><i class="fa fa-check"></i></td>
                    
                         </tr>
                         <tr>
-                            <td class="option">LED-Matrix</td>
+                            <td class="option">{{content.led_matrix}} </td>
                             <td>-</td>
                             <td><i class="fa fa-check"></i></td>
                      
                           </tr>
                           <tr>
-                            <td class="option">Display</td>
+                            <td class="option">{{content.display}} </td>
                             <td><i class="fa fa-check"></i></td>
                             <td><i class="fa fa-check"></i></td>
                      
                           </tr>
                           <tr>
-                            <td class="option">SD-Karte</td>
+                            <td class="option">{{content.sd_card}} </td>
                             <td><i class="fa fa-check"></i></td>
                             <td><i class="fa fa-check"></i></td>
                           </tr>
                           <tr>
-                            <td class="option">Breadboard</td>
+                            <td class="option">{{content.breadboard}} </td>
                             <td><i class="fa fa-check"></i></td>
                             <td><i class="fa fa-minus"></i></td>
                             
                      
                           </tr>
                           <tr>
-                            <td class="option">Leds, Widerstände etc.</td>
+                            <td class="option">{{content.misc}}</td>
                                   <td><i class="fa fa-check"></i></td>
                                   <td><i class="fa fa-minus"></i></td>
                      
                           </tr>
                         </tr>
                         <tr>
-                            <td class="table-subhead">Preis</td>
+                            <td class="table-subhead">{{content.price}} </td>
                             <td>299,95€</td>
                             <td>329,99€</td>
                           

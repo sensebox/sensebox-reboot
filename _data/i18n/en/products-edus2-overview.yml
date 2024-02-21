@@ -1,0 +1,45 @@
+intro_text: The senseBox:edu S2 is the next generation of our senseBox. The S2 offers an expanded hardware scope to enable even more diversity in projects and experiments. Everything you need is housed in a robust plastic case with foam insert, ensuring optimal preparation for use in schools.
+
+whats_in_the_box: The senseBox:edu includes the following parts
+list_1: senseBox MCU-S2 (ESP-32)
+list_2: Bluetooth Bee
+list_3: Temperature sensor (HDC1080)
+list_4: Illuminance and UV radiation sensor (VEML6070)
+list_5: Air pressure and temperature sensor (DPS310)
+list_6: Time-of-Flight (ToF) sensor (VL53L0X)
+list_7: OLED Display
+list_8: Micro-SD card
+list_9: Battery holder including battery
+list_10: LED Matrix
+list_11: 1m USB-C cable
+list_12: Connection cable senseBox:edu S2
+
+wifi: Integrated WiFi
+wifi_text: Now, a WiFi module is directly integrated on the board! Using WiFi, measurements taken by the senseBox can be effortlessly transmitted to the internet. The integration of WiFi now allows easy connection to WPA2-secured networks. This advancement opens up even more flexibility and convenience for data acquisition and transmission by seamlessly integrating into existing network infrastructures. This makes the senseBox an even more powerful tool for environmental monitoring and data analysis.
+
+sd_modul: Integrated SD card module
+sd_modul_text: The included SD card (4 gigabytes) can store data from the senseBox MCU S2. This high-quality memory card provides sufficient space for recording and storing sensor values.
+
+rgb_led: RGB LED
+rgb_led_text: The integrated RGB LED can provide direct feedback on the program status of the senseBox MCU. The RGB LED can signal feedback for different states and conditions, significantly improving user-friendliness and understanding of the operational status. This feature makes the senseBox even more user-friendly and offers intuitive visual feedback, making it easier for users to grasp the current status of their program at a glance. Thus, the senseBox becomes an even more powerful tool for environmental monitoring and data visualization.
+
+hdc1080: Temperature and humidity sensor (HDC1080)
+hdc1080_text: The HDC1080 is a digital humidity and temperature sensor with high accuracy and very low power consumption, making it ideal for environmental data collection with the senseBox. The temperature and humidity sensor is particularly suitable for indoor air quality investigations as well as outdoor climate research. Relative humidity is measured in percentage, and temperature in degrees Celsius. A suitable Qwiic cable is provided for connecting to the senseBox.
+
+tof_imager: Time-of-Flight (ToF) Imager
+tof_imager_text: Time-of-Flight (ToF) cameras can generate high-resolution depth images. These sensors emit infrared light and measure the time it takes for the light to be reflected back. Our ToF sensor is a multi-zone sensor that measures distance not only at one point but in multiple zones (8x8 zones). According to the manufacturer, measurements up to 400 cm are possible. However, the maximum measurable distance varies depending on current lighting conditions (less distance is measured in more sunlight). The frame rate can be up to 60 Hz.
+
+light: Light sensor (LTR329 & VEML6070)
+light_text: The light sensor (LTR329 & VEML6070) allows precise measurement of illuminance and UV radiation with the senseBox. This sensor provides accurate measurements of ambient light intensity and UV radiation levels, essential for various applications in environmental monitoring, weather stations, and indoor lighting control. Brightness is measured in lux, and UV intensity in μW/cm². Easy to integrate and compatible with the senseBox, this sensor provides detailed insights into lighting conditions and the UV exposure of the environment. The appropriate Qwiic connection cable for the senseBox MCU S2 is included.
+
+pressure: Air pressure and temperature sensor (DPS310)
+pressure_text: The powerful DPS310 sensor allows precise measurement of air pressure and temperature data. This high-quality sensor offers high accuracy and reliability, making it ideal for air quality measurements with the senseBox. The air pressure measurement range is 300 to 1200 hPa. The relative precision of air pressure measurements is ±0.06 hP, and absolute precision is ±1 hPa. The accuracy of temperature values is ±0.5°C. The average power consumption of pressure measurement is 1.7 μA, and for temperature measurement at 1Hz sampling frequency, it is 1.5 µA. The appropriate Qwiic cable for connecting the sensor is included.
+
+led_matrix: LED Matrix
+led_matrix_text: With the Adafruit WS2812 LED Matrix with 12 x 8 pixels, colorful displays can be programmed with the senseBox. LEDs can be illuminated according to individual preferences, displaying text, symbols, or patterns in different colors for a visually appealing experience. The LED Matrix enables color representation, and concepts from computer science, such as arrays, can be taught.
+
+oled: OLED Display
+oled_text: The OLED display provides clear and distinct readings for sensor values, status information, and more. The OLED display shows information as text, numbers, and diagrams, allowing live display of measurement values. With its compact size and easy integration, the OLED display is ideal for senseBox applications where visual output is required. The display has a resolution of 128 x 64 pixels. A suitable Qwiic cable for connecting the display to the senseBox MCU S2 is included.
+
+bluetooth: Bluetooth Bee
+bluetooth_text: With the Bluetooth Bee (or BLE-Bee), the senseBox microcontroller can be extended with Bluetooth functionality or BLE (Bluetooth Low Energy), turning the senseBox MCU S2 into a mobile environmental laboratory. Since the Bluetooth module is compatible with the Phyphox app, sensor values can be wirelessly transmitted to mobile devices such as smartphones or tablets and visualized professionally. The Bluetooth Bee uses the uBlox B312, based on the nRF52840 from Nordic Semiconductors. The Bluetooth Bee is compatible with Bluetooth 5.0.

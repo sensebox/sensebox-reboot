@@ -8,12 +8,11 @@ thumbnail: /images/projects/ErsterSketch_Titel.png
 image0: /images/projects/ErsterSketch_S2/0.png
 image1: /images/projects/ErsterSketch_S2/1.png
 image2: /images/projects/ErsterSketch_S2/2.png
-
 material:
   - senseBox MCU-S2
 ide: blockly
 lang: de
-version: ["edu-S2]
+version: ["edu-S2"]
 tags: ["Erste Schritte", "Informatik"]
 difficult: leicht
 ---

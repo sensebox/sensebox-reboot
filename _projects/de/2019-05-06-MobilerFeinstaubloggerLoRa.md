@@ -17,7 +17,7 @@ material:
     - senseBox MCU
     - 1x OLED Display
     - 1x Temperatur und Luftfeuchtesensor(HDC 1080)
-    - 1x Feinstaubsensor(SDS011)
+    - 1x Feinstaubsensor(SDS011 oder SPS30)
     - 1x GPS Modul
     - 1x LoRa Bee
     - 3x JST-JST Kabel
@@ -34,13 +34,13 @@ difficult: sehr schwer
 In diesem Projekt wird mit der SenseBoxMCU ein mobiler Feinstaubmesser gebaut, der auf Knopfdruck seine Messwerte auf der SD-Karte speichert und sie mit GPS-Koordinaten an die OpenSenseMap schickt. Dafür wird in dieser Variante der LoRa Funkstandard benutzt, der die Daten über TheThingsNetwork an die OpenSenseMap sendet.
 
 ## Aufbau
-Für den Aufbau werden folgende Komponenten verwendet. Achte darauf, dass das LoRa-Bee auf den XBEE Steckplatz 1 und der Feinstaubsensor auf UART 2 aufgesteckt werden muss. 
+Für den Aufbau werden folgende Komponenten verwendet. Achte darauf, dass das LoRa-Bee auf den XBEE Steckplatz 1 und der Feinstaubsensor (SDS011) auf UART 2 aufgesteckt werden muss. Solltest du den Feinstaubsensor SPS30 nutzen, verbinde diesen mit einen der fünf I2C/Wire-Anschlüsse.
 Man braucht:
   - den LoRa Bee
   - das OLED-Display
   - den HDC 1080
   - das GPS-Modul
-  - den SDS011 
+  - den SDS011 oder SPS30
 
 
 ## TheThingsNetwork & OpenSenseMap(OSeM)-Setup

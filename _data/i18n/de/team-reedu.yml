@@ -8,11 +8,11 @@
   image: /images/team/Jan_Neu.jpg
   position: 2
   role: Co-Founder & Entwickler
-  description: Jan begleitet die Entwicklung der senseBox seit ihrer Geburt an der Uni Münster. Damals noch als Student und wissenschaftlicher Mitarbeiter. Heute ist er für die <b>Weiterentwicklung der Hardware und den Support für die Bausätze</b> zuständig.
+  description: Jan begleitet die Entwicklung der senseBox seit ihrer Geburt an der Uni Münster. Damals noch als Student und wissenschaftlicher Mitarbeiter. Heute ist er für die Weiterentwicklung der Hardware und den Support für die Bausätze zuständig.
 
 - name: Matthias Pfeil
   image: /images/team/Matze_Neu.jpg
-  role:
+  role: Software-Entwickler
   position: 3
   description: Matthias ist auch seit der Geburtsstunde der senseBox mit dabei und hat die openSenseMap ins Leben gerufen. Bei re:edu ist er Co-Founder und Entwickler.
 
@@ -20,7 +20,7 @@
   image: /images/team/Felix_Neu.jpg
   role: Softwareentwickler
   position: 4
-  description: Felix entwickelte seine Begeisterung für Bastelelektronik und Programmierung bereits als Schüler in einem der senseBox-Workshops mit Thomas und Jan. Nach seinem Geoinformatik-Studium ist er als <b>Softwareentwickler</b> bei Reedu mit eingestiegen und arbeitet weiterhin gerne mit Open-Source Technik.
+  description: Felix entwickelte seine Begeisterung für Bastelelektronik und Programmierung bereits als Schüler in einem der senseBox-Workshops mit Thomas und Jan. Nach seinem Geoinformatik-Studium ist er als Softwareentwickler bei re:edu mit eingestiegen und arbeitet weiterhin gerne mit Open-Source Technik.
 
 - name: Verena Witte
   image: /images/team/Verena_Neu.jpg

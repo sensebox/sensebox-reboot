@@ -24,25 +24,25 @@
 
 - name: Verena Witte
   image: /images/team/Verena_Neu.jpg
-  role:
+  role: Head of Education
   position: 5
   description: Verena hat bereits während ihres Studiums im Master of Education bei Reedu gearbeitet. Auch nach ihrem Studium ist sie hier überwiegend für die Konzeption von Unterrichtsmaterialien zuständig und gibt sowohl Schüler:innen als auch Lehrer:innen Workshops mit der senseBox.
 
 - name: Eric Thieme-Garmann
   image: /images/team/Eric_Neu.png
-  role:
+  role: Entwickler
   position: 6
   description: Eric hat sowohl in seinem Bachelor- als auch in seinem Masterstudium am Institut für Geoinformatik der Universität Münster als studentische Hilfskraft im senseBox:pro Projekt gearbeitet. Nach seinem Studium hat er begonnen, bei re:edu als Entwickler zu arbeiten.
 
 - name: Paula Scharf
   image: /images/team/Paula_Neu.png
-  role:
+  role: Entwicklerin
   position: 7
   description: Paula hat ebenfalls ihr Bachelor- und Masterstudium im Fach Geoinformatik an der Universität Münster absolviert. Sie ist bei re:edu vor allem im Bereich Webentwicklung tätig und ist im TinyAIoT-Projekt beteiligt.
 
 - name: Gina Buchwald-Chassée
   image: /images/team/Gina_Neu.jpg
-  role:
+  role: Kommunikation / PR
   position: 8
   description: Gina hat Kommunikationswissenschaft an der Universität Münster studiert und während ihres Masterstudiums als studentische Hilfskraft im senseBox:pro-Projekt angefangen. Dabei hat sie die Social Media Kanäle betreut und die Kommunikation rund um die senseBox übernommen. Auch bei re:edu ist sie für die Kommunikation und Öffentlichkeitsarbeit verantwortlich.
   

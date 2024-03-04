@@ -32,7 +32,7 @@ general:
   contact:
     header: "Hinweis zur verantwortlichen Stelle"
     content1: "Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:"
-    address: "Institut für Geoinformatik<br />Heisenbergstraße 2<br />48149 Münster</p><p>Telefon: +49 (251) 83-33 083 <br />E-Mail: info@sensebox.de"
+    address: "Reedu GmbH & Co. KG<br />Von-Steuben-Str. 21<br />48143 Münster</p><p>Telefon: +49 251 98119797 <br />E-Mail: kontakt@reedu.de"
     content2: "Verantwortliche Stelle ist die natürliche oder juristische Person, die allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten (z.B. Namen, E-Mail-Adressen o. Ä.) entscheidet."
   recall:
     header: "Widerruf Ihrer Einwilligung zur Datenverarbeitung"
@@ -57,13 +57,13 @@ privacyofficer:
   details:
     header: "Gesetzlich vorgeschriebener Datenschutzbeauftragter"
     content: "Wir haben für unser Unternehmen einen Datenschutzbeauftragten bestellt."
-    address: "Institut für Geoinformatik<br />
-  Heisenbergstraße 2<br />
-  48149 Münster</p>
+    address: "Reedu GmbH & Co. KG<br />
+  Von-Steuben-Str. 21<br />
+  48143 Münster</p>
 
   <p>
-    Telefon: +49 (251) 83-33 083 <br />
-    E-Mail: info@sensebox.de"
+    Telefon: +49 251 98119797 <br />
+    E-Mail: kontakt@reedu.de"
 collection:
   header: "4. Datenerfassung auf unserer Website"
   cookies:

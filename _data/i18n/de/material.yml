@@ -54,13 +54,6 @@
   bgImage: /images/material/eth.jpg
   download: /docs/ETH_GeosensorsLab_tutorial.pdf
 
-- name: Mikrocontroller im MINT-Unterricht
-  position: t9
-  organisation:
-  description: "Die Materielen der Hopp-Foundation zeigen Anwendungsbereiche von Mikrocontrollern im MINT Unterricht. Das Skript beinhaltet jeweils eine Unterrichtseinheit zu den Fächern Mathematik, Informatik, NaWi und Geografie."
-  bgImage: /images/material/hopp_foundation.png
-  link: https://unterrichtsmaterialien.hopp-foundation.de/konzepte/mikrocontroller-im-mint-unterricht
-
 - name: "OpenSenseMap: Silvester in Berlin"
   position: t10
   organisation: ESRI

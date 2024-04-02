@@ -31,6 +31,8 @@ In diesem Projekt zeigen wir dir, wie du eine CO2 Ampel mit CircuitPython progra
 ### Aufbau
 Verbinde den SCD30 CO2 Sensor über I2C mit der senseBox MCU-S2. Verbinde die LED Matrix an GPIO A.
 
+{% include image.html image="/images/projects/circuitpython_co2_ampel/circuitpython-co2-hw.jpg" %}
+
 ### Programmierung
 
 #### Bibliotheken installieren

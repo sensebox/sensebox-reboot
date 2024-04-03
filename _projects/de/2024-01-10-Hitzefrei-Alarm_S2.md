@@ -11,10 +11,10 @@ image2: /images/projects/Hitzefrei_S2/2.png
 image3: /images/projects/Hitzefrei_S2/3.png
 
 material:
-  - senseBox MCU
+  - senseBox MCU-S2
   - 1x OLED Display
   - 1x Temperatur- & Luftfeuchtigkeitssensor (HDC1080)
-  - 2x QWICC-Kabel
+  - 2x QWIIC-Kabel
 ide: blockly
 version: ["edu-S2"]
 lang: de
@@ -24,7 +24,7 @@ difficult: leicht
 
 ## Aufbau
 
-Das Display sowie den Temperatursensor schließt du mithilfe eines QWICC-Kabels an einem der I2C/Wire Anschlüsse der senseBox MCU-S2 an. Die RGB-LED ist auf dem Board der MCU-S2 integriert. Die folgende Abbildung zeigt dir, wie der Aufbau abschließend aussehen sollte.
+Das Display sowie den Temperatursensor schließt du mithilfe eines QWIIC-Kabels an einem der I2C/Wire Anschlüsse der senseBox MCU-S2 an. Die RGB-LED ist auf dem Board der MCU-S2 integriert. Die folgende Abbildung zeigt dir, wie der Aufbau abschließend aussehen sollte.
 
 {% include image.html image=page.image0 %}
 

@@ -16,7 +16,7 @@ material:
   - 1x OLED Display
   - 1x Temperatur- und Luftfeuchtigkeitssensor
   - 1x Luftdrucksensor
-  - 3x QWICC-Kabel 
+  - 3x QWIIC-Kabel 
 ide: blockly
 lang: de
 version: ["edu-S2"]
@@ -30,7 +30,7 @@ Ziel dieses Projektes ist es, eine senseBox Umweltstation aufzubauen. Am Ende wi
 
 ## Aufbau
 
-Schließe das Display und die Sensoren deiner Wahl mithilfe der QWICC-Kabel an den I2C-Anschlüssen der senseBox MCU-S2 an. Du hast nur zwei Anschlüsse, aber drei Sensoren - mithilfe eines QWIIC-Kabels kannt du beispielsweise den Luftdrucksensor an den QWIIC-Anschluss des Temperatur- und Luftfeuchtesensors anschließen. Die Photodiode zur Messung der Beleuchtungsstärke und das WiFi-Modul sind direkt auf dem Board integriert und müssen nicht zusätzlich angeschlossen werden.
+Schließe das Display und die Sensoren deiner Wahl mithilfe der QWIIC-Kabel an den I2C-Anschlüssen der senseBox MCU-S2 an. Du hast nur zwei Anschlüsse, aber drei Sensoren - mithilfe eines QWIIC-Kabels kannt du beispielsweise den Luftdrucksensor an den QWIIC-Anschluss des Temperatur- und Luftfeuchtesensors anschließen. Die Photodiode zur Messung der Beleuchtungsstärke und das WiFi-Modul sind direkt auf dem Board integriert und müssen nicht zusätzlich angeschlossen werden.
 
 
 <div class="panel panel-success">

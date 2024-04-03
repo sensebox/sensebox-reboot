@@ -4,7 +4,7 @@ title: "Gehe auf Punktefang!"
 date: 2024-01-10
 author: Verena
 abstract: "Programmiere dein eigenes Spiel mit der senseBox!"
-thumbnail:  /images/projects/Titelbild_Punktefang.png
+thumbnail:  /images/projects/Titelbild_Punktefang.jpg
 image0: /images/projects/Punktefang_S2/0.png
 image1: /images/projects/Punktefang_S2/1.png
 image2: /images/projects/Punktefang_S2/2.png

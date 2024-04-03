@@ -14,7 +14,7 @@ image3: /images/projects/Straßenbeleuchtung/3.png
 material:
     - senseBox MCU-S2
     - 1x OLED-Display
-    - 1x Qwicc-Kabel
+    - 1x QWIIC-Kabel
     
 ide: blockly
 version: ["edu-S2"]   
@@ -28,7 +28,7 @@ difficult: mittel
 In Deutschland werden jährlich etwa 750 Millionen Euro für die Beleuchtung von Straßen, Plätzen und Brücken ausgegeben. Dabei ist die Beleuchtung gar nicht notwendig, solange es noch hell ist. Gestalte die Beleuchtung für eine Smart City intelligent und energiesparsam, sodass sie nur dann leuchtet, wenn es dunkel ist.
 
 ## Aufbau
-Eine Photodiode zur Messung der Beleuchtungsstärke und die RGB-LED sind drekt auf dem Board verbaut, sodass sie nicht separat angeschlossen werden müssen. Zur Uberprüfung der Messwerte der Beleuchtungsstärke macht es jedoch Sinn, zusätzlich ein Display anzuschließen. Verbinde dafür das Display mit einem Qwicc-Kabel und verbinde es mit dem I2C-Anschluss der MCU-S2.  
+Eine Photodiode zur Messung der Beleuchtungsstärke und die RGB-LED sind drekt auf dem Board verbaut, sodass sie nicht separat angeschlossen werden müssen. Zur Uberprüfung der Messwerte der Beleuchtungsstärke macht es jedoch Sinn, zusätzlich ein Display anzuschließen. Verbinde dafür das Display mit einem QWIIC-Kabel und verbinde es mit dem I2C-Anschluss der MCU-S2.  
 
 {% include image.html image=page.image0 %}
 

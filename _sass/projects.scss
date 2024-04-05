@@ -171,6 +171,7 @@ background: rgb(242, 148, 0);
 .circuitpython {
     background: #652b90;
     color: white;
+    font-size: 0.6rem;
 }
 
 .label-ticked{
@@ -189,7 +190,6 @@ background: rgb(242, 148, 0);
     height: 75px;
     text-align: right;
     span {
-        font-size: rem(12px);
         font-weight: bold;
         color: #FFF;
         text-transform: uppercase;

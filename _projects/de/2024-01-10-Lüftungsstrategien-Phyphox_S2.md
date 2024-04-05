@@ -14,7 +14,7 @@ material:
     - senseBox MCU-S2
     - 1x CO2-Sensor
     - 1x Bluetooth-Bee
-    - 1x QWICC-Kabel 
+    - 1x QWIIC-Kabel 
     - evtl. Batterie
     
 ide: blockly

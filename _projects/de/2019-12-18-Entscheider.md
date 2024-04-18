@@ -17,7 +17,7 @@ material:
   - 1x OLED Display
   - 1x JST-JST Kabel
 ide: blockly
-version: ["edu", "mini v1"]
+version: ["edu", "mini v1", "Spiel"]
 lang: de
 tags: ["Informatik"]
 difficult: mittel

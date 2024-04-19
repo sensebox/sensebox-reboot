@@ -24,7 +24,7 @@ material:
 ide: blockly
 version: ["edu", "mini"]
 lang: de
-tags: ["Informatik", "CO2-Ampel Set Edu"]
+tags: ["Informatik", "CO2-Ampel Set Edu", "Spiel"]
 difficult: schwer
 ---
 

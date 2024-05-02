@@ -1,22 +1,19 @@
 header: "Impressum"
 info:
   header: "Angaben gemäß § 5 TMG:"
-  address: "Institut für Geoinformatik <br />
-   GI@SchoolLab <br />
-   Heisenbergstraße 2<br />
-   Geo 1<br />
-   48149 Münster"
+  address: "Reedu GmbH & Co. KG <br />
+   Von-Steuben-Str. 21<br />
+   48143 Münster"
 contact:
   header: "Kontakt:"
-  details: "Telefon: +49 (251) 83-33 083<br />
-   E-Mail: info@sensebox.de"
+  details: "Telefon: +49 251 98119797<br />
+   E-Mail: kontakt@reedu.de"
 responsible:
   header: "Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:"
-  details: "Geschäftsführende Direktorin
-   Prof. Dr. Angela Schwering <br />
-   Heisenbergstraße 2<br />
-   Geo 1<br />
-   48149 Münster"
+  details: "Geschäftsführer
+   Umut Tas <br />
+   Von-Steuben-Str. 21<br />
+   48143 Münster"
 dispute:
   header: "Streitschlichtung"
   content1: "Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: <a href=\"https://ec.europa.eu/consumers/odr\" target=\"_blank\">https://ec.europa.eu/consumers/odr</a>.<br /> Unsere E-Mail-Adresse finden Sie oben im Impressum."

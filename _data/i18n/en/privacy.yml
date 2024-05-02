@@ -32,7 +32,7 @@ general:
   contact:
     header: "Notice concerning the party responsible for this website"
     content1: "The party responsible for processing data on this website is:"
-    address: "Institut für Geoinformatik<br />Heisenbergstraße 2<br />48149 Münster</p><p>Telephone: +49 (251) 83-33 083 <br />E-Mail: info@sensebox.de"
+    address: "Reedu GmbH & Co. KG <br />Von-Steuben-Str. 21<br />48143 Münster</p><p>Telephone: +49 251 98119797 <br />E-Mail: kontakt@reedu.de"
     content2: "The responsible party is the natural or legal person who alone or jointly with others decides on the purposes and means of processing personal data (names, email addresses, etc.)."
   recall:
     header: "Revocation of your consent to the processing of your data"
@@ -57,13 +57,13 @@ privacyofficer:
   details:
     header: "Statutory data protection officer"
     content: "We have appointed a data protection officer for our company."
-    address: "Institut für Geoinformatik<br />
-  Heisenbergstraße 2<br />
-  48149 Münster</p>
+    address: "Reedu GmbH & Co. KG<br />
+  Von-Steuben-Str. 21<br />
+  48143 Münster</p>
 
   <p>
-    Telephone: +49 (251) 83-33 083 <br />
-    E-Mail: info@sensebox.de"
+    Telephone: +49 251 98119797 <br />
+    E-Mail: kontakt@reedu.de"
 collection:
   header: "4. Data collection on our website"
   cookies:

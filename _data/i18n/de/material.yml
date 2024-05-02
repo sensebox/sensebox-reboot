@@ -3,7 +3,8 @@
   organisation: senseBox - Team
   description: Lernkarten für das selbstständige Arbeiten mit der senseBox und der Programmierung mit Blockly. Die Lernkarten können online angeschaut oder ausgedruckt werden.
   bgImage: /images/material/cards.png
-  link: /de/lernkarten.html
+  linkMCU: /de/lernkarten-mcu.html
+  linkMCU-S2: /de/lernkarten-s2.html
 
 - name: senseBox Placemats
   position: t2

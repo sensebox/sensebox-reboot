@@ -1,100 +1,100 @@
 - head: Lernkarten
-  image: /images/lernkarten/1.jpg
+  image: /images/lernkarten/mcu/1.jpg
   position: 1
 
 - head: Die senseBox Lernkarten
-  image: /images/lernkarten/2.jpg
+  image: /images/lernkarten/mcu/2.jpg
   position: 2
 
 - head: senseBox MCU - Anschlüsse
-  image: /images/lernkarten/3.jpg
+  image: /images/lernkarten/mcu/3.jpg
   position: 3
 
 - head: senseBox Kabel
-  image: /images/lernkarten/4.jpg
+  image: /images/lernkarten/mcu/4.jpg
   position: 4
 
 - head: Digital-/Analog-Ports
-  image: /images/lernkarten/5.jpg
+  image: /images/lernkarten/mcu/5.jpg
   position: 5
 
 - head: Das Breadboard
-  image: /images/lernkarten/6.jpg
+  image: /images/lernkarten/mcu/6.jpg
   position: 6
 
 - head: Die grünen Umweltsensoren
-  image: /images/lernkarten/7.jpg
+  image: /images/lernkarten/mcu/7.jpg
   position: 7
 
 - head: Der CO2-Sensor
-  image: /images/lernkarten/8.jpg
+  image: /images/lernkarten/mcu/8.jpg
   position: 8
 
 - head: Der Umweltsensor BME680
-  image: /images/lernkarten/9.jpg
+  image: /images/lernkarten/mcu/9.jpg
   position: 9
 
 - head: Das Display
-  image: /images/lernkarten/10.jpg
+  image: /images/lernkarten/mcu/10.jpg
   position: 10
 
 - head: Der Ultraschall-Distanzsensor
-  image: /images/lernkarten/11.jpg
+  image: /images/lernkarten/mcu/11.jpg
   position: 11
 
 - head: Die RGB-LED
-  image: /images/lernkarten/12.jpg
+  image: /images/lernkarten/mcu/12.jpg
   position: 12
 
 - head: Die RGB-LED (WS2812)
-  image: /images/lernkarten/13.jpg
+  image: /images/lernkarten/mcu/13.jpg
   position: 13
 
 - head: Der Geräuschsensor
-  image: /images/lernkarten/14.jpg
+  image: /images/lernkarten/mcu/14.jpg
   position: 14
 
 - head: Der Button
-  image: /images/lernkarten/15.jpg
+  image: /images/lernkarten/mcu/15.jpg
   position: 15
 
 - head: Der Feinstaubsensor (SDS011)
-  image: /images/lernkarten/16.jpg
+  image: /images/lernkarten/mcu/16.jpg
   position: 16
 
 - head: Der Feinstaubsensor (SPS30)
-  image: /images/lernkarten/17.jpg
+  image: /images/lernkarten/mcu/17.jpg
   position: 17
 
 - head: Das GPS-Modul
-  image: /images/lernkarten/18.jpg
+  image: /images/lernkarten/mcu/18.jpg
   position: 18
 
 - head: Der Bodensensor
-  image: /images/lernkarten/19.jpg
+  image: /images/lernkarten/mcu/19.jpg
   position: 19
 
 - head: Datenübertragung auf die openSenseMap
-  image: /images/lernkarten/20.jpg
+  image: /images/lernkarten/mcu/20.jpg
   position: 20
 
 - head: Datenübertragung an die Phyphox-App
-  image: /images/lernkarten/21.jpg
+  image: /images/lernkarten/mcu/21.jpg
   position: 21
 
 - head: Datenspeicherung auf der SD-Karte
-  image: /images/lernkarten/22.jpg
+  image: /images/lernkarten/mcu/22.jpg
   position: 22
 
 - head: Variablen
-  image: /images/lernkarten/23.jpg
+  image: /images/lernkarten/mcu/23.jpg
   position: 23
 
 - head: Wenn-Dann-Was?
-  image: /images/lernkarten/24.jpg
+  image: /images/lernkarten/mcu/24.jpg
   position: 24
 
 - head: Operatoren
-  image: /images/lernkarten/25.jpg
+  image: /images/lernkarten/mcu/25.jpg
   position: 25
 

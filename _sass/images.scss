@@ -56,6 +56,18 @@
   z-index: 1;
 }
 
+.card-bg {
+  /* This stretches the canvas across the entire hero unit */
+  //position: absolute;
+  top: 0;
+  left: 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-bottom: 1px #fff solid;
+  /* This positions the canvas under the text */
+  z-index: 1;
+}
+
 .store-logo {
   width: 150px;
   height: auto;

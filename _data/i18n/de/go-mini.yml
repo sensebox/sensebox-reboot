@@ -1,6 +1,6 @@
 blockly: "Schnellstart Anleitung Blockly"
 blockly-text: "In diesem Tutorial wird dir die Oberfläche und Bedienung von Blockly erklärt."
-blockly-link: "https://docs.sensebox.de/blockly/blockly-erster-sketch/"
+blockly-link: "https://docs.sensebox.de/docs/boards/mcu/mcu-erster-sketch"
 blockly-button: "Los geht's!"
 
 arduino: "Schnellstart Anleitung Arduino IDE"

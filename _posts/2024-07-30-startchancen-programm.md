@@ -5,9 +5,9 @@ date: 2024-07-30
 author: Gina
 abstract: "Zum neuen Schuljahr 24/25 startet das Startchancen-Programm mit einer Laufzeit von zehn Jahren. Wir erkären, was hinter dem Programm steckt und wie ihr eure Schule mit einem senseBox-Set ausstatten könnt!"
 thumbnail: /images/blog/Startchancen-Programm-Thumbnail.jpg
-image1: /images/blog/
-image2: /images/blog/
-image3: /images/blog/
+image1: /images/blog/startchancen-1.jpg
+image2: /images/blog/startchancen-2.png
+image3: /images/blog/startchancen-3.png
 lang: de
 tag: News
 ---
@@ -26,13 +26,33 @@ Um Teilhabe zu ermöglichen, braucht es eine Stärkung der Basis- und Zukunftsko
 
 Dies geschieht anhand von drei Projektsäulen:
 
-{% include image.html image=page.image1 %}
+{% include image.html image=page.image2 %}
 
 # MINT-Förderung mit der senseBox
 
+Die senseBox wurde vom [Institut für Geoinformatik der Universität Münster](https://www.uni-muenster.de/Geoinformatics/) und dem Start-Up [re:edu](https://reedu.de/) entwickelt. Die [senseBox:edu](https://sensebox.de/de/products-edu) und auch die [senseBox:edu S2](https://sensebox.de/de/products-edus2) als Nachfolgemodell wurden speziell für den Bildungsbereich konzipiert und verknüpfen Umweltbildung und Informatik, insbesondere durch den Ansatz des Physical Computings. Neben frei verfügbaren Bildungsmaterialen, einer offenen [Umweltdatenplattform](https://opensensemap.org/) und der [blockbasierten Programmieroberfläche](https://blockly.sensebox.de/), bildet ein einfach zu programmierender Mikrocontroller die Basis. Über ein Stecksystem werden Sensoren zur Erhebung von Umweltdaten (z.B. Temperatur) sowie Datenübertragungsmodule angeschlossen. Dies ermöglicht, den gesamten Forschungsprozess zu durchlaufen, indem eigenständig eine Fragestellung entwickelt, ein Messgerät gebaut und programmiert sowie Daten erfasst und ausgewertet werden können. 
+
+{% include image.html image=page.image1 %}
+
 Mit dem Budget des Startchancen-Programms können folgende Maßnahmen mit der senseBox umgesetzt werden:
 
-{% include image.html image=page.image2 %}
+{% include image.html image=page.image3 %}
+
+**Säule I**: Die senseBox als Tool ermöglicht es nicht nur Umweltbildung und Informatik zu verknüpfen, sondern auch Einblicke in die BlackBox der digitalen Welt zu erhalten. Durch ihre vielfältigen Einsatzmöglichkeiten im Unterricht kann die senseBox als Hardware fächerübergreifend, insbesondere in den MINT-Fächern, eingesetzt werden. Sie ist flexibel nutzbar und kann trotz infrastruktureller Herausforderungen verwendet werden. Wenn etwa keine bzw. eine schlechte W-LAN-Verbindung vorherrscht, können die Umweltdaten z.B. auf SD-Karte gespeichert werden.
+
+**Säule II**: Für Veranstaltungsformate wie Fortbildungen, Workshops oder Projektangebote als Unterstützungsangebot zur Weiterentwicklung und Professionalisierung von Lehrkräften und dem Unterricht stellen wir je nach Bedarf (Klassengröße, Fach / thematischer Schwerpunkt, Vorkenntnisse, Dauer, Infrastruktur etc.) ein individuelles Angebot zusammen. Darüber hinaus stellen wir die Programmieroberfläche zur Stärkung logischer und algorithmischer Denkweisen als Grund- und Zukunftskompetenzen frei zur Verfügung.
+
+Wir fokussieren uns auf diese beiden Säulen, da die senseBox:edu S2 genau für diese Bereiche passgenau eingesetzt werden kann. Mit unserem [Startchancen-Set](/docs/Startchancen-Programm-senseBox.pdf) kombinieren wir die beiden Säulen, damit die technische Ausstattung nicht losgelöst von den pädagogisch-didaktischen Einsatzzwecken erfolgt. Unser Ansatz: Die senseBox als Hardware soll auch den Weg ins Klassenzimmer finden und mit Freude von den Schüler:innen und Lehrkräften verwendet werden. 
+
+Alle Informationen zu unserem Startchancen-Set findet ihr [hier](/docs/Startchancen-Programm-senseBox.pdf).
+
+### Vorteile der senseBox auf einem Blick:
+
+- **Komplettpaket**: nur Hardware benötigt, Software und Unterrichtsmaterialien sind frei verfügbar
+- **Vielfältige Nutzung**: fächerübergreifend einsetzbar, vor allem im MINT-Bereich
+- projekt- und anwendungsbezogene Vermittlung von Unterrichtsinhalten durch die Verknüpfung von Umwelt & Technik
+- **Schwierigkeitsgrad variabel**: durch die grafische Programmieroberfläche ist ein einfacher Einstieg und niedrigschwelliger Zugang in die Welt der Programmierung möglich, aber auch Fortgeschrittene können
+- **Verschiedene Programmiersprachen**: Neben der blockbasierten Programmieroberfläche '[Blockly für senseBox](https://blockly.sensebox.de/)', in der parallel zu den Blöcken der Arduino-Quellcode ausgegeben wird, kann auch Circuit Phython  
 
 ## Wie können die Gelder abgerufen werden?
 
@@ -42,7 +62,7 @@ Die Schulen sollen von den Landesstellen Unterstützung bei der Verwaltung der M
 - **Antragstellung:** Schulen reichen detaillierte Förderanträge bei den zuständigen Stellen ein.
 - **Bewilligung:** Nach Prüfung werden die Mittel bewilligt und bereitgestellt.
 - **Umsetzung und Berichtswesen:** Schulen setzen die Maßnahmen um und berichten regelmäßig über die Fortschritte und den Einsatz der Mittel.
-
+  
 Wir würden uns sehr freuen, wenn sich eure Schule für die senseBox entscheidet! Bei Rückfragen beraten wir euch selbstverständlich gerne. Meldet euch dazu bitte bei unserer Ansprechpartnerin Verena Witte per Mail an [v.witte@reedu.de](mailto:v.witte@reedu.de) oder telefonisch unter 0251 9811 9797.
 
-**Hinweis:** Wir wollen allen Schulen eine Chance geben, also auch Schulen, die nicht in dem Programm sind, können sich gerne bei uns melden!
+**Hinweis:** Wir wollen allen Schulen eine Chance geben, also auch Schulen, die nicht in dem Startchancen-Programm teilnehmen, können sich gerne bei Interesse bei uns melden und das Set-Angebot erhalten! Allerdings können diese nicht von der Förderung des Bundes profitieren und müssen die Kosten selbst tragen.

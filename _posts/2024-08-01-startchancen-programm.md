@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "MINT-Förderung im Startchancen-Programm: Das senseBox-Set für Schulen"
-date: 2024-07-30
+date: 2024-08-01
 author: Gina
 abstract: "Zum neuen Schuljahr 24/25 startet das Startchancen-Programm mit einer Laufzeit von zehn Jahren. Wir erkären, was hinter dem Programm steckt und wie ihr eure Schule mit einem senseBox-Set ausstatten könnt!"
 thumbnail: /images/blog/Startchancen-Programm-Thumbnail.jpg
@@ -22,7 +22,7 @@ Schulen von der Grund- bis zur Berufsschule werden unterstützt, aber können si
 
 # Mehr Chancengerechtigkeit, aber wie? - Ziele des Startchancen-Programms
 
-Um Teilhabe zu ermöglichen, braucht es eine Stärkung der Basiskompetenzen, wie Lesen, Schreiben und Rechnen. Aber auch die sogenannten Future Skills, wie Digital-, Data- und AI-Literacy sind von Bedeutung, um aktiv an der digitalen Gesellschaft teilhaben zu können. Des Weiteren soll die Schulentwicklung durch eine Verbesserung der Infrastruktur und Ausstattung sowie durch die Professionalisierung und Weiterentwicklung der Strukturen im Unterricht und im Kollegium an den Startchancen-Schulen unterstützt werden.
+Um Teilhabe zu ermöglichen, braucht es eine Stärkung der Basiskompetenzen wie Lesen, Schreiben und Rechnen. Aber auch die sogenannten Future Skills wie Digital-, Data- und AI-Literacy sind von Bedeutung, um aktiv an der digitalen Gesellschaft teilhaben zu können. Des Weiteren soll die Schulentwicklung durch eine Verbesserung der Infrastruktur und Ausstattung sowie durch die Professionalisierung und Weiterentwicklung der Strukturen im Unterricht und im Kollegium an den Startchancen-Schulen unterstützt werden.
 
 Dies geschieht anhand von drei Projektsäulen:
 
@@ -38,21 +38,21 @@ Mit dem Budget des Startchancen-Programms können folgende Maßnahmen mit der se
 
 {% include image.html image=page.image3 %}
 
-**Säule I**: Die senseBox als Tool ermöglicht es nicht nur Umweltbildung und Informatik zu verknüpfen, sondern auch Einblicke in die BlackBox der digitalen Welt zu erhalten. Durch ihre vielfältigen Einsatzmöglichkeiten im Unterricht kann die senseBox als Hardware fächerübergreifend, insbesondere in den MINT-Fächern, genutzt werden. So kann auch ohne das Pflichfach Informatik eine Stärkung der algorithmischen und logischen Denkweisen bei den Lernenden erfolgen. Zudem ist die Software webbasiert nutzbar, wodurch infrastrukturelle Hürden minimiert werden. 
+**Säule I**: Die senseBox als Tool ermöglicht es nicht nur Umweltbildung und Informatik zu verknüpfen, sondern auch Einblicke in die BlackBox der digitalen Welt zu erhalten. Durch ihre vielfältigen Einsatzmöglichkeiten im Unterricht kann die senseBox als Hardware fächerübergreifend, insbesondere in den MINT-Fächern, genutzt werden. So kann auch ohne das Pflichtfach Informatik eine Stärkung der algorithmischen und logischen Denkweisen bei den Lernenden erfolgen. Zudem ist die Software webbasiert nutzbar, wodurch infrastrukturelle Hürden minimiert werden. 
 
 **Säule II**: Für Veranstaltungsformate wie Fortbildungen, Workshops oder Projektangebote als Unterstützungsangebot zur Weiterentwicklung und Professionalisierung von Lehrkräften und dem Unterricht stellen wir je nach Bedarf (Klassengröße, Fach / thematischer Schwerpunkt, Vorkenntnisse, Dauer, Infrastruktur etc.) ein individuelles Angebot zusammen. Darüber hinaus stellen wir die Programmieroberfläche zur Stärkung logischer und algorithmischer Denkweisen als Grund- und Zukunftskompetenzen frei zur Verfügung.
 
 Wir fokussieren uns auf diese beiden Säulen, da die senseBox:edu S2 genau für diese Bereiche passgenau eingesetzt werden kann. Mit unserem [Startchancen-Set](/docs/Startchancen-Programm-senseBox.pdf) kombinieren wir die beiden Säulen, damit die technische Ausstattung nicht losgelöst von den pädagogisch-didaktischen Einsatzzwecken erfolgt. Unser Ansatz: Die senseBox als Hardware soll auch den Weg ins Klassenzimmer finden und mit Freude von den Schüler:innen und Lehrkräften verwendet werden. 
 
-Alle Informationen zu unserem Startchancen-Set findet ihr [hier](/docs/Startchancen-Programm-senseBox.pdf).
+Alle Informationen zu unserem Startchancen-Set findet ihr <a class="green-link" href="/docs/flyer/senseBox_Startchancen-Programm.pdf" target="_blank">hier</a>.
 
 ### Vorteile der senseBox auf einem Blick:
 
-- **Komplettpaket**: nur Hardware benötigt, Software und Unterrichtsmaterialien sind frei verfügbar
-- **Vielfältige Nutzung**: fächerübergreifend einsetzbar, vor allem im MINT-Bereich
-- projekt- und anwendungsbezogene Vermittlung von Unterrichtsinhalten durch die Verknüpfung von Umwelt & Technik
-- **Schwierigkeitsgrad variabel**: Durch die grafische Programmieroberfläche ist ein einfacher Einstieg und niedrigschwelliger Zugang in die Welt der Programmierung möglich, aber auch Fortgeschrittene können die senseBox nutzen. Ein Einsatz ab Jahrgangsstufe sieben wird empfohlen. 
-- **Verschiedene Programmiersprachen**: Neben der blockbasierten Programmieroberfläche '[Blockly für senseBox](https://blockly.sensebox.de/)', in der parallel zu den Blöcken der Arduino-Quellcode ausgegeben wird, kann auch Circuit Phython verwendet wwerden. 
+- **Komplettpaket**: Nur Hardware benötigt, Software und Unterrichtsmaterialien sind frei verfügbar.
+- **Vielfältige Nutzung**: Fächerübergreifend einsetzbar, vor allem im MINT-Bereich.
+- **Lebensweltbezug**: Projekt- und anwendungsbezogene Vermittlung von Unterrichtsinhalten durch die Verknüpfung von Umwelt & Technik.
+- **Schwierigkeitsgrad variabel**: Durch die grafische Programmieroberfläche ist ein einfacher Einstieg und niedrigschwelliger Zugang in die Welt der Programmierung möglich, aber auch Fortgeschrittene können die senseBox nutzen. Ein Einsatz ab Jahrgangsstufe 7 wird empfohlen. 
+- **Verschiedene Programmiersprachen**: Neben der blockbasierten Programmieroberfläche '[Blockly für senseBox](https://blockly.sensebox.de/)', in der parallel zu den Blöcken der Arduino-Quellcode ausgegeben wird, kann auch Circuit Phython verwendet werden. 
 
 ## Wie können die Gelder abgerufen werden?
 

@@ -89,3 +89,10 @@
   description: "Ausgehend von einem Bunsenbrenner, einer Herdplatte & einem Wasserkocher wird die mögliche Leitfrage entwickelt: Was erwärmt Wasser am höchsten? Anschließend beginnen die SuS mit dem Bauen des digitalen Thermometers, programmieren es & führen das Experiment durch."
   bgImage: /images/material/wassertemp.jpeg
   link: /docs/Experiment_Wassertemp.zip
+
+- name: "Wir messen Feinstaub in deiner Stadt"
+  position: t15
+  organisation: Reedu GmbH & Co. KG
+  description: "Die Schülerinnen und Schüler lernen, wie sie die Feinstaubbelastung ihrer Stadt eigen- ständig messen können. Mithilfe der grafischen Programmieroberfläche „Blockly für senseBox“ können sie ohne Vorkenntnisse das dafür notwendige Messgerät bauen. Zudem lernen die Schülerinnen und Schüler, welche Faktoren die Feinstaubbelastung beeinflussen und inwieweit sie darauf aufbauend etwas zum Schutz der Umwelt bei- tragen können"
+  bgImage: /images/material/Feinstaub_Hopp.png
+  link: /docs/Feinstaub_Hopp.pdf

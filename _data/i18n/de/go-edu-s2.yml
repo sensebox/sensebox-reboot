@@ -1,16 +1,16 @@
 blockly: "Schnellstart Anleitung Blockly"
 blockly-text: "In diesem Tutorial wird dir die Oberfläche und Bedienung von Blockly erklärt."
-blockly-link: "https://kb.sensebox.de/docs/blockly/your-first-sketch"
+blockly-link: "https://docs.sensebox.de/docs/boards/mcus2/mcus2-erster-sketch"
 blockly-button: "Los geht's!"
 
 arduino: "Schnellstart Anleitung Arduino IDE"
 arduino-text: "In diesem Tutorial findest du alle Informationen zur Programmierng deiner senseBox mit der Arduino IDE."
-arduino-link: "https://kb.sensebox.de/docs/category/arduino"
+arduino-link: "https://docs.sensebox.de/docs/editors/arduino/first-steps"
 arduino-button: "Los geht's!"
 
 circuitpython: "Schnellstart Anleitung CircuitPython"
 circuitpython-text: "In diesem Tutorial findest du alle Informationen zur Programmierng deiner senseBox mit CircuitPython."
-circuitpython-link: "https://kb.sensebox.de/docs/circuitpython/circuitpython_esp32"
+circuitpython-link: "https://docs.sensebox.de/docs/misc/circuitpython_esp32"
 circuitpython-button: "Los geht's!"
 
 material: "Material und Projekte"

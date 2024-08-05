@@ -10,7 +10,7 @@ arduino-button: "Let's go!"
 
 material: "Material and Projects"
 material-text: "Here you can find materials for the use of the senseBox in teaching and projects to rebuild."
-materila-link-material: "https://sensebox.de/en/material.html"
+material-link-material: "https://sensebox.de/en/material.html"
 material-link-projects: "https://sensebox.de/en/projects.html"
 material-button-material: "To the material!"
 material-button-projects: "To the projects!"

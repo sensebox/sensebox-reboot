@@ -32,7 +32,7 @@ modernen Mikrocontrollern, so kann hierdurch ein autarker batteriegestützter Be
 relation-to-potential-risks: "Relation zu möglichen negativen Umweltwirkungen"
 relation-to-potential-risks-text: "Die Anzahl der IoT-Anwendungen sowie entsprechender auf KI-basierende Mikrocontroller wird in Zukunft drastisch ansteigen, sowohl für direkte Anwendungen zum Schutz unserer Umwelt und Natur als auch für zahlreiche wirtschaftliche Anwendungen (mit ggf. auch positive Umweltbilanz). Allerdings werden die zunehmende Digitalisierung und insbesondere auch weitere IoT-Anwendungen zu einem zusätzlichen Energieverbrauch führen. Zudem könnten effizientere Implementationen dazu führen, dass zusätzliche intelligente Mikrocontroller eingesetzt werden. Allerdings ist davon auszugehen, dass die Umsetzung entsprechender Szenarien maßgeblich durch den wirtschaftlichen Nutzen und nicht durch den Energieverbrauch bestimmt werden wird. Insofern sind effizientere Implementationen in jedem Fall wünschenswert."
 funding-title: Förderung
-funding-text: Dieses Projekt wird gefördert durch das Bundesministerium für Umwelt, Naturschutz, nukleare Sicherheit und Verbraucherschutz (BMUV). 
+funding-text: Dieses Projekt wird gefördert durch das Bundesministerium für Umwelt, Naturschutz, nukleare Sicherheit und Verbraucherschutz (BMUV) und läuft bis zum 31.12.2025. 
 use-cases: "Anwendungsfälle"
 birdiary-1: "Das TinyAIoT Projekt wurde zum Teil vom "
 birdiary-2: " Projekt inspiriert."

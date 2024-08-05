@@ -36,3 +36,6 @@ tof-takeovers: "Detecting dangerously close takeover manoeuvres with ToF imaging
 vibration-person-detection: "Counting people based on step vibrations"
 smart-trashcan: "Measuring and sending fill height of public trashcans"
 publications: "Publications"
+funding-title: Funding
+funding-text: This project is funded by the Federal Ministry for the Environment, Nature Conservation, Nuclear Safety and Consumer Protection (BMUV) and expires on December 31, 2025. 
+

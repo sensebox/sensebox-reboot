@@ -1,12 +1,12 @@
 setup: "Setting up your senseBox:home"
 setup-text: "In this three step tutorial you will get all information about the construction, registration and programming of your senseBox:home."
-setup-link: "https://en.docs.sensebox.de/sensebox-home/home-schritt-1/"
+setup-link: "https://docs.sensebox.de/docs/products/home/aufbau/home-schritt-1"
 setup-button: "Let's go!"
 
 
 components: "Information about the components"
 components-text: "Here you can find detailed information about all components of the senseBox"
-components-link: "https://en.docs.sensebox.de/category/hardware/"
+components-link: "https://docs.sensebox.de/category/hardware/"
 components-button: "Let's go!"
 
 help: "Where can I find help?"

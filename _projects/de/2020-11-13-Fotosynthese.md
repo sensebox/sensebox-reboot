@@ -43,7 +43,7 @@ Das Ziel der Programmierung ist es, den Verlauf des CO2-Gehalts innerhalb des Ge
 
 ### Schritt 1: Display initialisieren und Messintervall festlegen
 
-Da du das Display als Anzeige verwendest, sollte dies zuerst im Setup() initialisisert werden. Zudem kannst du anschließend in der Endlosschleiße festlegen, in welchem Messintervall die CO2-Konzentration bestimmt und angezeigt werden soll. In diesem Beispiel wurden 60000 ms (1 Minute) gewählt, da dieses Intervall genügt, um einen Eindruck über die Entwicklung der CO2-Konzentration zu erhalten.
+Da du das Display als Anzeige verwendest, sollte dies zuerst im Setup() initialisisert werden.
 
 {% include image.html image=page.image1 %}
 

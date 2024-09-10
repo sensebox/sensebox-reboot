@@ -3,7 +3,7 @@ layout: post
 title:  "Rektorat zeichnet zwei Projekte mit dem Transferpreis aus"
 date:   2022-06-02
 author: Gina
-thumbnail: /images/press/wwu.jpg
+thumbnail: /images/press/unims.svg
 categories: press
 ---
 "Zwei Projekte aus der Geoinformatik und den Lebenswissenschaften ehrt die Westfälische Wilhelms-Universität (WWU) Münster in diesem Semester mit dem Transferpreis 2020/21. Das Projekt „senseBox und openSenseMap“ des Geoinformatikers Dr. Thomas Bartoschek in Kooperation mit der Berliner Futurium gGmbH findet Anwendung in der digitalen Bildung und in der Bürgerwissenschaft."

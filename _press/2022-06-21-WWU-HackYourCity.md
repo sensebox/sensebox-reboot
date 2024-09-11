@@ -3,7 +3,7 @@ layout: post
 title: "Ferienprogramm 'HackYourCity' des Schülerlabors GI@School"
 date:   2022-06-21
 author: Gina
-thumbnail: /images/press/unims.svg
+thumbnail: /images/press/unims.png
 categories: press
 ---
 "Das Schülerlabor „GI@School“ des Instituts für Geoinformatik der Universität Münster lädt Schülerinnen und Schüler ab der fünften Jahrgangsstufe zu verschiedenen Aktivitäten in den Sommerferien ein. Im Rahmen des Projektes „HackYourCity“ bieten die Veranstalter zwei Ferienakademien und einen Hackathon an."

@@ -1,24 +1,25 @@
 {% assign pressnews = site.press | sort: 'date' | reverse %}
 <div class="container">
-    {% for post in pressnews %}
-    <div class="row">
-        {% if post.thumbnail %}
-        <div class="col-4">
-            <img loading="lazy" class="press-pic" src="{{ site.baseurl | append: post.thumbnail }}" alt="{{ post.title }} - Logo" />
-        </div>
-
-        <div class="col-8">
-            <h2 style="clear:both">{{ post.title }}</h2>
-            <div class="content press-text">
-                {{ post.content }}
-            </div>
-        </div>
-        {% else %}
-        <div class="content press-text">
-            {{ post.content }}
-        </div>
-        {% endif %}
+  {% for post in pressnews %}
+  <div class="row">
+    {% if post.thumbnail %}
+    <div class="col-4 d-flex justify-content-center align-items-center">
+      <img
+        loading="lazy"
+        class="press-pic"
+        src="{{ site.baseurl | append: post.thumbnail }}"
+        alt="{{ post.title }} - Logo"
+      />
     </div>
-    <hr class="featurette-divider">
-    {% endfor %}
+
+    <div class="col-8">
+      <h2 style="clear: both">{{ post.title }}</h2>
+      <div class="content press-text">{{ post.content }}</div>
+    </div>
+    {% else %}
+    <div class="content press-text">{{ post.content }}</div>
+    {% endif %}
+  </div>
+  <hr class="featurette-divider" />
+  {% endfor %}
 </div>

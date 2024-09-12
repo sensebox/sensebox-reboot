@@ -13,7 +13,7 @@ go-edu-link: /go-edu.html
 go-mini-name: ":mini"
 go-mini-link: /go-mini.html
 go-co2-name: ":CO<sub>2</sub>-Ampel"
-go-co2-link: /go-co2.html
+go-co2-link: https://docs.sensebox.de/docs/products/co2ampel/co2ampel-overview/
 go-edus2-link: /go-edu-s2.html
 go-edus2-name: ":edu S2"
 #Products

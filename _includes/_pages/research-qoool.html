@@ -1,0 +1,241 @@
+{% assign qoool = site.data.i18n.[page.lang].research-qoool %} {% assign
+awardslist = site.awards | sort: 'weight' %}
+
+<div class="container">
+  <div class="row row-padding">
+    <div class="col-4"></div>
+    <div class="col-8">
+      <img
+        src="/images/logos/tinyaiot/tinyaiot_logo.png"
+        class="partner-pic"
+        alt="..."
+      />
+    </div>
+    <div class="col-4"></div>
+  </div>
+  <div class="row row-padding">
+    <div class="col-12">
+      <h2>{{tinyaiot.idea}}</h2>
+      <p>{{tinyaiot.idea-text}}</p>
+      <h3>{{tinyaiot.resource-efficiency}}</h3>
+      <p>{{tinyaiot.resource-efficiency-text}}</p>
+    </div>
+  </div>
+  <div class="row row-padding">
+    <div class="col-12">
+      <h2>{{tinyaiot.partners}}</h2>
+      <p>{{tinyaiot.partners-text}}</p>
+    </div>
+  </div>
+  <div class="row row-padding">
+    <div class="col-6 text-center">
+      <div class="card partner-card">
+        <img
+          src="/images/logos/reedu_white.png"
+          class="partner-pic"
+          alt="..."
+        />
+        <div class="card-body">
+          <p class="card-text">{{ tinyaiot.partner-reedu }}</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-6 text-center flex align-content-center">
+      <div class="card partner-card">
+        <img
+          src="/images/logos/tinyaiot/wwu.svg"
+          class="partner-pic"
+          alt="..."
+        />
+        <div class="card-body">
+          <p class="card-text">{{ tinyaiot.partner-wwu }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row row-padding">
+    <div class="col-12">
+      <h2>{{tinyaiot.associated-partners}}</h2>
+      <p>{{tinyaiot.associated-partners-text}}</p>
+    </div>
+  </div>
+  <div class="row row-padding justify-content-center align-items-center">
+    <div class="col-md-2 col-sm-2 text-center">
+      <div class="card partner-card">
+        <img
+          src="/images/logos/tinyaiot/stadtwerke_emsdetten.png"
+          class="partner-pic"
+          alt="..."
+        />
+        <div class="card-body">
+          <p class="card-text">{{tinyaiot.partner-emsdetten}}</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-2 col-sm-2 text-center">
+      <div class="card partner-card">
+        <img
+          src="/images/logos/tinyaiot/SmartCityMs.png"
+          class="partner-pic"
+          alt="..."
+        />
+        <div class="card-body">
+          <p class="card-text">{{tinyaiot.partner-smartcity}}</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-2 col-sm-2 text-center">
+      <div class="card partner-card">
+        <img
+          src="/images/logos/tinyaiot/naturschutzzentrum-coesfeld-logo.png"
+          class="partner-pic"
+          alt="..."
+        />
+        <div class="card-body">
+          <p class="card-text">{{tinyaiot.partner-coesfeld}}</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-2 col-sm-2 text-center">
+      <div class="card partner-card">
+        <img
+          src="/images/logos/tinyaiot/Hof-Homann_Logo.png"
+          class="partner-pic"
+          alt="..."
+        />
+        <div class="card-body">
+          <p class="card-text">{{tinyaiot.partner-homann}}</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-2 col-sm-2 text-center">
+      <img
+        src="/images/logos/tinyaiot/openSenseLab-Logo.svg"
+        class="partner-pic"
+        alt="..."
+      />
+      <div class="card-body">
+        <p class="card-text">{{tinyaiot.partner-opensenselab}}</p>
+      </div>
+    </div>
+    <div class="col-md-2 col-sm-2 text-center">
+      <img
+        src="/images/logos/tinyaiot/hanza-logo.png"
+        class="partner-pic img-fluid"
+        alt="..."
+      />
+      <div class="card-body">
+        <p class="card-text">{{tinyaiot.partner-hanza}}</p>
+      </div>
+    </div>
+  </div>
+  <div class="row row-padding">
+    <div class="row row-padding"></div>
+    <div class="row row-padding">
+      <div class="col-12">
+        <h3>{{ tinyaiot.ressource-efficiency }}</h3>
+        <div>{{tinyaiot.ressource-efficiency-text}}</div>
+
+        <h3>{{tinyaiot.resource-efficiency-potential}}</h3>
+        <div>{{tinyaiot.resource-efficiency-potential-text}}</div>
+        <ul>
+          <li>{{tinyaiot.resource-efficiency-potential-list-1}}</li>
+          <li>{{tinyaiot.resource-efficiency-potential-list-2}}</li>
+        </ul>
+        <div>{{tinyaiot.resource-efficiency-potential-text-2}}</div>
+        <br />
+        <div>{{tinyaiot.resource-efficiency-potential-text-3}}</div>
+      </div>
+    </div>
+    <div class="row row-padding">
+      <div class="col-12">
+        <h3>{{tinyaiot.transparency}}</h3>
+        <div>{{tinyaiot.transparency-text}}</div>
+      </div>
+    </div>
+
+    <div class="row row-padding">
+      <h2>{{tinyaiot.use-cases}}</h2>
+      <div class="row row-padding">
+        <div class="col-3"></div>
+        <div class="col-6">
+          <img
+            loading="lazy"
+            class="img-fluid"
+            src="/images/research/tinyaiot/wiediversistmeingarten.jpg"
+          />
+          <div class="card-body">
+            <p class="card-text">
+              {{tinyaiot.birdiary-1}}<a
+                href="https://wiediversistmeingarten.org/"
+                target="_blank"
+                >Birdiary</a
+              >{{tinyaiot.birdiary-2}}
+            </p>
+          </div>
+        </div>
+        <div class="col-3"></div>
+      </div>
+      <h3>{{tinyaiot.tof-takeovers}}</h3>
+      <div class="row row-padding">
+        <div class="col-3"></div>
+        <div class="col-6">
+          <img
+            loading="lazy"
+            class="img-fluid"
+            src="/images/research/tinyaiot/tof_takeovers.png"
+          />
+        </div>
+        <div class="col-3"></div>
+      </div>
+      <h3>{{tinyaiot.smart-trashcan}}</h3>
+      <div class="row row-padding">
+        <div class="col-3"></div>
+        <div class="col-6">
+          <img
+            loading="lazy"
+            class="img-fluid"
+            src="/images/research/tinyaiot/smart_trashcan_setup.png"
+          />
+        </div>
+        <div class="col-3"></div>
+      </div>
+      <h3>{{tinyaiot.vibration-person-detection}}</h3>
+      <div class="row row-padding">
+        <div class="col-3"></div>
+        <div class="col-6">
+          <img
+            loading="lazy"
+            class="img-fluid"
+            src="/images/research/tinyaiot/personenzaehler.png"
+          />
+        </div>
+        <div class="col-3"></div>
+      </div>
+      <!-- <h2>{{tinyaiot.publications}} </h2> -->
+      <hr />
+      <div class="row row-padding">
+        <div class="col-12">
+          <h3>{{tinyaiot.relation-to-potential-risks}}</h3>
+          <div>{{tinyaiot.relation-to-potential-risks-text}}</div>
+        </div>
+      </div>
+      <div class="row row-padding">
+        <div class="col-12">
+          <h3>{{tinyaiot.funding-title}}</h3>
+          <div class="row row-padding">
+            <div class="col-2"></div>
+            <div class="col-8 text-center">
+              <img src="/images/logos/tinyaiot/BMUV.svg" class="img-fluid" />
+              <div>{{tinyaiot.funding-text}}</div>
+            </div>
+            <div class="col-2"></div>
+          </div>
+        </div>
+        <div class="col-6"></div>
+      </div>
+      <hr />
+      <hr />
+    </div>
+  </div>
+</div>

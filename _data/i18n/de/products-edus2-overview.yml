@@ -1,0 +1,34 @@
+intro_text:    Die senseBox:edu S2 ist die nächste Generationen unserer senseBox. Die S2 bietet einen erweiterten Hardwareumfang, um noch mehr Vielfalt in Projekten und Experimenten zu ermöglichen. Alles, was du benötigst, ist in einem robusten Kunststoffkoffer mit Schaumstoffeinlage untergebracht, um optimal für den Einsatz in Schulen gerüstet zu sein.
+whats_in_the_box: In der senseBox:edu sind folgende Teile enthalten
+list_1: senseBox MCU-S2(ESP-32)
+list_2: Bluetooth-Bee
+list_3: Temperatursensor (HDC1080)
+list_4: Beleuchstungsstärke & UV Strahlungssensor (VEML6070)
+list_5: Lufttdruck und Temperatursensor(DPS310)
+list_6: Time-of-Flight (Tof) Sensor (VL53L0X)
+list_7: OLED-Display
+list_8: Mikro-SD Karte
+list_9: Batteriehalterung inklusive Batterie
+list_10: LED-Matrix
+list_11: 1m USB-C Kabel
+list_12: Verbindungskabel senseBox:edu S2
+wifi: Integriertes WiFi
+wifi_text: Jetzt ist ein WiFi-Modul direkt auf dem Board integriert! Mittels WiFi können von der senseBox aufgenommene Messwerte, mühelos ins Internet übertragen werden. Die Integration von Wifi ermöglicht es nun auch, sich problemlos in WPA2-gesicherte Netzwerke anzumelden. Diese Weiterentwicklung eröffnet Anwendern noch mehr Flexibilität und Komfort bei der Datenerfassung und -übertragung, indem sie eine nahtlose Integration in bestehende Netzwerkinfrastrukturen ermöglicht. Damit wird die senseBox zu einem noch leistungsstärkeren Werkzeug für die Umweltüberwachung und Datenanalyse.
+sd_modul: Integriertes SD-Kartenmodul
+sd_modul_text: Auf der mitgelieferten SD-Karte(4 Gigabyte) können die Daten der senseBox MCU S2 gespeichert werden. Diese hochwertige Speicherkarte bietet ausreichend Speicherplatz für die Aufzeichnung und Speicherung von Sensorwerten.
+rgb_led: RGB-LED
+rgb_led_text: Mittels der integrierten RGB-LED kann direkt Feedback zu dem Programmstatus der senseBox-MCU gegeben werden. Die RGB-LED kann Feedback zu unterschiedlichen Zuständen und Bedingungen signalisieren, was die Benutzerfreundlichkeit und das Verständnis für den Betriebsstatus erheblich verbessert. Diese Funktion macht die senseBox noch benutzerfreundlicher und bietet eine intuitive visuelle Rückmeldung, die es Anwendern erleichtert, den aktuellen Status ihres Programms auf einen Blick zu erfassen. Damit wird die senseBox zu einem noch leistungsfähigeren Werkzeug für die Umweltüberwachung und Datenvisualisierung.
+hdc1080: Temperatur- und Feuchtigkeitssensor (HDC1080)
+hdc1080_text: Der HDC1080 ist ein digitaler Feuchtigkeits- und Temperatursensor. Der Sensor hat eine hohe Genauigkeit und eine sehr geringe Stromaufnahme und eignet sich dadurch ideal zur Umweltdatenerhebung mit der senseBox. Der Temperatur- und Luftfeuchtesensor eignet sich besonders für die Untersuchung der Luftqualität in Innenräumen, aber auch zur Erforschung des Außenklimas. Die relative Luftfeuchtigkeit wird in Prozent erfasst und die Temperatur in Grad Celsius. Zum Anschluss an die senseBox wird ein passendes Qwiic-Kabel mitgeliefert.
+tof_imager: Time-of-Flight (ToF) Imager
+tof_imager_text: Time-of-Flight (ToF)-Kameras sind in der Lage, hochauflösende Tiefenbilder zu erzeugen. Diese Sensoren senden Infrarotlicht aus und messen die Zeit, die benötigt wird, bis das Licht wieder zurückreflektiert wird. Unser ToF-Sensor ist ein Multizone-Sensor, der die Entfernung nicht nur an einem Punkt, sondern in mehreren Zonen (8x8 Zonen) misst. Laut Hersteller sind Messungen bis zu 400 cm möglich. Die maximale messbare Distanz variiert jedoch je nach aktuellen Lichtverhältnissen (bei mehr Sonnenlicht wird eine geringere Distanz gemessen). Die Framerate kann bis zu 60 Hz betragen.
+light: Lichtsensor (LTR329 & VEML6070)
+light_text: Mit dem Lichtsensor (LTR329 & VEML6070) können Beleuchtungsstärke und UV-Strahlung präzise mit der mit der senseBox erfasst werden. Dieser Sensor liefert genaue Messwerte für die Umgebungslichtintensität sowie UV-Strahlungslevel, die für eine Vielzahl von Anwendungen in der Umweltüberwachung, Wetterstationen und Indoor-Beleuchtungskontrolle unverzichtbar sind. Die Helligkeit in lux gemessen und die UV-Intensität in μW/cm². Einfach zu integrieren und mit der senseBox kompatibel, ermöglicht dieser Sensor detaillierte Einblicke in die Lichtverhältnisse und die UV-Exposition der Umgebung. Das passende Qwiic-Anschlusskabel für die senseBox MCU S2 wird mitgeliefert.
+pressure: Luftdruck- und Temperatursensor (DPS310)
+pressure_text: Mit dem leistungsstarken DPS310 Sensor können Luftdruck- und Temperaturdaten präzise erfasst werden. Dieser hochwertige Sensor bietet eine hohe Genauigkeit und Zuverlässigkeit und eignet sich ideal für Luftqualitätsmessungen mit der senseBox. Der Messbereich des Luftdrucks liegt bei 300 bis 1200 hPa. Die relative Präzision der Luftdruckmesswerte liegen bei  ±0.06 hP, die absolute Präzision bei ±1 hPa. Die Genauigkeit der Temperaturwerte liegen bei ± 0.5°C. Der durchschnittliche Stromverbrauch der Druckmessung liegt bei 1.7 μA und bei 1.5µA zur Temperaturmessung bei 1Hz Sampling Frequenz. Das passende Qwiic-Kabel zum Anschließen des Sensors wird mitgeliefert.
+led_matrix: LED-Matrix
+led_matrix_text: Mit der LED-Matrix WS2812 des Herstellers Adafruit mit 12 x 8 Pixel können eigene bunte Displays mit Neopixel mit der senseBox programmiert werden. So können LEDs nach eigenen Vorstellungen zum Leuchten gebracht und z.B. Schriftzüge oder Motive in verschiedenen Farben angezeigt werden, die für leuchtende Augen bei Groß und Klein sorgen. Mit der LED-Matrix ist die Darstellung in Farbe möglich und weitere Konzepte aus der Informatik, wie z.B. Arrays, können vermittelt werden.
+oled: OLED-Display
+oled_text: Das OLED-Display bietet klare und deutliche Anzeigen für Sensorwerte, Statusinformationen und vieles mehr. Das OLED-Display zeigt Informationen als Text, Zahlen und Diagramme an. Somit wird eine Live-Anzeige der Messwerte möglich. Mit seiner kompakten Größe und einfachen Integration ist das OLED-Display ideal für Anwendungen mit der senseBox, bei denen eine visuelle Ausgabe erforderlich ist. Das Display hat eine Auflösung von 128 x 64 Pixel. Ein passendes Qwiic-Kabel zum Anschluss des Displays an die senseBox MCU S2 wird mitgeliefert.
+bluetooth: Bluetooth-Bee
+bluetooth_text: Mit dem Bluetooth-Bee (oder BLE-Bee) kann der senseBox-Mikrocontroller um die Bluetooth-Funktionalität bzw. BLE (Bluetooth Low Energy) erweitert werden und macht die senseBox MCU S2 zu einem mobilen Umweltlabor. Da das Bluetooth-Modul kompatibel mit der Phyphox-App ist, können die Sensorwerte drahtlos an mobile Endgeräte wie Smartphones oder Tablets übertragen und direkt professionell visualisiert werden. Das Bluetooth Bee verwendet den uBlox B312, dessen Basis ein nRF52840 von Nordic Semiconductors ist. Das Bluetooth Bee ist kompatibel zu Bluetooth 5.0.

@@ -13,16 +13,16 @@ image3: /images/projects/Gärprozesse/3.png
 
 material:
     - senseBox MCU
-    - OLED-Display
-    - CO2-Sensor
-    - mSD-Bee mit SD-Karte
+    - 1x OLED-Display
+    - 1x CO2-Sensor
+    - 1x mSD-Bee mit SD-Karte
     - 2x JST-JST-Kabel
     - Hefe
     - warmes Zuckerwasser
     - abgeschlossenes Gefäß
 
 ide: blockly
-version: ["edu", "mini", "CO2-Ampel"]   
+version: ["edu", "mini v1", "CO2-Ampel"]   
 addons: ["CO2-Sensor"] 
 lang: de
 tags: ["Informatik", "Chemie"]
@@ -32,7 +32,7 @@ difficult: mittel
 
 # Experiment zu Gärprozessen
 Beim Backen von Brot, Pizza oder Gebäck ist häufig Hefe notwendig, die den Teig besonders locker macht. Damit dies geschieht, ist bekannt, dass man den Teig 'gehen lassen' muss. Aber was genau passiert währenddessen in dem Teig und welcher chemische Prozess verbirgt sich dahinter? Dieser Frage gehen wir in diesem kleinen Experiment zum Gärprozess nach.
-Der CO2-Sensor hat dabei die Aufgabe, die Veränderung der CO2-Konzentration in Abhängigkeit von der Zeit zu erfassen. Da die Gärprozesse etwas Zeit in Anspruch nehemen können, empfiehlt es sich, die Daten auf der SD-Karte zu speichern und diese anschließend in einem geeigneten Progamm wie Excel auszuwerten.   
+Der CO2-Sensor hat dabei die Aufgabe, die Veränderung der CO2-Konzentration in Abhängigkeit von der Zeit zu erfassen. Da die Gärprozesse etwas Zeit in Anspruch nehemen können, empfiehlt es sich, die Daten auf der SD-Karte zu speichern und diese anschließend in einem geeigneten Programm wie Excel auszuwerten.   
 
 ## Aufbau
 Das Display ist in diesem Zusammenhang sinnvoll, um die Werte, die auf der SD-Karte gespeichert werden, zu überprüfen. Du schließt es mithilfe eines JST-JST-Kabels an einem der I2C/Wire Anschlüsse der senseBox MCU an. Ebenso verbindest du auch den CO2-Sensor mit der sneseBox MCU. Die SD-Karte steckst du in das mSD-Bee, welches du auf XBee-Steckplatz 2 platzierst. Um einen Gärprozess zu generieren, solltest du nun noch ein Hefegemisch herstellen. Dafür eignet sich beispielsweise folgendes Mengenverhältnis: 1 g Trockenhefe, 3 g Zucker, 20 g Wasser. Fülle das Gemisch in eine Glasschale, die du wiederum zusammen mit dem CO2-Sensor in ein größeres, geschlossenes Gefäß positionierst oder mit einer weiteren Schale überdeckst.  
@@ -58,6 +58,11 @@ Damit sind die Programmierung und der Aufbau abgeschlossen.
 Der fertige Programmcode ist in der folgenden Abbildung zu sehen.
 
 {% include image.html image=page.image3 %}
+
+
+## Gesamter Code
+
+Den gesamten Blockly-Sketch findest du [hier](https://blockly.sensebox.de/gallery/63b69e07d2853f0013b1d9e0).
 
 Hast du nun den Programmcode auf die senseBox übertragen und den Sensor zusammen mit dem Hefegemisch in einem abgeschlossenen Gefäß positioniert, heißt es zuerst einmal abwarten. Falls du ein durchsichtiges Gefäß verwendest, kannst du beobachten, wann die Hefe beginnt, den Zucker abzubauen und Kohlenstoffdioxid zu produzieren. Mit dem oben genannten Mischverhältnis empfiehlt es sich, das Experiment für ca. 30 Minuten laufen zu lassen und anschließend mit der Datenauswertung zu beginnen. 
 

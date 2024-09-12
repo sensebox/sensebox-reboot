@@ -1,0 +1,39 @@
+title: senseBox:edu S2
+intro_text: Die senseBox:edu S2 ist die nächste Generation der senseBox:edu. Wie die Vorgängerversionen ist sie speziell für den Bildungsbereich konzipiert. Die S2 bietet einen erweiterten Hardwareumfang, um noch mehr Vielfalt in Projekten und Experimenten zu ermöglichen. Der MCU S2 Mikrocontroller hat zudem viele Komponenten direkt auf dem Board integriert, wie eine RGB-LED, einen Akkuladeregler für eine unkomplizierte und zuverlässige Stromversorgung sowie W-LAN und eine mSD-Karte zur Datenspeicherung, wodurch der Zusammenbau vereinfacht und zeitsparender gestaltet wird. Zudem sind ein Bluetooth-Bee zur Verwendung mit der Phyphox-App, eine LED-Matrix zur farblichen Darstellung und zur Vermittlung weiterer Konzepte aus der Informatik (z.B. Arrays) und ESP Now zur direkten Kommunikation zwischen mehreren MCUs S2 in der neuen senseBox:edu S2 als neue Features enthalten. Alles, was für den Einsatz im Unterricht benötigt wird, ist in einem robusten Kunststoffkoffer mit Schaumstoffeinlage untergebracht. Die Programmierung ist in senseBox-Blockly möglich und Unterrichtsmaterialien sowie Anleitungen und Projekte stehen als Open Educational Resources (OER) frei zur Verfügung.
+
+at_a_glance: Neuheiten auf einem Blick
+new_mcu: Neue MCU S2
+new_mcu_text: Der neue Mikrocontroller auf ESP-32 Basis bietet eine Vielzahl von neuen Möglichkeiten in Hinsicht auf die Datenübertragung, den Datenaustausch und die Bedienung.
+wifi: Integriertes WiFi
+wifi_text: Mit dem im Board integrierten WiFi ist nun kein WiFi-Bee mehr von Nöten. Darüber hinaus lässt sich die senseBox nun mit WPA2-gesicherten Netzwerken verbinden.
+rgb_led: RGB-LED
+rgb_led_text: Eine integrierte RGB-LED kann nun ein direktes Feedback zum Programmstatus geben.
+tof: ToF Imager (VL53L0X)
+tof_text: Der neue ToF (Time of Flight) Sensor ermöglicht sehr präzise Distanzen zu messen. Nicht nur einfache Distanzen können gemessen werden, sondern auch ein einfaches 8x8 Pixel Bild.
+led_matrix: LED-Matrix
+led_matrix_text: Die LED-Matrix mit 12x8 kleine RGB-Leds ermöglicht neue Visualisierungsmöglichkeiten von Daten und Informationen.
+battery: Akkuanschluss mit Laderegler
+battery_text: Mit dem beiliegenden Akku kann die senseBox auch mobil verwendet und mit Strom versorgt werden. Der Akku kann direkt über den integrierten Laderegler aufgeladen werden. Über die beiden LEDs kann der Status jederzeit verfolgt werden.
+to_overview: Zur Übersicht
+comparison_table_title: Vergleich Inhalt
+sensebox_edu: senseBox:edu
+sensebox_edu_s2: senseBox:edu S2
+data_transmission: Datenübertragung
+wifi_table: WiFi
+bt_table: Bluetooth
+sd_bee: SD-Bee
+onboard: onboard
+sensors: Sensoren
+tof_sensor: ToF-Sensor
+ultrasonic: Ultraschall-Distanzsensor
+temp_and_humidity: Temperatur- und Luftfeuchtigkeit
+temp_and_pressure: Temperatur- und Luftdruck
+illuminance_and_uv: Helligkeit- und UV-Strahlung
+accele_and_gyro: Beschleunigungs- und Gyrosensor
+additional_components: weitere Komponenten
+battery_table: Akku
+display: Display
+sd_card: SD-Karte
+breadboard: Breadboard
+misc: Leds, Widerstände etc.
+price: Preis

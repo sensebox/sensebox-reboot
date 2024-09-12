@@ -8,11 +8,11 @@ thumbnail: /images/projects/Titelbild_Lauschangriff.jpg
 image0: /images/projects/lauschangriff_setup.png
 material:
   - senseBox MSU
-  - Mic-Breakout
+  - 1x Mic-Breakout
   - 1x JST-Adapterkabel
 ide: arduino
 lang: de
-tags: ["Informatik", "Physik", "CO2-Ampel Set Edu"]
+tags: ["Informatik", "Physik"]
 difficult: mittel
 version: ["edu"]
 ---
@@ -33,6 +33,8 @@ Stecke den Schaltkreis, wie du ihn unten in der Grafik siehst.
 {% include image.html image=page.image0 %}
 
 ## Programmierung
+
+Nutze den [senseBox - Code Editor](https://blockly.sensebox.de/codeeditor) oder die Arduino IDE, um die Programmierung für dieses Projekt durchzuführen. 
 
 ### Schritt 1
 
@@ -120,7 +122,7 @@ Jetzt kannst du ausprobieren, welche Geräusche welche Ausschläge verursachen:
 
 <div class="panel panel-info">
   <div class="panel-heading">
-    Weitere Projekte mit dem Mic-Breakout
+    Weitere Projekte mit dem Mic-Breakout:
   </div>
   <div class="panel-body">
 <b>Du kannst mit rohen Messwerten nicht viel anfangen oder würdest gerne sehen, wie man das Mikrofon in eine Anwendung einbauen kann?</b> <br>

@@ -4,9 +4,9 @@ title: "TTN Decoding für Anfänger"
 date: 2020-01-23
 author: Felix u Mario
 abstract: "Eine kleine Anleitung zum Decoding in TTN"
-thumbnail: /images/projects/ttn-decoding/animation.gif
+thumbnail: /images/projects/ttn-decoding/logo.png
 lang: de
-tags: ["LoRaWAN", "TTN"]
+tags: ["IoT", "TTN"]
 difficult: mittel
 
 ---

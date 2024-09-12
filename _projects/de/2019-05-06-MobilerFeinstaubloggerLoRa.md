@@ -3,8 +3,8 @@ layout: project_page
 title: "Mobiler Datenlogger für Feinstaubwerte(LoRa)"
 date: 2019-05-06
 author: Paul
-abstract: "Ein mobiles Feinstaubmessgerät, das die Daten per TTN über LoRa an die OpenSenseMap sendet"
-thumbnail:  /images/projects/mobile_feinstaubstation/lora/lora_oled.jpg
+abstract: "Ein mobiles Feinstaubmessgerät, das die Daten per TTN über LoRa an die openSenseMap sendet"
+thumbnail:  /images/projects/MobilerDatenlogger.png
 image0: /images/projects/mobile_feinstaubstation/lora/EUI.png
 image1: /images/projects/mobile_feinstaubstation/lora/ids.png
 image2: /images/projects/mobile_feinstaubstation/lora/decodingprofile.png
@@ -15,17 +15,17 @@ image6: /images/projects/mobile_feinstaubstation/lora/osem_decoder.png
 image7: /images/projects/mobile_feinstaubstation/lora/gps_uart.jpg
 material:
     - senseBox MCU
-    - OLED Display
-    - Temperatur und Luftfeuchtesensor(HDC 1080)
-    - Feinstaubsensor(SDS011)
-    - GPS Modul
-    - LoRa Bee
-    - JST Kabel
+    - 1x OLED Display
+    - 1x Temperatur und Luftfeuchtesensor(HDC 1080)
+    - 1x Feinstaubsensor(SDS011)
+    - 1x GPS Modul
+    - 1x LoRa Bee
+    - 3x JST-JST Kabel
 ide: arduino
 version: ["edu", "mini"]   
 addons: ["GPS", "LoRa-Bee", "Feinstaubsensor"] 
 lang: de
-tags: ["Informatik","TTN","LoRa","Feinstaub","Geographie"]
+tags: ["Informatik","TTN","LoRa","Geographie", "IoT"]
 difficult: sehr schwer
 ---
 <head><title>Mobiler Feinstaublogger mit GPS und LoRa</title></head>
@@ -37,17 +37,10 @@ In diesem Projekt wird mit der SenseBoxMCU ein mobiler Feinstaubmesser gebaut, d
 Für den Aufbau werden folgende Komponenten verwendet. Achte darauf, dass das LoRa-Bee auf den XBEE Steckplatz 1 und der Feinstaubsensor auf UART 2 aufgesteckt werden muss. 
 Man braucht:
   - den LoRa Bee
-
   - das OLED-Display
-
   - den HDC 1080
-
   - das GPS-Modul
-
   - den SDS011 
-  
-
-
 
 
 ## TheThingsNetwork & OpenSenseMap(OSeM)-Setup

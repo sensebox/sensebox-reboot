@@ -1,0 +1,14 @@
+- head: Luftqualitätsmessung mit der senseBox
+  front: /images/placemats/01_Placemat-Luftqualitaet-front.png
+  back: /images/placemats/01_Placemat-Luftqualitaet-back.png
+  position: 1
+  download: /docs/material/01_Placemat-Luftqualitaet.pdf
+  downloadEN: /docs/material/01_Placemat-Luftqualitaet_EN.pdf
+  downloadUKR: /docs/material/01_Placemat-Luftqualitaet_UKR.pdf
+
+- head: Verkehrszähler mit der senseBox
+  front: /images/placemats/02_Placemat-Verkehrszaehler-front.png
+  back: /images/placemats/02_Placemat-Verkehrszaehler-back.png
+  position: 2
+  download: /docs/material/02_Placemat-Verkehrszaehler.pdf
+

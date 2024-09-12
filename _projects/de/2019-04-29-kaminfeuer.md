@@ -3,24 +3,24 @@ layout: project_page
 title: "Kaminfeuer"
 date: 2019-04-29
 author: Bernd
-abstract: "Es wird ein Kaminfeuer simuliert, indem eine rote LED zum flackern gebracht wird."
+abstract: "Es wird ein Kaminfeuer simuliert, indem eine rote LED zum Flackern gebracht wird."
 thumbnail: /images/projects/Titelbild_Kaminfeuer.png
 image0: /images/projects/kaminfeuer_setup.png
 material:
-  - senseBox MSU
-  - rote LED
-  - 470Ω Widerstand
+  - senseBox MCU
+  - 1x rote LED
+  - 1x 470Ω Widerstand
   - 1x JST-Adapterkabel
 ide: arduino
 lang: de
-tags: ["Informatik", "Physik", "CO2-Ampel Set Edu"]
+tags: ["Informatik", "Physik"]
 difficult: leicht
 version: ["edu"]
 ---
 
 # Kaminfeuer
 
-Ziel dieses Projektes ist es, ein Kaminfeuer zu simulieren. Dazu wird eine rote LED zum flackern gebracht.
+Ziel dieses Projektes ist es, ein Kaminfeuer zu simulieren. Dazu wird eine rote LED zum Flackern gebracht.
 
 ## Aufbau
 
@@ -29,6 +29,8 @@ Es wird nur die rote LED mithilfe eines JST-Adapterkabels an die senseBox MCU an
 {% include image.html image=page.image0 %}
 
 ## Programmierung
+
+Nutze den [senseBox - Code Editor](https://blockly.sensebox.de/codeeditor) oder die Arduino IDE, um die Programmierung für dieses Projekt durchzuführen. 
 
 ### Schritt 1
 
@@ -46,7 +48,7 @@ void setup() {
 }
 ```
 
-Du speicherst den digitalen Port 1 in einer Variable, damit du dir nur noch den aussagekräftigen Variablennamen merken musst und nicht die Portnummer. Das ist vorallem bei mehreren angeschlossenen LEDs hilfreich.
+Du speicherst den digitalen Port 1 in einer Variable, damit du dir nur noch den aussagekräftigen Variablennamen merken musst und nicht die Portnummer. Das ist vor allem bei mehreren angeschlossenen LEDs hilfreich.
 
 ### Schritt 2: loop()-Funktion
 

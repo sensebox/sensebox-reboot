@@ -1,0 +1,58 @@
+boards-title: "senseBox: Boards"
+boards-text: "The centerpiece of any project with the senseBox is an Arduino-compatible microcontroller to which various sensors and data transmission modules can be connected. Depending on the needs and application, there are different versions with special features: the senseBox MCU, the senseBox MCU mini, and the senseBox MCU-S2. The following introduces these three boards."
+
+boards-MCU-title: "The senseBox MCU"
+boards-MCU-text: "The senseBox MCU (MicroControllerUnit) is the heart of every senseBox. It is a single-board computer based on the ARM Cortex-M0 processor from the SAMD21 family. This processor makes the senseBox MCU fully compatible with Arduino.<br>It has the following built-in ports and components."
+sensebox-mcu-shop-button: "Buy senseBox MCU"
+boards-MCU-connectors: "Connectors:"
+boards-MCU-connectors-list: "
+  <li>5x I2C</li>
+  <li>2x UART</li>
+  <li>6x digital/analog I/O</li>
+  <li>2x XBee sockets</li>
+  <li>LiPo battery connector</li>
+  <li>USB port</li>"
+boards-MCU-onboard: "Onboard components:"
+boards-MCU-onboard-list: "
+  <li>1x button</li>
+  <li>1x reset button</li>
+  <li>2x LEDs</li>
+  <li>1x BMX055 orientation sensor</li>"
+
+boards-MCU-mini-title: "The senseBox MCU mini"
+boards-MCU-mini-text: "It is a single-board computer based on the ARM Cortex-M0 processor from the SAMD21 family. This processor makes the senseBox MCU fully compatible with Arduino.<br>It has the following built-in ports and components."
+sensebox-mcu-mini-shop-button: "Buy senseBox MCU mini"
+boards-MCU-mini-connectors-list: "
+  <li>2x I2C (QWIIC)</li>
+  <li>1x UART</li>
+  <li>1x digital/analog I/O</li>
+  <li>1x XBee socket</li>
+  <li>USB-C port</li>"
+boards-MCU-mini-onboard: "Onboard components:"
+boards-MCU-mini-onboard-list: "
+  <li>1x button</li>
+  <li>1x reset button</li>
+  <li>2x LEDs</li>
+  <li>1x RGB LED</li>
+  <li>mSD card slot</li>"
+
+boards-MCU-s2-title: "The senseBox MCU S2"
+boards-MCU-s2-text: "MCU S2 is equipped with an ESP32 core and has an integrated charge controller that enables easy use via battery. It contains a permanently installed WLAN module and generally represents the next generation of the senseBox. It has the following permanently installed connections and components."
+sensebox-mcu-s2-shop-button: "Buy senseBox MCU S2"
+boards-MCU-s2-connectors-list: "
+  <li>2x I2C (QWIIC)</li>
+  <li>1x UART</li>
+  <li>3x digital/analog I/O</li>
+  <li>1x XBee socket</li>
+  <li>USB-C port</li>"
+boards-MCU-s2-onboard: "Onboard components:"
+boards-MCU-s2-onboard-list: "
+  <li>WiFi module</li>
+  <li>1x button</li>
+  <li>1x reset button</li>
+  <li>2x LEDs</li>
+  <li>1x RGB LED</li>
+  <li>LiPo charge controller</li>
+  <li>Light sensor</li>
+  <li>6-axis acceleration sensor</li>
+  <li>mSD card slot</li>"

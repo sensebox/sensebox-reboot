@@ -1,14 +1,14 @@
-- name: Jan Wirwahn
-  image: /images/team/Wirwahn.jpg
-  position: 1
-  role: Geschäftsführer
-  description: Jan begleitet die Entwicklung der senseBox seit ihrer Geburt an der Uni Münster. Damals noch als Student und wissenschaftlicher Mitarbeiter. Heute ist er für die <b>Weiterentwicklung der Hardware und den Support für die Bausätze</b> zuständig.
-  
 - name: Umut Tas
   image: /images/team/umut.jpg
-  role: Softwareentwickler
-  position: 2
+  role: Geschäftsführer
+  position: 1
   description: Umut war zusammen mit Jan einer der Entwickler des ersten senseBox Prototypen im Rahmen eines Studienprojekts im Jahr 2010. Nach seinem Studium arbeitete er als Softwareentwickler im Bereich Datenjournalismus. Heute kümmert er sich bei Reedu um die Wartung und <b>Entwicklung der openSenseMap sowie um die Visualisierung von Umweltdaten</b>.
+
+- name: Jan Wirwahn
+  image: /images/team/Wirwahn.jpg
+  position: 2
+  role: Softwareentwickler
+  description: Jan begleitet die Entwicklung der senseBox seit ihrer Geburt an der Uni Münster. Damals noch als Student und wissenschaftlicher Mitarbeiter. Heute ist er für die <b>Weiterentwicklung der Hardware und den Support für die Bausätze</b> zuständig.
 
 - name: Felix Erdmann
   image: /images/team/Erdmann.png
@@ -18,16 +18,14 @@
 
 - name: Verena Witte
   image: /images/team/verena.jpg
-  role: 
+  role:
   position: 4
-  description: Verena arbeitet neben ihrem Studium im Master of Education bei Reedu. Hier ist sie überwiegend für die Konzeption von Unterrichtsmaterialien zuständig und gibt sowohl Schülerinnen als auch Lehrerinnen Workshops mit der senseBox. 
-
+  description: Verena arbeitet neben ihrem Studium im Master of Education bei Reedu. Hier ist sie überwiegend für die Konzeption von Unterrichtsmaterialien zuständig und gibt sowohl Schülerinnen als auch Lehrerinnen Workshops mit der senseBox.
 # - name: Björn Guntermann
 #   role: Head of Education
 #   image: /images/team/bjoern.jpg
 #   position: 4
 #   description: Björn ist Head of Education bei Reedu und arbeitet an der <b>Konzeption und Durchführung von Workshops und Fortbildungen</b>. Schon seit Projektbeginn motiviert er Lehrer*innen und Schüler*innen für Umweltbildung und Informatik.
-
 
 # - name: David Fehrenbach
 #   image: /images/team/david.jpeg

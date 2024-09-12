@@ -23,7 +23,10 @@ resources-teaching: "Lernmaterialien"
 resources: Material
 follow-us: Folge uns
 background: Hintergrund
-
+support: Support
+FAQ: FAQ
+forum: Forum
+faq-link: /faq.html
 #
 imprint-name: "Impressum"
 imprint-link: /imprint.html
@@ -31,4 +34,7 @@ privacy-name: "Datenschutz"
 privacy-link: /privacy.html
 contact-name: "Kontakt"
 contact-link: /contact.html
-
+newsletter-name: "Newsletter"
+newsletter-link: /newsletter.html
+status-name: "Status"
+status-link: https://status.opensensemap.org/status/blockly

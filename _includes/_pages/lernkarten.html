@@ -1,0 +1,36 @@
+<div class="container">
+    {% assign text = site.data.i18n.[page.lang].lernkarten %}
+    <div class="row">
+        <div class="col-12">
+            <h1>{{ page.header }}</h1>
+            <div class="row">
+                <div class="col-6">
+                    <div class="card" style="cursor: pointer;">
+                        <canvas class="card-bg" id="header-blur"
+                            style="background-image: url({{ site.baseurl | append: '/images/products/mcu_circle.png' }});"></canvas>
+                        <div class="content">
+                            <h4 style="padding-left: 1rem;">senseBox MCU</h4>
+                            <div id="forum">
+                                <a class="stretched-link"
+                                    href="/de/lernkarten-mcu"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="card" style="cursor: pointer;">
+                        <canvas class="card-bg" id="header-blur"
+                            style="background-image: url({{ site.baseurl | append: '/images/products/boards/MCU-S2_1200.png' }});"></canvas>
+                        <div class="content">
+                            <h4 style="padding-left: 1rem;">senseBox MCU-S2</h4>
+                            <div id="forum">
+                                <a class="stretched-link"
+                                href="/de/lernkarten-s2"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

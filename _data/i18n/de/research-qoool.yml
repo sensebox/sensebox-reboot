@@ -28,3 +28,6 @@ edu-text: Neben dem Aufbau des QOOOL-Kits entstehen praktische und interaktive L
 
 simulator: Simulator
 simulator-text: Die webbasierte Anwendung soll an die visuelle Programmierumgebung „Blockly für senseBox“ angebunden sein und Programmcodes nicht nur an die senseBox-Hardware, sondern auch an einen Simulator übertragbar machen. In einer visuellen Simulation als grafische Darstellung des QOOOL-Kits und des senseBox-Microcontrollers kann die Funktionsweise und die Umsetzung des Programmcodes visuell ansprechend und nachvollziehbar dargestellt werden. Mit der interaktiven Lernsoftware sollen die o.g. Funktionsweise und der Aufbau eines NV-Magnetometers als Quantensensor sowie das Zusammenspiel aus dessen Einzelkomponenten anschaulich erklärt werden.
+
+funding-title: Förderung
+funding-text: Dieses Projekt wird gefördert durch das Bundesministerium für Umwelt, Naturschutz, nukleare Sicherheit und Verbraucherschutz (BMUV) und läuft bis zum 31.12.2025.

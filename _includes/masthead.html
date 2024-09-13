@@ -173,7 +173,9 @@
             >Von {{ page.author }} am {{ page.date | date: "%d/%m/%Y" }}</span
           >
           {% endif %} {% if page.runtime %}
-          <span class="runtime">{{ page.runtime }}</span>
+          <p class="runtime">{{ page.runtime }}</p>
+          {% endif %} {% if page.website %}
+          <p class="runtime">{{ page.website }}</p>
           {% endif %}
         </div>
       </div>

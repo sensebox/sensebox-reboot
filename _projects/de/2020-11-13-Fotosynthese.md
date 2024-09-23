@@ -39,7 +39,7 @@ Verbinde den CO2-Sensor mit einem JST-Kabel mit einem der fünf I2C/Wire-Anschl�
 
 ## Programmierung
 
-Das Ziel der Programmierung ist es, den Verlauf des CO2-Gehalts innerhalb des Gefäßes graphsich auf dem angeschlossenen Display darzustellen.
+Das Ziel der Programmierung ist es, den Verlauf des CO2-Gehalts innerhalb des Gefäßes graphisch auf dem angeschlossenen Display darzustellen.
 
 ### Schritt 1: Display initialisieren und Messintervall festlegen
 
@@ -56,7 +56,7 @@ Unter der Kategorie 'Display' findest du die Blöcke 'Zeige auf dem Display' und
 
 ## Gesamter Code
 
-Den gesamten Blockly-Sketch findest du [hier](https://blockly.sensebox.de/gallery/63b69647d2853f0013b1d9c1).
+Den gesamten Blockly-Sketch findest du [hier](https://blockly.sensebox.de/gallery/66f19a5936ebaf00192d4b4f).
 
 ## Weiterführende Ideen und Anpassungen
 

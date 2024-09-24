@@ -13,7 +13,7 @@ associated-partners: Assoziierte Partner
 associated-partner: Die openSenseLab gGmbH ist eine gemeinnüztige Gesellschaft mit Beschränkter Haftung mit dem Ziel der Förderung von freier Bildung, Wissenschaft, Umwelt- und Klimaschutz und des bürgerschaftlichen Engagements.
 
 source: Quelle
-image-description-1: Dieses Bild zeigt die neueste Technologie, die in unserem Projekt zur Quantensensorik verwendet wird. Die innovative Methode ermöglicht es, präzise physikalische Größen zu messen und gleichzeitig die Skalierbarkeit zu erhöhen.
+image-description-1: Foto einer montierten senseBox:bike, welches zur Seite die Distanz zu überholenden Autos misst.
 project-description: Projektbeschreibung
 project-description-text-1: Das Atrai Bike-Projekt steht als wegweisende Forschungsinitiative zur Transformation der Stadtplanung, indem Bürger, Unternehmen und lokale Regierungen in die systematische Erfassung und Analyse von Fahrradinfrastrukturdaten einbezogen werden. Dieses zweijährige Vorhaben, finanziert vom Bundesministerium für Bildung und Forschung Deutschlands und von FAPESP in Brasilien, ist eine gemeinsame Anstrengung von drei Organisationen:re:edu und 52°North in Münster/Deutschland sowie dem Cordial Institute in São Paulo/Brasilien. Das Projekt, das im Januar 2024 beginnen soll, zielt darauf ab,innovative Lösungen für den städtischen Radverkehr zu schaffen.
 
@@ -27,7 +27,7 @@ project-descripton-text-5: Nach zwei Jahren Hardware- und Softwareentwicklung, F
 
 technology: Technologie
 
-image-description-2: Dieses Bild zeigt die neueste Technologie, die in unserem Projekt zur Quantensensorik verwendet wird.
+image-description-2: Ein Blick unter die Haube der senseBox:bike.
 
 technology-text-1: Das Atrai Bikes-Projekt nutzt die senseBox:bike, eine fortschrittliche Open-Source-Technologie, die vom Institut für Geoinformatik der Universität Münster und re:edu entwickelt wurde. Angetrieben vom ESP32S2-Mikrocontroller bietet sie WiFi für die Datenübertragung, einen SD-Kartensteckplatz für Speicher und eine Begleit-App zur Kontrolle der Datensicherheit.
 technology-text-2: Die senseBox:bike ist mit verschiedenen Sensoren ausgestattet, um Umweltdaten, Details zur Fahrrad-Infrastruktur und Sicherheitsmetriken zu erfassen. Dazu gehören der HDC1080 für Temperatur und Luftfeuchtigkeit, der Sensirion SPS30 für Feinstaubverschmutzung, der MPU6050 für Vibrationen und ein Time-of-Flight (ToF) Sensor mit KI zur Objekterkennung.

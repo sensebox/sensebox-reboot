@@ -175,9 +175,9 @@
           {% endif %} {% if page.runtime %}
           <p class="runtime">{{ page.runtime }}</p>
           {% endif %} {% if page.website %}
-          <p class="runtime">
-            <a href="{{page.website}}"> {{ page.website }}</a>
-          </p>
+          <div class="runtime project-link">
+            <a href="{{page.website}}">{{t.website}}</a>
+          </div>
           {% endif %}
         </div>
       </div>

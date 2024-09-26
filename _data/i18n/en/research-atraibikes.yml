@@ -1,0 +1,36 @@
+idea: “Research at Atrai Bike
+idea-text: The Atrai Bike project uses open-source technology for the systematic collection of cycling infrastructure data to improve urban cycling planning. In collaboration between Germany and Brazil, citizens, businesses, and governments are involved in gaining insights into cycling through an app and a web-based platform. The goal is to optimize infrastructure and enhance safety in urban cycling.
+
+partners: Project partners
+
+partner-reedu: Reedu GmbH & Co. KG emerged from the BMBF-funded senseBox project. The company focuses on open sensor systems in the IoT market for end consumers and the education market. By simplifying and combining open source components, products (software and hardware) are created for citizens, students and pupils that enable participation in problem-solving processes with social relevance (citizen science). The company's expertise lies in early prototype development, the development of driver and accompanying software for the IoT products through to market maturity, as well as in effective educational solutions and the organization of workshops and hackathons with various groups.
+
+partner-52n: 52°North is dedicated to research in the field of spatial information. As a non-profit organization, we support open science through open data and open source software. Our main interest is the development of spatial research data/infrastructure to promote the derivation of information from data. Turning data into information is the key to informed decision making. Through spatial information research, 52°North develops methods, technologies and solutions to support information generation and thus the decision-making process. We are spatial data enthusiasts!
+
+partner-sao-paulo: The Cordial Institute (Instituto Cordial) is an independent think-and-do tank working on data science, territorial intelligence and cross-sector coordination to strengthen networks and base public and private decision-making on data and evidence. We address complex social challenges and work to ensure that relationships between organizations are mediated through applied knowledge and collaborative efforts to achieve positive social impact. The Brazilian Panel for Urban Mobility (PBM) is a national initiative of Instituto Cordial to promote accessible, safe and more sustainable mobility in Brazil.
+
+associated-partners: Associated partners
+associated-partner: openSenseLab gGmbH is a non-profit limited liability company with the aim of promoting free education, science, environmental and climate protection and civic engagement.
+
+source: Source
+image-description-1: This image shows the latest technology used in our quantum sensing project. The innovative method makes it possible to measure precise physical quantities while increasing scalability.
+project-description: Project description
+project-description-text-1: The Atrai Bike project stands as a pioneering research initiative to transform urban planning by involving citizens, businesses and local governments in the systematic collection and analysis of bicycle infrastructure data. This two-year project, funded by the Federal Ministry of Education and Research of Germany and FAPESP in Brazil, is a joint effort of three organizations:re:edu and 52°North in Münster/Germany and the Cordial Institute in São Paulo/Brazil. The project, which is due to start in January 2024, aims to create innovative solutions for urban cycling.
+
+project-description-text-2: A central part of the project's goals is the integration of hardware technology from the open source project senseBox:bike, which is seamlessly connected to a dedicated app and a web-based analysis platform. This infrastructure enables the effortless collection of important data during daily bike rides and provides insights into parameters such as distance to car traffic, vibration levels, temperature fluctuations and particulate matter concentrations. These insights are invaluable to various stakeholders and provide a comprehensive understanding of the urban cycling experience.
+
+project-description-text-3: The collected data is carefully stored and visualized using the openSenseMap solution, an open data platform enhanced with a web-based analysis component with GeoAI tools. This technology not only allows cyclists to make informed decisions about their routes, but also enables businesses to optimize logistics and governments to improve cycling infrastructure and understand bicycle flow.
+
+project-description-text-4: A robust citizen science approach complements this technological innovation. Workshops will be held in both Münster and São Paulo to engage participants, deepen their connection to the project and strengthen their skills and motivation. This joint effort promises not only to enrich the user experience, but also to advance the sophistication of software analytics, bringing significant advances to urban cycling environments.
+
+project-descripton-text-5: After two years of hardware and software development, research and multi-stakeholder engagement, Atrai Bikes should significantly improve urban cycling environments by increasing awareness, improving safety, optimizing infrastructure and promoting sustainability.
+
+technology: Technology
+
+image-description-2: This image shows the latest technology used in our quantum sensing project.
+
+technology-text-1: The Atrai Bikes project uses the senseBox:bike, an advanced open-source technology developed by the Institute for Geoinformatics at the University of Münster and re:edu. Powered by the ESP32S2 microcontroller, it offers WiFi for data transmission, an SD card slot for storage and a companion app to control data security.
+technology-text-2: The senseBox:bike is equipped with various sensors to collect environmental data, bike infrastructure details and safety metrics. These include the HDC1080 for temperature and humidity, the Sensirion SPS30 for particulate pollution, the MPU6050 for vibrations and a Time-of-Flight (ToF) sensor with AI for object recognition.
+technology-text-3: These sensors help to assess the quality of cycle paths, monitor environmental conditions and increase cycling safety. The device also features WiFi connectivity for smartphone integration and an LED display for real-time feedback on battery and system status. The senseBox:bike is a powerful tool for urban mobility research and data-driven urban planning.
+funding-title: Funding
+funding-text: This project is funded by the Federal Ministry for the Environment, Nature Conservation, Nuclear Safety and Consumer Protection (BMUV) and runs until 31.12.2025.

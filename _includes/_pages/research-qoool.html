@@ -1,0 +1,171 @@
+{% assign qoool = site.data.i18n.[page.lang].research-qoool %} {% assign
+awardslist = site.awards | sort: 'weight' %}
+
+<div class="container">
+  <div class="row row-padding">
+    <div class="col-12 text-center">
+      <img
+        src="/images/logos/qoool/qoool_logo.png"
+        class="partner-pic"
+        alt="..."
+        style="min-height: 200px"
+      />
+    </div>
+    <div class="col-4"></div>
+  </div>
+  <div class="row row-padding">
+    <div class="col-12">
+      <h2>{{qoool.idea}}</h2>
+      <p>{{qoool.idea-text}}</p>
+    </div>
+  </div>
+  <div class="row row-padding">
+    <div class="col-12">
+      <h2>{{qoool.partners}}</h2>
+      <p>{{qoool.partners-text}}</p>
+    </div>
+  </div>
+  <div class="row row-padding align-content-center">
+    <div class="col-12 col-md-6 text-center">
+      <div class="card partner-card">
+        <img
+          src="/images/logos/reedu_white.png"
+          class="partner-pic"
+          alt="..."
+        />
+        <div class="card-body">
+          <h4>{{qoool.reedu}}</h4>
+          <p class="card-text">{{ qoool.partner-reedu }}</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-6 text-center flex align-content-center">
+      <div class="card partner-card">
+        <img
+          src="/images/logos/qoool/hsl_logo.svg"
+          class="partner-pic"
+          alt="..."
+        />
+        <div class="card-body">
+          <h4>{{qoool.ifm}}</h4>
+
+          <p class="card-text">{{ qoool.partner-ifm }}</p>
+        </div>
+      </div>
+    </div>
+    <div class="row row-padding">
+      <div class="col-12 col-md-6 text-center">
+        <div class="card partner-card">
+          <img
+            src="/images/logos/qoool/IIS_Logo.webp"
+            class="partner-pic"
+            alt="..."
+          />
+          <div class="card-body">
+            <h4>{{qoool.iis}}</h4>
+
+            <p class="card-text">{{ qoool.partner-iis }}</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 text-center">
+        <div class="card partner-card">
+          <img
+            src="/images/logos/qoool/Logo_Physik_Didaktik.webp"
+            class="partner-pic"
+            alt="..."
+          />
+          <div class="card-body">
+            <h4>{{qoool.didaktik}}</h4>
+
+            <p class="card-text">{{ qoool.physik-didaktik }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Assoziierter Partner Section -->
+  <div class="row row-padding">
+    <div class="col-12">
+      <h3>{{ qoool.associated-partners }}</h3>
+    </div>
+  </div>
+  <div class="row row-padding text-center justify-content-center">
+    <div class="col-12 col-md-6">
+      <div class="card partner-card">
+        <img
+          src="/images/logos/qoool/LeLa_Logo.webp"
+          class="partner-pic"
+          alt="..."
+        />
+        <div class="card-body">
+          <h4>{{qoool.partner}}</h4>
+
+          <p class="card-text">{{ qoool.associated-partner }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Projektbeschreibung Section -->
+  <div class="row row-padding">
+    <div class="col-12">
+      <h3>{{qoool.vision-title}}</h3>
+      <p>{{qoool.vision-text}}</p>
+    </div>
+  </div>
+  <h4>{{qoool.kit}}</h4>
+
+  <div class="row row-padding">
+    <div class="col-12 col-md-6 text-center d-flex flex-column align-items-center">
+      <img
+        src="/images/research/qoool/qoool chips.webp"
+        class="img-fluid"
+        alt="Projektbild 1"
+        style="max-width: 500px; width: 100%; max-height: 300px"
+      />
+      <p class="mt-2">{{qoool.image-description-1}}</p>
+    </div>
+
+    <div class="col-12 col-md-6 align-content-center">
+      <p>{{qoool.kit-text}}</p>
+    </div>
+  </div>
+  <h4>{{qoool.edu}}</h4>
+
+  <div class="row row-padding">
+    <div class="col-12 col-md-6 align-content-center">
+      <p>{{qoool.edu-text}}</p>
+    </div>
+    <div class="col-12 col-md-6 text-center d-flex flex-column align-items-center">
+      <img
+        src="/images/research/qoool/mcu_qool.webp"
+        class="img-fluid"
+        alt="Projektbild 1"
+        style="max-width: 500px; width: 100%; max-height: 300px"
+      />
+      <p class="mt-2">{{qoool.image-description-2}}</p>
+    </div>
+  </div>
+  <div class="row row-padding">
+    <div class="col-12">
+      <h4>{{qoool.simulator}}</h4>
+      <p>{{qoool.simulator-text}}</p>
+    </div>
+  </div>
+  <div class="row row-padding">
+    <div class="col-12">
+      <h3>{{qoool.funding-title}}</h3>
+      <div class="row row-padding">
+        <div class="col-2"></div>
+        <div class="col-8 text-center">
+          <img src="/images/logos/qoool/BMBF_Logo.svg.png" class="img-fluid" />
+          <div>{{qoool.funding-text}}</div>
+        </div>
+        <div class="col-2"></div>
+      </div>
+    </div>
+    <div class="col-6"></div>
+  </div>
+</div>

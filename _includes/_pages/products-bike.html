@@ -1,194 +1,163 @@
 {% assign content = site.data.i18n.[page.lang].products-senseboxbike %}
 <div class="container">
-    <div class="row row-padding">
-        <div class="col-lg-6 middle">
-            <h2 class="featurette-heading">{{content.title}}</h2>
-            <p class="lead">{{content.bike-text}}</p>
-        </div>
-        <div class="col-lg-6 middle">
-            <img loading="lazy" class="img-fluid mx-auto" src="/images/products/bike/bike-data-overview.png" alt="Generic placeholder image">
-        </div>
-    </div>
+    <iframe src="https://app.vectary.com/p/1n7ZyBw6rJZ5rAdDx44ZAm" width="100%" height="600px"
+        style="border: none;"></iframe>
 </div>
 
-<hr class="featurette-divider">
+<!-- <hr class="featurette-divider"> -->
 
 <div class="container">
-    <div class="row row-padding featurette">
-        <div class="col-md-4 middle">
-            <img loading="lazy" class="featurette-image img-fluid mx-auto" src="/images/products/bike/bike_sensors.jpg"
-                alt="Generic placeholder image">
+    <h2 class="featurette-heading">The senseBox:bike</h2>
+    <p class="lead">The senseBox:bike is an innovative device that transforms your bicycle into a mobile environmental
+        sensor with advanced AI capabilities. It allows cyclists to collect valuable data about their surroundings while
+        riding, contributing to urban environmental monitoring and citizen science projects. With its advanced sensors,
+        real-time analysis capabilities, and on-device machine learning, the senseBox:bike empowers you to become an
+        active participant in understanding and improving your local environment while enhancing your cycling safety.
+    </p>
+</div>
+
+
+<div class="container">
+    <h2 class="featurette-heading" style="margin-bottom: 20px;">Specifications</h2>
+    <div class="row">
+        <div class="col-md-6" style="margin-bottom: 20px;">
+            <div style="background-color: #f8f9fa; border-radius: 10px; padding: 15px;">
+                <h3><i class="fas fa-weight"></i> Weight</h3>
+                <p>250g</p>
+            </div>
         </div>
-        <div class="col-md-8 text-left middle">
-            <h2 class="featurette-heading">{{content.bike-phenomenon-title}}</h2>
-            <p class="lead">{{content.phenomenon-text}}</p>
+        <div class="col-md-6" style="margin-bottom: 20px;">
+            <div style="background-color: #f8f9fa; border-radius: 10px; padding: 15px;">
+                <h3><i class="fas fa-battery-full"></i> Battery Life</h3>
+                <p>Up to 10 hours</p>
+            </div>
         </div>
-        <div class="phenos">
-            <div class="sb-pheno-bike">
-                <div class="icon"><span class="fa-stack fa-2x">
-                    <i class="fas fa-circle fa-stack-2x" style="color: whitesmoke"></i>
-                    <i class="fas fa-temperature-high fa-stack-1x fa-inverse" style="color:#3fbdeb;"></i>
-                </div>
-                </span><span><b>{{content.phenomenon-temperatur}} </b></span>
-                <span>{{content.phenomenon-temperatur-text}}</span>
+        <div class="col-md-6" style="margin-bottom: 20px;">
+            <div style="background-color: #f8f9fa; border-radius: 10px; padding: 15px;">
+                <h3><i class="fas fa-thermometer-half"></i> Sensors</h3>
+                <p>Temperature, Humidity, Air Quality, GPS</p>
             </div>
-            <div class="sb-pheno-bike">
-                <div class="icon">
-                    <span class="fa-stack fa-2x">
-                        <i class="fas fa-circle fa-stack-2x" style="color: whitesmoke"></i>
-                        <i class="fas fa-percent fa-stack-1x fa-inverse" style="color:#3fbdeb;"></i>
-                    </span>
-                </div>
-                <span> <b>{{content.phenomenon-humidity}} </b></span>
-                <span>{{content.phenomenon-humidity-text}}</span>
+        </div>
+        <div class="col-md-6" style="margin-bottom: 20px;">
+            <div style="background-color: #f8f9fa; border-radius: 10px; padding: 15px;">
+                <h3><i class="fas fa-wifi"></i> Connectivity</h3>
+                <p>Bluetooth 5.0, Wi-Fi</p>
             </div>
-            <div class="sb-pheno-bike">
-                <div class="icon">
-
-                    <span class="fa-stack fa-2x">
-                        <i class="fas fa-circle fa-stack-2x" style="color: whitesmoke"></i>
-                        <i class="fas fa-smog fa-stack-1x fa-inverse" style="color:#3fbdeb;"></i>
-                    </span>
-                </div>
-                <span><b>{{content.phenomenon-pm}}</b></span>
-                <span>{{content.phenomenon-pm-text}}</span>
-            </div>
-            <div class="sb-pheno-bike">
-                <div class="icon">
-
-                    <span class="fa-stack fa-2x">
-                        <i class="fas fa-circle fa-stack-2x" style="color: whitesmoke"></i>
-                        <i class="fas fa-wave-square fa-stack-1x fa-inverse" style="color:#3fbdeb;"></i>
-                    </span>
-                </div>
-                <span><b>{{content.phenomenon-acceleration}}</b></span>
-                <span>{{content.phenomenon-acceleration-text}}</span>
-
-            </div>
-            <div class="sb-pheno-bike">
-                <div class="icon">
-
-                    <span class="fa-stack fa-2x">
-                        <i class="fas fa-circle fa-stack-2x" style="color: whitesmoke"></i>
-                        <i class="fas fa-heart fa-stack-1x fa-inverse" style="color:#3fbdeb;"></i>
-                    </span>
-                </div>
-                <span><b>{{content.phenomenon-speed}}</b></span>
-                <span>{{content.phenomenon-speed-text}}</span>
-
-            </div>
-            <div class="sb-pheno-bike">
-                <div class="icon">
-
-                    <span class="fa-stack fa-2x">
-                        <i class="fas fa-circle fa-stack-2x" style="color: whitesmoke"></i>
-                        <i class="fas fa-traffic-light fa-stack-1x fa-inverse" style="color:#3fbdeb"></i>
-                    </span>
-                </div>
-                <span><b>{{content.phenomenon-distance}}</b></span>
-                <span>{{content.phenomenon-distance-text}}</span>
+        </div>
+        <div class="col-md-6" style="margin-bottom: 20px;">
+            <div style="background-color: #f8f9fa; border-radius: 10px; padding: 15px;">
+                <h3><i class="fas fa-brain"></i> AI Capabilities</h3>
+                <p>On-device machine learning</p>
             </div>
         </div>
     </div>
 </div>
 
 <div style="background-color: whitesmoke;">
-    <div class="container">
-        <div class="row row-padding featurette">
-            <div class="col-md-7 middle">
-                <h2 class="featurette-heading">{{content.bike-transmission-title}}
-                </h2>
-                <p class="lead">{{content.bike-transmission-text}}</p>
-                
+    <div class="container" style="padding-top: 20px;">
+        <h2 class="featurette-heading" style="margin-bottom: 20px;">senseBox:bike App</h2>
+        <div class="row row-padding">
+            <div class="col col-md-4">
+                <button type="button" class="btn btn-outline-primary btn-lg btn-block">Data Visualization</button>
+                <button type="button" class="btn btn-outline-primary btn-lg btn-block">Smart Route Planning</button>
+                <button type="button" class="btn btn-outline-primary btn-lg btn-block">Community Insights</button>
+                <button type="button" class="btn btn-outline-primary btn-lg btn-block">AI Safety Alerts</button>
+                <button type="button" class="btn btn-outline-primary btn-lg btn-block">Data Export &
+                    Integration</button>
             </div>
-            <div class="col-md-5 middle">
-                <img loading="lazy" class="featurette-image img-fluid mx-auto" src="/images/products/bike/bike-bluetooth.jpg"
-                    alt="Generic placeholder image">
+
+            <div class="col col-md-8 middle">
+                <div class="card" style="background-color: white; border-radius: 10px; padding: 20px;">
+                    <div class="row row-padding">
+                        <div class="col col-md-6">
+                            <h3 class="card-title">Data Visualization</h3>
+                            <p class="card-text">Visualize your ride data in real-time with interactive maps and charts.
+                            </p>
+                        </div>
+                        <div class="col col-md-6">
+                            <video width="100%" preload="auto" muted autoplay loop>
+                                <source src="/images/bike/bike-app-01.mov" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </div>
 
-
-<div>
-    <div class="container">
-        <div class="row row-padding featurette">
-            <div class="col-md-5 middle">
-                <img loading="lazy" class="featurette-image img-fluid mx-auto" src="/images/products/bike/bike-app.png"
-                    alt="Generic placeholder image">
+<!-- Create a similar container with background, to highlight the AI features Overtaking detection and surface classification -->
+<div class="container">
+    <h2 class="featurette-heading" style="margin-bottom: 20px;">✨ AI Features</h2>
+    <p class="lead">The senseBox:bike is equipped with advanced AI capabilities that enhance your cycling experience
+        and safety. With on-device machine learning, the senseBox:bike can detect and alert you of potential overtaking
+        vehicles, classify road surfaces, and provide valuable insights into your surroundings.</p>
+    <div class="row row-padding">
+        <div class="col col-md-6 middle">
+            <div class="card" style="background-color: white; border-radius: 10px; padding: 20px;">
+                <h3 class="card-title">Overtaking Detection</h3>
+                <p class="card-text">The senseBox:bike uses advanced AI algorithms to detect and alert you of potential
+                    overtaking vehicles, enhancing your safety on the road.</p>
+                <img src="/images/bike/tof-overtaking.gif" alt="Overtaking Detection" style="width: 100%;">
             </div>
-            <div class="col-md-7 middle">
-                <h2 class="featurette-heading">{{content.bike-app-title}}
-                </h2>
-                <p class="lead">{{content.bike-app-text}}</p>
+        </div>
+        <div class="col col-md-6 middle">
+            <div class="card" style="background-color: white; border-radius: 10px; padding: 20px;">
+                <h3 class="card-title">Surface Classification</h3>
+                <p class="card-text">The senseBox:bike uses AI to classify road surfaces and provide insights into road
+                    conditions, helping you plan your route and avoid potential hazards.</p>
+                <img src="https://user-images.githubusercontent.com/6562690/54934415-b4d25b80-4edb-11e9-8758-fb29ada50499.png" alt="Surface Classification" style="width: 100%;">
             </div>
         </div>
     </div>
 </div>
 
 <div style="background-color: whitesmoke;">
-    <div class="container">
-        <div class="row row-padding featurette">
+    <div class="container" style="padding-top: 20px;">
+        <h2 class="featurette-heading">{{content.bike-story-title}}</h2>
+        <div class="row row-padding">
             <div class="col-md-7 middle">
-                <h2 class="featurette-heading">{{content.bike-housing-title}}</h2>
-                <p class="lead">{{content.bike-housing-text}}</p>
-            </div>
-            <div class="col-md-5 middle">
-                <img loading="lazy" class="featurette-image img-fluid mx-auto" src="/images/products/bike/bike_sattel.jpg"
-                    alt="Generic placeholder image">
-            </div>
-        </div>
-    </div>
-</div>
-
-<div>
-    <div class="container">
-        <div class="row row-padding featurette">
-            <div class="col-md-5 middle">
-                <img loading="lazy" class="featurette-image img-fluid mx-auto" src="/images/products/bike/story.jpg"
-                    alt="Generic placeholder image">
-            </div>
-            <div class="col-md-7 middle">
-                <h2 class="featurette-heading">{{content.bike-story-title}}
-                </h2>
                 <p class="lead">{{content.bike-story-text}} {{content.bike-story-link}}</p>
             </div>
-        </div>
-    </div>
-</div>
-
-
-
-
-<div class="container" style="text-align: center;">
-    <h2 class="featurette-heading">{{content.bike-example-title}}
-    </h2>
-</div>
-<div style="background-color: whitesmoke;">
-<div class="container" >
-        <div class="row row-padding featurette">
             <div class="col-md-5 middle">
-                <a href="https://essen.aufraedern.org" target="_blank"> <img loading="lazy" class="featurette-image img-fluid mx-auto" src="/images/products/bike/aufraedern.png"
-                    alt="Generic placeholder image"></a>
+                <img loading="lazy" class="featurette-image img-fluid mx-auto" style="border-radius: 10px;"
+                    src="/images/products/bike/story.jpg" alt="Generic placeholder image">
             </div>
-            <div class="col-md-7 middle">
-                <h2 class="featurette-heading">{{content.bike-example-1-title}}</h2>
-                <p class="lead"> <a href="https://essen.aufraedern.org"> {{content.bike-example-text-link}} </a> {{content.bike-example-1-text}}</p>
-            </div>            
         </div>
     </div>
 </div>
-</div>
+
+
+
 
 <div class="container">
-    <div class="row row-padding featurette">
-        <div class="col-md-7 middle">
-            <h2 class="featurette-heading">{{content.bike-example-2-title}}</h2>
-            <p class="lead"> <a href="https://essen.aufraedern.org"> {{content.bike-example-text-link}} </a> {{content.bike-example-2-text}}</p>
-        </div>    
-        <div class="col-md-5 middle">
-            <a href="https://www.hs-osnabrueck.de/iip/" target="_blank"> <img loading="lazy" class="featurette-image img-fluid mx-auto" src="/images/products/bike/iipLogo.png"
-                alt="Generic placeholder image"></a>
-        </div>        
+    <h2 class="featurette-heading">{{content.bike-example-title}}</h2>
+
+    <!-- Create a row with three cards showing the reference projects -->
+    <div class="row row-padding">
+        <div class="col-md-4">
+            <div class="card" style="background-color: #f8f9fa; border-radius: 10px; padding: 20px;">
+                <img class="card-img-top" src="/images/products/bike/aufraedern.png" alt="Essen auf Rädern">
+                <div class="card-body">
+                    <h5 class="card-title">Essen auf Rädern</h5>
+                    <p class="card-text">A citizen science project in Essen, Germany, that uses the senseBox:bike to
+                        monitor air quality and traffic conditions.</p>
+                    <a href="https://essen.aufraedern.org" target="_blank" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card" style="background-color: #f8f9fa; border-radius: 10px; padding: 20px;">
+                <img class="card-img-top" src="/images/products/bike/iipLogo.png" alt="Berlin auf Rädern">
+                <div class="card-body">
+                    <h5 class="card-title">IP</h5>
+                    <p class="card-text">A community-driven initiative in Berlin, Germany, that uses the senseBox:bike
+                        to
+                        collect data on air quality and road safety.</p>
+                    <a href="https://www.hs-osnabrueck.de/iip/" target="_blank" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
     </div>
 </div>

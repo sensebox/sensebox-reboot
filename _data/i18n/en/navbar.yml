@@ -46,6 +46,8 @@ products-co2-name: ":CO<sub>2</sub>-Ampel"
 products-co2-link: /products-co2.html
 products-boards-name: "Boards"
 products-boards-link: "/products-boards.html"
+products-data-sheets: "Data sheets"
+products-data-sheets-link: "/products-data-sheets.html"
 editoren-name: "Editors"
 editoren-link: /editoren.html
 blockly-name: "Blockly for senseBox"

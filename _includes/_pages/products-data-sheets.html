@@ -1,0 +1,256 @@
+{% assign content = site.data.i18n.[page.lang].products-data-sheets %}
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-10 my-4 mx-auto">
+      <!-- Boards Table -->
+      <h3 class="text-center">Boards</h3>
+      <div class="table-responsive table-product-comparison">
+        <table class="table table-striped table-hover comparisonTable">
+          <thead class="thead-inverse">
+            <tr>
+              <th class="w-25">{{content.component}}</th>
+              <th class="text-center">{{content.data_sheet}}</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="w-25 option">{{ content.mcu }}</td>
+              <td class="text-center">
+                <a
+                  class="btn btn-sensebox-green"
+                  href="./../../non_img_assets/datenblaetter/Datenblatt-senseBox_MCU.odt"
+                  target="_blank"
+                >
+                  <i class="fa fa-download text-white"></i> Download
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td class="w-25 option">{{ content.mcu_mini }}</td>
+              <td class="text-center">
+                <a
+                  class="btn btn-sensebox-green"
+                  href="./../../non_img_assets/datenblaetter/Datenblatt-senseBox_MCU_mini.odt"
+                  target="_blank"
+                >
+                  <i class="fa fa-download text-white"></i> Download
+                </a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Sensoren und Hardware Table -->
+      <h3 class="text-center mt-4">{{content.sensors_and_hardware}}</h3>
+      <div class="table-responsive table-product-comparison">
+        <table class="table table-striped table-hover comparisonTable">
+          <thead class="thead-inverse">
+            <tr>
+              <th class="w-25">{{content.component}}</th>
+              <th class="text-right">senseBox:edu</th>
+              <th class="text-right">senseBox:edu S2</th>
+              <th class="text-center">{{content.data_sheet}}</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="w-25 option">{{ content.wifi_bee }}</td>
+              <td><i class="fa fa-check"></i></td>
+              <td>onBoard</td>
+              <td class="text-center">
+                <a
+                  class="btn btn-sensebox-green"
+                  href="./../../non_img_assets/datenblaetter/Datenblatt-senseBox_WiFi_Bee.odt"
+                  target="_blank"
+                >
+                  <i class="fa fa-download text-white"></i> Download
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td class="w-25 option">{{ content.dps310 }}</td>
+              <td><i class="fa fa-check"></i></td>
+              <td><i class="fa fa-check"></i></td>
+              <td class="text-center">
+                <a
+                  class="btn btn-sensebox-green"
+                  href="./../../non_img_assets/datenblaetter/Datenblatt-DPS310.odt"
+                  target="_blank"
+                >
+                  <i class="fa fa-download text-white"></i> Download
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td class="w-25 option">{{ content.lightsensor }}</td>
+              <td><i class="fa fa-check"></i></td>
+              <td>onBoard</td>
+              <td class="text-center">
+                <a
+                  class="btn btn-sensebox-green"
+                  href="./../../non_img_assets/datenblaetter/Datenblatt-Lichtsensor.odt"
+                  target="_blank"
+                >
+                  <i class="fa fa-download text-white"></i> Download
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td class="w-25 option">{{ content.oled }}</td>
+              <td><i class="fa fa-check"></i></td>
+              <td><i class="fa fa-check"></i></td>
+              <td class="text-center">
+                <a
+                  class="btn btn-sensebox-green"
+                  href="./../../non_img_assets/datenblaetter/Datenblatt-senseBox_OLED.odt"
+                  target="_blank"
+                >
+                  <i class="fa fa-download text-white"></i> Download
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td class="w-25 option">{{content.ble_bee }}</td>
+              <td><i class="fa fa-check"></i></td>
+              <td><i class="fa fa-check"></i></td>
+
+              <td class="text-center">
+                <a
+                  class="btn btn-sensebox-green"
+                  href="./../../non_img_assets/datenblaetter/Datenblatt-senseBox_BLE_Bee.odt"
+                  target="_blank"
+                >
+                  <i class="fa fa-download text-white"></i> Download
+                </a>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="w-25 option">{{content.sds011_with}}</td>
+              <td><i class="fa fa-check"></i></td>
+              <td><i class="fa fa-times"></i></td>
+
+              <td class="text-center">
+                <a
+                  class="btn btn-sensebox-green"
+                  href="./../../non_img_assets/datenblaetter/Datenblatt-senseBox_Feinstaubset_SDS011.odt"
+                  target="_blank"
+                >
+                  <i class="fa fa-download text-white"></i> Download
+                </a>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="w-25 option">{{content.gps}}</td>
+              <td><i class="fa fa-check"></i></td>
+              <td><i class="fa fa-check"></i></td>
+
+              <td class="text-center">
+                <a
+                  class="btn btn-sensebox-green"
+                  href="./../../non_img_assets/datenblaetter/Datenblatt-senseBox_GPS.odt"
+                  target="_blank"
+                >
+                  <i class="fa fa-download text-white"></i> Download
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td class="w-25 option">{{content.sds011_without}}</td>
+              <td><i class="fa fa-check"></i></td>
+
+              <td><i class="fa fa-times"></i></td>
+              <td class="text-center">
+                <a
+                  class="btn btn-sensebox-green"
+                  href="./../../non_img_assets/datenblaetter/Datenblatt-senseBox_SDS011_ohne.odt"
+                  target="_blank"
+                >
+                  <i class="fa fa-download text-white"></i> Download
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td class="w-25 option">{{content.i2c_expander}}</td>
+              <td><i class="fa fa-check"></i></td>
+
+              <td><i class="fa fa-times"></i></td>
+              <td class="text-center">
+                <a
+                  class="btn btn-sensebox-green"
+                  href="./../../non_img_assets/datenblaetter/Datenblatt-senseBox_I2C_Expander.odt"
+                  target="_blank"
+                >
+                  <i class="fa fa-download text-white"></i> Download
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td class="w-25 option">{{content.i2c_multiplex}}</td>
+              <td><i class="fa fa-check"></i></td>
+              <td><i class="fa fa-times"></i></td>
+
+              <td class="text-center">
+                <a
+                  class="btn btn-sensebox-green"
+                  href="./../../non_img_assets/datenblaetter/Datenblatt-senseBox_I2C_Multiplex.odt"
+                  target="_blank"
+                >
+                  <i class="fa fa-download text-white"></i> Download
+                </a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Zubehör Table -->
+      <h3 class="text-center mt-4">{{content.accessoire}}</h3>
+      <div class="table-responsive table-product-comparison">
+        <table class="table table-striped table-hover comparisonTable">
+          <thead class="thead-inverse">
+            <tr>
+              <th class="w-25">{{content.component}}</th>
+              <th class="text-right">senseBox:edu</th>
+              <th class="text-right">senseBox:edu S2</th>
+              <th class="text-center">{{content.data_sheet}}</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="w-25 option">{{ content.battery_holder }}</td>
+              <td><i class="fa fa-times"></i></td>
+              <td><i class="fa fa-check"></i></td>
+              <td class="text-center">
+                <a
+                  class="btn btn-sensebox-green"
+                  href="./../../non_img_assets/datenblaetter/Datenblatt-senseBox_Batteriehalterung.odt"
+                  target="_blank"
+                >
+                  <i class="fa fa-download text-white"></i> Download
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td class="w-25 option">{{ content.outdoor_case }}</td>
+              <td><i class="fa fa-check"></i></td>
+              <td><i class="fa fa-times"></i></td>
+              <td class="text-center">
+                <a
+                  class="btn btn-sensebox-green"
+                  href="./../../non_img_assets/datenblaetter/Datenblatt-senseBox_Outdoor_Gehaeuse.odt"
+                  target="_blank"
+                >
+                  <i class="fa fa-download text-white"></i> Download
+                </a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>

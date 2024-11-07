@@ -1,6 +1,6 @@
 {% assign content = site.data.i18n.[page.lang].products-senseboxbike %}
 <div class="container">
-    <iframe src="https://app.vectary.com/p/1n7ZyBw6rJZ5rAdDx44ZAm" width="100%" height="600px"
+    <iframe src="https://3d.sensebox.de/bike" width="100%" height="600px"
         style="border: none;"></iframe>
 </div>
 
@@ -58,31 +58,83 @@
         <h2 class="featurette-heading" style="margin-bottom: 20px;">senseBox:bike App</h2>
         <div class="row row-padding">
             <div class="col col-md-4">
-                <button type="button" class="btn btn-outline-primary btn-lg btn-block">Data Visualization</button>
-                <button type="button" class="btn btn-outline-primary btn-lg btn-block">Smart Route Planning</button>
-                <button type="button" class="btn btn-outline-primary btn-lg btn-block">Community Insights</button>
-                <button type="button" class="btn btn-outline-primary btn-lg btn-block">AI Safety Alerts</button>
-                <button type="button" class="btn btn-outline-primary btn-lg btn-block">Data Export &
-                    Integration</button>
+                <button type="button" class="btn btn-outline-primary btn-lg btn-block app-feature-btn">Connect</button>
+                <button type="button" class="btn btn-outline-primary btn-lg btn-block app-feature-btn">Data Visualization</button>
+                <button type="button" class="btn btn-outline-primary btn-lg btn-block app-feature-btn">AI Overtaking Detection</button>
+                <button type="button" class="btn btn-outline-primary btn-lg btn-block app-feature-btn">Trip Review</button>
+                <button type="button" class="btn btn-outline-primary btn-lg btn-block app-feature-btn">Data Export</button>
+                <button type="button" class="btn btn-outline-primary btn-lg btn-block app-feature-btn">Privacy Zones</button>
             </div>
 
             <div class="col col-md-8 middle">
                 <div class="card" style="background-color: white; border-radius: 10px; padding: 20px;">
                     <div class="row row-padding">
                         <div class="col col-md-6">
-                            <h3 class="card-title">Data Visualization</h3>
-                            <p class="card-text">Visualize your ride data in real-time with interactive maps and charts.
-                            </p>
+                            <h3 class="card-title">Connect</h3>
+                            <p class="card-text">Connect with your senseBox:bike and measure your environment in real-time.</p>
                         </div>
                         <div class="col col-md-6">
-                            <video width="100%" preload="auto" muted autoplay loop>
-                                <source src="/images/bike/bike-app-01.mov" type="video/mp4">
+                            <video width="100%" preload="auto" muted autoplay loop style="border-radius: 24px; border: 4px solid black;" >
+                                <source src="/images/products/bike/app/connect.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
                         </div>
                     </div>
                 </div>
             </div>
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                const buttons = document.querySelectorAll('.app-feature-btn');
+                const cardTitle = document.querySelector('.card-title');
+                const cardText = document.querySelector('.card-text');
+                const videoSource = document.querySelector('video source');
+
+                const content = {
+                    'Connect': {
+                        title: 'Connect',
+                        text: 'Connect with your senseBox:bike and measure your environment in real-time.',
+                        video: '/images/products/bike/app/connect.mp4'
+                    },
+                    'Data Visualization': {
+                        title: 'Data Visualization',
+                        text: 'Visualize your ride data in real-time with interactive maps and charts.',
+                        video: '/images/products/bike/app/record.mp4'
+                    },
+                    'AI Overtaking Detection': {
+                        title: 'AI Overtaking Detection',
+                        text: 'See the AI model in action as it detects and visualizes potential overtaking vehicles.',
+                        video: '/images/products/bike/app/ai.mp4'
+                    },
+                    'Trip Review': {
+                        title: 'Trip Review',
+                        text: 'Review your past rides and gain valuable insights into what you encountered along the way.',
+                        video: '/images/products/bike/app/detail.mp4'
+                    },
+                    'Data Export': {
+                        title: 'Data Export',
+                        text: 'Easily export your ride data for further analysis and sharing with others.',
+                        video: '/images/products/bike/app/export.mp4'
+                    },
+                    'Privacy Zones': {
+                        title: 'Privacy Zones',
+                        text: 'Set privacy zones to protect your personal data and control what you share with others.',
+                        video: '/images/products/bike/app/privacy.mp4'
+                    }
+                };
+
+                buttons.forEach(button => {
+                    button.addEventListener('click', function () {
+                        const key = this.textContent.trim();
+                        if (content[key]) {
+                            cardTitle.textContent = content[key].title;
+                            cardText.textContent = content[key].text;
+                            videoSource.src = content[key].video;
+                            videoSource.parentElement.load();
+                        }
+                    });
+                });
+            });
+        </script>
         </div>
     </div>
 </div>
@@ -99,7 +151,7 @@
                 <h3 class="card-title">Overtaking Detection</h3>
                 <p class="card-text">The senseBox:bike uses advanced AI algorithms to detect and alert you of potential
                     overtaking vehicles, enhancing your safety on the road.</p>
-                <img src="/images/bike/tof-overtaking.gif" alt="Overtaking Detection" style="width: 100%;">
+                <img src="/images/products/bike/tof-overtaking.gif" alt="Overtaking Detection" style="width: 100%;">
             </div>
         </div>
         <div class="col col-md-6 middle">
@@ -107,7 +159,7 @@
                 <h3 class="card-title">Surface Classification</h3>
                 <p class="card-text">The senseBox:bike uses AI to classify road surfaces and provide insights into road
                     conditions, helping you plan your route and avoid potential hazards.</p>
-                <img src="https://user-images.githubusercontent.com/6562690/54934415-b4d25b80-4edb-11e9-8758-fb29ada50499.png" alt="Surface Classification" style="width: 100%;">
+                <img src="/images/products/bike/surface_screenshot.png" alt="Surface Classification" style="width: 100%;">
             </div>
         </div>
     </div>
@@ -138,7 +190,7 @@
     <div class="row row-padding">
         <div class="col-md-4">
             <div class="card" style="background-color: #f8f9fa; border-radius: 10px; padding: 20px;">
-                <img class="card-img-top" src="/images/products/bike/aufraedern.png" alt="Essen auf Rädern">
+                <img class="card-img-top" style="aspect-ratio: 1 / 1; object-fit: contain;" src="/images/products/bike/aufraedern.png" alt="Essen auf Rädern">
                 <div class="card-body">
                     <h5 class="card-title">Essen auf Rädern</h5>
                     <p class="card-text">A citizen science project in Essen, Germany, that uses the senseBox:bike to
@@ -149,10 +201,20 @@
         </div>
         <div class="col-md-4">
             <div class="card" style="background-color: #f8f9fa; border-radius: 10px; padding: 20px;">
-                <img class="card-img-top" src="/images/products/bike/iipLogo.png" alt="Berlin auf Rädern">
+                <img class="card-img-top" style="aspect-ratio: 1 / 1; object-fit: contain;" src="/images/products/bike/ATRAI_bike_logo.png" alt="ATRAI bikes logo">
+                <div class="card-body">
+                    <h5 class="card-title">ATRAI bikes</h5>
+                    <p class="card-text">The ATRAI Bike project aims to improve urban cycling by collecting and analyzing infrastructure data with the help of citizens, businesses, and local governments.</p>
+                    <a href="https://www.hs-osnabrueck.de/iip/" target="_blank" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card" style="background-color: #f8f9fa; border-radius: 10px; padding: 20px;">
+                <img class="card-img-top" style="aspect-ratio: 1 / 1; object-fit: contain;" src="/images/products/bike/iipLogo.png" alt="IP">
                 <div class="card-body">
                     <h5 class="card-title">IP</h5>
-                    <p class="card-text">A community-driven initiative in Berlin, Germany, that uses the senseBox:bike
+                    <p class="card-text">A community-driven initiative in Münster and Osnabrück, that uses the senseBox:bike
                         to
                         collect data on air quality and road safety.</p>
                     <a href="https://www.hs-osnabrueck.de/iip/" target="_blank" class="btn btn-primary">Learn More</a>

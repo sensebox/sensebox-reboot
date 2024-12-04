@@ -193,6 +193,8 @@ li.timeline-item::before {
 .masthead-small {
   height: 40vh;
   min-height: 500px;
+  padding-left: 1rem;
+  padding-right: 1rem;
   background-image: radial-gradient(
     circle,
     rgb(100, 181, 91),

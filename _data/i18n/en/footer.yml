@@ -23,7 +23,10 @@ resources-teaching: "Learning Materials"
 resources: Resources
 follow-us: Follow us
 background: Background
-
+support: Support
+FAQ: FAQ
+forum: Forum
+faq-link: /faq.html
 #
 imprint-name: "Imprint"
 imprint-link: /imprint.html

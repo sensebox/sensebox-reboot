@@ -1,0 +1,22 @@
+<div class="container">
+    {% assign lernkarten = site.data.i18n.[page.lang].lernkartenS2-content | sort: "position" %}
+    {% assign text = site.data.i18n.[page.lang].lernkarten %}
+    <div class="row">
+        <div class="col-12">
+            <h1>{{ page.header }}</h1>
+            <p>{{text.description}} </p>
+            <p>{{text.enlarge }}</p>
+            <p>{{text.download}}</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <ul class="image-gallery">{% for lernkarte in lernkarten %}
+                <li>
+                    <img data-zoomable loading="lazy" src="{{ lernkarte.image | relative_url }}"
+                        alt="{{ lernkarte.head }}" title="{{ lernkarte.head }}" /><span>{{ lernkarte.head }}</span>
+                </li>{% endfor %}</ul>
+        </div>
+    </div>
+
+</div>

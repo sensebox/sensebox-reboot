@@ -14,7 +14,7 @@ tag: News
 
 # Das neue Bluetooth Bee für die senseBox ist da
 
-Mit Unterstützung der Deutschen Telekom Stiftung konnten wir ein Bluetooth Bee für die senseBox entwickeln, das ein Übertragen von Messwerten über Bluetooth an dein Smartphone oder Tablet ermöglicht und die senseBox zu einem mobilen Umweltlabor macht. Zur Visualisierung und Analyse der Daten wird die [Phyphox App](https://phyphox.org/) der RWTH Aachen verwendet. Dank der tollen [Arduino Bibliothek](https://phyphox.org/arduino/), die von Phyphox bereitgestellt wird, können so eigene Messgeräte auf Arduino und eben auch auf senseBox Basis gebaut werden. Durch die Integration des neuen Bluetooth Bees in das senseBox System kannst du alle Sensoren, die du direkt an die senseBox anschließen kannst, verwenden und die Programmierung läuft wie gewohnt über die grafische Programmierumgebung [Blockly](https://blockly-react.netlify.app/).
+Mit Unterstützung der Deutschen Telekom Stiftung konnten wir ein Bluetooth Bee für die senseBox entwickeln, das ein Übertragen von Messwerten über Bluetooth an dein Smartphone oder Tablet ermöglicht und die senseBox zu einem mobilen Umweltlabor macht. Zur Visualisierung und Analyse der Daten wird die [Phyphox App](https://phyphox.org/) der RWTH Aachen verwendet. Dank der tollen [Arduino Bibliothek](https://phyphox.org/arduino/), die von Phyphox bereitgestellt wird, können so eigene Messgeräte auf Arduino und eben auch auf senseBox Basis gebaut werden. Durch die Integration des neuen Bluetooth Bees in das senseBox System kannst du alle Sensoren, die du direkt an die senseBox anschließen kannst, verwenden und die Programmierung läuft wie gewohnt über die grafische Programmierumgebung [Blockly](https://blockly.sensebox.de/).
 
 {% include image.html image=page.image1 %}
 
@@ -24,11 +24,11 @@ Das Bluetooth Bee verwendet den [uBlox B312](https://www.u-blox.com/en/product/n
 
 ## Programmierung
 
-Die Programmierung des Messgerätes kann in unserer grafischen [Programmier- und Lernumgebung](https://blockly-react.netlify.app/) durchgeführt werden. Neue Blöcke ermöglichen dir dein Experiment genau für deinen Anwendungsfall zu erstellen. Alle Sensoren, die du an die senseBox anschließen kannst, kannst du verwenden und die Messwerte einfach übertragen.
+Die Programmierung des Messgerätes kann in unserer grafischen [Programmier- und Lernumgebung](https://blockly.sensebox.de/) durchgeführt werden. Neue Blöcke ermöglichen dir dein Experiment genau für deinen Anwendungsfall zu erstellen. Alle Sensoren, die du an die senseBox anschließen kannst, kannst du verwenden und die Messwerte einfach übertragen.
 
 {% include image.html image=page.blocks %}
 
-Ein Beispielcode kannst du direkt [hier](https://blockly-react.netlify.app/gallery/60ae27f41842740018c65b07) öffnen. Zusätzlich zum Beispielcode gibt es auch ein Tutorial, welches dir die einzelnen Blöcke der Programmierung erläutert. Zum Tutorial kommst du [hier](https://blockly-react.netlify.app/tutorial/6167e944830e50001898bcd8).
+Ein Beispielcode kannst du direkt [hier](https://blockly.sensebox.de/gallery) öffnen. Zusätzlich zum Beispielcode gibt es auch ein Tutorial, welches dir die einzelnen Blöcke der Programmierung erläutert. Zum Tutorial kommst du [hier](https://blockly.sensebox.de/tutorial).
 
 ## Materialien
 

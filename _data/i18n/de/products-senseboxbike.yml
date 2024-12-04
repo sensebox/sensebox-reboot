@@ -3,7 +3,7 @@ bike-text: "Die senseBox:bike erweitert unseren bisherigen Fokus auf Umweltmonit
 bike-phenomenon-title: "Messbare Phänomene"
 bike-phenomenon-text: "Folgende Phänomene lassen sich mit der senseBox:bike mobil messen."
 phenomenon-temperatur: Temperatur
-phenomenon-temperatur-text: mit dem HDC1080 Sensor wird jede Sekunde die Lufttemperatur erfasst und gespeichert. Ein aktivläufter über dem Sensor bringt Frischluft durch die Öffnungen im Gehäuse
+phenomenon-temperatur-text: mit dem HDC1080 Sensor wird jede Sekunde die Lufttemperatur erfasst und gespeichert. Ein Aktivlüfter über dem Sensor bringt Frischluft durch die Öffnungen im Gehäuse
 phenomenon-humidity: rel. Luftfeuchtigkeit
 phenomenon-humidity-text: wird mit ebenfalls mit dem HDC1080 Sensor gemessen
 phenomenon-pm: Feinstaub
@@ -11,9 +11,9 @@ phenomenon-pm-text: der Sensirion SPS0 misst ein Mal pro Sekunde den Feinstaubge
 phenomenon-acceleration: Erschütterung
 phenomenon-acceleration-text: der verbaute MPU6050 Sensor misst die Beschleunigung in drei Achsen. Die Beschleunigung über die vertikale z-Achse zeigt den Ausmaß der Erschütterung auf. Diese wird über 10 Sekunden akkumuliert/gemittelt
 phenomenon-speed: Geschwindigkeit
-phenomenon-speed-text: die Geschwidigkeit wird neben der Position über das verbaute GPS - Beitan BN220  - ermittelt und jede Sekunde mit der Position gespeichert
+phenomenon-speed-text: die Geschwindigkeit wird neben der Position über das verbaute GPS - Beitan BN220  - ermittelt und jede Sekunde mit der Position gespeichert
 phenomenon-distance: Abstand (nach links)
-phenomenon-distance-text: ein Ultraschallsensor HC-SR04 misst kontinuierlich den Abstand nach links. Jede Messung unterhalb des geofrderten Sicherheitsabtandes von 150cm wird mit enstprechender Koordinate gespeichert. Achtung diese Rohdaten beinhalten nicht nur Abstände zu Fahrzeugen!
+phenomenon-distance-text: ein Ultraschallsensor HC-SR04 misst kontinuierlich den Abstand nach links. Jede Messung unterhalb des geforderten Sicherheitsabstandes von 150cm wird mit enstprechender Koordinate gespeichert. Achtung diese Rohdaten beinhalten nicht nur Abstände zu Fahrzeugen!
 phenomenon-text: Die senseBox:bike misst die unten genannten Phänomene zur Erfassung der Fahrradinfrastruktur als auch der Gefahren mit der Fahraddfahrer:innen im Straßenverkehr konfrontiert sind.
 bike-transmission-title: "Die Datenübertragung"
 bike-transmission-text: "Die Messwerte werden von der senseBox:bike per Bluetooth (Bluetooth Low Energy) an ein Smartphone übertragen. Die Übertragung der Daten vom Smartphone ins Internet erfolgt über die senseBox:bike App. Aus der App werden die Daten an die openSenseMap (opensSenseMap.org) übertragen. Durch die Partizipation vieler Bürger:innen kann somit ein flächendeckendes Bild über die Fahrradinfrastruktur der Stadt ermittelt werden. In der App können die Teilnehmenden Privatsphäre-Einstellungen treffen, wie einen individuell festgelegten Radius um das eigene Zuhause. In diesem Bereich werden dann keine Daten aufgezeichnet."
@@ -21,7 +21,7 @@ bike-app-title: "Die senseBox:bike App"
 bike-app-text: "Mit der senseBox:bike App können die Daten der senseBox:bike aufgezeichnet und an die openSenseMap übertragen werden. Darüber hinaus werden Live-Werte der senseBox:bike und die zurückgelegte Route angezeigt. So ist die App - z.B. mit einer Handyhalterung fürs Lenkrad - gleichzeitig ein kleiner Fahrradcomputer. Die App ist für Android und iOS verfügbar und kostenlos. Privatsphäreeinstellungen, wie z.B. Privacy-Zonen oder GPS-Genauigkeit können innerhalb der App vorgenommen werden."
 phenomenon-wifi: Wifi
 bike-housing-title: "Gehäuse und Halterung"
-bike-housing-text: "Das gehäuse der senseBox:bike wurde so konzipiert, dass sie sich mühelos an nahezu jedem Fahrrad anbringen und genauso leicht wieder entfernen lässt. Diese vielseitige Konstruktion wurde entwickelt, um die Anforderungen unterschiedlicher Fahrradtypen zu erfüllen. Das Gehäuse besteht aus 3D-gedrucktem Material.
+bike-housing-text: "Das Gehäuse der senseBox:bike wurde so konzipiert, dass sie sich mühelos an nahezu jedem Fahrrad anbringen und genauso leicht wieder entfernen lässt. Diese vielseitige Konstruktion wurde entwickelt, um die Anforderungen unterschiedlicher Fahrradtypen zu erfüllen. Das Gehäuse besteht aus 3D-gedrucktem Material.
 Die Farbe weiß führt zu einer geringeren Aufheizung durch Sonneneinstrahlung, ein integrierter Aktivlüfter und entsprechende Öffnungen im Gehäuse sorgt für eine Belüftung, damit Temperaturmessungen nicht zu stark abweichen. 
 Die Halterung ist ebenfalls 3D-gedruckt, jedoch mit einem Carbon-verstärktem Filament, um besondere Stabilität zu liefern. Es ist möglich die senseBox:bike an der Sattelstange, als auch an einem Gepäckträger (seitlich) zu montieren. Sie ist dann einfach und schnell abnehmbar und für eine breite Palette von Fahrrädern geeignet."
 bike-story-title: "Die Geschichte der senseBox:bike"

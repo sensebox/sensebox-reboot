@@ -14,7 +14,9 @@ go-edu-link: /go-edu.html
 go-mini-name: ":mini"
 go-mini-link: /go-mini.html
 go-co2-name: ":CO<sub>2</sub>-Ampel"
-go-co2-link: /go-co2.html
+go-co2-link: https://docs.sensebox.de/docs/products/co2ampel/co2ampel-overview/
+go-edus2-link: /go-edu-s2.html
+go-edus2-name: ":edu S2"
 #Products
 products-name: "senseBox"
 products-link: /products.html
@@ -26,6 +28,8 @@ products-home-name: ":home"
 products-home-link: /products-home.html
 products-edu-name: ":edu"
 products-edu-link: /products-edu.html
+products-edus2-name: ":edu S2"
+products-edus2-link: /products-edus2.html
 products-mini-name: ":mini"
 products-mini-link: /products-mini.html
 products-bike-name: ":bike"
@@ -61,13 +65,17 @@ forum-name: "Forum"
 forum-link: https://forum.sensebox.de
 
 #Research
+research-projects-title: "Research projects"
 senseboxpro-link: /research.html
 senseboxpro-name: "senseBox:pro"
 publications-name: "Publications"
 publications-link: /research-publications.html
-tinyaiot-name: "Tiny AIoT"
+tinyaiot-name: "TinyAIoT"
 tinyaiot-link: /research-tinyaiot.html
-
+QOOOL-name: "QOOOL"
+QOOOL-link: /research-qoool.html
+atraibike-name: "Atraibike"
+atraibike-link: /research-atraibikes.html
 #About-us
 team-name: "Team"
 team-link: /about-us.html

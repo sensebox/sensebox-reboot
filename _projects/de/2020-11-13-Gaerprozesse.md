@@ -32,7 +32,7 @@ difficult: mittel
 
 # Experiment zu Gärprozessen
 Beim Backen von Brot, Pizza oder Gebäck ist häufig Hefe notwendig, die den Teig besonders locker macht. Damit dies geschieht, ist bekannt, dass man den Teig 'gehen lassen' muss. Aber was genau passiert währenddessen in dem Teig und welcher chemische Prozess verbirgt sich dahinter? Dieser Frage gehen wir in diesem kleinen Experiment zum Gärprozess nach.
-Der CO2-Sensor hat dabei die Aufgabe, die Veränderung der CO2-Konzentration in Abhängigkeit von der Zeit zu erfassen. Da die Gärprozesse etwas Zeit in Anspruch nehemen können, empfiehlt es sich, die Daten auf der SD-Karte zu speichern und diese anschließend in einem geeigneten Progamm wie Excel auszuwerten.   
+Der CO2-Sensor hat dabei die Aufgabe, die Veränderung der CO2-Konzentration in Abhängigkeit von der Zeit zu erfassen. Da die Gärprozesse etwas Zeit in Anspruch nehemen können, empfiehlt es sich, die Daten auf der SD-Karte zu speichern und diese anschließend in einem geeigneten Programm wie Excel auszuwerten.   
 
 ## Aufbau
 Das Display ist in diesem Zusammenhang sinnvoll, um die Werte, die auf der SD-Karte gespeichert werden, zu überprüfen. Du schließt es mithilfe eines JST-JST-Kabels an einem der I2C/Wire Anschlüsse der senseBox MCU an. Ebenso verbindest du auch den CO2-Sensor mit der sneseBox MCU. Die SD-Karte steckst du in das mSD-Bee, welches du auf XBee-Steckplatz 2 platzierst. Um einen Gärprozess zu generieren, solltest du nun noch ein Hefegemisch herstellen. Dafür eignet sich beispielsweise folgendes Mengenverhältnis: 1 g Trockenhefe, 3 g Zucker, 20 g Wasser. Fülle das Gemisch in eine Glasschale, die du wiederum zusammen mit dem CO2-Sensor in ein größeres, geschlossenes Gefäß positionierst oder mit einer weiteren Schale überdeckst.  

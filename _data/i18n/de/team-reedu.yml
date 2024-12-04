@@ -1,35 +1,47 @@
 - name: Umut Tas
-  image: /images/team/umut.jpg
-  role: Geschäftsführer
+  image: /images/team/Umut_Neu.jpg
+  role: Geschäftsführer & Softwareentwickler
   position: 1
-  description: Umut war zusammen mit Jan einer der Entwickler des ersten senseBox Prototypen im Rahmen eines Studienprojekts im Jahr 2010. Nach seinem Studium arbeitete er als Softwareentwickler im Bereich Datenjournalismus. Heute kümmert er sich bei Reedu um die Wartung und <b>Entwicklung der openSenseMap sowie um die Visualisierung von Umweltdaten</b>.
+  description: Umut war einer der Entwickler des ersten senseBox-Prototypen im Rahmen eines Studienprojekts im Jahr 2010. Nach seinem Studium arbeitete er als Softwareentwickler im Bereich Datenjournalismus. Im senseBox:pro Projekt kümmerte er sich um die Wartung und Entwicklung der openSenseMap sowie um die Visualisierung von Umweltdaten. Er ist Geschäftsführer der Reedu GmbH & Co. KG und ist dort in der Softwareentwicklung tätig.
 
 - name: Jan Wirwahn
-  image: /images/team/Wirwahn.jpg
+  image: /images/team/Jan_Neu.jpg
+  role: Co-Founder & Entwickler
   position: 2
-  role: Softwareentwickler
-  description: Jan begleitet die Entwicklung der senseBox seit ihrer Geburt an der Uni Münster. Damals noch als Student und wissenschaftlicher Mitarbeiter. Heute ist er für die <b>Weiterentwicklung der Hardware und den Support für die Bausätze</b> zuständig.
+  description: Jan begleitet die Entwicklung der senseBox seit ihrer Geburt an der Uni Münster. Damals noch als Student und wissenschaftlicher Mitarbeiter. Heute ist er für die Weiterentwicklung der Hardware und den Support für die Bausätze zuständig.
+
+- name: Matthias Pfeil
+  image: /images/team/Matze_Neu.jpg
+  role: Software-Entwickler
+  position: 3
+  description: Matthias ist auch seit der Geburtsstunde der senseBox mit dabei und hat die openSenseMap ins Leben gerufen. Bei re:edu ist er Co-Founder und Entwickler.
 
 - name: Felix Erdmann
-  image: /images/team/Erdmann.png
+  image: /images/team/Felix_Neu.jpg
   role: Softwareentwickler
-  position: 3
-  description: Felix entwickelte seine Begeisterung für Bastelelektronik und Programmierung bereits als Schüler in einem der senseBox-Workshops mit Thomas und Jan. Nach seinem Geoinformatik-Studium ist er als <b>Softwareentwickler</b> bei Reedu mit eingestiegen und arbeitet weiterhin gerne mit Open-Source Technik.
+  position: 4
+  description: Felix entwickelte seine Begeisterung für Bastelelektronik und Programmierung bereits als Schüler in einem der senseBox-Workshops mit Thomas und Jan. Nach seinem Geoinformatik-Studium ist er als Softwareentwickler bei re:edu mit eingestiegen und arbeitet weiterhin gerne mit Open-Source Technik.
 
 - name: Verena Witte
-  image: /images/team/verena.jpg
-  role:
-  position: 4
-  description: Verena arbeitet neben ihrem Studium im Master of Education bei Reedu. Hier ist sie überwiegend für die Konzeption von Unterrichtsmaterialien zuständig und gibt sowohl Schülerinnen als auch Lehrerinnen Workshops mit der senseBox.
-# - name: Björn Guntermann
-#   role: Head of Education
-#   image: /images/team/bjoern.jpg
-#   position: 4
-#   description: Björn ist Head of Education bei Reedu und arbeitet an der <b>Konzeption und Durchführung von Workshops und Fortbildungen</b>. Schon seit Projektbeginn motiviert er Lehrer*innen und Schüler*innen für Umweltbildung und Informatik.
+  image: /images/team/Verena_Neu.jpg
+  role: Head of Education
+  position: 5
+  description: Verena hat bereits während ihres Studiums im Master of Education bei Reedu gearbeitet. Auch nach ihrem Studium ist sie hier überwiegend für die Konzeption von Unterrichtsmaterialien zuständig und gibt sowohl Schüler:innen als auch Lehrer:innen Workshops mit der senseBox.
 
-# - name: David Fehrenbach
-#   image: /images/team/david.jpeg
-#   role: Geschäftsführer
-#   position: 5
-#   description: David ist operativer Geschäftsführer der Reedu GmbH & Co. KG.  Er kümmert sich um <b>Vertrieb, Management und Organisation</b>. In brenzligen Situationen bewahrt er stets einen kühlen Kopf und koordiniert das Team bei Projektarbeiten.
+- name: Eric Thieme-Garmann
+  image: /images/team/Eric_Neu.png
+  role: Entwickler
+  position: 6
+  description: Eric hat sowohl in seinem Bachelor- als auch in seinem Masterstudium am Institut für Geoinformatik der Universität Münster als studentische Hilfskraft im senseBox:pro Projekt gearbeitet. Nach seinem Studium hat er begonnen, bei re:edu als Entwickler zu arbeiten.
 
+- name: Paula Scharf
+  image: /images/team/Paula_Neu.png
+  role: Entwicklerin
+  position: 7
+  description: Paula hat ebenfalls ihr Bachelor- und Masterstudium im Fach Geoinformatik an der Universität Münster absolviert. Sie ist bei re:edu vor allem im Bereich Webentwicklung tätig und ist im TinyAIoT-Projekt beteiligt.
+
+- name: Gina Buchwald-Chassée
+  image: /images/team/Gina_Neu.jpg
+  role: Kommunikation / PR
+  position: 8
+  description: Gina hat Kommunikationswissenschaft an der Universität Münster studiert und während ihres Masterstudiums als studentische Hilfskraft im senseBox:pro-Projekt angefangen. Dabei hat sie die Social Media Kanäle betreut und die Kommunikation rund um die senseBox übernommen. Auch bei re:edu ist sie für die Kommunikation und Öffentlichkeitsarbeit verantwortlich.

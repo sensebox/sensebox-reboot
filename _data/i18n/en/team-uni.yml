@@ -1,15 +1,15 @@
 - name: Dr. Thomas Bartoschek
-  image: /images/team/Bartoschek_neu.jpg
+  image: /images/team/Thomas_Neu.jpg
   position: 1
   description: Thomas is a post-doc at the Institute for Geoinformatics at the University of Münster. He is founder and head of the research and student laboratory GI@School and head of the senseBox project. He researches in the fields of "Learning with Geotechnologies", Human-Computer-Interaction and Citizen Science and develops products for education and science communication.
 
 - name: Prof. Dr. Angela Schwering
-  image: /images/team/Schwering.jpg
+  image: /images/team/Angela_Neu.jpeg
   position: 2
   description: Angela is professor at the Institute for Geoinformatics of the University of Münster. In her research on spatial cognition she investigates how cognitively adequate information systems can best support humans in solving spatio-temporal problems. Among other things, she is interested in how geotechnologies and sensors can be used in the educational sector to train the spatial competencies of students and to foster their enthusiasm for technology
   
 - name: Mario Pesch
-  image: /images/team/Pesch.jpg
+  image: /images/team/Mario_Neu.jpeg
   position: 3
   description: Mario is a research associate at the Institute for Geoinformatics at the University of Münster. He is the developer of the Google Blockly based programming environment Blockly for senseBox and researches in the field of Learning Analytics.
 
@@ -18,7 +18,3 @@
   position: 4
   description: Benjamin is a research assistant and doctoral student at the Institute of Geoinformatics at the University of Münster. He has already worked on the senseBox:pro project as a student and is now conducting research in the TinyAIoT project.
 
-- name: Tom Niers
-  image: /images/team/Tom_Neu.jpg
-  position: 5
-  description: Tom has already worked as a student assistant in the senseBox:pro project and is now a developer in the TinyAIoT project.

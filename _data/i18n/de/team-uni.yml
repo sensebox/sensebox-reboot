@@ -1,5 +1,5 @@
 - name: Dr. Thomas Bartoschek
-  image: /images/team/Bartoschek_neu.jpg
+  image: /images/team/Thomas_Neu.jpg
   position: 1
   description: Thomas ist Wissenschaftlicher Mitarbeiter (Post-Doc) am Institut für Geoinformatik der Universität Münster. Er ist Gründer und Leiter des Forschungs- und Schülerlabors GI@School und Leiter des senseBox Projektes. Er forscht in den Bereichen „Lernen mit Geotechnologien“, Human-Computer-Interaction und Citizen Science und entwickelt Produkte für Bildung und Kommunikation seiner Wissenschaft.
 
@@ -18,7 +18,3 @@
   position: 4
   description: Benjamin ist Wissenschaftlicher Mitarbeiter und Promotionsstudent am Institut für Geoinformatik der Universität Münster. Er hat bereits als Student im senseBox:pro-Projekt mitgearbeitet und forscht nun im TinyAIoT-Projekt.
 
-- name: Tom Niers
-  image: /images/team/Tom_Neu.jpg
-  position: 5
-  description: Tom hat bereits als studentische Hilfskraft im senseBox:pro-Projekt gearbeitet und ist nun als Entwickler im TinyAIoT-Projekt tätig.

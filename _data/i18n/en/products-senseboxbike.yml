@@ -1,33 +1,80 @@
-title: senseBox:bike
-bike-text: "The senseBox:bike expands the focus on environmental monitoring to include the component of road safety for cyclists. With a kit that can be mounted on the bicycle saddle, statements can thus be made about the condition of the cycle path, the distance between the bicycle and the car, and the speed of the cyclist. The following sensors and components are available for this purpose"
-bike-phenomenon-title: "Measurable Phenomena"
-bike-phenomenon-text: "The following phenomena can be measured with the senseBox:bike mobil."
-phenomenon-temperatur: Temperature
-phenomenon-temperatur-text: The HDC1080 sensor captures and stores the air temperature every second. An active fan above the sensor brings fresh air through the openings in the housing.
-phenomenon-humidity: Relative Humidity
-phenomenon-humidity-text: Also measured with the HDC1080 sensor.
-phenomenon-pm: Particulate Matter
-phenomenon-pm-text: The Sensirion SPS30 measures particulate matter content in the air once per second in µg/m³ for particle sizes PM10, PM4, PM2.5, and even PM1. Air is drawn in through an opening in the direction of travel and released through the side openings.
-phenomenon-acceleration: Vibration
-phenomenon-acceleration-text: The built-in MPU6050 sensor measures acceleration in three axes. The acceleration along the vertical z-axis indicates the magnitude of the vibration. This is accumulated/averaged over 10 second.
-phenomenon-speed: Speed
-phenomenon-speed-text: Speed is determined alongside the position using the built-in GPS - Beitan BN220 - and is stored every second with the position.
-phenomenon-distance: Distance (to the left)
-phenomenon-distance-text: An ultrasonic sensor HC-SR04 continuously measures the distance to the left. Each measurement below the safety distance of 150cm is stored with the corresponding coordinates. Note that these raw data include not only distances to vehicles!
-phenomenon-text: "The senseBox:bike measures the phenomena listed below to capture both the bicycle infrastructure and the hazards faced by cyclists on the road."
-bike-transmission-title: "The data transmission"
-bike-transmission-text: "The measurements are transmitted from the senseBox:bike via Bluetooth (Bluetooth Low Energy) to a smartphone. The transfer of data from the smartphone to the internet is done through the senseBox:bike app. From the app, the data is sent to the openSenseMap (openSenseMap.org). With the participation of many citizens, a comprehensive picture of the city's bicycle infrastructure can be determined. In the app, participants can set privacy settings, such as an individually defined radius around their own home. No data will be recorded in this area."
-bike-app-title: "The senseBox:bike app"
-bike-app-text: "With the senseBox:bike app, the data from the senseBox:bike can be recorded and transferred to the openSenseMap. In addition, live values from the senseBox:bike and the route travelled are displayed. The app is available for Android and iOS."
-bike-housing-title: "The Enclosure"
-bike-housing-text: "The housing of the senseBox:bike has been designed so that it can be effortlessly attached to almost any bike and just as easily removed again. This versatile design has been developed to fulfil the requirements of different types of bike. An integrated small fan ensures pleasant ventilation so that your senseBox:bike always functions optimally. Easy to fit, easy to remove and suitable for a wide range of bikes - the senseBox:bike remains flexible and comfortable in every respect."
-bike-story-title: "The story of the senseBox:bike"
-bike-story-text: "Which data should the senseBox collect for bicycles to make statements about bicycle infrastructure, and how should the housing be designed to be attached to different types of bicycles and withstand bumpy roads? It quickly became clear that we couldn't answer these questions alone. So, in collaboration with Futurium Berlin, the Academy of Fine Arts (ABK) Stuttgart, and the Fab Lab Munich, we brainstormed in a Makeathon in February 2021 on how the senseBox:bike should look and function. That's how the senseBox:bike came to life. Learn more about the history of the senseBox:bike in our "
-bike-story-link: "<a href='https://sensebox.de/blog/2021-03-01-sensebox-bike/' target='_blank'>blog post</a>"
-bike-example-title: "Reference projects"
-bike-example-1-title: "Meals on Wheels"
-bike-example-text-1-link: "In this project"
-bike-example-1-text: "Pupils from five schools in Essen are independently collecting data with the senseBox:bike. This data serves as a basis for analysing the cycling infrastructure of the city of Essen, identifying danger spots and finally developing suggestions for improvement based on this data. In a final step, the students discuss the findings with local politicians and are thus motivated to actively participate in urban planning processes with the help of Citizen Science"
-bike-example-2-title: "Smart Intermodal Commuting ( Intelligenter Intermodaler Pendlerverkehr (IIP))"
-bike-example-2-text-link: "IIP"
-bike-example-2-text: "In the Smart Intermodal Commuting (Intelligenter Intermodaler Pendlerverkehr(IIP)) project, senseBox:bikes are used to collect bicycle data in Münster and Osnabrück."
+iframe-src: "https://3d.sensebox.de/bike"
+heading: "The senseBox:bike"
+description: "The senseBox:bike is an innovative device that transforms your bicycle into a mobile environmental sensor with advanced AI capabilities. It allows cyclists to collect valuable data about their surroundings while riding, contributing to urban environmental monitoring and citizen science projects. With its advanced sensors, real-time analysis capabilities, and on-device machine learning, the senseBox:bike empowers you to become an active participant in understanding and improving your local environment while enhancing your cycling safety."
+features:
+  no-soldering-title: "🛠️ No soldering required"
+  no-soldering-text: "The senseBox:bike offers an easy assembly process, making it accessible for users of all skill levels."
+  battery-title: "🔋 Battery Life"
+  battery-text: "With 4-8 hours of battery life, the senseBox:bike ensures you can collect data throughout your ride without worrying about running out of power."
+  sensors-title: "🌡️ Environmental Sensors"
+  sensors-text: "Equipped with temperature, humidity, and fine dust sensors, the senseBox:bike provides comprehensive environmental data."
+  connectivity-title: "🛜 Connectivity"
+  connectivity-text: "The senseBox:bike offers seamless connectivity through Bluetooth Low Energy, allowing you to easily sync your data with the companion app."
+  ai-title: "✨ AI Capabilities"
+  ai-text: "On-device machine learning detects overtaking maneuvers and surface quality."
+  proven-title: "🌎 Proven"
+  proven-text: "Proven in various workshops and projects worldwide, including schools and citizen science initiatives."
+app:
+  title: "senseBox:bike App"
+  connect-title: "Connect"
+  connect-text: "Connect with your senseBox:bike and measure your environment in real-time."
+  data-visualization-title: "Data Visualization"
+  data-visualization-text: "Visualize your ride data in real-time with interactive maps and charts."
+  ai-detection-title: "AI Overtaking Detection"
+  ai-detection-text: "See the AI model in action as it detects and visualizes potential overtaking vehicles."
+  trip-review-title: "Trip Review"
+  trip-review-text: "Review your past rides and gain valuable insights into what you encountered along the way."
+  data-export-title: "Data Export"
+  data-export-text: "Easily export your ride data for further analysis and sharing with others."
+  privacy-zones-title: "Privacy Zones"
+  privacy-zones-text: "Set privacy zones to protect your personal data and control what you share with others."
+  video-error-text: "Your browser does not support the video tag."
+ai-features:
+  title: "✨ AI Features"
+  description: "The senseBox:bike is equipped with advanced AI capabilities that enhance your cycling experience and safety. With on-device machine learning, the senseBox:bike can detect and alert you of potential overtaking vehicles, classify road surfaces, and provide valuable insights into your surroundings."
+  overtaking-title: "Overtaking Detection"
+  overtaking-text: "The senseBox:bike uses advanced AI algorithms to detect and alert you of potential overtaking vehicles, enhancing your safety on the road."
+  surface-classification-title: "Surface Classification"
+  surface-classification-text: "The senseBox:bike uses AI to classify road surfaces and provide insights into road conditions, helping you plan your route and avoid potential hazards."
+history:
+  title: "The History of the senseBox:bike"
+  text: "What data should the senseBox collect for the bicycle to make statements about bicycle infrastructure, and how should the housing be designed so that it can be attached to different types of bicycles and withstand bumpy roads? It quickly became clear that we could not answer these questions alone. So, in February 2021, we collaborated with the Futurium Berlin, the Academy of Fine Arts (ABK) Stuttgart, and the Fab Lab Munich at a Makeathon to brainstorm how the senseBox:bike should look and function. And so, the senseBox:bike took off. Learn more about the history of the senseBox:bike in our blog post."
+  button-text: "Blog Post"
+projects:
+  title: "Projects with the senseBox:bike"
+  items:
+    - title: "Essen auf Rädern"
+      description: "A citizen science project in Essen, Germany, using the senseBox:bike for monitoring air quality and traffic conditions."
+      image: "/images/products/bike/aufraedern.png"
+      alt: "Essen auf Rädern"
+      link: 
+        url: "https://essen.aufraedern.org"
+        text: "Learn More"
+    - title: "ATRAI bikes"
+      description: "The ATRAI Bike project aims to improve urban cycling by collecting and analyzing infrastructure data with the help of citizens, businesses, and local governments."
+      image: "/images/products/bike/ATRAI_bike_logo.png"
+      alt: "ATRAI bikes logo"
+      link: 
+        url: "https://www.hs-osnabrueck.de/iip/"
+        text: "Learn More"
+    - title: "IP"
+      description: "A community-oriented initiative in Münster and Osnabrück using the senseBox:bike to collect data on air quality and traffic safety."
+      image: "/images/products/bike/iipLogo.png"
+      alt: "IP"
+      link: 
+        url: "https://www.hs-osnabrueck.de/iip/"
+        text: "Learn More"
+documents:
+  title: "Documents"
+  items:
+    - title: "📦 3D Printing Files"
+      description: |
+        <i class="fas fa-cube footer-icon px-1"></i> Housing: The link will be published soon.
+    - title: "<> Source Code"
+      description: |
+        <i class="fab fa-github footer-icon px-1"></i> Firmware: [senseBox:bike Arduino](https://github.com/sensebox/senseBox-bike-Arduino)
+
+        <i class="fab fa-github footer-icon px-1"></i> App: [senseBox:bike Flutter](https://github.com/reedu-reengineering-education/sensebox-bike-flutter)
+    - title: "📚 Manual"
+      description: |
+        <i class="fas fa-file footer-icon px-1"></i> The link will be published soon.

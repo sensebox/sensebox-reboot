@@ -6,8 +6,8 @@
 
 - name: Jan Wirwahn
   image: /images/team/Jan_Neu.jpg
-  position: 2
   role: Co-Founder & Developer
+  position: 2
   description: Jan has accompanied the development of the senseBox since its birth at the University of Münster. Back then, he was still a student and research assistant. Today, he is responsible for the further development of the hardware and support for the kits.
 
 - name: Matthias Pfeil

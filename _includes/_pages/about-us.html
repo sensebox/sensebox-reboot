@@ -5,8 +5,7 @@
     </div>
 </div>
 
-
-{% assign teammembers-reedu = site.data.i18n.[page.lang].team-reedu | sort: 'position' %}
+{% assign teammembers-reedu = site.data.i18n.[page.lang].team-reedu | sort: 'position'  %}
 {% assign teammembers-uni = site.data.i18n.[page.lang].team-uni | sort: 'position' %}
 {% assign awardslist = site.awards | sort: 'weight' %}
 

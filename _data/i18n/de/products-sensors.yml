@@ -1,5 +1,5 @@
-parts-title: "senseBox:bauteile"
-parts-text: "Die verschiedenen senseBox-Modelle und ihre Bauteile sind vollständig untereinander kompatibel. Die Sensoren und Datenübertragungsmodule verwenden ein einheitliches Stecksystem und können so Modellunabhängig verwendet werden."
+parts-title: "senseBox:Zubehör"
+parts-text: "Die verschiedenen senseBox-Modelle und ihr Zubehör sind vollständig untereinander kompatibel. Die Sensoren und Datenübertragungsmodule verwenden ein einheitliches Stecksystem und können so Modellunabhängig verwendet werden."
 
 parts-MCU-title: "Die senseBox MCU"
 parts-MCU-text: "Die senseBox MCU (MicroControllerUnit) ist das Herzstück jeder senseBox. Sie ist ein Einplatinencomputer auf Basis des ARM Cortex-M0 Prozessors aus der SAMD21 Familie. Dieser Prozessor macht die senseBox MCU vollständig kompatibel zu Arduino.<br>Sie verfügt über folgende fest verbaute Anschlüsse und Bauteile."

@@ -1,4 +1,4 @@
-parts-title: "senseBox:bauteile"
+parts-title: "senseBox:Zubehör"
 parts-text: "Die verschiedenen senseBox-Modelle und ihre Bauteile sind vollständig untereinander kompatibel. Die Sensoren und Datenübertragungsmodule verwenden ein einheitliches Stecksystem und können so Modellunabhängig verwendet werden."
 
 parts-MCU-title: "Die senseBox MCU"
@@ -53,7 +53,7 @@ parts-sensors-co2: "CO<sub>2</sub>-Sensor"
 parts-sensors-co2-text: "CO<sub>2</sub>-Konzentration in ppm"
 parts-sensors-co2-link: "https://sensebox.kaufen/product/co2-sensor"
 
-parts-bees-title: "XBees"
+parts-bees-title: "Verbindungsmodule"
 parts-bees-text: "Um die gemessenen Daten deiner senseBox zu speichern oder ins Internet zu übertragen, können verschiedene Verbindugsmodule, sogenannte XBees, aufgesteckt werden."
 parts-bees-WiFi: "WiFi-Bee"
 parts-bees-WiFi-text: "Ermöglicht eine Netzwerkverbindung via WiFi.<br>Single-band 2.4GHz b/g/n<br>Sicherheitsprotokolle: WPA/WPA2 Personal, TLS, SSL<br>Netzwerk-Dienste: DHCP, DNS, TCP/IP (IPv4), UDP, HTTP, HTTPS"

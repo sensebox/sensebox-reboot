@@ -1,4 +1,4 @@
-parts-title: "senseBox:bauteile"
+parts-title: "senseBox:Zubehör"
 parts-text: "Die verschiedenen senseBox-Modelle und ihre Bauteile sind vollständig untereinander kompatibel. Die Sensoren und Datenübertragungsmodule verwenden ein einheitliches QWIIC- bzw. JST-Stecksystem und können so modellunabhängig kombiniert werden. Neben den Sensoren und XBees lässt sich weiteres Zubehör mit der senseBox verwenden:"
 
 parts-MCU-title: "Die senseBox MCU"

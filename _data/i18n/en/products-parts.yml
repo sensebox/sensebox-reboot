@@ -83,3 +83,27 @@ parts-accessories-solar-link: "https://sensebox.kaufen/product/sensebox-solar-se
 parts-accessories-housing: "Housing"
 parts-accessories-housing-text: "Outdoor housing for various components and applications to make the senseBox weatherproof."
 parts-accessories-housing-link: "https://sensebox.shop/product/wetterhutte"
+
+parts-accessories-rtc: "RTC Module"
+parts-accessories-rtc-text: "The RTC module of the senseBox enables precise timekeeping and timestamping for applications."
+parts-accessories-rtc-link: "https://sensebox.kaufen/product/rtc-modul"
+
+parts-accessories-rgb: "NeoPixel RGB LED"
+parts-accessories-rgb-text: "The RGB LED of the senseBox lights up in freely selectable colors and is ideal for visual signals and displays."
+parts-accessories-rgb-link: "https://sensebox.kaufen/product/verkettbare-rgb-led"
+
+parts-accessories-one-wire: "One-Wire Adapter"
+parts-accessories-one-wire-text: "The One-Wire adapter of the senseBox enables easy connection and communication with One-Wire sensors, such as temperature probes."
+parts-accessories-one-wire-link: "https://sensebox.kaufen/product/sensebox-one-wire-adapter"
+
+parts-accessories-led-matrix: "LED Matrix"
+parts-accessories-led-matrix-text: "The LED Matrix of the senseBox is used to display texts, symbols, and patterns, making it ideal for visual outputs and indications."
+parts-accessories-led-matrix-link: "https://sensebox.kaufen/product/led-matrix"
+
+parts-accessories-battery-holder: "Battery Holder"
+parts-accessories-battery-holder-text: "The battery holder of the senseBox provides flexible and mobile power to the hardware."
+parts-accessories-battery-holder-link: "https://sensebox.kaufen/product/batteriehalterung"
+
+parts-shop-text: "You can find this and more in our"
+parts-shop-link: "https://sensebox.kaufen/"
+parts-onlineshop: "online shop !"

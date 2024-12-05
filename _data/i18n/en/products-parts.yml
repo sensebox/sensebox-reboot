@@ -47,6 +47,11 @@ parts-sensors-Wind-link: "https://sensebox.shop/product/windsensor"
 parts-sensors-sound: "Sound level meter"
 parts-sensors-sound-text: "Sound level in dBA (30-130 dBA, ±1,5 dB)"
 parts-sensors-sound-link: "https://sensebox.shop/product/lautstarkesensor"
+parts-sensors-tof: "ToF Distance sensor"
+parts-sensors-tof-text: "Distance measurements in a 8x8 matrix with a range of up to 400cm"
+parts-sensors-tof-link: "https://sensebox.kaufen/product/time-of-flight-sensor"
+
+
 
 parts-bees-title: "XBees"
 parts-bees-text: "In order to save the measured data of your senseBox or to transfer it to the Internet, various connection modules, so-called XBees can be plugged in."

@@ -4,14 +4,25 @@ info:
   address: "Reedu GmbH & Co. KG <br />
    Von-Steuben-Str. 21 <br />
    48143 Münster"
+representative:
+  header: "Represented by:"
+  details: "Reedu Verwaltungs GmbH, represented by the managing directors Dr. Thomas Bartoschek & Umut Tas"
 contact:
   header: "Contact:"
   details: "Telephone: +49 251 98119797<br />
    E-Mail: kontakt@reedu.de"
+register:
+  header: "Register entry:"
+  details: "Registering court: Amtsgericht Münster<br />
+  Registration number: HRA 10639"
+vat:
+  header: "VAT:"
+  details: "VAT Id number according to Sec. 27 a German Value Added Tax Act: DE317828779"
 responsible:
   header: "Responsible for contents acc. to Sec. 55, para. 2 German Federal Broadcasting Agreement (RstV)"
   details: "CEO
-   Umut Taş <br />
+   Dr. Thomas Bartoschek<br />
+   Reedu GmbH & Co. KG<br />
    Von-Steuben-Str. 21<br />
    48143 Münster"
 dispute:

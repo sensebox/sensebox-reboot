@@ -34,7 +34,7 @@ products-mini-name: ":mini"
 products-mini-link: /products-mini.html
 products-bike-name: ":bike"
 products-bike-link: /products-bike.html
-products-data-name: "Data logger"
+products-data-name: ":datalogger"
 products-data-link: /products-datalogger.html
 products-parts-name: "Parts"
 products-parts-link: /products-parts.html

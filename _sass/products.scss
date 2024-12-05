@@ -213,23 +213,23 @@ figcaption h3 {
   }
 }
 
-.comparisonTable td:nth-child(2)  {
+.comparisonTable td:nth-child(2) {
   text-align: right;
 }
-.comparisonTable td:nth-child(3)  {
+.comparisonTable td:nth-child(3) {
   text-align: right;
 }
 
 .table-subhead {
- color: $sensebox-green;
- font-family: BrixSlab-Bold;
+  color: $sensebox-green;
+  font-family: BrixSlab-Bold;
   font-size: 1.2em;
 }
 
 .table-product-comparison .fa {
-  color: $sensebox-green!important;
+  color: $sensebox-green;
 }
 
 .news-items {
-  padding:0px 35px 0 35px;
+  padding: 0px 35px 0 35px;
 }

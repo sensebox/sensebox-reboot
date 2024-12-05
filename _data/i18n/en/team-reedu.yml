@@ -1,23 +1,48 @@
 - name: Umut Tas
-  image: /images/team/umut.jpg
-  role: Managing Director
+  image: /images/team/Umut_Neu.jpg
+  role: CEO & Softwaredeveloper
   position: 1
-  description: Umut, along with Jan, was one of the developers of the first senseBox prototype as part of a student project in 2010. After his studies, he worked as a software developer in the field of data journalism. Today, at Reedu, he oversees the maintenance and <b>development of the openSenseMap as well as the visualization of environmental data</b>.
+  description: Umut was one of the developers of the first senseBox prototype as part of a student project in 2010. After graduating, he worked as a software developer in the field of data journalism. In the senseBox:pro project, he was responsible for the maintenance and development of the openSenseMap and the visualisation of environmental data. He is the managing director of Reedu GmbH & Co. KG, where he works in software development.
 
 - name: Jan Wirwahn
-  image: /images/team/Wirwahn.jpg
-  position: 1
-  role: Software Developer
-  description: Jan has been involved in the development of senseBox since its inception at the University of Münster, initially as a student and research assistant. Today, he is responsible for the <b>continuous improvement of hardware and support for the kits</b>.
+  image: /images/team/Jan_Neu.jpg
+  role: Co-Founder & Developer
+  position: 2
+  description: Jan has accompanied the development of the senseBox since its birth at the University of Münster. Back then, he was still a student and research assistant. Today, he is responsible for the further development of the hardware and support for the kits.
+
+- name: Matthias Pfeil
+  image: /images/team/Matze_Neu.jpg
+  role: Software-Developer
+  position: 3
+  description: Matthias has also been involved since the birth of senseBox and created the openSenseMap. He is a co-founder and developer at re:edu.
 
 - name: Felix Erdmann
-  image: /images/team/Erdmann.png
-  role: Software Developer
-  position: 3
-  description: Felix developed his passion for DIY electronics and programming during one of the senseBox workshops with Thomas and Jan while still in school. After his studies in geoinformatics, he joined Reedu as a <b>software developer</b> and continues to enjoy working with open-source technology.
+  image: /images/team/Felix_Neu.jpg
+  role: Software-Developer
+  position: 4
+  description: Felix developed his enthusiasm for DIY electronics and programming as a schoolboy in one of the senseBox workshops with Thomas and Jan. After studying geoinformatics, he joined Reedu as a software developer and continues to enjoy working with open source technology.
 
 - name: Verena Witte
-  image: /images/team/verena.jpg
-  role:
-  position: 4
-  description: Verena works at Reedu alongside her Master of Education studies. She is mainly responsible for designing educational materials and conducts workshops with senseBox for both students and teachers.
+  image: /images/team/Verena_Neu.jpg
+  role: Head of Education
+  position: 5
+  description: Verena already worked at Reedu during her Master of Education programme. Even after her studies, she is still mainly responsible for designing teaching materials and gives workshops with the senseBox to both pupils and teachers.
+
+- name: Eric Thieme-Garmann
+  image: /images/team/Eric_Neu.png
+  role: Developer
+  position: 6
+  description: Eric worked as a student assistant on the senseBox:pro project during both his Bachelor's and Master's degree programmes at the Institute of Geoinformatics at the University of Münster. After his studies, he started working as a developer at re:edu.
+
+- name: Paula Scharf
+  image: /images/team/Paula_Neu.png
+  role: Developer
+  position: 7
+  description: Paula also completed her Bachelor's and Master's degree in Geoinformatics at the University of Münster. She works at re:edu primarily in the area of web development and is involved in the TinyAIoT project.
+
+- name: Gina Buchwald-Chassée
+  image: /images/team/Gina_Neu.jpg
+  role: Communication / PR
+  position: 8
+  description: Gina studied communication science at the University of Münster and started as a student assistant in the senseBox:pro project during her master's degree. She was in charge of the social media channels and the communication around the senseBox. She is also responsible for communication and public relations at re:edu.
+  

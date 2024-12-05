@@ -11,3 +11,10 @@ transmission-title: "Data Transmission"
 transmission-text: "The mobile senseBox data logger stores the data on a microSD card. It records temperature and relative humidity along with coordinates (longitude and latitude in the WGS84 reference system) and timestamps (in UTC). The data is stored in a CSV file and can be subsequently published as Open Data on the openSenseMap."
 example-title: "An Example: 321-hot in the Aargau Canton"
 example-text: "In Switzerland, the mobile data logger was used as a Citizen Science Toolkit to identify heat islands in the Aargau Canton. Interested residents were equipped with this version of the senseBox, and they collected comprehensive data in their region incidentally. Through open workshops on data analysis and reflection on data collection, particularly warm areas were identified, and ideas for creating cool hangout spots were developed. For more information, visit: "
+
+mobile-campaign: "Mobile Measurement Campaigns"
+campaign-text-1: "Engaging citizens in identifying urban heat islands provides an effective way to address the local impacts of climate change. In a participatory mobile measurement campaign, citizens collect environmental data over the summer months (2–4 weeks) to identify urban heat hotspots. These data serve as the foundation for heat action plans that develop targeted measures for a heat-resilient urban climate."
+
+campaign-text-2: "The results are evaluated and discussed in a workshop with participants. Additionally, the raw data are published as Open Data on the openSenseMap to ensure transparency and enable further analysis. By offering a rental option for the required hardware, the campaign follows a sustainable concept that conserves resources and promotes device reuse."
+
+campaign-text-3: "Such campaigns not only raise awareness of urban climate challenges but also strengthen active citizen participation in environmental and climate protection."

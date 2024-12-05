@@ -1,42 +1,44 @@
 - author: Eric
+  date: 2024-12-06
+  headline: New in the Shop! The Air Quality Explorer Set
+  text: The Air Quality Explorer Set allows you to examine indoor and outdoor air quality. It includes a CO₂ sensor and a particulate matter sensor along with the accessories needed to connect it to senseBox microcontrollers. It is compatible with both the senseBox:edu and the senseBox:edu S2. Check out the <a href="https://sensebox.kaufen/product/sensebox-edu-upgrade-kit" class="green-link">Air Quality Explorer Set</a>.
+  active: true
+- author: Eric
+  date: 2024-10-30
+  headline: senseBox:bike on WDR!
+  text: The senseBox was featured on WDR! In the segment, our "senseBox:bike" was presented by its inventor and IT expert Felix. <a href="https://www1.wdr.de/nachrichten/westfalen-lippe/ki-fahrraddaten-muenster-100.html" class="green-link">Click here</a> for the online article.
+  active: true
+- author: Eric
   date: 2023-12-05
   headline: Order senseBox:bike now!
   text: The senseBox:bike is a kit for a mobile environmental monitoring station on your bike. It measures temperature, humidity, air pressure, noise level, UV intensity, and the concentration of pollutants. The data is transmitted to your phone via Bluetooth and can then be uploaded to the openSenseMap! The senseBox:bike is available for order now. Check out the <a href="/en/products-bike" class="green-link">senseBox:bike</a>.
-  active: true
 - author: Eric
   date: 2023-11-01
   headline: Introducing the senseBox Rain Sensor!
   text: We are excited to introduce the brand-new Rain Sensor for the senseBox! Now available to capture precise real-time rainfall. Seamlessly integrate it into your senseBox MCU, MCU mini, or MCU S2 and optimize your projects for any weather condition. Check out the <a href="https://sensebox.shop/product/hydreon-rg-15-rain-sensor" target="_blank" class="green-link">sensor</a>.
-  active: true
 - author: Gina
   date: 2023-05-25
   headline: New Blockly Version for senseBox
   text: Have you seen it? Our graphical programming interface Blockly for senseBox has been updated. With new features and tutorials, getting started with programming is now even easier. Take a look. Visit <a href="https://blockly.sensebox.de" target="_blank" class="green-link">Blockly</a>.
-  active: true
 - author: Gina
   date: 2023-01-20
   headline: Let's Connect with the senseBox App
   text: For everything, there's an app, and now there's one for the senseBox too! To transfer the code created in Blockly to smartphones or tablets, we've developed the senseBox Connect App. It's available for free on the Apple and Google Play Store. Important - you need a Wifi-Bee or the Wifi ID of your senseBox to transfer the code to the app. Check out the <a href="https://sensebox.de/en/app.html" class="green-link">senseBox Connect App</a>.
-  active: true
 - author: Gina
   date: 2022-12-18
   headline: Small & Compact - The New senseBox MCU Mini
   text: The senseBox is now available in miniature! This small device is about the size of the OLED display, making it ideal for mobile surveys on foot or by bike. It can be programmed in Arduino just like the MCU and is also integrated into Blockly. This allows various experiments to be conducted without programming knowledge. Find out how to assemble your own mini environmental monitoring station <a href="https://sensebox.de/projects/en/2022-12-19-mini-station" class="green-link">here</a>. The senseBox MCU Mini is available as a standalone <a href="https://sensebox.shop/product/sensebox-mcu-mini" class="green-link">board</a> or as a <a href="https://sensebox.shop/product/sensebox-mini-v2" class="green-link">kit</a>. Have fun experimenting!
-  active: true
 - author: David
   date: 2020-05-15
   headline: senseBox Sprechstunde
   text: Aufgrund der aktuellen Situation (Corona-Krise) können auch wir keine Veranstaltungen vor Ort anbieten. Wir möchten jedoch gerne weiterhin mit Euch in Kontakt bleiben und bieten Sprechtunden an. Ihr habt Fragen zu Blockly, benötigt einen Tipp für die senseBox:home oder wollt einfach mal über Erfahrungen berichtet? Dann meldet euch hier an <a href="https://sensebox.de/fortbildung" class="btn btn-success">zur Anmeldung</a>
-  active: true
 
 - author: Björn
   date: 2020-05-15
   headline: Wir bleiben schlau! Die Allianz für MINT-Bildung zu Hause
   text: Zu Hause wird es langweilig? Wir beteiligen uns mit mehr als 50 Partnern an der Allianz für MINT-Bildung. Mehr Informationen findet ihr auf der <a href="https://sensebox.de/wirbleibenschlau">sensebox.de/wirbleibenschlau</a>.
-  active: true
 
 - author: David
   date: 2020-05-15
   headline: Die senseBox im Futurium
   text: Wir haben schon immer mal wieder von unsere Kooperation mit dem Zukunftsmuseum Futurium in Berlin berichtet. Auf deren Homepage haben wir nun eine Projektseite, auf welcher von unserem Exponat, Workshops vor Ort und weiteren Ideen berichtet wird <a href="https://futurium.de/de/sense-box">https://futurium.de/de/sense-box</a>
-  active: true

@@ -12,3 +12,10 @@ transmission-text: "Der mobile senseBox-Datenlogger speichert die Daten auf eine
 example-title: "Ein Beispiel: 321-heiss im Kanton Aargau"
 example-text: "In der Schweiz wurde der mobile Datenlogger als Citizen Science Toolkit eingesetzt, um 
 Hitzeinseln im Kanton Aargau zu identifizieren. Interessierte Einwohner:innen wurden mit dieser Version der senseBox ausgestattet und haben ganz nebenbei flächendeckend Daten in ihrer Region gesammelt. Mit offenen Workshops zur Datenauswertung und Reflektion der Datenerhebung konnten dann besonders warme Orte lokalisiert und Ideen zur Schaffung von kühlen Aufenthaltsorten entwickelt werden. Weitere Infos findest du hier: "
+
+mobile-campaign: "Mobile Messkampagnen"
+campaign-text-1: "Die Einbindung von Bürger:innen in die Identifikation von Hitzeinseln in der Stadt bietet eine effektive Möglichkeit, lokal auf die Folgen des Klimawandels zu reagieren. In einer partizipativen, mobilen Messkampagne messen Bürger:innen während der Sommermonate (2–4 Wochen) Umweltdaten, um städtische Hitze-Hotspots zu identifizieren. Diese Daten bilden die Grundlage für Hitze-Aktionspläne, die gezielt Maßnahmen für ein hitzeresilientes Stadtklima entwickeln."
+
+campaign-text-2: "Die Ergebnisse werden in einem Workshop mit den Teilnehmenden ausgewertet und diskutiert. Ergänzend dazu werden die Rohdaten als Open Data auf der openSenseMap veröffentlicht, um Transparenz zu schaffen und weitere Analysen zu ermöglichen. Durch die Mietoption der benötigten Hardware wird zudem ein nachhaltiges Konzept verfolgt, das Ressourcen schont und die Wiederverwendbarkeit der Geräte fördert."
+
+campaign-text-3: "Solche Kampagnen sensibilisieren nicht nur für städtische Klimaherausforderungen, sondern stärken auch die aktive Beteiligung der Bürger:innen am Umwelt- und Klimaschutz."

@@ -1,4 +1,4 @@
-parts-title: "senseBox:bauteile"
+parts-title: "senseBox:Zubehör"
 parts-text: "Die verschiedenen senseBox-Modelle und ihre Bauteile sind vollständig untereinander kompatibel. Die Sensoren und Datenübertragungsmodule verwenden ein einheitliches QWIIC- bzw. JST-Stecksystem und können so modellunabhängig kombiniert werden. Neben den Sensoren und XBees lässt sich weiteres Zubehör mit der senseBox verwenden:"
 
 parts-MCU-title: "Die senseBox MCU"
@@ -58,6 +58,11 @@ parts-sensors-sps30-link: "https://sensebox.kaufen/product/sps30"
 parts-sensors-waterthermometer: "Wassertemperatur"
 parts-sensors-waterthermometer-text: "Wassertemperatur in °C"
 parts-sensors-waterthermometer-link: "https://sensebox.kaufen/product/wassertermperatursensor"
+parts-sensors-tof: "ToF Distanzsensor"
+parts-sensors-tof-text: "Abstandsmessungen in einer 8x8 Matrix mit bis zu 400cm Distanz"
+parts-sensors-tof-link: "https://sensebox.kaufen/product/time-of-flight-sensor"
+
+
 
 parts-bees-title: "XBees"
 parts-bees-text: "Um die gemessenen Daten deiner senseBox zu speichern oder ins Internet zu übertragen, können verschiedene Verbindugsmodule, sogenannte XBees, aufgesteckt werden."
@@ -89,8 +94,33 @@ parts-accessories-multiplexer: "Multiplexer"
 parts-accessories-multiplexer-text: "Mit diesem I2C-Multiplexer lassen sich bis zu 8 Geräte mit gleicher Adressierung parallel über den I2C-Bus betreiben."
 parts-accessories-multiplexer-link: "https://sensebox.kaufen/product/multiplexer"
 parts-accessories-solar: "Solar-Set"
-parts-accessories-solar-text: "Solarzelle mit passendem Powerbooster um die senseBox unabhängig von einer externen Stromquelle betreiben zu können.<br>max. Leistung: 20 kW Klemmspannung<br>max. Spannung: 7,2 V"
-parts-accessories-solar-link: "https://sensebox.kaufen/product/solar-set"
+parts-accessories-solar-text: "Solarzelle mit dazugehörigem Laderegler."
+parts-accessories-solar-link: "https://sensebox.kaufen/product/sensebox-solar-set-20w"
 parts-accessories-housing: "Gehäuse"
 parts-accessories-housing-text: "Outdoor-Gehäuse für verschiedene Bauteile und Einsatzzwecke um die senseBox Wetterfest zu machen."
 parts-accessories-housing-link: "https://sensebox.kaufen/product/wetterhutte"
+
+parts-accessories-rtc: "RTC-Modul"
+parts-accessories-rtc-text: "Das RTC-Modul der senseBox ermöglicht präzise Zeitmessung und Zeitstempel für Anwendungen."
+parts-accessories-rtc-link: "https://sensebox.kaufen/product/rtc-modul"
+
+parts-accessories-rgb: "NeoPixel RGB LED "
+parts-accessories-rgb-text: "Die RGB-LED der senseBox leuchtet in frei wählbaren Farben und eignet sich für visuelle Signale und Anzeigen."
+parts-accessories-rgb-link: "https://sensebox.kaufen/product/verkettbare-rgb-led"
+
+parts-accessories-one-wire: "One-Wire Adapter "
+parts-accessories-one-wire-text: "Der One-Wire-Adapter der senseBox ermöglicht den einfachen Anschluss und die Kommunikation mit One-Wire-Sensoren, wie Temperaturfühlern."
+parts-accessories-one-wire-link: "https://sensebox.kaufen/product/sensebox-one-wire-adapter"
+
+parts-accessories-led-matrix: "LED-Matrix "
+parts-accessories-led-matrix-text: "Die LED-Matrix der senseBox dient zur Darstellung von Texten, Symbolen und Mustern und ist ideal für visuelle Ausgaben und Anzeigen."
+parts-accessories-led-matrix-link: "https://sensebox.kaufen/product/led-matrix"
+
+
+parts-accessories-battery-holder: "Batteriehalterung"
+parts-accessories-battery-holder-text: "Der Battery Holder der senseBox versorgt die Hardware flexibel und mobil mit Energie."
+parts-accessories-battery-holder-link: "https://sensebox.kaufen/product/batteriehalterung"
+
+parts-shop-text: "Dieses und weiteres Zubehör findet ihr in unserem "
+parts-shop-link: "https://sensebox.kaufen/"
+parts-onlineshop: "Onlineshop"

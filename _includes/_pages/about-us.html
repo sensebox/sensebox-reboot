@@ -1,7 +1,7 @@
 <div class="container main-container">
     <div class="row">
         <h1>Über uns</h1>
-        <p>Wir sind ein interdisziplinäres Team bestehend aus Mitarbeitenden des Start-Ups <a href="re:edu">https://reedu.de/</a> und vom <a href="Institut für Geoinformatik">https://www.uni-muenster.de/Geoinformatics//</a> der Universität Münster. Die Idee der senseBox entstand durch das Schüler- und Forschungslabor "GI@School", um Grundlagen der Informatik sowie Datenkompetenzen anwendungsbezogen mit der Erhebung und Auswertung von Umweltdaten zu vermitteln. In Zusammenarbeit wurde im Rahmen des Forschungsprojektes <a href="senseBox:pro">https://sensebox.de/de/research</a>" die senseBox und ihre verschiedenen Bausätze entwickelt. Auch nach Ende der Projektlaufzeit arbeiten wir weiterhin gemeinsam in verschiedenen Forschungsprojekten an der Weiterentwicklung der senseBox.</p>
+        <p>Wir sind ein interdisziplinäres Team bestehend aus Mitarbeitenden des Start-Ups <a href="https://reedu.de">re:edu</a> und vom <a href="https://www.uni-muenster.de/Geoinformatics/">Institut für Geoinformatik</a> der Universität Münster. Die Idee der senseBox entstand durch das Schüler- und Forschungslabor "GI@School", um Grundlagen der Informatik sowie Datenkompetenzen anwendungsbezogen mit der Erhebung und Auswertung von Umweltdaten zu vermitteln. In Zusammenarbeit wurde im Rahmen des Forschungsprojektes <a href="https://sensebox.de/de/research"> senseBox:pro</a> die senseBox und ihre verschiedenen Bausätze entwickelt. Auch nach Ende der Projektlaufzeit arbeiten wir weiterhin gemeinsam in verschiedenen Forschungsprojekten an der Weiterentwicklung der senseBox.</p>
     </div>
 </div>
 
@@ -17,27 +17,21 @@
             <div class="item-inner m-2">
                 <div class="row">
                     <div class="figure col-md-5 col-12">
-                        <img loading="lazy" class="img-fluid" src="{{ teammember.image }}" alt="">
+                        <img loading="lazy" style="width: 200px; height: 300px; object-fit: cover; border-radius: 10px; margin: auto; display: block;" src="{{ teammember.image }}" alt="">
                     </div>
                     <div class="info col-md-7 col-12">
                         <h3 class="name">{{ teammember.name }}</h3>
                         <h4 class="role">{{ teammember.role }}</h4>
                         <p>{{ teammember.description }}</p>
                     </div>
-                    <!--//info-->
                 </div>
             </div>
-            <!--//item-inner-->
         </div>
         {% endfor %}
     </div>
 </div>
 
-
-
 <hr>
-
-
 
 <div class="container main-container">
     <h1>Team von re:edu</h1>
@@ -47,17 +41,15 @@
             <div class="item-inner m-2">
                 <div class="row">
                     <div class="figure col-md-5 col-12">
-                        <img loading="lazy" class="img-fluid" src="{{ teammember.image }}" alt="">
+                        <img loading="lazy" style="width: 200px; height: 300px; object-fit: cover; border-radius: 10px; margin: auto; display: block;" src="{{ teammember.image }}" alt="">
                     </div>
                     <div class="info col-md-7 col-12">
                         <h3 class="name">{{ teammember.name }}</h3>
                         <h5 class="role">{{ teammember.role }}</h5>
                         <p>{{ teammember.description }}</p>
                     </div>
-                    <!--//info-->
                 </div>
             </div>
-            <!--//item-inner-->
         </div>
         {% endfor %}
     </div>
@@ -66,7 +58,6 @@
 <hr>
 
 <div class="container main-container">
-
     <div class="row">
         <h1 id="Förderung"><mark>Förderungen</mark></h1>
         {% for award in awardslist %}
@@ -76,10 +67,8 @@
             <div class="row">
                 {% if award.thumbnail %}
                 <div class="col-sm-4">
-                    <img loading="lazy" class="award-pic" src="{{ site.baseurl | append: award.thumbnail }}"
-                        alt="{{ award.title }} - Logo" />
+                    <img loading="lazy" style="width: 200px; height: 200px; object-fit: cover; border-radius: 10px; margin: auto; display: block;" src="{{ site.baseurl | append: award.thumbnail }}" alt="{{ award.title }} - Logo" />
                 </div>
-
                 <div class="col-sm-8">
                     <div class="content">
                         {{ award.content }}
@@ -97,10 +86,8 @@
         {% endfor %}
     </div>
 
-
     <div class="row">
         <h1><mark>Auszeichnungen</mark></h1>
-
         {% for award in awardslist %}
         {% if award.type == 'award' %}
         <div class="posts py-5">
@@ -108,8 +95,7 @@
             <div class="row">
                 {% if award.thumbnail %}
                 <div class="col-sm-4">
-                    <img loading="lazy" class="award-pic" src="{{ site.baseurl | append: award.thumbnail }}"
-                        alt="{{ award.title }} - Logo" />
+                    <img loading="lazy" style="width: 200px; height: 250px; object-fit: cover; border-radius: 10px; margin: auto; display: block;" src="{{ site.baseurl | append: award.thumbnail }}" alt="{{ award.title }} - Logo" />
                 </div>
                 <div class="col-sm-8">
                     <div class="content">

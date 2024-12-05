@@ -1,3 +1,7 @@
+boards-title: "senseBox:boards"
+boards-text: "The core of every senseBox project is an Arduino-compatible microcontroller, which allows the connection of various sensors and data transmission modules. Depending on your needs and application, there are different versions with specific features: the senseBox MCU, the senseBox MCU mini, and the senseBox MCU S2. The following sections introduce these three boards."
+
+
 
 sensebox-overview: The senseBox:family at a glance
 sensebox-overview-button: More Information &raquo;

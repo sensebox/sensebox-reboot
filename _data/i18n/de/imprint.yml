@@ -4,14 +4,27 @@ info:
   address: "Reedu GmbH & Co. KG <br />
    Von-Steuben-Str. 21<br />
    48143 Münster"
+representative:
+  header: "Vertreten durch:"
+  details: "Reedu Verwaltungs GmbH, vertreten durch die Geschäftsführer Dr. Thomas Bartoschek und Umut Tas"
 contact:
   header: "Kontakt:"
   details: "Telefon: +49 251 98119797<br />
    E-Mail: kontakt@reedu.de"
+ceo:
+  header: "Geschäftsführer:"
+  details: "Dr. Thomas Bartoschek & Umut Tas"
+register:
+  header: "Registereintrag:"
+  details: "Registergericht: Amtsgericht Münster<br />
+  Registernummer: HRA 10639"
+taxnumber: 
+  header: "Umsatzsteuernummer:"
+  details: "Umsatzsteuer-Identifikationsnummer gemäß §27 a Umsatzsteuergesetz: DE317828779"
 responsible:
   header: "Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:"
-  details: "Geschäftsführer
-   Umut Tas <br />
+  details: "Dr. Thomas Bartoschek<br />
+   Reedu GmbH & Co. KG<br />
    Von-Steuben-Str. 21<br />
    48143 Münster"
 dispute:

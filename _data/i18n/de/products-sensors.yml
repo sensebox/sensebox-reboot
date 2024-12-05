@@ -1,5 +1,5 @@
-parts-title: "senseBox:bauteile"
-parts-text: "Die verschiedenen senseBox-Modelle und ihre Bauteile sind vollständig untereinander kompatibel. Die Sensoren und Datenübertragungsmodule verwenden ein einheitliches Stecksystem und können so Modellunabhängig verwendet werden."
+parts-title: "senseBox:Zubehör"
+parts-text: "Die verschiedenen senseBox-Modelle und ihr Zubehör sind vollständig untereinander kompatibel. Die Sensoren und Datenübertragungsmodule verwenden ein einheitliches Stecksystem und können so Modellunabhängig verwendet werden."
 
 parts-MCU-title: "Die senseBox MCU"
 parts-MCU-text: "Die senseBox MCU (MicroControllerUnit) ist das Herzstück jeder senseBox. Sie ist ein Einplatinencomputer auf Basis des ARM Cortex-M0 Prozessors aus der SAMD21 Familie. Dieser Prozessor macht die senseBox MCU vollständig kompatibel zu Arduino.<br>Sie verfügt über folgende fest verbaute Anschlüsse und Bauteile."
@@ -52,8 +52,13 @@ parts-sensors-sound-link: "https://sensebox.kaufen/product/lautstarkesensor"
 parts-sensors-co2: "CO<sub>2</sub>-Sensor"
 parts-sensors-co2-text: "CO<sub>2</sub>-Konzentration in ppm"
 parts-sensors-co2-link: "https://sensebox.kaufen/product/co2-sensor"
+parts-sensors-tof: "ToF Distanzsensor"
+parts-sensors-tof-text: "Abstandsmessungen in einer 8x8 Matrix mit bis zu 400cm Distanz"
+parts-sensors-tof-link: "https://sensebox.kaufen/product/time-of-flight-sensor"
 
-parts-bees-title: "XBees"
+
+
+parts-bees-title: "Bees"
 parts-bees-text: "Um die gemessenen Daten deiner senseBox zu speichern oder ins Internet zu übertragen, können verschiedene Verbindugsmodule, sogenannte XBees, aufgesteckt werden."
 parts-bees-WiFi: "WiFi-Bee"
 parts-bees-WiFi-text: "Ermöglicht eine Netzwerkverbindung via WiFi.<br>Single-band 2.4GHz b/g/n<br>Sicherheitsprotokolle: WPA/WPA2 Personal, TLS, SSL<br>Netzwerk-Dienste: DHCP, DNS, TCP/IP (IPv4), UDP, HTTP, HTTPS"
@@ -88,3 +93,4 @@ parts-accessories-solar-link: "https://sensebox.kaufen/product/solar-set"
 parts-accessories-housing: "Gehäuse"
 parts-accessories-housing-text: "Outdoor-Gehäuse für verschiedene Bauteile und Einsatzzwecke um die senseBox Wetterfest zu machen."
 parts-accessories-housing-link: "https://sensebox.kaufen/product/wetterhutte"
+

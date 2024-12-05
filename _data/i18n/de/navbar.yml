@@ -33,11 +33,11 @@ products-mini-name: ":mini"
 products-mini-link: /products-mini.html
 products-bike-name: ":bike"
 products-bike-link: /products-bike.html
-products-data-name: "Datenlogger"
+products-data-name: ":datenlogger"
 products-data-link: /products-datalogger.html
-products-parts-name: "Bauteile"
+products-parts-name: "Zubehör"
 products-parts-link: /products-parts.html
-products-bees-name: "Bees"
+products-bees-name: "Verbindungsmodule"
 products-bees-link: /products-bees.html
 products-sensors-name: "Sensoren"
 products-sensors-link: /products-sensors.html

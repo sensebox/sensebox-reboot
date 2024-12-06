@@ -11,6 +11,9 @@ contact:
   header: "Contact:"
   details: "Telephone: +49 251 98119797<br />
    E-Mail: kontakt@reedu.de"
+ceo:
+  header: "Geschäftsführer:"
+  details: "Dr. Thomas Bartoschek & Umut Tas"
 register:
   header: "Register entry:"
   details: "Registering court: Amtsgericht Münster<br />

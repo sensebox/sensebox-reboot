@@ -40,6 +40,24 @@ history:
   title: "Die Geschichte der senseBox:bike"
   text: "Welche Daten soll die senseBox für das Fahrrad erheben, um Aussagen zur Fahrradinfrastruktur treffen zu können und wie muss das Gehäuse gestaltet sein, damit es an verschiedenen Fahrradtypen befestigt werden kann und auch auf ruckeligen Straßen hält? Schnell war klar, dass wir diese Fragen nicht allein beantworten können. Also haben wir gemeinsam mit dem Futurium Berlin, der Akademie der Bildenden Künste (ABK) Stuttgart und dem Fab Lab München bei einem Makeathon im Februar 2021 überlegt, wie die senseBox:bike aussehen soll und funktionieren könnte. So nahm die senseBox:bike seinen Lauf. Mehr zur Entstehungsgeschichte der senseBox:bike erfährst du in unserem Blogbeitrag."
   button-text: "Blogbeitrag"
+campaigns:
+  title: "senseBox:bike in deiner Stadt"
+  schools-title: "Citizen Science mit Schulen"
+  schools-text: |
+    Die senseBox:bike ist ideal für den Einsatz in Schulen und Bildungseinrichtungen. Mit der senseBox:bike können Schüler:innen spannende Projekte rund um Umweltüberwachung und Nachhaltigkeit durchführen.
+    - Beteiligung Jugendlicher
+    - Projektwoche(n)
+    - Datenerfassung in Quartieren
+    - Zukunftswerkstätten
+    - Erlangen von Datenkompetenzen
+  citizen-title: "Citizen Science - Bürger:innenbeteiligung"
+  citizen-text: |
+    Die senseBox:bike ermöglicht Bürger:innen, aktiv an der Umweltüberwachung teilzunehmen und Daten für Projekte und Initiativen zu sammeln.
+    - Workshops mit Bürger:innen (3-4h)
+    - Zusammenbau der senseBox:bike
+    - Montage am Fahrrad
+    - Längerfriste Datenerfassung / Kampagne
+    - Rohdaten auf der openSenseMap verfügbar
 projects:
   title: "Projekte mit der senseBox:bike"
   items:

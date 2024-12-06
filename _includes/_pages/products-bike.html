@@ -1,194 +1,263 @@
 {% assign content = site.data.i18n.[page.lang].products-senseboxbike %}
-<div class="container">
-    <div class="row row-padding">
-        <div class="col-lg-6 middle">
-            <h2 class="featurette-heading">{{content.title}}</h2>
-            <p class="lead">{{content.bike-text}}</p>
-        </div>
-        <div class="col-lg-6 middle">
-            <img loading="lazy" class="img-fluid mx-auto" src="/images/products/bike/bike-data-overview.png" alt="Generic placeholder image">
-        </div>
-    </div>
-</div>
+<style>
+    .masthead-small {
+        height: fit-content;
+        min-height: fit-content;
+    }
+</style>
 
-<hr class="featurette-divider">
 
 <div class="container">
-    <div class="row row-padding featurette">
-        <div class="col-md-4 middle">
-            <img loading="lazy" class="featurette-image img-fluid mx-auto" src="/images/products/bike/bike_sensors.jpg"
-                alt="Generic placeholder image">
+    <iframe src="https://3d.sensebox.de/bike" width="100%" height="600px"
+        style="border: none;"></iframe>
+</div>
+
+<!-- <hr class="featurette-divider"> -->
+
+<div class="container">
+    <h2 class="featurette-heading">{{content.heading}}</h2>
+    <p class="lead">{{content.description}}
+    </p>
+</div>
+
+
+<div class="container" style="margin-top: 5rem;">
+    <div class="row">
+        <div class="col-md-4" style="margin-bottom: 20px;">
+            <div style="background-color: #f8f9fa; border-radius: 10px; padding: 15px; height: 100%;">
+                <h3>{{content.features.no-soldering-title}}</h3>
+                <p>{{content.features.no-soldering-text}}</p>
+            </div>
         </div>
-        <div class="col-md-8 text-left middle">
-            <h2 class="featurette-heading">{{content.bike-phenomenon-title}}</h2>
-            <p class="lead">{{content.phenomenon-text}}</p>
+        <div class="col-md-4" style="margin-bottom: 20px;">
+            <img src="/images/products/bike/gallery/gallery_01_optimized.jpg" alt="Gallery Image 1" class="img-fluid" style="border-radius: 10px; height: 100%; object-fit: cover;" data-zoomable>
         </div>
-        <div class="phenos">
-            <div class="sb-pheno-bike">
-                <div class="icon"><span class="fa-stack fa-2x">
-                    <i class="fas fa-circle fa-stack-2x" style="color: whitesmoke"></i>
-                    <i class="fas fa-temperature-high fa-stack-1x fa-inverse" style="color:#3fbdeb;"></i>
-                </div>
-                </span><span><b>{{content.phenomenon-temperatur}} </b></span>
-                <span>{{content.phenomenon-temperatur-text}}</span>
+        <div class="col-md-4" style="margin-bottom: 20px;">
+            <div style="background-color: #f8f9fa; border-radius: 10px; padding: 15px; height: 100%;">
+                <h3>{{content.features.battery-title}}</h3>
+                <p>{{content.features.battery-text}}</p>
             </div>
-            <div class="sb-pheno-bike">
-                <div class="icon">
-                    <span class="fa-stack fa-2x">
-                        <i class="fas fa-circle fa-stack-2x" style="color: whitesmoke"></i>
-                        <i class="fas fa-percent fa-stack-1x fa-inverse" style="color:#3fbdeb;"></i>
-                    </span>
-                </div>
-                <span> <b>{{content.phenomenon-humidity}} </b></span>
-                <span>{{content.phenomenon-humidity-text}}</span>
+        </div>
+        <div class="col-md-4" style="margin-bottom: 20px;">
+            <img src="/images/products/bike/gallery/gallery_02_optimized.jpg" alt="Gallery Image 2" class="img-fluid" style="border-radius: 10px; height: 100%; object-fit: cover;" data-zoomable>
+        </div>
+        <div class="col-md-4" style="margin-bottom: 20px;">
+            <div style="background-color: #f8f9fa; border-radius: 10px; padding: 15px; height: 100%;">
+                <h3>{{content.features.sensors-title}}</h3>
+                <p>{{content.features.sensors-text}}</p>
             </div>
-            <div class="sb-pheno-bike">
-                <div class="icon">
-
-                    <span class="fa-stack fa-2x">
-                        <i class="fas fa-circle fa-stack-2x" style="color: whitesmoke"></i>
-                        <i class="fas fa-smog fa-stack-1x fa-inverse" style="color:#3fbdeb;"></i>
-                    </span>
-                </div>
-                <span><b>{{content.phenomenon-pm}}</b></span>
-                <span>{{content.phenomenon-pm-text}}</span>
+        </div>
+        <div class="col-md-4" style="margin-bottom: 20px;">
+            <div style="background-color: #f8f9fa; border-radius: 10px; padding: 15px; height: 100%;">
+                <h3>{{content.features.connectivity-title}}</h3>
+                <p>{{content.features.connectivity-text}}</p>
             </div>
-            <div class="sb-pheno-bike">
-                <div class="icon">
-
-                    <span class="fa-stack fa-2x">
-                        <i class="fas fa-circle fa-stack-2x" style="color: whitesmoke"></i>
-                        <i class="fas fa-wave-square fa-stack-1x fa-inverse" style="color:#3fbdeb;"></i>
-                    </span>
-                </div>
-                <span><b>{{content.phenomenon-acceleration}}</b></span>
-                <span>{{content.phenomenon-acceleration-text}}</span>
-
+        </div>
+        <div class="col-md-4" style="margin-bottom: 20px;">
+            <div style="background-color: #f8f9fa; border-radius: 10px; padding: 15px; height: 100%;">
+                <h3>{{content.features.ai-title}}</h3>
+                <p>{{content.features.ai-text}}</p>
             </div>
-            <div class="sb-pheno-bike">
-                <div class="icon">
-
-                    <span class="fa-stack fa-2x">
-                        <i class="fas fa-circle fa-stack-2x" style="color: whitesmoke"></i>
-                        <i class="fas fa-heart fa-stack-1x fa-inverse" style="color:#3fbdeb;"></i>
-                    </span>
-                </div>
-                <span><b>{{content.phenomenon-speed}}</b></span>
-                <span>{{content.phenomenon-speed-text}}</span>
-
+        </div>
+        <div class="col-md-4" style="margin-bottom: 20px;">
+            <div style="background-color: #f8f9fa; border-radius: 10px; padding: 15px; height: 100%;">
+                <h3>{{content.features.proven-title}}</h3>
+                <p>{{content.features.proven-text}}</p>
             </div>
-            <div class="sb-pheno-bike">
-                <div class="icon">
-
-                    <span class="fa-stack fa-2x">
-                        <i class="fas fa-circle fa-stack-2x" style="color: whitesmoke"></i>
-                        <i class="fas fa-traffic-light fa-stack-1x fa-inverse" style="color:#3fbdeb"></i>
-                    </span>
-                </div>
-                <span><b>{{content.phenomenon-distance}}</b></span>
-                <span>{{content.phenomenon-distance-text}}</span>
-            </div>
+        </div>
+        <div class="col-md-4" style="margin-bottom: 20px;">
+            <img src="/images/products/bike/gallery/gallery_03_optimized.jpg" alt="Gallery Image 3" class="img-fluid" style="border-radius: 10px; height: 100%; object-fit: cover;" data-zoomable>
         </div>
     </div>
 </div>
+
 
 <div style="background-color: whitesmoke;">
-    <div class="container">
-        <div class="row row-padding featurette">
-            <div class="col-md-7 middle">
-                <h2 class="featurette-heading">{{content.bike-transmission-title}}
-                </h2>
-                <p class="lead">{{content.bike-transmission-text}}</p>
-                
+    <div class="container" style="padding-top: 20px;">
+        <h2 class="featurette-heading" style="margin-bottom: 20px;">{{ content.app.title }}</h2>
+        <div class="row row-padding">
+            <div class="col col-md-4 col-12">
+                <button type="button" class="btn btn-outline-primary btn-lg btn-block app-feature-btn active">
+                    {{ content.app.connect-title }}
+                </button>
+                <button type="button" class="btn btn-outline-primary btn-lg btn-block app-feature-btn">
+                    {{ content.app.data-visualization-title }}
+                </button>
+                <button type="button" class="btn btn-outline-primary btn-lg btn-block app-feature-btn">
+                    {{ content.app.ai-detection-title }}
+                </button>
+                <button type="button" class="btn btn-outline-primary btn-lg btn-block app-feature-btn">
+                    {{ content.app.trip-review-title }}
+                </button>
+                <button type="button" class="btn btn-outline-primary btn-lg btn-block app-feature-btn">
+                    {{ content.app.data-export-title }}
+                </button>
+                <button type="button" class="btn btn-outline-primary btn-lg btn-block app-feature-btn">
+                    {{ content.app.privacy-zones-title }}
+                </button>
             </div>
-            <div class="col-md-5 middle">
-                <img loading="lazy" class="featurette-image img-fluid mx-auto" src="/images/products/bike/bike-bluetooth.jpg"
-                    alt="Generic placeholder image">
+
+            <div class="col col-md-8 middle">
+                <div class="card" style="background-color: white; border-radius: 10px; padding: 20px;">
+                    <div class="row row-padding">
+                        <div class="col col-md-6">
+                            <h3 class="card-title">{{ content.app.connect-title }}</h3>
+                            <p class="card-text">{{ content.app.connect-text }}</p>
+                        </div>
+                        <div class="col col-md-6">
+                            <video width="100%" preload="auto" muted autoplay loop style="border-radius: 24px; border: 4px solid black; aspect-ratio: 0.457; background: black;">
+                                <source src="/images/products/bike/app/connect.mp4" type="video/mp4">
+                                {{ content.app.video-error-text }}
+                            </video>
+                        </div>
+                    </div>
+                </div>
             </div>
+
+            <script>
+                document.addEventListener('DOMContentLoaded', function () {
+                    const buttons = document.querySelectorAll('.app-feature-btn');
+                    const cardTitle = document.querySelector('.card-title');
+                    const cardText = document.querySelector('.card-text');
+                    const videoSource = document.querySelector('video source');
+
+                          const content = {
+                        '{{ content.app.connect-title | json }}': {
+                            title: "{{ content.app.connect-title | json  }}",
+                            text: "{{ content.app.connect-text | json  }}",
+                            video: '/images/products/bike/app/connect.mp4'
+                        },
+                        '{{ content.app.data-visualization-title }}': {
+                            title: '{{ content.app.data-visualization-title }}',
+                            text: '{{ content.app.data-visualization-text }}',
+                            video: '/images/products/bike/app/record.mp4'
+                        },
+                        '{{ content.app.ai-detection-title }}': {
+                            title: '{{ content.app.ai-detection-title }}',
+                            text: '{{ content.app.ai-detection-text }}',
+                            video: '/images/products/bike/app/ai.mp4'
+                        },
+                        '{{ content.app.trip-review-title }}': {
+                            title: '{{ content.app.trip-review-title }}',
+                            text: '{{ content.app.trip-review-text }}',
+                            video: '/images/products/bike/app/detail.mp4'
+                        },
+                        '{{ content.app.data-export-title }}': {
+                            title: '{{ content.app.data-export-title }}',
+                            text: '{{ content.app.data-export-text }}',
+                            video: '/images/products/bike/app/export.mp4'
+                        },
+                        '{{ content.app.privacy-zones-title }}': {
+                            title: '{{ content.app.privacy-zones-title }}',
+                            text: '{{ content.app.privacy-zones-text }}',
+                            video: '/images/products/bike/app/privacy.mp4'
+                        }
+                    };
+
+                    buttons.forEach(button => {
+                        button.addEventListener('click', function () {
+                            buttons.forEach(b => b.classList.remove('active'));
+
+                            const key = this.textContent.trim();
+                            if (content[key]) {
+                                cardTitle.textContent = content[key].title;
+                                cardText.textContent = content[key].text;
+                                videoSource.src = content[key].video;
+                                videoSource.parentElement.load();
+                                this.classList.add('active');
+                            }
+                        });
+                    });
+                });
+            </script>
         </div>
     </div>
 </div>
 
-
-<div>
-    <div class="container">
-        <div class="row row-padding featurette">
-            <div class="col-md-5 middle">
-                <img loading="lazy" class="featurette-image img-fluid mx-auto" src="/images/products/bike/bike-app.png"
-                    alt="Generic placeholder image">
-            </div>
-            <div class="col-md-7 middle">
-                <h2 class="featurette-heading">{{content.bike-app-title}}
-                </h2>
-                <p class="lead">{{content.bike-app-text}}</p>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div style="background-color: whitesmoke;">
-    <div class="container">
-        <div class="row row-padding featurette">
-            <div class="col-md-7 middle">
-                <h2 class="featurette-heading">{{content.bike-housing-title}}</h2>
-                <p class="lead">{{content.bike-housing-text}}</p>
-            </div>
-            <div class="col-md-5 middle">
-                <img loading="lazy" class="featurette-image img-fluid mx-auto" src="/images/products/bike/bike_sattel.jpg"
-                    alt="Generic placeholder image">
-            </div>
-        </div>
-    </div>
-</div>
-
-<div>
-    <div class="container">
-        <div class="row row-padding featurette">
-            <div class="col-md-5 middle">
-                <img loading="lazy" class="featurette-image img-fluid mx-auto" src="/images/products/bike/story.jpg"
-                    alt="Generic placeholder image">
-            </div>
-            <div class="col-md-7 middle">
-                <h2 class="featurette-heading">{{content.bike-story-title}}
-                </h2>
-                <p class="lead">{{content.bike-story-text}} {{content.bike-story-link}}</p>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-
-
-<div class="container" style="text-align: center;">
-    <h2 class="featurette-heading">{{content.bike-example-title}}
+<div class="container">
+    <h2 class="featurette-heading" style="margin-bottom: 20px;">
+        {{ content.ai-features.title }}
     </h2>
-</div>
-<div style="background-color: whitesmoke;">
-<div class="container" >
-        <div class="row row-padding featurette">
-            <div class="col-md-5 middle">
-                <a href="https://essen.aufraedern.org" target="_blank"> <img loading="lazy" class="featurette-image img-fluid mx-auto" src="/images/products/bike/aufraedern.png"
-                    alt="Generic placeholder image"></a>
+    <p class="lead">
+        {{ content.ai-features.description }}
+    </p>
+    <div class="row row-padding">
+        <div class="col col-md-6 middle">
+            <div style="background-color: #f8f9fa; border-radius: 10px; padding: 15px; height: 100%;">
+                <h3 class="card-title">
+                    {{ content.ai-features.overtaking-title }}
+                </h3>
+                <p class="card-text">
+                    {{ content.ai-features.overtaking-text }}
+                </p>
+                <img src="/images/products/bike/tof-overtaking.gif" alt="{{ content.ai-features.overtaking-title }}" style="width: 100%;">
             </div>
-            <div class="col-md-7 middle">
-                <h2 class="featurette-heading">{{content.bike-example-1-title}}</h2>
-                <p class="lead"> <a href="https://essen.aufraedern.org"> {{content.bike-example-text-link}} </a> {{content.bike-example-1-text}}</p>
-            </div>            
+        </div>
+        <div class="col col-md-6 middle">
+            <div style="background-color: #f8f9fa; border-radius: 10px; padding: 15px; height: 100%;">
+                <h3 class="card-title">
+                    {{ content.ai-features.surface-classification-title }}
+                </h3>
+                <p class="card-text">
+                    {{ content.ai-features.surface-classification-text }}
+                </p>
+                <img src="/images/products/bike/surface_screenshot.png" alt="{{ content.ai-features.surface-classification-title }}" style="width: 100%;">
+            </div>
         </div>
     </div>
 </div>
+
+
+<div style="background-color: whitesmoke;">
+    <div class="container" style="padding-top: 20px;">
+        <h2 class="featurette-heading">{{ content.history.title }}</h2>
+        <div class="row row-padding">
+            <div class="col-md-7 middle">
+                <p class="lead">{{content.history.text}}</p>
+                <a href="/2023/12/06/senseBox-bike.html" target="_blank">
+                    <button type="button" class="btn btn-primary">
+                        {{ content.history.button-text }} →
+                    </button>
+                </a>
+            </div>
+            <div class="col-md-5 middle">
+                <img loading="lazy" class="featurette-image img-fluid mx-auto" style="border-radius: 10px;"
+                    src="/images/products/bike/story.jpg" alt="Generic placeholder image">
+            </div>
+        </div>
+    </div>
 </div>
 
+
 <div class="container">
-    <div class="row row-padding featurette">
-        <div class="col-md-7 middle">
-            <h2 class="featurette-heading">{{content.bike-example-2-title}}</h2>
-            <p class="lead"> <a href="https://essen.aufraedern.org"> {{content.bike-example-text-link}} </a> {{content.bike-example-2-text}}</p>
-        </div>    
-        <div class="col-md-5 middle">
-            <a href="https://www.hs-osnabrueck.de/iip/" target="_blank"> <img loading="lazy" class="featurette-image img-fluid mx-auto" src="/images/products/bike/iipLogo.png"
-                alt="Generic placeholder image"></a>
-        </div>        
+    <h2 class="featurette-heading">{{ content.projects.title }}</h2>
+    <div class="row row-padding">
+        {% for project in content.projects.items %}
+        <div class="col-md-4">
+            <div style="background-color: #f8f9fa; border-radius: 10px; padding: 15px; height: 100%;">
+                <img class="card-img-top" style="aspect-ratio: 1 / 1; object-fit: contain;" src="{{ project.image }}" alt="{{ project.alt }}">
+                <div class="card-body">
+                    <h5 class="card-title">{{ project.title }}</h5>
+                    <p class="card-text">{{ project.description }}</p>
+                    <a href="{{ project.link.url }}" target="_blank" class="btn btn-primary">{{ project.link.text }}</a>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+
+<div class="container">
+    <h2 class="featurette-heading" style="margin-bottom: 20px;">{{ content.documents.title }}</h2>
+    <div class="row row-padding">
+        {% for document in content.documents.items %}
+        <div class="col-md-4" style="margin-bottom: 20px;">
+            <div href="{{ document.link.url }}" target="_blank" style="background-color: #f8f9fa; border-radius: 10px; padding: 15px; height: 100%; aspect-ratio: 3 / 2;">
+                <h3>{{ document.title }}</h3>
+                <p>{{ document.description | markdownify }}</p>
+            </div>
+        </div>
+        {% endfor %}
     </div>
 </div>

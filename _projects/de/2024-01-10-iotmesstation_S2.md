@@ -1,9 +1,9 @@
 ---
 layout: project_page
-title: "IoT Messtation"
+title: "IoT Messstation"
 date: 2024-01-10
 author: Verena
-abstract: "Erstelle eine Messtation, die Messwerte für Temperatur, Luftfeuchte, Luftdruck, Helligkeit und UV-Intensität an die openSenseMap schickt."
+abstract: "Erstelle eine Messstation, die Messwerte für Temperatur, Luftfeuchte, Luftdruck, Helligkeit und UV-Intensität an die openSenseMap schickt."
 thumbnail: /images/projects/home.jpg
 image0: /images/projects/iot_messstation_S2/0.png
 image1: /images/projects/iot_messstation_S2/1.png
@@ -24,7 +24,7 @@ tags: ["Informatik", "Geographie", "IoT"]
 difficult: mittel
 ---
 
-# IoT Messstattion
+# IoT Messstation
 
 Ziel dieses Projektes ist es, eine senseBox Umweltstation aufzubauen. Am Ende wird die Messung diverser Umweltphänomene wie Temperatur, Luftfeuchte, Helligkeit und Luftdruck, sowie die Veröffentlichung der Daten auf der openSenseMap möglich sein!
 

@@ -97,17 +97,12 @@
   bgImage: /images/material/Feinstaub_Hopp.png
   link: /docs/Feinstaub_Hopp.pdf
 
-- name : "sensebox Arbeitsheft Air Quality Explorer Set - MCU"
-  position: t16
-  organisation: Reedu GmbH & Co. KG
-  description: "Arbeitshefte zum Luftqualitätsmessungsset für die MCU"
-  bgImage: "/images/material/materialAirQualityThumbnail.png"
-  link: /docs/material/sensebox_Arbeitsheft_Air_Quality_Explorer_Set_MCU.pdf
 
-- name : "sensebox Arbeitsheft Air Quality Explorer Set - MCU S2"
+- name : "sensebox Arbeitsheft Air Quality Explorer Set"
   position: t16
   organisation: Reedu GmbH & Co. KG
   description: "Arbeitshefte zum Luftqualitätsmessungsset für die MCU-S2"
   bgImage: "/images/material/materialAirQualityThumbnail.png"
-  link: /docs/material/sensebox_Arbeitsheft_Air_Quality_Explorer_Set_MCU_S2.pdf
+  linkMCU: /docs/material/sensebox_Arbeitsheft_Air_Quality_Explorer_Set_MCU.pdf
+  linkMCU-S2:  /docs/material/sensebox_Arbeitsheft_Air_Quality_Explorer_Set_MCU_S2.pdf
   

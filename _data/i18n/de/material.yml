@@ -101,7 +101,7 @@
 - name : "sensebox Arbeitsheft Air Quality Explorer Set"
   position: t16
   organisation: Reedu GmbH & Co. KG
-  description: "Arbeitshefte zum Luftqualitätsmessungsset für die MCU-S2"
+  description: "Arbeitshefte zum Luftqualitätsmessungsset"
   bgImage: "/images/material/materialAirQualityThumbnail.png"
   linkMCU: /docs/material/sensebox_Arbeitsheft_Air_Quality_Explorer_Set_MCU.pdf
   linkMCU-S2:  /docs/material/sensebox_Arbeitsheft_Air_Quality_Explorer_Set_MCU_S2.pdf

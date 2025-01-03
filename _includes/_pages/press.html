@@ -9,7 +9,7 @@
     {% endunless %}
     {% endfor %}
     {% assign unique_years = years | split: "," | sort %}
-    {% for year in unique_years %}
+    {% for year in unique_years reversed %}
     {% if year != "" %}
     <button class="btn btn-sm {{year}}" onclick="filterUsingCategory({{year}})">{{ year }}</button>
     {% endif %}

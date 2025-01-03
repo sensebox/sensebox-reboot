@@ -1,25 +1,115 @@
 {% assign pressnews = site.press | sort: 'date' | reverse %}
 <div class="container">
-  {% for post in pressnews %}
-  <div class="row">
-    {% if post.thumbnail %}
-    <div class="col-4 d-flex justify-content-center align-items-center">
-      <img
-        loading="lazy"
-        class="press-pic"
-        src="{{ site.baseurl | append: post.thumbnail }}"
-        alt="{{ post.title }} - Logo"
-      />
-    </div>
-
-    <div class="col-8">
-      <h2 style="clear: both">{{ post.title }}</h2>
-      <div class="content press-text">{{ post.content }}</div>
-    </div>
-    {% else %}
-    <div class="content press-text">{{ post.content }}</div>
+  <div style="display: flex; max-width: 100%; overflow-x: auto; width: fit-content; margin: 0 auto 2rem auto; width: fit-content;">
+    {% assign years = "" %}
+    {% for post in pressnews %}
+    {% assign year = post.date | date: '%Y' %}
+    {% unless years contains year %}
+    {% assign years = years | append: year | append: "," %}
+    {% endunless %}
+    {% endfor %}
+    {% assign unique_years = years | split: "," | sort %}
+    {% for year in unique_years reversed %}
+    {% if year != "" %}
+    <button class="btn btn-sm {{year}}" onclick="filterUsingCategory({{year}})">{{ year }}</button>
     {% endif %}
+    {% endfor %}
   </div>
-  <hr class="featurette-divider" />
+
+  <script type="text/javascript">
+    function filterUsingCategory(selectedCategory) {
+      const currentButton = document.getElementsByClassName("btn btn-sm " + selectedCategory)[0];
+
+
+      // if current button is already selected, then remove the selected category
+      if (currentButton.classList.contains("btn-primary")) {
+        const allPosts = document.getElementsByClassName("press_post");
+        for (var i = 0; i < allPosts.length; i++) {
+          allPosts[i].style.display = "block";
+        }
+        const allButtons = document.getElementsByClassName("btn btn-sm");
+        for (var i = 0; i < allButtons.length; i++) {
+          allButtons[i].classList.remove("btn-primary");
+        }
+        return;
+      }
+
+      const allButtons = document.getElementsByClassName("btn btn-sm");
+      for (var i = 0; i < allButtons.length; i++) {
+        allButtons[i].classList.remove("btn-primary");
+      }
+
+      currentButton.classList.add("btn-primary");
+
+
+      const allPosts = document.getElementsByClassName("press_post");
+      for (var i = 0; i < allPosts.length; i++) {
+        allPosts[i].style.display = "none";
+      }
+
+      const selectedPosts = document.getElementsByClassName(selectedCategory);
+      for (var i = 0; i < selectedPosts.length; i++) {
+        selectedPosts[i].style.display = "block";
+      }
+    }
+  </script>
+
+
+  {% for post in pressnews %}
+  <div class="row press_post {{ post.date | date: '%Y' }}">
+    <div style="background-color: #f8f9fa; border-radius: 10px; padding: 15px; height: 100%; margin-bottom: 2rem;">
+      <div style="display: flex; align-items: center;">
+        {% if post.press_category == "newspaper" %}
+        <div
+          style="padding: 1rem; background-color: #a4ffac; border-radius: 10px; margin-right: 1rem; aspect-ratio: 1 / 1; height: fit-content; display: flex; justify-content: center; align-items: center;">
+          <i class="fas fa-newspaper fa-2x" style="color: #009c0d;"></i>
+        </div>
+        {% elsif post.press_category == "blog" %}
+        <div
+          style="padding: 1rem; background-color: #ffdbb8; border-radius: 10px; margin-right: 1rem; aspect-ratio: 1 / 1; height: fit-content; display: flex; justify-content: center; align-items: center;">
+          <i class="fas fa-rss fa-2x" style="color: #ff8c00;"></i>
+        </div>
+        {% elsif post.press_category == "podcast" %}
+        <div
+          style="padding: 1rem; background-color: #b8d7ff; border-radius: 10px; margin-right: 1rem; aspect-ratio: 1 / 1; height: fit-content; display: flex; justify-content: center; align-items: center;">
+          <i class="fas fa-podcast fa-2x" style="color: #0047ab;"></i>
+        </div>
+        {% elsif post.press_category == "television" %}
+        <div
+          style="padding: 1rem; background-color: #ffacac; border-radius: 10px; margin-right: 1rem; aspect-ratio: 1 / 1; height: fit-content; display: flex; justify-content: center; align-items: center;">
+          <i class="fas fa-tv fa-2x" style="color: #ff0000;"></i>
+        </div>
+        {% elsif post.press_category == "radio" %}
+        <div
+          style="padding: 1rem; background-color: #ffdbb8; border-radius: 10px; margin-right: 1rem; aspect-ratio: 1 / 1; height: fit-content; display: flex; justify-content: center; align-items: center;">
+          <i class="fas fa-broadcast-tower fa-2x" style="color: #ff8c00;"></i>
+        </div>
+        {% elsif post.press_category == "magazine" %}
+        <div
+          style="padding: 1rem; background-color: #b8d4ff; border-radius: 10px; margin-right: 1rem; aspect-ratio: 1 / 1; height: fit-content; display: flex; justify-content: center; align-items: center;">
+          <i class="fas fa-book fa-2x" style="color: #1900ff;"></i>
+        </div>
+        {% elsif post.press_category == "online" %}
+        <div
+          style="padding: 1rem; background-color: #ffb8e9; border-radius: 10px; margin-right: 1rem; aspect-ratio: 1 / 1; height: fit-content; display: flex; justify-content: center; align-items: center;">
+          <i class="fas fa-globe fa-2x" style="color: #ff00b3;"></i>
+        </div>
+        {% elsif post.press_category == "video" %}
+        <div
+          style="padding: 1rem; background-color: #ffacac; border-radius: 10px; margin-right: 1rem; aspect-ratio: 1 / 1; height: fit-content; display: flex; justify-content: center; align-items: center;">
+          <i class="fas fa-video fa-2x" style="color: #ff0000;"></i>
+        </div>
+        {% else %}
+        {{ post.press_category }}
+        {% endif %}
+        <div  style="color: rgb(75, 75, 75)">
+          <h4>{{post.title}}</h4>
+          <p><i class="fas fa-calendar"></i> {{post.date | date: "%-d %B %Y"}}</p>
+        </div>
+      </div>
+      <p>{{post.content}}</p>
+    </div>
+  </div>
+
   {% endfor %}
 </div>

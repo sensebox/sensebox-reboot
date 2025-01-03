@@ -3,8 +3,8 @@ layout: post
 title:  "Kreative Umweltforscher"
 date:   2016-08-22 12:00:00
 author: Felix
-thumbnail: /images/press/wn.jpeg
 categories: press
+press_category: newspaper
 ---
 "
 36 Schüler aus ganz Deutschland sind aktuell am Institut für Geoinformatik in einem Forscher-Camp aktiv. Sie basteln und programmieren beispielsweise eine Wetterstation und eine Boje, mit der die Wasserqualität getestet werden kann..."

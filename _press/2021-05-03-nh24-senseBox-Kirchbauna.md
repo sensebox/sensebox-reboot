@@ -3,7 +3,6 @@ layout: post
 title:  "Lärmmessgerät in Kirchbauna installiert"
 date:   2021-05-03
 author: Gina
-thumbnail: /images/press/ukraine_nh24.jpg
 categories: press
 press_category: online
 ---

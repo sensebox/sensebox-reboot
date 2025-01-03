@@ -3,7 +3,6 @@ layout: post
 title:  "Von Kalk ins Weltall: Schüler lassen Helium-Ballon in die Stratosphäre steigen "
 date:   2022-04-02 
 author: Gina
-thumbnail: /images/press/logo_KSTA.png
 categories: press
 press_category: newspaper
 ---

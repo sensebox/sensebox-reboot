@@ -3,7 +3,6 @@ layout: post
 title:  "SenseBox-Sets für Schulen im Rahmen des Startchancen-Programms des Bundes"
 date:   2024-08-05
 author: Gina
-thumbnail: /images/press/Logo_HOKO_90.jpg
 categories: press
 press_category: online
 ---

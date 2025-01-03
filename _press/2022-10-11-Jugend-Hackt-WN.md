@@ -3,7 +3,6 @@ layout: post
 title:  "Digital fürs Leben lernen - „Jugend Hackt Lab“ am Leonardo-Campus"
 date:   2022-10-11 
 author: Gina
-thumbnail: /images/press/wn.jpeg
 categories: press
 press_category: newspaper
 ---

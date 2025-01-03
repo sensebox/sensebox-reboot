@@ -3,7 +3,6 @@ layout: post
 title:  "Vier Schüler/innen der ASS bei bundesweitem Workshop zur Zukunft der Umwelt"
 date:   2021-04-21 
 author: Gina
-thumbnail: /images/press/ass_neu.png
 categories: press
 press_category: online
 ---

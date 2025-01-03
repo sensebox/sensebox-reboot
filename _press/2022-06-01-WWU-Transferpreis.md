@@ -3,7 +3,6 @@ layout: post
 title:  "Rektorat zeichnet zwei Projekte mit dem Transferpreis aus"
 date:   2022-06-02
 author: Gina
-thumbnail: /images/press/unims.png
 categories: press
 press_category: online
 ---

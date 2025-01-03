@@ -3,7 +3,6 @@ layout: post
 title:  "Sensor Installation Sensebox Truebner SMT50"
 date:   2024-08-06
 author: Gina
-thumbnail: /images/press/LogoWassermeisterei_transparent.png
 categories: press
 press_category: online
 ---

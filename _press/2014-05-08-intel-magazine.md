@@ -3,7 +3,6 @@ layout: post
 title:  "Citizen Science: Fünf Projekttipps für Hobby-Forscher"
 date:   2014-06-12 12:00:00
 author: Thomas
-thumbnail: /images/press/Intel-logo.png
 categories: press
 press_category: online
 ---

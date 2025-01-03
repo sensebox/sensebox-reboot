@@ -3,7 +3,6 @@ layout: post
 title:  "#18: Zukunft im Blick - Thomas Bartoschek über die senseBox und MINT Ausbildung"
 date:   2020-07-08
 author: Gina
-thumbnail: /images/press/Logo_Medienbecker.jpg
 categories: press
 press_category: podcast
 ---

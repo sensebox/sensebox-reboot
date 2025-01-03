@@ -3,7 +3,6 @@ layout: post
 title:  "Leicht  den  Überblick  gewinnen - „Open Data Day“ in der Stadtbücherei"
 date:   2020-03-09 
 author: Gina
-thumbnail: /images/press/wn.jpeg
 categories: press
 press_category: newspaper
 ---

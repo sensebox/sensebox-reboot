@@ -3,7 +3,6 @@ layout: post
 title:  "Wie Citizen Science die Wissenschaft fördert"
 date:   2015-03-22 12:00:00
 author: Thomas
-thumbnail: /images/press/logo-deutschlandfunk.preview.jpg
 categories: press
 press_category: radio
 ---

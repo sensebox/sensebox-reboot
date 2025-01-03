@@ -3,7 +3,6 @@ layout: post
 title:  "Didacta Magazin: Eine Kiste mit Sinn"
 date:   2018-06-12 
 author: Gina
-thumbnail: /images/press/Logo-Didacta.jpg
 categories: press
 press_category: magazine
 ---

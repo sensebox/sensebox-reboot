@@ -3,7 +3,6 @@ layout: post
 title:  '"senseBox", Sonderpreis für digitales Lehren und Lernen beim CeBIT Innovation Award 2017'
 date:   2017-06-20
 author: Manuela
-thumbnail: /images/press/cebit_innovation_award.jpg
 categories: press
 press_category: online
 ---

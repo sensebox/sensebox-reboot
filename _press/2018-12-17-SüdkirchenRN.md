@@ -3,7 +3,6 @@ layout: post
 title:  "Programmieren lernen"
 date:   2018-12-17
 author: Gina
-thumbnail: /images/press/ruhr_nachrichten_logo.png
 categories: press
 press_category: newspaper
 ---

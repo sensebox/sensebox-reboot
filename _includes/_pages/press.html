@@ -1,6 +1,6 @@
 {% assign pressnews = site.press | sort: 'date' | reverse %}
 <div class="container">
-  <div style="display: flex; justify-content: center; margin-bottom: 2rem;">
+  <div style="display: flex; max-width: 100%; overflow-x: auto; width: fit-content; margin: 0 auto 2rem auto; width: fit-content;">
     {% assign years = "" %}
     {% for post in pressnews %}
     {% assign year = post.date | date: '%Y' %}

@@ -3,7 +3,6 @@ layout: post
 title:  "IoT Wetterstation"
 date:   2023-03-03 
 author: Gina
-thumbnail: /images/press/Goethe-Uni.png
 categories: press
 press_category: online
 ---

@@ -3,7 +3,6 @@ layout: post
 title:  "MINT: Erfolgreiche Teilnahme am senseBox Hackathon 2018 der Universität Münster"
 date:   2018-09-10
 author: Gina
-thumbnail: /images/press/logo_Annette_Gymnasium_Dülmen.jpg
 categories: press
 press_category: online
 ---

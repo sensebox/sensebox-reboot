@@ -3,7 +3,6 @@ layout: post
 title:  "senseBox Workshop am Gymnasium an der Gartenstraße"
 date:   2024-03-20
 author: Gina
-thumbnail: /images/press/rwth-biologie-aachen.png
 categories: press
 press_category: online
 ---

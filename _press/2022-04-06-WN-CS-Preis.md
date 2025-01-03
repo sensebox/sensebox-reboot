@@ -3,7 +3,6 @@ layout: post
 title:  "Preise für Bürgerwissenschaftsprojekte: Smarter Garten und Gemeinwohl-Index"
 date:   2022-04-06 
 author: Gina
-thumbnail: /images/press/wn.jpeg
 categories: press
 press_category: newspaper
 ---

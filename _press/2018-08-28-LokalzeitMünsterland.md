@@ -3,7 +3,6 @@ layout: post
 title:  "Forschercamp: Jugendliche bauen Wettersonden"
 date:   2018-08-29 
 author: Gina
-thumbnail: /images/press/logo-lokalzeit-muensterland.jpg
 categories: press
 press_category: television
 ---

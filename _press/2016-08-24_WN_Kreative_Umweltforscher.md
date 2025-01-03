@@ -3,7 +3,6 @@ layout: post
 title:  "Kreative Umweltforscher"
 date:   2016-08-22 12:00:00
 author: Felix
-thumbnail: /images/press/wn.jpeg
 categories: press
 press_category: newspaper
 ---

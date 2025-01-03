@@ -3,7 +3,6 @@ layout: post
 title:  "Bürger messen Umweltbelastungen"
 date:   2015-12-10 12:00:00
 author: Thomas
-thumbnail: /images/press/dieglocke-oelde.gif
 categories: press
 press_category: newspaper
 ---

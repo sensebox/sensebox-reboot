@@ -3,7 +3,6 @@ layout: post
 title:  "Citizen Science - Das Leben als Labor"
 date:   2019-05-03 
 author: Gina
-thumbnail: /images/press/brandeins.png
 categories: press
 press_category: magazine
 ---

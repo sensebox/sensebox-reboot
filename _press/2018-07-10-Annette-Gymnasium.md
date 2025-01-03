@@ -3,7 +3,6 @@ layout: post
 title:  "MINT: Umwelt-Messstationen bereichern den MINT-Unterricht am Annette-Gymnasium"
 date:   2018-07-05
 author: Gina
-thumbnail: /images/press/logo_Annette_Gymnasium_Dülmen.jpg
 categories: press
 press_category: online
 ---

@@ -3,7 +3,6 @@ layout: post
 title:  "Feinstaubmessung am Wohnhaus"
 date:   2018-05-08 
 author: Gina
-thumbnail: /images/press/wn.jpeg
 categories: press
 press_category: newspaper
 ---

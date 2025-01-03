@@ -3,7 +3,6 @@ layout: post
 title:  "SenseBox – Diese Kiste macht Sinn"
 date:   2018-11-18 
 author: Gina
-thumbnail: /images/press/Logo_Alles_Münster.jpg
 categories: press
 press_category: online
 ---

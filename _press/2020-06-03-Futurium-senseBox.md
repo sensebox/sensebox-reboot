@@ -3,7 +3,6 @@ layout: post
 title:  "Die Vermessung der Umwelt"
 date:   2020-03-06
 author: Gina
-thumbnail: /images/press/Futurium_Logo.png
 categories: press
 press_category: online
 ---

@@ -3,7 +3,6 @@ layout: post
 title:  "Müll im Forscher-Fokus"
 date:   2016-09-16 12:00:00
 author: Felix
-thumbnail: /images/press/az_muensterland.png
 categories: press
 press_category: online
 ---

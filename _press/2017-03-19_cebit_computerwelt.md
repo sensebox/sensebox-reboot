@@ -3,7 +3,6 @@ layout: post
 title:  'CeBIT Innovation Award: Vier Ideen für eine bessere Welt'
 date:   2017-03-19
 author: Manuela
-thumbnail: /images/press/Computerwelt-Logo.jpg
 categories: press
 press_category: online
 ---

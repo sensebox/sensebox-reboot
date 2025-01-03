@@ -3,7 +3,6 @@ layout: post
 title:  "Do-it-yourself: Die senseBox"
 date:   2015-04-16 12:00:00
 author: Thomas
-thumbnail: /images/press/wissenschaftsjahr.png
 categories: press
 press_category: online
 ---

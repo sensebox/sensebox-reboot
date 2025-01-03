@@ -3,7 +3,6 @@ layout: post
 title:  "Arduinos erklimmen Zugspitze"
 date:   2015-08-20 12:00:00
 author: Thomas
-thumbnail: /images/press/make42015.jpg
 categories: press
 press_category: magazine
 ---

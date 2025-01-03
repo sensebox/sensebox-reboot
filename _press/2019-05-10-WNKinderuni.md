@@ -3,7 +3,6 @@ layout: post
 title:  "Jeder kann zum Forscher werden - Kinderuni am Institut für Geowissenschaften"
 date:   2019-05-10 
 author: Gina
-thumbnail: /images/press/wn.jpeg
 categories: press
 press_category: newspaper
 ---

@@ -3,7 +3,6 @@ layout: post
 title:  "Mitmach-Projekte der Wissenschaft finden regen Zuspruch"
 date:   2019-12-26 
 author: Gina
-thumbnail: /images/press/Heise_online_logo.svg.png
 categories: press
 press_category: online
 ---

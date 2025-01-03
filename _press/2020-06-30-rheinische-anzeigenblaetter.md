@@ -3,7 +3,6 @@ layout: post
 title:  "Wie ist die Luft in Uedorf? Christian Neuhaus hat eine Mess-Station für Feinstaub"
 date:   2020-06-30 
 author: Gina
-thumbnail: /images/press/logo-rsg-zeitung.jpg
 categories: press
 press_category: newspaper
 ---

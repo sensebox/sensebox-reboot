@@ -3,7 +3,6 @@ layout: post
 title:  "H2S IoT node with ESP8266 and openSenseMap"
 date:   2019-07-19 
 author: Gina
-thumbnail: /images/press/electronza-logo.png
 categories: press
 press_category: blog
 ---

@@ -3,7 +3,6 @@ layout: post
 title:  "Wie Sensoren das Warendorfer Leben beeinflussen"
 date:   2022-06-28
 author: Gina
-thumbnail: /images/press/logo_die_glocke.png
 categories: press
 press_category: newspaper
 ---

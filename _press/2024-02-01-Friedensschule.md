@@ -3,7 +3,6 @@ layout: post
 title:  "Projekttag Smart City/Geoinformatik"
 date:   2024-02-01
 author: Gina
-thumbnail: /images/press/sdz-logo.png
 categories: press
 press_category: online
 ---

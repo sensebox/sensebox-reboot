@@ -3,7 +3,6 @@ layout: post
 title:  "„SenseBox“: Geoinformatiker erhalten eine Million Euro zur flächendeckenden Klimadaten-Erhebung"
 date:   2016-04-13 12:00:00
 author: Felix
-thumbnail: /images/press/westfalen-heute.png
 categories: press
 press_category: online
 ---

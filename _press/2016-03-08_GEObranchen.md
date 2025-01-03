@@ -3,7 +3,6 @@ layout: post
 title:  "Geoinformatiker erhalten knapp eine Million Euro für Bürger-Projekt „SenseBox“"
 date:   2016-04-05 12:00:00
 author: Felix
-thumbnail: /images/press/GEObranchen_logo.PNG
 categories: press
 press_category: online
 ---

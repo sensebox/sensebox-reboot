@@ -3,7 +3,6 @@ layout: post
 title:  "Die senseBox im MINT-Unterricht - Ein vielseitig anwendbares Toolkit verschiedener Messinstrumente"
 date:   2022-02-26 
 author: Gina
-thumbnail: /images/press/Uni_Aug_Logo.png
 categories: press
 press_category: online
 ---

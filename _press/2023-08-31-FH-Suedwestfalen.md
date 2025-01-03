@@ -3,7 +3,6 @@ layout: post
 title:  "Den MINT-Funken sprühen und wachsen lassen"
 date:   2023-08-31
 author: Gina
-thumbnail: /images/press/FH-Südwestfalen.png
 categories: press
 press_category: online
 ---

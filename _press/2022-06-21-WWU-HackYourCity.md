@@ -3,7 +3,6 @@ layout: post
 title: "Ferienprogramm 'HackYourCity' des Schülerlabors GI@School"
 date:   2022-06-21
 author: Gina
-thumbnail: /images/press/unims.png
 categories: press
 press_category: online
 ---

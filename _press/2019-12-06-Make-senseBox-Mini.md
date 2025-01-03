@@ -3,7 +3,6 @@ layout: post
 title:  "Umweltsensoren: Mini-Version der Sensebox erhältlich"
 date:   2019-12-06 
 author: Gina
-thumbnail: /images/press/Heise_online_logo.svg.png
 categories: press
 press_category: online
 ---

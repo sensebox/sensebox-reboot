@@ -3,7 +3,6 @@ layout: post
 title:  "Selbst Klimadaten sammeln"
 date:   2016-04-13 12:00:00
 author: Felix
-thumbnail: /images/press/wn.jpeg
 categories: press
 press_category: newspaper
 ---

@@ -3,7 +3,6 @@ layout: post
 title:  "Bildung für nachhaltige Entwicklung durch Open Educational Resources: Die senseBox"
 date:   2019-05-29 
 author: Gina
-thumbnail: /images/press/oer_info_logo.png
 categories: press
 press_category: blog
 ---

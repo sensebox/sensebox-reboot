@@ -3,7 +3,6 @@ layout: post
 title:  "Projekt SensorKids: Die Verkehrswende für Kinder erlebbar machen 2023-2024"
 date:   2024-07-11
 author: Gina
-thumbnail: /images/press/lemgo-logo.jpg
 categories: press
 press_category: online
 ---

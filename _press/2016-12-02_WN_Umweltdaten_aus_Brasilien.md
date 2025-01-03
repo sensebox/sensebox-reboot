@@ -3,7 +3,6 @@ layout: post
 title:  "Umweltdaten aus Brasilien"
 date:   2016-12-02 12:00:00
 author: Felix
-thumbnail: /images/press/wn.jpeg
 categories: press
 press_category: newspaper
 ---

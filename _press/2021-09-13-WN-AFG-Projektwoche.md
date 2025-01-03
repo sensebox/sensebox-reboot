@@ -3,7 +3,6 @@ layout: post
 title:  "Daten gegen den Klimawandel"
 date:   2021-09-13 
 author: Gina
-thumbnail: /images/press/wn.jpeg
 categories: press
 press_category: newspaper
 ---

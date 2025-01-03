@@ -3,7 +3,6 @@ layout: post
 title:  "Spannende Eindrücke beim Schüleraustausch in Kassel"
 date:   2023-11-09
 author: Gina
-thumbnail: /images/press/CGD_Logo_neg-1.png
 categories: press
 press_category: online
 ---

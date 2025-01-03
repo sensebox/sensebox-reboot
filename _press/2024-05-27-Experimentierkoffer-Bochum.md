@@ -3,7 +3,6 @@ layout: post
 title:  "Sensebox-Experimentierkoffer für weiterführende Schulen"
 date:   2024-05-27
 author: Gina
-thumbnail: /images/press/bochum-logo.png
 categories: press
 press_category: online
 ---

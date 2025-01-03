@@ -3,7 +3,6 @@ layout: post
 title:  "Jugendliche hacken an der Uni: Per Baukasten in die Stratosphäre"
 date:   2018-08-28 
 author: Gina
-thumbnail: /images/press/Muenstersche-Zeitung.png
 categories: press
 press_category: newspaper
 ---

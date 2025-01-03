@@ -3,7 +3,6 @@ layout: post
 title:  "Forschung am Leibniz - Geoinformatik trifft Radverkehr"
 date:   2024-07-02
 author: Gina
-thumbnail: /images/press/Leibniz-Gymnasium-Essen.png
 categories: press
 press_category: online
 ---

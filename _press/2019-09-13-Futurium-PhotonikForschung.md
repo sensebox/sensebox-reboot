@@ -3,7 +3,6 @@ layout: post
 title:  "Futurium eröffnet: Citizen Science mit der senseBox"
 date:   2019-09-13 
 author: Gina
-thumbnail: /images/press/LogoPhotonikforschung.png
 categories: press
 press_category: online
 ---

@@ -3,7 +3,6 @@ layout: post
 title:  "MKG-Team gewinnt Schülerpreis für Mint-Projekte - Pionierarbeit mit der Sense-Box"
 date:   2019-02-13 
 author: Gina
-thumbnail: /images/press/wn.jpeg
 categories: press
 press_category: newspaper
 ---

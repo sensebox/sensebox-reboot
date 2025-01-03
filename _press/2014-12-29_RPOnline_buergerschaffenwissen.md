@@ -3,7 +3,6 @@ layout: post
 title:  "Erfolgreiches Internetprojekt für Hobbyforscher"
 date:   2014-12-29 12:00:00
 author: Thomas
-thumbnail: /images/press/rponline.png
 categories: press
 press_category: online
 ---

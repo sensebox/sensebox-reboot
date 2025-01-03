@@ -3,7 +3,6 @@ layout: post
 title:  "Didacta 2018 - Skills4Media Medientraining - sensebox"
 date:   2018-03-29
 author: Gina
-thumbnail: /images/press/logo-skills4media.jpg
 categories: press
 press_category: video
 ---

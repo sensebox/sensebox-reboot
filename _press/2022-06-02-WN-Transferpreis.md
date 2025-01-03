@@ -3,7 +3,6 @@ layout: post
 title:  "Forschung mit Strahlkraft: Auszeichnungen für zwei Projekte"
 date:   2022-06-02 
 author: Gina
-thumbnail: /images/press/wn.jpeg
 categories: press
 press_category: newspaper
 ---

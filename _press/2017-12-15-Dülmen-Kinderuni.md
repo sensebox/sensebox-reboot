@@ -3,7 +3,6 @@ layout: post
 title:  "Die Welt besser verstehen"
 date:   2017-12-15
 author: Manuela
-thumbnail: /images/press/dülmenerZeitung.jpg
 categories: press
 press_category: newspaper
 ---

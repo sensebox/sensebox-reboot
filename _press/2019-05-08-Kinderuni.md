@@ -3,7 +3,6 @@ layout: post
 title:  "Bei der Kinder-Uni am Freitag werden die Besucher zu Datensammlern - Aus der Welt in den Computer"
 date:   2019-05-08 
 author: Gina
-thumbnail: /images/press/wn.jpeg
 categories: press
 press_category: newspaper
 ---

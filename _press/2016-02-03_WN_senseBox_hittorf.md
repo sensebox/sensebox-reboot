@@ -3,7 +3,6 @@ layout: post
 title:  "Spielerisch Geoinformatik lernen"
 date:   2015-12-10 12:00:00
 author: Thomas
-thumbnail: /images/press/wn.jpeg
 categories: press
 press_category: newspaper
 ---

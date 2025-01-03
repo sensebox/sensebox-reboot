@@ -3,7 +3,6 @@ layout: post
 title:  "Forscher machen ihr Wissen auch Laien verständlich"
 date:   2016-09-15 12:00:00
 author: Felix
-thumbnail: /images/press/dieglocke-oelde.gif
 categories: press
 press_category: newspaper
 ---

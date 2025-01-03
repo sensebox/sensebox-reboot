@@ -3,7 +3,6 @@ layout: post
 title:  "„Inno Truck“ des Bundesforschungsministeriums präsentiert Projekt „senseBox“"
 date:   2017-07-08
 author: Manuela
-thumbnail: /images/press/wn.jpeg
 categories: press
 press_category: newspaper
 ---

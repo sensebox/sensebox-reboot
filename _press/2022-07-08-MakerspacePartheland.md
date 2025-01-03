@@ -3,7 +3,6 @@ layout: post
 title:  "Tag der Möglichkeiten – Teil 2: openSense:Box, LoRaWAN, Sensorendaten, 3D-Druck und Photovoltaik"
 date:   2022-07-08 
 author: Gina
-thumbnail: /images/press/Makerspace Partheland.jpg
 categories: press
 press_category: online
 ---

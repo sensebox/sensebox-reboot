@@ -3,7 +3,6 @@ layout: post
 title:  "Wird das Grundwasser zu warm?"
 date:   2017-09-29
 author: Manuela
-thumbnail: /images/press/wn.jpeg
 categories: press
 press_category: newspaper
 ---

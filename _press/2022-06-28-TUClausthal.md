@@ -3,7 +3,6 @@ layout: post
 title:  "senseBox-basiertes Umweltmonitoring"
 date:   2022-06-28 
 author: Gina
-thumbnail: /images/press/Logo_TUC_de_rgb.SVG
 categories: press
 press_category: online
 ---

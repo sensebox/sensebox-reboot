@@ -3,7 +3,6 @@ layout: post
 title:  "Heppenheimer Gymnasium hat einen „Digi-Space“"
 date:   2022-03-05
 author: Gina
-thumbnail: /images/press/Echo_logo.svg
 categories: press
 press_category: online
 ---

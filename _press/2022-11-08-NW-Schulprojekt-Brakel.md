@@ -3,7 +3,6 @@ layout: post
 title:  "Schüler in Brakel planen, konstruieren und betreiben eine Wetterstation"
 date:   2022-11-08 
 author: Gina
-thumbnail: /images/press/nw-logo.svg
 categories: press
 press_category: newspaper
 ---

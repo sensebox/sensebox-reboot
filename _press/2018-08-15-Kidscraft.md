@@ -3,7 +3,6 @@ layout: post
 title:  "Digital-Camp „Kidscraft 4.0“: „Ferienprogramm(ieren)“ mit Besuch vom Kultusminister"
 date:   2018-08-15
 author: Gina
-thumbnail: /images/press/logo-wolfsburger-kurier.png
 categories: press
 press_category: newspaper
 ---

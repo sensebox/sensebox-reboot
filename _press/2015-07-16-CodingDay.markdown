@@ -3,7 +3,6 @@ layout: post
 title:  "Coding-Day auf der IdeenExpo mit Ranga Yogeshwar-Einlage"
 date:   2015-07-16 12:00:00
 author: Thomas
-thumbnail: /images/press/codingday.jpg
 categories: press
 press_category: blog
 ---

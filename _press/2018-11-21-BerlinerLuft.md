@@ -3,7 +3,6 @@ layout: post
 title:  "Die Vermessung der Berliner Luft"
 date:   2018-11-21 
 author: Gina
-thumbnail: /images/press/Futurium_Logo.png
 categories: press
 press_category: online
 ---

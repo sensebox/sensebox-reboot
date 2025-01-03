@@ -3,7 +3,6 @@ layout: post
 title:  "Geld für gute Gründer-Idee"
 date:   2017-10-21
 author: Manuela
-thumbnail: /images/press/unims.svg
 categories: press
 press_category: newspaper
 ---

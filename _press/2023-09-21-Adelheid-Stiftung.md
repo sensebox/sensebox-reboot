@@ -3,7 +3,6 @@ layout: post
 title:  "Die senseBox:home als Umweltmessstation am Hannah-Arendt-Gymnasium"
 date:   2023-09-21 
 author: Gina
-thumbnail: /images/press/adelheid-windmoeller-stiftung-logo-500.png
 categories: press
 press_category: online
 ---

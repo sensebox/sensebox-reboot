@@ -3,7 +3,6 @@ layout: post
 title:  "Grünes Licht für gute Luft"
 date:   2021-03-27 
 author: Gina
-thumbnail: /images/press/hamburger-wochenblatt-logo.png
 categories: press
 press_category: newspaper
 ---

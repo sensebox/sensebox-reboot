@@ -3,7 +3,6 @@ layout: post
 title:  "Bericht: Workshop: senseBox - Citizen Science mit Open Hardware für SDG 11 - Nachhaltige Städte und Siedlungen"
 date:   2021-01-11 
 author: Gina
-thumbnail: /images/press/OEF_CitizenScience_Logo.jpg
 categories: press
 press_category: online
 ---

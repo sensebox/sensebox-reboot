@@ -3,7 +3,6 @@ layout: post
 title:  "Junge Forscher erkunden die Luft"
 date:   2019-07-26 
 author: Gina
-thumbnail: /images/press/westfalium_logo.png
 categories: press
 press_category: online
 ---

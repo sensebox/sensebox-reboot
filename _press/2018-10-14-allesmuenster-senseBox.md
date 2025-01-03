@@ -3,7 +3,6 @@ layout: post
 title:  "Den Schäden des Rekordsommers auf der Spur - Schüler schicken Experimente in die Stratosphäre, um Klimaschäden zu erkennen"
 date:   2018-10-14 
 author: Gina
-thumbnail: /images/press/Logo_Alles_Münster.jpg
 categories: press
 press_category: online
 ---

@@ -3,7 +3,6 @@ layout: post
 title:  "Bildungsministerium koordiniert Lernangebote für Schüler"
 date:   2020-04-19 
 author: Gina
-thumbnail: /images/press/c_t-logo.jpg
 categories: press
 press_category: online
 ---

@@ -3,7 +3,6 @@ layout: post
 title:  "TheThingsCast Podcast Interview"
 date:   2015-06-04 12:00:00
 author: Thomas
-thumbnail: /images/press/thingcast.jpg
 categories: press
 press_category: podcast
 ---

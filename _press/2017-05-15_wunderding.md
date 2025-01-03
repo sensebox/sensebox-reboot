@@ -3,7 +3,6 @@ layout: post
 title:  'Die Welt messen - senseBox'
 date:   2017-05-15 
 author: Manuela
-thumbnail: /images/press/wunderding.png
 categories: press
 press_category: online
 ---

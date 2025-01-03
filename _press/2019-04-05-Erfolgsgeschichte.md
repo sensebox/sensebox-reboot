@@ -3,7 +3,6 @@ layout: post
 title:  "Die senseBox: Vom Schülerlabor zum Start-up"
 date:   2019-04-05 
 author: Gina
-thumbnail: /images/press/LogoPhotonikforschung.png
 categories: press
 press_category: online
 ---

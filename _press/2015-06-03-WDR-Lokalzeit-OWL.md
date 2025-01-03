@@ -3,7 +3,6 @@ layout: post
 title:  "senseBox im Smart City Exponat auf der MS Wissenschaft"
 date:   2015-06-04 12:00:00
 author: Thomas
-thumbnail: /images/press/westdeutscher-rundfunk.jpg
 categories: press
 press_category: television
 ---

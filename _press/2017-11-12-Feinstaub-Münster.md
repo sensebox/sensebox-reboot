@@ -3,7 +3,6 @@ layout: post
 title:  "Feinstaubmessung für den Hausgebrauch"
 date:   2017-11-12
 author: Manuela
-thumbnail: /images/press/wn.jpeg
 categories: press
 press_category: newspaper
 ---

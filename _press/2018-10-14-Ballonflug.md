@@ -3,7 +3,6 @@ layout: post
 title:  "40 000 Meter über der Erde - Jugendliche lassen Wetterballons steigen"
 date:   2018-10-14 
 author: Gina
-thumbnail: /images/press/wn.jpeg
 categories: press
 press_category: newspaper
 ---

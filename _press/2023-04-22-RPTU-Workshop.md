@@ -3,7 +3,6 @@ layout: post
 title:  "Workshopangebot für Jugendliche: Einparksenosor selbst bauen und programmieren"
 date:   2023-04-22 
 author: Gina
-thumbnail: /images/press/rptu-logo.svg
 categories: press
 press_category: online
 ---

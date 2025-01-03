@@ -3,7 +3,6 @@ layout: post
 title:  "Chaostheorie, Augmented Reality oder App-Entwicklung - 18. Schülerakademie in Münster (SMIMS)"
 date:   2018-09-23
 author: Gina
-thumbnail: /images/press/logo_Bezirksregierung.png
 categories: press
 press_category: online
 ---

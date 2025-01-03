@@ -3,7 +3,6 @@ layout: post
 title:  "Wir vermessen die Welt"
 date:   2016-09-21 12:00:00
 author: Felix
-thumbnail: /images/press/logo-technologiestiftung-berlin.jpg
 categories: press
 press_category: online
 ---

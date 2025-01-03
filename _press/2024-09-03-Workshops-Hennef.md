@@ -3,7 +3,6 @@ layout: post
 title:  "Ferienworkshops im Jugenzentrum Key begeisterte Kinder und Jugendliche"
 date:   2024-09-03
 author: Gina
-thumbnail: /images/press/hennef_logo_260x120.png
 categories: press
 press_category: online
 ---

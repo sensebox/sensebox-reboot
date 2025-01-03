@@ -3,7 +3,6 @@ layout: post
 title:  "ESP32-Sensordaten anzeigen auf openSenseMap"
 date:   2018-12-11 
 author: Gina
-thumbnail: /images/press/elektor-logo.webp
 categories: press
 press_category: online
 ---

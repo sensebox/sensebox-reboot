@@ -3,7 +3,6 @@ layout: post
 title:  "Wiesenburger Schlosspark liefert Klima- und Bodendaten"
 date:   2022-12-26 
 author: Gina
-thumbnail: /images/press/Logo-MaerkischeAllgemeine.png
 categories: press
 press_category: newspaper
 ---

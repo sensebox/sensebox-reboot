@@ -7,4 +7,4 @@ categories: press
 press_category: newspaper
 ---
 "In drei Wochen öffnet das „Haus der Zukünfte“ in Berlin. An vier Donnerstagen stellen wir die „Denkräume“ des Futuriums vor und blicken auf Zukunftsthemen, die in den interaktiven Ausstellungen des Hauses erlebbar werden. Diese Woche geht es um grüne Städte."
-<a href="https://www.tagesspiegel.de/berlin/serie-erste-einblicke-in-das-futurium-von-verwandlungskuenstlern-energiefaengern-und-naturtalenten/24903892.html" target="_blank">"Der Tagessopiegel, Autor: Klaus Grimberg" 15.08.2019</a>
+<a href="https://www.tagesspiegel.de/berlin/serie-erste-einblicke-in-das-futurium-von-verwandlungskuenstlern-energiefaengern-und-naturtalenten/24903892.html" target="_blank">"Der Tagesspiegel, Autor: Klaus Grimberg" 15.08.2019</a>

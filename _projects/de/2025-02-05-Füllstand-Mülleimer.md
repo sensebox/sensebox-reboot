@@ -18,6 +18,7 @@ material:
   - 1x LoRa-Bee
   - 1x QWIIC-Kabel
   - 1x ToF-Sensor
+  - 1x Batterie (optional für unabhängigen Einsatz)
 ide: blockly
 version: ["edu-S2"]
 lang: de
@@ -85,7 +86,9 @@ Den Code findet ihr auch [hier](https://blockly.sensebox.de/gallery/67a3389236eb
 ## Einsatz
 
 Sobald du den Code auf die senseBox übertragen und ihn getestet hast, kann die Box an einen richtigen Mülleimer angebracht werden!
+
 Damit keine Teile beschädigt oder verschmutzt werden, ist ein Gehäuse ratsam. Hierbei gibt es verschiedene Möglichkeiten. Zum Beispiel kannst du ein Gehäuse aus Karton oder Holz bauen, oder in einen Plastikbehälter (Tupperware oder ähnliches) ein Loch für den Sensor schneiden. Wenn du einen 3D-Drucker zur Verfügung hast, kannst du auch ein Gehäuse drucken. Dafür haben wir bereits Dateien erstellt, die du [hier](https://cloud.reedu.de/s/mbK5SPRZ2CzipFS) finden kannst.
+Um sie ohne Laptop oder eine andere direkte Stromversorgung verwenden zu können, schließe eine Batterie (oder eine Powerbank, die sich nicht selbst ausschaltet) an.  
 
 Im Ergebnis kann das dann zum Beispiel so aussehen:
 {% include image.html image=page.image6 %}

@@ -4,142 +4,136 @@
     <div class="col-lg-12 pb-4 middle">
       <h1>senseBox Connect App</h1>
     </div>
-    <div class="col-12">
-      <h2>{{ t.preperations-head}}</h2>
-      <p>
-        {{ t.preperations-text1}} 
-      </p>
-      <ol>
-        <li>
-          <p>
-            {{ t.preperations-text2}} 
-          </p>
-          <a
-            href="https://apps.apple.com/app/id1586961095#?platform=ipad"
-            class=""
-            target="_blank"
-            style="display: inline-block; padding: 20px;"
-          >
-            <object
-              style="pointer-events: none"
-              data="/images/app/Download_on_the_App_Store_Badge_DE_RGB_blk_092917.svg"
-              type="image/svg+xml"
-              
-              width="auto"
-              height="75px"
-            >
-              <!-- Für Browser ohne SVG-Unterstützung -->
-              <span>Your browser doesn't support SVG images</span>
-            </object>
-          </a>
-          <a target="_blank"
-          style="display: inline-block; padding: 20px;" href='https://play.google.com/store/apps/details?id=de.sensebox.blockly.connect&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><object
-            style="pointer-events: none"
-            data="/images/app/google-play-badge.png"
-            type="image/png"
-            width="auto"
-            padding="30px"
-            height="75px"
-          >
-            <!-- Für Browser ohne SVG-Unterstützung -->
-            <span>Your browser doesn't support SVG images</span>
-          </object></a>
-         <p><small>Apple, das Apple-Logo und iPhone sind Marken von Apple Inc. und in den USA und anderen Ländern eingetragen. App Store ist eine Dienstleistungsmarke von Apple Inc.</small></p> 
-      <p> <small>Google Play und das Google Play-Logo sind Marken von Google LLC.</small></p>
-       
-        </li>
-        <li>
-          <p>
-            {{ t.preperations-text3}}  
-          </p>
-          <p>
-            {{ t.preperations-text4 }} 
-          </p>
-          <div class="row">
-            <div class="col-6">
-              {% include image.html image="/images/app/wifi-id.jpg" %}
-            </div>
-            <div class="col-6">
-              {% include image.html image="/images/app/wifibee.jpeg" %}
-            </div>
-          </div>
-        </li>
-        <li>
-          <p>
-            {{ t.preperations-text5}} 
-          </p>
-          <em>
-            {{ t.preperations-text6}}  
-          </em>
-          <p>
-            <a class="btn btn-sensebox-green" href="/docs/sensebox-ota_display.bin"
-              >Download</a
-            >
-          </p>
-        </li>
-        <li>
-          <p>
-            {{ t.preperations-text7 }} 
-          </p>
-        </li>
-      </ol>
-    </div>
 
-    <div class="col-12">
-      <h2>{{t.programming-head }}</h2>
-      <ol>
-        <li>
-          <p>
-            Erstelle deinen Programmcode in der
-            <a
-              href="https://blockly-react.netlify.app/"
-              class=""
-              >senseBox Lern- und Programmierumgebung</a
-            >
-            {% include image.html image="/images/app/IMG_0067.PNG" %}
-
-          </p>
-          <p>
-            {{t.programming-text1}}</p>
-          {% include image.html image="/images/app/tablet_modus01.png" %}
-          <p>
-            {{t.programming-text2}} 
-          </p>
-        </li>
-        <li>
-          {{t.programming-text3}} 
-          {% include image.html image="/images/app/IMG_0068.PNG" %}
-        </li>
-        <li>
-          {{t.programming-text4}} 
-          {% include image.html image="/images/app/IMG_0069.PNG" %}
-        </li>
-        <li>
-          {{t.programming-text5}}  
-          {% include image.html image="/images/app/IMG_0070.PNG" %}
-        </li>
-        <li>
-          {{t.programming-text6}} 
-          <p>Im Video siehst du, wie
-          du den OTA-Modus aktivierst.</p>
-          {% include youtube.html id = "CIujBPkHevk" %}
-        </li>
-        <li>
-          {{t.programming-text7}}
-          {% include image.html image="/images/app/IMG_0071.PNG" %}
-        </li>
-        <li>
-          {{t.programming-text8}} 
-        {% include image.html image="/images/app/IMG_0073.PNG" %}
-        </li>
+    <!-- Tab-System -->
+    <div class="tabs">
+      <!-- Tab-Navigation -->
+      <ul class="tab-nav">
+        <li class="active" data-tab="tab-mcu">MCU</li>
+        <li data-tab="tab-mcu-s2">MCU-S2</li>
       </ul>
+
+      <!-- Tab-Inhalte -->
+      <div class="tab-content">
+        <!-- Tab 1: MCU -->
+        <div id="tab-mcu" class="tab-pane active">
+          <div class="col-12">
+            <h2>{{ t.preperations-head }}</h2>
+            <p>{{ t.preperations-text1 }}</p>
+            <ol>
+              <li>
+                <p>{{ t.preperations-text2 }}</p>
+                <a href="https://apps.apple.com/app/id1586961095#?platform=ipad" target="_blank" style="display: inline-block; padding: 20px;" aria-label="Download on the App Store">
+                  <object style="pointer-events: none" data="/images/app/Download_on_the_App_Store_Badge_DE_RGB_blk_092917.svg" type="image/svg+xml" width="auto" height="75px">
+                    <span>Your browser doesn't support SVG images</span>
+                  </object>
+                </a>
+                <a href="https://play.google.com/store/apps/details?id=de.sensebox.blockly.connect&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1" target="_blank" style="display: inline-block; padding: 20px;" aria-label="Download on Google Play">
+                  <object style="pointer-events: none" data="/images/app/google-play-badge.png" type="image/png" width="auto" height="75px">
+                    <span>Your browser doesn't support PNG images</span>
+                  </object>
+                </a>
+                <p>
+                  <small>Apple, das Apple-Logo und iPhone sind Marken von Apple Inc. und in den USA und anderen Ländern eingetragen. App Store ist eine Dienstleistungsmarke von Apple Inc.</small>
+                </p>
+                <p>
+                  <small>Google Play und das Google Play-Logo sind Marken von Google LLC.</small>
+                </p>
+              </li>
+              <li>
+                <p>{{ t.preperations-text3 }}</p>
+                <p>{{ t.preperations-text4 }}</p>
+                <div class="row">
+                  <div class="col-6">
+                    {% include image.html image="/images/app/wifi-id.jpg" %}
+                  </div>
+                  <div class="col-6">
+                    {% include image.html image="/images/app/wifibee.jpeg" %}
+                  </div>
+                </div>
+              </li>
+              <li>
+                <p>{{ t.preperations-text5 }}</p>
+                <em>{{ t.preperations-text6 }}</em>
+                <p>
+                  <a class="btn btn-sensebox-green" href="/docs/sensebox-ota_display.bin">Download</a>
+                </p>
+              </li>
+              <li>
+                <p>{{ t.preperations-text7 }}</p>
+              </li>
+            </ol>
+          </div>
+          <div class="col-12">
+            <h2>{{ t.programming-head }}</h2>
+            <ol>
+              <li>
+                <p>
+                  Erstelle deinen Programmcode in der
+                  <a href="https://blockly-react.netlify.app/" aria-label="senseBox Lern- und Programmierumgebung">senseBox Lern- und Programmierumgebung</a>
+                  {% include image.html image="/images/app/IMG_0067.PNG" %}
+                </p>
+                <p>{{ t.programming-text1 }}</p>
+                {% include image.html image="/images/app/tablet_modus01.png" %}
+                <p>{{ t.programming-text2 }}</p>
+              </li>
+              <li>
+                {{ t.programming-text3 }}
+                {% include image.html image="/images/app/IMG_0068.PNG" %}
+              </li>
+              <li>
+                {{ t.programming-text4 }}
+                {% include image.html image="/images/app/IMG_0069.PNG" %}
+              </li>
+              <li>
+                {{ t.programming-text5 }}
+                {% include image.html image="/images/app/IMG_0070.PNG" %}
+              </li>
+              <li>
+                {{ t.programming-text6 }}
+                <p>Im Video siehst du, wie du den OTA-Modus aktivierst.</p>
+                {% include youtube.html id="CIujBPkHevk" %}
+              </li>
+              <li>
+                {{ t.programming-text7 }}
+                {% include image.html image="/images/app/IMG_0071.PNG" %}
+              </li>
+              <li>
+                {{ t.programming-text8 }}
+                {% include image.html image="/images/app/IMG_0073.PNG" %}
+              </li>
+            </ol>
+          </div>
+        </div>
+
+        <!-- Tab 2: MCU-S2 -->
+        <div id="tab-mcu-s2" class="tab-pane">
+         <div class="col-12">
+          
+         </div>
+        </div>
+      </div>
     </div>
-    <!-- <div class="col-12">
-      <h2>Video</h2>
-      <p>
-        Hier findest du ein Video, welches dir den kompletten Prozess zeigt, wie du die senseBox mit dem
-        Tablet programmieren kannst.
-      </p>
-    </div> -->
+    <!-- Ende des Tab-Systems -->
   </div>
 </div>
+
+<!-- JavaScript zur Umschaltung der Tabs -->
+<script>
+document.addEventListener("DOMContentLoaded", function(){
+  var tabNavItems = document.querySelectorAll(".tab-nav li");
+  tabNavItems.forEach(function(item) {
+    item.addEventListener("click", function(){
+      // Alle Tabs deaktivieren
+      tabNavItems.forEach(function(nav) { nav.classList.remove("active"); });
+      document.querySelectorAll(".tab-pane").forEach(function(pane) {
+        pane.classList.remove("active");
+      });
+      // Aktuellen Tab aktivieren
+      this.classList.add("active");
+      var tabId = this.getAttribute("data-tab");
+      document.getElementById(tabId).classList.add("active");
+    });
+  });
+});
+</script>

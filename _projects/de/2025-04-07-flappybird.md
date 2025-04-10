@@ -4,16 +4,17 @@ date: 2025-04-07
 author: Ben
 title: "Flappy Bird"
 abstract: "Nutze die Sensebox als Spiele konsole."
-thumbnail: /images/projects/Titelbild_Klickzaehler.jpg
-image0: 
-image1: 
-image2: 
-image3: 
+thumbnail: /images/projects/FlappyBird
+image0: /images/projects/FlappyBird/Bild1.svg
+image1: /images/projects/FlappyBird/Bild2.svg
+image2: /images/projects/FlappyBird/Bild3.svg
+image3: /images/projects/FlappyBird/Bild4.svg
+image3: /images/projects/FlappyBird/Bild5.svg
 
 material:
   - senseBox MCU-S2
   - LED-Matrix
-  - 1x Kabel
+  - 1x qwiic Kabel
 
 ide: blockly
 version: ["edu", "mini v1"]

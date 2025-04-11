@@ -4,7 +4,7 @@ date: 2025-04-07
 author: Ben
 title: "Flappy Bird"
 abstract: "Nutze die Sensebox als Spiele konsole."
-thumbnail: /images/projects/Screenshot 2025-04-11 102045.png
+thumbnail: /images/projects/FlappyBird/TitelBild.png
 image0: /images/projects/AufbauBild.jpeg
 image1: /images/projects/FlappyBird/Bild2.svg
 image2: /images/projects/FlappyBird/Bild3.svg
@@ -20,7 +20,7 @@ ide: blockly
 version: ["edu", "mini v1"]
 lang: de
 tags: ["Informatik",  "Spiel"]
-difficult: mittel
+difficult: schwehr
 ---
 
 # Flappy Bird {#head}
@@ -68,7 +68,7 @@ Verringere den Wert von `XAchse` regelmäßig um 1, sodass sich die Hindernisse 
 Jetzt wird der Code aus Schritt 3 nützlich:  
 Du kannst mit der Zufallszahl die oberen und unteren Wände berechnen – zum Beispiel durch `+2 bis +6` und `-2 bis -6`. In diesen Bereichen füllst du dann die entsprechenden Pixel.
 
-{% include image.html image=page.image33 %}
+{% include image.html image=page.image3 %}
 
 ### Schritt 5: Kollisionen
 

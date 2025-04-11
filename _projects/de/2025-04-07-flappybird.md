@@ -4,8 +4,8 @@ date: 2025-04-07
 author: Ben
 title: "Flappy Bird"
 abstract: "Nutze die Sensebox als Spiele konsole."
-thumbnail: /images/projects/FlappyBird
-image0: /images/projects/FlappyBird/Bild1.svg
+thumbnail: /images/projects/Screenshot 2025-04-11 102045.png
+image0: /images/projects/AufbauBild.jpeg
 image1: /images/projects/FlappyBird/Bild2.svg
 image2: /images/projects/FlappyBird/Bild3.svg
 image3: /images/projects/FlappyBird/Bild4.svg
@@ -26,6 +26,7 @@ difficult: mittel
 # Flappy Bird {#head}
 
 In diesem Projekt wird das klassische Spiel Flappy bird programmiert
+{% include image.html image=page.thumbnail %}
 
 ## Aufbau
 
@@ -38,31 +39,31 @@ Wichtig ist am anfang klarzustellen, dass mann eine LED-Matrix hat um das Spiel 
 
 Um die LED-Matrix zu verwenden muss mann erstmal unter "setup()" die LED-Matrix initialisieren. Dabei sollte mann auch schon mal die Variable für den Vogel auch in "setup()" aufschreiben, damit er in der mitte des spiel Feldes startet schreibt mann bei der Variable 4 auf da die LED-Matrix mur 8 pixel hat.
 
-{% include image.html image=page.image1 %}
+{% include image.html image=page.image0 %}
 
 ### Schritt 2: Bewegung vom Voge
 
 Als erstes würde ich eine intervalle Erstellen, sodass das spiel langsamer läuft, und LED-Matrix löschen einfügen. Danach gehe auf "Logik" und nimm dir "wenn, dann", dann nimm dir den button sensor und stelle ihn auf ist gedrückt, sodass wenn der Button gedrückt is, dass er dann den Vogel nach oben bringt und wenn nicht nach unten.
 
-{% include image.html image=page.image2 %}
+{% include image.html image=page.image1 %}
 
 ### Schritt 3: Gegenstände
 
 Erstelle 2 weitere Variablen "Xachse" und "Gegenstände". Schreibe bei der X achse irgend eine Zahlzwischen 3 und 6, bei den Gegenständen Schreibe 12 damit die Gegenstände nicht vor dem Spieler erstellt werden. nimm dann nochmal "wenn, dann", sodass die Variable wieder 0 wird und dann nochmal zufällig wird um nicht die ganze zeit den gleichen abstand zu bekommen und die X achse von den Gegenständen wieder zu 12 wird. Pack das alles in eine "wenn, dann" klammer die guckt ob die X achse = 0 ist.
 
-{% include image.html image=page.image3 %}
+{% include image.html image=page.image2 %}
 
 ### Schritt 4: Gegenstände Visualisiren
 
 verwenigere die X achse immer um 1 sodass die immer näher zum Spieler kommt. der code von den "wenn, dann" klammern wird jetzt nützlich da mann für die wände die zufallszahl +2 bis +6 und -2 bis -6 rechnet und dort immer die pixel ausfüllt.
 
-{% include image.html image=page.image3 %}
+{% include image.html image=page.image33 %}
 
 ### Schritt 5: kollisionen
 
 Erstelle eine weitere "wenn, dann" klammer, in dieser klammer kommt rein, dass wenn die X achse der gegenstände da ist wo auch der Vogel ist und der Vogel auch an einer der Wände ist, oder die Y achse des vogels runter geht, dann soll ein trauriges motive auf der LED-Matrix erscheinen.
 
-{% include image.html image=page.image3 %}
+{% include image.html image=page.image4 %}
 
 ## Gesamter Code
 

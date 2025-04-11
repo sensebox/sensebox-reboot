@@ -25,49 +25,61 @@ difficult: mittel
 
 # Flappy Bird {#head}
 
-In diesem Projekt wird das klassische Spiel Flappy bird programmiert
+In diesem Projekt programmieren wir das klassische Spiel **Flappy Bird**.
+
 {% include image.html image=page.thumbnail %}
 
 ## Aufbau
 
-Wichtig ist am anfang klarzustellen, dass mann eine LED-Matrix hat um das Spiel am ende zu spielen.
+Wichtig ist zunächst zu verstehen, dass du eine **LED-Matrix** benötigst, um das Spiel am Ende spielen zu können.  
 {% include image.html image=page.image0 %}
 
 ## Programmierung
 
-### Schritt 1: "setup()"
+### Schritt 1: `setup()`
 
-Um die LED-Matrix zu verwenden muss mann erstmal unter "setup()" die LED-Matrix initialisieren. Dabei sollte mann auch schon mal die Variable für den Vogel auch in "setup()" aufschreiben, damit er in der mitte des spiel Feldes startet schreibt mann bei der Variable 4 auf da die LED-Matrix mur 8 pixel hat.
+Um die LED-Matrix verwenden zu können, musst du sie zunächst in der Funktion `setup()` initialisieren.  
+Außerdem solltest du hier schon die Variable für den **Vogel** anlegen. Damit dieser in der Mitte des Spielfelds startet, gibst du ihm den Wert **4**, da die LED-Matrix nur 8 Pixel hoch ist.
 
 {% include image.html image=page.image0 %}
 
-### Schritt 2: Bewegung vom Voge
+### Schritt 2: Bewegung des Vogels
 
-Als erstes würde ich eine intervalle Erstellen, sodass das spiel langsamer läuft, und LED-Matrix löschen einfügen. Danach gehe auf "Logik" und nimm dir "wenn, dann", dann nimm dir den button sensor und stelle ihn auf ist gedrückt, sodass wenn der Button gedrückt is, dass er dann den Vogel nach oben bringt und wenn nicht nach unten.
+Zuerst solltest du ein Intervall erstellen, damit das Spiel nicht zu schnell abläuft.  
+Dann fügst du das Löschen der LED-Matrix ein.  
+Wechsle nun zur Kategorie „Logik“ und nimm dir ein **„wenn, dann“**-Element.  
+Füge einen Button-Sensor ein und prüfe, ob der Button gedrückt ist. Wenn ja, bewegt sich der Vogel nach **oben** – wenn nicht, nach **unten**.
 
 {% include image.html image=page.image1 %}
 
-### Schritt 3: Gegenstände
+### Schritt 3: Hindernisse
 
-Erstelle 2 weitere Variablen "Xachse" und "Gegenstände". Schreibe bei der X achse irgend eine Zahlzwischen 3 und 6, bei den Gegenständen Schreibe 12 damit die Gegenstände nicht vor dem Spieler erstellt werden. nimm dann nochmal "wenn, dann", sodass die Variable wieder 0 wird und dann nochmal zufällig wird um nicht die ganze zeit den gleichen abstand zu bekommen und die X achse von den Gegenständen wieder zu 12 wird. Pack das alles in eine "wenn, dann" klammer die guckt ob die X achse = 0 ist.
+Erstelle zwei weitere Variablen: `XAchse` und `Gegenstände`.  
+Setze `XAchse` auf einen beliebigen Wert zwischen **3 und 6**, und `Gegenstände` auf **12**, damit die Hindernisse nicht direkt vor dem Spieler erscheinen.  
+Verwende wieder ein **„wenn, dann“**, um die Variable `Gegenstände` zurückzusetzen und eine neue Zufallszahl zu generieren. So entstehen die Hindernisse in unterschiedlichen Abständen.  
+Setze `XAchse` dann wieder auf 12.  
+Pack das Ganze in eine „wenn, dann“-Abfrage, die überprüft, ob `XAchse == 0` ist.
 
 {% include image.html image=page.image2 %}
 
-### Schritt 4: Gegenstände Visualisiren
+### Schritt 4: Hindernisse visualisieren
 
-verwenigere die X achse immer um 1 sodass die immer näher zum Spieler kommt. der code von den "wenn, dann" klammern wird jetzt nützlich da mann für die wände die zufallszahl +2 bis +6 und -2 bis -6 rechnet und dort immer die pixel ausfüllt.
+Verringere den Wert von `XAchse` regelmäßig um 1, sodass sich die Hindernisse auf den Spieler zu bewegen.  
+Jetzt wird der Code aus Schritt 3 nützlich:  
+Du kannst mit der Zufallszahl die oberen und unteren Wände berechnen – zum Beispiel durch `+2 bis +6` und `-2 bis -6`. In diesen Bereichen füllst du dann die entsprechenden Pixel.
 
 {% include image.html image=page.image33 %}
 
-### Schritt 5: kollisionen
+### Schritt 5: Kollisionen
 
-Erstelle eine weitere "wenn, dann" klammer, in dieser klammer kommt rein, dass wenn die X achse der gegenstände da ist wo auch der Vogel ist und der Vogel auch an einer der Wände ist, oder die Y achse des vogels runter geht, dann soll ein trauriges motive auf der LED-Matrix erscheinen.
+Erstelle eine weitere **„wenn, dann“**-Abfrage.  
+Darin prüfst du, ob sich `XAchse` der Hindernisse an der gleichen Position wie der Vogel befindet **und** ob der Vogel mit einer Wand kollidiert oder die Y-Achse des Vogels außerhalb des Spielfelds liegt.  
+Wenn das passiert, soll ein trauriges Motiv auf der LED-Matrix angezeigt werden.
 
 {% include image.html image=page.image4 %}
 
 ## Gesamter Code
 
-Den Blockly-Sketch findest du [hier]().
+Den vollständigen Blockly-Sketch findest du [hier]().
 
-Damit FlappyBird nun auch mobil verwendet werden kann, empfiehlt es sich, die senseBox mithilfe einer Powerbank mit Strom zu versorgen.
-Damit hast du das Projekt erfolgreich abgeschlossen und du kannst nun Flappy Bird Spielen ohne das du ein Handy benötigst.
+Damit du Flappy Bird auch unterwegs spielen kannst, empfiehlt es sich, die **senseBox** mit einer Powerbank zu betreiben.  Herzlichen Glückwunsch – du hast das Projekt erfolgreich abgeschlossen und kannst jetzt **Flappy Bird** spielen, ganz ohne Smartphone!

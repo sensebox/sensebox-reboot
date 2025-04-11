@@ -9,7 +9,8 @@ image0: /images/projects/AufbauBild.jpeg
 image1: /images/projects/FlappyBird/Bild2.svg
 image2: /images/projects/FlappyBird/Bild3.svg
 image3: /images/projects/FlappyBird/Bild4.svg
-image3: /images/projects/FlappyBird/Bild5.svg
+image4: /images/projects/FlappyBird/Bild5.svg
+image4: /images/projects/FlappyBird/Bild1.svg
 
 material:
   - senseBox MCU-S2
@@ -41,7 +42,7 @@ Wichtig ist zunächst zu verstehen, dass du eine **LED-Matrix** benötigst, um d
 Um die LED-Matrix verwenden zu können, musst du sie zunächst in der Funktion `setup()` initialisieren.  
 Außerdem solltest du hier schon die Variable für den **Vogel** anlegen. Damit dieser in der Mitte des Spielfelds startet, gibst du ihm den Wert **4**, da die LED-Matrix nur 8 Pixel hoch ist.
 
-{% include image.html image=page.image0 %}
+{% include image.html image=page.image5 %}
 
 ### Schritt 2: Bewegung des Vogels
 
@@ -80,6 +81,6 @@ Wenn das passiert, soll ein trauriges Motiv auf der LED-Matrix angezeigt werden.
 
 ## Gesamter Code
 
-Den vollständigen Blockly-Sketch findest du [hier]().
+Den vollständigen Blockly-Sketch findest du [hier](https://blockly.sensebox.de/).
 
 Damit du Flappy Bird auch unterwegs spielen kannst, empfiehlt es sich, die **senseBox** mit einer Powerbank zu betreiben.  Herzlichen Glückwunsch – du hast das Projekt erfolgreich abgeschlossen und kannst jetzt **Flappy Bird** spielen, ganz ohne Smartphone!

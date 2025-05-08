@@ -1,3 +1,27 @@
+- title: "Zukunftsweisender MINT-Unterricht mit dem senseBox-Ökosystem. Die Plattform für partizipative Data Science mit Physical Computing"
+  author: Witte, Verena and Schwering, Angela and Bartoschek, Thomas and Pesch, Mario
+  journal: "MNU-Journal, 76 (4)"
+  year: 2023
+  link: https://www.mnu.de/zeitschriften/795-mnu-heft-2023-04
+  type: journal
+  orign: sensebox
+
+- title: "MOTIVATING ENVIRONMENTAL CITIZEN SCIENTISTS AND OPEN DATA ACQUISITION ON OPENSENSEMAP WITH OPEN BADGES"
+  author: Bruch, Frederick and Bartoschek, Thomas and Pesch, Mario and Schwering, Angela and Buchem, Ilona
+  journal: "The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences, 48, 11-17"
+  year: 2023
+  link: https://isprs-archives.copernicus.org/articles/XLVIII-4-W7-2023/11/2023/isprs-archives-XLVIII-4-W7-2023-11-2023.pdf
+  type: journal
+  orign: sensebox
+
+- title: "MULTI-SENSOR FEEDER: AUTOMATED AND EASY-TO-USE BIRDS MONITORING TOOL FOR CITIZENS"
+  author: Niers, Tom and Stenkamp, Jan and Jakuschona, Nick and Bartoschek, Thomas
+  journal: "The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences, 48, 329-336"
+  year: 2022
+  link: https://isprs-archives.copernicus.org/articles/XLVIII-4-W1-2022/329/2022/
+  type: journal
+  orign: sensebox
+
 - title: "senseBox und openSenseMap: Umweltmonitoring für Jedermann"
   author: Bartoschek, Thomas and Wirwahn, Jan and Pesch, Mario
   journal: "Umweltinformationssysteme 2018-Umweltbeobachtung: Nah und Fern"
@@ -88,6 +112,36 @@
   orign: sensebox
 
 ## Bachelor/Masterarbeiten
+
+- title: Spatial Data Literacy mit R: Entwicklung und Evaluierung einer blockbasierten Programmierumgebung zur Datenanalyse und -visualisierung
+  author: Maike Schröder
+  year: 2023
+  type: bachelor
+
+- title: Inwiefern trägt eine Instruction Placemat im Vergleich zum vortragsgeleitendem Unterricht dazu bei, dass Schüler:innen der 9. & 10. Klasse selbstständiger mit der senseBox arbeiten sowie programmieren können?
+  author: Ilhan Özkaya
+  year: 2023
+  type: master
+
+- title: Integration und Evaluation von Python als alternative Programmiersprache im senseBox-Ökosystem
+  author: Adrian Spork
+  year: 2023
+  type: bachelor
+
+- title: Gamification in Citizen Science - open badges as motivation for Participants
+  author: Frederick Bruch
+  year: 2022
+  type: bachelor
+
+- title: Interoperabilität der openSenseMap API und der SensorThings API
+  author: Tobias Brandt
+  year: 2022
+  type: bachelor
+
+- title: Unterricht zukunftsweisend gestalten – Ein Lehrkonzept zur Integration der 21st Century Skills in den Geographieunterricht
+  author: Verena Witte
+  year: 2021
+  type: master
 
 - title: Modeling of time-spatial processes using a timeseries database on the example of the open data portal openSenseMap
   author: Moritz Migge

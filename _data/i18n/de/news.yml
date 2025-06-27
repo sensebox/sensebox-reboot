@@ -1,3 +1,8 @@
+- author: Gina 
+  date: 2025-06-25
+  headline: Übertragung deines Programms "Over-The-Air"
+  text: Übertrage deine selbst erstellten Blockly-Programme kabellos per WiFi auf deine senseBox MCU S2 – ganz einfach mit der senseBox Connect App mit deinem Tablet. Dazu einfach die App installieren, den Over-The-Air (OTA)-Modus aktivieren, WiFi-ID eingeben – und schon kannst du deinen Programmcode drahtlos übertragen. Zur <a href="https://sensebox.de/de/app" class="green-link"> senseBox Connect App  </a>
+  active: true
 - author: Eric 
   date: 2024-12-06
   headline: Neu im Shop! Das Air Quality Explorer Set 

@@ -11,7 +11,8 @@
   organisation: senseBox - Team
   description: Die senseBox Instruction Placemats sind eine Sammlung von Placemats, die die wichtigsten Informationen zur senseBox und zum Programmieren mit Blockly auf einen Blick zusammenfassen. Die Placemats können online angeschaut oder ausgedruckt werden.
   bgImage: /images/material/Placemat_thumbnail.jpeg
-  link: /de/placemats.html
+  linkMCU: /de/placemats-mcu.html
+  linkMCU-S2: /de/placemats-s2.html
 
 - name: senseBox Lehrhandreichung
   position: t3
@@ -97,12 +98,10 @@
   bgImage: /images/material/Feinstaub_Hopp.png
   link: /docs/Feinstaub_Hopp.pdf
 
-
-- name : "sensebox Arbeitsheft Air Quality Explorer Set"
+- name: "sensebox Arbeitsheft Air Quality Explorer Set"
   position: t16
   organisation: Reedu GmbH & Co. KG
   description: "Arbeitshefte zum Luftqualitätsmessungsset"
   bgImage: "/images/material/materialAirQualityThumbnail.png"
   linkMCU: /docs/material/sensebox_Arbeitsheft_Air_Quality_Explorer_Set_MCU.pdf
-  linkMCU-S2:  /docs/material/sensebox_Arbeitsheft_Air_Quality_Explorer_Set_MCU_S2.pdf
-  
+  linkMCU-S2: /docs/material/sensebox_Arbeitsheft_Air_Quality_Explorer_Set_MCU_S2.pdf

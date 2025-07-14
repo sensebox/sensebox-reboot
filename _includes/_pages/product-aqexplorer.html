@@ -1,0 +1,187 @@
+{% assign content = site.data.i18n.[page.lang].products-aq %}
+
+<div class="row py-5">
+  <div class="col-md-2">
+    <div class="phenomena">
+      <h4>{{content.measureable}}</h4>
+      <div class="phenomenon">
+        <div class="pheno-icon">
+          <img src="/images/icons/phenoma-icons/ICONS_Feinstaub.svg" />
+        </div>
+        <p>{{content.phenomenon-pm10}}</p>
+      </div>
+      <div class="phenomenon">
+        <div class="pheno-icon">
+          <img src="/images/icons/phenoma-icons/ICONS_Feinstaub.svg" />
+        </div>
+        <p>{{content.phenomenon-pm25}}</p>
+      </div>
+      <div class="phenomenon">
+        <div class="pheno-icon">
+          <img src="/images/icons/phenoma-icons/ICONS_CO2.svg" />
+        </div>
+        <p>{{content.phenomenon-co2}}</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-5">
+    <div
+      id="aqCarousel"
+      class="carousel slide clip-path-image"
+      data-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            loading="lazy"
+            class="d-block w-100 p-5"
+            src="/images/products/aq/aq-explorer.png"
+            alt="Air-Quality Explorer Kit"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            loading="lazy"
+            class="d-block w-100 p-5"
+            src="/images/products/parts/sps30.png"
+            alt="Second slide"
+          />
+        </div>
+      </div>
+      <a
+        class="button-green-shadow carousel-control-prev-product-template"
+        href="#aqCarousel"
+        role="button"
+        data-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a
+        class="button-green-shadow carousel-control-next-product-template"
+        href="#aqCarousel"
+        role="button"
+        data-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+  <div class="col-md-5">
+    <div>
+      <h4 class="text-primary">{{content.aqset-headline}}</h4>
+      <p class="lead">{{content.aqset-text}}</p>
+      <h4 class="text-primary pt-2">{{content.aqset-offer-headline}}</h4>
+      <ul class="lead">
+        <li>{{content.aqset-offer1}}</li>
+        <li>{{content.aqset-offer2}}</li>
+        <li>{{content.aqset-offer3}}</li>
+        <li>{{content.aqset-offer4}}</li>
+        <li>{{content.aqset-offer5}}</li>
+      </ul>
+      <button class="button-green-shadow">Order here</button>
+    </div>
+  </div>
+</div>
+
+<section class="py-5">
+  <div class="container">
+    <h1 class="text-primary">{{content.aqset-sensors-headline}}</h1>
+    <div class="row g-5 gy-2 gx-2">
+      <div class="col col-md-6 p-3 border light-blue-background clip-path-box1">
+        <div class="p-5">
+          <img
+            class="m-auto d-block w-75"
+            src="/images/products/co2/scd30.jpg"
+          />
+          <h2 class="text-primary">{{content.aqset-co2-headline}}</h2>
+          <p class="lead">{{content.aqset-co2-text}}</p>
+        </div>
+      </div>
+      <div class="col col-md-6 p-3 border light-blue-background clip-path-box2">
+        <div class="p-5">
+          <img
+            class="m-auto d-block w-75"
+            src="/images/products/parts/sps30.png"
+          />
+          <h2 class="text-primary">{{content.aqset-sps30-headline}}</h2>
+          <p class="lead">{{content.aqset-sps30-text}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="py-5">
+  <div class="clip-path-bottom position-relative">
+    <div class="container aq-carousel">
+      <h1 class="text-white py-3">{{content.aqset-projects}}</h1>
+      <div id="aqCarousel2" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-md-5">
+                <img
+                  loading="lazy"
+                  class="d-block w-100"
+                  src="/images/projects/Titelbild_Fotosynthese.jpg"
+                  alt="Photosynthesis"
+                />
+              </div>
+              <div class="col-md-7">
+                <h2 class="text-white">{{content.aqset-project1-headline}}</h2>
+                <p class="lead">{{content.aqset-project1-text}}</p>
+                <a
+                  class="button-white-shadow"
+                  href="https://sensebox.de/projects/de/2020-11-13-fotosynthese"
+                  >{{content.to-project}}</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-md-5">
+                <img
+                  loading="lazy"
+                  class="d-block w-100"
+                  src="/images/projects/Titelbild_CO2-Ampel_Osem.PNG"
+                  alt="Co2-Ampel"
+                />
+              </div>
+              <div class="col-md-7">
+                <h2 class="text-white">{{content.aqset-project2-headline}}</h2>
+                <p class="lead">{{content.aqset-project2-text}}</p>
+                <a
+                  class="button-white-shadow"
+                  href="https://sensebox.de/projects/de/2024-01-10-co2-ampel_osem_s2"
+                  >{{content.to-project}}</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a
+      class="carousel-control-prev-product-template button-white-shadow"
+      href="#aqCarousel2"
+      role="button"
+      data-slide="prev"
+    >
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a
+      class="carousel-control-next-product-template button-white-shadow"
+      href="#aqCarousel2"
+      role="button"
+      data-slide="next"
+    >
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</section>

@@ -2,6 +2,7 @@
   h4 {
     text-align: center;
     color: var(--primary-color);
+    margin-bottom: 15px;
   }
   .phenomenon {
     display: flex;
@@ -12,7 +13,7 @@
     .pheno-icon {
       width: 50px;
       text-align: center;
-      display: inline-block;
+      display: block;
       color: var(--primary-color);
 
       img {
@@ -36,6 +37,8 @@
   color: white;
   font-weight: bold;
   font-size: 1.3rem;
+  display: inline-block;  /* ou block / inline-flex */
+  margin-top: .75rem;
 }
 
 .button-white-shadow {

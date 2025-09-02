@@ -129,3 +129,10 @@
     padding: 6em 3em;
   }
 }
+
+.custom-container {
+  max-width: 1600px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}

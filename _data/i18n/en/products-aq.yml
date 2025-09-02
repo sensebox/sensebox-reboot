@@ -1,7 +1,7 @@
 measureable: "Measureable Phenomena"
 phenomenon-pm10: "Fine particular matter (PM10)"
 phenomenon-pm25: "Fine particular matter (PM2.5)"
-phenomenon-co2: "Carbon Dioxide (CO2)"
+phenomenon-co2: "Carbon Dioxide (CO₂)"
 aqset-headline: "Air-Quality Explorer Set"
 aqset-text: "The Air Quality Explorer Set can be used to examine the air quality indoors and outdoors. It includes a CO₂ sensor and a particulate matter sensor together with the accessories required for connection to the senseBox microcontroller. It is compatible with both the senseBox:edu and the senseBox:edu S2."
 aqset-offer-headline: "The Air-Quality Explorer Set offers:"

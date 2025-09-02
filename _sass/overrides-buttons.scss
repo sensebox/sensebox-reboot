@@ -1,25 +1,30 @@
 /* Mobile only (Bootstrap 4 breakpoint) */
 @media (max-width: 767.98px) {
-
   /* 1) centralized at the bottom of the image */
   .clip-path-bottom .carousel-item .col-md-5 .carousel-controls {
     display: flex;
-    justify-content: center;
+    // justify-content: center;
     align-items: center;
-    margin-top: .5rem;
+    margin-top: 0.5rem;
     width: 100%;
   }
 
   /* gap between the buttons */
   .clip-path-bottom .carousel-item .col-md-5 .carousel-controls > a + a {
-    margin-left: .75rem;
+    margin-left: 0.75rem;
   }
 
   /* 2) No absolute position */
-  .clip-path-bottom .carousel-item .col-md-5 .carousel-controls
-  .carousel-control-prev-product-template,
-  .clip-path-bottom .carousel-item .col-md-5 .carousel-controls
-  .carousel-control-next-product-template {
+  .clip-path-bottom
+    .carousel-item
+    .col-md-5
+    .carousel-controls
+    .carousel-control-prev-product-template,
+  .clip-path-bottom
+    .carousel-item
+    .col-md-5
+    .carousel-controls
+    .carousel-control-next-product-template {
     position: static;
   }
 
@@ -30,12 +35,20 @@
   }
 
   /* 4) icone size*/
-  .big-icon { width: 1.5rem; height: 1.5rem; gap: 1.5rem;}
+  .big-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    gap: 1.5rem;
+  }
 }
 
 /* Desktop (md+): esconda os botões-mobile dentro do slide */
 @media (min-width: 768px) {
-  .clip-path-bottom .carousel-inner .carousel-item .col-md-5 .carousel-controls {
+  .clip-path-bottom
+    .carousel-inner
+    .carousel-item
+    .col-md-5
+    .carousel-controls {
     display: none !important;
   }
 }
@@ -47,5 +60,3 @@
     display: none !important;
   }
 }
-
-

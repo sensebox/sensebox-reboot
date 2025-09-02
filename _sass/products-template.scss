@@ -37,8 +37,8 @@
   color: white;
   font-weight: bold;
   font-size: 1.3rem;
-  display: inline-block;  /* ou block / inline-flex */
-  margin-top: .75rem;
+  display: inline-block; /* ou block / inline-flex */
+  margin-top: 0.75rem;
 }
 
 .button-white-shadow {
@@ -68,6 +68,9 @@
 
 .carousel-control-prev-product-template,
 .carousel-control-next-product-template {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -82,13 +85,41 @@
 }
 
 .carousel-control-prev-product-template {
-  left: 5%;
+  left: 3%;
 }
 .carousel-control-next-product-template {
-  right: 8%;
+  right: 5%;
 }
 
 .big-icon {
   width: 35px;
   height: 35px;
+}
+
+.carousel-controls {
+  @media (max-width: 768px) {
+    display: flex;
+    justify-content: space-between;
+
+    .carousel-control-prev-product-template {
+      left: 0%;
+    }
+    .carousel-control-next-product-template {
+      right: 0%;
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1300px) {
+  .aq-carousel {
+    padding-left: 4em;
+    padding-right: 4em;
+  }
+}
+
+.active.carousel-item-left {
+  opacity: 0.2;
+}
+.active.carousel-item-right {
+  opacity: 0.2;
 }

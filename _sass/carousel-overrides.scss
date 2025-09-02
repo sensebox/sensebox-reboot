@@ -1,32 +1,34 @@
 .clip-path-image {
-  position: relative;                
+  position: relative;
   clip-path: polygon();
-  overflow: hidden;                  
+  overflow: hidden;
 }
 
 .clip-path-image .carousel-controls {
   position: absolute;
-  
+
   left: 0;
   right: 0;
 
-  bottom: 18%;                     
+  bottom: 18%;
 
   display: flex;
   justify-content: center;
-  gap: .75rem;
+  gap: 0.75rem;
 
-  pointer-events: none;             
-  z-index: 2;                        
+  pointer-events: none;
+  z-index: 2;
 }
 
 .clip-path-image .carousel-controls > a {
-  pointer-events: auto;              
-  position: static;                  
+  pointer-events: auto;
+  position: static;
   margin: 0.1rem;
   width: auto;
   height: auto;
   opacity: 1;
+  display: flex;
+  align-items: center;
 }
 
 /* 3) Ícones menores (visuais) */
@@ -36,6 +38,7 @@
 }
 
 @media (max-width: 576px) {
-  .clip-path-image .carousel-controls { bottom: 22%; }
+  .clip-path-image .carousel-controls {
+    bottom: 22%;
+  }
 }
-

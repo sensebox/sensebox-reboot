@@ -123,3 +123,9 @@
 .active.carousel-item-right {
   opacity: 0.2;
 }
+
+.large-image-fix {
+  @media (min-width: 1900px) {
+    padding: 6em 3em;
+  }
+}

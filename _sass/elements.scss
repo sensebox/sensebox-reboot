@@ -48,3 +48,30 @@ ul {
     padding-left: 0px;
   }
 }
+
+// product template
+
+.light-blue-background {
+  background: #ddeaf0;
+}
+
+.clip-path-image {
+  clip-path: polygon(5% 5%, 100% 10%, 90% 85%, 8% 90%);
+  background: #ebebeb;
+  padding: 3em 2em;
+}
+
+.clip-path-box1 {
+  clip-path: polygon(100% 6.77%, 93.51% 89%, 0% 100%, 0% 0%);
+}
+
+.clip-path-box2 {
+  clip-path: polygon(0% 93.22%, 6.48% 7.61%, 100% 0%, 100% 100%);
+}
+
+.clip-path-bottom {
+  background: #4ba640;
+  padding: 3em 1em;
+  clip-path: polygon(15% 0, 60% 5%, 100% 0, 100% 100%, 80% 95%, 0 100%, 0 0);
+}
+// end product template

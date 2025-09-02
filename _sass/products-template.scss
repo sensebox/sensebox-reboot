@@ -1,0 +1,138 @@
+.phenomena {
+  h4 {
+    text-align: center;
+    color: var(--primary-color);
+    margin-bottom: 15px;
+  }
+  .phenomenon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    .pheno-icon {
+      width: 50px;
+      text-align: center;
+      display: block;
+      color: var(--primary-color);
+
+      img {
+        width: 100%;
+      }
+    }
+    p {
+      text-align: center;
+      color: var(--primary-color);
+      font-weight: bold;
+    }
+  }
+}
+
+.button-green-shadow {
+  flex-shrink: 0;
+  background: #4ca641;
+  box-shadow: 6px 6px 0 0 #3ab0e8;
+  border: none;
+  padding: 0.5em 1em;
+  color: white;
+  font-weight: bold;
+  font-size: 1.3rem;
+  display: inline-block; /* ou block / inline-flex */
+  margin-top: 0.75rem;
+}
+
+.button-white-shadow {
+  flex-shrink: 0;
+  background: #3ab0e8;
+  box-shadow: 6px 6px 0 0 white;
+  border: none;
+  padding: 0.5em 1em;
+  color: white;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.icon-square-green {
+  width: 50px;
+  height: 50px;
+  flex-shrink: 0;
+  background: #4ca641;
+  box-shadow: 6px 6px 0 0 #3ab0e8;
+}
+
+.aq-carousel {
+  .carousel-item {
+    height: auto !important;
+  }
+}
+
+.carousel-control-prev-product-template,
+.carousel-control-next-product-template {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  height: 50px;
+  width: 50px;
+  opacity: 0.3;
+  padding: 0.4em !important;
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.carousel-control-prev-product-template {
+  left: 3%;
+}
+.carousel-control-next-product-template {
+  right: 5%;
+}
+
+.big-icon {
+  width: 35px;
+  height: 35px;
+}
+
+.carousel-controls {
+  @media (max-width: 768px) {
+    display: flex;
+    justify-content: space-between;
+
+    .carousel-control-prev-product-template {
+      left: 0%;
+    }
+    .carousel-control-next-product-template {
+      right: 0%;
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1300px) {
+  .aq-carousel {
+    padding-left: 4em;
+    padding-right: 4em;
+  }
+}
+
+.active.carousel-item-left {
+  opacity: 0.2;
+}
+.active.carousel-item-right {
+  opacity: 0.2;
+}
+
+.large-image-fix {
+  @media (min-width: 1900px) {
+    padding: 6em 3em;
+  }
+}
+
+.custom-container {
+  max-width: 1600px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}

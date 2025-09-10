@@ -1,0 +1,1100 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                  width="748.25" height="993" viewBox="27 16 748.25 993">
+                  <defs><style type="text/css" xmlns="http://www.w3.org/1999/xhtml"><![CDATA[.blocklyText, 
+.blocklyFlyoutLabelText {
+font: normal 11pt sans-serif;
+}
+.blocklyText {
+fill: #fff;
+}
+.blocklyNonEditableField>rect,
+.blocklyEditableField>rect {
+fill: #fff;
+fill-opacity: .6;
+stroke: none;
+}
+.blocklyNonEditableField>text,
+.blocklyEditableField>text {
+fill: #000;
+}
+.blocklyFlyoutLabelText {
+fill: #000;
+}
+.blocklyText.blocklyBubbleText {
+fill: #000;
+}
+.blocklyEditableField:not(.blocklyEditing):hover>rect {
+stroke: #fff;
+stroke-width: 2;
+}
+.blocklyHtmlInput {
+font-family: sans-serif;
+font-weight: normal;
+}
+.blocklySelected>.blocklyPath {
+stroke: #fc3;
+stroke-width: 3px;
+}
+.blocklyHighlightedConnectionPath {
+stroke: #fc3;
+}
+.blocklyPath {
+fill-opacity: .5;
+}
+.blocklyPathLight,
+.blocklyPathDark {
+display: none;
+}
+.blocklyInsertionMarker>.blocklyPath {
+fill-opacity: 0.2;
+stroke: none;
+}
+.blocklyInsertionMarker>.blocklyPathLight,
+.blocklyInsertionMarker>.blocklyPathDark {
+fill-opacity: 0.2;
+stroke: none;
+}
+.blocklySvg {
+  background-color: #fff;
+  outline: none;
+  overflow: hidden;  /* IE overflows by default. */
+  position: absolute;
+  display: block;
+}
+
+.blocklyWidgetDiv {
+  display: none;
+  position: absolute;
+  z-index: 99999;  /* big value for bootstrap3 compatibility */
+}
+
+.injectionDiv {
+  height: 100%;
+  position: relative;
+  overflow: hidden;  /* So blocks in drag surface disappear at edges */
+  touch-action: none;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.blocklyBlockCanvas.blocklyCanvasTransitioning,
+.blocklyBubbleCanvas.blocklyCanvasTransitioning {
+  transition: transform .5s;
+}
+
+.blocklyEmboss {
+  filter: var(--blocklyEmbossFilter);
+}
+
+.blocklyTooltipDiv {
+  background-color: #ffffc7;
+  border: 1px solid #ddc;
+  box-shadow: 4px 4px 20px 1px rgba(0,0,0,.15);
+  color: #000;
+  display: none;
+  font: 9pt sans-serif;
+  opacity: .9;
+  padding: 2px;
+  position: absolute;
+  z-index: 100000;  /* big value for bootstrap3 compatibility */
+}
+
+.blocklyDropDownDiv {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1000;
+  display: none;
+  border: 1px solid;
+  border-color: #dadce0;
+  background-color: #fff;
+  border-radius: 2px;
+  padding: 4px;
+  box-shadow: 0 0 3px 1px rgba(0,0,0,.3);
+}
+
+.blocklyDropDownDiv:focus {
+  box-shadow: 0 0 6px 1px rgba(0,0,0,.3);
+}
+
+.blocklyDropDownContent {
+  max-height: 300px;  /* @todo: spec for maximum height. */
+}
+
+.blocklyDropDownArrow {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 16px;
+  height: 16px;
+  z-index: -1;
+  background-color: inherit;
+  border-color: inherit;
+  border-top: 1px solid;
+  border-left: 1px solid;
+  border-top-left-radius: 4px;
+  border-color: inherit;
+}
+
+.blocklyHighlighted>.blocklyPath {
+  filter: var(--blocklyEmbossFilter);
+}
+
+.blocklyHighlightedConnectionPath {
+  fill: none;
+  stroke: #fc3;
+  stroke-width: 4px;
+}
+
+.blocklyPathLight {
+  fill: none;
+  stroke-linecap: round;
+  stroke-width: 1;
+}
+
+.blocklySelected>.blocklyPathLight {
+  display: none;
+}
+
+.blocklyDraggable {
+  cursor: grab;
+  cursor: -webkit-grab;
+}
+
+.blocklyDragging {
+  cursor: grabbing;
+  cursor: -webkit-grabbing;
+  /* Drag surface disables events to not block the toolbox, so we have to
+   * reenable them here for the cursor values to work. */
+  pointer-events: auto;
+}
+
+  /* Changes cursor on mouse down. Not effective in Firefox because of
+     https://bugzilla.mozilla.org/show_bug.cgi?id=771241 */
+.blocklyDraggable:active {
+  cursor: grabbing;
+  cursor: -webkit-grabbing;
+}
+
+.blocklyDragging.blocklyDraggingDelete {
+  cursor: url("/media/blockly/handdelete.cur"), auto;
+}
+
+.blocklyDragging>.blocklyPath,
+.blocklyDragging>.blocklyPathLight {
+  fill-opacity: .8;
+  stroke-opacity: .8;
+}
+
+.blocklyDragging>.blocklyPathDark {
+  display: none;
+}
+
+.blocklyDisabledPattern>.blocklyPath {
+  fill: var(--blocklyDisabledPattern);
+  fill-opacity: .5;
+  stroke-opacity: .5;
+}
+
+.blocklyDisabled>.blocklyPathLight,
+.blocklyDisabled>.blocklyPathDark {
+  display: none;
+}
+
+.blocklyInsertionMarker>.blocklyPath,
+.blocklyInsertionMarker>.blocklyPathLight,
+.blocklyInsertionMarker>.blocklyPathDark {
+  fill-opacity: .2;
+  stroke: none;
+}
+
+.blocklyNonEditableField>text {
+  pointer-events: none;
+}
+
+.blocklyFlyout {
+  position: absolute;
+  z-index: 20;
+}
+
+.blocklyText text {
+  cursor: default;
+}
+
+/*
+  Don't allow users to select text.  It gets annoying when trying to
+  drag a block and selected text moves instead.
+*/
+.blocklySvg text {
+  user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  cursor: inherit;
+}
+
+.blocklyIconGroup {
+  cursor: default;
+}
+
+.blocklyIconGroup:not(:hover),
+.blocklyIconGroupReadonly {
+  opacity: .6;
+}
+
+.blocklyIconShape {
+  fill: #00f;
+  stroke: #fff;
+  stroke-width: 1px;
+}
+
+.blocklyIconSymbol {
+  fill: #fff;
+}
+
+.blocklyMinimalBody {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.blocklyHtmlInput {
+  border: none;
+  border-radius: 4px;
+  height: 100%;
+  margin: 0;
+  outline: none;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+  display: block;
+  box-sizing: border-box;
+}
+
+/* Remove the increase and decrease arrows on the field number editor */
+input.blocklyHtmlInput[type=number]::-webkit-inner-spin-button,
+input.blocklyHtmlInput[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.blocklyMainBackground {
+  stroke-width: 1;
+  stroke: #c6c6c6;  /* Equates to #ddd due to border being off-pixel. */
+}
+
+.blocklyMutatorBackground {
+  fill: #fff;
+  stroke: #ddd;
+  stroke-width: 1;
+}
+
+.blocklyFlyoutBackground {
+  fill: #ddd;
+  fill-opacity: .8;
+}
+
+.blocklyMainWorkspaceScrollbar {
+  z-index: 20;
+}
+
+.blocklyFlyoutScrollbar {
+  z-index: 30;
+}
+
+.blocklyScrollbarHorizontal,
+.blocklyScrollbarVertical {
+  position: absolute;
+  outline: none;
+}
+
+.blocklyScrollbarBackground {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.blocklyScrollbarHandle {
+  fill: #ccc;
+}
+
+.blocklyScrollbarBackground:hover+.blocklyScrollbarHandle,
+.blocklyScrollbarHandle:hover {
+  fill: #bbb;
+}
+
+/* Darken flyout scrollbars due to being on a grey background. */
+/* By contrast, workspace scrollbars are on a white background. */
+.blocklyScrollbarHandle {
+  fill: #bbb;
+}
+
+.blocklyScrollbarBackground:hover+.blocklyScrollbarHandle,
+.blocklyScrollbarHandle:hover {
+  fill: #aaa;
+}
+
+.blocklyInvalidInput {
+  background: #faa;
+}
+
+.blocklyVerticalMarker {
+  stroke-width: 3px;
+  fill: rgba(255,255,255,.5);
+  pointer-events: none;
+}
+
+.blocklyComputeCanvas {
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+
+.blocklyNoPointerEvents {
+  pointer-events: none;
+}
+
+.blocklyContextMenu {
+  border-radius: 4px;
+  max-height: 100%;
+}
+
+.blocklyDropdownMenu {
+  border-radius: 2px;
+  padding: 0 !important;
+}
+
+.blocklyMenuItem {
+  /* 28px on the left for icon or checkbox. */
+  padding-left: 28px;
+}
+
+/* BiDi override for the resting state. */
+.blocklyMenuItemRtl {
+  /* Flip left/right padding for BiDi. */
+  padding-left: 5px;
+  padding-right: 28px;
+}
+
+.blocklyMenu {
+  user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  background: #fff;
+  border: 1px solid transparent;
+  box-shadow: 0 0 3px 1px rgba(0,0,0,.3);
+  font: normal 13px Arial, sans-serif;
+  margin: 0;
+  outline: none;
+  padding: 4px 0;
+  position: absolute;
+  overflow-y: auto;
+  overflow-x: hidden;
+  max-height: 100%;
+  z-index: 20000;  /* Arbitrary, but some apps depend on it... */
+}
+
+.blocklyMenu:focus {
+  box-shadow: 0 0 6px 1px rgba(0,0,0,.3);
+}
+
+.blocklyMenu {
+  user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  background: inherit;  /* Compatibility with gapi, reset from goog-menu */
+  border: inherit;  /* Compatibility with gapi, reset from goog-menu */
+  font: normal 13px "Helvetica Neue", Helvetica, sans-serif;
+  outline: none;
+  overflow-y: auto;
+  overflow-x: hidden;
+  max-height: 100%;
+  z-index: 20000;  /* Arbitrary, but some apps depend on it... */
+}
+
+/* State: resting. */
+.blocklyMenuItem {
+  border: none;
+  color: #000;
+  cursor: pointer;
+  list-style: none;
+  margin: 0;
+  /* 7em on the right for shortcut. */
+  min-width: 7em;
+  padding: 6px 15px;
+  white-space: nowrap;
+}
+
+/* State: disabled. */
+.blocklyMenuItemDisabled {
+  color: #ccc;
+  cursor: inherit;
+}
+
+/* State: hover. */
+.blocklyMenuItemHighlight {
+  background-color: rgba(0,0,0,.1);
+}
+
+/* State: selected/checked. */
+.blocklyMenuItemCheckbox {
+  height: 16px;
+  position: absolute;
+  width: 16px;
+}
+
+.blocklyMenuItemCheckbox {
+  background: url(/media/blockly/sprites.png) no-repeat -48px -16px;
+  float: left;
+  margin-left: -24px;
+  position: static;  /* Scroll with the menu. */
+}
+
+.blocklyMenuItemCheckbox {
+  float: right;
+  margin-right: -24px;
+}
+
+.blocklyMenuSeparator {
+  background-color: #ccc;
+  height: 1px;
+  border: 0;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.blocklyAnimationLayer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: visible !important;
+  z-index: 80;
+  pointer-events: none;
+}
+
+.blocklyField {
+  cursor: default;
+}
+
+.blocklyInputField {
+  cursor: text;
+}
+
+.blocklyField,
+.blocklyIconGroup {
+  cursor: grabbing;
+}
+
+.blocklyActiveFocus:is(
+  .blocklyFlyout,
+  .blocklyWorkspace,
+  .blocklyField,
+  .blocklyPath,
+  .blocklyHighlightedConnectionPath,
+  .blocklyComment,
+  .blocklyBubble,
+  .blocklyIconGroup,
+  .blocklyTextarea
+) {
+  outline: none;
+}
+
+
+.blocklyZoom>svg>image {
+  opacity: .4;
+}
+
+.blocklyZoom>svg>image:hover {
+  opacity: .6;
+}
+
+.blocklyZoom>svg>image:active {
+  opacity: .8;
+}
+
+
+.blocklyToast {
+  font-size: 1.2rem;
+  position: absolute;
+  bottom: -10rem;
+  right: 2rem;
+  padding: 1rem;
+  color: black;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 0.4rem;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  line-height: 1.5;
+  transition: bottom 0.3s ease-out;
+}
+
+.blocklyToastMessage {
+  maxWidth: 18rem;
+}
+
+.blocklyToastCloseButton {
+  margin: 0;
+  padding: 0.2rem;
+  background-color: transparent;
+  color: black;
+  border: none;
+  cursor: pointer;
+}
+
+
+.injectionDiv {
+  --commentFillColour: #FFFCC7;
+  --commentBorderColour: #F2E49B;
+}
+
+.blocklyTextarea {
+  background-color: var(--commentFillColour);
+  border: 1px solid var(--commentBorderColour);
+  box-sizing: border-box;
+  display: block;
+  outline: 0;
+  padding: 5px;
+  resize: none;
+  width: 100%;
+  height: 100%;
+}
+
+.blocklyTextarea {
+  cursor: inherit;
+}
+
+.blocklyDeleteIcon {
+  width: 20px;
+  height: 20px;
+  display: none;
+  cursor: pointer;
+}
+
+.blocklyFoldoutIcon {
+  width: 20px;
+  height: 20px;
+  transform-origin: 12px 12px;
+  cursor: pointer;
+}
+.blocklyResizeHandle {
+  width: 12px;
+  height: 12px;
+  cursor: se-resize;
+}
+.blocklyResizeHandle {
+  cursor: inherit;
+}
+
+.blocklyCommentTopbarBackground {
+  fill: var(--commentBorderColour);
+  height: 24px;
+}
+
+.blocklyCommentPreview.blocklyText {
+  fill: #000;
+  dominant-baseline: middle;
+  visibility: hidden;
+}
+
+.blocklyCommentPreview {
+  visibility: visible;
+}
+
+.blocklyCommentForeignObject,
+.blocklyResizeHandle {
+  display: none;
+}
+
+.blocklyFoldoutIcon {
+  transform: rotate(-90deg);
+}
+
+.blocklyCommentTopbar {
+  transform: scale(-1, 1);
+}
+
+.blocklyCommentForeignObject {
+  direction: rtl;
+}
+
+.blocklyCommentPreview {
+  /* Revert the scale and control RTL using direction instead. */
+  transform: scale(-1, 1);
+  direction: rtl;
+}
+
+.blocklyResizeHandle {
+  transform: scale(-1, 1);
+  cursor: sw-resize;
+}
+
+.blocklyCommentHighlight {
+  fill: none;
+}
+
+.blocklyCommentText.blocklyActiveFocus {
+  border-color: #fc3;
+  border-width: 2px;
+}
+
+.blocklyCommentHighlight {
+  stroke: #fc3;
+  stroke-width: 3px;
+}
+
+.blocklyCommentHighlight {
+  stroke: none;
+}
+
+.blocklyCommentTopbarBackground {
+  stroke: #fc3;
+  stroke-width: 3px;
+}
+
+
+.blocklyFlyoutButton {
+  fill: #888;
+  cursor: default;
+}
+
+.blocklyFlyoutButtonShadow {
+  fill: #666;
+}
+
+.blocklyFlyoutButton:hover {
+  fill: #aaa;
+}
+
+.blocklyFlyoutLabel {
+  cursor: default;
+}
+
+.blocklyFlyoutLabelBackground {
+  opacity: 0;
+}
+
+
+.blocklyTextarea {
+  background-color: var(--commentFillColour);
+  border: 0;
+  box-sizing: border-box;
+  display: block;
+  outline: 0;
+  padding: 5px;
+  resize: none;
+  width: 100%;
+  height: 100%;
+}
+
+
+.blocklyToolboxCategory:not(.blocklyToolboxSelected):hover {
+  background-color: rgba(255, 255, 255, .2);
+}
+
+.blocklyToolboxCategoryContainer {
+  margin: 1px 5px 1px 0;
+}
+
+.blocklyToolboxCategoryContainer {
+  margin: 1px 0 1px 5px;
+}
+
+.blocklyToolboxCategory {
+  height: 22px;
+  line-height: 22px;
+  margin-bottom: 3px;
+  padding-right: 8px;
+  white-space: nowrap;
+}
+
+.blocklyToolboxCategory {
+  margin-left: 8px;
+  padding-right: 0;
+}
+
+.blocklyToolboxCategoryIcon {
+  background-image: url(/media/blockly/sprites.png);
+  height: 16px;
+  vertical-align: middle;
+  visibility: hidden;
+  width: 16px;
+}
+
+.blocklyToolboxCategoryIconClosed {
+  background-position: -32px -1px;
+}
+
+.blocklyToolboxCategoryIconClosed {
+  background-position: 0 -1px;
+}
+
+.blocklyToolboxSelected>.blocklyToolboxCategoryIconClosed {
+  background-position: -32px -17px;
+}
+
+.blocklyToolboxSelected>.blocklyToolboxCategoryIconClosed {
+  background-position: 0 -17px;
+}
+
+.blocklyToolboxCategoryIconOpen {
+  background-position: -16px -1px;
+}
+
+.blocklyToolboxSelected>.blocklyToolboxCategoryIconOpen {
+  background-position: -16px -17px;
+}
+
+.blocklyToolboxCategoryLabel {
+  cursor: default;
+  font: 16px sans-serif;
+  padding: 0 3px;
+  vertical-align: middle;
+}
+
+.blocklyToolboxCategoryLabel {
+  cursor: url("/media/blockly/handdelete.cur"), auto;
+}
+
+.blocklyToolboxCategoryLabel {
+  color: #fff;
+}
+
+
+.blocklyTreeSeparator {
+  border-bottom: solid #e5e5e5 1px;
+  height: 0;
+  margin: 5px 0;
+}
+
+.blocklyTreeSeparator {
+  border-right: solid #e5e5e5 1px;
+  border-bottom: none;
+  height: auto;
+  margin: 0 5px 0 5px;
+  padding: 5px 0;
+  width: 0;
+}
+
+
+.blocklyToolboxDelete {
+  cursor: url("/media/blockly/handdelete.cur"), auto;
+}
+
+.blocklyToolboxGrab {
+  cursor: url("/media/blockly/handclosed.cur"), auto;
+  cursor: grabbing;
+  cursor: -webkit-grabbing;
+}
+
+/* Category tree in Toolbox. */
+.blocklyToolbox {
+  box-sizing: border-box;
+  user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  background-color: #ddd;
+  overflow-x: visible;
+  overflow-y: auto;
+  padding: 4px 0 4px 0;
+  position: absolute;
+  z-index: 70;  /* so blocks go under toolbox when dragging */
+  -webkit-tap-highlight-color: transparent;  /* issue #1345 */
+}
+
+.blocklyToolboxCategoryGroup {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.blocklyToolboxCategoryGroup:focus {
+  outline: none;
+}
+
+
+.blocklyModalOverlay {
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  position: fixed;
+}
+.blocklyModalContainer {
+  background-color: #fff;
+  border: 1px solid gray;
+  font-family: Helvetica;
+  font-weight: 300;
+  padding: 1em;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0px 10px 20px grey;
+  z-index: 100;
+  margin: 15% auto;
+}
+.blocklyModalHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.blocklyModalHeaderTitle {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 1.2em;
+  line-height: 1.25;
+}
+.blocklyModalBtn {
+  margin-left: auto;
+  height: fit-content;
+}
+.blocklyModalBtnClose:before {
+  content: "\2715";
+}
+.blocklyModalBtn {
+  margin-right: 0.5em;
+  border: 1px solid gray;
+  font-weight: 500;
+  color: gray;
+  border-radius: 25px;
+}
+.blocklyModalBtnPrimary {
+  background-color: gray;
+  color: #fff;
+}
+
+
+.typedModalTitle {
+  font-weight: bold;
+  font-size: 1em;
+}
+.typedModalVariableInputContainer {
+  margin: 1em 0 1em 0;
+}
+.typedModalVariableLabel{
+  margin-right: 0.5em;
+}
+.typedModalTypes ul{
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0;
+}
+.typedModalTypes li {
+  margin-right: 1em;
+  display: flex;
+}
+
+
+.fieldSliderContainer {
+  align-items: center;
+  display: flex;
+  height: 32px;
+  justify-content: center;
+  width: 150px;
+}
+.fieldSlider {
+  -webkit-appearance: none;
+  background: transparent; /* override white in chrome */
+  margin: 4px;
+  padding: 0;
+  width: 100%;
+}
+.fieldSlider:focus {
+  outline: none;
+}
+/* Webkit */
+.fieldSlider::-webkit-slider-runnable-track {
+  background: #ddd;
+  border-radius: 5px;
+  height: 10px;
+}
+.fieldSlider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px rgba(255,255,255,.15);
+  cursor: pointer;
+  height: 24px;
+  margin-top: -7px;
+  width: 24px;
+}
+/* Firefox */
+.fieldSlider::-moz-range-track {
+  background: #ddd;
+  border-radius: 5px;
+  height: 10px;
+}
+.fieldSlider::-moz-range-thumb {
+  background: #fff;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px rgba(255,255,255,.15);
+  cursor: pointer;
+  height: 24px;
+  width: 24px;
+}
+.fieldSlider::-moz-focus-outer {
+  /* override the focus border style */
+  border: 0;
+}
+/* IE */
+.fieldSlider::-ms-track {
+  /* IE wont let the thumb overflow the track, so fake it */
+  background: transparent;
+  border-color: transparent;
+  border-width: 15px 0;
+  /* remove default tick marks */
+  color: transparent;
+  height: 10px;
+  width: 100%;
+  margin: -4px 0;
+}
+.fieldSlider::-ms-fill-lower  {
+  background: #ddd;
+  border-radius: 5px;
+}
+.fieldSlider::-ms-fill-upper  {
+  background: #ddd;
+  border-radius: 5px;
+}
+.fieldSlider::-ms-thumb {
+  background: #fff;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px rgba(255,255,255,.15);
+  cursor: pointer;
+  height: 24px;
+  width: 24px;
+}
+
+
+.blocklyHtmlTextAreaInput {
+  font-family: monospace;
+  resize: none;
+  overflow: hidden;
+  height: 100%;
+  text-align: left;
+}
+
+.blocklyHtmlTextAreaInputOverflowedY {
+  overflow-y: scroll;
+}
+
+
+   .blocklyFieldGridContainer {
+     padding: 7px;
+     overflow: auto;
+   }
+   
+  .blocklyFieldGrid {
+    display: grid;
+    grid-gap: 7px;
+    grid-template-columns: repeat(var(--grid-columns), min-content);
+  }
+
+ .blocklyFieldGridItem {
+   border: 1px solid rgba(1, 1, 1, 0.5);
+   border-radius: 4px;
+   color: white;
+   min-width: auto;
+   background: none;
+   white-space: nowrap;
+   cursor: pointer;
+   padding: 6px 15px;
+ }
+ 
+ .blocklyFieldGridRow {
+   display: contents;
+ }
+ 
+ .blocklyFieldGridItem.blocklyFieldGridItemSelected {
+   background-color: rgba(1, 1, 1, 0.25);
+ }
+
+ .blocklyFieldGridItem:focus {
+   box-shadow: 0 0 0 4px hsla(0, 0%, 100%, .2);
+   outline: none;
+ }
+ 
+
+.blocklyFieldGridItemSelected,
+.blocklyFieldGridItemSelected:hover {
+  border-color: #eee !important;
+  outline: 1px solid #333;
+  position: relative;
+}
+
+.blocklyColourSwatch {
+  width: 20px;
+  height: 20px;
+}
+
+.blocklyGridContainer {
+  padding: 0px;
+}
+
+.blocklyFieldGrid {
+  grid-gap: 0px;
+  row-gap: 4px;
+}
+
+.blocklyGridItem {
+  border-radius: 0;
+  padding: 0;
+  border: 0.5px solid #888;
+  cursor: pointer;
+}
+
+.blocklyFieldGridItem {
+  border: 0.5px solid #888;
+  padding: 0;
+  margin: 0;
+  border-radius: 0;
+}
+
+.blocklyFieldGridItem:focus {
+  border-color: #eee;
+  box-shadow: 2px 2px 7px 2px rgba(0, 0, 0, 0.3);
+  position: relative;
+  border-radius: 0;
+  outline: none;
+}
+
+
+.zoomToFit {
+  opacity: 0.4;
+}
+.zoomToFit:hover {
+  opacity: 0.6;
+}
+.zoomToFit:active {
+  opacity: 0.8;
+}
+
+
+.blocklyBackpack {
+  opacity: 0.4;
+}
+.blocklyBackpackDarken {
+  opacity: 0.6;
+}
+.blocklyBackpack:active {
+  opacity: 0.8;
+}
+.blocklyPath {
+        fill-opacity: 1;
+      }
+      .blocklyPathDark {
+        display: flex;
+      }
+      .blocklyPathLight {
+        display: flex;
+      }  ]]></style></defs>"><g xmlns="http://www.w3.org/2000/svg" class="blocklyBlockCanvas"><g class="arduino_functions blocklyBlock blocklyNotDeletable blocklyDraggable" data-id="QWW|$jB8+*EL;}|#uA" transform="translate(27, 16)"><path class="blocklyPathDark" transform="translate(1,1)" fill="#7a4984" d=" m 0,0  m 0,8 a 8 8 0 0,1 8,-8  h 116.54166412353516  v 5  H 124.54166412353516  V 5  H 124.54166412353516  V 23  H 124.54166412353516  V 27  H 50  l -6,4  -3,0  -6,-4  h -7 a 8 8 0 0,0 -8,8  v 71 a 8 8 0 0,0 8,8  H 124.54166412353516  H 124.54166412353516  V 119  H 124.54166412353516  V 137  H 124.54166412353516  V 141  H 50  l -6,4  -3,0  -6,-4  h -7 a 8 8 0 0,0 -8,8  v 825 a 8 8 0 0,0 8,8  H 124.54166412353516  H 124.54166412353516  V 982  V 992  h -116.54166412353516 a 8 8 0 0,1 -8,-8 z&#xA;"/><path class="blocklyPath" id="blockly-4br" stroke="none" fill="#995ba5" d=" m 0,0  m 0,8 a 8 8 0 0,1 8,-8  h 116.54166412353516  v 5  H 124.54166412353516  V 5  H 124.54166412353516  V 23  H 124.54166412353516  V 27  H 50  l -6,4  -3,0  -6,-4  h -7 a 8 8 0 0,0 -8,8  v 71 a 8 8 0 0,0 8,8  H 124.54166412353516  H 124.54166412353516  V 119  H 124.54166412353516  V 137  H 124.54166412353516  V 141  H 50  l -6,4  -3,0  -6,-4  h -7 a 8 8 0 0,0 -8,8  v 825 a 8 8 0 0,0 8,8  H 124.54166412353516  H 124.54166412353516  V 982  V 992  h -116.54166412353516 a 8 8 0 0,1 -8,-8 z&#xA;"/><path class="blocklyPathLight" stroke="#b88cc0" d=" m 0,0  m 0.5,8 a 7.5 7.5 0 0,1 8,-7.5  H 124.04166412353516  H 124.04166412353516  M 20,114  m 1.9895923599143455,-1.9895923599143455 a 8.5 8.5 0 0,0 6.0104076400856545,2.4895923599143455  l 96.04166412353516,0  H 124.04166412353516  M 20,982  m 1.9895923599143455,-1.9895923599143455 a 8.5 8.5 0 0,0 6.0104076400856545,2.4895923599143455  l 96.04166412353516,0  H 124.04166412353516  M 0,992  m 2.6966991411008934,-2.6966991411008934 a 7.5 7.5 0 0,1 -2.1966991411008934,-5.303300858899107  V 8 &#xA;"/><g class="sensebox_wifi blocklyBlock blocklyDraggable" data-id="Noia1)A)1sT_U;pXAp${" style="display: block;" transform="translate(21, 28)"><path class="blocklyPathDark" transform="translate(1,1)" fill="#498449" d=" m 0,0  m 0,8 a 8 8 0 0,1 8,-8  h 7  l 6,4  3,0  6,-4  h 132.22916793823242  v 5  H 162.22916793823242  V 5  H 162.22916793823242  V 23  H 162.22916793823242  V 33  H 162.22916793823242  V 51  H 162.22916793823242  V 61  H 162.22916793823242  V 79  H 162.22916793823242  V 79  V 83  h -132.72916793823242  l -6,4  -3,0  -6,-4  h -6.5 a 8 8 0 0,1 -8,-8 z&#xA;"/><path class="blocklyPath" id="blockly-4bw" stroke="none" fill="#5ba55b" d=" m 0,0  m 0,8 a 8 8 0 0,1 8,-8  h 7  l 6,4  3,0  6,-4  h 132.22916793823242  v 5  H 162.22916793823242  V 5  H 162.22916793823242  V 23  H 162.22916793823242  V 33  H 162.22916793823242  V 51  H 162.22916793823242  V 61  H 162.22916793823242  V 79  H 162.22916793823242  V 79  V 83  h -132.72916793823242  l -6,4  -3,0  -6,-4  h -6.5 a 8 8 0 0,1 -8,-8 z&#xA;"/><path class="blocklyPathLight" stroke="#8cc08c" d=" m 0,0  m 0.5,8 a 7.5 7.5 0 0,1 8,-7.5  H 14.5  h 0.5  l 6,4  3,0  6,-4  H 161.72916793823242  H 161.72916793823242  M 0,83  m 2.6966991411008934,-2.6966991411008934 a 7.5 7.5 0 0,1 -2.1966991411008934,-5.303300858899107  V 8 &#xA;"/><g id="Noia1)A)1sT_U;pXAp${_field_blockly-4bx" class="blocklyLabelField" transform="translate(10,5)"><text class="blocklyText blocklyFieldText" x="0" y="14">Verbinde mit WLAN</text></g><g id="Noia1)A)1sT_U;pXAp${_field_blockly-4by" class="blocklyLabelField" transform="translate(10,33)"><text class="blocklyText blocklyFieldText" x="0" y="14">Netzwerkname</text></g><g id="Noia1)A)1sT_U;pXAp${_field_blockly-4bz" class="blocklyField blocklyInputField blocklyTextInputField blocklyEditableField" transform="translate(112.95833587646484,33)"><rect rx="4" ry="4" x="0" y="0" height="18" width="44.27083206176758" class="blocklyFieldRect"/><text class="blocklyText blocklyFieldText" x="5" y="14">SSID</text></g><g id="Noia1)A)1sT_U;pXAp${_field_blockly-4c0" class="blocklyLabelField" transform="translate(10,61)"><text class="blocklyText blocklyFieldText" x="0" y="14">Passwort</text></g><g id="Noia1)A)1sT_U;pXAp${_field_blockly-4c1" class="blocklyField blocklyInputField blocklyTextInputField blocklyEditableField" transform="translate(75.41666793823242,61)"><rect rx="4" ry="4" x="0" y="0" height="18" width="74.5" class="blocklyFieldRect"/><text class="blocklyText blocklyFieldText" x="5" y="14">Password</text></g><path id="Noia1)A)1sT_U;pXAp${_connection_blockly-4c2" class="blocklyHighlightedConnectionPath" style="display: none;" d=" m -7,0  h 7  l 6,4  3,0  6,-4  h 7 " transform="translate(15, 0)"/><path id="Noia1)A)1sT_U;pXAp${_connection_blockly-4c3" class="blocklyHighlightedConnectionPath" style="display: none;" d=" m -7,0  h 7  l 6,4  3,0  6,-4  h 7 " transform="translate(15, 84)"/></g><g class="sensebox_interval_timer blocklyBlock blocklyDraggable" data-id="_w?tao[T)I)J+QSBD^@b" style="display: block;" transform="translate(21, 142)"><path class="blocklyPathDark" transform="translate(1,1)" fill="#49845d" d=" m 0,0  m 0,8 a 8 8 0 0,1 8,-8  h 7  l 6,4  3,0  6,-4  h 205.5833339691162  v 5  H 235.5833339691162  V 5  H 235.5833339691162  V 23  H 235.5833339691162  V 27  H 50  l -6,4  -3,0  -6,-4  h -7 a 8 8 0 0,0 -8,8  v 784 a 8 8 0 0,0 8,8  H 50  H 50  V 827  V 837  h -20.5  l -6,4  -3,0  -6,-4  h -6.5 a 8 8 0 0,1 -8,-8 z&#xA;"/><path class="blocklyPath" id="blockly-4c4" stroke="none" fill="#5ba574" d=" m 0,0  m 0,8 a 8 8 0 0,1 8,-8  h 7  l 6,4  3,0  6,-4  h 205.5833339691162  v 5  H 235.5833339691162  V 5  H 235.5833339691162  V 23  H 235.5833339691162  V 27  H 50  l -6,4  -3,0  -6,-4  h -7 a 8 8 0 0,0 -8,8  v 784 a 8 8 0 0,0 8,8  H 50  H 50  V 827  V 837  h -20.5  l -6,4  -3,0  -6,-4  h -6.5 a 8 8 0 0,1 -8,-8 z&#xA;"/><path class="blocklyPathLight" stroke="#8cc09e" d=" m 0,0  m 0.5,8 a 7.5 7.5 0 0,1 8,-7.5  H 14.5  h 0.5  l 6,4  3,0  6,-4  H 235.0833339691162  H 235.0833339691162  M 20,827  m 1.9895923599143455,-1.9895923599143455 a 8.5 8.5 0 0,0 6.0104076400856545,2.4895923599143455  l 21.5,0  H 49.5  M 0,837  m 2.6966991411008934,-2.6966991411008934 a 7.5 7.5 0 0,1 -2.1966991411008934,-5.303300858899107  V 8 &#xA;"/><g class="sensebox_osem_connection blocklyBlock blocklyDraggable" data-id="fP2/wbi#7cASQvM8?`:6" style="display: block;" transform="translate(21, 28)"><path class="blocklyPathDark" transform="translate(1,1)" fill="#498449" d=" m 0,0  m 0,8 a 8 8 0 0,1 8,-8  h 7  l 6,4  3,0  6,-4  h 489.1666793823242  v 5  H 519.1666793823242  V 5  H 519.1666793823242  V 23  H 519.1666793823242  V 33  H 519.1666793823242  V 51  H 519.1666793823242  V 61  H 519.1666793823242  V 79  H 519.1666793823242  V 89  H 519.1666793823242  V 107  H 519.1666793823242  V 117  H 519.1666793823242  V 135  H 519.1666793823242  V 139  H 112.875  l -6,4  -3,0  -6,-4  h -7 a 8 8 0 0,0 -8,8  v 631 a 8 8 0 0,0 8,8  H 519.1666793823242  H 519.1666793823242  V 786  V 796  h -489.6666793823242  l -6,4  -3,0  -6,-4  h -6.5 a 8 8 0 0,1 -8,-8 z&#xA;"/><path class="blocklyPath" id="blockly-4cc" stroke="none" fill="#5ba55b" d=" m 0,0  m 0,8 a 8 8 0 0,1 8,-8  h 7  l 6,4  3,0  6,-4  h 489.1666793823242  v 5  H 519.1666793823242  V 5  H 519.1666793823242  V 23  H 519.1666793823242  V 33  H 519.1666793823242  V 51  H 519.1666793823242  V 61  H 519.1666793823242  V 79  H 519.1666793823242  V 89  H 519.1666793823242  V 107  H 519.1666793823242  V 117  H 519.1666793823242  V 135  H 519.1666793823242  V 139  H 112.875  l -6,4  -3,0  -6,-4  h -7 a 8 8 0 0,0 -8,8  v 631 a 8 8 0 0,0 8,8  H 519.1666793823242  H 519.1666793823242  V 786  V 796  h -489.6666793823242  l -6,4  -3,0  -6,-4  h -6.5 a 8 8 0 0,1 -8,-8 z&#xA;"/><path class="blocklyPathLight" stroke="#8cc08c" d=" m 0,0  m 0.5,8 a 7.5 7.5 0 0,1 8,-7.5  H 14.5  h 0.5  l 6,4  3,0  6,-4  H 518.6666793823242  H 518.6666793823242  M 82.875,786  m 1.9895923599143455,-1.9895923599143455 a 8.5 8.5 0 0,0 6.0104076400856545,2.4895923599143455  l 427.7916793823242,0  H 518.6666793823242  M 0,796  m 2.6966991411008934,-2.6966991411008934 a 7.5 7.5 0 0,1 -2.1966991411008934,-5.303300858899107  V 8 &#xA;"/><g class="sensebox_send_to_osem blocklyBlock blocklyDraggable" data-id="]^uoLO,h/|DNrB`,:Ha`" style="display: block;" transform="translate(83.875, 140)"><path class="blocklyPathDark" transform="translate(1,1)" fill="#498449" d=" m 0,0  m 0,8 a 8 8 0 0,1 8,-8  h 7  l 6,4  3,0  6,-4  h 258.4583435058594  v 5  H 288.4583435058594  V 5  H 288.4583435058594  V 23  H 288.4583435058594  V 33  H 288.4583435058594  c 0,10  -8,-8  -8,7.5  s 8,-2.5  8,7.5  v 31  H 288.4583435058594  V 79  V 83  h -258.9583435058594  l -6,4  -3,0  -6,-4  h -14.5  H 0 z&#xA;"/><path class="blocklyPath" id="blockly-4cs" stroke="none" fill="#5ba55b" d=" m 0,0  m 0,8 a 8 8 0 0,1 8,-8  h 7  l 6,4  3,0  6,-4  h 258.4583435058594  v 5  H 288.4583435058594  V 5  H 288.4583435058594  V 23  H 288.4583435058594  V 33  H 288.4583435058594  c 0,10  -8,-8  -8,7.5  s 8,-2.5  8,7.5  v 31  H 288.4583435058594  V 79  V 83  h -258.9583435058594  l -6,4  -3,0  -6,-4  h -14.5  H 0 z&#xA;"/><path class="blocklyPathLight" stroke="#8cc08c" d=" m 0,0  m 0.5,8 a 7.5 7.5 0 0,1 8,-7.5  H 14.5  h 0.5  l 6,4  3,0  6,-4  H 287.9583435058594  H 287.9583435058594  M 288.4583435058594,33  m -5,14.3  l 3.68,-2.1  M 0.5,82.5  V 8 &#xA;"/><g class="sensebox_sensor_temp_hum blocklyBlock blocklyDraggable" data-id="1Xl3j!U;yuuO1L!%$P^w" style="display: block;" transform="translate(281.4583435058594, 28)"><path class="blocklyPathDark" transform="translate(1,1)" fill="#498449" d=" m 8,0  h 331.9166564941406  v 5  H 339.9166564941406  V 5  H 339.9166564941406  V 23  H 339.9166564941406  V 33  H 339.9166564941406  V 51  H 339.9166564941406  V 51  V 55  h -331.9166564941406  H 8  V 20  c 0,-10  -8,8  -8,-7.5  s 8,2.5  8,-7.5 z&#xA;"/><path class="blocklyPath" id="blockly-4cz" stroke="none" fill="#5ba55b" d=" m 8,0  h 331.9166564941406  v 5  H 339.9166564941406  V 5  H 339.9166564941406  V 23  H 339.9166564941406  V 33  H 339.9166564941406  V 51  H 339.9166564941406  V 51  V 55  h -331.9166564941406  H 8  V 20  c 0,-10  -8,8  -8,-7.5  s 8,2.5  8,-7.5 z&#xA;"/><path class="blocklyPathLight" stroke="#8cc08c" d=" m 8,0  m 0.5,0.5  H 339.4166564941406  H 339.4166564941406  M 8.5,54.5  M 8.5,54.5  V 20  v -1.5  m -7.36,-0.5  q -1.52,-5.5  0,-11  m 7.36,1  V 0.5 &#xA;"/><g id="1Xl3j!U;yuuO1L!%$P^w_field_blockly-4d0" class="blocklyLabelField" transform="translate(18,5)"><text class="blocklyText blocklyFieldText" x="0" y="14">Temperatur-/Luftfeuchtigkeitssensor (HDC1080)</text></g><g id="1Xl3j!U;yuuO1L!%$P^w_field_blockly-4d1" class="blocklyLabelField" transform="translate(125.87499237060547,33)"><text class="blocklyText blocklyFieldText" x="0" y="14">Messwert:</text></g><g id="1Xl3j!U;yuuO1L!%$P^w_field_blockly-4d2" class="blocklyField blocklyDropdownField blocklyEditableField" transform="translate(197.81249237060547,33)"><rect rx="4" ry="4" x="0" y="0" height="18" width="137.10416412353516" class="blocklyFieldRect blocklyDropdownRect" stroke="#8cc08c" fill="transparent"/><text class="blocklyText blocklyFieldText blocklyDropdownText" text-anchor="start" x="5" y="14">Temperatur in °C<tspan style="fill: rgb(91, 165, 91);"> ▾</tspan></text><image style="display: none;"/></g></g><g class="sensebox_send_to_osem blocklyBlock blocklyDraggable" data-id="4{y,/#0RY*]:}Fb$tf}0" transform="translate(0, 84)"><path class="blocklyPathDark" transform="translate(1,1)" fill="#498449" d=" m 0,0  h 15  l 6,4  3,0  6,-4  h 258.4583435058594  v 5  H 288.4583435058594  V 5  H 288.4583435058594  V 23  H 288.4583435058594  V 33  H 288.4583435058594  c 0,10  -8,-8  -8,7.5  s 8,-2.5  8,7.5  v 31  H 288.4583435058594  V 79  V 83  h -258.9583435058594  l -6,4  -3,0  -6,-4  h -14.5  H 0 z&#xA;"/><path class="blocklyPath" id="blockly-4d4" stroke="none" fill="#5ba55b" d=" m 0,0  h 15  l 6,4  3,0  6,-4  h 258.4583435058594  v 5  H 288.4583435058594  V 5  H 288.4583435058594  V 23  H 288.4583435058594  V 33  H 288.4583435058594  c 0,10  -8,-8  -8,7.5  s 8,-2.5  8,7.5  v 31  H 288.4583435058594  V 79  V 83  h -258.9583435058594  l -6,4  -3,0  -6,-4  h -14.5  H 0 z&#xA;"/><path class="blocklyPathLight" stroke="#8cc08c" d=" m 0,0  m 0.5,0.5  H 14.5  h 0.5  l 6,4  3,0  6,-4  H 287.9583435058594  H 287.9583435058594  M 288.4583435058594,33  m -5,14.3  l 3.68,-2.1  M 0.5,82.5  V 0.5 &#xA;"/><g class="sensebox_sensor_temp_hum blocklyBlock blocklyDraggable" data-id="TO;Ag|f-Dl#DY!yG6g#_" style="display: block;" transform="translate(281.4583435058594, 28)"><path class="blocklyPathDark" transform="translate(1,1)" fill="#498449" d=" m 8,0  h 331.9166564941406  v 5  H 339.9166564941406  V 5  H 339.9166564941406  V 23  H 339.9166564941406  V 33  H 339.9166564941406  V 51  H 339.9166564941406  V 51  V 55  h -331.9166564941406  H 8  V 20  c 0,-10  -8,8  -8,-7.5  s 8,2.5  8,-7.5 z&#xA;"/><path class="blocklyPath" id="blockly-4db" stroke="none" fill="#5ba55b" d=" m 8,0  h 331.9166564941406  v 5  H 339.9166564941406  V 5  H 339.9166564941406  V 23  H 339.9166564941406  V 33  H 339.9166564941406  V 51  H 339.9166564941406  V 51  V 55  h -331.9166564941406  H 8  V 20  c 0,-10  -8,8  -8,-7.5  s 8,2.5  8,-7.5 z&#xA;"/><path class="blocklyPathLight" stroke="#8cc08c" d=" m 8,0  m 0.5,0.5  H 339.4166564941406  H 339.4166564941406  M 8.5,54.5  M 8.5,54.5  V 20  v -1.5  m -7.36,-0.5  q -1.52,-5.5  0,-11  m 7.36,1  V 0.5 &#xA;"/><g id="TO;Ag|f-Dl#DY!yG6g#__field_blockly-4dc" class="blocklyLabelField" transform="translate(18,5)"><text class="blocklyText blocklyFieldText" x="0" y="14">Temperatur-/Luftfeuchtigkeitssensor (HDC1080)</text></g><g id="TO;Ag|f-Dl#DY!yG6g#__field_blockly-4dd" class="blocklyLabelField" transform="translate(104.74998474121094,33)"><text class="blocklyText blocklyFieldText" x="0" y="14">Messwert:</text></g><g id="TO;Ag|f-Dl#DY!yG6g#__field_blockly-4de" class="blocklyField blocklyDropdownField blocklyEditableField" transform="translate(176.68748474121094,33)"><rect rx="4" ry="4" x="0" y="0" height="18" width="158.2291717529297" class="blocklyFieldRect blocklyDropdownRect" stroke="#8cc08c" fill="transparent"/><text class="blocklyText blocklyFieldText blocklyDropdownText" text-anchor="start" x="5" y="14">Luftfeuchtigkeit in %<tspan style="fill: rgb(91, 165, 91);"> ▾</tspan></text><image style="display: none;"/></g></g><g class="sensebox_send_to_osem blocklyBlock blocklyDraggable" data-id="f`GW*Y-o/GeNV^sSN#gw" transform="translate(0, 84)"><path class="blocklyPathDark" transform="translate(1,1)" fill="#498449" d=" m 0,0  h 15  l 6,4  3,0  6,-4  h 258.4583435058594  v 5  H 288.4583435058594  V 5  H 288.4583435058594  V 23  H 288.4583435058594  V 33  H 288.4583435058594  c 0,10  -8,-8  -8,7.5  s 8,-2.5  8,7.5  v 31  H 288.4583435058594  V 79  V 83  h -258.9583435058594  l -6,4  -3,0  -6,-4  h -14.5  H 0 z&#xA;"/><path class="blocklyPath" id="blockly-4dg" stroke="none" fill="#5ba55b" d=" m 0,0  h 15  l 6,4  3,0  6,-4  h 258.4583435058594  v 5  H 288.4583435058594  V 5  H 288.4583435058594  V 23  H 288.4583435058594  V 33  H 288.4583435058594  c 0,10  -8,-8  -8,7.5  s 8,-2.5  8,7.5  v 31  H 288.4583435058594  V 79  V 83  h -258.9583435058594  l -6,4  -3,0  -6,-4  h -14.5  H 0 z&#xA;"/><path class="blocklyPathLight" stroke="#8cc08c" d=" m 0,0  m 0.5,0.5  H 14.5  h 0.5  l 6,4  3,0  6,-4  H 287.9583435058594  H 287.9583435058594  M 288.4583435058594,33  m -5,14.3  l 3.68,-2.1  M 0.5,82.5  V 0.5 &#xA;"/><g class="sensebox_sensor_dps310 blocklyBlock blocklyDraggable" data-id="nRg?Dt1sc3^J5,XE4_jc" style="display: block;" transform="translate(281.4583435058594, 28)"><path class="blocklyPathDark" transform="translate(1,1)" fill="#498449" d=" m 8,0  h 276.375  v 5  H 284.375  V 5  H 284.375  V 23  H 284.375  V 33  H 284.375  V 51  H 284.375  V 51  V 55  h -276.375  H 8  V 20  c 0,-10  -8,8  -8,-7.5  s 8,2.5  8,-7.5 z&#xA;"/><path class="blocklyPath" id="blockly-4dn" stroke="none" fill="#5ba55b" d=" m 8,0  h 276.375  v 5  H 284.375  V 5  H 284.375  V 23  H 284.375  V 33  H 284.375  V 51  H 284.375  V 51  V 55  h -276.375  H 8  V 20  c 0,-10  -8,8  -8,-7.5  s 8,2.5  8,-7.5 z&#xA;"/><path class="blocklyPathLight" stroke="#8cc08c" d=" m 8,0  m 0.5,0.5  H 283.875  H 283.875  M 8.5,54.5  M 8.5,54.5  V 20  v -1.5  m -7.36,-0.5  q -1.52,-5.5  0,-11  m 7.36,1  V 0.5 &#xA;"/><g id="nRg?Dt1sc3^J5,XE4_jc_field_blockly-4do" class="blocklyLabelField" transform="translate(18,5)"><text class="blocklyText blocklyFieldText" x="0" y="14">Luftdruck-/Temperatursensor (DPS310)</text></g><g id="nRg?Dt1sc3^J5,XE4_jc_field_blockly-4dp" class="blocklyLabelField" transform="translate(74.54166412353516,33)"><text class="blocklyText blocklyFieldText" x="0" y="14">Messwert:</text></g><g id="nRg?Dt1sc3^J5,XE4_jc_field_blockly-4dq" class="blocklyField blocklyDropdownField blocklyEditableField" transform="translate(146.47916412353516,33)"><rect rx="4" ry="4" x="0" y="0" height="18" width="132.89583587646484" class="blocklyFieldRect blocklyDropdownRect" stroke="#8cc08c" fill="transparent"/><text class="blocklyText blocklyFieldText blocklyDropdownText" text-anchor="start" x="5" y="14">Luftdruck in hPa<tspan style="fill: rgb(91, 165, 91);"> ▾</tspan></text><image style="display: none;"/></g></g><g class="sensebox_send_to_osem blocklyBlock blocklyDraggable" data-id="-1e-7}DYLLw`5kp11LF%" transform="translate(0, 84)"><path class="blocklyPathDark" transform="translate(1,1)" fill="#498449" d=" m 0,0  h 15  l 6,4  3,0  6,-4  h 258.4583435058594  v 5  H 288.4583435058594  V 5  H 288.4583435058594  V 23  H 288.4583435058594  V 33  H 288.4583435058594  c 0,10  -8,-8  -8,7.5  s 8,-2.5  8,7.5  v 59  H 288.4583435058594  V 107  V 111  h -258.9583435058594  l -6,4  -3,0  -6,-4  h -14.5  H 0 z&#xA;"/><path class="blocklyPath" id="blockly-4ds" stroke="none" fill="#5ba55b" d=" m 0,0  h 15  l 6,4  3,0  6,-4  h 258.4583435058594  v 5  H 288.4583435058594  V 5  H 288.4583435058594  V 23  H 288.4583435058594  V 33  H 288.4583435058594  c 0,10  -8,-8  -8,7.5  s 8,-2.5  8,7.5  v 59  H 288.4583435058594  V 107  V 111  h -258.9583435058594  l -6,4  -3,0  -6,-4  h -14.5  H 0 z&#xA;"/><path class="blocklyPathLight" stroke="#8cc08c" d=" m 0,0  m 0.5,0.5  H 14.5  h 0.5  l 6,4  3,0  6,-4  H 287.9583435058594  H 287.9583435058594  M 288.4583435058594,33  m -5,14.3  l 3.68,-2.1  M 0.5,110.5  V 0.5 &#xA;"/><g class="sensebox_rg15_rainsensor blocklyBlock blocklyDraggable" data-id="(|xIfrZ$Qg|#vrV(F(%I" style="display: block;" transform="translate(281.4583435058594, 28)"><path class="blocklyPathDark" transform="translate(1,1)" fill="#498449" d=" m 8,0  h 308.7916717529297  v 5  H 316.7916717529297  V 5  H 316.7916717529297  V 23  H 316.7916717529297  V 33  H 316.7916717529297  V 51  H 316.7916717529297  V 61  H 316.7916717529297  V 79  H 316.7916717529297  V 79  V 83  h -308.7916717529297  H 8  V 20  c 0,-10  -8,8  -8,-7.5  s 8,2.5  8,-7.5 z&#xA;"/><path class="blocklyPath" id="blockly-4dz" stroke="none" fill="#5ba55b" d=" m 8,0  h 308.7916717529297  v 5  H 316.7916717529297  V 5  H 316.7916717529297  V 23  H 316.7916717529297  V 33  H 316.7916717529297  V 51  H 316.7916717529297  V 61  H 316.7916717529297  V 79  H 316.7916717529297  V 79  V 83  h -308.7916717529297  H 8  V 20  c 0,-10  -8,8  -8,-7.5  s 8,2.5  8,-7.5 z&#xA;"/><path class="blocklyPathLight" stroke="#8cc08c" d=" m 8,0  m 0.5,0.5  H 316.2916717529297  H 316.2916717529297  M 8.5,82.5  M 8.5,82.5  V 20  v -1.5  m -7.36,-0.5  q -1.52,-5.5  0,-11  m 7.36,1  V 0.5 &#xA;"/><g id="(|xIfrZ$Qg|#vrV(F(%I_field_blockly-4e0" class="blocklyLabelField" transform="translate(18,5)"><text class="blocklyText blocklyFieldText" x="0" y="14">Regensensor (RG-15)</text></g><g id="(|xIfrZ$Qg|#vrV(F(%I_field_blockly-4e1" class="blocklyLabelField" transform="translate(18,33)"><text class="blocklyText blocklyFieldText" x="0" y="14">Serieller Port:</text></g><g id="(|xIfrZ$Qg|#vrV(F(%I_field_blockly-4e2" class="blocklyField blocklyDropdownField blocklyEditableField" transform="translate(112,33)"><rect rx="4" ry="4" x="0" y="0" height="18" width="72.45833206176758" class="blocklyFieldRect blocklyDropdownRect" stroke="#8cc08c" fill="transparent"/><text class="blocklyText blocklyFieldText blocklyDropdownText" text-anchor="start" x="5" y="14">Serial0<tspan style="fill: rgb(91, 165, 91);"> ▾</tspan></text><image style="display: none;"/></g><g id="(|xIfrZ$Qg|#vrV(F(%I_field_blockly-4e3" class="blocklyLabelField" transform="translate(18,61)"><text class="blocklyText blocklyFieldText" x="0" y="14">Messwert:</text></g><g id="(|xIfrZ$Qg|#vrV(F(%I_field_blockly-4e4" class="blocklyField blocklyDropdownField blocklyEditableField" transform="translate(89.9375,61)"><rect rx="4" ry="4" x="0" y="0" height="18" width="221.8541717529297" class="blocklyFieldRect blocklyDropdownRect" stroke="#8cc08c" fill="transparent"/><text class="blocklyText blocklyFieldText blocklyDropdownText" text-anchor="start" x="5" y="14">gesamter Niederschlag in mm<tspan style="fill: rgb(91, 165, 91);"> ▾</tspan></text><image style="display: none;"/></g></g><g class="sensebox_send_to_osem blocklyBlock blocklyDraggable" data-id="1heaI7I:?_;o$~o/;znj" transform="translate(0, 112)"><path class="blocklyPathDark" transform="translate(1,1)" fill="#498449" d=" m 0,0  h 15  l 6,4  3,0  6,-4  h 258.4583435058594  v 5  H 288.4583435058594  V 5  H 288.4583435058594  V 23  H 288.4583435058594  V 33  H 288.4583435058594  c 0,10  -8,-8  -8,7.5  s 8,-2.5  8,7.5  v 59  H 288.4583435058594  V 107  V 111  h -258.9583435058594  l -6,4  -3,0  -6,-4  h -14.5  H 0 z&#xA;"/><path class="blocklyPath" id="blockly-4e6" stroke="none" fill="#5ba55b" d=" m 0,0  h 15  l 6,4  3,0  6,-4  h 258.4583435058594  v 5  H 288.4583435058594  V 5  H 288.4583435058594  V 23  H 288.4583435058594  V 33  H 288.4583435058594  c 0,10  -8,-8  -8,7.5  s 8,-2.5  8,7.5  v 59  H 288.4583435058594  V 107  V 111  h -258.9583435058594  l -6,4  -3,0  -6,-4  h -14.5  H 0 z&#xA;"/><path class="blocklyPathLight" stroke="#8cc08c" d=" m 0,0  m 0.5,0.5  H 14.5  h 0.5  l 6,4  3,0  6,-4  H 287.9583435058594  H 287.9583435058594  M 288.4583435058594,33  m -5,14.3  l 3.68,-2.1  M 0.5,110.5  V 0.5 &#xA;"/><g class="sensebox_rg15_rainsensor blocklyBlock blocklyDraggable" data-id="w}KvJ/JCJ0kgy1*`7Fn@" style="display: block;" transform="translate(281.4583435058594, 28)"><path class="blocklyPathDark" transform="translate(1,1)" fill="#498449" d=" m 8,0  h 321.8958282470703  v 5  H 329.8958282470703  V 5  H 329.8958282470703  V 23  H 329.8958282470703  V 33  H 329.8958282470703  V 51  H 329.8958282470703  V 61  H 329.8958282470703  V 79  H 329.8958282470703  V 79  V 83  h -321.8958282470703  H 8  V 20  c 0,-10  -8,8  -8,-7.5  s 8,2.5  8,-7.5 z&#xA;"/><path class="blocklyPath" id="blockly-4ed" stroke="none" fill="#5ba55b" d=" m 8,0  h 321.8958282470703  v 5  H 329.8958282470703  V 5  H 329.8958282470703  V 23  H 329.8958282470703  V 33  H 329.8958282470703  V 51  H 329.8958282470703  V 61  H 329.8958282470703  V 79  H 329.8958282470703  V 79  V 83  h -321.8958282470703  H 8  V 20  c 0,-10  -8,8  -8,-7.5  s 8,2.5  8,-7.5 z&#xA;"/><path class="blocklyPathLight" stroke="#8cc08c" d=" m 8,0  m 0.5,0.5  H 329.3958282470703  H 329.3958282470703  M 8.5,82.5  M 8.5,82.5  V 20  v -1.5  m -7.36,-0.5  q -1.52,-5.5  0,-11  m 7.36,1  V 0.5 &#xA;"/><g id="w}KvJ/JCJ0kgy1*`7Fn@_field_blockly-4ee" class="blocklyLabelField" transform="translate(18,5)"><text class="blocklyText blocklyFieldText" x="0" y="14">Regensensor (RG-15)</text></g><g id="w}KvJ/JCJ0kgy1*`7Fn@_field_blockly-4ef" class="blocklyLabelField" transform="translate(18,33)"><text class="blocklyText blocklyFieldText" x="0" y="14">Serieller Port:</text></g><g id="w}KvJ/JCJ0kgy1*`7Fn@_field_blockly-4eg" class="blocklyField blocklyDropdownField blocklyEditableField" transform="translate(112,33)"><rect rx="4" ry="4" x="0" y="0" height="18" width="72.45833206176758" class="blocklyFieldRect blocklyDropdownRect" stroke="#8cc08c" fill="transparent"/><text class="blocklyText blocklyFieldText blocklyDropdownText" text-anchor="start" x="5" y="14">Serial0<tspan style="fill: rgb(91, 165, 91);"> ▾</tspan></text><image style="display: none;"/></g><g id="w}KvJ/JCJ0kgy1*`7Fn@_field_blockly-4eh" class="blocklyLabelField" transform="translate(18,61)"><text class="blocklyText blocklyFieldText" x="0" y="14">Messwert:</text></g><g id="w}KvJ/JCJ0kgy1*`7Fn@_field_blockly-4ei" class="blocklyField blocklyDropdownField blocklyEditableField" transform="translate(89.9375,61)"><rect rx="4" ry="4" x="0" y="0" height="18" width="234.9583282470703" class="blocklyFieldRect blocklyDropdownRect" stroke="#8cc08c" fill="transparent"/><text class="blocklyText blocklyFieldText blocklyDropdownText" text-anchor="start" x="5" y="14">Niederschlagsintensität in mm/h<tspan style="fill: rgb(91, 165, 91);"> ▾</tspan></text><image style="display: none;"/></g></g><g class="sensebox_send_to_osem blocklyBlock blocklyDraggable" data-id="d0l5$#!g(XGrB{cjF=iU" transform="translate(0, 112)"><path class="blocklyPathDark" transform="translate(1,1)" fill="#498449" d=" m 0,0  h 15  l 6,4  3,0  6,-4  h 258.4583435058594  v 5  H 288.4583435058594  V 5  H 288.4583435058594  V 23  H 288.4583435058594  V 33  H 288.4583435058594  c 0,10  -8,-8  -8,7.5  s 8,-2.5  8,7.5  v 31  H 288.4583435058594  V 79  V 83  h -258.9583435058594  l -6,4  -3,0  -6,-4  h -14.5  H 0 z&#xA;"/><path class="blocklyPath" id="blockly-4ek" stroke="none" fill="#5ba55b" d=" m 0,0  h 15  l 6,4  3,0  6,-4  h 258.4583435058594  v 5  H 288.4583435058594  V 5  H 288.4583435058594  V 23  H 288.4583435058594  V 33  H 288.4583435058594  c 0,10  -8,-8  -8,7.5  s 8,-2.5  8,7.5  v 31  H 288.4583435058594  V 79  V 83  h -258.9583435058594  l -6,4  -3,0  -6,-4  h -14.5  H 0 z&#xA;"/><path class="blocklyPathLight" stroke="#8cc08c" d=" m 0,0  m 0.5,0.5  H 14.5  h 0.5  l 6,4  3,0  6,-4  H 287.9583435058594  H 287.9583435058594  M 288.4583435058594,33  m -5,14.3  l 3.68,-2.1  M 0.5,82.5  V 0.5 &#xA;"/><g class="sensebox_sensor_uv_light blocklyBlock blocklyDraggable" data-id="_ST+3F^hXPY]TGQ?J:oM" style="display: block;" transform="translate(281.4583435058594, 28)"><path class="blocklyPathDark" transform="translate(1,1)" fill="#498449" d=" m 8,0  h 286  v 5  H 294  V 5  H 294  V 23  H 294  V 33  H 294  V 51  H 294  V 51  V 55  h -286  H 8  V 20  c 0,-10  -8,8  -8,-7.5  s 8,2.5  8,-7.5 z&#xA;"/><path class="blocklyPath" id="blockly-4er" stroke="none" fill="#5ba55b" d=" m 8,0  h 286  v 5  H 294  V 5  H 294  V 23  H 294  V 33  H 294  V 51  H 294  V 51  V 55  h -286  H 8  V 20  c 0,-10  -8,8  -8,-7.5  s 8,2.5  8,-7.5 z&#xA;"/><path class="blocklyPathLight" stroke="#8cc08c" d=" m 8,0  m 0.5,0.5  H 293.5  H 293.5  M 8.5,54.5  M 8.5,54.5  V 20  v -1.5  m -7.36,-0.5  q -1.52,-5.5  0,-11  m 7.36,1  V 0.5 &#xA;"/><g id="_ST+3F^hXPY]TGQ?J:oM_field_blockly-4es" class="blocklyLabelField" transform="translate(18,5)"><text class="blocklyText blocklyFieldText" x="0" y="14">Helligkeit-/UV-Sensor</text></g><g id="_ST+3F^hXPY]TGQ?J:oM_field_blockly-4et" class="blocklyLabelField" transform="translate(18,33)"><text class="blocklyText blocklyFieldText" x="0" y="14">Messwert:</text></g><g id="_ST+3F^hXPY]TGQ?J:oM_field_blockly-4eu" class="blocklyField blocklyDropdownField blocklyEditableField" transform="translate(89.9375,33)"><rect rx="4" ry="4" x="0" y="0" height="18" width="199.0625" class="blocklyFieldRect blocklyDropdownRect" stroke="#8cc08c" fill="transparent"/><text class="blocklyText blocklyFieldText blocklyDropdownText" text-anchor="start" x="5" y="14">Beleuchtungsstärke in Lux<tspan style="fill: rgb(91, 165, 91);"> ▾</tspan></text><image style="display: none;"/></g></g><g class="sensebox_send_to_osem blocklyBlock blocklyDraggable" data-id="w4~/g]6mH(1Ty+TuNcnm" transform="translate(0, 84)"><path class="blocklyPathDark" transform="translate(1,1)" fill="#498449" d=" m 0,0  h 15  l 6,4  3,0  6,-4  h 258.4583435058594  v 5  H 288.4583435058594  V 5  H 288.4583435058594  V 23  H 288.4583435058594  V 33  H 288.4583435058594  c 0,10  -8,-8  -8,7.5  s 8,-2.5  8,7.5  v 31  H 288.4583435058594  V 79  V 83  h -258.9583435058594  l -6,4  -3,0  -6,-4  h -6.5 a 8 8 0 0,1 -8,-8 z&#xA;"/><path class="blocklyPath" id="blockly-4ew" stroke="none" fill="#5ba55b" d=" m 0,0  h 15  l 6,4  3,0  6,-4  h 258.4583435058594  v 5  H 288.4583435058594  V 5  H 288.4583435058594  V 23  H 288.4583435058594  V 33  H 288.4583435058594  c 0,10  -8,-8  -8,7.5  s 8,-2.5  8,7.5  v 31  H 288.4583435058594  V 79  V 83  h -258.9583435058594  l -6,4  -3,0  -6,-4  h -6.5 a 8 8 0 0,1 -8,-8 z&#xA;"/><path class="blocklyPathLight" stroke="#8cc08c" d=" m 0,0  m 0.5,0.5  H 14.5  h 0.5  l 6,4  3,0  6,-4  H 287.9583435058594  H 287.9583435058594  M 288.4583435058594,33  m -5,14.3  l 3.68,-2.1  M 0,83  m 2.6966991411008934,-2.6966991411008934 a 7.5 7.5 0 0,1 -2.1966991411008934,-5.303300858899107  V 0.5 &#xA;"/><g class="sensebox_sensor_uv_light blocklyBlock blocklyDraggable" data-id="X*glM/0|pUZHjg@RGIua" style="display: block;" transform="translate(281.4583435058594, 28)"><path class="blocklyPathDark" transform="translate(1,1)" fill="#498449" d=" m 8,0  h 268.25  v 5  H 276.25  V 5  H 276.25  V 23  H 276.25  V 33  H 276.25  V 51  H 276.25  V 51  V 55  h -268.25  H 8  V 20  c 0,-10  -8,8  -8,-7.5  s 8,2.5  8,-7.5 z&#xA;"/><path class="blocklyPath" id="blockly-4f3" stroke="none" fill="#5ba55b" d=" m 8,0  h 268.25  v 5  H 276.25  V 5  H 276.25  V 23  H 276.25  V 33  H 276.25  V 51  H 276.25  V 51  V 55  h -268.25  H 8  V 20  c 0,-10  -8,8  -8,-7.5  s 8,2.5  8,-7.5 z&#xA;"/><path class="blocklyPathLight" stroke="#8cc08c" d=" m 8,0  m 0.5,0.5  H 275.75  H 275.75  M 8.5,54.5  M 8.5,54.5  V 20  v -1.5  m -7.36,-0.5  q -1.52,-5.5  0,-11  m 7.36,1  V 0.5 &#xA;"/><g id="X*glM/0|pUZHjg@RGIua_field_blockly-4f4" class="blocklyLabelField" transform="translate(18,5)"><text class="blocklyText blocklyFieldText" x="0" y="14">Helligkeit-/UV-Sensor</text></g><g id="X*glM/0|pUZHjg@RGIua_field_blockly-4f5" class="blocklyLabelField" transform="translate(18,33)"><text class="blocklyText blocklyFieldText" x="0" y="14">Messwert:</text></g><g id="X*glM/0|pUZHjg@RGIua_field_blockly-4f6" class="blocklyField blocklyDropdownField blocklyEditableField" transform="translate(89.9375,33)"><rect rx="4" ry="4" x="0" y="0" height="18" width="181.3125" class="blocklyFieldRect blocklyDropdownRect" stroke="#8cc08c" fill="transparent"/><text class="blocklyText blocklyFieldText blocklyDropdownText" text-anchor="start" x="5" y="14">UV-Intensität in µW/cm²<tspan style="fill: rgb(91, 165, 91);"> ▾</tspan></text><image style="display: none;"/></g></g><g id="w4~/g]6mH(1Ty+TuNcnm_field_blockly-4ex" class="blocklyLabelField" transform="translate(10,5)"><text class="blocklyText blocklyFieldText" x="0" y="14">Sende Messwert an die openSenseMap</text></g><g id="w4~/g]6mH(1Ty+TuNcnm_field_blockly-4ez" class="blocklyLabelField" transform="translate(10,33)"><text class="blocklyText blocklyFieldText" x="0" y="14">Phänomen</text></g><g id="w4~/g]6mH(1Ty+TuNcnm_field_blockly-4f0" class="blocklyField blocklyInputField blocklyTextInputField blocklyEditableField" transform="translate(86.02083587646484,33)"><rect rx="4" ry="4" x="0" y="0" height="18" width="188.8541717529297" class="blocklyFieldRect"/><text class="blocklyText blocklyFieldText" x="5" y="14">68c130f6bf6fb500075675fa</text></g><path id="w4~/g]6mH(1Ty+TuNcnm_connection_blockly-4f1" class="blocklyHighlightedConnectionPath" style="display: none;" d=" m -7,0  h 7  l 6,4  3,0  6,-4  h 7 " transform="translate(15, 0)"/><path id="w4~/g]6mH(1Ty+TuNcnm_connection_blockly-4ey" class="blocklyHighlightedConnectionPath" style="display: none;" d=" m 0,-5  v 5  c 0,10  -8,-8  -8,7.5  s 8,-2.5  8,7.5  v 5 " transform="translate(289.4583435058594, 33)"/><path id="w4~/g]6mH(1Ty+TuNcnm_connection_blockly-4f2" class="blocklyHighlightedConnectionPath" style="display: none;" d=" m -7,0  h 7  l 6,4  3,0  6,-4  h 7 " transform="translate(15, 84)"/></g><g id="d0l5$#!g(XGrB{cjF=iU_field_blockly-4el" class="blocklyLabelField" transform="translate(10,5)"><text class="blocklyText blocklyFieldText" x="0" y="14">Sende Messwert an die openSenseMap</text></g><g id="d0l5$#!g(XGrB{cjF=iU_field_blockly-4en" class="blocklyLabelField" transform="translate(10,33)"><text class="blocklyText blocklyFieldText" x="0" y="14">Phänomen</text></g><g id="d0l5$#!g(XGrB{cjF=iU_field_blockly-4eo" class="blocklyField blocklyInputField blocklyTextInputField blocklyEditableField" transform="translate(86.02083587646484,33)"><rect rx="4" ry="4" x="0" y="0" height="18" width="188.8541717529297" class="blocklyFieldRect"/><text class="blocklyText blocklyFieldText" x="5" y="14">68c130f6bf6fb500075675f9</text></g><path id="d0l5$#!g(XGrB{cjF=iU_connection_blockly-4ep" class="blocklyHighlightedConnectionPath" style="display: none;" d=" m -7,0  h 7  l 6,4  3,0  6,-4  h 7 " transform="translate(15, 0)"/><path id="d0l5$#!g(XGrB{cjF=iU_connection_blockly-4em" class="blocklyHighlightedConnectionPath" style="display: none;" d=" m 0,-5  v 5  c 0,10  -8,-8  -8,7.5  s 8,-2.5  8,7.5  v 5 " transform="translate(289.4583435058594, 33)"/><path id="d0l5$#!g(XGrB{cjF=iU_connection_blockly-4eq" class="blocklyHighlightedConnectionPath" style="display: none;" d=" m -7,0  h 7  l 6,4  3,0  6,-4  h 7 " transform="translate(15, 84)"/></g><g id="1heaI7I:?_;o$~o/;znj_field_blockly-4e7" class="blocklyLabelField" transform="translate(10,5)"><text class="blocklyText blocklyFieldText" x="0" y="14">Sende Messwert an die openSenseMap</text></g><g id="1heaI7I:?_;o$~o/;znj_field_blockly-4e9" class="blocklyLabelField" transform="translate(10,33)"><text class="blocklyText blocklyFieldText" x="0" y="14">Phänomen</text></g><g id="1heaI7I:?_;o$~o/;znj_field_blockly-4ea" class="blocklyField blocklyInputField blocklyTextInputField blocklyEditableField" transform="translate(86.02083587646484,33)"><rect rx="4" ry="4" x="0" y="0" height="18" width="188.0416717529297" class="blocklyFieldRect"/><text class="blocklyText blocklyFieldText" x="5" y="14">68c130f6bf6fb500075675fc</text></g><path id="1heaI7I:?_;o$~o/;znj_connection_blockly-4eb" class="blocklyHighlightedConnectionPath" style="display: none;" d=" m -7,0  h 7  l 6,4  3,0  6,-4  h 7 " transform="translate(15, 0)"/><path id="1heaI7I:?_;o$~o/;znj_connection_blockly-4e8" class="blocklyHighlightedConnectionPath" style="display: none;" d=" m 0,-5  v 5  c 0,10  -8,-8  -8,7.5  s 8,-2.5  8,7.5  v 5 " transform="translate(289.4583435058594, 33)"/><path id="1heaI7I:?_;o$~o/;znj_connection_blockly-4ec" class="blocklyHighlightedConnectionPath" style="display: none;" d=" m -7,0  h 7  l 6,4  3,0  6,-4  h 7 " transform="translate(15, 112)"/></g><g id="-1e-7}DYLLw`5kp11LF%_field_blockly-4dt" class="blocklyLabelField" transform="translate(10,5)"><text class="blocklyText blocklyFieldText" x="0" y="14">Sende Messwert an die openSenseMap</text></g><g id="-1e-7}DYLLw`5kp11LF%_field_blockly-4dv" class="blocklyLabelField" transform="translate(10,33)"><text class="blocklyText blocklyFieldText" x="0" y="14">Phänomen</text></g><g id="-1e-7}DYLLw`5kp11LF%_field_blockly-4dw" class="blocklyField blocklyInputField blocklyTextInputField blocklyEditableField" transform="translate(86.02083587646484,33)"><rect rx="4" ry="4" x="0" y="0" height="18" width="188.8541717529297" class="blocklyFieldRect"/><text class="blocklyText blocklyFieldText" x="5" y="14">68c130f6bf6fb500075675fd</text></g><path id="-1e-7}DYLLw`5kp11LF%_connection_blockly-4dx" class="blocklyHighlightedConnectionPath" style="display: none;" d=" m -7,0  h 7  l 6,4  3,0  6,-4  h 7 " transform="translate(15, 0)"/><path id="-1e-7}DYLLw`5kp11LF%_connection_blockly-4du" class="blocklyHighlightedConnectionPath" style="display: none;" d=" m 0,-5  v 5  c 0,10  -8,-8  -8,7.5  s 8,-2.5  8,7.5  v 5 " transform="translate(289.4583435058594, 33)"/><path id="-1e-7}DYLLw`5kp11LF%_connection_blockly-4dy" class="blocklyHighlightedConnectionPath" style="display: none;" d=" m -7,0  h 7  l 6,4  3,0  6,-4  h 7 " transform="translate(15, 112)"/></g><g id="f`GW*Y-o/GeNV^sSN#gw_field_blockly-4dh" class="blocklyLabelField" transform="translate(10,5)"><text class="blocklyText blocklyFieldText" x="0" y="14">Sende Messwert an die openSenseMap</text></g><g id="f`GW*Y-o/GeNV^sSN#gw_field_blockly-4dj" class="blocklyLabelField" transform="translate(10,33)"><text class="blocklyText blocklyFieldText" x="0" y="14">Phänomen</text></g><g id="f`GW*Y-o/GeNV^sSN#gw_field_blockly-4dk" class="blocklyField blocklyInputField blocklyTextInputField blocklyEditableField" transform="translate(86.02083587646484,33)"><rect rx="4" ry="4" x="0" y="0" height="18" width="188.8541717529297" class="blocklyFieldRect"/><text class="blocklyText blocklyFieldText" x="5" y="14">68c130f6bf6fb500075675fb</text></g><path id="f`GW*Y-o/GeNV^sSN#gw_connection_blockly-4dl" class="blocklyHighlightedConnectionPath" style="display: none;" d=" m -7,0  h 7  l 6,4  3,0  6,-4  h 7 " transform="translate(15, 0)"/><path id="f`GW*Y-o/GeNV^sSN#gw_connection_blockly-4di" class="blocklyHighlightedConnectionPath" style="display: none;" d=" m 0,-5  v 5  c 0,10  -8,-8  -8,7.5  s 8,-2.5  8,7.5  v 5 " transform="translate(289.4583435058594, 33)"/><path id="f`GW*Y-o/GeNV^sSN#gw_connection_blockly-4dm" class="blocklyHighlightedConnectionPath" style="display: none;" d=" m -7,0  h 7  l 6,4  3,0  6,-4  h 7 " transform="translate(15, 84)"/></g><g id="4{y,/#0RY*]:}Fb$tf}0_field_blockly-4d5" class="blocklyLabelField" transform="translate(10,5)"><text class="blocklyText blocklyFieldText" x="0" y="14">Sende Messwert an die openSenseMap</text></g><g id="4{y,/#0RY*]:}Fb$tf}0_field_blockly-4d7" class="blocklyLabelField" transform="translate(10,33)"><text class="blocklyText blocklyFieldText" x="0" y="14">Phänomen</text></g><g id="4{y,/#0RY*]:}Fb$tf}0_field_blockly-4d8" class="blocklyField blocklyInputField blocklyTextInputField blocklyEditableField" transform="translate(86.02083587646484,33)"><rect rx="4" ry="4" x="0" y="0" height="18" width="188.8541717529297" class="blocklyFieldRect"/><text class="blocklyText blocklyFieldText" x="5" y="14">68c130f6bf6fb500075675f8</text></g><path id="4{y,/#0RY*]:}Fb$tf}0_connection_blockly-4d9" class="blocklyHighlightedConnectionPath" style="display: none;" d=" m -7,0  h 7  l 6,4  3,0  6,-4  h 7 " transform="translate(15, 0)"/><path id="4{y,/#0RY*]:}Fb$tf}0_connection_blockly-4d6" class="blocklyHighlightedConnectionPath" style="display: none;" d=" m 0,-5  v 5  c 0,10  -8,-8  -8,7.5  s 8,-2.5  8,7.5  v 5 " transform="translate(289.4583435058594, 33)"/><path id="4{y,/#0RY*]:}Fb$tf}0_connection_blockly-4da" class="blocklyHighlightedConnectionPath" style="display: none;" d=" m -7,0  h 7  l 6,4  3,0  6,-4  h 7 " transform="translate(15, 84)"/></g><g id="]^uoLO,h/|DNrB`,:Ha`_field_blockly-4ct" class="blocklyLabelField" transform="translate(10,5)"><text class="blocklyText blocklyFieldText" x="0" y="14">Sende Messwert an die openSenseMap</text></g><g id="]^uoLO,h/|DNrB`,:Ha`_field_blockly-4cv" class="blocklyLabelField" transform="translate(10,33)"><text class="blocklyText blocklyFieldText" x="0" y="14">Phänomen</text></g><g id="]^uoLO,h/|DNrB`,:Ha`_field_blockly-4cw" class="blocklyField blocklyInputField blocklyTextInputField blocklyEditableField" transform="translate(86.02083587646484,33)"><rect rx="4" ry="4" x="0" y="0" height="18" width="188.8541717529297" class="blocklyFieldRect"/><text class="blocklyText blocklyFieldText" x="5" y="14">68c130f6bf6fb500075675f7</text></g><path id="]^uoLO,h/|DNrB`,:Ha`_connection_blockly-4cx" class="blocklyHighlightedConnectionPath" style="display: none;" d=" m -7,0  h 7  l 6,4  3,0  6,-4  h 7 " transform="translate(15, 0)"/><path id="]^uoLO,h/|DNrB`,:Ha`_connection_blockly-4cu" class="blocklyHighlightedConnectionPath" style="display: none;" d=" m 0,-5  v 5  c 0,10  -8,-8  -8,7.5  s 8,-2.5  8,7.5  v 5 " transform="translate(289.4583435058594, 33)"/><path id="]^uoLO,h/|DNrB`,:Ha`_connection_blockly-4cy" class="blocklyHighlightedConnectionPath" style="display: none;" d=" m -7,0  h 7  l 6,4  3,0  6,-4  h 7 " transform="translate(15, 84)"/></g><g id="fP2/wbi#7cASQvM8?`:6_field_blockly-4cd" class="blocklyLabelField" transform="translate(10,5)"><text class="blocklyText blocklyFieldText" x="0" y="14">Verbinde mit openSenseMap:</text></g><g id="fP2/wbi#7cASQvM8?`:6_field_blockly-4ce" class="blocklyLabelField" transform="translate(212.6875,5)"><text class="blocklyText blocklyFieldText" x="0" y="14">SSL</text></g><g id="fP2/wbi#7cASQvM8?`:6_field_blockly-4cf" class="blocklyField blocklyCheckboxField blocklyEditableField" transform="translate(245.4375,5)"><rect rx="4" ry="4" x="0" y="0" height="18" width="15" class="blocklyFieldRect"/><text class="blocklyText blocklyFieldText" style="display: block;" x="2" y="14">✓</text></g><g id="fP2/wbi#7cASQvM8?`:6_field_blockly-4cg" class="blocklyLabelField" transform="translate(10,33)"><text class="blocklyText blocklyFieldText" x="0" y="14">Bei Verbindungsverlust Gerät neustarten?</text></g><g id="fP2/wbi#7cASQvM8?`:6_field_blockly-4ch" class="blocklyField blocklyCheckboxField blocklyEditableField" transform="translate(287.75,33)"><rect rx="4" ry="4" x="0" y="0" height="18" width="15" class="blocklyFieldRect"/><text class="blocklyText blocklyFieldText" style="display: block;" x="2" y="14">✓</text></g><g id="fP2/wbi#7cASQvM8?`:6_field_blockly-4ci" class="blocklyLabelField" transform="translate(10,61)"><text class="blocklyText blocklyFieldText" x="0" y="14">Typ</text></g><g id="fP2/wbi#7cASQvM8?`:6_field_blockly-4cj" class="blocklyField blocklyDropdownField blocklyEditableField" transform="translate(38.6875,61)"><rect rx="4" ry="4" x="0" y="0" height="18" width="85.52083587646484" class="blocklyFieldRect blocklyDropdownRect" stroke="#8cc08c" fill="transparent"/><text class="blocklyText blocklyFieldText blocklyDropdownText" text-anchor="start" x="5" y="14">Stationär<tspan style="fill: rgb(91, 165, 91);"> ▾</tspan></text><image style="display: none;"/></g><g id="fP2/wbi#7cASQvM8?`:6_field_blockly-4ck" class="blocklyLabelField" transform="translate(10,89)"><text class="blocklyText blocklyFieldText" x="0" y="14">senseBox ID</text></g><g id="fP2/wbi#7cASQvM8?`:6_field_blockly-4cl" class="blocklyField blocklyInputField blocklyTextInputField blocklyEditableField" transform="translate(98.29166412353516,89)"><rect rx="4" ry="4" x="0" y="0" height="18" width="196.2083282470703" class="blocklyFieldRect"/><text class="blocklyText blocklyFieldText" x="5" y="14">68c1307dbf6fb500075675c5</text></g><g id="fP2/wbi#7cASQvM8?`:6_field_blockly-4cm" class="blocklyLabelField" transform="translate(10,117)"><text class="blocklyText blocklyFieldText" x="0" y="14">API Schlüssel</text></g><g id="fP2/wbi#7cASQvM8?`:6_field_blockly-4cn" class="blocklyField blocklyInputField blocklyTextInputField blocklyEditableField" transform="translate(105.64583587646484,117)"><rect rx="4" ry="4" x="0" y="0" height="18" width="408.5208435058594" class="blocklyFieldRect"/><text class="blocklyText blocklyFieldText" x="5" y="14">691a7e99afddad5926ed4e410341bd4945a1b87774d640fd…</text></g><g id="fP2/wbi#7cASQvM8?`:6_field_blockly-4cp" class="blocklyLabelField" transform="translate(10,144)"><text class="blocklyText blocklyFieldText" x="0" y="14">Sensoren</text></g><path id="fP2/wbi#7cASQvM8?`:6_connection_blockly-4cq" class="blocklyHighlightedConnectionPath" style="display: none;" d=" m -7,0  h 7  l 6,4  3,0  6,-4  h 7 " transform="translate(15, 0)"/><path id="fP2/wbi#7cASQvM8?`:6_connection_blockly-4co" class="blocklyHighlightedConnectionPath" style="display: none;" d=" m -7,0  h 7  l 6,4  3,0  6,-4  h 7 " transform="translate(98.875, 140)"/><path id="fP2/wbi#7cASQvM8?`:6_connection_blockly-4cr" class="blocklyHighlightedConnectionPath" style="display: none;" d=" m -7,0  h 7  l 6,4  3,0  6,-4  h 7 " transform="translate(15, 797)"/></g><g id="_w?tao[T)I)J+QSBD^@b_field_blockly-4c5" class="blocklyLabelField" transform="translate(10,5)"><text class="blocklyText blocklyFieldText" x="0" y="14">Intervall: </text></g><g id="_w?tao[T)I)J+QSBD^@b_field_blockly-4c6" class="blocklyField blocklyInputField blocklyTextInputField blocklyEditableField" transform="translate(74.625,5)"><rect rx="4" ry="4" x="0" y="0" height="18" width="61.45833206176758" class="blocklyFieldRect"/><text class="blocklyText blocklyFieldText" x="5" y="14">Intervall</text></g><g id="_w?tao[T)I)J+QSBD^@b_field_blockly-4c7" class="blocklyField blocklyInputField blocklyTextInputField blocklyEditableField" transform="translate(146.08333206176758,5)"><rect rx="4" ry="4" x="0" y="0" height="18" width="54.91666793823242" class="blocklyFieldRect"/><text class="blocklyText blocklyFieldText" x="5" y="14">60000 </text></g><g id="_w?tao[T)I)J+QSBD^@b_field_blockly-4c8" class="blocklyLabelField" transform="translate(206,5)"><text class="blocklyText blocklyFieldText" x="0" y="14">ms</text></g><path id="_w?tao[T)I)J+QSBD^@b_connection_blockly-4ca" class="blocklyHighlightedConnectionPath" style="display: none;" d=" m -7,0  h 7  l 6,4  3,0  6,-4  h 7 " transform="translate(15, 0)"/><path id="_w?tao[T)I)J+QSBD^@b_connection_blockly-4c9" class="blocklyHighlightedConnectionPath" style="display: none;" d=" m -7,0  h 7  l 6,4  3,0  6,-4  h 7 " transform="translate(36, 28)"/><path id="_w?tao[T)I)J+QSBD^@b_connection_blockly-4cb" class="blocklyHighlightedConnectionPath" style="display: none;" d=" m -7,0  h 7  l 6,4  3,0  6,-4  h 7 " transform="translate(15, 838)"/></g><g id="QWW|$jB8+*EL;}|#uA_field_blockly-4bs" class="blocklyLabelField" transform="translate(10,5)"><text class="blocklyText blocklyFieldText" x="0" y="14">Setup()</text></g><g id="QWW|$jB8+*EL;}|#uA_field_blockly-4bu" class="blocklyLabelField" transform="translate(10,119)"><text class="blocklyText blocklyFieldText" x="0" y="14">Endlosschleife()</text></g><path id="QWW|$jB8+*EL;}|#uA_connection_blockly-4bt" class="blocklyHighlightedConnectionPath" style="display: none;" d=" m -7,0  h 7  l 6,4  3,0  6,-4  h 7 " transform="translate(36, 28)"/><path id="QWW|$jB8+*EL;}|#uA_connection_blockly-4bv" class="blocklyHighlightedConnectionPath" style="display: none;" d=" m -7,0  h 7  l 6,4  3,0  6,-4  h 7 " transform="translate(36, 142)"/></g></g></svg>

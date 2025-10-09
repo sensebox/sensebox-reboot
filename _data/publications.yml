@@ -1,3 +1,11 @@
+- title: "Physical Computing im MINT-Unterricht am Beispiel der senseBox:edu S2"
+  author: Witte, Verena and Pesch, Mario and Bartoschek, Thomas
+  journal: "M. Grillenberger & A. Grillenberger (Hrsg.): Grenzen überwinden - voneinander lernen, Lecture Notes in Informatics (LNI), Gesellschaft für Informatik"
+  year: 2025
+  link: https://www.infos2025.ch/proceedings/infos2025_ws_2.pdf
+  type: paper
+  orign: sensebox
+
 - title: "Zukunftsweisender MINT-Unterricht mit dem senseBox-Ökosystem. Die Plattform für partizipative Data Science mit Physical Computing"
   author: Witte, Verena and Schwering, Angela and Bartoschek, Thomas and Pesch, Mario
   journal: "MNU-Journal, 76 (4)"
@@ -280,6 +288,12 @@
 
 ## Mentions
 
+- title: "Components for an Inexpensive CW-ODMR NV-Based Magnetometer." 
+  author: Bülau, A., Walter, D. & Fritz, K.-P.
+  year: 2025
+  journal: Magnetism. 2025; 5(3):18. https://doi.org/10.3390/magnetism5030018 
+  type: Mentions
+  
 - title: Comparison of Mobile Environmental Sensors for Citizen Science Based Climate Monitoring.
   author: Schmidt, F., Schütze, C., Ködel, U., Schütze, F., Liang, C., Schäfer, D., & Dietrich, P. 
   year: 2023

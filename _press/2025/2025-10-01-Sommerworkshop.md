@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Sommerworkshop SenseBox x Dachbegrünung "
+title:  "Sommerworkshop SenseBox x Dachbegrünung"
 date:   2025-10-01
 author: Gina
 categories: press

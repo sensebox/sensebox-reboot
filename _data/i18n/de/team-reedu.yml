@@ -10,11 +10,11 @@
   position: 2
   description: Jan begleitet die Entwicklung der senseBox seit ihrer Geburt an der Uni Münster. Damals noch als Student und wissenschaftlicher Mitarbeiter. Heute ist er für die Weiterentwicklung der Hardware und den Support für die Bausätze zuständig.
 
-- name: Matthias Pfeil
-  image: /images/team/Matze_Neu.jpg
+- name: Sergey Mukhametov
+  image: /images/team/sergey_new.jpg
   role: Software-Entwickler
   position: 3
-  description: Matthias ist auch seit der Geburtsstunde der senseBox mit dabei und hat die openSenseMap ins Leben gerufen. Bei re:edu ist er Co-Founder und Entwickler.
+  description: Sergey ist auch seit der Geburtsstunde der senseBox mit dabei und arbeitet hauptsächlich im Rahmen des Projektes QOOOL Sensing an der Weiterentwicklung der senseBox um Qauntensensorik. Er ist Co-Founder bei re:edu.
 
 - name: Felix Erdmann
   image: /images/team/Felix_Neu.jpg
@@ -22,26 +22,45 @@
   position: 4
   description: Felix entwickelte seine Begeisterung für Bastelelektronik und Programmierung bereits als Schüler in einem der senseBox-Workshops mit Thomas und Jan. Nach seinem Geoinformatik-Studium ist er als Softwareentwickler bei re:edu mit eingestiegen und arbeitet weiterhin gerne mit Open-Source Technik.
 
-- name: Verena Witte
-  image: /images/team/Verena_Neu.jpg
-  role: Head of Education
-  position: 5
-  description: Verena hat bereits während ihres Studiums im Master of Education bei Reedu gearbeitet. Auch nach ihrem Studium ist sie hier überwiegend für die Konzeption von Unterrichtsmaterialien zuständig und gibt sowohl Schüler:innen als auch Lehrer:innen Workshops mit der senseBox.
-
 - name: Eric Thieme-Garmann
-  image: /images/team/Eric_Neu.png
+  image: /images/team/eric_new.png
   role: Entwickler
-  position: 6
+  position: 5
   description: Eric hat sowohl in seinem Bachelor- als auch in seinem Masterstudium am Institut für Geoinformatik der Universität Münster als studentische Hilfskraft im senseBox:pro Projekt gearbeitet. Nach seinem Studium hat er begonnen, bei re:edu als Entwickler zu arbeiten.
 
 - name: Paula Scharf
   image: /images/team/Paula_Neu.png
   role: Entwicklerin
-  position: 7
+  position: 6
   description: Paula hat ebenfalls ihr Bachelor- und Masterstudium im Fach Geoinformatik an der Universität Münster absolviert. Sie ist bei re:edu vor allem im Bereich Webentwicklung tätig und ist im TinyAIoT-Projekt beteiligt.
+
+- name: Maria Zadnepryanets
+  image: /images/team/maria.jpg
+  role: Entwicklerin
+  position: 7
+  description: Maria hat ihr Masterstudium im Bereich Ingenieurwesen und Technologie abgeschlossen und arbeitet nun bei re:edu als Entwicklerin. Dort ist sie überwiegend an der Weiterentwicklung der senseBox:bike beteiligt.
+
+- name: Kalle Kröger
+  image: /images/team/Kroeger_Kalle.jpg
+  role: Produktentwicklung
+  position: 8
+  description: Kalle hat sein Masterstudium im Produktdesign abgeschlossen und ist bei re:edu als Produktentwickler zuständig. Dort gestaltet er u.a. Verpackungsdesigns für die senseBox.
+
+- name: Artur Kim Shum
+  image: /images/team/KIMSHUM.png
+  role: Innovationsdesigner
+  position: 9
+  description: Kim hat sein Masterstudium im UX-Design abgeschlossen und ist bei re:edu als Designer zuständig. Im Rahmen des Projektes Atrai.bike arbeitet er an der Weiterentwicklung der senseBox:bike mit.
+  
+- name: Eduardo Candeias Schneider
+  image: /images/team/
+EduardoCandelas_067.JPG
+  role: Werkstudent
+  position: 10
+  description: Eduardo hat seinen Bachelor im Bereich Erziehungswissenschaft & Informationsverarbeitung gemacht und ist bei re:edu für die Konzeption von Unterrichtsmaterialien zuständig und gibt sowohl Schüler:innen- als auch Lehrer:innen-Workshops mit der senseBox.
 
 - name: Gina Buchwald-Chassée
   image: /images/team/Gina_Neu.jpg
   role: Kommunikation / PR
-  position: 8
+  position: 11
   description: Gina hat Kommunikationswissenschaft an der Universität Münster studiert und während ihres Masterstudiums als studentische Hilfskraft im senseBox:pro-Projekt angefangen. Dabei hat sie die Social Media Kanäle betreut und die Kommunikation rund um die senseBox übernommen. Auch bei re:edu ist sie für die Kommunikation und Öffentlichkeitsarbeit verantwortlich.

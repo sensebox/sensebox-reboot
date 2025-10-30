@@ -30,7 +30,7 @@ In diesem Projekt programmierst du das klassische Arcade-Spiel Brick Breaker mit
 ## Lernziele
 
 - Grundlagen der Spieleprogrammierung mit CircuitPython
-- Verwendung des Beschleunigungssensor zur Bewegungserkennung
+- Verwendung des Beschleunigungssensors zur Bewegungserkennung
 - Grafische Darstellung auf dem OLED Display
 - Kollisionserkennung und Spiellogik
 
@@ -78,7 +78,7 @@ import math
 
 ### Schritt 2: Hardware initialisieren
 
-Als nächstes initialisierst du die angeschlossenen Komponenten: Den Bildschirm und den eingebauten Beschleunigungssensor. Damit legst du fest, wie deine senseBox mit diesen Komponenten kommuniziert.
+Als Nächstes initialisierst du die angeschlossenen Komponenten: Den Bildschirm und den eingebauten Beschleunigungssensor. Damit legst du fest, wie deine senseBox mit diesen Komponenten kommuniziert.
 
 ```python
 # Enable IO power
@@ -137,7 +137,7 @@ bricks = [[True for _ in range(BRICK_COLS)] for _ in range(BRICK_ROWS)]
 
 ### Schritt 4: Display Funktionen erstellen
 
-Nachfolgend wollen wir Funktionen erstellen, um das Spiel auf dem Display darzustellen. Wir stellen an dieser Stelle noch nichts da, sondern erstellen Funktionen, auf die wir später zugreifen. Dafür legen wir die möglichen Positionen der Spielelemente fest. Der Ball soll sich beispielsweise über das gesamte Display bewegen können, er benötigt also variable X- und Y-Koordinaten. Das Paddle dagegen soll sich nur auf der X-Achse am unteren Rand bewegen können und braucht daher nur eine Koordinate. Die Bricks sollen sich nicht bewegen. Sie sollen sich aber schwarz verfärben, wenn sie getroffen werden, sodass es so aussieht, als wären sie nicht mehr vorhanden.
+Nachfolgend wollen wir Funktionen erstellen, um das Spiel auf dem Display darzustellen. Wir zeigen an dieser Stelle noch nichts auf dem Display an, sondern erstellen Funktionen, auf die wir später zugreifen. Dafür legen wir die möglichen Positionen der Spielelemente fest. Der Ball soll sich beispielsweise über das gesamte Display bewegen können, er benötigt also variable X- und Y-Koordinaten. Das Paddle dagegen soll sich nur auf der X-Achse am unteren Rand bewegen können und braucht daher nur eine Koordinate. Die Bricks sollen sich nicht bewegen. Sie sollen sich aber schwarz verfärben, wenn sie getroffen werden, sodass es so aussieht, als wären sie nicht mehr vorhanden.
 
 ```python
 def create_display():
@@ -376,4 +376,4 @@ Du kannst das Spiel beliebig erweitern, falls du etwas hinzufügen möchtest. Du
 
 ## Sonstiges
 
-Den gesamten Code zum kopieren findest du [hier](https://docs.sensebox.de/docs/editors/circuitpython/circpy_example). Weitere Tutorials und Informationen zu CircuiPython findest du bei den [senseBox Docs](https://docs.sensebox.de/)
+Den gesamten Code zum Kopieren findest du [hier](https://docs.sensebox.de/docs/editors/circuitpython/circpy_example). Weitere Tutorials und Informationen zu CircuiPython findest du bei den [senseBox Docs](https://docs.sensebox.de/).

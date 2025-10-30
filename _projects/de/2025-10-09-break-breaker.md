@@ -19,6 +19,12 @@ difficult: schwer
 
 # Brick Breaker mit CircuitPython
 
+> **Hinweis zur Zielgruppe und Voraussetzungen**  
+> Dieses Projekt richtet sich an Lernende **ab etwa 13 Jahren** mit **grundlegenden Python-Kenntnissen** (z. B. Variablen, Schleifen, Funktionen). Es wird empfohlen, bereits erste Erfahrungen mit der **senseBox:edu S2** und **CircuitPython** gesammelt zu haben – beispielsweise durch einfachere Projekte wie „Blinkende LED“ oder „Temperatur messen“.
+>
+> **Was ist der MPU6050?**  
+> Der MPU6050 ist ein kombinierter Sensor, der sowohl **Beschleunigung** (Neigung der Box) als auch **Drehbewegungen** (Gyroskop) misst. In diesem Projekt nutzen wir **nur die Neigungsdaten des Beschleunigungssensors**, um das Paddle zu steuern – du musst das Gyroskop also nicht verstehen, um mitzumachen!
+
 In diesem Projekt programmierst du das klassische Arcade-Spiel Brick Breaker mit CircuitPython. Du steuerst ein Paddle durch Neigen der senseBox, um einen Ball zu lenken und alle Blöcke zu zerstören. Das Spiel nutzt den integrierten Beschleunigungssensor zur Steuerung und das OLED Display zur Anzeige.
 
 ## Lernziele

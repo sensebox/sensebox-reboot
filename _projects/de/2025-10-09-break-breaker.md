@@ -9,7 +9,7 @@ material:
   - senseBox MCU-S2 (Version 2.1)
   - 1x OLED Display
   - 1x QWIIC-Kabel
-  - Integrierter MPU6050 Gyroskop-Sensor (auf Board)
+  - Integrierter MPU6050 Beschleunigungssensor (auf dem Board)
 ide: circuitpython
 lang: de
 version: ["edu-S2"]
@@ -19,18 +19,18 @@ difficult: schwer
 
 # Brick Breaker mit CircuitPython
 
-In diesem Projekt programmierst du das klassische Arcade-Spiel Brick Breaker mit CircuitPython. Du steuerst ein Paddle durch Neigen der senseBox, um einen Ball zu lenken und alle Blöcke zu zerstören. Das Spiel nutzt den integrierten Gyroskop-Sensor zur Steuerung und das OLED Display zur Anzeige.
+In diesem Projekt programmierst du das klassische Arcade-Spiel Brick Breaker mit CircuitPython. Du steuerst ein Paddle durch Neigen der senseBox, um einen Ball zu lenken und alle Blöcke zu zerstören. Das Spiel nutzt den integrierten Beschleunigungssensor zur Steuerung und das OLED Display zur Anzeige.
 
 ## Lernziele
 
 - Grundlagen der Spieleprogrammierung mit CircuitPython
-- Verwendung des Gyroskop-Sensors zur Bewegungserkennung
+- Verwendung des Beschleunigungssensor zur Bewegungserkennung
 - Grafische Darstellung auf dem OLED Display
 - Kollisionserkennung und Spiellogik
 
 ## Aufbau
 
-Schließe das OLED Display mit einem QWIIC-Kabel an einen der I2C-Anschlüsse der senseBox MCU-S2 an. Der MPU6050 Gyroskop-Sensor ist bereits auf dem Board integriert und muss nicht zusätzlich angeschlossen werden.
+Schließe das OLED Display mit einem QWIIC-Kabel an einen der I2C-Anschlüsse der senseBox MCU-S2 an. Der MPU6050 Beschleunigungssensor ist bereits auf dem Board integriert und muss nicht zusätzlich angeschlossen werden.
 
 <div class="panel panel-success">
   <div class="panel-heading">Hinweis zur Hardware</div>
@@ -79,7 +79,7 @@ import math
 
 ### Schritt 2: Hardware initialisieren
 
-Als nächstes initialisierst du die angeschlossenen Komponenten: Den Bildschirm und den eingebauten Gyroskopsensor. Damit legst du fest, wie deine senseBox mit diesen Komponenten kommuniziert.
+Als nächstes initialisierst du die angeschlossenen Komponenten: Den Bildschirm und den eingebauten Beschleunigungssensor. Damit legst du fest, wie deine senseBox mit diesen Komponenten kommuniziert.
 
 ```python
 # Enable IO power
@@ -259,7 +259,7 @@ print("Tilt to move paddle")
 print("Shake to start the game")
 ```
 
-Danach legen wir den Spielstart mithilfe des Gyroskops fest. Dazu müssen wir die Werte des Sensors auslesen und bestimmen, ab welchen Werten das Schütteln der senseBox als Spielstart erkannt wird.
+Danach legen wir den Spielstart mithilfe des Beschleunigungssensors fest. Dazu müssen wir die Werte des Sensors auslesen und bestimmen, ab welchen Werten das Schütteln der senseBox als Spielstart erkannt wird.
 
 ```python
 while True:
@@ -365,9 +365,9 @@ Diese Abfragen sollen sehr häufig ausgeführt werden, damit sich das Spiel flü
   <div class="panel-heading"></div>
   <div class="panel-body">
     <img src="/images/projects/brick-breaker/brick-breaker_gif.gif" 
-         alt="Gyroskop Steuerung"
+         alt="Beschleunigungssensor Steuerung"
          style="width: 400px; height: auto;">
-    <p>Steuerung des Brick Breaker Spiels mit Hilfe des eingebauten Gyroskops</p>
+    <p>Steuerung des Brick Breaker Spiels mit Hilfe des eingebauten Beschleunigungssensors</p>
   </div>
 </div>
 

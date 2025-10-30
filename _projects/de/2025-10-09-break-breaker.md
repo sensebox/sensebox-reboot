@@ -32,27 +32,20 @@ In diesem Projekt programmierst du das klassische Arcade-Spiel Brick Breaker mit
 
 Schließe das OLED Display mit einem QWIIC-Kabel an einen der I2C-Anschlüsse der senseBox MCU-S2 an. Der MPU6050 Beschleunigungssensor ist bereits auf dem Board integriert und muss nicht zusätzlich angeschlossen werden.
 
-<div class="panel panel-success">
-  <div class="panel-heading">Hinweis zur Hardware</div>
-  <div class="panel-body">
-    Die senseBox MCU-S2 hat einige Besonderheiten:
-    <ul>
-      <li>Der IO_POWER Pin muss auf False gesetzt werden (nicht True wie bei anderen Boards)</li>
-      <li>Das Display verwendet die I2C-Adresse 0x3D</li>
-      <li>Der MPU6050 benötigt die GPIO Pins 42 und 45 für I2C</li>
-    </ul>
-  </div>
-</div>
+> **⚠️ Wichtiger Hinweis zur Hardware (senseBox MCU-S2, Version 2.1)**  
+> Diese Anleitung setzt spezifische Hardwareeinstellungen voraus:
+>
+> - Der **`IO_POWER`-Pin** muss auf **`False`** gesetzt werden (nicht `True` wie bei anderen Boards).
+> - Das **OLED-Display** verwendet die I²C-Adresse **`0x3D`**.
+> - Der **integrierte MPU6050** nutzt die GPIO-Pins **42 (SCL)** und **45 (SDA)** für I²C.
+>
+> Diese Einstellungen sind im Beispielcode bereits korrekt implementiert.
 
-<div class="panel panel-success">
-  <div class="panel-heading"></div>
-  <div class="panel-body">
-    <img src="/images/projects/brick-breaker/brick-breaker_setup.jpg" 
-         alt="Setup für das Brick Breaker Spiel"
-         style="width: 400px; height: auto;">
-    <p>Setup für das Brick Breaker Spiel</p>
-  </div>
-</div>
+<p align="center">
+  <img src="/images/projects/brick-breaker/brick-breaker_setup.jpg" alt="Setup für das Brick Breaker Spiel" width="400">
+</p>
+
+<p align="center"><em>Abbildung: Aufbau des Brick Breaker Setups</em></p>
 
 ## Programmierung
 
@@ -361,15 +354,10 @@ Diese Abfragen sollen sehr häufig ausgeführt werden, damit sich das Spiel flü
 4. Game Over: Der Ball darf nicht am Paddle vorbei nach unten fallen
 5. Neustart: Nach Game Over oder Gewinn kannst du durch Schütteln neu starten
 
-<div class="panel panel-success">
-  <div class="panel-heading"></div>
-  <div class="panel-body">
-    <img src="/images/projects/brick-breaker/brick-breaker_gif.gif" 
-         alt="Beschleunigungssensor Steuerung"
-         style="width: 400px; height: auto;">
-    <p>Steuerung des Brick Breaker Spiels mit Hilfe des eingebauten Beschleunigungssensors</p>
-  </div>
-</div>
+<p align="center">
+  <img src="/images/projects/brick-breaker/brick-breaker_gif.gif" alt="Beschleunigungssensor Steuerung" width="400">
+</p>
+<p align="center"><em>Abbildung: Steuerung des Brick Breaker Spiels mit dem eingebauten Beschleunigungssensor</em></p>
 
 ## Erweiterungen
 

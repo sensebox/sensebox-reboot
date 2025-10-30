@@ -58,10 +58,11 @@ Schließe das OLED Display mit einem QWIIC-Kabel an einen der I2C-Anschlüsse de
 
 ### Schritt 0: Vorbereitung
 
-Lade die benötigten Bibliotheken <a href="https://github.com/adafruit/Adafruit_CircuitPython_DisplayIO_SSD1306/releases/download/3.0.3/adafruit-circuitpython-displayio-ssd1306-10.x-mpy-3.0.3.zip">SSD1306</a>, <a href="https://github.com/adafruit/Adafruit_CircuitPython_Display_Text/releases/download/3.3.3/adafruit-circuitpython-display-text-10.x-mpy-3.3.3.zip ">adafruit_display_text</a> <b>und</b> <a href="https://github.com/adafruit/Adafruit_CircuitPython_MPU6050/releases/download/1.3.4/adafruit-circuitpython-mpu6050-10.x-mpy-1.3.4.zip">MPU6050</a> herunter und kopiere die Bilbiotheken auf deine senseBox MCU S2. Dazu muss CircuitPython auf deine senseBox MCU S2 installiert werden. Folge dazu diesem <a href="https://docs.sensebox.de/docs/editors/circuitpython/circuitpython_esp32">Tutorial</a>
+Lade die benötigten Bibliotheken <a href="https://github.com/adafruit/Adafruit_CircuitPython_DisplayIO_SSD1306/releases/download/3.0.3/adafruit-circuitpython-displayio-ssd1306-10.x-mpy-3.0.3.zip">SSD1306</a>, <a href="https://github.com/adafruit/Adafruit_CircuitPython_Display_Text/releases/download/3.3.3/adafruit-circuitpython-display-text-10.x-mpy-3.3.3.zip ">adafruit_display_text</a> <b>und</b> <a href="https://github.com/adafruit/Adafruit_CircuitPython_MPU6050/releases/download/1.3.4/adafruit-circuitpython-mpu6050-10.x-mpy-1.3.4.zip">MPU6050</a> herunter und kopiere die Bibliotheken auf deine senseBox MCU S2. Dazu muss CircuitPython auf deine senseBox MCU S2 installiert werden. Folge dazu diesem <a href="https://docs.sensebox.de/docs/editors/circuitpython/circuitpython_esp32">Tutorial</a>
 
 ### Schritt 1: Bibliotheken importieren
-Beim Programmieren mit CircuitPython beginnst du damit die Bibliotheken von deiner senseBox MCU S2 in den Code zu importieren.
+
+Beim Programmieren mit CircuitPython beginnst du damit, die Bibliotheken von deiner senseBox MCU S2 in den Code zu importieren.
 
 ```python
 import time
@@ -77,6 +78,7 @@ import math
 ```
 
 ### Schritt 2: Hardware initialisieren
+
 Als nächstes initialisierst du die angeschlossenen Komponenten: Den Bildschirm und den eingebauten Gyroskopsensor. Damit legst du fest, wie deine senseBox mit diesen Komponenten kommuniziert.
 
 ```python
@@ -101,6 +103,7 @@ mpu = adafruit_mpu6050.MPU6050(i2c_mpu)
 ```
 
 ### Schritt 3: Spielkonstanten definieren
+
 In diesem Schritt wollen wir die Spielkonstanten definieren: Den Ball, den steuerbaren Paddle und die Bricks, die mit dem Ball getroffen werden sollen. Die verschiedenen Komponenten des Spiels werden nur definiert und noch nicht auf dem Bildschirm eingezeichnet.
 
 ```python
@@ -133,26 +136,26 @@ game_won = False
 bricks = [[True for _ in range(BRICK_COLS)] for _ in range(BRICK_ROWS)]
 ```
 
-
 ### Schritt 4: Display Funktionen erstellen
+
 Nachfolgend wollen wir Funktionen erstellen, um das Spiel auf dem Display darzustellen. Wir stellen an dieser Stelle noch nichts da, sondern erstellen Funktionen, auf die wir später zugreifen. Dafür legen wir die möglichen Positionen der Spielelemente fest. Der Ball soll sich beispielsweise über das gesamte Display bewegen können, er benötigt also variable X- und Y-Koordinaten. Das Paddle dagegen soll sich nur auf der X-Achse am unteren Rand bewegen können und braucht daher nur eine Koordinate. Die Bricks sollen sich nicht bewegen. Sie sollen sich aber schwarz verfärben, wenn sie getroffen werden, sodass es so aussieht, als wären sie nicht mehr vorhanden.
 
 ```python
 def create_display():
     """Create initial display with bricks and paddle"""
     group = displayio.Group()
-    
+
     # Background
     bg_bitmap = displayio.Bitmap(128, 64, 1)
     bg_palette = displayio.Palette(1)
     bg_palette[0] = 0x000000 # Black color
     bg_sprite = displayio.TileGrid(bg_bitmap, pixel_shader=bg_palette)
     group.append(bg_sprite)
-    
+
     # Draw bricks
     brick_palette = displayio.Palette(1)
     brick_palette[0] = 0xFFFFFF # White color
-    
+
     for row in range(BRICK_ROWS):
         for col in range(BRICK_COLS):
             if bricks[row][col]:
@@ -160,13 +163,13 @@ def create_display():
                 y = row * (BRICK_HEIGHT + BRICK_SPACING) + 4
                 brick_bitmap = displayio.Bitmap(BRICK_WIDTH, BRICK_HEIGHT, 1)
                 brick_sprite = displayio.TileGrid(
-                    brick_bitmap, 
-                    pixel_shader=brick_palette, 
-                    x=x, 
+                    brick_bitmap,
+                    pixel_shader=brick_palette,
+                    x=x,
                     y=y
                 )
                 group.append(brick_sprite)
-    
+
     return group
 
 def draw_paddle(group, x):
@@ -199,22 +202,23 @@ def draw_ball(group, x, y):
 ```
 
 ### Schritt 5: Kollisionserkennung
+
 Die Kollisionserkennung gehört zu den wichtigsten Bausteinen des Spiels. Wenn der Ball einen Brick berührt, soll dieser aus dem Spiel entfernt werden. Berührt der Ball das Paddle, soll er in die entgegengesetzte Richtung zurückgespielt werden. Das klingt komplizierter, als es ist: Wir müssen lediglich mit einigen if-Abfragen die Position des Balls überprüfen. Außerdem wollen wir in diesem Schritt festlegen, wann der Spieler das Spiel gewonnen hat. Nämlich dann, wenn keine Bricks mehr übrig sind. Was genau passiert, wenn eine Kollision erkannt wird, legen wir im nächsten Schritt fest.
 
 ```python
 def check_brick_collision(x, y):
     """Check if ball hits a brick and remove it"""
     global bricks
-    
+
     for row in range(BRICK_ROWS):
         for col in range(BRICK_COLS):
             if bricks[row][col]:
                 brick_x = col * (BRICK_WIDTH + BRICK_SPACING) + 4
                 brick_y = row * (BRICK_HEIGHT + BRICK_SPACING) + 4
-                
-                if (x < brick_x + BRICK_WIDTH and 
+
+                if (x < brick_x + BRICK_WIDTH and
                     x + BALL_SIZE > brick_x and
-                    y < brick_y + BRICK_HEIGHT and 
+                    y < brick_y + BRICK_HEIGHT and
                     y + BALL_SIZE > brick_y):
                     bricks[row][col] = False
                     return True
@@ -237,8 +241,8 @@ def check_win():
     return True
 ```
 
-
 ### Schritt 6: Gameplay-Loop
+
 Zum Schluss wollen wir den sogenannten "Gameplay-Loop" definieren. Wir legen also fest, wann das Spiel startet und endet, wie es gesteuert wird und was genau dazwischen passiert. Im Grunde erstellen wir hier das Herz des Spiels. Erst jetzt wird das Programm wirklich zu einem Spiel.
 
 Zunächst nutzen wir die Funktionen aus Schritt 4, um die Spielelemente auf dem Display anzuzeigen und geben in der Python-Konsole am Rechner Informationen über das Spiel aus.
@@ -261,7 +265,7 @@ Danach legen wir den Spielstart mithilfe des Gyroskops fest. Dazu müssen wir di
 while True:
     # Read accelerometer
     accel_x, accel_y, accel_z = mpu.acceleration
-    
+
     # Check for shake (start/reset)
     if abs(accel_x) > 15 or abs(accel_y) > 15 or abs(accel_z) > 15:
         if game_over or game_won:
@@ -275,7 +279,7 @@ while True:
             game_over = False
             game_won = False
             bricks = [[True for _ in range(BRICK_COLS)] for _ in range(BRICK_ROWS)]
-            
+
             # Redraw everything
             display_group = create_display()
             paddle_sprite = draw_paddle(display_group, paddle_x)
@@ -300,29 +304,29 @@ Diese Abfragen sollen sehr häufig ausgeführt werden, damit sich das Spiel flü
         paddle_x += accel_y * PADDLE_SPEED
         paddle_x = max(0, min(128 - PADDLE_WIDTH, paddle_x))
         paddle_sprite.x = int(paddle_x)
-    
+
     # Update ball if game is running
     if game_started and not game_over and not game_won:
         # Move ball
         ball_x += ball_dx
         ball_y += ball_dy
-        
+
         # Ball collision with walls
         if ball_x <= 0 or ball_x >= 128 - BALL_SIZE:
             ball_dx = -ball_dx
             ball_x = max(0, min(128 - BALL_SIZE, ball_x))
-        
+
         if ball_y <= 0:
             ball_dy = -ball_dy
             ball_y = 0
-        
+
         # Ball collision with paddle
         if check_paddle_collision(ball_x, ball_y, paddle_x):
             ball_dy = -abs(ball_dy)
             # Add spin based on where ball hits paddle
             hit_pos = (ball_x + BALL_SIZE/2 - paddle_x) / PADDLE_WIDTH
             ball_dx = (hit_pos - 0.5) * 3
-        
+
         # Ball collision with bricks
         if check_brick_collision(ball_x, ball_y):
             ball_dy = -ball_dy
@@ -331,26 +335,26 @@ Diese Abfragen sollen sehr häufig ausgeführt werden, damit sich das Spiel flü
             paddle_sprite = draw_paddle(display_group, paddle_x)
             ball_sprite = draw_ball(display_group, ball_x, ball_y)
             display.root_group = display_group
-            
+
             # Check win
             if check_win():
                 game_won = True
                 print("YOU WIN!")
-        
+
         # Check game over
         if ball_y > 64:
             game_over = True
             print("GAME OVER!")
-        
+
         # Update ball position
         ball_sprite.x = int(ball_x)
         ball_sprite.y = int(ball_y)
-    
+
     time.sleep(0.03)
 ```
 
-
 ## Spielanleitung
+
 1. Spiel starten: Schüttle die senseBox kräftig um das Spiel zu starten
 2. Paddle steuern: Neige die senseBox nach links oder rechts um das Paddle zu bewegen
 3. Ziel: Zerstöre alle Blöcke mit dem Ball
@@ -368,11 +372,14 @@ Diese Abfragen sollen sehr häufig ausgeführt werden, damit sich das Spiel flü
 </div>
 
 ## Erweiterungen
+
 Du kannst das Spiel beliebig erweitern, falls du etwas hinzufügen möchtest. Du könntest zusätzliche Komponenten an deine MCU anschließen oder folgendes verändern:
+
 - Schwierigkeitsgrade: Ändere BALL_SPEED für verschiedene Schwierigkeiten
 - Mehr Blöcke: Erhöhe BRICK_ROWS für mehr Herausforderung
 - Power-Ups: Füge spezielle Blöcke hinzu, die das Paddle vergrößern
 - Punktezähler: Implementiere einen Score-Counter
 
 ## Sonstiges
+
 Den gesamten Code zum kopieren findest du [hier](https://docs.sensebox.de/docs/editors/circuitpython/circpy_example). Weitere Tutorials und Informationen zu CircuiPython findest du bei den [senseBox Docs](https://docs.sensebox.de/)

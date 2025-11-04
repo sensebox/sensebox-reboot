@@ -65,21 +65,21 @@ projects:
       description: "Ein Citizen-Science-Projekt in Essen, Deutschland, das die senseBox:bike zur Überwachung der Luftqualität und der Verkehrsbedingungen nutzt."
       image: "/images/products/bike/aufraedern.png"
       alt: "Essen auf Rädern"
-      link: 
+      link:
         url: "https://essen.aufraedern.org"
         text: "Mehr erfahren"
     - title: "ATRAI bikes"
       description: "Das ATRAI-Bike-Projekt zielt darauf ab, den urbanen Radverkehr zu verbessern, indem es Infrastruktur-Daten mit Hilfe von Bürgern, Unternehmen und lokalen Regierungen sammelt und analysiert."
       image: "/images/products/bike/ATRAI_bike_logo.png"
       alt: "ATRAI bikes logo"
-      link: 
-        url: "https://www.hs-osnabrueck.de/iip/"
+      link:
+        url: "https://atrai.bike/de"
         text: "Mehr erfahren"
     - title: "IP"
       description: "Eine gemeinschaftsorientierte Initiative in Münster und Osnabrück, die die senseBox:bike zur Sammlung von Daten zur Luftqualität und Verkehrssicherheit einsetzt."
       image: "/images/products/bike/iipLogo.png"
       alt: "IP"
-      link: 
+      link:
         url: "https://www.hs-osnabrueck.de/iip/"
         text: "Mehr erfahren"
 documents:

@@ -4,7 +4,7 @@ title: "Umstellung des senseBox-Newsletters"
 date: 2023-12-04
 author: Gina
 abstract: "Wir stellen unseren senseBox-Newsletter um. Du möchtest keine Informationen rund um die senseBox verpassen? Dann melde dich an!"
-thumbnail: /images/logos/sensebox_logo.svg
+thumbnail: /images/logos/senseBox_Icon_bunt.svg
 lang: de
 ---
 

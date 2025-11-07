@@ -95,4 +95,4 @@ documents:
         <i class="fab fa-github footer-icon px-1"></i> App: [senseBox:bike Flutter](https://github.com/reedu-reengineering-education/sensebox-bike-flutter)
     - title: "📚 Handbuch"
       description: |
-        <i class="fas fa-file footer-icon px-1"></i> Der Link wird in Kürze veröffentlicht.
+        <i class="fas fa-file footer-icon px-1"></i> Anleitung: [Aufbau](/docs/Aufbauanleitung_senseBoxbike.pdf)

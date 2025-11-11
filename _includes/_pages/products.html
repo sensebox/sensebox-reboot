@@ -1,17 +1,51 @@
 {% assign content = site.data.i18n.[page.lang].products %}
 
 <div class="container">
-
     <div class="row row-padding featurette">
         <div class="col-md-7 middle">
-            <h2 class="featurette-heading">senseBox:edu</h2>
-            <p class="lead">{{content.sensebox-edu-text}}
+            <h2 class="featurette-heading">senseBox:edu S2</h2>
+            <p class="lead">{{content.sensebox-edus2-text}}
             </p>
-            <p><a class="btn btn-sensebox-red" href="{{page.baseurl}}/{{page.lang}}/products-edu.html" role="button">{{
+            <p><a class="btn btn-sensebox-green" href="{{page.baseurl}}/{{page.lang}}/products-edus2.html" role="button">{{
                     content.sensebox-overview-button }}</a></p>
         </div>
         <div class="col-md-5 middle">
-            <img loading="lazy" class="featurette-image img-fluid mx-auto" src="/images/products/edu-2.png"
+            <img loading="lazy" class="featurette-image img-fluid mx-auto" src="/images/products/edus2_framed.png"
+                alt="Generic placeholder image">
+        </div>
+    </div>
+</div>
+
+<div style="background-color: whitesmoke;">
+    <div class="container">
+        <div class="row row-padding featurette">
+            <div class="col-md-7 order-md-2 middle">
+                <h2 class="featurette-heading">senseBox:edu</h2>
+                <p class="lead">{{content.sensebox-edu-text}}
+                </p>
+                <p><a class="btn btn-sensebox-red" href="{{ page.baseurl }}/{{ page.lang }}/products-edu.html"
+                        role="button">{{ content.sensebox-overview-button }}</a></p>
+            </div>
+            <div class="col-md-5 order-md-1 middle">
+                <img loading="lazy" class="featurette-image img-fluid mx-auto" src="/images/products/edu_framed.png"
+                    alt="Generic placeholder image">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+
+    <div class="row row-padding featurette">
+        <div class="col-md-7 middle">
+            <h2 class="featurette-heading">senseBox:home</h2>
+            <p class="lead">{{content.sensebox-home-text}}
+            </p>
+            <p><a class="btn btn-sensebox-blue" href="{{page.baseurl}}/{{page.lang}}/products-home.html" role="button">{{
+                    content.sensebox-overview-button }}</a></p>
+        </div>
+        <div class="col-md-5 middle">
+            <img loading="lazy" class="featurette-image img-fluid mx-auto" src="/images/products/home_framed.png"
                 alt="Generic placeholder image">
         </div>
     </div>
@@ -22,14 +56,14 @@
     <div class="container">
         <div class="row row-padding featurette">
             <div class="col-md-7 order-md-2 middle">
-                <h2 class="featurette-heading">senseBox:home</h2>
-                <p class="lead">{{content.sensebox-home-text}}
+                <h2 class="featurette-heading">senseBox:bike</h2>
+                <p class="lead">{{content.sensebox-bike-text}}
                 </p>
-                <p><a class="btn btn-sensebox-blue" href="{{ page.baseurl }}/{{ page.lang }}/products-home.html"
+                <p><a class="btn btn-sensebox-red" href="{{ page.baseurl }}/{{ page.lang }}/products-bike.html"
                         role="button">{{ content.sensebox-overview-button }}</a></p>
             </div>
             <div class="col-md-5 order-md-1 middle">
-                <img loading="lazy" class="featurette-image img-fluid mx-auto" src="/images/products/home-2.png"
+                <img loading="lazy" class="featurette-image img-fluid mx-auto" src="/images/products/bike_framed.png"
                     alt="Generic placeholder image">
             </div>
         </div>
@@ -45,8 +79,26 @@
                     role="button">{{ content.sensebox-overview-button }}</a></p>
         </div>
         <div class="col-md-5 middle">
-            <img loading="lazy" class="featurette-image img-fluid mx-auto" src="/images/products/mini.png"
+            <img loading="lazy" class="featurette-image img-fluid mx-auto" src="/images/products/mini_framed.png"
                 alt="Generic placeholder image">
+        </div>
+    </div>
+</div>
+
+<div style="background-color: whitesmoke;">
+    <div class="container">
+        <div class="row row-padding featurette">
+            <div class="col-md-7 order-md-2 middle">
+                <h2 class="featurette-heading">Air Quality Explorer Set</h2>
+                <p class="lead">{{content.sensebox-air-quality-text}}
+                </p>
+                <p><a class="btn btn-sensebox-blue" href="https://sensebox.kaufen/product/sensebox-edu-upgrade-kit"
+                        role="button">{{ content.sensebox-overview-button }}</a></p>
+            </div>
+            <div class="col-md-5 order-md-1 middle">
+                <img loading="lazy" class="featurette-image img-fluid mx-auto" src="/images/products/air-quality-explorer_framed.png"
+                    alt="Generic placeholder image">
+            </div>
         </div>
     </div>
 </div>
@@ -107,6 +159,39 @@
                     </div>
                 </div>
             </div>
+			
+			<div class="col-md-4">
+                <div class="card polygon-1" style="width: auto;">
+                    <img loading="lazy" src="/images/products/edus2/senseboxedus2_with_ring.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">senseBox:edu S2</h5>
+                        <p class="card-text">
+                        <ul>
+                            {{content.edus2-list}}
+                        </ul>
+                        </p>
+                        <a href="{{page.baseurl}}/{{page.lang}}/products-edus2.html"
+                            class="btn btn-sensebox-green">{{content.button}}</a>
+                    </div>
+                </div>
+            </div>
+			
+			<div class="col-md-4">
+                <div class="card polygon-1" style="width: auto;">
+                    <img loading="lazy" src="/images/products/edu_title.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">senseBox:bike</h5>
+                        <p class="card-text">
+                        <ul>
+                            {{content.bike-list}}
+                        </ul>
+                        </p>
+                        <a href="{{page.baseurl}}/{{page.lang}}/products-bike.html"
+                            class="btn btn-sensebox-red">{{content.button}}</a>
+                    </div>
+                </div>
+            </div>
+			
         </div>
     </div>
 </div>

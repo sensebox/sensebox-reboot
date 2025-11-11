@@ -8,9 +8,13 @@ sensebox-overview-home: Die senseBox:home ist ein Bausatz für eine Do-It-Yourse
 sensebox-overview-edu: Speziell für den Einsatz im Bildungsbereich wurde die senseBox:edu entwickelt. Spannende Projekte und viele kostenlose Lernmaterialien ermöglichen einen einfachen und unkomplizierten Einstieg. 
 sensebox-overview-mini: Die senseBox:mini ist das Set für den Einstieg in die Welt der senseBox. Sie bietet alles Nötige für erste eigene IoT-Projekte. Der enthaltene senseBox-Umweltsensor ermöglicht die Erfassung verschiedenster Umweltphänomene.
 
+sensebox-edus2-text: "Die senseBox:edu S2 ist die nächste Generation der senseBox:edu. Wie die Vorgängerversionen ist sie speziell für den Bildungsbereich konzipiert. Die S2 bietet einen erweiterten Hardwareumfang, um noch mehr Vielfalt in Projekten und Experimenten zu ermöglichen. Alles, was für den Einsatz im Unterricht benötigt wird, ist in einem robusten Kunststoffkoffer mit Schaumstoffeinlage untergebracht. Die Programmierung ist in senseBox-Blockly möglich und Unterrichtsmaterialien sowie Anleitungen und Projekte stehen als Open Educational Resources (OER) frei zur Verfügung."
 sensebox-edu-text: "Die senseBox:edu ist für den Einsatz in der Schule konzipiert, um Schüler:innen die Welt der Mikrokontroller und Programmierung durch Beispiele aus dem Bereich Umwelt näher zu bringen. Sie bietet den größten Hardwareumfang und ermöglicht somit eine riesige Auswahl von <a href=\"/de/projects.html\" target=\"_blank\" class=\"green-link\">Projekten und Experimenten</a>. Alle Bauteile befinden sich in einem robusten Kunststoffkoffer mit Schaumstoffeinlage. Die senseBox:edu bist somit perfekt für den Einsatz in der Schule gewappnet."
-sensebox-mini-text: "Die senseBox:mini ist das Einsteigerset in die Welt der senseBox. Mit ihr lässt sich in wenigen Minuten ein erstes Messgerät programmieren und die Daten ins Internet übertragen. Die Station kann zum dauerhaften Messen der Innenraumluftqualität sowie für eine Vielzahl von innovativen Projekten, wie einem Umweltdaten-Chatbot oder einer IoT-Alarmanlage, genutzt werden."
 sensebox-home-text: "Die senseBox:home ist die IoT-Umweltmessstation für stationäre und mobile Messungen im In- und Outdoorbereich. Bürgerwissenschaftler:innen, Interessierte und Kommunen messen damit Umweltdaten in ihrer Umgebung oder an anderen Orten, die von Interesse sind. Die Station wird als Bausatz geliefert, ist vollständig modular und somit nahezu grenzenlos erweiterbar."
+sensebox-bike-text: "Die senseBox:bike verwandelt dein Fahrrad in einen mobilen Umweltsensor. Damit kannst du während deiner Fahrt spannende Daten über deine Umgebung sammeln und Projekte rund um Umweltüberwachung und Nachhaltigkeit unterstützen. Mit modernen Sensoren und Echtzeitanalysen hilfst du dabei, städtische Herausforderungen datenbasiert anzugehen."
+sensebox-mini-text: "Die senseBox:mini ist das Einsteigerset in die Welt der senseBox. Mit ihr lässt sich in wenigen Minuten ein erstes Messgerät programmieren und die Daten ins Internet übertragen. Die Station kann zum dauerhaften Messen der Innenraumluftqualität sowie für eine Vielzahl von innovativen Projekten, wie einem Umweltdaten-Chatbot oder einer IoT-Alarmanlage, genutzt werden."
+sensebox-air-quality-text: "Das Air Quality Explorer Set ist eine Erweiterung für die senseBox:edu und die senseBox:edu S2. Mit dem Set kann die Luftqualität im Innenraum und im Freien untersucht werden. Enthalten sind ein CO₂-Sensor und ein Feinstaubsensor zusammen mit dem Zubehör, welches für den Anschluss an die senseBox Mikrocontroller benötigt wird."
+
 
 which-sensebox: "Welche senseBox ist die Richtige für mich?"
 i-want: "Ich möchte..."
@@ -27,8 +31,16 @@ home-list: "  <li>Die IoT-Umweltmessstation</li>
 mini-list: "   <li>Das Einsteigerset</li>
                             <li>Spannende Einstiegsprojekte</li>
                             <li>Blockly und Arduino kompatibel</li>"
-edu-list: " <li>Das Set für den Schuleinsatz</li>
+edu-list: " <li>Das Original-Set für den Schuleinsatz</li>
+                            <li>Breadboard inklusive</li>
+                            <li>Bildungsmaterialien inklusive</li>
+                            <li>Blockly und Arduino kompatibel</li>"
+edus2-list: " <li>Das neuste Set für den Schuleinsatz</li>
                             <li>Größter Hardwareumfang</li>
                             <li>Bildungsmaterialien inklusive</li>
-                            <li>Blockly und Arduino kompatibel</li>"                            
+                            <li>Blockly und Arduino kompatibel</li>"   
+bike-list: " <li>Das Fahrrad-Set für unterwegs</li>
+                            <li>Umweltdaten direkt vom Rad</li>
+                            <li>KI-Funktionen</li>
+                            <li>senseBox:bike App</li>"                               
 button: "Mehr Informationen"

@@ -25,26 +25,26 @@ pro-set: "Carefree package"
 
 
 home-list: "  <li>The IoT environmental station</li>
-                            <li>customisable</li>
-                            <li>no programming necessary</li>
+                            <li>Customisable</li>
+                            <li>No programming necessary</li>
                             <li>Blockly and Arduino compatible</li>
-                            <li>freely extendable</li>"
+                            <li>Freely extendable</li>"
 mini-list: "   <li>The beginner set</li>
-                            <li>teaching material inclusive</li>
+                            <li>Teaching material inclusive</li>
                             <li>Blockly and Arduino compatible</li>
-                            <li>freely extendable</li>"
+                            <li>Freely extendable</li>"
 edu-list: " <li>The original set for school use</li>
-                            <li>breadboard included</li>
-                            <li>teaching material included</li>
+                            <li>Breadboard included</li>
+                            <li>Teaching material included</li>
                             <li>Blockly and Arduino compatible</li>
-                            <li>freely extendable</li>"
+                            <li>Freely extendable</li>"
 edus2-list: " <li>The newest set for education</li>
-                            <li>many components onboard</li>
-                            <li>teaching material included</li>
+                            <li>Many components onboard</li>
+                            <li>Teaching material included</li>
                             <li>Blockly and Arduino compatible</li>
-                            <li>freely extendable</li>"
+                            <li>Freely extendable</li>"
 bike-list: " <li>The bicycle set for on the go</li>
-                            <li>environmental data from your bike</li>
+                            <li>Environmental data from your bike</li>
                             <li>AI-functions</li>
-                            <li>senseBox:bike App</li>"                           
+                            <li>SenseBox:bike app</li>"                           
 button: "More Information"

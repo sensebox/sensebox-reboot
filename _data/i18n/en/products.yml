@@ -2,7 +2,6 @@ boards-title: "senseBox:boards"
 boards-text: "The core of every senseBox project is an Arduino-compatible microcontroller, which allows the connection of various sensors and data transmission modules. Depending on your needs and application, there are different versions with specific features: the senseBox MCU, the senseBox MCU mini, and the senseBox MCU S2. The following sections introduce these three boards."
 
 
-
 sensebox-overview: The senseBox:family at a glance
 sensebox-overview-button: More Information &raquo;
 sensebox-overview-home: The senseBox:home is a kit for a do-it-yourself environmental measuring station. Thanks to its modular design, each senseBox:home can be put together individually.
@@ -10,8 +9,10 @@ sensebox-overview-edu: The senseBox:edu was developed especially for use in the 
 sensebox-overview-mini: The senseBox:mini the set for the entry into the world of senseBox. It offers everything you need for your first IoT projects. The included senseBox environmental sensor enables the detection of a wide range of environmental phenomena.
 
 sensebox-edu-text: "The senseBox:edu is your carefree package for entering the world of microcontrollers and programming. The senseBox:edu offers the largest hardware range in the senseBox:family and thus enables a huge selection of projects and experiments. All components are located in a robust plastic case with foam inlay. So you are perfectly prepared for the use in school."
+sensebox-edus2-text: The senseBox:edu S2 is the next generation of the senseBox:edu. Like its predecessors, it is specifically designed for the education sector. The S2 offers an expanded hardware scope to allow even more diversity in projects and experiments. The ESP S2 microcontroller has many components integrated directly on the board, such as an RGB LED, a battery charger for uncomplicated and reliable power supply, as well as Wi-Fi and an mSD card for data storage. This is simplifying assembly and saving time.
 sensebox-mini-text: "The senseBox:mini the starter set into the world of senseBox. With it, a first measuring device which transfers the data to the Internet can be programmed in just a few minutes. The station can be used for continuous measurement of indoor air quality and for a variety of innovative projects such as an environmental data chatbot or an IoT alarm system."
 sensebox-home-text: "The senseBox:home is the stationary IoT environmental measuring station for outdoor measurements. Citizens, interested parties and local authorities use it to measure environmental data at their places of residence or wherever it is of interest. The station is supplied as a kit, is completely modular and therefore almost limitlessly expandable."
+sensebox-bike-text: "The senseBox:bike is an innovative device that transforms your bicycle into a mobile environmental sensor with advanced AI capabilities. It allows cyclists to collect valuable data about their surroundings while riding, contributing to urban environmental monitoring and citizen science projects. With its advanced sensors, real-time analysis capabilities, and on-device machine learning, the senseBox:bike empowers you to become an active participant in understanding and improving your local environment while enhancing your cycling safety."
 
 which-sensebox: "Which senseBox is the right one for me?"
 i-want: "I want to..."
@@ -28,13 +29,22 @@ home-list: "  <li>The IoT environmental station</li>
                             <li>no programming necessary</li>
                             <li>Blockly and Arduino compatible</li>
                             <li>freely extendable</li>"
-mini-list: "   <li>Das Einsteigerset</li>
+mini-list: "   <li>The beginner set</li>
                             <li>teaching material inclusive</li>
                             <li>Blockly and Arduino compatible</li>
                             <li>freely extendable</li>"
-edu-list: " <li>Das Set für den Schuleinsatz</li>
-                            <li>largest hardware inventory</li>
-                            <li>teaching material inclusive</li>
+edu-list: " <li>The original set for school use</li>
+                            <li>breadboard included</li>
+                            <li>teaching material included</li>
                             <li>Blockly and Arduino compatible</li>
-                            <li>freely extendable</li>"                          
+                            <li>freely extendable</li>"
+edus2-list: " <li>The newest set for education</li>
+                            <li>many components onboard</li>
+                            <li>teaching material included</li>
+                            <li>Blockly and Arduino compatible</li>
+                            <li>freely extendable</li>"
+bike-list: " <li>The bicycle set for on the go</li>
+                            <li>environmental data from your bike</li>
+                            <li>AI-functions</li>
+                            <li>senseBox:bike App</li>"                           
 button: "More Information"

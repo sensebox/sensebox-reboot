@@ -95,4 +95,4 @@ Neben der Einführung im Video findest du drei weitere Projekte auf unserer Webs
 
 ## Shop
 
-Das Bluetooth Bee wurde mit Unterstüzung der Deutschen Telekom Stiftung entwickelt und ist ab sofort bei uns im Shop erhältlich [https://sensebox.kaufen/product/bluetooth-bee](https://sensebox.kaufen/product/bluetooth-bee)
+Das Bluetooth Bee wurde mit Unterstüzung der Deutschen Telekom Stiftung entwickelt und ist ab sofort bei uns im Shop erhältlich [https://sensebox.kaufen/collections/bees/products/bluetooth-bee](https://sensebox.kaufen/collections/bees/products/bluetooth-bee)

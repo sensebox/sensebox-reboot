@@ -6,7 +6,7 @@
 - author: Eric 
   date: 2024-12-06
   headline: Neu im Shop! Das Air Quality Explorer Set 
-  text: Mit dem Air Quality Explorer Set kann die Luftqualität im Innenraum und im Freien untersucht werden. Enthalten sind ein CO₂-Sensor und ein Feinstaubsensor zusammen mit dem Zubehör, welches für den Anschluss an die senseBox Mikrocontroller benötigt wird. Es ist sowohl mit der senseBox:edu als auch mit der senseBox:edu S2 kompatibel. Zum <a href="https://sensebox.kaufen/product/sensebox-edu-upgrade-kit" class="green-link"> Air Quality Explorer Set  </a>
+  text: Mit dem Air Quality Explorer Set kann die Luftqualität im Innenraum und im Freien untersucht werden. Enthalten sind ein CO₂-Sensor und ein Feinstaubsensor zusammen mit dem Zubehör, welches für den Anschluss an die senseBox Mikrocontroller benötigt wird. Es ist sowohl mit der senseBox:edu als auch mit der senseBox:edu S2 kompatibel. Zum <a href="https://sensebox.kaufen/products/sensebox-edu-upgrade-kit" class="green-link"> Air Quality Explorer Set  </a>
   active: true
 - author: Eric 
   date: 2024-10-30
@@ -16,7 +16,7 @@
 - author: Gina
   date: 2024-02-20
   headline: Neu im Shop! Die senseBox:edu S2
-  text: Die senseBox:edu S2 ist die nächste Generation der senseBox:edu. Wie die Vorgängerversionen ist sie speziell für den Bildungsbereich konzipiert. Die S2 bietet einen erweiterten Hardwareumfang, um noch mehr Vielfalt in Projekten und Experimenten zu ermöglichen. Weitere neue Features:Eine LED-Matrix zur farblichen Darstellung und zur Vermittlung weiterer Konzepte aus der Informatik (z.B. Arrays), der Time-of-Flight-Sensor, um hochauflösende Tiefenbilder zu erzeugen sowie ein integrierter Akkuladeregler für eine unkomplizierte und zuverlässige Stromversorgung und ESP Now zur direkten Kommunikation zwischen mehreren MCUs S2. Zur <a href="https://sensebox.kaufen/product/sensebox-edu-s2" class="green-link">senseBox:edu S2</a>
+  text: Die senseBox:edu S2 ist die nächste Generation der senseBox:edu. Wie die Vorgängerversionen ist sie speziell für den Bildungsbereich konzipiert. Die S2 bietet einen erweiterten Hardwareumfang, um noch mehr Vielfalt in Projekten und Experimenten zu ermöglichen. Weitere neue Features:Eine LED-Matrix zur farblichen Darstellung und zur Vermittlung weiterer Konzepte aus der Informatik (z.B. Arrays), der Time-of-Flight-Sensor, um hochauflösende Tiefenbilder zu erzeugen sowie ein integrierter Akkuladeregler für eine unkomplizierte und zuverlässige Stromversorgung und ESP Now zur direkten Kommunikation zwischen mehreren MCUs S2. Zur <a href="https://sensebox.kaufen/products/sensebox-edu-s2" class="green-link">senseBox:edu S2</a>
 - author: Eric
   date: 2023-12-05
   headline: senseBox:bike - jetzt bestellen
@@ -24,7 +24,7 @@
 - author: Eric
   date: 2023-11-01
   headline: Der senseBox Regensensor
-  text: Wir freuen uns, den brandneuen Regensensor für senseBox vorzustellen! Jetzt erhältlich, um präzise Niederschläge in Echtzeit zu erfassen. Integriere ihn nahtlos in deine senseBox MCU, MCU mini oder MCU S2 und optimiere deine Projekte für jede Wetterlage. Zum <a href="https://sensebox.kaufen/product/hydreon-rg-15-regensensor" target="_blank" class="green-link">Sensor</a>
+  text: Wir freuen uns, den brandneuen Regensensor für senseBox vorzustellen! Jetzt erhältlich, um präzise Niederschläge in Echtzeit zu erfassen. Integriere ihn nahtlos in deine senseBox MCU, MCU mini oder MCU S2 und optimiere deine Projekte für jede Wetterlage. Zum <a href="https://sensebox.kaufen/collections/sensoren/products/hydreon-rg-15-regensensor" target="_blank" class="green-link">Sensor</a>
 - author: Gina
   date: 2023-05-25
   headline: Neue Blockly-Version für die senseBox
@@ -40,7 +40,7 @@
 - author: Gina
   date: 2022-12-18
   headline: Klein & kompakt - die neue senseBox MCU mini
-  text: Die senseBox gibt es nun im Miniaturformat! Das kleine Messgerät ist etwa so groß wie das OLED-Display und ist damit ideal für mobile Erhebungen z.B. zu Fuß oder mit dem Fahrrad geeignet. Es lässt sich genauso in Arduino programmieren wie die MCU und ist auch in Blockly integriert. So können auch ohne Programmiervorkenntnisse verschiedene Experimente durchgeführt werden. Wie ihr eure eigene Mini-Umweltmessstation zusammenbaut erfahrt ihr <a href="https://sensebox.de/projects/de/2022-12-19-messstation-mini" class="green-link">hier</a>. Die senseBox MCU mini ist als einzelnes <a href="https://sensebox.kaufen/product/sensebox-mcu-mini" class="green-link">Board</a> oder als <a href="https://sensebox.kaufen/product/sensebox-mini-v2" class="green-link">Bausatz</a> erhältlich. Wir wünschen viel Spaß beim Ausprobieren!
+  text: Die senseBox gibt es nun im Miniaturformat! Das kleine Messgerät ist etwa so groß wie das OLED-Display und ist damit ideal für mobile Erhebungen z.B. zu Fuß oder mit dem Fahrrad geeignet. Es lässt sich genauso in Arduino programmieren wie die MCU und ist auch in Blockly integriert. So können auch ohne Programmiervorkenntnisse verschiedene Experimente durchgeführt werden. Wie ihr eure eigene Mini-Umweltmessstation zusammenbaut erfahrt ihr <a href="https://sensebox.de/projects/de/2022-12-19-messstation-mini" class="green-link">hier</a>. Die senseBox MCU mini ist als einzelnes <a href="https://sensebox.kaufen/product/sensebox-mcu-mini" class="green-link">Board</a> oder als <a href="https://sensebox.kaufen/product/sensebox-mcu-mini" class="green-link">Bausatz</a> erhältlich. Wir wünschen viel Spaß beim Ausprobieren!
   active: false
 
 - author: Mario

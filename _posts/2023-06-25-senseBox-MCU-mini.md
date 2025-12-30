@@ -48,4 +48,4 @@ Mehr dazu erfährst du auch in unserer [Anleitung](https://docs.sensebox.de/hard
 
 ## Shop
 
-Die senseBox MCU mini ist als Bausatz der [senseBox:mini V2](https://sensebox.kaufen/product/sensebox-mini-v2) oder einzeln als [Board](https://sensebox.kaufen/product/sensebox-mcu-mini) erhältlich!
+Die senseBox MCU mini ist als Bausatz der [senseBox:mini V2](https://sensebox.kaufen/products/sensebox-mcu-mini-v2) oder einzeln als [Board](https://sensebox.kaufen/product/sensebox-mcu-mini) erhältlich!

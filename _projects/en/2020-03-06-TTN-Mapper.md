@@ -17,21 +17,21 @@ image9: /images/projects/TTN-Mapper/ttn-mapper.jpeg
 image10: /images/projects/TTN-Mapper/cayenne.png
 
 material:
-    - senseBox MCU
-    - 1x JST-cable 
-    - LoRa-Bee
-    - GPS module
-ide: blockly  
+  - senseBox MCU
+  - 1x JST-cable
+  - LoRa-Bee
+  - GPS module
+ide: blockly
 version: ["edu", "mini v1"]
-addons: ["LoRa-Bee"]  
+addons: ["LoRa-Bee"]
 lang: en
 tags: ["Geography", "Computer Science", "TTN"]
 difficult: medium
 ---
+
 # senseBox TTN Mapper
 
 The goal is to develop a senseBox TTN mapper with LoRaWAN module. The data will be sent via the free network [TheThingsNetwork](https://www.thethingsnetwork.org/) to the TTN Mapper Application. The [TTN Mapper](http://ttnmapper.org/) is an application to identify places with LoRaWAN connectivity. With our senseBox we want to contribute to the platform.
-
 
 ## Hardware
 
@@ -41,7 +41,7 @@ The goal is to develop a senseBox TTN mapper with LoRaWAN module. The data will 
 	</div>
 </div>
 
-You will need a senseBox MCU, a LoRa-Bee and a GPS module. You can find a set of those in our shop: [https://sensebox.shop/product/sensebox-ttn-mapper-set](https://sensebox.shop/product/sensebox-ttn-mapper-set)
+You will need a senseBox MCU, a LoRa-Bee and a GPS module. You can find a set of those in our shop: [https://sensebox.kaufen](https://sensebox.kaufen)
 
 Start by connecting the LoRa-Bee to XBEE1 on your senseBox MCU. Additionally, connect the GPS module via I2C to the senseBox MCU. You are now ready to go.
 
@@ -49,11 +49,11 @@ Additionally, you will need a mobile power supply. The easiest way is a USB powe
 
 ## Registration at TheThingsNetwork
 
-Visit the website [thethingsnetwork.org](https://www.thethingsnetwork.org/) and create an account. If you are logged in, visit the [TTN Console](https://console.thethingsnetwork.org/). Click on  "Applications" and create a new application on the following page. Enter an "Application ID" there, which is unique. Leave all other options unchanged.
+Visit the website [thethingsnetwork.org](https://www.thethingsnetwork.org/) and create an account. If you are logged in, visit the [TTN Console](https://console.thethingsnetwork.org/). Click on "Applications" and create a new application on the following page. Enter an "Application ID" there, which is unique. Leave all other options unchanged.
 
 {% include image.html image=page.image1 %}
 
-Then you will get an overview with the selected "Application ID" and the "Application EUIS". 
+Then you will get an overview with the selected "Application ID" and the "Application EUIS".
 
 {% include image.html image=page.image2 %}
 
@@ -73,15 +73,13 @@ Last but not least we need to change the Payload Format in order to send Cayenne
 
 {% include image.html image=page.image10 %}
 
+## Blockly
 
-## Blockly 
-
-
-Open [Blockly](https://blockly.sensebox.de/ardublockly/?board=sensebox-mcu?lang=en) and start developing code for your senseBox MCU. As we want to use TTN's infrastructure, we need to perform an activation. Select the OTAA activation. Depending on your needs, you can change the transmission interval. Keep in mind that TTN runs on a fair use policy, which means that you should keep your transmission rate as low as possible. 
+Open [Blockly](https://blockly.sensebox.de/ardublockly/?board=sensebox-mcu?lang=en) and start developing code for your senseBox MCU. As we want to use TTN's infrastructure, we need to perform an activation. Select the OTAA activation. Depending on your needs, you can change the transmission interval. Keep in mind that TTN runs on a fair use policy, which means that you should keep your transmission rate as low as possible.
 
 {% include image.html image=page.image6 %}
 
-Insert your TTN keys now. Here it is important to use the correct format of the keys. The "Device EUI" and the "Application EUI" are stored in ``lsb`` format. The AppKey in ``msb`` format. 
+Insert your TTN keys now. Here it is important to use the correct format of the keys. The "Device EUI" and the "Application EUI" are stored in `lsb` format. The AppKey in `msb` format.
 
 When copying the keys you must therefore make sure that your Device Overview is set up as shown in the following picture. You can change the format of the display by pressing the icons at the beginning (<> and ⇆)
 
@@ -109,7 +107,6 @@ and replace EXPERIMENT_NAME with your experiment name. It can take a while until
 
 {% include image.html image=page.image9 %}
 
-
 ## Troubleshooting
 
 You can check the incoming LoRa data in your TTN console. In your application, click the `Data` tab and you will see incoming messages. If there are no messages, please check your EUIs and their format. If there is no TTN coverage in your area, you will also not be able to see incoming messages.
@@ -117,4 +114,5 @@ You can check the incoming LoRa data in your TTN console. In your application, c
 Please notice that it can take quite a while until the GPS module receives GPS data. Sometimes, it takes up to multiple hours on the first time. After the module successfully received some information, it usually won't take that long on the next time. It helps to insert a small coin cell to the GPS module.
 
 ## Entire Code
+
 You can find the finished Blockly Code [here](https://blockly.sensebox.de/gallery/63b6d65dd2853f0013b1da8e).

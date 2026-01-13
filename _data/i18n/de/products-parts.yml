@@ -39,7 +39,7 @@ parts-sensors-GPS-text: "Längengrad, Breitengrad & Höhe ü. NN (kompatibel mit
 parts-sensors-GPS-link: "https://sensebox.kaufen/products/gps-empfanger"
 parts-sensors-PM: "Feinstaub"
 parts-sensors-PM-text: "Feinstaub in PM10 & PM2,5 in μg/cm&sup3 (Auflösung bis zu 0,3 μg/cm&sup3)"
-parts-sensors-PM-link: "https://sensebox.kaufen/product/feinstaub-sds011"
+parts-sensors-PM-link: "https://sensebox.kaufen/products/feinstaubsensor-sds11"
 parts-sensors-SMT: "Bodentemperatur & -feuchtigkeit"
 parts-sensors-SMT-text: "Bodentemperatur in °C (-20-85 °C, ±0,8 °C)<br>Volumetrischer Wassergehalt in % (0-50 %, ± 3 %)"
 parts-sensors-SMT-link: "https://sensebox.kaufen/products/bodenfeuchte-temperatursensor"
@@ -61,8 +61,6 @@ parts-sensors-waterthermometer-link: "https://sensebox.kaufen/product/wasserterm
 parts-sensors-tof: "ToF Distanzsensor"
 parts-sensors-tof-text: "Abstandsmessungen in einer 8x8 Matrix mit bis zu 400cm Distanz"
 parts-sensors-tof-link: "https://sensebox.kaufen/product/time-of-flight-sensor"
-
-
 
 parts-bees-title: "XBees"
 parts-bees-text: "Um die gemessenen Daten deiner senseBox zu speichern oder ins Internet zu übertragen, können verschiedene Verbindugsmodule, sogenannte XBees, aufgesteckt werden."
@@ -115,7 +113,6 @@ parts-accessories-one-wire-link: "https://sensebox.kaufen/collections/kabel-adap
 parts-accessories-led-matrix: "LED-Matrix "
 parts-accessories-led-matrix-text: "Die LED-Matrix der senseBox dient zur Darstellung von Texten, Symbolen und Mustern und ist ideal für visuelle Ausgaben und Anzeigen."
 parts-accessories-led-matrix-link: "https://sensebox.kaufen/products/led-matrix"
-
 
 parts-accessories-battery-holder: "Batteriehalterung"
 parts-accessories-battery-holder-text: "Der Battery Holder der senseBox versorgt die Hardware flexibel und mobil mit Energie."

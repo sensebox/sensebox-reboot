@@ -1,14 +1,14 @@
-- author: Gina 
+- author: Gina
   date: 2025-06-25
   headline: Übertragung deines Programms "Over-The-Air"
   text: Übertrage deine selbst erstellten Blockly-Programme kabellos per WiFi auf deine senseBox MCU S2 – ganz einfach mit der senseBox Connect App mit deinem Tablet. Dazu einfach die App installieren, den Over-The-Air (OTA)-Modus aktivieren, WiFi-ID eingeben – und schon kannst du deinen Programmcode drahtlos übertragen. Zur <a href="https://sensebox.de/de/app" class="green-link"> senseBox Connect App  </a>
   active: true
-- author: Eric 
+- author: Eric
   date: 2024-12-06
-  headline: Neu im Shop! Das Air Quality Explorer Set 
-  text: Mit dem Air Quality Explorer Set kann die Luftqualität im Innenraum und im Freien untersucht werden. Enthalten sind ein CO₂-Sensor und ein Feinstaubsensor zusammen mit dem Zubehör, welches für den Anschluss an die senseBox Mikrocontroller benötigt wird. Es ist sowohl mit der senseBox:edu als auch mit der senseBox:edu S2 kompatibel. Zum <a href="https://sensebox.kaufen/products/sensebox-edu-upgrade-kit" class="green-link"> Air Quality Explorer Set  </a>
+  headline: Neu im Shop! Das Air Quality Explorer Set
+  text: Mit dem Air Quality Explorer Set kann die Luftqualität im Innenraum und im Freien untersucht werden. Enthalten sind ein CO₂-Sensor und ein Feinstaubsensor zusammen mit dem Zubehör, welches für den Anschluss an die senseBox Mikrocontroller benötigt wird. Es ist sowohl mit der senseBox:edu als auch mit der senseBox:edu S2 kompatibel. Zum <a href="https://sensebox.kaufen/products/air-quality-explorer-set-sl" class="green-link"> Air Quality Explorer Set  </a>
   active: true
-- author: Eric 
+- author: Eric
   date: 2024-10-30
   headline: senseBox:bike im WDR!
   text: Die senseBox war im WDR zu sehen! Im Beitrag wurde unsere „senseBox:bike“ von unserem Erfinder und IT-Experten Felix vorgestellt. Anlass des Interviews war der Workshop "Mit der senseBox:bike zur datenbasierten Fahrradstadt" mit 20 Münsteraner Bürger:innen, die anhand eigener Umwelt- und Verkehrsdaten die Mobilitätswende mitgestalten wollten.   <a href="https://www1.wdr.de/nachrichten/westfalen-lippe/ki-fahrraddaten-muenster-100.html" class="green-link">Hier</a> geht es zum Online-Beitrag und mehr zum Workshop erfährst du <a href ="https://blog.52north.org/2024/11/05/empowering-communities-atrai-bikes-workshop-for-smarter-safer-streets/" class="green-link">hier </a>.

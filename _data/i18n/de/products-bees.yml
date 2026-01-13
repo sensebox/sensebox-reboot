@@ -39,7 +39,7 @@ parts-sensors-GPS-text: "Längengrad, Breitengrad & Höhe ü. NN (kompatibel mit
 parts-sensors-GPS-link: "https://sensebox.kaufen/products/gps-empfanger"
 parts-sensors-PM: "Feinstaub"
 parts-sensors-PM-text: "Feinstaub in PM10 & PM2,5 in μg/cm&sup3 (Auflösung bis zu 0,3 μg/cm&sup3)"
-parts-sensors-PM-link: "https://sensebox.kaufen/product/feinstaub-sds011"
+parts-sensors-PM-link: "https://sensebox.kaufen/products/feinstaubsensor-sds11"
 parts-sensors-SMT: "Bodentemperatur & -feuchtigkeit"
 parts-sensors-SMT-text: "Bodentemperatur in °C (-20-85 °C, ±0,8 °C)<br>Volumetrischer Wassergehalt in % (0-50 %, ± 3 %)"
 parts-sensors-SMT-link: "https://sensebox.kaufen/products/bodenfeuchte-temperatursensor"

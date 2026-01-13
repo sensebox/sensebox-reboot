@@ -21,7 +21,7 @@ difficult: leicht
 ---
 # senseBox I2C-Multiplexer
 Bei der I2C Schnittstelle kann es vorkommen, dass zwei oder mehrere Geräte die gleiche Adresse nutzen. Auch wenn man zwei gleiche Sensoren nutzen möchte, tritt dieses Problem auf. Hierbei hilft ein sogenannter Multiplexer. Angeschlossen wird er ebenfalls an den I2C Anschluss vom Controller. Danach sendet man an seine Adresse (0x77) einen Befehl mit einer Kanalnummer von 0-7 (entspricht der Nummerierung 1-8 auf dem Multiplex), mit der man kommunizieren möchte. Alle weiteren Befehle werden danach an den entsprechenden Kanal umgeleitet. 
-Im Folgenden ein Beispiel für die Implementierung von drei [HDC1080 Sensoren aus der senseBox Baureihe](https://sensebox.kaufen/product/temperatur-luftfeuchte). 
+Im Folgenden ein Beispiel für die Implementierung von drei [HDC1080 Sensoren aus der senseBox Baureihe](https://sensebox.kaufen/products/temperatur-luftfeuchtesensor). 
 
 ## Aufbau
 

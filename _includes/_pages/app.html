@@ -1,9 +1,51 @@
 {% assign t = site.data.i18n.[page.lang].app %}
 <div class="container">
   <div class="row row-padding">
-    <div class="col-lg-12 pb-4 middle">
-      <h1>senseBox Connect App</h1>
-    </div>
+<div class="col-lg-12 pb-2 text-center">
+
+  <h1>senseBox Connect App</h1>
+  <div class="d-flex justify-content-center flex-wrap gap-3 my-4">
+    <a
+      href="https://apps.apple.com/app/id1586961095#?platform=ipad"
+      target="_blank"
+      aria-label="Download on the App Store"
+    >
+      <object
+        style="pointer-events: none"
+        data="/images/app/Download_on_the_App_Store_Badge_DE_RGB_blk_092917.svg"
+        type="image/svg+xml"
+        height="75"
+      >
+        <span>Your browser doesn't support SVG images</span>
+      </object>
+    </a>
+
+    <a
+      href="https://play.google.com/store/apps/details?id=de.sensebox.blockly.connect&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
+      target="_blank"
+      aria-label="Download on Google Play"
+    >
+      <object
+        style="pointer-events: none"
+        data="/images/app/google-play-badge.png"
+        type="image/png"
+        height="75"
+      >
+        <span>Your browser doesn't support PNG images</span>
+      </object>
+    </a>
+
+  </div>
+
+  <p class="text-muted small mb-1">
+    Apple, das Apple-Logo und iPhone sind Marken von Apple Inc.
+  </p>
+  <p class="text-muted small">
+    Google Play und das Google-Play-Logo sind Marken von Google LLC.
+  </p>
+
+</div>
+
 
     <!-- Tab-System -->
     <div class="tabs">
@@ -18,168 +60,267 @@
         <!-- Tab 1: MCU -->
         <div id="tab-mcu" class="tab-pane active">
           <div class="col-12">
-            <h2>{{ t.preperations-head }}</h2>
-            <p>{{ t.preperations-text1 }}</p>
-            <ol>
-              <li>
-                <p>{{ t.preperations-text2 }}</p>
-                <a href="https://apps.apple.com/app/id1586961095#?platform=ipad" target="_blank" style="display: inline-block; padding: 20px;" aria-label="Download on the App Store">
-                  <object style="pointer-events: none" data="/images/app/Download_on_the_App_Store_Badge_DE_RGB_blk_092917.svg" type="image/svg+xml" width="auto" height="75px">
-                    <span>Your browser doesn't support SVG images</span>
-                  </object>
-                </a>
-                <a href="https://play.google.com/store/apps/details?id=de.sensebox.blockly.connect&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1" target="_blank" style="display: inline-block; padding: 20px;" aria-label="Download on Google Play">
-                  <object style="pointer-events: none" data="/images/app/google-play-badge.png" type="image/png" width="auto" height="75px">
-                    <span>Your browser doesn't support PNG images</span>
-                  </object>
-                </a>
-                <p>
-                  <small>Apple, das Apple-Logo und iPhone sind Marken von Apple Inc. und in den USA und anderen Ländern eingetragen. App Store ist eine Dienstleistungsmarke von Apple Inc.</small>
-                </p>
-                <p>
-                  <small>Google Play und das Google Play-Logo sind Marken von Google LLC.</small>
-                </p>
-              </li>
-              <li>
-                <p>{{ t.preperations-text3 }}</p>
-                <p>{{ t.preperations-text4 }}</p>
-                <div class="row">
-                  <div class="col-6">
-                    {% include image.html image="/images/app/wifi-id.jpg" %}
-                  </div>
-                  <div class="col-6">
-                    {% include image.html image="/images/app/wifibee.jpeg" %}
-                  </div>
-                </div>
-              </li>
-              <li>
-                <p>{{ t.preperations-text5 }}</p>
-                <em>{{ t.preperations-text6 }}</em>
-                <p>
-                  <a class="btn btn-sensebox-green" href="/docs/sensebox-ota_display.bin">Download</a>
-                </p>
-              </li>
-              <li>
-                <p>{{ t.preperations-text7 }}</p>
-              </li>
-            </ol>
+  <h2 class="mb-4">{{ t.preperations-head }}</h2>
+
+  <p class="mb-4">
+    {{ t.preperations-text1 | markdownify }}
+  </p>
+
+  <ol class="programming-steps">
+
+    <!-- Schritt 1 -->
+    <li class="programming-step">
+      <div class="step-content">
+
+        <p class="step-text">
+          {{ t.preperations-text3 | markdownify }}
+        </p>
+
+
+        <div class="step-image-row">
+          <div class="step-image">
+            {% include image.html image="/images/app/wifi-id.jpg" %}
           </div>
+          <div class="step-image">
+            {% include image.html image="/images/app/wifibee.jpeg" %}
+          </div>
+        </div>
+
+      </div>
+    </li>
+
+    <!-- Schritt 2 -->
+    <li class="programming-step">
+      <div class="step-content">
+
+        <p class="step-text">
+          {{ t.preperations-text5 }}
+        </p>
+
+        <p class="step-note">
+          {{ t.preperations-text6 }}
+        </p>
+
+        <div class="text-center mt-3">
+          <a
+            class="btn btn-sensebox-green"
+            href="/docs/sensebox-ota_display.bin"
+          >
+            Download
+          </a>
+        </div>
+
+      </div>
+    </li>
+
+    <!-- Schritt 3 -->
+    <li class="programming-step">
+      <div class="step-content">
+
+        <p class="step-text">
+          {{ t.preperations-text7 }}
+        </p>
+
+      </div>
+    </li>
+
+  </ol>
+</div>
+
           <div class="col-12">
-            <h2>{{ t.programming-head }}</h2>
-            <ol>
-              <li>
-                <p>
-                  Erstelle deinen Programmcode in der
-                  <a href="https://blockly-react.netlify.app/" aria-label="senseBox Lern- und Programmierumgebung">senseBox Lern- und Programmierumgebung</a>
-                  {% include image.html image="/images/app/IMG_0067.PNG" %}
-                </p>
-                <p>{{ t.programming-text1 }}</p>
-                {% include image.html image="/images/app/tablet_modus01.png" %}
-                <p>{{ t.programming-text2 }}</p>
-              </li>
-              <li>
-                {{ t.programming-text3 }}
-                {% include image.html image="/images/app/IMG_0068.PNG" %}
-              </li>
-              <li>
-                {{ t.programming-text4 }}
-                {% include image.html image="/images/app/IMG_0069.PNG" %}
-              </li>
-              <li>
-                {{ t.programming-text5 }}
-                {% include image.html image="/images/app/ota_app_screen.png" %}
-              </li>
-              <li>
-                {{ t.programming-text6 }}
-                <p>Im Video siehst du, wie du den OTA-Modus aktivierst.</p>
-                {% include youtube.html id="CIujBPkHevk" %}
-              </li>
-              <li>
-                {{ t.programming-text7 }}
-              </li>
-              <li>
-                {{ t.programming-text8 }}
-                {% include image_center.html image="/images/app/finish_new.png" %}
-              </li>
-            </ol>
-          </div>
+  <h2 class="mb-4">{{ t.programming-head }}</h2>
+
+  <ol class="programming-steps">
+
+    <li class="programming-step">
+      <div class="step-content">
+        <p class="step-text">
+          {{ t.programming-text1 }}
+        </p>
+
+        <div class="step-image">
+          {% include image.html image="/images/app/uiBlockly.png" %}
+        </div>
+
+        <p class="step-text">
+          {{ t.programming-text2 }}
+        </p>
+      </div>
+    </li>
+
+    <li class="programming-step">
+      <div class="step-content">
+        <p class="step-text">
+          {{ t.programming-text3 }}
+        </p>
+
+        <div class="step-image">
+          {% include image.html image="/images/app/compile.gif" %}
+        </div>
+      </div>
+    </li>
+
+    <li class="programming-step">
+      <div class="step-content">
+        <p class="step-text">
+          {{ t.programming-otamodeMCU }}
+        </p>
+
+        <div class="">
+          {% include youtube.html id="CIujBPkHevk" %}
+        </div>
+      </div>
+    </li>
+
+    <li class="programming-step">
+      <div class="step-content">
+        <p class="step-text">
+          {{ t.programming-text5 }}
+        </p>
+
+        <div class="step-image">
+          {% include image.html image="/images/app/wifiSettings.png" %}
+        </div>
+      </div>
+    </li>
+
+    <li class="programming-step">
+      <div class="step-content">
+        <p class="step-text">
+          {{ t.programming-text6 }}
+        </p>
+      </div>
+    </li>
+
+  </ol>
+</div>
+
         </div>
 
         <!-- Tab 2: MCU-S2 -->
         <div id="tab-mcu-s2" class="tab-pane">
          <div class="col-12">
-          <div class="col-12">
-            <h2>{{ t.preperations-head }}</h2>
-            <p>{{ t.preperations-text1 }}</p>
-            <ol>
-              <li>
-                <p>{{ t.preperations-text2 }}</p>
-                <a href="https://apps.apple.com/app/id1586961095#?platform=ipad" target="_blank" style="display: inline-block; padding: 20px;" aria-label="Download on the App Store">
-                  <object style="pointer-events: none" data="/images/app/Download_on_the_App_Store_Badge_DE_RGB_blk_092917.svg" type="image/svg+xml" width="auto" height="75px">
-                    <span>Your browser doesn't support SVG images</span>
-                  </object>
-                </a>
-                <a href="https://play.google.com/store/apps/details?id=de.sensebox.blockly.connect&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1" target="_blank" style="display: inline-block; padding: 20px;" aria-label="Download on Google Play">
-                  <object style="pointer-events: none" data="/images/app/google-play-badge.png" type="image/png" width="auto" height="75px">
-                    <span>Your browser doesn't support PNG images</span>
-                  </object>
-                </a>
-                <p>
-                  <small>Apple, das Apple-Logo und iPhone sind Marken von Apple Inc. und in den USA und anderen Ländern eingetragen. App Store ist eine Dienstleistungsmarke von Apple Inc.</small>
-                </p>
-                <p>
-                  <small>Google Play und das Google Play-Logo sind Marken von Google LLC.</small>
-                </p>
-              </li>
-              <li>
-              <div class="containter">
-                Anweisungen auf <a href="https://flash.sensebox.de"> flash.sensebox.de </a>folgen und  die senseBox MCU-S2 für die Over-The-Air(OTA) Übertragung vorbereiten
-                  {% include image_center.html image="/images/app/esptool.png" %}
-                  {% include image_center.html image="/images/app/esptool2.png" %}
+<div class="col-12">
+  <h2 class="mb-4">{{ t.preperations-head }}</h2>
+
+  <p class="mb-4">
+    {{ t.preperations-text1 }}
+  </p>
+
+  <ol class="programming-steps">
+
+ 
+
+    <!-- Schritt 2: MCU-S2 vorbereiten -->
+    <li class="programming-step">
+      <div class="step-content">
+
+        <p class="step-text">
+          Anweisungen auf
+          <a href="https://flash.sensebox.de" target="_blank">flash.sensebox.de</a>
+          folgen und die <strong>senseBox MCU-S2</strong> für die
+          <strong>Over-The-Air (OTA)</strong> Übertragung vorbereiten.
+        </p>
+
+        <div class="step-image-row">
+          <div class="step-image">
+            {% include image_center.html image="/images/app/esptool.png" %}
+          </div>
+          <div class="step-image">
+            {% include image_center.html image="/images/app/esptool2.png" %}
+          </div>
+        </div>
+
+      </div>
+    </li>
+
+  </ol>
+</div>
+
+        <div class="col-12">
+  <h2 class="mb-4">{{ t.programming-head }}</h2>
+
+  <ol class="programming-steps">
+
+    <!-- Schritt 1 -->
+     <li class="programming-step">
+      <div class="step-content">
+        <p class="step-text">
+          {{ t.programming-text1 }}
+        </p>
+
+        <div class="step-image">
+          {% include image.html image="/images/app/uiBlockly.png" %}
+        </div>
+
+        <p class="step-text">
+          {{ t.programming-text2 }}
+        </p>
+      </div>
+    </li>
+
+    <li class="programming-step">
+      <div class="step-content">
+        <p class="step-text">
+          {{ t.programming-text3 }}
+        </p>
+
+        <div class="step-image">
+          {% include image.html image="/images/app/compile.gif" %}
+        </div>
+      </div>
+    </li>
 
 
-              </div>
 
-              </li>
-              </ol>
-         </div>
-         <div class="col-12">
-          <h2>{{ t.programming-head }}</h2>
-          <ol>
-            <li>
-              <p>
-                Erstelle deinen Programmcode in der
-                <a href="https://blockly-react.netlify.app/" aria-label="senseBox Lern- und Programmierumgebung">senseBox Lern- und Programmierumgebung</a>
-                {% include image.html image="/images/app/IMG_0067.PNG" %}
-              </p>
-              <p>{{ t.programming-text1 }}</p>
-              {% include image.html image="/images/app/tablet_modus01.png" %}
-              <p>{{ t.programming-text2 }}</p>
-            </li>
-            <li>
-              {{ t.programming-text3 }}
-              {% include image.html image="/images/app/IMG_0068.PNG" %}
-            </li>
-            <li>
-              {{ t.programming-text4 }}
-              {% include image.html image="/images/app/IMG_0069.PNG" %}
-            </li>
-            <li>
-              {{ t.programming-text5 }}
-              {% include image.html image="/images/app/ota_app_screen.png" %}
-            </li>
-            <li>
-              {{ t.programming-text6 }}
-              <p>Drücke den Reset Knopf einmal und während die senseBox startet drücke einmal auf den Switch-Button!</p>
-              {% include image.html image="/images/app/ports_s2.png" %}
-            </li>
-            <li>
-              {{ t.programming-text7 }}
-            </li>
-            <li>
-              {{ t.programming-text8 }}
-              {% include image_center.html image="/images/app/finish_new.png" %}
-              </div>
+    <li class="programming-step">
+      <div class="step-content">
+        <p class="step-text">
+          {{ t.programming-text5MCUS2 }}
+        </p>
+
+        <div class="step-image">
+          {% include image.html image="/images/app/wifiSettings.png" %}
+        </div>
+      </div>
+    </li>
+
+    <!-- Schritt 5 -->
+    <li class="programming-step">
+      <div class="step-content">
+
+        <p class="step-text">
+          {{ t.programming-otamodeMCUS2 }}
+        </p>
+
+
+        <div class="step-image">
+          {% include image.html image="/images/app/mcus2buttons.png" %}
+        </div>
+
+      </div>
+    </li>
+
+    <li class="programming-step">
+      <div class="step-content">
+        <p class="step-text">
+          {{ t.programming-text5MCUS2 }}
+        </p>
+      </div>
+    </li>
+        <li class="programming-step">
+      <div class="step-content">
+        <p class="step-text">
+          {{ t.programming-text6 }}
+        </p>
+      </div>
+    </li>
+
+
+
+  </ol>
+</div>
+
             </li>
           </ol>
         </div>

@@ -2,20 +2,22 @@
   position: 1
   organisation: senseBox - Team
   description: The senseBox flashcards give you information on how to connect and program sensors to the senseBox MCU.
-  bgImage: /images/material/cards.png
+  bgImage: /images/material/cards_EN.jpg
   linkMCU: /en/lernkarten-mcu.html
   linkMCU-S2: /en/lernkarten-s2.html
+  
+- name: senseBox Placemats
+  position: 2
+  organisation: senseBox - Team
+  description: The senseBox Instruction Placemats are a collection of placemats that summarize the most important information about senseBox and programming with Blockly at a glance. The placemats can be viewed online or printed out.
+  bgImage: /images/material/Placemat_thumbnail_EN.jpg
+  linkMCU: /en/placemats-mcu.html
+  linkMCU-S2: /en/placemats-s2.html
 
 - name: ETH Zürich
-  position: 2
+  position: 3
   organisation: ETH - Zürich
   description: The university ETH Zurich uses the senseBox in teaching in two different degree programs and makes the teaching materials available to us and you.
   bgImage: /images/material/eth.jpg
   download: https://sensebox.de/docs/ETH_GeosensorsLab_tutorial.pdf
 
-- name: senseBox Placemats
-  position: 3
-  organisation: senseBox - Team
-  description: The senseBox Instruction Placemats are a collection of placemats that summarize the most important information about senseBox and programming with Blockly at a glance. The placemats can be viewed online or printed out.
-  bgImage: /images/material/Placemat_thumbnail.jpeg
-  link: /en/placemats.html

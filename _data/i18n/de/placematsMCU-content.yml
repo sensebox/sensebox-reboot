@@ -13,10 +13,10 @@
   download: /docs/material/02_Placemat-Verkehrszaehler_mcu_DE.pdf
 
 - head: Bewegungsmelder mit der senseBox
-  front: /images/placemats/mcu/03_Placemat-Bewegunsgmelder_mcu_DE_front.jpg
-  back: /images/placemats/mcu/03_Placemat-Bewegunsgmelder_mcu_DE_back.jpg
+  front: /images/placemats/mcu/03_Placemat-Bewegungsmelder_mcu_DE_front.jpg
+  back: /images/placemats/mcu/03_Placemat-Bewegungsmelder_mcu_DE_back.jpg
   position: 3
-  download: /docs/material/03_Placemat-Bewegunsgmelder_mcu_DE.pdf
+  download: /docs/material/03_Placemat-Bewegungsmelder_mcu_DE.pdf
 
 - head: Eine intelligente Straßenbeleuchtung mit der senseBox
   front: /images/placemats/mcu/04_Placemat-IntelligenteStraßenbeleuchtung_mcu_DE_front.jpg

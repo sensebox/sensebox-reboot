@@ -2,8 +2,10 @@ text-1: The openSenseMap is our web portal for open data of all kind. Each measu
 
 go-to-opensensemap: "Open openSenseMap &raquo;"
 
-head-2: Umweltdaten analysieren
-text-2: Über die openSenseMap hast du Zugriff auf <b>Milliarden</b> von Messwerten. Sieh dir historische Messwerte an, erstelle einfache Diagramme, vergleiche Messwerte verschiedener Standorte oder lade dir die Daten zur Analyse auf dem Computer herunter.
+head-2: Analyze environmental data
+text-2: OpenSenseMap gives you access to <b>billions</b> of measurements. View historical measurements, create simple graphs, compare measurements from different locations, or download the data to your computer for analysis.
 
-head-3: Offene API
-text-3: Die offene API bietet den Zugriff auf sämtliche Sensordaten für die Verwendung in anderen Systemen. So werden zum Beispiel Umweltdaten in ein Exponat im Berliner Zukunftsmuseum Futurium visualisiert oder Webplattformen wie ArcGIS Online bieten direkten Zugriff auf die Messwerte. Neben Sensordaten der senseBox können auch andere Messgeräte, wie zum Beispiel aus den Projekten luftdaten.info oder HackAir, ihre Messwerte an die openSenseMap senden.
+head-3: Open API
+text-3: The open API provides access to all sensor data for use in other systems. For example, environmental data is visualized in an exhibit at the Futurium museum in Berlin, and web platforms such as ArcGIS Online offer direct access to the measured values. In addition to sensor data from the senseBox, other measuring devices, such as those from the projects luftdaten.info or HackAir, can also send their measured values to the openSenseMap.
+
+button-text: To API Documentation

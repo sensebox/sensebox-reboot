@@ -1,0 +1,13 @@
+head-1: Blockly for senseBox
+text-1: Blockly for senseBox is a visual programming environment for the senseBox. With Blockly, you can create your first program in just a few minutes, even without any prior programming knowledge, and transfer it to the senseBox. 
+
+head-2: Perfect for Beginners and Advanced Learners
+text-2: The intuitive modular principle in Blockly allows programs to be “pieced together” without having to deal with the source code. Each sensor and function of the senseBox is represented by a block in Blockly. These blocks can be easily assembled using drag & drop, allowing sequences of actions to be programmed for the senseBox. Parallel to the blocks, the Arduino source code is generated and displayed in real time, so that it is possible to see at any time which code is behind which block. This makes the transition to text-based programming particularly easy.
+
+head-3: Minimise Technical Hurdles
+text-3: Since Blockly for senseBox is completely browser-based, no software installation is necessary. Accordingly, there are no updates or drivers to install. Therefore, all that is required is a computer or tablet with an internet connection. 
+
+button-text-blockly: To Blockly
+button-text-documentation: Documentation
+
+image-source: /images/editoren/blockly_EN.png

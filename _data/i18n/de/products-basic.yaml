@@ -8,13 +8,13 @@ basic-programming-title: "Kinderleichte Programmierung mit neuem senseBox-Blockl
 edu-programming-text: "Damit der Einstieg ins Programmieren leicht gelingt, gibt es eine speziell angepasste, kindgerechte Programmieroberfläche von senseBox-Blockly. Die Programmierbausteine sind übersichtlich gestaltet und arbeiten mit klaren Symbolen und Farben. So erkennen Kinder schnell, welcher Block wofür steht – zum Beispiel für Licht, Sensoren oder Anzeigen. Die vereinfachte Menüführung hilft dabei, sich auf das Wesentliche zu konzentrieren, ohne von zu vielen Funktionen abgelenkt zu werden. Statt komplizierten Code zu schreiben, werden Bausteine wie Puzzleteile zusammengesetzt."
 
 basic-content-title: "Inhalt der senseBox:basic"
-whats_in_the_box: In der senseBox:basic sind folgende Teile enthalten:
-list_1: senseBox MCU-S2 (ESP-32)
-list_2: Bluetooth-Bee
-list_3: Temperatur- und Feuchtigkeitssensor (HDC1080) 
-list_4: OLED-Display
-list_8: Batteriehalterung inklusive Batterie mit Schutzhülle
-list_10: Verbindungskabel senseBox:basic
+whats_in_the_box:
+  - senseBox MCU-S2 (ESP-32)
+  - Bluetooth-Bee
+  - Temperatur- und Feuchtigkeitssensor (HDC1080)
+  - OLED-Display
+  - Batteriehalterung inklusive Batterie mit Schutzhülle
+  - Verbindungskabel senseBox:basic
 wifi: Integriertes WiFi
 wifi_text: Jetzt ist ein WiFi-Modul direkt auf dem Board integriert! Mittels WiFi können von der senseBox aufgenommene Messwerte, mühelos ins Internet übertragen werden. Die Integration von Wifi ermöglicht es nun auch, sich problemlos in WPA2-gesicherte Netzwerke anzumelden. Diese Weiterentwicklung eröffnet Anwendern noch mehr Flexibilität und Komfort bei der Datenerfassung und -übertragung, indem sie eine nahtlose Integration in bestehende Netzwerkinfrastrukturen ermöglicht. Damit wird die senseBox zu einem noch leistungsstärkeren Werkzeug für die Umweltüberwachung und Datenanalyse.
 sd_modul: Integriertes SD-Kartenmodul

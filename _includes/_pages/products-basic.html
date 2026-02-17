@@ -1,0 +1,112 @@
+{% assign content = site.data.i18n.[page.lang].products-basic %}
+<div class="container">
+    <div class="row row-padding">
+        <div class="col-lg-8 align-self-center middle">
+            <h2 class="featurette-heading">{{content.basic-title}}</h2>
+            <p class="lead">{{content.basic-text}}</p>
+        </div>
+        <div class="col-lg-4 middle">
+            <img loading="lazy" class="img-fluid mx-auto" src="/images/basic/senseBoxBasic_Rollup.png" alt="senseBox:basic">
+        </div>
+    </div>
+</div>
+
+<hr class="featurette-divider">
+
+<div class="container">
+    <div class="row row-padding featurette">
+        <div class="col-md-5 middle">
+            <img loading="lazy" class="featurette-image img-fluid mx-auto" src="/images/products/basic/material.jpg"
+                alt="Teaching materials">
+        </div>
+        <div class="col-md-7 middle">
+            <h2 class="featurette-heading">{{content.basic-material-title}}</h2>
+            <p class="lead">{{content.basic-material-text}}</p>
+        </div>
+    </div>
+</div>
+
+<div style="background-color: whitesmoke;">
+    <div class="container">
+        <div class="row row-padding featurette">
+            <div class="col-md-7 middle">
+                <h2 class="featurette-heading">{{content.basic-programming-title}}</h2>
+                <p class="lead">{{content.basic-programming-text}}</p>
+            </div>
+            <div class="col-md-5 middle">
+
+                <img loading="lazy" class="featurette-image img-fluid mx-auto" src="/images/basic/blocklyBasic.png"
+                    alt="Programming interface - Blockly">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row row-padding featurette">
+        <div class="col-md-5 middle">
+
+            <img loading="lazy" class="featurette-image img-fluid mx-auto" src="/images/basic/basicRendering.png"
+                alt="Box contents - Rendering">
+        </div>
+        <div class="col-md-7 middle">
+            <h2 class="featurette-heading">{{content.basic-content-title}}</h2>
+            <ul class="lead">
+                {% for item in content.whats_in_the_box %}
+                <li>{{ item }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div>
+
+<hr class="featurette-divider">
+
+<div class="container">
+        <div class="row row-padding">
+        <div class="col-md-6">
+            <div class="feature-box">
+                <img loading="lazy" class="featurette-image img-fluid mx-auto" style="max-width: 80%; margin-bottom: 15px;"
+                    src="/images/products/edus2/mcus2-wifi.gif" alt="WiFi module">
+                <h3>{{content.wifi}}</h3>
+                <p>{{content.wifi_text}}</p>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="feature-box">
+                <img loading="lazy" class="featurette-image img-fluid mx-auto" style="max-width: 80%; margin-bottom: 15px;"
+                    src="/images/products/edus2/RGB-LED.gif" alt="RGB LED">
+                <h3>{{content.rgb_led}}</h3>
+                <p>{{content.rgb_led_text}}</p>
+            </div>
+        </div>
+    </div>
+    <div class="row row-padding">
+        <div class="col-md-6">
+            <div class="feature-box">
+                <h3>{{content.sd_modul}}</h3>
+                <p>{{content.sd_modul_text}}</p>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="feature-box">
+                <h3>{{content.hdc1080}}</h3>
+                <p>{{content.hdc1080_text}}</p>
+            </div>
+        </div>
+    </div>
+    <div class="row row-padding">
+        <div class="col-md-6">
+            <div class="feature-box">
+                <h3>{{content.oled}}</h3>
+                <p>{{content.oled_text}}</p>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="feature-box">
+                <h3>{{content.bluetooth}}</h3>
+                <p>{{content.bluetooth_text}}</p>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,29 @@
+basic-title: "Understanding the Digital World – Starting in Elementary School"
+basic-text: "Children today grow up naturally with digital technology. Lights turn on automatically, doors open, devices respond to touch or their environment. But how does this actually work? Digital systems often appear like 'magic,' yet they follow clear rules: They receive inputs (e.g., from sensors), they process this information, and they produce an output (e.g., light, color, or display). The senseBox:basic, as the newest kit in the senseBox family designed for use in elementary school, makes these principles visible and understandable. It provides an easy introduction to the world of sensors and programming – without being overwhelming. Children discover: How does technology measure its environment? How do automatic reactions occur? How do measurements become decisions? With the senseBox:basic, elementary school children explore these questions themselves and playfully learn basic programming fundamentals as a foundation for advanced topics like IoT, data analysis, or more complex programming. This transforms 'using technology' into understanding technology."
+
+basic-material-title: "Teaching and Learning Materials"
+basic-material-text: "In addition to the hardware, the senseBox:basic comes with suitable materials for getting started in the world of programming, freely available as Open Educational Resources (OER). From projects to rebuild, to teaching ideas, to alignment with educational standards, you'll soon find everything free of charge on our website. The material collection is continuously updated and expanded with new projects, so it's always worth checking back."
+
+basic-programming-title: "Child-Friendly Programming with new senseBox-Blockly"
+basic-programming-text: "To make getting started with programming easy, there is a specially adapted, child-friendly programming interface using senseBox-Blockly. The programming blocks are clearly designed and work with clear symbols and colors. This helps children quickly recognize which block is for what – for example, for light, sensors, or displays. The simplified menu navigation helps focus on the essentials without being distracted by too many functions. Instead of writing complicated code, blocks are assembled like puzzle pieces."
+
+basic-content-title: "Contents of the senseBox:basic"
+whats_in_the_box:
+  - senseBox MCU-S2 (ESP-32)
+  - Bluetooth-Bee
+  - Temperature and Humidity Sensor (HDC1080)
+  - OLED Display
+  - Battery holder including battery with protective cover
+  - Connection cable senseBox:basic
+wifi: Integrated WiFi
+wifi_text: Now a WiFi module is directly integrated on the board! Using WiFi, measurement data recorded by the senseBox can be effortlessly transmitted to the internet. The integration of WiFi now also makes it easy to connect to WPA2-secured networks. This advancement provides users with even more flexibility and convenience in data collection and transmission by enabling seamless integration into existing network infrastructures. This makes the senseBox an even more powerful tool for environmental monitoring and data analysis.
+sd_modul: Integrated SD Card Module
+sd_modul_text: The data from the senseBox MCU S2 can be stored on the included SD card (4 gigabytes). This high-quality memory card offers sufficient storage space for recording and storing sensor values.
+rgb_led: RGB-LED
+rgb_led_text: Using the integrated RGB-LED, direct feedback on the program status of the senseBox-MCU can be provided. The RGB-LED can signal feedback on different states and conditions, significantly improving user-friendliness and understanding of the operating status. This feature makes the senseBox even more user-friendly and offers intuitive visual feedback that makes it easier for users to grasp the current status of their program at a glance. This makes the senseBox an even more powerful tool for environmental monitoring and data visualization.
+hdc1080: Temperature and Humidity Sensor (HDC1080)
+hdc1080_text: The HDC1080 is a digital humidity and temperature sensor. The sensor has high accuracy and very low power consumption, making it ideal for environmental data collection with the senseBox. The temperature and humidity sensor is particularly suitable for investigating indoor air quality, but also for exploring outdoor climate. Relative humidity is measured in percent and temperature in degrees Celsius. A suitable Qwiic cable for connecting to the senseBox is included.
+oled: OLED Display
+oled_text: The OLED display offers clear and distinct displays for sensor values, status information, and much more. The OLED display shows information as text, numbers, and diagrams, enabling live display of measurements. With its compact size and easy integration, the OLED display is ideal for senseBox applications requiring visual output. The display has a resolution of 128 x 64 pixels. A suitable Qwiic cable for connecting the display to the senseBox MCU S2 is included.
+bluetooth: Bluetooth-Bee
+bluetooth_text: With the Bluetooth-Bee (or BLE-Bee), the senseBox microcontroller can be expanded with Bluetooth functionality or BLE (Bluetooth Low Energy), turning the senseBox MCU S2 into a mobile environmental laboratory. Since the Bluetooth module is compatible with the Phyphox app, sensor values can be wirelessly transmitted to mobile devices such as smartphones or tablets and professionally visualized directly. The Bluetooth Bee uses the uBlox B312, which is based on the nRF52840 from Nordic Semiconductors. The Bluetooth Bee is compatible with Bluetooth 5.0.

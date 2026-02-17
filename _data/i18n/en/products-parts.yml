@@ -1,6 +1,6 @@
 parts-title: "senseBox:components"
 parts-text: "All senseBoxes and their components are fully compatible with each other. Whether a senseBox:edu in an outdoor housing or a senseBox:home with the senseBox environmental sensor, there are no limits to creativity."
-parts-description: "Here you will find a list of all senseBox sensors. For an overview of technical information, click here."
+parts-description: "Here you will find a list of all senseBox sensors. For an overview of technical information, <a href='https://docs.sensebox.de/docs/category/glossar'>click here</a>."
 
 parts-MCU-title: "The senseBox MCU"
 parts-MCU-text: "The senseBox MCU (MicroControllerUnit) is the heart of every senseBox. It is a single-board computer based on the ARM Cortex-M0 processor from the SAMD21 family. This processor makes the senseBox MCU fully compatible with Arduino.<br> It has the following fixed connections and components."

@@ -1,6 +1,6 @@
 parts-title: "senseBox:Zubehör"
 parts-text: "Die verschiedenen senseBox-Modelle und ihre Bauteile sind vollständig untereinander kompatibel. Die Sensoren und Datenübertragungsmodule verwenden ein einheitliches QWIIC- bzw. JST-Stecksystem und können so modellunabhängig kombiniert werden. Neben den Sensoren und XBees lässt sich weiteres Zubehör mit der senseBox verwenden:"
-parts-description: "Hier findest du eine Liste aller senseBox Sensoren. Für eine Übersicht der technischen Informationen klicke hier."
+parts-description: "Hier findest du eine Liste aller senseBox Sensoren. Für eine Übersicht der technischen Informationen <a href='https://docs.sensebox.de/docs/category/glossar'>klicke hier</a>."
 
 parts-MCU-title: "Die senseBox MCU"
 parts-MCU-text: "Die senseBox MCU (Mikro-Controller-Unit) ist ein Einplatinencomputer auf Basis des ARM Cortex-M0 Prozessors aus der SAMD21 Familie. Dieser Prozessor macht die senseBox MCU vollständig kompatibel zu Arduino. Sie verfügt über folgende fest verbaute Anschlüsse und Bauteile:"

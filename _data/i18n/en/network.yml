@@ -1,48 +1,48 @@
-- name: Deutsche Telekom Stiftung
-  description: Mit der Deutschen Telekom Stiftung verbindet uns eine langjährige Partnerschaft. In der Vergangenheit konnten eine Vielzahl von Projekten für Schulen und Jugendeinrichtungen gemeinsam umgesetzt werden. Aktuell unterstützen wir die Stiftung in ihrem Engagement “Chancen bilden@Bonn” insbesondere im Projekt [Klima findet Stadt](https://www.telekom-stiftung.de/klima-findet-stadt)
+- name: Deutsche Telekom Foundation
+  description: We have a long-standing partnership with the Deutsche Telekom Foundation. In the past, we have jointly implemented a large number of projects for schools and youth facilities. We are currently supporting the foundation in its “Chancen bilden@Bonn” initiative, particularly in the project [Klima findet Stadt](https://www.telekom-stiftung.de/klima-findet-stadt).
   logo: /images/logos/network/tks_partnerlogo.jpg
   link: https://www.telekom-stiftung.de/
 - name: Hopp Foundation
-  description: Die Hopp Foundation setzt sich dafür ein, Schüler*innen den wichtigen Bereich der IT, vom Umgang mit dem Internet bis hin zu Programmiersprachen, zu vermitteln.
+  description: The Hopp Foundation is committed to teaching students about the important field of IT, from using the internet to programming languages.
   logo: /images/logos/network/hopp_logo.png
   link: https://www.hopp-foundation.de/
 - name: Open Roberta
-  description: Das Fraunhofer IAIS hat 2014 die Programmierplattform "Open Roberta Lab" initiiert. Gemeinsam haben wir es möglich gemacht, dass die senseBox auch mit der Open Roberta Programmiersprache [NEPO](https://lab.open-roberta.org/) programmiert werden kann, mit der inzwischen Millionen Menschen aus mehr als 120 Ländern weltweit unter höchsten [Datenschutz-Maßnahmen](https://www.iais.fraunhofer.de/de/presse/presseinformationen/presseinformationen-2020/presseinformation-200121.html) ins Coden einsteigen.<br>[https://www.open-roberta.org/](https://www.open-roberta.org/)
+  description: Fraunhofer IAIS launched the “Open Roberta Lab” programming platform in 2014. Together, we have made it possible to program the senseBox using the Open Roberta programming language NEPO, which millions of people from more than 120 countries worldwide are using to get started with coding under the highest data protection measures. https://www.open-roberta.org/
   logo: /images/logos/network/Logo_Open_Roberta_RGB.png
   link: https://www.roberta-home.de/
 - name: Watterott
-  description: Bereits seit vielen Jahren arbeiten wir gemeinsam mit Watterott zusammen. Er unterstüzt uns in allen Fragen und Prozessen rund um die Herstellung, Verpackung und Versand der Hardware.
+  description: We have already been working with Watterott for many years. He supports us in all matters and processes relating to the manufacture, packaging, and shipping of hardware.
   logo: /images/logos/network/watterott.png
   link: https://shop.watterott.com/
-- name: Institut für Geoinformatik
-  description: Das Ifgi ist der Geburtsort der senseBox und ist maßgeblich an der Entwicklung der senseBox beteiligt. Aktuell ist das Institut im Kooperationsprojekt senseBox:pro gemeinsam mit der Reedu GmbH & Co. KG an der Weiterentwicklung des Systems beteiligt.
+- name: Institute for Geoinformatics
+  description: The Ifgi is the birthplace of the senseBox and plays a key role in its development. The institute is currently involved in the further development of the system as part of the senseBox:pro cooperation project together with Reedu GmbH & Co. KG.
   logo: /images/logos/network/logo-ifgi-text-de.png
   link: https://www.uni-muenster.de/Geoinformatics/
-- name: Forschungs- und Schülerlabor GI@School
-  description: GI@School - Geoinformation in der Schule - teilt das am Ifgi generierte Wissen und stellt es der Öffentlichkeit insbesondere im Bildungsbereich zur Verfügung. Die Idee zur senseBox und zur openSenseMap entstand hier.
+- name: Research and Student Lab GI@School
+  description: GI@School - Geoinformation in schools—shares the knowledge generated at Ifgi and makes it available to the public, particularly in the field of education. The idea for the senseBox and the openSenseMap originated here.
   logo: /images/logos/network/gi-at-school.png
   link: https://gi-at-school.de
 - name: Innotruck
-  description: Der Innotruck ist durch Deutschland unterwegs und zeigt innovative Technologien. Mit dabei ist auch eine Klassenkiste voll mit senseBoxen.
+  description: The Innotruck is traveling through Germany showcasing innovative technologies. It also has a classroom box full of senseBoxes on board.
   logo: /images/logos/network/innotruck.jpg
   link: https://www.innotruck.de/initiative-innotruck-startseite
-- name: Photonik Forschung Deutschland
-  description: Mit der Fördermaßnahme "Open Photonik Pro" verfolgt das Bundesministerium für Bildung und Forschung (BMBF) das Ziel, neue Formen der Zusammenarbeit von Wissenschaft und Wirtschaft mit der Maker- und Gründerszene zu ermöglichen. Mit dem Projekt [senseBox:pro](https://www.photonikforschung.de/projekte/open-innovation/projekt/sensebox-pro.html) wird eine Weiterentwicklung der senseBox und der openSenseMap als Photonik-Tool für Innovationen von professionellen Nutzer*innen gefördert.
+- name: Photonik Research Germany
+  description: With its “Open Photonik Pro” funding initiative, the German Federal Ministry of Education and Research (BMBF) aims to facilitate new forms of collaboration between science and industry and the maker and start-up scene. The senseBox:pro project promotes the further development of the senseBox and openSenseMap as photonics tools for innovation by professional users.
   logo: /images/logos/network/LogoPhotonikforschung.png
   link: https://www.photonikforschung.de/
 - name: Junge Tüftler:innen
-  description: Junge Tüftler:innen ist eine gemeinnützige Organisation mit dem Ziel, Menschen zur aktiven und nachhaltigen Gestaltung der Welt mit digitalen Werkzeugen zu befähigen. Die Tüftler nutzen die senseBox in unseren Workshops, entwickeln gemeinsame Workshop Formate und Veranstaltungen, und arbeiten zusammen am Thema Open Badges.
+  description: Junge Tüftler:innen [Young Tinkerers] is a non-profit organization with the goal of empowering people to actively and sustainably shape the world with digital tools. The tinkerers use the senseBox in our workshops, develop joint workshop formats and events, and collaborate on the topic of open badges.
   logo: /images/logos/network/junge-tueftler.svg
   link: https://junge-tueftler.de/
 - name: Dr.-Ing. Paul Christiani GmbH & Co. KG
-  description: Das Unternehmen aus Konstanz hat sich auf technische Bildung spezialisiert. Auch die senseBox zählt zum [Sortiment](https://www.christiani.de/schule/schulstufen/sekundarstufe/messen-mit-sensoren/sensebox-edu.html) des Unternehmens, welches zudem auch Fortbildungen und Workshops damit anbietet.
+  description: The company from Constance specializes in technical education. The senseBox is also part of the company's product range, which also offers training courses and workshops using it.
   logo: /images/logos/network/logo_christiani.png
   link: https://www.christiani.de/
 - name: EducaTec AG
-  description: Im Jahr 2004 wurde EducaTec AG  mit dem Ziel gegründet, Technik und ingenieurwissenschaftliches Denken in öffentlichen und privaten Schulen der Schweiz zu fördern. Das Unternehmen ist unser [Partner](https://educatec.ch/tectools/sensebox/) in der Schweiz und kümmert sich um Kunden vor Ort.
+  description: EducaTec AG was founded in 2004 with the aim of promoting technology and engineering thinking in public and private schools in Switzerland. The company is our partner in Switzerland and looks after customers there.
   logo: /images/logos/network/educatec.png
   link: https://educatec.ch/
 - name: TRUEBNER GmbH
   link: https://www.truebner.de/de/startseite.php
-  description: Trübner ist unser Partner, wenn es um den Bereich Bewässerungstechnik geht. So wurde zum Beispiel der Sensor für Boderfeuchte [SMT50](https://sensebox.kaufen/products/bodenfeuchte-temperatursensor) gemeinsam ausgewählt und für die senseBox angepasst.
+  description: Trübner is our partner when it comes to irrigation technology. For example, the SMT50 soil moisture sensor was jointly selected and adapted for the senseBox.
   logo: /images/logos/network/truebner.png

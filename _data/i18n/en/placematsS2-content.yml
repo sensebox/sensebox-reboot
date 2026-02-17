@@ -1,0 +1,30 @@
+- head: Car Traffic Counter with the senseBox
+  front: /images/placemats/s2/02_Placemat-Verkehrszaehler_s2_EN_front.png
+  back: /images/placemats/s2/02_Placemat-Verkehrszaehler_s2_EN_back.png
+  position: 2
+  download: /docs/material/02_Placemat_Verkehrszaehler_s2_EN.pdf
+  
+- head: Motion Detector with the senseBox
+  front: /images/placemats/s2/03_Placemat-Bewegunsgmelder_s2_EN_front.png
+  back: /images/placemats/s2/03_Placemat-Bewegunsgmelder_s2_EN_back.png
+  position: 3
+  download: /docs/material/03_Placemat_Bewegungsmelder_s2_EN.pdf
+  
+- head: Smart Street Lighting with the senseBox
+  front: /images/placemats/s2/04_Placemat-IntelligenteStraßenbeleuchtung_s2_EN_front.png
+  back: /images/placemats/s2/04_Placemat-IntelligenteStraßenbeleuchtung_s2_EN_back.png
+  position: 4
+  download: /docs/material/04_Placemat-IntelligenteStraßenbeleuchtung_s2_EN.pdf
+  
+- head: Environmental Measuring Station with the senseBox
+  front: /images/placemats/s2/05_Placemat-Umweltmessstation_s2_EN_front.png
+  back: /images/placemats/s2/05_Placemat-Umweltmessstation_s2_EN_back.png
+  position: 5
+  download: /docs/material/05_Placemat-Umweltmessstation_s2_EN.pdf
+
+- head: Particulate Matter (Fine Dust) with the senseBox
+  front: /images/placemats/s2/06_Placemat-Feinstaub_s2_EN_front.png
+  back: /images/placemats/s2/06_Placemat-Feinstaub_s2_EN_back.png
+  position: 6
+  download: /docs/material/06_Placemat-Feinstaub_s2_EN.pdf
+

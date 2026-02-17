@@ -60,11 +60,11 @@ parts-sensors-sps30-link: "https://sensebox.kaufen/products/sps30-feinstaubsenso
 
 parts-sensors-waterthermometer: "Water Temperature"
 parts-sensors-waterthermometer-text: "Water temperature in °C"
-parts-sensors-waterthermometer-link: "https://sensebox.kaufen/product/wassertermperatursensor"
+parts-sensors-waterthermometer-link: "https://sensebox.kaufen/products/wasserthermometer"
 
 parts-sensors-tof: "ToF Distance sensor"
 parts-sensors-tof-text: "Distance measurements in a 8x8 matrix with a range of up to 400cm"
-parts-sensors-tof-link: "https://sensebox.kaufen/product/time-of-flight-sensor"
+parts-sensors-tof-link: "https://sensebox.kaufen/products/tof-distanzsensor"
 
 parts-bees-title: "XBees"
 parts-bees-text: "In order to save the measured data of your senseBox or to transfer it to the Internet, various connection modules, so-called XBees can be plugged in."

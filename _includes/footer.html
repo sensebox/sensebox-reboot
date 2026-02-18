@@ -1,6 +1,5 @@
 {% assign content = site.data.i18n.[page.lang].footer%}
 
-
 <footer class="container py-5">
     <div class="row">
         <div class="col-12 col-md d-flex justify-content-center footer-logo">
@@ -91,7 +90,7 @@
                         </g>
                     </g>
                 </svg>
-                <small class="pt-2 d-block mb-3 text-muted">senseBox &copy; 2014-2025</small>
+                <small class="pt-2 d-block mb-3 text-muted">senseBox &copy; 2014-2026</small>
 
             </div>
         </div>
@@ -148,26 +147,38 @@
                         content.privacy-name }}</a>
                 </li>
 
-                <li><a class="text-muted" href="{{site.baseurl }}/{{ page.lang }}{{content.newsletter-link}}">{{
-                    content.newsletter-name }}</a>
-            </li>
-                <li><a class="text-muted" href="{{site.baseurl }}/{{ page.lang }}{{content.contact-link}}">{{
-                        content.contact-name }}</a>
-                </li>
-                <li><a class="text-muted" href="{{content.status-link}}">{{
-                        content.status-name }}</a>
-                </li>
-            </ul>
-        </div>
+        <li>
+          <a
+            class="text-muted"
+            href="{{site.baseurl }}/{{ page.lang }}{{content.newsletter-link}}"
+            >{{ content.newsletter-name }}</a
+          >
+        </li>
+        <li>
+          <a
+            class="text-muted"
+            href="{{site.baseurl }}/{{ page.lang }}{{content.contact-link}}"
+            >{{ content.contact-name }}</a
+          >
+        </li>
+        <li>
+          <a class="text-muted" href="{{content.status-link}}"
+            >{{ content.status-name }}</a
+          >
+        </li>
+      </ul>
     </div>
+  </div>
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.5/dist/medium-zoom.min.js"></script>
 <script>
-    document.addEventListener("DOMContentLoaded", function (event) {
-        mediumZoom('[data-zoomable]')
-    });
+  document.addEventListener("DOMContentLoaded", function (event) {
+    mediumZoom("[data-zoomable]");
+  });
 </script>
-<script>hljs.initHighlightingOnLoad();</script>
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
 <script src="/js/jquery-3.5.1.min.js"></script>
 <script src="/js/bootstrap.min.js"></script>
 <script src="/js/projects.js"></script>

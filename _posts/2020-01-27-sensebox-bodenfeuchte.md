@@ -50,7 +50,7 @@ Der Truebner SMT50 kann direkt über unsere graphische Programmieroberfläche pr
 
 <hr> 
 
-Erhältlich ist der Sensor in unserem [Shop](https://sensebox.kaufen/product/bodenfeuchte-temperatursensor-smt50) und auf der [Projektseite](https://sensebox.de/de/projects) findest du ein erstens Projekt, um deine Zimmerplfanze "smart" zu machen.
+Erhältlich ist der Sensor in unserem [Shop](https://sensebox.kaufen/products/bodenfeuchte-temperatursensor) und auf der [Projektseite](https://sensebox.de/de/projects) findest du ein erstens Projekt, um deine Zimmerplfanze "smart" zu machen.
 
 
 

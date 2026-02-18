@@ -3,20 +3,22 @@ layout: project_page
 title: "IoT Messstation"
 date: 2024-01-10
 author: Verena
-abstract: "Erstelle eine Messstation, die Messwerte für Temperatur, Luftfeuchte, Luftdruck, Helligkeit und UV-Intensität an die openSenseMap schickt."
+abstract: "Erstelle eine Messstation, die Messwerte für Temperatur, Luftfeuchte, Niederschlagsmenge, Niederschlagsintensität, Luftdruck, Helligkeit und UV-Intensität an die openSenseMap schickt."
 thumbnail: /images/projects/home.jpg
 image0: /images/projects/iot_messstation_S2/0.png
 image1: /images/projects/iot_messstation_S2/1.png
 image2: /images/projects/iot_messstation_S2/2.png
 image3: /images/projects/iot_messstation_S2/3.png
-image4: /images/projects/iot_messstation_S2/4.png
+image4: /images/projects/iot_messstation_S2/4.svg
 image5: /images/projects/iot_messstation_S2/5.png
 material:
   - senseBox MCU-S2
   - 1x OLED Display
   - 1x Temperatur- und Luftfeuchtigkeitssensor
   - 1x Luftdrucksensor
-  - 3x QWIIC-Kabel 
+  - 1x Niederschlagssensor
+  - 1x Helligkeits- und UV-Sensor
+  - 5x JST-Kabel
 ide: blockly
 lang: de
 version: ["edu-S2"]
@@ -26,7 +28,7 @@ difficult: mittel
 
 # IoT Messstation
 
-Ziel dieses Projektes ist es, eine senseBox Umweltstation aufzubauen. Am Ende wird die Messung diverser Umweltphänomene wie Temperatur, Luftfeuchte, Helligkeit und Luftdruck, sowie die Veröffentlichung der Daten auf der openSenseMap möglich sein!
+Ziel dieses Projektes ist es, eine senseBox Umweltstation aufzubauen. Am Ende wird die Messung diverser Umweltphänomene wie Temperatur, Luftfeuchte, Niederschlagsmenge, Niederschlagsintensität, Helligkeit und Luftdruck, sowie die Veröffentlichung der Daten auf der openSenseMap möglich sein!
 
 ## Aufbau
 
@@ -35,11 +37,10 @@ Schließe das Display und die Sensoren deiner Wahl mithilfe der QWIIC-Kabel an d
 
 <div class="panel panel-success">
   <div class="panel-heading">
-    I2C Anschluss
   </div>
   <div class="panel panel-success">
     <div class="panel-body">
-    Die Kommunikation des Sensors mit dem Mikrocontroller läuft über den seriellen Datenbus I²C. Anders, als bei einfachen digitalen oder analogen Eingängen, können an den Datenbus mehrere I²C-Geräte (wie z.B. Sensoren oder Displays) parallel geschaltet werden. Jedes Gerät hat dabei eine eindeutige Kennung, damit der Datenbus jedes Einzelne davon zuordnen und separat ansprechen kann.
+	Anders, als bei einfachen digitalen oder analogen Eingängen, können mehrere I2C-Geräte (wie z.B. Sensoren oder Displays) parallel geschaltet werden. Jedes Gerät hat dabei eine eindeutige Kennung, damit der Datenbus jedes Einzelne davon zuordnen und separat ansprechen kann.
     </div>
   </div>
 </div>

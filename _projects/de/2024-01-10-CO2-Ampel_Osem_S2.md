@@ -29,7 +29,7 @@ difficult: mittel
 <head><title>Datenübertragung mit der CO2-Ampel</title></head>
 
 # Datenübertragung mit der CO2-Ampel
-In diesem Projekt erfährst du, wie du die Daten, die mit der CO2-Ampel in deinem Klassenraum erfasst werden, auf die openSenseMap übertragen kannst. Somit wird deine CO2-Ampel Teil eines Citizen Science Projektes und du kannst deine Luftqualität im Raum mit der vieler anderer Schulen vergleichen. Dieses Projekt lässt sich auch mit der senseBox:edu S2 mit einem zusätzlichen [CO2-Sensor](https://sensebox.kaufen/product/co2-sensor) durchführen. 
+In diesem Projekt erfährst du, wie du die Daten, die mit der CO2-Ampel in deinem Klassenraum erfasst werden, auf die openSenseMap übertragen kannst. Somit wird deine CO2-Ampel Teil eines Citizen Science Projektes und du kannst deine Luftqualität im Raum mit der vieler anderer Schulen vergleichen. Dieses Projekt lässt sich auch mit der senseBox:edu S2 mit einem zusätzlichen [CO2-Sensor](https://sensebox.kaufen/products/co2-sensor) durchführen. 
 
 ## Aufbau
 Das Wifi-Modul und die RGB-LED sind bereits auf dem Board der MCU-S2 integriert, sodass du diese nicht separat anschließen musst. Das OLED-Display und der CO2-Sensor werden mit jeweils einem QWIIC-Kabel an einen der zwei I2C-Anschlüsse angeschlossen. 

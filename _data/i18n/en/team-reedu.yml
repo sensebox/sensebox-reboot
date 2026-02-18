@@ -10,11 +10,11 @@
   position: 2
   description: Jan has accompanied the development of the senseBox since its birth at the University of Münster. Back then, he was still a student and research assistant. Today, he is responsible for the further development of the hardware and support for the kits.
 
-- name: Matthias Pfeil
-  image: /images/team/Matze_Neu.jpg
-  role: Software-Developer
+- name: Sergey Mukhametov
+  image: /images/team/sergey_new.jpg
+  role: Software Developer
   position: 3
-  description: Matthias has also been involved since the birth of senseBox and created the openSenseMap. He is a co-founder and developer at re:edu.
+  description: Sergey has also been involved since the inception of the senseBox and works primarily on the QOOOL Sensing project, further developing the senseBox with quantum sensor technology. He is a co-founder of re:edu.
 
 - name: Felix Erdmann
   image: /images/team/Felix_Neu.jpg
@@ -22,27 +22,44 @@
   position: 4
   description: Felix developed his enthusiasm for DIY electronics and programming as a schoolboy in one of the senseBox workshops with Thomas and Jan. After studying geoinformatics, he joined Reedu as a software developer and continues to enjoy working with open source technology.
 
-- name: Verena Witte
-  image: /images/team/Verena_Neu.jpg
-  role: Head of Education
-  position: 5
-  description: Verena already worked at Reedu during her Master of Education programme. Even after her studies, she is still mainly responsible for designing teaching materials and gives workshops with the senseBox to both pupils and teachers.
-
 - name: Eric Thieme-Garmann
   image: /images/team/Eric_Neu.png
   role: Developer
-  position: 6
+  position: 5
   description: Eric worked as a student assistant on the senseBox:pro project during both his Bachelor's and Master's degree programmes at the Institute of Geoinformatics at the University of Münster. After his studies, he started working as a developer at re:edu.
 
 - name: Paula Scharf
   image: /images/team/Paula_Neu.png
   role: Developer
-  position: 7
+  position: 6
   description: Paula also completed her Bachelor's and Master's degree in Geoinformatics at the University of Münster. She works at re:edu primarily in the area of web development and is involved in the TinyAIoT project.
+
+- name: Maria Zadnepryanets
+  image: /images/team/maria.jpg
+  role: Developer
+  position: 7
+  description: Maria completed her master's degree in engineering and technology and now works at re:edu as a developer. There, she is primarily involved in the further development of the senseBox:bike.
+
+- name: Kalle Kröger
+  image: /images/team/Kroeger_Kalle.jpg
+  role: Produktentwicklung
+  position: 8
+  description: Kalle has completed his master's degree in product design and is responsible for product development at re:edu. Among other things, he designs packaging for the senseBox.
+
+- name: Artur Kim Shum
+  image: /images/team/KIMSHUM.png
+  role: Innovationsdesigner
+  position: 9
+  description: Kim completed his master's degree in UX design and works as a designer at re:edu. As part of the Atrai.bike project, he is involved in the further development of the senseBox:bike.
+
+- name: Eduardo Candeias Schneider
+  image: /images/team/EduardoCandelas_067.JPG
+  role: Student assistant
+  position: 10
+  description: Eduardo holds a bachelor's degree in education and information processing. At re:edu, he is responsible for designing teaching materials and conducts workshops for both students and teachers using the senseBox.
 
 - name: Gina Buchwald-Chassée
   image: /images/team/Gina_Neu.jpg
   role: Communication / PR
-  position: 8
+  position: 11
   description: Gina studied communication science at the University of Münster and started as a student assistant in the senseBox:pro project during her master's degree. She was in charge of the social media channels and the communication around the senseBox. She is also responsible for communication and public relations at re:edu.
-  

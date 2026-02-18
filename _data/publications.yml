@@ -1,3 +1,35 @@
+- title: "Physical Computing im MINT-Unterricht am Beispiel der senseBox:edu S2"
+  author: Witte, Verena and Pesch, Mario and Bartoschek, Thomas
+  journal: "M. Grillenberger & A. Grillenberger (Hrsg.): Grenzen überwinden - voneinander lernen, Lecture Notes in Informatics (LNI), Gesellschaft für Informatik"
+  year: 2025
+  link: https://www.infos2025.ch/proceedings/infos2025_ws_2.pdf
+  type: paper
+  orign: sensebox
+
+- title: "Zukunftsweisender MINT-Unterricht mit dem senseBox-Ökosystem. Die Plattform für partizipative Data Science mit Physical Computing"
+  author: Witte, Verena and Schwering, Angela and Bartoschek, Thomas and Pesch, Mario
+  journal: "MNU-Journal, 76 (4)"
+  year: 2023
+  link: https://www.mnu.de/zeitschriften/795-mnu-heft-2023-04
+  type: journal
+  orign: sensebox
+
+- title: "MOTIVATING ENVIRONMENTAL CITIZEN SCIENTISTS AND OPEN DATA ACQUISITION ON OPENSENSEMAP WITH OPEN BADGES"
+  author: Bruch, Frederick and Bartoschek, Thomas and Pesch, Mario and Schwering, Angela and Buchem, Ilona
+  journal: "The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences, 48, 11-17"
+  year: 2023
+  link: https://isprs-archives.copernicus.org/articles/XLVIII-4-W7-2023/11/2023/isprs-archives-XLVIII-4-W7-2023-11-2023.pdf
+  type: journal
+  orign: sensebox
+
+- title: "MULTI-SENSOR FEEDER: AUTOMATED AND EASY-TO-USE BIRDS MONITORING TOOL FOR CITIZENS"
+  author: Niers, Tom and Stenkamp, Jan and Jakuschona, Nick and Bartoschek, Thomas
+  journal: "The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences, 48, 329-336"
+  year: 2022
+  link: https://isprs-archives.copernicus.org/articles/XLVIII-4-W1-2022/329/2022/
+  type: journal
+  orign: sensebox
+
 - title: "senseBox und openSenseMap: Umweltmonitoring für Jedermann"
   author: Bartoschek, Thomas and Wirwahn, Jan and Pesch, Mario
   journal: "Umweltinformationssysteme 2018-Umweltbeobachtung: Nah und Fern"
@@ -88,6 +120,36 @@
   orign: sensebox
 
 ## Bachelor/Masterarbeiten
+
+- title: "Spatial Data Literacy mit R: Entwicklung und Evaluierung einer blockbasierten Programmierumgebung zur Datenanalyse und -visualisierung"
+  author: Maike Schröder
+  year: 2023
+  type: bachelor
+
+- title: Inwiefern trägt eine Instruction Placemat im Vergleich zum vortragsgeleitendem Unterricht dazu bei, dass Schüler:innen der 9. & 10. Klasse selbstständiger mit der senseBox arbeiten sowie programmieren können?
+  author: Ilhan Özkaya
+  year: 2023
+  type: master
+
+- title: Integration und Evaluation von Python als alternative Programmiersprache im senseBox-Ökosystem
+  author: Adrian Spork
+  year: 2023
+  type: bachelor
+
+- title: Gamification in Citizen Science - open badges as motivation for Participants
+  author: Frederick Bruch
+  year: 2022
+  type: bachelor
+
+- title: Interoperabilität der openSenseMap API und der SensorThings API
+  author: Tobias Brandt
+  year: 2022
+  type: bachelor
+
+- title: Unterricht zukunftsweisend gestalten – Ein Lehrkonzept zur Integration der 21st Century Skills in den Geographieunterricht
+  author: Verena Witte
+  year: 2021
+  type: master
 
 - title: Modeling of time-spatial processes using a timeseries database on the example of the open data portal openSenseMap
   author: Moritz Migge
@@ -226,10 +288,130 @@
 
 ## Mentions
 
+- title: "Components for an Inexpensive CW-ODMR NV-Based Magnetometer." 
+  author: Bülau, A., Walter, D. & Fritz, K.-P.
+  year: 2025
+  journal: Magnetism. 2025; 5(3):18. https://doi.org/10.3390/magnetism5030018 
+  type: Mentions
+  
+- title: Comparison of Mobile Environmental Sensors for Citizen Science Based Climate Monitoring.
+  author: Schmidt, F., Schütze, C., Ködel, U., Schütze, F., Liang, C., Schäfer, D., & Dietrich, P. 
+  year: 2023
+  journal: Comparison of Mobile Environmental Sensors for Citizen Science Based Climate Monitoring (No. EGU23-12542). Copernicus Meetings.
+  type: Mentions
+
+- title: "Der lange Weg bis zur Versuchsvorschrift: Eine Versuchsanleitung für ein Citizen-Science-Projekt entwerfen."
+  author: Kath, J., & Georg, C.
+  year: 2023
+  journal: Unterricht Chemie, 2023(194), 10-15
+  type: Mentions
+
+- title: "Umweltsch(m)utz an der Ruhr: Ein Citizen-Science-Projekt zu Feinstaub."
+  author: Georg, C.
+  year: 2023
+  journal: Unterricht Chemie, 2023(194), 16-21
+  type: Mentions
+
+- title: The MOSES Sternfahrt Expeditions of the Research Vessels ALBIS, LITTORINA, LUDWIG PRANDTL, MYA II and UTHÖRN to the Elbe River, Elbe Estuary and German Bight in 2022.
+  author: Bußmann, I., Anselm, N., Brix, H., Kamjunke, N., Koschorreck, M., Raupers, B., & Sanders, T.
+  year: 2023
+  journal: Berichte zur Polar-und Meeresforschung= Reports on polar and marine research, 778
+  type: Mentions
+
+- title: "A place for a data science project in school: between statitics and epistemic programming."
+  author: Podworny, S., Hüsing, S., & Schulte, C.
+  year: 2022
+  journal: Statistics Education Research Journal, 21(2), S. 1–15. 
+  type: Mentions
+
+- title: What if Air Quality Dictates Road Pricing? Simulation of an Air Pollution-based Road Charging Scheme.
+  author: Rodriguez Garzon,S., Reppenhagen M., Müller M.
+  year: 2022
+  journal: Journal of Urban Mobility, Volume 2, 2022, 100018, ISSN 2667-0917, https://doi.org/10.1016/j.urbmob.2022.100018.
+  type: Mentions
+
+- title: "Inquiry-based learning on climate change in upper secondary education: A design-based approach. Sustainability."
+  author: Brumann, S., Ohl, U., & Schulz, J.
+  year: 2022
+  journal:  Sustainability, 14(6), 3544.
+  type: Mentions
+
+- title: Proliferation of Cartographic Education in the Age of Big Data.
+  author: Meng, L.
+  year: 2022
+  journal: Journal of Geodesy and Geoinformation Science, 5.
+  type: Mentions
+
+- title: Pflanzenvielfalt erforschen. Mit digitalen Messsystemen abiotische Faktoren untersuchen.
+  author: Penzlin, J. & Marsch, S.
+  year: 2022
+  journal: In Digital Unterrichten Biologie 5(22), S. 8-9.
+  type: Mentions
+
+- title: Vorstudie zu wertbeeinflussenden Parametern hinsichtlich der Klimaeffizienz von Wohngebäuden. Preliminary Study on Value-influencing Parameters with Regard to the Climate Efficiency of Residential Buildings. 
+  author: Soot, M. & Dingerdissen, U. & Eltner, A. & Flatt, H. & Fast, H. & Loges, S. & Ostrau, S. & Paffenholz, J.-A. & Weitkamp, A. 
+  year: 2022
+  journal: Zeitschrift für alle Bereiche der Geodäsie und Geoinformation. 129. 163-180.
+  type: Mentions
+  
+- title: Entwicklung von Lernszenarien im schulischen Kontext zur Teilhabe an Citizen Science Projekten.
+  author: Werntges, S.
+  year: 2022
+  journal: Bachelorarbeit, Studiengang Mensch-Technik-Interaktion der Hochschule Ruhr West
+  type: Mentions
+
+- title: "Emerging approaches for data-driven innovation in Europe: Sandbox experiments on the governance of data and technology."
+  author: Jirka, S. & Granell, C. & Mooney, P. & Rieke, M. & Ostermann, F. & van den Broecke, J. & Sarretta, A. & Verhulst, S. & Dencik, L. & Oost, H. & Micheli, M. & Minghini, M. & Kotsev, A. & Schade, S.
+  year: 2022
+  journal: Publications Office of the European Union, https://data.europa.eu/doi/10.2760/630723.
+  type: Mentions
+
+- title: Street luminosity influence on reported thefts from vehicles during night-time.
+  author: Ventura, J. M. R.
+  year: 2022
+  journal: Dissertation submitted in partial fulfilment of the requirements for the Degree of Master of Science in Geospatial Technologies. http://hdl.handle.net/10362/134616. 
+  type: Mentions
+
+- title: Visual Programming Environment to Generate Arduino Code for Wearable Toolkit.
+  author: Hyeon Kyeong, K.
+  year: 2022
+  journal: "University of Twente Student Theses, EEMCS: Electrical Engineering, Mathematics and Computer Science. https://purl.utwente.nl/essays/91803."
+  type: Mentions
+
+- title: An Augmented Reality Learning Environment for Informal Geoinformatics Education.
+  author: Buchner, J. & Jeremias, P. & Kobzare, N. & König, L. & Oberreiter, S. & Reiter, S. & Resch, B.
+  year: 2021
+  journal: GI_Forum. 9. 3-17. 10.1553/giscience2021_02_s3.
+  type: Mentions
+
+- title: Environmental Wellbeing through Guerilla Sensing.
+  author: Banse, M., Schmalriese, F., Theel, O. & Winter, A.
+  year: 2021
+  journal: INFORMATIK 2021, Lecture Notes in Informatics (LNI), S. 57-66.
+  type: Mentions
+
+- title: Citizen Science in the Digital World of Apps.
+  author: Lemmens, R., Antoniou, V., Hummer, P. & Potsiou, C. 
+  year: 2021
+  journal: In Vohland, K., et al. The Science of Citizen Science. Springer, Cham. https://doi.org/10.1007/978-3-030-58278-4_23.
+  type: Mentions
+
+- title: "Knowledge Transfer with Citizen Science: Luft-Leipzig Case Study. Luft-Leipzig Case Study."
+  author: Tonisson, L., Voigtländer, J., Weger, M., Assmann, D., Käthner, R., Heinold, B. & Macke, A. 
+  year: 2021
+  journal: Sustainability 13(7855). https://doi.org/10.3390/su13147855.
+  type: Mentions
+
 - title: Citizens in the Loop for Air Quality Monitoring in Thessaloniki, Greece.
   author: Kassandros, T., Gavros, A., Bakousi, K., & Karatzas, K.
   year: 2021
   journal: In Advances and New Trends in Environmental Informatics (pp. 121-130). Springer, Cham.
+  type: Mentions
+
+- title: "Citizen-Based Air Quality Monitoring: The Impact on Individual Citizen Scientists and How to Leverage the Benefits to Affect Whole Regions."
+  author: Schaefer, T., Kieslinger, B. & Fabian, C.M. 
+  year: 2020
+  journal: "In Citizen Science: Theory and Practice, 5(1), S. 6. https://doi.org/10.5334/cstp.245."
   type: Mentions
 
 - title: Digitalkompetenz für die Bildung der Zukunft.
@@ -244,7 +426,7 @@
   journal: In Joint European Conference on Machine Learning and Knowledge Discovery in Databases (pp. 113-128). Springer, Cham.
   type: Mentions
 
-- title: RIGHT TO THE MAP? COUNTER-MAPPING PRACTICES OF SMOG ALERTS AND URBAN GREENERY MOVEMENTS IN POLAND.
+- title: "RIGHT TO THE MAP? COUNTER-MAPPING PRACTICES OF SMOG ALERTS AND URBAN GREENERY MOVEMENTS IN POLAND."
   author: PUTKOWSKA-SMOTER, R. E. N. A. T. A., & FRANKOWSKI, J.
   year: 2020
   journal: Society Register, 4(4), 129-150.
@@ -261,6 +443,11 @@
   year: 2020
   journal: "In Mobil mit Informatik: 9. Münsteraner Workshop zur Schulinformatik (p. 61). BoD–Books on Demand."
   type: Mentions
+
+- title: Analysis of the current state of citizen science in Germany, based on 96 projects registered on the official website of the Federal Ministry for Education and Research.
+  author: Miyashita-Ostermann, F., Bellingrath-Kimura, S., Pernat, N., Watanabe, I., Ozaki, H., Kampen, H. & Werner, D. 
+  year: 2019
+  journal: In Forum Citizen Science 2019, Münster.
 
 - title: "Packaging geoscience research for transparency and reproducibility: approaches and examples."
   author: Nüst, D.

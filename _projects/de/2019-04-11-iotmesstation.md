@@ -1,21 +1,22 @@
 ---
 layout: project_page
-title: "IoT Messtation"
+title: "IoT Messstation"
 date: 2019-05-17
 author: Eric
-abstract: "Erstelle eine Messtation, die Messwerte für Temperatur, Luftfeuchte, Luftdruck, Helligkeit und UV-Intensität an die openSenseMap schickt."
+abstract: "Erstelle eine Messstation, die Messwerte für Temperatur, Luftfeuchte, Niederschlagsmenge, Niederschlagsintensität, Luftdruck, Helligkeit und UV-Intensität an die openSenseMap schickt."
 thumbnail: /images/projects/home.jpg
 image1: /images/projects/iot_messstation/senseBox_Uebersicht.png
 image2: /images/projects/iot_messstation/WiFi.png
-image3: /images/projects/iot_messstation/upload_osem.png
+image3: /images/projects/iot_messstation/upload_osem.svg
 image0: /images/projects/iot_messstation/neueSenseBox.png
 material:
   - senseBox MCU
   - 1x OLED Display
   - 1x Temperatur- und Luftfeuchtigkeitssensor
   - 1x Luftdrucksensor
+  - 1x Niederschlagssensor
   - 1x Helligkeits- und UV-Sensor
-  - 4x JST-Kabel
+  - 5x JST-Kabel
   - 1x Wifi-Bee
 ide: blockly
 lang: de
@@ -26,24 +27,14 @@ difficult: mittel
 
 # IoT Messstattion
 
-Ziel dieses Projektes ist es, eine senseBox Umweltstation aufzubauen. Am Ende wird die Messung diverser Umweltphänomene wie Temperatur, Luftfeuchte, Helligkeit und Luftdruck, sowie die Veröffentlichung der Daten auf der openSenseMap möglich sein!
+Ziel dieses Projektes ist es, eine senseBox Umweltstation aufzubauen. Am Ende wird die Messung diverser Umweltphänomene wie Temperatur, Luftfeuchte, Niederschlagsmenge, Niederschlagsintensität, Helligkeit und Luftdruck, sowie die Veröffentlichung der Daten auf der openSenseMap möglich sein!
 
 ## Aufbau
 
-Schließe die Sensoren deiner Wahl mithilfe der mitgelieferten JST-Kabel an den I2C-Anschlüssen der senseBox MCU an. Das Wifi-Bee wird auf den Steckplatz XBEE1 gesteckt.
+Schließe die Sensoren deiner Wahl mithilfe der mitgelieferten JST-Kabel an die senseBox MCU an. Die meisten Sensoren werden über den I2C-Anschluss verbunden. Der Regensensor wird zunächst an die mitgelieferte Adapterplatine angeschlossen. Die Adapterplatine wird anschließend mithilfe eines JST-Kabels an den UART/Serial-Anschluss angeschlossen. Das Wifi-Bee wird auf den Steckplatz XBEE1 gesteckt.
 
-<div class="panel panel-success">
-  <div class="panel-heading">
-    I2C Anschluss
-  </div>
-  <div class="panel panel-success">
-    <div class="panel-body">
-    Die Kommunikation des Sensors mit dem Mikrocontroller läuft über den seriellen Datenbus I²C. Anders, als bei einfachen digitalen oder analogen Eingängen, können an den Datenbus mehrere I²C-Geräte (wie z.B. Sensoren oder Displays) parallel geschaltet werden. Jedes Gerät hat dabei eine eindeutige Kennung, damit der Datenbus jedes Einzelne davon zuordnen und separat ansprechen kann.
-    </div>
-  </div>
-</div>
+Anders, als bei einfachen digitalen oder analogen Eingängen, können mehrere I2C-Geräte (wie z.B. Sensoren oder Displays) parallel geschaltet werden. Jedes Gerät hat dabei eine eindeutige Kennung, damit der Datenbus jedes Einzelne davon zuordnen und separat ansprechen kann.
 
->Beachte: Es gibt zwei verschiedene Luftdruck-Sensoren (BMP280 & DPS310). Anhand der Beschriftung auf dem Luftdruck-Sensor kannst du deinen Typ identifizieren. Achte bei der Programmierung darauf, dass du den richtigen Sensorblock auswählst. 
 
 ## Vorbereitung
 

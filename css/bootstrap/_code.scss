@@ -27,20 +27,26 @@ kbd {
   }
 }
 
-// Blocks of code
+/* Verbesserte Darstellung für Codeblöcke */
 pre {
-  display: block;
-  @include font-size($code-font-size);
-  color: $pre-color;
-
-  // Account for some code outputs that place code tags in pre tags
-  code {
-    @include font-size(inherit);
-    color: inherit;
-    word-break: normal;
-  }
+  background-color: #f6f8fa;
+  border: 1px solid #50ae48;
+  border-radius: 6px;
+  padding: 16px;
+  overflow-x: auto;
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas,
+    "Liberation Mono", monospace;
+  line-height: 1.45;
 }
 
+code {
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas,
+    "Liberation Mono", monospace;
+  background-color: #f6f8fa;
+  padding: 2px 4px;
+  border-radius: 4px;
+  font-size: 85%;
+}
 // Enable scrollable blocks of code
 .pre-scrollable {
   max-height: $pre-scrollable-max-height;

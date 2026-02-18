@@ -1,5 +1,5 @@
 - name: Lernkarten
-  position: t1
+  position: 1
   organisation: senseBox - Team
   description: Lernkarten für das selbstständige Arbeiten mit der senseBox und der Programmierung mit Blockly. Die Lernkarten können online angeschaut oder ausgedruckt werden.
   bgImage: /images/material/cards.png
@@ -7,60 +7,90 @@
   linkMCU-S2: /de/lernkarten-s2.html
 
 - name: senseBox Placemats
-  position: t2
+  position: 2
   organisation: senseBox - Team
   description: Die senseBox Instruction Placemats sind eine Sammlung von Placemats, die die wichtigsten Informationen zur senseBox und zum Programmieren mit Blockly auf einen Blick zusammenfassen. Die Placemats können online angeschaut oder ausgedruckt werden.
   bgImage: /images/material/Placemat_thumbnail.jpeg
-  link: /de/placemats.html
+  linkMCU: /de/placemats-mcu.html
+  linkMCU-S2: /de/placemats-s2.html
 
-- name: senseBox Lehrhandreichung
-  position: t3
-  organisation:
-  description:
-  bgImage: /images/projects/logo_bunt.png
-  download: /docs/lehrkraefte_senseBox_de.pdf
+- name: "senseBox Guide für den Bildungsbereich"
+  position: 3
+  organisation: Reedu GmbH & Co. KG
+  description: Diese Handreichung informiert über den Einsatz der senseBox in der Schule und in anderen Bildungskontexten. Sie soll Lehrkräften und Entscheider:innen beim didaktisch sinnvollen Einsatz der senseBox:edu und der senseBox:edu S2 in verschiedenen Lehrformaten und Unterrichtsfächern unterstützen.
+  bgImage: /images/material/materialGuideBildungsbereichThumbnail.png
+  download: /docs/material/senseBox_Guide-Bildungsbereich_ver1_1.pdf
 
-- name: CO2-Ampel Lehrhandreichung
-  position: t4
-  organisation:
-  description:
-  bgImage: /images/material/co2-ampel.png
-  link: /docs/CO2-Ampel_Lehrhandreichung.pdf
+- name: "sensebox Arbeitsheft Air Quality Explorer Set"
+  position: 4
+  organisation: Reedu GmbH & Co. KG
+  description: "Arbeitshefte zum Luftqualitätsmessungsset"
+  bgImage: "/images/material/materialAirQualityThumbnail.png"
+  linkMCU: /docs/material/sensebox_Arbeitsheft_Air_Quality_Explorer_Set_MCU.pdf
+  linkMCU-S2: /docs/material/sensebox_Arbeitsheft_Air_Quality_Explorer_Set_MCU_S2.pdf
+
+- name: "Temperaturerfassung mit selbstgebauten/-programmiertem Messgerät"
+  position: 5
+  organisation: Stefan Lesch
+  description: "Ausgehend von einem Bunsenbrenner, einer Herdplatte & einem Wasserkocher wird die mögliche Leitfrage entwickelt: Was erwärmt Wasser am höchsten? Anschließend beginnen die SuS mit dem Bauen des digitalen Thermometers, programmieren es & führen das Experiment durch."
+  bgImage: /images/material/wassertemp.jpeg
+  link: /docs/Experiment_Wassertemp.zip
 
 - name: Moderner Informatikunterricht mit LoRaWAN in der Schule
-  position: t5
+  position: 6
   organisation:
   description:
   bgImage: /images/material/Material-TTN.png
   link: /docs/informatikunterricht_lorawan.pdf
 
+- name: CO2-Ampel Lehrhandreichung
+  position: 7
+  organisation:
+  description:
+  bgImage: /images/material/co2-ampel.png
+  link: /docs/CO2-Ampel_Lehrhandreichung.pdf
+
+- name: "Digitales Mobiles Umweltlabor für die MINT-Fächer"
+  position: 8
+  organisation: Reedu GmbH & Co. KG
+  description: "Verwende die senseBox mit Bluetooth Bee und der Phyphox App als digitales mobiles Umweltlabor. In diesem Material werden dir 3 spannende Einsatzzwecke für verschiede MINT-Fächer gezeigt."
+  bgImage: /images/material/ble_handreichung.jpg
+  link: /docs/senseBox_BluetoothBee_ver1.0.pdf
+
+- name: "Die senseBox als Toolkit für zukunftsweisenden Geographieunterricht"
+  position: 9
+  organisation: Reedu GmbH & Co. KG
+  description: "Eine Unterrichtsreihe zur Thematik des Klimawandels"
+  bgImage: /images/material/klimawandel_lehrkonzept.png
+  link: /docs/Klimawandel_Lehrkonzept_Masterarbeit.pdf
+
+- name: "Wir messen Feinstaub in deiner Stadt"
+  position: 10
+  organisation: Reedu GmbH & Co. KG
+  description: "Die Schülerinnen und Schüler lernen, wie sie die Feinstaubbelastung ihrer Stadt eigen- ständig messen können. Mithilfe der grafischen Programmieroberfläche „Blockly für senseBox“ können sie ohne Vorkenntnisse das dafür notwendige Messgerät bauen. Zudem lernen die Schülerinnen und Schüler, welche Faktoren die Feinstaubbelastung beeinflussen und inwieweit sie darauf aufbauend etwas zum Schutz der Umwelt bei- tragen können"
+  bgImage: /images/material/Feinstaub_Hopp.png
+  link: /docs/Feinstaub_Hopp.pdf
+
 - name: "Unterrichtsreihe: Sense Your School"
-  position: t6
+  position: 11
   organisation: TüftelAkademie
   description:
   bgImage: /images/material/sense-your-school.png
   link: https://tueftelakademie.de/fuer-lehrende/unterrichtsmaterialien/digital-literacy-lab/sense-your-school/
 
 - name: "Unterrichtsreihe: Umweltverschmutzung und Daten"
-  position: t7
+  position: 12
   organisation: TüftelAkademie
   description:
   bgImage: /images/material/umweltverschmutzung-und-daten.png
   link: https://tueftelakademie.de/fuer-lehrende/unterrichtsmaterialien/digital-literacy-lab/umwelt-und-daten/
 
 - name: :ETH Zürich
-  position: t8
+  position: 13
   organisation: ETH - Zürich
   description: Die ETH Zürich verwendet die senseBox in der Lehre in zwei verschiedenen Studiengängen und stellt uns und euch die Materialien aus der Lehre zu verfügung (Zurzeit nur auf Englisch)
   bgImage: /images/material/eth.jpg
   download: /docs/ETH_GeosensorsLab_tutorial.pdf
-
-- name: "OpenSenseMap: Silvester in Berlin"
-  position: t10
-  organisation: ESRI
-  description: "Alles andere als Schall und Rauch ist die neue Unterrichtseinheit für die Klassenstufe 9 bis 12: Thema ist die Feinstaub-Belastung während der Silvester-Party in Berlin. ESRI hat eine 5-teilige Unterrichtssequenz mit Arbeitsblättern vorbereitet – und eine StoryMap als Überblick."
-  bgImage: https://gis-iq.esri.de/wp-content/uploads/2020/12/Screenshot-2020-12-16-160724.png
-  link: https://www.arcgis.com/sharing/rest/content/items/3aa108c52f2e4a92a1c88a5ae8f206dc/data
 
 - name: "Analyse von Umweltdaten: Datenanalyse mit der Sensebox, Jupyter Notebooks und Python"
   position: t11
@@ -68,41 +98,3 @@
   description: 'Das übergeordnete Thema dieser Unterrichtsreihe lautet "Data Science mit Python". In dieser konkreten Unterrichtsreihe beziehen sich die Daten auf umweltbezogene Aspekte wie Temperatur, Luftfeuchtigkeit oder Feinstaubbelastung, sodass die SuS eine Umweltanalyse auf Grundlage einer eigenen Fragestellung durchführen sollen.'
   bgImage: /images/material/jupyter_ddipaderborn.png
   link: https://unterrichtsmaterial-ddi.cs.upb.de/Analyse_von_Umweltdaten/Modulsteckbrief
-
-- name: "Digitales Mobiles Umweltlabor für die MINT-Fächer"
-  position: t12
-  organisation: Reedu GmbH & Co. KG
-  description: "Verwende die senseBox mit Bluetooth Bee und der Phyphox App als digitales mobiles Umweltlabor. In diesem Material werden dir 3 spannende Einsatzzwecke für verschiede MINT-Fächer gezeigt."
-  bgImage: /images/material/ble_handreichung.jpg
-  link: /docs/senseBox_BluetoothBee_ver1.0.pdf
-
-- name: "Die senseBox als Toolkit für zukunftsweisenden Geographieunterricht"
-  position: t13
-  organisation: Reedu GmbH & Co. KG
-  description: "Eine Unterrichtsreihe zur Thematik des Klimawandels"
-  bgImage: /images/material/klimawandel_lehrkonzept.png
-  link: /docs/Klimawandel_Lehrkonzept_Masterarbeit.pdf
-
-- name: "Temperaturerfassung mit selbstgebauten/-programmiertem Messgerät"
-  position: t14
-  organisation: Stefan Lesch
-  description: "Ausgehend von einem Bunsenbrenner, einer Herdplatte & einem Wasserkocher wird die mögliche Leitfrage entwickelt: Was erwärmt Wasser am höchsten? Anschließend beginnen die SuS mit dem Bauen des digitalen Thermometers, programmieren es & führen das Experiment durch."
-  bgImage: /images/material/wassertemp.jpeg
-  link: /docs/Experiment_Wassertemp.zip
-
-- name: "Wir messen Feinstaub in deiner Stadt"
-  position: t15
-  organisation: Reedu GmbH & Co. KG
-  description: "Die Schülerinnen und Schüler lernen, wie sie die Feinstaubbelastung ihrer Stadt eigen- ständig messen können. Mithilfe der grafischen Programmieroberfläche „Blockly für senseBox“ können sie ohne Vorkenntnisse das dafür notwendige Messgerät bauen. Zudem lernen die Schülerinnen und Schüler, welche Faktoren die Feinstaubbelastung beeinflussen und inwieweit sie darauf aufbauend etwas zum Schutz der Umwelt bei- tragen können"
-  bgImage: /images/material/Feinstaub_Hopp.png
-  link: /docs/Feinstaub_Hopp.pdf
-
-
-- name : "sensebox Arbeitsheft Air Quality Explorer Set"
-  position: t16
-  organisation: Reedu GmbH & Co. KG
-  description: "Arbeitshefte zum Luftqualitätsmessungsset"
-  bgImage: "/images/material/materialAirQualityThumbnail.png"
-  linkMCU: /docs/material/sensebox_Arbeitsheft_Air_Quality_Explorer_Set_MCU.pdf
-  linkMCU-S2:  /docs/material/sensebox_Arbeitsheft_Air_Quality_Explorer_Set_MCU_S2.pdf
-  

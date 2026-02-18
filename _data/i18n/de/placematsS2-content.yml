@@ -1,0 +1,30 @@
+- head: Verkehrszähler mit der senseBox
+  front: /images/placemats/s2/02_Placemat-Verkehrszaehler_s2_DE_front.jpg
+  back: /images/placemats/s2/02_Placemat-Verkehrszaehler_s2_DE_back.jpg
+  position: 2
+  download: /docs/material/02_Placemat-Verkehrszaehler_s2_DE.pdf
+
+- head: Bewegungsmelder mit der senseBox
+  front: /images/placemats/s2/03_Placemat-Bewegunsgmelder_s2_DE_front.jpg
+  back: /images/placemats/s2/03_Placemat-Bewegunsgmelder_s2_DE_back.jpg
+  position: 3
+  download: /docs/material/03_Placemat-Bewegunsgmelder_s2_DE.pdf
+
+- head: Eine intelligente Straßenbeleuchtung mit der senseBox
+  front: /images/placemats/s2/04_Placemat-IntelligenteStraßenbeleuchtung_s2_DE_front.jpg
+  back: /images/placemats/s2/04_Placemat-IntelligenteStraßenbeleuchtung_s2_DE_back.jpg
+  position: 4
+  download: /docs/material/04_Placemat-IntelligenteStraßenbeleuchtung_s2_DE.pdf
+
+- head: Umweltsensoren mit der senseBox
+  front: /images/placemats/s2/05_Placemat-Umweltmessstation_s2_DE_front.jpg
+  back: /images/placemats/s2/05_Placemat-Umweltmessstation_s2_DE_back.jpg
+  position: 5
+  download: /docs/material/05_Placemat-Umweltmessstation_s2_DE.pdf
+
+- head: Feinstaubmessungen mit der senseBox
+  front: /images/placemats/s2/06_placemat_Feinstaub_s2.jpg
+  back: /images/placemats/s2/06_Placemat_Feinstaub_s2_rueck.jpg
+  position: 6
+  download: /docs/material/06_Placemat_Feinstaub_s2.pdf
+

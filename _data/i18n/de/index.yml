@@ -2,8 +2,8 @@
 
 # announcement
 new: "Neu:"
-announcement-text: Die neue <a class="green-link" href="https://sensebox.de/de/products-edus2">senseBox:edu S2</a> ist da!
-announcement-link: https://sensebox.kaufen/product/sensebox-edu-s2
+announcement-text: Das <a class="green-link" href="https://sensebox.kaufen/products/air-quality-explorer-set-sl">Air Quality Set </a> ist da!
+announcement-link: https://sensebox.kaufen/products/air-quality-explorer-set-sl
 announcement-button: Zum Shop
 
 # senseBox Family
@@ -15,7 +15,7 @@ sensebox-overview-home: Die senseBox:home ist ein Bausatz für eine Do-It-Yourse
 sensebox-overview-edu: Speziell für den Einsatz im Bildungsbereich wurde die senseBox:edu entwickelt. In einer praktischen grünen Kunststoffkiste sind alle Sensoren, Datenübertragungsmodule und weitere elektronische Bauteile gut sortiert. Spannende Projekte und viele weitere kostenlose Lernmaterialien ermöglichen einen einfachen und unkomplizierten Einstieg.
 sensebox-overview-mini: Mit der senseBox:mini gibt es ein preiswertes Set für den Einstieg in die Welt der senseBox. Sie bietet alles Nötige für erste eigene IoT-Projekte und der enthaltene Umweltsensor ermöglicht die Erfassung verschiedenster Umweltphänomene.
 sensebox-overview-co2-head: senseBox CO<sub>2</sub>-Ampel
-sensebox-overview-co2: Miss die CO<sub>2</sub>-Konzentration bei dir zuhause oder in deiner Schule und zeige diese live auf dem Display und mit Hilfe einer RGB-LED an. Die senseBox CO<sub>2</sub>-Ampel ist als <a class="green-link" href="https://sensebox.kaufen/product/co2-ampel-bausatz" target="blank">Bausatz</a> konzipiert und enthält alle wichtigen Bauteile, um eine CO<sub>2</sub>-Ampel zur Überwachung der Luftqualität im Raum zu bauen.
+sensebox-overview-co2: Miss die CO<sub>2</sub>-Konzentration bei dir zuhause oder in deiner Schule und zeige diese live auf dem Display und mit Hilfe einer RGB-LED an. Die senseBox CO<sub>2</sub>-Ampel ist als <a class="green-link" href="https://sensebox.kaufen/products/co2-ampel-set" target="blank">Bausatz</a> konzipiert und enthält alle wichtigen Bauteile, um eine CO<sub>2</sub>-Ampel zur Überwachung der Luftqualität im Raum zu bauen.
 # Blockly/openSenseMap Cards
 card-button: mehr Infos
 blockly-head: Blockly für senseBox

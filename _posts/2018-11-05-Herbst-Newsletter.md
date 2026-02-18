@@ -27,7 +27,7 @@ LoRa-Bee für die senseBox
 ============
 Auch [Blockly für senseBox](https://blockly.sensebox.de/ardublockly/?lang=de&board=sensebox-mcu) wurde im Zuge der Entwicklung der neuen senseBox überarbeitet. Alle Komponenten zur neuen senseBox sind angelegt und können zum Experimentieren und Ausprobieren verwendet werden. So ist es ein Leichtes auch schwierige Komponenten und Sensoren über Blockly zu programmieren und beispielsweise wie im Bild unten einen GPS-Sensor anzuschließen und die Werte auf dem Display anzuzeigen!
 
-Hier kannst du das LoRa-Bee bestellen [Shop](https://sensebox.kaufen/product/lora-bee)
+Hier kannst du das LoRa-Bee bestellen [Shop](https://sensebox.kaufen/products/lora-bee-868mhz-mit-drahtantenne)
 
 {% include image.html image=page.image3 %}
 

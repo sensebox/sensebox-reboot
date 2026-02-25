@@ -13,6 +13,7 @@
   bgImage: /images/material/Placemat_thumbnail.jpeg
   linkMCU: /de/placemats-mcu.html
   linkMCU-S2: /de/placemats-s2.html
+  linkBASIC: /de/placemats-basic.html
 
 - name: "senseBox Guide für den Bildungsbereich"
   position: 3

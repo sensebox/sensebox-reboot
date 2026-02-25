@@ -47,7 +47,7 @@ Um die Jahrtausendwende waren Tamagotchi und auch Digimon absoluter Kult. Die Ta
 ## Aufbau 
 Die LED-Matrix wird an einem der Digital-Ports angeschlossen. Hierbei ist es wichtig, dass später im Code auch der richtige angegeben wird. In diesem Projekt ist es der zweite, also Port B. Auch der Bodenfeuchtesensor wird mithilfe des Adapterboards mit einem QWIIC-Kabel in einem der Digital-Ports angeschlossen, in diesem Fall Port A. Der Licht- und Temperatursensor werden jeweils mit einem Kabel an einen der I2C-Ports angeschlossen, können aber auch in Reihe geschaltet werden. Wer die gemessenen Werte auf dem Display sehen möchte, muss auch das Display mit einem der Kabel an einen der Ports schließen.
 
-TODO(Bild von Aufbau)
+{% include image.html image=page.image0 %}
 
 ## Programmierung
 
@@ -139,10 +139,6 @@ Falls du dich entschieden hast, das Display zu benutzen, musst du noch die Werte
 
 Jetzt musst du die senseBox nur noch mit Strom versorgen, und du hast ein kleines Hanagotchi.
 
-## Kompletter Code
-
-TODO
-[Hier] (file:///C:/Users/Praktikum/Downloads/hanagotchi.xml) kannst du den kompletten Code in Blockly zum kopieren finden.
 ## Ausblick
 
 Dieses Projekt ist nur eine Vorlage, wie dein senseBox-Haustier aussehen könnte. 

@@ -77,12 +77,10 @@ Als erstes wird deswegen der Lichtsensor wichtig. Denn wenn es schläft, wird da
 Die Aktion, die ausgeführt werden soll, ist das schlafende Hanagotchi auf der LED-Matrix zu zeigen. 
 WICHTIG!: Du musst jedem Motiv, das du für die Bitmap erstellst, einen eigenen Namen geben, damit das Programm sie alle erkennt.
 
-(Bild schlafend)
+{% include image.html image=page.image4 %}
 
 Als nächstes erweiterst du den Block um eine Sonst-Funktion erweitern. Das machst du, indem du auf das kleine blaue Zahnrad klickst, und den Block hinzufügst. Hier werden die weiteren Aktionen des Tierchens bestimmt.
 In den Block platzierst du jetzt den Normalzustand deines Haustiers, also wie es aussehen soll, wenn es ihm rund um gut geht.
-
-{% include image.html image=page.image4 %}
 
 #### Bodenfeuchtesensor
 Danach folgt eine weitere Wenn-Dann-Bedingung. Hier wird jetzt in mehreren Schritten die Temperatur- und „Hunger“-Funktion eingestellt. Auch hier ist wieder wichtig zu beachten, was als Aktion Vorrang hat. In diesem Fall ist es der Wassergehalt in der Erde. Die Bedingung ist also, dass die gemessene Bodenfeuchte mindestens 40% sein muss. Auch hier musst du den Block jetzt um die Sonst-Funktion erweitern: wenn die Pflanze nicht genügend Wasser bekommt, wird das Hanagotchi hungrig. In diesen Abschnitt wird also die Anzeigen des hungrigen Monsters eingefügt.
@@ -135,7 +133,7 @@ Die beste Funktion deines kleinen Freunds kommt aber erst jetzt: genau wie ein r
 
 Falls du dich entschieden hast, das Display zu benutzen, musst du noch die Werte anzeigen lassen. Unter den äußersten Wenn-Dann-Block platzierst du jetzt also den „Display löschen“-Block. Das ist wichtig, damit nur die aktuellen Werte und nichts Anderes angezeigt wird. Dann benutzt du den Block „Zeige auf Display“, um die folgenden Blöcke hinein zu platzieren. Die einfachste Variante ist jetzt, dreimal den „Schreibe Text/Zahl“-Block einzufügen. Auch hier kannst du wieder die Variablen vom Anfang als Werte einsetzen. Wichtig zu beachten ist jetzt aber, dass alle drei Werte eine unterschiedliche y-Koordinate haben, damit sie sich nicht überlagern und unlesbar werden. 
 
-{% include image.html image=page.image1}
+{% include image.html image=page.image1 %}
 
 Jetzt musst du die senseBox nur noch mit Strom versorgen, und du hast ein kleines Hanagotchi.
 

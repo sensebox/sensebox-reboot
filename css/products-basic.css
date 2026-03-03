@@ -591,7 +591,6 @@
    Materials Section
    ============================================ */
 .materials-section {
-    border-top: 4px solid #4CAF50;
     padding: 20px 0;
     background: linear-gradient(180deg, #f8f9fa 0%, #ffffff 100%);
 }
@@ -818,5 +817,5 @@
 }
 
 .materials-section {
-    background: linear-gradient(180deg, #ffffff 0%, #f8f9fa 100%);
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
 }

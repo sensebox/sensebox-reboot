@@ -43,7 +43,7 @@ basic-content-title: "Inhalt der senseBox:basic"
 whats_in_the_box:
   - senseBox MCU S2 (ESP-32)
   - Bluetooth-Bee
-  - Umweltsensor (BME 680)
+  - Umweltsensor
   - OLED-Display
   - Batteriehalterung inklusive Batterie mit Schutzhülle
   - Verbindungskabel für die senseBox:basic
@@ -53,8 +53,8 @@ sd_modul: Integriertes SD-Kartenmodul
 sd_modul_text: Auf der mitgelieferten SD-Karte (4 GB) können die erhobenen Daten der senseBox MCU S2 gespeichert werden. 
 rgb_led: RGB-LED
 rgb_led_text: Die integrierte RGB-LED zeigt den Programmstatus der senseBox MCU S2 direkt an und signalisiert verschiedene Zustände. So erhalten Nutzer eine intuitive visuelle Rückmeldung und behalten den aktuellen Status jederzeit im Blick.
-bme680: Temperatur- und Feuchtigkeitssensor (BME680)
-bme680_text: Der BME680 ist ein digitaler Feuchtigkeits- und Temperatursensor. Der Sensor hat eine hohe Genauigkeit und eine sehr geringe Stromaufnahme und eignet sich dadurch ideal zur Umweltdatenerhebung mit der senseBox. Die relative Luftfeuchtigkeit wird in Prozent erfasst und die Temperatur in Grad Celsius. 
+bme680: Umweltsensor
+bme680_text:  Temperatur, Luftfeuchtigkeit und Luftqualität lassen sich mit dem Umweltsensor erfassen. So können Kinder spielerisch die Umweltbedingungen in ihrer Umgebung messen und verstehen lernen.
 oled: OLED-Display
 oled_text: Das OLED-Display bietet eine visuelle Anzeige und Ausgabe für Sensorwerte, Statusinformationen und vieles mehr. Das OLED-Display zeigt Informationen als Text, Zahlen und Diagramme an. Somit wird eine Live-Anzeige der Messwerte möglich. 
 bluetooth: Bluetooth-Bee

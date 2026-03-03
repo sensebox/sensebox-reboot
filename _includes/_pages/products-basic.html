@@ -119,6 +119,38 @@
     .blockly-container {
       position: relative;
     }
+
+    .sensor-icons {
+      display: flex;
+      justify-content: center;
+      margin-top:10px;
+      border-top: 1px solid rgba(0, 0, 0, 0.08);
+      flex-wrap: wrap;
+    }
+
+    .sb-pheno-small {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      min-width: 90px;
+    }
+
+    .sb-pheno-small .icon {
+      transition: transform 0.3s ease;
+    }
+
+    .sb-pheno-small:hover .icon {
+      transform: scale(1.15);
+    }
+
+    .sb-pheno-small span {
+      font-size: 0.8rem;
+      font-weight: 500;
+      color: #6e6e73;
+      text-align: center;
+      line-height: 1.2;
+    }
   </style>
 
   <!-- Product Categories Section -->
@@ -129,28 +161,26 @@
         <div class="category-nav">
           <h4>{{content.categories_title}}</h4>
           <h3 class="category-nav-title" id="current-category-title">
-            {{content.onboard_title}}
+            {{content.sensors_title}}
           </h3>
           <p class="category-nav-desc" id="current-category-desc">
-            {{content.onboard_desc}}
+            {{content.sensors_desc}}
           </p>
           <div
             class="category-item active"
-            data-category="onboard"
-            data-title="{{content.onboard_title}}"
-            data-desc="{{content.onboard_desc}}"
-          >
-            <div class="category-icon">🔌</div>
-            <span>Onboard</span>
-          </div>
-          <div
-            class="category-item"
             data-category="sensors"
             data-title="{{content.sensors_title}}"
             data-desc="{{content.sensors_desc}}"
           >
-            <div class="category-icon">📡</div>
             <span>Sensoren</span>
+          </div>
+          <div
+            class="category-item"
+            data-category="onboard"
+            data-title="{{content.onboard_title}}"
+            data-desc="{{content.onboard_desc}}"
+          >
+            <span>Onboard</span>
           </div>
           <div
             class="category-item"
@@ -158,7 +188,6 @@
             data-title="{{content.accessories_title}}"
             data-desc="{{content.accessories_desc}}"
           >
-            <div class="category-icon">🔧</div>
             <span>Zubehör</span>
           </div>
         </div>
@@ -166,8 +195,106 @@
 
       <!-- Right Content Area -->
       <div class="col-lg-9 col-md-8">
+        <div class="category-content active" id="sensors">
+          <div class="row justify-content-center">
+            <div class="col-lg-4 col-md-6 mb-4 d-flex">
+              <div class="feature-card">
+                <img
+                  loading="lazy"
+                  src="/images/products/edus2/BME680.gif"
+                  alt="BME680 Sensor"
+                />
+                <h3>{{content.bme680}}</h3>
+                <p style="height: 13rem;">{{content.bme680_text}}</p>
+                <div class="sensor-icons">
+                  <div class="sb-pheno">
+                    <div class="icon">
+                      <span class="fa-stack fa-2x">
+                        <i class="fas fa-circle fa-stack-2x" style="color: whitesmoke"></i>
+                        <i class="fas fa-temperature-high fa-stack-1x fa-inverse" style="color:#4caf50"></i>
+                      </span>
+                    </div>
+                    <span>Temperatur</span>
+                  </div>
+                  <div class="sb-pheno">
+                    <div class="icon">
+                      <span class="fa-stack fa-2x">
+                        <i class="fas fa-circle fa-stack-2x" style="color: whitesmoke"></i>
+                        <i class="fas fa-percent fa-stack-1x fa-inverse" style="color:#4caf50"></i>
+                      </span>
+                    </div>
+                    <span>Luftfeuchtigkeit</span>
+                  </div>
+                  <div class="sb-pheno">
+                    <div class="icon">
+                      <span class="fa-stack fa-2x">
+                        <i class="fas fa-circle fa-stack-2x" style="color: whitesmoke"></i>
+                        <i class="fas fa-cloud fa-stack-1x fa-inverse" style="color:#4caf50"></i>
+                      </span>
+                    </div>
+                    <span>Luftqualität</span>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4 d-flex">
+              <div class="feature-card">
+                <img
+                  loading="lazy"
+                  src="/images/products/edus2/senseBox_MCU-S2_Lichtsensor.gif"
+                  alt="Lichtsensor"
+                />
+                <h3>Lichtsensor (Photodiode)</h3>
+                <p style="height: 13rem;" >
+                  Misst die Lichtintensität der Umgebung. Die integrierte
+                  Photodiode erfasst präzise die Helligkeit und ermöglicht
+                  interessante Projekte rund um Licht und Schatten.
+                </p>
+                <div class="sensor-icons">
+                  <div class="sb-pheno">
+                    <div class="icon">
+                      <span class="fa-stack fa-2x">
+                        <i class="fas fa-circle fa-stack-2x" style="color: whitesmoke"></i>
+                        <i class="fas fa-sun fa-stack-1x fa-inverse" style="color:#4caf50"></i>
+                      </span>
+                    </div>
+                    <span>Helligkeit</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4 d-flex">
+              <div class="feature-card">
+                <img
+                  loading="lazy"
+                  src="/images/products/edus2/senseBox_MCU-S2_Beschleunigungssensor.gif"
+                  alt="Beschleunigungssensor"
+                />
+                <h3>Beschleunigungssensor</h3>
+                <p style="height: 13rem;">
+                  Erkennt Bewegung und Erschütterungen. Perfekt für Projekte,
+                  die auf Bewegung reagieren oder die Lage im Raum bestimmen
+                  sollen.
+                </p>
+                <div class="sensor-icons">
+                  <div class="sb-pheno">
+                    <div class="icon">
+                      <span class="fa-stack fa-2x">
+                        <i class="fas fa-circle fa-stack-2x" style="color: whitesmoke"></i>
+                        <i class="fas fa-wave-square fa-stack-1x fa-inverse" style="color:#4caf50"></i>
+                      </span>
+                    </div>
+                    <span>Beschleunigung</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
         <!-- Onboard Category -->
-        <div class="category-content active" id="onboard">
+        <div class="category-content " id="onboard">
           <div class="row">
             <div class="col-lg-4 col-md-6 mb-4 d-flex">
               <div class="feature-card">
@@ -206,51 +333,7 @@
         </div>
 
         <!-- Sensors Category -->
-        <div class="category-content" id="sensors">
-          <div class="row justify-content-center">
-            <div class="col-lg-4 col-md-6 mb-4 d-flex">
-              <div class="feature-card">
-                <img
-                  loading="lazy"
-                  src="/images/products/edus2/senseBox_MCU-S2_Lichtsensor.gif"
-                  alt="Lichtsensor"
-                />
-                <h3>Lichtsensor (Photodiode)</h3>
-                <p>
-                  Misst die Lichtintensität der Umgebung. Die integrierte
-                  Photodiode erfasst präzise die Helligkeit und ermöglicht
-                  interessante Projekte rund um Licht und Schatten.
-                </p>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 mb-4 d-flex">
-              <div class="feature-card">
-                <img
-                  loading="lazy"
-                  src="/images/products/edus2/senseBox_MCU-S2_Beschleunigungssensor.gif"
-                  alt="Beschleunigungssensor"
-                />
-                <h3>Beschleunigungssensor</h3>
-                <p>
-                  Erkennt Bewegung und Erschütterungen. Perfekt für Projekte,
-                  die auf Bewegung reagieren oder die Lage im Raum bestimmen
-                  sollen.
-                </p>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 mb-4 d-flex">
-              <div class="feature-card">
-                <img
-                  loading="lazy"
-                  src="/images/products/edus2/BME680.gif"
-                  alt="BME680 Sensor"
-                />
-                <h3>{{content.bme680}}</h3>
-                <p>{{content.bme680_text}}</p>
-              </div>
-            </div>
-          </div>
-        </div>
+        
 
         <!-- Accessories Category -->
         <div class="category-content" id="accessories">

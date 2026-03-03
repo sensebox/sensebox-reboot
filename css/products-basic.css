@@ -424,6 +424,7 @@
     line-height: 1.6;
     font-size: 0.938rem;
     margin: 0;
+    /* Removed flex-grow to ensure the card size matches content */
 }
 
 .category-content {

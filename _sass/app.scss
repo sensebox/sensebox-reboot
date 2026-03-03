@@ -1,0 +1,75 @@
+/* Liste als vertikale Step-Cards */
+.programming-steps {
+  list-style: none;
+  padding-left: 0;
+  counter-reset: step;
+}
+
+/* Einzelnes Step-Element */
+.programming-step {
+  counter-increment: step;
+  margin-bottom: 2rem;
+}
+
+/* Card-Optik */
+.programming-step .step-content {
+  position: relative;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 1.5rem 1.75rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+/* Step-Nummer */
+.programming-step .step-content::before {
+  content: counter(step);
+  position: absolute;
+  top: -14px;
+  left: -14px;
+  width: 36px;
+  height: 36px;
+  background: #4caf50; /* senseBox-Grün */
+  color: #fff;
+  font-weight: 700;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Text besser lesbar */
+.step-text {
+  font-size: 1.05rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  color: #1f2933;
+}
+
+/* Bilder einheitlich & zentriert */
+.step-image,
+.step-video {
+  display: flex;
+  justify-content: center;
+  margin: 1.5rem 0;
+}
+
+/* Einheitliche Bildgröße */
+.step-image img {
+  max-width: 420px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* GIFs & PNGs sauber */
+.step-image img,
+.step-image video {
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+}
+
+/* YouTube nicht zu breit */
+.step-video iframe {
+  max-width: 560px;
+  width: 100%;
+  border-radius: 12px;
+}

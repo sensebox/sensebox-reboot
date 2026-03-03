@@ -8,6 +8,8 @@ go-fist-steps-with: "Erste Schritte mit der..."
 go-name: Wähle deine senseBox
 go-home-name: ":home"
 go-home-link: /go-home.html
+go-basic-name: ":basic"
+go-basic-link: /products-basic.html
 go-edu-name: ":edu"
 go-edu-link: /go-edu.html
 go-mini-name: ":mini"
@@ -25,6 +27,8 @@ products-software-name: "Software"
 products-software-link: /products-software.html
 products-home-name: ":home"
 products-home-link: /products-home.html
+products-basic-name: ":basic"
+products-basic-link: /products-basic.html
 products-edu-name: ":edu"
 products-edu-link: /products-edu.html
 products-edus2-name: ":edu S2"

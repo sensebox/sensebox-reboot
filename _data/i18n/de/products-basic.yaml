@@ -1,0 +1,61 @@
+basic-title: "Digitale Welt verstehen – schon ab der Grundschule"
+basic-text: "Kinder wachsen heute ganz selbstverständlich mit digitaler Technik auf. Doch wie funktioniert sie eigentlich? Die senseBox:basic als neuer Bausatz der senseBox:familie konzipiert für den Einsatz ab der Grundschule bietet einen einfachen Einstieg in die Welt von Sensoren und Programmierung, ohne zu überfordern. Mit der senseBox:basic lernen Kinder ab der Grundschule spielerisch erste Grundlagen der Programmierung als Basis für weiterführende Themen wie IoT, Datenanalyse oder komplexere Programmierunglogiken kennen. So wird aus „Technik benutzen“ ein Technik verstehen."
+# Kategorie-Navigation
+categories_title: "Kategorien"
+onboard_title: "Onboard Komponenten"
+onboard_desc: "Direkt integrierte Hardware auf der senseBox MCU S2"
+sensors_title: "Sensoren"
+sensors_desc: "Externe Sensoren zur Erfassung von Umweltdaten"
+accessories_title: "Zubehör"
+accessories_desc: "Zusätzliche Module zur Erweiterung der senseBox"
+basic-kompetenzen-title: "Vermittelte Kompetenzen"
+basic-kompetenzen-text: "Die senseBox:basic vermittelt praxisnah grundlegende Kompetenzen im Bereich Informatik und digitale Bildung – ideal für den Einstieg in Schule und außerschulische Bildungsangebote:
+
+💡 Informatik verstehen
+- Beispiele für Informatiksysteme im Alltag benennen (z.B. Ampelschaltung)
+- Grundlegendes Verständnis & Unterscheidung von Hardware und Software 
+- Das EVA-Prinzip (Eingabe – Verarbeitung – Ausgabe) verstehen und anwenden
+- Grundlegende Funktionsweise digitaler Systeme nachvollziehen
+
+👩‍💻 Programmieren lernen
+- Grundaufbau von Programmen kennenlernen
+- Einfache blockbasierte Programme entwickeln
+- Zentrale Programmierbefehle anwenden
+- Einblick in die Arbeitsweise von Informatiker*innen erhalten
+
+🔌 Theorie trifft Praxis
+- Programme auf externe Hardware übertragen
+- Eigene Programme direkt an der senseBox testen
+- Zusammenhänge zwischen Code, Sensoren und Ausgaben praktisch erleben
+
+Ergebnis: Kinder entwickeln ein grundlegendes Verständnis für digitale Systeme, erwerben erste Programmierkompetenzen und stärken Problemlösefähigkeit sowie technisches Denken – handlungsorientiert und motivierend."
+
+basic-material-title: "Kostenloses Lehr- und Lernmaterial"
+basic-material-text: "Zur senseBox:basic werden neben der Hardware auch passende Materialien für den Einstieg in die Welt der Programmierung als Open Educational Resources (OER) frei zur Verfügung gestellt. Von Projekten zum Nachbauen über Unterrichtsideen bis hin zur Einordnung in die Bildungsstandards findest du alles bald kostenlos auf unserer Website. Die Materialsammlung wird fortlaufend überarbeitet und um neue Projekte ergänzt."
+
+basic-programming-title: "Kinderleichte Programmierung mit neuem senseBox-Blockly"
+basic-programming-text: "Damit der Einstieg ins Programmieren leicht gelingt, gibt es eine angepasste und kindgerechte Programmieroberfläche von senseBox-Blockly. Die Programmierbausteine sind übersichtlich gestaltet und arbeiten mit klaren Symbolen und Farben. So erkennen Kinder schnell, welcher Block wofür steht – zum Beispiel für Licht, Sensoren oder Anzeigen. Die vereinfachte Menüführung hilft dabei, sich auf das Wesentliche zu konzentrieren, ohne von zu vielen Funktionen abgelenkt zu werden. Statt komplizierten Code zu schreiben, werden Bausteine wie Puzzleteile zusammengesetzt."
+
+basic-event-title: "Online-Meetup zum Kennenlernen"
+basic-programming-text: "<strong style='color:#4da843;'>Jeden 2. Dienstag</strong> im Monat bieten wir ein Online-Meetup von <strong style='color: #4da843;'>15-16 Uhr</strong> via <a href='https://uni-ms.zoom-x.de/j/65029471411?pwd=l6jAyfc6E2DqKoJXKhmvx5uOGCfBs4.1' style='color:#0000EE;'>Zoom</a> an, um die senseBox:basic vorzustellen und eure Fragen zu beantworten. Der erste Termin ist am <strong style='color: #4da843;'>14. April</strong>, wir freuen uns auf euch!"
+
+basic-content-title: "Inhalt der senseBox:basic"
+whats_in_the_box:
+  - senseBox MCU S2 (ESP-32)
+  - Bluetooth-Bee
+  - Umweltsensor
+  - OLED-Display
+  - Batteriehalterung inklusive Batterie mit Schutzhülle
+  - Verbindungskabel für die senseBox:basic
+wifi: Integriertes WiFi
+wifi_text: Ein WiFi-Modul ist direkt auf dem Board integriert, um mit der senseBox erfasste Messwerte einfach ins Internet zu übertragen und WPA2-gesicherte Netzwerke problemlos zu nutzen.
+sd_modul: Integriertes SD-Kartenmodul
+sd_modul_text: Auf der mitgelieferten SD-Karte (4 GB) können die erhobenen Daten der senseBox MCU S2 gespeichert werden. 
+rgb_led: RGB-LED
+rgb_led_text: Die integrierte RGB-LED zeigt den Programmstatus der senseBox MCU S2 direkt an und signalisiert verschiedene Zustände. So erhalten Nutzer eine intuitive visuelle Rückmeldung und behalten den aktuellen Status jederzeit im Blick.
+bme680: Umweltsensor
+bme680_text:  Temperatur, Luftfeuchtigkeit und Luftqualität lassen sich mit dem Umweltsensor erfassen. So können Kinder spielerisch die Umweltbedingungen in ihrer Umgebung messen und verstehen lernen.
+oled: OLED-Display
+oled_text: Das OLED-Display bietet eine visuelle Anzeige und Ausgabe für Sensorwerte, Statusinformationen und vieles mehr. Das OLED-Display zeigt Informationen als Text, Zahlen und Diagramme an. Somit wird eine Live-Anzeige der Messwerte möglich. 
+bluetooth: Bluetooth-Bee
+bluetooth_text: Mit dem Bluetooth-Bee (oder BLE-Bee) kann der senseBox-Mikrocontroller um die Bluetooth-Funktionalität bzw. BLE (Bluetooth Low Energy) erweitert werden. Mit dem Bluetooth-Bee können die Sensorwerte drahtlos an mobile Endgeräte wie Smartphones oder Tablets übertragen und direkt professionell visualisiert werden.

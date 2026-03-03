@@ -1,0 +1,655 @@
+{% assign content = site.data.i18n.[page.lang].products-basic %}
+
+<!-- Hero Section -->
+<div class="hero-section">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-6 hero-content">
+        <h1 class="hero-title">{{content.basic-title}}</h1>
+        <p class="hero-description">{{content.basic-text}}</p>
+<!--         <div class="hero-cta">
+          <a href="#explore" class="btn-primary-modern">Zur App</a>
+          <a href="/shop" class="btn-secondary-modern">Zum Shop</a>
+        </div> -->
+      </div>
+      <div class="col-lg-6 hero-image">
+        <div class="floating-image" style="cursor: pointer;" onclick="openLightbox('/images/basic/senseBoxBasic_Rollup.png', 'senseBox:basic')">
+          <img
+            loading="lazy"
+            class="img-fluid"
+            src="/images/basic/senseBoxBasic_Rollup.png"
+            alt="senseBox:basic"
+          />
+          <div class="zoom-hint">🔍 Klicken zum Vergrößern</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Programming Section -->
+<div class="programming-section" id="programming">
+  <div class="container">
+    <div class="section-header text-center">
+      <h2 class="section-title">{{content.basic-programming-title}}</h2>
+
+    </div>
+
+    <div class="programming-showcase">
+      <div class="blockly-container">
+              <div class="postit-note">
+        <p class="postit-text">{{content.basic-programming-text}}</p>
+      </div>
+              <div class="blockly-callout">
+          <span class="callout-text"
+            >Probiere es direkt aus! Ziehe die Blöcke und erstelle dein erstes
+            Programm.</span
+          >
+        </div>
+        <div class="blockly-wrapper">
+          <div class="embed-responsive">
+            <iframe
+              loading="lazy"
+              src="https://deploy-preview-664--blockly-react.netlify.app/embeddedbasic"
+              title="Blockly Embedded"
+              allowfullscreen
+              sandbox="allow-scripts allow-same-origin"
+            ></iframe>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Product Overview Section -->
+<div class="new-section" id="explore">
+  <div class="container">
+    <div class="section-header text-center">
+      <h2 class="section-title styled-title">
+        {{content.basic-content-title}}
+      </h2>
+      <p class="section-subtitle">
+        Alles was du brauchst, um deine ersten IoT-Projekte zu verwirklichen
+      </p>
+    </div>
+
+    <!-- Add spacing to visually separate the section -->
+    <div class="section-spacing"></div>
+  </div>
+
+  <style>
+    .new-section {
+      padding: 40px 0;
+      background: #f9f9f9;
+    }
+
+    .styled-title {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: #1d1d1f;
+      margin-bottom: 16px;
+      letter-spacing: 0.05em;
+    }
+
+    .section-spacing {
+      margin-top: 40px;
+    }
+
+    .postit-note {
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+      width: 300px;
+      height: 300px;
+      background: #ffeb3b;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      padding: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      font-size: 0.9rem;
+      font-weight: bold;
+      color: #333;
+    }
+
+    .blockly-container {
+      position: relative;
+    }
+
+    .sensor-icons {
+      display: flex;
+      justify-content: center;
+      margin-top:10px;
+      border-top: 1px solid rgba(0, 0, 0, 0.08);
+      flex-wrap: wrap;
+    }
+
+    .sb-pheno-small {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      min-width: 90px;
+    }
+
+    .sb-pheno-small .icon {
+      transition: transform 0.3s ease;
+    }
+
+    .sb-pheno-small:hover .icon {
+      transform: scale(1.15);
+    }
+
+    .sb-pheno-small span {
+      font-size: 0.8rem;
+      font-weight: 500;
+      color: #6e6e73;
+      text-align: center;
+      line-height: 1.2;
+    }
+  </style>
+
+  <!-- Product Categories Section -->
+  <div class="container">
+    <div class="row">
+      <!-- Left Sidebar Navigation -->
+      <div class="col-lg-3 col-md-4">
+        <div class="category-nav">
+          <h4>{{content.categories_title}}</h4>
+          <h3 class="category-nav-title" id="current-category-title">
+            {{content.sensors_title}}
+          </h3>
+          <p class="category-nav-desc" id="current-category-desc">
+            {{content.sensors_desc}}
+          </p>
+          <div
+            class="category-item active"
+            data-category="sensors"
+            data-title="{{content.sensors_title}}"
+            data-desc="{{content.sensors_desc}}"
+          >
+            <span>Sensoren</span>
+          </div>
+          <div
+            class="category-item"
+            data-category="onboard"
+            data-title="{{content.onboard_title}}"
+            data-desc="{{content.onboard_desc}}"
+          >
+            <span>Onboard</span>
+          </div>
+          <div
+            class="category-item"
+            data-category="accessories"
+            data-title="{{content.accessories_title}}"
+            data-desc="{{content.accessories_desc}}"
+          >
+            <span>Zubehör</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Content Area -->
+      <div class="col-lg-9 col-md-8">
+        <div class="category-content active" id="sensors">
+          <div class="row justify-content-center">
+            <div class="col-lg-4 col-md-6 mb-4 d-flex">
+              <div class="feature-card">
+                <img
+                  loading="lazy"
+                  src="/images/products/edus2/BME680.gif"
+                  alt="BME680 Sensor"
+                />
+                <h3>{{content.bme680}}</h3>
+                <p style="height: 13rem;">{{content.bme680_text}}</p>
+                <div class="sensor-icons">
+                  <div class="sb-pheno">
+                    <div class="icon">
+                      <span class="fa-stack fa-2x">
+                        <i class="fas fa-circle fa-stack-2x" style="color: whitesmoke"></i>
+                        <i class="fas fa-temperature-high fa-stack-1x fa-inverse" style="color:#4caf50"></i>
+                      </span>
+                    </div>
+                    <span>Temperatur</span>
+                  </div>
+                  <div class="sb-pheno">
+                    <div class="icon">
+                      <span class="fa-stack fa-2x">
+                        <i class="fas fa-circle fa-stack-2x" style="color: whitesmoke"></i>
+                        <i class="fas fa-percent fa-stack-1x fa-inverse" style="color:#4caf50"></i>
+                      </span>
+                    </div>
+                    <span>Luftfeuchtigkeit</span>
+                  </div>
+                  <div class="sb-pheno">
+                    <div class="icon">
+                      <span class="fa-stack fa-2x">
+                        <i class="fas fa-circle fa-stack-2x" style="color: whitesmoke"></i>
+                        <i class="fas fa-cloud fa-stack-1x fa-inverse" style="color:#4caf50"></i>
+                      </span>
+                    </div>
+                    <span>Luftqualität</span>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4 d-flex">
+              <div class="feature-card">
+                <img
+                  loading="lazy"
+                  src="/images/products/edus2/senseBox_MCU-S2_Lichtsensor.gif"
+                  alt="Lichtsensor"
+                />
+                <h3>Lichtsensor</h3>
+                <p style="height: 13rem;" >
+                  Misst die Lichtintensität der Umgebung. Die integrierte
+                  Photodiode erfasst präzise die Helligkeit und ermöglicht
+                  interessante Projekte rund um Licht und Schatten.
+                </p>
+                <div class="sensor-icons">
+                  <div class="sb-pheno">
+                    <div class="icon">
+                      <span class="fa-stack fa-2x">
+                        <i class="fas fa-circle fa-stack-2x" style="color: whitesmoke"></i>
+                        <i class="fas fa-sun fa-stack-1x fa-inverse" style="color:#4caf50"></i>
+                      </span>
+                    </div>
+                    <span>Helligkeit</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4 d-flex">
+              <div class="feature-card">
+                <img
+                  loading="lazy"
+                  src="/images/products/edus2/senseBox_MCU-S2_Beschleunigungssensor.gif"
+                  alt="Beschleunigungssensor"
+                />
+                <h3>Beschleunigungssensor</h3>
+                <p style="height: 13rem;">
+                  Erkennt Bewegung und Erschütterungen. Perfekt für Projekte,
+                  die auf Bewegung reagieren oder die Lage im Raum bestimmen
+                  sollen.
+                </p>
+                <div class="sensor-icons">
+                  <div class="sb-pheno">
+                    <div class="icon">
+                      <span class="fa-stack fa-2x">
+                        <i class="fas fa-circle fa-stack-2x" style="color: whitesmoke"></i>
+                        <i class="fas fa-wave-square fa-stack-1x fa-inverse" style="color:#4caf50"></i>
+                      </span>
+                    </div>
+                    <span>Beschleunigung</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+        <!-- Onboard Category -->
+        <div class="category-content " id="onboard">
+          <div class="row">
+            <div class="col-lg-4 col-md-6 mb-4 d-flex">
+              <div class="feature-card">
+                <img
+                  loading="lazy"
+                  src="/images/products/edus2/sdmodule.gif"
+                  alt="SD Module"
+                />
+                <h3>{{content.sd_modul}}</h3>
+                <p>{{content.sd_modul_text}}</p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4 d-flex">
+              <div class="feature-card">
+                <img
+                  loading="lazy"
+                  src="/images/products/edus2/mcus2-wifi.gif"
+                  alt="WiFi Module"
+                />
+                <h3>{{content.wifi}}</h3>
+                <p>{{content.wifi_text}}</p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4 d-flex">
+              <div class="feature-card">
+                <img
+                  loading="lazy"
+                  src="/images/products/edus2/RGB-LED.gif"
+                  alt="RGB LED"
+                />
+                <h3>{{content.rgb_led}}</h3>
+                <p>{{content.rgb_led_text}}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sensors Category -->
+        
+
+        <!-- Accessories Category -->
+        <div class="category-content" id="accessories">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 mb-4 d-flex">
+              <div class="feature-card">
+                <img
+                  loading="lazy"
+                  src="/images/products/edus2/oleddisplay.gif"
+                  alt="OLED Display"
+                />
+                <h3>{{content.oled}}</h3>
+                <p>{{content.oled_text}}</p>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 mb-4 d-flex">
+              <div class="feature-card">
+                <img
+                  loading="lazy"
+                  src="/images/products/edus2/mcus2-ble.gif"
+                  alt="Bluetooth Module"
+                />
+                <h3>{{content.bluetooth}}</h3>
+                <p>{{content.bluetooth_text}}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+
+        <!-- Materials Section -->
+        
+
+        <!-- Link to external CSS file -->
+        <link rel="stylesheet" href="/css/products-basic.css" />
+
+        <!-- JavaScript for category switching and smooth interactions -->
+        <script>
+          document.addEventListener("DOMContentLoaded", function () {
+            const categoryItems = document.querySelectorAll(".category-item");
+            const categoryContents =
+              document.querySelectorAll(".category-content");
+
+            // Category switching
+            categoryItems.forEach((item) => {
+              item.addEventListener("click", function () {
+                const category = this.getAttribute("data-category");
+                const title = this.getAttribute("data-title");
+                const desc = this.getAttribute("data-desc");
+
+                // Remove active class from all items
+                categoryItems.forEach((i) => i.classList.remove("active"));
+                categoryContents.forEach((c) => c.classList.remove("active"));
+
+                // Add active class to clicked item
+                this.classList.add("active");
+                document.getElementById(category).classList.add("active");
+
+                // Update sidebar title and description with smooth transition
+                const titleEl = document.getElementById(
+                  "current-category-title",
+                );
+                const descEl = document.getElementById("current-category-desc");
+
+                titleEl.style.opacity = "0";
+                descEl.style.opacity = "0";
+
+                setTimeout(() => {
+                  titleEl.textContent = title;
+                  descEl.textContent = desc;
+                  titleEl.style.opacity = "1";
+                  descEl.style.opacity = "1";
+                }, 150);
+              });
+            });
+
+            // Smooth scroll for hero CTA buttons
+            document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+              anchor.addEventListener("click", function (e) {
+                e.preventDefault();
+                const target = document.querySelector(
+                  this.getAttribute("href"),
+                );
+                if (target) {
+                  const offset = 80;
+                  const targetPosition = target.offsetTop - offset;
+                  window.scrollTo({
+                    top: targetPosition,
+                    behavior: "smooth",
+                  });
+                }
+              });
+            });
+
+            // Add transition styles for smooth updates
+            const style = document.createElement("style");
+            style.textContent = `
+            #current-category-title,
+            #current-category-desc {
+                transition: opacity 0.15s ease-in-out;
+            }
+        `;
+            document.head.appendChild(style);
+
+            // Parallax effect for hero image (subtle)
+            const heroImage = document.querySelector(".floating-image");
+            if (heroImage) {
+              window.addEventListener("scroll", function () {
+                const scrolled = window.pageYOffset;
+                const rate = scrolled * 0.3;
+                if (heroImage) {
+                  heroImage.style.transform = `translateY(${rate}px)`;
+                }
+              });
+            }
+          });
+        </script>
+      </div>
+    </div>
+  
+</div>
+</div>
+  <div class="materials-section" id="materials">
+          <div class="container">
+            <div class="row align-items-center materials-row">
+              <div class="col-md-6">
+                <div class="materials-image-wrapper" style="cursor: pointer;" onclick="openLightbox('/images/basic/placemat.png', 'Teaching materials')">
+                  <img
+                    loading="lazy"
+                    class="img-fluid"
+                    src="/images/basic/placemat.png"
+                    alt="Teaching materials"
+                  />
+                  <div class="zoom-hint">🔍 Klicken zum Vergrößern</div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="materials-content">
+                  <h2 class="materials-title">
+                    {{content.basic-material-title}}
+                  </h2>
+                  <p class="materials-description">
+                    {{content.basic-material-text}}
+                  </p>
+                
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+<!-- Enhanced Shop Section -->
+<!-- <div class="shop-section" id="shop">
+  <div class="container text-center">
+    <div class="shop-content">
+      <p class="shop-intro">Entdecke die Welt der senseBox und finde alles, was du für spannende Projekte brauchst.</p>
+      <a href="/shop" class="btn-primary-modern">Zum Shop</a>
+    </div>
+  </div>
+</div> -->
+
+<style>
+.shop-section {
+  padding: 80px 0;
+  background: #ffffff;
+  border-top: 6px solid #4caf50;
+}
+
+.shop-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.shop-intro {
+  font-size: 1.5rem;
+  color: #1d1d1f;
+  font-weight: 600;
+  margin: 0;
+}
+
+.btn-primary-modern {
+  display: inline-block;
+  padding: 16px 32px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #fff;
+  background: #4caf50;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-primary-modern:hover {
+  background: #388e3c;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+</style>
+
+<!-- Lightbox Modal -->
+<div id="imageLightbox" class="lightbox" onclick="closeLightbox()">
+  <span class="lightbox-close">&times;</span>
+  <img class="lightbox-content" id="lightboxImage" />
+  <div class="lightbox-caption" id="lightboxCaption"></div>
+</div>
+
+<style>
+.lightbox {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  padding-top: 50px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.9);
+  animation: fadeIn 0.3s ease;
+}
+
+.lightbox-content {
+  margin: auto;
+  display: block;
+  width: 90%;
+  max-width: 1200px;
+  animation: zoomIn 0.3s ease;
+}
+
+.lightbox-close {
+  position: absolute;
+  top: 20px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.lightbox-close:hover,
+.lightbox-close:focus {
+  color: #bbb;
+}
+
+.lightbox-caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 20px 0;
+  font-size: 1.1rem;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes zoomIn {
+  from { transform: scale(0.8); }
+  to { transform: scale(1); }
+}
+
+.zoom-hint {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 8px 12px;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.materials-image-wrapper:hover .zoom-hint {
+  opacity: 1;
+}
+
+.materials-image-wrapper {
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+.materials-image-wrapper:hover {
+  transform: scale(1.02);
+}
+</style>
+
+<script>
+function openLightbox(src, alt) {
+  const lightbox = document.getElementById('imageLightbox');
+  const img = document.getElementById('lightboxImage');
+  const caption = document.getElementById('lightboxCaption');
+  
+  lightbox.style.display = 'block';
+  img.src = src;
+  caption.textContent = alt;
+  document.body.style.overflow = 'hidden';
+}
+
+function closeLightbox() {
+  const lightbox = document.getElementById('imageLightbox');
+  lightbox.style.display = 'none';
+  document.body.style.overflow = 'auto';
+}
+
+// Close lightbox on ESC key
+document.addEventListener('keydown', function(event) {
+  if (event.key === 'Escape') {
+    closeLightbox();
+  }
+});
+</script>

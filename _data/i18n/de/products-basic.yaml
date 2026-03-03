@@ -1,11 +1,36 @@
 basic-title: "Digitale Welt verstehen – schon ab der Grundschule"
 basic-text: "Kinder wachsen heute ganz selbstverständlich mit digitaler Technik auf. Doch wie funktioniert sie eigentlich? Die senseBox:basic als neuer Bausatz der senseBox:familie konzipiert für den Einsatz ab der Grundschule bietet einen einfachen Einstieg in die Welt von Sensoren und Programmierung, ohne zu überfordern. Mit der senseBox:basic lernen Kinder ab der Grundschule spielerisch erste Grundlagen der Programmierung als Basis für weiterführende Themen wie IoT, Datenanalyse oder komplexere Programmierunglogiken kennen. So wird aus „Technik benutzen“ ein Technik verstehen."
 
+basic-kompetenzen-title: "Vermittelte Kompetenzen"
+basic-kompetenzen-text: "Die senseBox:basic vermittelt praxisnah grundlegende Kompetenzen im Bereich Informatik und digitale Bildung – ideal für den Einstieg in Schule und außerschulische Bildungsangebote:
+
+💡 Informatik verstehen
+- Beispiele für Informatiksysteme im Alltag benennen (z.B. Ampelschaltung)
+- Grundlegendes Verständnis & Unterscheidung von Hardware und Software 
+- Das EVA-Prinzip (Eingabe – Verarbeitung – Ausgabe) verstehen und anwenden
+- Grundlegende Funktionsweise digitaler Systeme nachvollziehen
+
+👩‍💻 Programmieren lernen
+- Grundaufbau von Programmen kennenlernen
+- Einfache blockbasierte Programme entwickeln
+- Zentrale Programmierbefehle anwenden
+- Einblick in die Arbeitsweise von Informatiker*innen erhalten
+
+🔌 Theorie trifft Praxis
+- Programme auf externe Hardware übertragen
+- Eigene Programme direkt an der senseBox testen
+- Zusammenhänge zwischen Code, Sensoren und Ausgaben praktisch erleben
+
+Ergebnis: Kinder entwickeln ein grundlegendes Verständnis für digitale Systeme, erwerben erste Programmierkompetenzen und stärken Problemlösefähigkeit sowie technisches Denken – handlungsorientiert und motivierend."
+
 basic-material-title: "Kostenloses Lehr- und Lernmaterial"
 basic-material-text: "Zur senseBox:basic werden neben der Hardware auch passende Materialien für den Einstieg in die Welt der Programmierung als Open Educational Resources (OER) frei zur Verfügung gestellt. Von Projekten zum Nachbauen über Unterrichtsideen bis hin zur Einordnung in die Bildungsstandards findest du alles bald kostenlos auf unserer Website. Die Materialsammlung wird fortlaufend überarbeitet und um neue Projekte ergänzt."
 
 basic-programming-title: "Kinderleichte Programmierung mit neuem senseBox-Blockly"
 basic-programming-text: "Damit der Einstieg ins Programmieren leicht gelingt, gibt es eine angepasste und kindgerechte Programmieroberfläche von senseBox-Blockly. Die Programmierbausteine sind übersichtlich gestaltet und arbeiten mit klaren Symbolen und Farben. So erkennen Kinder schnell, welcher Block wofür steht – zum Beispiel für Licht, Sensoren oder Anzeigen. Die vereinfachte Menüführung hilft dabei, sich auf das Wesentliche zu konzentrieren, ohne von zu vielen Funktionen abgelenkt zu werden. Statt komplizierten Code zu schreiben, werden Bausteine wie Puzzleteile zusammengesetzt."
+
+basic-event-title: "Online-Meetup zum Kennenlernen"
+basic-programming-text: "Jeden 2. Dienstag im Monat bieten wir ein Online-Meetup von 15-16 Uhr via [Zoom](https://uni-ms.zoom-x.de/j/65029471411?pwd=l6jAyfc6E2DqKoJXKhmvx5uOGCfBs4.1) an, um die senseBox:basic vorzustellen und eure Fragen zu beantworten. Der erste Termin ist am 14. April, wir freuen uns auf euch!"
 
 basic-content-title: "Inhalt der senseBox:basic"
 whats_in_the_box:

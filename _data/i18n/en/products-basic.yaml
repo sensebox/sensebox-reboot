@@ -1,6 +1,15 @@
 basic-title: "Understanding the Digital World – Starting in Elementary School"
 basic-text: "Children today grow up naturally with digital technology. Lights turn on automatically, doors open, devices respond to touch or their environment. But how does this actually work? Digital systems often appear like 'magic,' yet they follow clear rules: They receive inputs (e.g., from sensors), they process this information, and they produce an output (e.g., light, color, or display). The senseBox:basic, as the newest kit in the senseBox family designed for use in elementary school, makes these principles visible and understandable. It provides an easy introduction to the world of sensors and programming – without being overwhelming. Children discover: How does technology measure its environment? How do automatic reactions occur? How do measurements become decisions? With the senseBox:basic, elementary school children explore these questions themselves and playfully learn basic programming fundamentals as a foundation for advanced topics like IoT, data analysis, or more complex programming. This transforms 'using technology' into understanding technology."
 
+# Category Navigation
+categories_title: "Categories"
+onboard_title: "Onboard Components"
+onboard_desc: "Hardware directly integrated on the senseBox MCU S2"
+sensors_title: "Sensors"
+sensors_desc: "External sensors for environmental data collection"
+accessories_title: "Accessories"
+accessories_desc: "Additional modules to expand the senseBox"
+
 basic-material-title: "Teaching and Learning Materials"
 basic-material-text: "In addition to the hardware, the senseBox:basic comes with suitable materials for getting started in the world of programming, freely available as Open Educational Resources (OER). From projects to rebuild, to teaching ideas, to alignment with educational standards, you'll soon find everything free of charge on our website. The material collection is continuously updated and expanded with new projects, so it's always worth checking back."
 

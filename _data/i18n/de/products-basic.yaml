@@ -1,6 +1,13 @@
 basic-title: "Digitale Welt verstehen – schon ab der Grundschule"
 basic-text: "Kinder wachsen heute ganz selbstverständlich mit digitaler Technik auf. Doch wie funktioniert sie eigentlich? Die senseBox:basic als neuer Bausatz der senseBox:familie konzipiert für den Einsatz ab der Grundschule bietet einen einfachen Einstieg in die Welt von Sensoren und Programmierung, ohne zu überfordern. Mit der senseBox:basic lernen Kinder ab der Grundschule spielerisch erste Grundlagen der Programmierung als Basis für weiterführende Themen wie IoT, Datenanalyse oder komplexere Programmierunglogiken kennen. So wird aus „Technik benutzen“ ein Technik verstehen."
-
+# Kategorie-Navigation
+categories_title: "Kategorien"
+onboard_title: "Onboard Komponenten"
+onboard_desc: "Direkt integrierte Hardware auf der senseBox MCU S2"
+sensors_title: "Sensoren"
+sensors_desc: "Externe Sensoren zur Erfassung von Umweltdaten"
+accessories_title: "Zubehör"
+accessories_desc: "Zusätzliche Module zur Erweiterung der senseBox"
 basic-kompetenzen-title: "Vermittelte Kompetenzen"
 basic-kompetenzen-text: "Die senseBox:basic vermittelt praxisnah grundlegende Kompetenzen im Bereich Informatik und digitale Bildung – ideal für den Einstieg in Schule und außerschulische Bildungsangebote:
 
@@ -30,7 +37,7 @@ basic-programming-title: "Kinderleichte Programmierung mit neuem senseBox-Blockl
 basic-programming-text: "Damit der Einstieg ins Programmieren leicht gelingt, gibt es eine angepasste und kindgerechte Programmieroberfläche von senseBox-Blockly. Die Programmierbausteine sind übersichtlich gestaltet und arbeiten mit klaren Symbolen und Farben. So erkennen Kinder schnell, welcher Block wofür steht – zum Beispiel für Licht, Sensoren oder Anzeigen. Die vereinfachte Menüführung hilft dabei, sich auf das Wesentliche zu konzentrieren, ohne von zu vielen Funktionen abgelenkt zu werden. Statt komplizierten Code zu schreiben, werden Bausteine wie Puzzleteile zusammengesetzt."
 
 basic-event-title: "Online-Meetup zum Kennenlernen"
-basic-programming-text: "Jeden 2. Dienstag im Monat bieten wir ein Online-Meetup von 15-16 Uhr via [Zoom](https://uni-ms.zoom-x.de/j/65029471411?pwd=l6jAyfc6E2DqKoJXKhmvx5uOGCfBs4.1) an, um die senseBox:basic vorzustellen und eure Fragen zu beantworten. Der erste Termin ist am 14. April, wir freuen uns auf euch!"
+basic-programming-text: "<strong style='color:#4da843;'>Jeden 2. Dienstag</strong> im Monat bieten wir ein Online-Meetup von <strong style='color: #4da843;'>15-16 Uhr</strong> via <a href='https://uni-ms.zoom-x.de/j/65029471411?pwd=l6jAyfc6E2DqKoJXKhmvx5uOGCfBs4.1' style='color:#0000EE;'>Zoom</a> an, um die senseBox:basic vorzustellen und eure Fragen zu beantworten. Der erste Termin ist am <strong style='color: #4da843;'>14. April</strong>, wir freuen uns auf euch!"
 
 basic-content-title: "Inhalt der senseBox:basic"
 whats_in_the_box:
@@ -51,4 +58,4 @@ bme680_text: Der BME680 ist ein digitaler Feuchtigkeits- und Temperatursensor. D
 oled: OLED-Display
 oled_text: Das OLED-Display bietet eine visuelle Anzeige und Ausgabe für Sensorwerte, Statusinformationen und vieles mehr. Das OLED-Display zeigt Informationen als Text, Zahlen und Diagramme an. Somit wird eine Live-Anzeige der Messwerte möglich. 
 bluetooth: Bluetooth-Bee
-bluetooth_text: Mit dem Bluetooth-Bee (oder BLE-Bee) kann der senseBox-Mikrocontroller um die Bluetooth-Funktionalität bzw. BLE (Bluetooth Low Energy) erweitert werden. Mit dem Bluetooth-Bee können die Sensorwerte drahtlos an mobile Endgeräte wie Smartphones oder Tablets übertragen und direkt professionell visualisiert werden. 
+bluetooth_text: Mit dem Bluetooth-Bee (oder BLE-Bee) kann der senseBox-Mikrocontroller um die Bluetooth-Funktionalität bzw. BLE (Bluetooth Low Energy) erweitert werden. Mit dem Bluetooth-Bee können die Sensorwerte drahtlos an mobile Endgeräte wie Smartphones oder Tablets übertragen und direkt professionell visualisiert werden.

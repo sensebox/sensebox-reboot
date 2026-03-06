@@ -1,5 +1,6 @@
 parts-title: "senseBox:components"
 parts-text: "All senseBoxes and their components are fully compatible with each other. Whether a senseBox:edu in an outdoor housing or a senseBox:home with the senseBox environmental sensor, there are no limits to creativity."
+parts-description: "Here you will find a list of all senseBox sensors. For an overview of technical information, <a href='https://docs.sensebox.de/docs/category/glossar'>click here</a>."
 
 parts-MCU-title: "The senseBox MCU"
 parts-MCU-text: "The senseBox MCU (MicroControllerUnit) is the heart of every senseBox. It is a single-board computer based on the ARM Cortex-M0 processor from the SAMD21 family. This processor makes the senseBox MCU fully compatible with Arduino.<br> It has the following fixed connections and components."
@@ -59,11 +60,11 @@ parts-sensors-sps30-link: "https://sensebox.kaufen/products/sps30-feinstaubsenso
 
 parts-sensors-waterthermometer: "Water Temperature"
 parts-sensors-waterthermometer-text: "Water temperature in °C"
-parts-sensors-waterthermometer-link: "https://sensebox.kaufen/product/wassertermperatursensor"
+parts-sensors-waterthermometer-link: "https://sensebox.kaufen/products/wasserthermometer"
 
 parts-sensors-tof: "ToF Distance sensor"
 parts-sensors-tof-text: "Distance measurements in a 8x8 matrix with a range of up to 400cm"
-parts-sensors-tof-link: "https://sensebox.kaufen/product/time-of-flight-sensor"
+parts-sensors-tof-link: "https://sensebox.kaufen/products/tof-distanzsensor"
 
 parts-bees-title: "XBees"
 parts-bees-text: "In order to save the measured data of your senseBox or to transfer it to the Internet, various connection modules, so-called XBees can be plugged in."

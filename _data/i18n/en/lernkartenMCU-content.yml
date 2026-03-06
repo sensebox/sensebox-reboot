@@ -1,0 +1,100 @@
+- head: Flashcards
+  image: /images/lernkarten-en/mcu/1.jpg
+  position: 1
+
+- head: The senseBox Flashcards
+  image: /images/lernkarten-en/mcu/2.jpg
+  position: 2
+
+- head: senseBox MCU - Overview
+  image: /images/lernkarten-en/mcu/3.jpg
+  position: 3
+
+- head: senseBox Cables
+  image: /images/lernkarten-en/mcu/4.jpg
+  position: 4
+
+- head: Digital-/Analog-Ports
+  image: /images/lernkarten-en/mcu/5.jpg
+  position: 5
+
+- head: The Breadboard
+  image: /images/lernkarten-en/mcu/6.jpg
+  position: 6
+
+- head: The Green Environmental Sensors
+  image: /images/lernkarten-en/mcu/7.jpg
+  position: 7
+
+- head: CO2-Sensor
+  image: /images/lernkarten-en/mcu/8.jpg
+  position: 8
+
+- head: Environmentalsensor BME680
+  image: /images/lernkarten-en/mcu/9.jpg
+  position: 9
+
+- head: OLED-Display
+  image: /images/lernkarten-en/mcu/10.jpg
+  position: 10
+
+- head: Ultrasonic-Distancesensor
+  image: /images/lernkarten-en/mcu/11.jpg
+  position: 11
+
+- head: RGB-LED
+  image: /images/lernkarten-en/mcu/12.jpg
+  position: 12
+
+- head: RGB-LED (WS2812)
+  image: /images/lernkarten-en/mcu/13.jpg
+  position: 13
+
+- head: Sound Sensor
+  image: /images/lernkarten-en/mcu/14.jpg
+  position: 14
+
+- head: Button
+  image: /images/lernkarten-en/mcu/15.jpg
+  position: 15
+
+- head: Fine Dust Sensor (SDS011)
+  image: /images/lernkarten-en/mcu/16.jpg
+  position: 16
+
+- head: Fine Dust Sensor (SPS30)
+  image: /images/lernkarten-en/mcu/17.jpg
+  position: 17
+
+- head: GPS-Modul
+  image: /images/lernkarten-en/mcu/18.jpg
+  position: 18
+
+- head: Soil Sensor
+  image: /images/lernkarten-en/mcu/19.jpg
+  position: 19
+
+- head: Sending Data to openSenseMap
+  image: /images/lernkarten-en/mcu/20.jpg
+  position: 20
+
+- head: Bluetooth and the Phyphox-App
+  image: /images/lernkarten-en/mcu/21.jpg
+  position: 21
+
+- head: Saving Data on SD-Card
+  image: /images/lernkarten-en/mcu/22.jpg
+  position: 22
+
+- head: Variables
+  image: /images/lernkarten-en/mcu/23.jpg
+  position: 23
+
+- head: If-then-else?
+  image: /images/lernkarten-en/mcu/24.jpg
+  position: 24
+
+- head: Operators
+  image: /images/lernkarten-en/mcu/25.jpg
+  position: 25
+

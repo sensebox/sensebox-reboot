@@ -5,10 +5,10 @@
   download: /docs/material/02_Placemat-Verkehrszaehler_s2_DE.pdf
 
 - head: Bewegungsmelder mit der senseBox
-  front: /images/placemats/s2/03_Placemat-Bewegunsgmelder_s2_DE_front.jpg
-  back: /images/placemats/s2/03_Placemat-Bewegunsgmelder_s2_DE_back.jpg
+  front: /images/placemats/s2/03_Placemat-Bewegungsmelder_s2_DE_front.jpg
+  back: /images/placemats/s2/03_Placemat-Bewegungsmelder_s2_DE_back.jpg
   position: 3
-  download: /docs/material/03_Placemat-Bewegunsgmelder_s2_DE.pdf
+  download: /docs/material/03_Placemat-Bewegungsmelder_s2_DE.pdf
 
 - head: Eine intelligente Straßenbeleuchtung mit der senseBox
   front: /images/placemats/s2/04_Placemat-IntelligenteStraßenbeleuchtung_s2_DE_front.jpg

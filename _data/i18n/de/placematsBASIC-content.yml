@@ -1,6 +1,12 @@
 - head: Bau einer Umweltmessstation (Temperatur)
-  front: /images/placemats/basic/01_Placemat-Umweltmessstation_basic_DE_front.jpg
-  back: /images/placemats/basic/01_Placemat-Umweltmessstation_basic_DE_back.jpg
+  front: /images/placemats/basic/07_Placemat-Umweltmessstation_basic_DE_front.jpg
+  back: /images/placemats/basic/07_Placemat-Umweltmessstation_basic_DE_back.jpg
   position: 1
-  download: /docs/material/01_Placemat-Umweltmessstation_basic_DE.pdf
+  download: /docs/material/07_Placemat-Umweltmessstation_basic_DE.pdf
+  
+- head: Party-Beleuchtung
+  front: /images/placemats/basic/08_Placemat-PartyBeleuchtung_basic_DE_front.jpg
+  back: /images/placemats/basic/08_Placemat-PartyBeleuchtung_basic_DE_back.jpg
+  position: 2
+  download: /docs/material/08_Placemat-PartyBeleuchtung_basic_DE.pdf
 

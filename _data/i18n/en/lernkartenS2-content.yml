@@ -1,0 +1,90 @@
+- head: Flashcards
+  image: /images/lernkarten-en/mcu-s2/1.jpg
+  position: 1
+
+- head: The senseBox Flashcards
+  image: /images/lernkarten-en/mcu-s2/2.jpg
+  position: 2
+
+- head: senseBox MCU-S2 - Ports
+  image: /images/lernkarten-en/mcu-s2/4.jpg
+  position: 3
+
+- head: senseBox Cable
+  image: /images/lernkarten-en/mcu-s2/5.jpg
+  position: 4
+
+- head: Digital/ Analog Ports
+  image: /images/lernkarten-en/mcu-s2/6.jpg
+  position: 5
+
+- head: Connection to the I2C/Wire Ports
+  image: /images/lernkarten-en/mcu-s2/7.jpg
+  position: 6
+
+- head: The Green Environmental Sensors
+  image: /images/lernkarten-en/mcu-s2/8.jpg
+  position: 7
+
+- head: The ToF Sensor
+  image: /images/lernkarten-en/mcu-s2/9.jpg
+  position: 8
+
+- head: The CO2 Sensor
+  image: /images/lernkarten-en/mcu-s2/10.jpg
+  position: 9
+
+- head: The Environmental Sensor BME680
+  image: /images/lernkarten-en/mcu-s2/11.jpg
+  position: 10
+
+- head: The Display
+  image: /images/lernkarten-en/mcu-s2/12.jpg
+  position: 11
+
+- head: The LED Matrix
+  image: /images/lernkarten-en/mcu-s2/13.jpg
+  position: 12
+
+- head: The RGB LED 
+  image: /images/lernkarten-en/mcu-s2/14.jpg
+  position: 13
+
+- head: The Particulate Matter Sensor (SPS30)
+  image: /images/lernkarten-en/mcu-s2/15.jpg
+  position: 14
+
+- head: The GPS Module
+  image: /images/lernkarten-en/mcu-s2/16.jpg
+  position: 15
+
+- head: The Ground Sensor
+  image: /images/lernkarten-en/mcu-s2/17.jpg
+  position: 16
+
+- head: Data Transfer to the openSenseMap
+  image: /images/lernkarten-en/mcu-s2/18.jpg
+  position: 17
+
+- head: Data Transfer to the Phyphox App
+  image: /images/lernkarten-en/mcu-s2/19.jpg
+  position: 18
+
+- head: Data Storage at the SD-Card
+  image: /images/lernkarten-en/mcu-s2/20.jpg
+  position: 19
+
+- head: Variables- Placeholder
+  image: /images/lernkarten-en/mcu-s2/21.jpg
+  position: 20
+
+- head: If ... then - What?
+  image: /images/lernkarten-en/mcu-s2/22.jpg
+  position: 21
+  
+- head: Operators
+  image: /images/lernkarten-en/mcu-s2/23.jpg
+  position: 22
+
+
+

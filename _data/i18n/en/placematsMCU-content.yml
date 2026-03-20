@@ -1,0 +1,30 @@
+- head: Air Quality with the senseBox
+  front: /images/placemats/01_Placemat-Luftqualitaet_EN_front.png
+  back: /images/placemats/01_Placemat-Luftqualitaet_EN_back.png
+  position: 1
+  download: /docs/material/01_Placemat_Luftqualitaet_mcu_EN.pdf
+  downloadUKR: /docs/material/01_Placemat-Luftqualitaet_UKR.pdf
+
+- head: Car Traffic Counter with the senseBox
+  front: /images/placemats/mcu/02_Placemat-Verkehrszaehler_mcu_EN_front.png
+  back: /images/placemats/mcu/02_Placemat-Verkehrszaehler_mcu_EN_back.png
+  position: 2
+  download: /docs/material/02_Placemat_Verkehrszaehler_mcu_EN.pdf
+
+- head: Motion Detector with the senseBox
+  front: /images/placemats/mcu/03_Placemat-Bewegunsgmelder_mcu_EN_front.png
+  back: /images/placemats/mcu/03_Placemat-Bewegunsgmelder_mcu_EN_back.png
+  position: 3
+  download: /docs/material/03_Placemat_Bewegungsmelder_mcu_EN.pdf
+  
+- head: Smart Street Lighting with the senseBox
+  front: /images/placemats/mcu/04_Placemat-IntelligenteStraßenbeleuchtung_mcu_EN_front.png
+  back: /images/placemats/mcu/04_Placemat-IntelligenteStraßenbeleuchtung_mcu_EN_back.png
+  position: 4
+  download: /docs/material/04_Placemat-IntelligenteStraßenbeleuchtung_mcu_EN.pdf
+  
+- head: Environmental Measuring Station with the senseBox
+  front: /images/placemats/mcu/05_Placemat-Umweltmessstation_mcu_EN_front.png
+  back: /images/placemats/mcu/05_Placemat-Umweltmessstation_mcu_EN_back.png
+  position: 5
+  download: /docs/material/05_Placemat-Umweltmessstation_mcu_EN.pdf

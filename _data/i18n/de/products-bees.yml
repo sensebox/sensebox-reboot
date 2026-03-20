@@ -27,7 +27,7 @@ parts-sensors-temperature-text: "rel. Luftfeuchtigkeit in % (0-100%, ±4 %)<br>T
 parts-sensors-temperature-link: "https://sensebox.kaufen/products/temperatur-luftfeuchtesensor"
 parts-sensors-pressure: "Luftdruck & Temperatur"
 parts-sensors-pressure-text: "Luftdruck in hPa (300-1100 hPa, ±1 hPa)<br>Temperatur in °C (-40-85 °C, ±1 °C)"
-parts-sensors-pressure-link: "https://sensebox.kaufen/product/luftdruck-temperatur"
+parts-sensors-pressure-link: "https://sensebox.kaufen/products/luftdruck-temperatur"
 parts-sensors-light: "Beleuchtungsstärke & UV-Intensität"
 parts-sensors-light-text: "Helligkeit in lux (300-220k lux)<br>UV-Intensität in μW/cm&sup2; (0-328 μW/cm&sup2;, ±5 μW/cm&sup2;)"
 parts-sensors-light-link: "https://sensebox.kaufen/products/beleuchtungsstark-e-uv-strahlung-sensor"

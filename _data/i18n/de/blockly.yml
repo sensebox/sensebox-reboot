@@ -6,3 +6,8 @@ text-2: Durch das intuitive Baukastenprinzip in Blockly lassen sich Programme oh
 
 head-3: Technische Hürden minimieren
 text-3: Da Blockly für senseBox komplett browserbasiert funktioniert, ist keinerlei Software-Installation notwendig. Dementsprechend gibt es auch keine zu installierenden Updates oder Treiber. Es wird also lediglich ein Computer oder ein Tablet mit einer Internetverbindung benötigt. 
+
+button-text-blockly: Zu Blockly
+button-text-documentation: Dokumentation
+
+image-source: /images/editoren/blockly.png

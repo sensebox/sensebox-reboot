@@ -1,0 +1,7 @@
+blockly-text: "Blockly für senseBox ist eine grafische Programmierumgebung, mit der du ohne Vorkenntnisse Programme für die senseBox erstellen kannst. Das intuitive Baukastenprinzip ermöglicht es, Programmblöcke per Drag & Drop zusammenzusetzen. Der Arduino-Code wird parallel angezeigt, sodass der Einstieg in die textbasierte Programmierung erleichtert wird."
+
+opensensemap-text: "Die openSenseMap ist unser Web-Portal für offene Umweltdaten. Hier werden alle von senseBoxen erhobenen Daten gesammelt, visualisiert und zum Download angeboten. Du hast Zugriff auf Milliarden von Messwerten, kannst Diagramme erstellen, Standorte vergleichen und die Daten über eine offene API in anderen Systemen verwenden."
+
+connectapp-text: "Mit der senseBox Connect App kannst du Programmcodes über WLAN direkt von deinem Tablet oder Smartphone auf die senseBox übertragen. Die App macht es besonders einfach, die senseBox kabellos zu programmieren und zu steuern – ideal für den mobilen Einsatz im Unterricht oder unterwegs."
+
+sensebox-overview-button: Mehr erfahren

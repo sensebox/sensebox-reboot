@@ -23,6 +23,8 @@ image14: /images/projects/Hanagotchi/Fast_Fertig.png
 image15: /images/projects/Hanagotchi/sehr_zufriedenes_Hanagotchi.png
 image16: /images/projects/Hanagotchi/Kompletter_Code.png
 image17: /images/projects/Hanagotchi/Display_Code.png
+image18: /images/projects/Hanagotchi/Hanagotchi.png
+
 material:
     - senseBox MCU S2
     - 1x OLED-Display (optional)
@@ -43,6 +45,9 @@ difficult: mittel
 # Das Hanagotchi {#head}
 Um die Jahrtausendwende waren Tamagotchi und auch Digimon absoluter Kult. Das sind Taschen-Haustiere, die die ganze Zeit umsorgt und gefüttert werden müssen. Aber genau wie Haustiere müssen auch Pflanzen gepflegt werden. Das Hanagotchi ist ein kleines, virtuelles Monster, dass dir hilft, dich um deine Pflanze zu kümmern. Fun Fact: Tamagotchi setzt sich aus den Worten Ei (auf Japanisch Tamago) und Armbanduhr (auf Englisch Watch) zusammen, da sie aus Eiern schlüpfen und rund um die Uhr versorgt werden müssen. Auch Hanagotchis sind immer da, sie schlüpfen aber nicht aus einem Ei. Das Wort Hana bedeutet auf Japanisch Blume und genau das sind sie ja auch: immer da und nachtragender als jedes Tamagotchi, wenn man mal das Füttern vergisst.
 
+In diesem Projekt bauen wir also unser eigenes kleines digitales Haustier. Es reagiert auf Helligkeit, Temperatur, Bodenfeuchte und natürlich unser Streicheln (Knopf drücken). Auf der LED-Matrix zeigt es uns an, wie es ihm geht bzw. was es aktuell macht. Los geht's!"
+
+{% include image.html image=page.image18 %}
 
 ## Aufbau 
 Die LED-Matrix wird an einem der Digital-Ports angeschlossen. Hierbei ist es wichtig, dass später im Code auch der richtige angegeben wird. In diesem Projekt ist es der zweite, also Port B. Auch der Bodenfeuchtesensor wird mithilfe des Adapterboards mit einem QWIIC-Kabel in einem der Digital-Ports angeschlossen, in diesem Fall Port A. Die Sensoren für Licht und Temperatur werden jeweils mit einem Kabel an einen der I2C-Ports angeschlossen, können aber auch in Reihe geschaltet werden. Wer die gemessenen Werte auf dem Display sehen möchte, muss auch das Display mit einem der Kabel an einen der Ports schließen.
@@ -83,6 +88,8 @@ Als nächstes erweiterst du den Block um eine Sonst-Funktion erweitern. Das mach
 In den Block platzierst du jetzt den Normalzustand deines Haustiers, also wie es aussehen soll, wenn es ihm rund um gut geht.
 
 {% include image.html image=page.image5 %}
+
+Übertrage das Programm auf deine senseBox und probiere es aus! Schläft das Krokodil, wenn es dunkel ist?
 
 #### Bodenfeuchtesensor
 Danach folgt eine weitere Wenn-Dann-Bedingung. Hier wird jetzt in mehreren Schritten die Temperatur- und „Hunger“-Funktion eingestellt. Auch hier ist wieder wichtig zu beachten, was als Aktion Vorrang hat. In diesem Fall ist es der Wassergehalt in der Erde. Die Bedingung ist also, dass die gemessene Bodenfeuchte mindestens 40% sein muss. Auch hier musst du den Block jetzt um die Sonst-Funktion erweitern: wenn die Pflanze nicht genügend Wasser bekommt, wird das Hanagotchi hungrig. In diesen Abschnitt wird also die Anzeigen des hungrigen Monsters eingefügt.
@@ -144,6 +151,6 @@ Jetzt musst du die senseBox nur noch mit Strom versorgen, und du hast ein kleine
 Dieses Projekt ist nur eine Vorlage, wie dein senseBox-Haustier aussehen könnte. 
 Du kannst sowohl diese Version des Codes übernehmen oder optimieren, als auch neue Funktionen hinzufügen oder andere Sensoren benutzen. Beispielsweise kannst du ein anderes Tier wählen, oder was ganz Anderes anzeigen lassen. Oder du benutzt es nicht nur für deine Pflanze, sondern für die Luftqualität bei dir zu Hause. Das Hanagotchi kannst du also vollständig personalisieren und gestalten und benutzen, wie du willst. 
 
+## Gesamter Code
 
-
-
+Den gesamten Blockly-Code findest du hier: [Blockly Code Hanagotchi](https://blockly.sensebox.de/gallery/69c3b246f58c360012b7268d)

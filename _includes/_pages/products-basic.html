@@ -413,10 +413,10 @@
             // Smooth scroll for hero CTA buttons
             document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
               anchor.addEventListener("click", function (e) {
+                const href = this.getAttribute("href");
+                if (!href || !href.startsWith('#') || href.length <= 1) return;
                 e.preventDefault();
-                const target = document.querySelector(
-                  this.getAttribute("href"),
-                );
+                const target = document.querySelector(href);
                 if (target) {
                   const offset = 80;
                   const targetPosition = target.offsetTop - offset;
@@ -652,4 +652,417 @@ document.addEventListener('keydown', function(event) {
     closeLightbox();
   }
 });
+</script>
+
+<!-- ===== senseBoxOS Releases Section ===== -->
+<div class="releases-section" id="firmware">
+  <div class="container">
+    <div class="section-header text-center">
+      <h2 class="section-title" id="downloads">senseBoxOS Downloads</h2>
+      <p class="section-subtitle">Wähle eine Version und lade die aktuellste Firmware für deine senseBox:basic herunter.</p>
+    </div>
+
+    <div id="releases-loading" class="releases-loading">
+      <div class="releases-spinner"></div>
+      <span>Versionen werden geladen…</span>
+    </div>
+
+    <div id="releases-error" class="releases-error" style="display:none;">
+      <i class="fas fa-exclamation-triangle"></i>
+      <span>Releases konnten nicht geladen werden. Bitte versuche es später erneut oder besuche <a href="https://github.com/sensebox/senseBoxOS/releases" target="_blank" rel="noopener noreferrer">GitHub</a> direkt.</span>
+    </div>
+
+    <div id="releases-container" style="display:none;">
+      <!-- Version selector -->
+      <div class="releases-version-bar" id="releases-version-bar"></div>
+
+      <!-- Install instructions -->
+      <div class="releases-howto">
+        <h4 class="releases-howto-title"><i class="fas fa-info-circle"></i> So installierst du die Firmware</h4>
+        <ol class="releases-howto-steps">
+          <li>
+            <span class="releases-howto-icon"><i class="fas fa-plug"></i></span>
+            <span>Verbinde deine senseBox:basic per <strong>USB-Kabel</strong> mit deinem Computer. Sie erscheint als USB-Laufwerk.</span>
+          </li>
+          <li>
+            <span class="releases-howto-icon"><i class="fas fa-download"></i></span>
+            <span>Lade die gewünschte <strong>.bin-Datei</strong> über den Button unten herunter.</span>
+          </li>
+          <li>
+            <span class="releases-howto-icon"><i class="fas fa-copy"></i></span>
+            <span>Ziehe die heruntergeladene Datei per <strong>Drag &amp; Drop</strong> auf das USB-Laufwerk der senseBox. Die senseBox startet automatisch neu und ist bereit.</span>
+          </li>
+        </ol>
+      </div>
+
+      <!-- Release detail panel -->
+      <div class="releases-panel" id="releases-panel">
+        <div class="releases-panel-header">
+          <div>
+            <span class="releases-tag" id="panel-tag"></span>
+            <span class="releases-date" id="panel-date"></span>
+          </div>
+          <a id="panel-download-btn" class="btn-primary-modern releases-download-btn" href="#" target="_blank" rel="noopener noreferrer">
+            <i class="fas fa-download"></i> Firmware herunterladen (.bin)
+          </a>
+        </div>
+        <div id="panel-assets-extra" class="releases-assets-extra"></div>
+        <div class="releases-changelog" id="panel-changelog"></div>
+        <a class="releases-github-link" id="panel-github-link" href="#" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-github"></i> Release auf GitHub ansehen
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+.releases-section {
+  padding: 60px 0;
+  background: #fff;
+}
+
+.releases-loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 40px;
+  color: #6e6e73;
+  font-size: 1rem;
+}
+
+.releases-spinner {
+  width: 22px;
+  height: 22px;
+  border: 3px solid #e0e0e0;
+  border-top-color: #4caf50;
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.releases-error {
+  text-align: center;
+  padding: 32px;
+  color: #c0392b;
+  background: #fdf3f2;
+  border-radius: 12px;
+  font-size: 0.95rem;
+}
+
+.releases-error a {
+  color: #c0392b;
+  font-weight: 600;
+}
+
+.releases-version-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 28px;
+}
+
+.releases-version-btn {
+  padding: 7px 18px;
+  border-radius: 20px;
+  border: 2px solid #e0e0e0;
+  background: #fff;
+  color: #333;
+  font-size: 0.88rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  letter-spacing: 0.03em;
+}
+
+.releases-version-btn:hover {
+  border-color: #4caf50;
+  color: #4caf50;
+}
+
+.releases-version-btn.active {
+  background: #4caf50;
+  border-color: #4caf50;
+  color: #fff;
+}
+
+.releases-version-btn.prerelease {
+  border-style: dashed;
+  opacity: 0.8;
+}
+
+.releases-panel {
+  background: #f9f9f9;
+  border-radius: 16px;
+  padding: 32px;
+  border: 1px solid #e8e8e8;
+}
+
+.releases-panel-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.releases-tag {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #1d1d1f;
+  margin-right: 12px;
+}
+
+.releases-date {
+  font-size: 0.85rem;
+  color: #6e6e73;
+}
+
+.releases-download-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  padding: 10px 22px;
+}
+
+.releases-download-btn.disabled {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.releases-assets-extra {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.releases-asset-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.82rem;
+  padding: 4px 12px;
+  border-radius: 6px;
+  border: 1px solid #d0d0d0;
+  color: #444;
+  text-decoration: none;
+  background: #fff;
+  transition: border-color 0.2s;
+}
+
+.releases-asset-link:hover {
+  border-color: #4caf50;
+  color: #4caf50;
+}
+
+.releases-changelog {
+  font-size: 0.92rem;
+  line-height: 1.7;
+  color: #333;
+  border-top: 1px solid #e8e8e8;
+  padding-top: 20px;
+  margin-top: 4px;
+}
+
+.releases-changelog h1,
+.releases-changelog h2,
+.releases-changelog h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 16px 0 8px;
+  color: #1d1d1f;
+}
+
+.releases-changelog ul {
+  padding-left: 20px;
+}
+
+.releases-changelog a {
+  color: #4caf50;
+}
+
+.releases-changelog code {
+  background: #efefef;
+  padding: 1px 5px;
+  border-radius: 4px;
+  font-size: 0.85em;
+}
+
+.releases-changelog pre {
+  background: #1d1d1f;
+  color: #e8e8e8;
+  padding: 14px;
+  border-radius: 8px;
+  overflow-x: auto;
+  font-size: 0.85em;
+}
+
+.releases-howto {
+  background: #f0f7f0;
+  border: 1px solid #c8e6c9;
+  border-radius: 12px;
+  padding: 20px 28px;
+  margin-bottom: 24px;
+}
+
+.releases-howto-title {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #2e7d32;
+  margin: 0 0 14px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.releases-howto-steps {
+  list-style: none;
+  counter-reset: step-counter;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.releases-howto-steps li {
+  counter-increment: step-counter;
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  font-size: 0.9rem;
+  color: #333;
+  line-height: 1.5;
+}
+
+.releases-howto-icon {
+  flex-shrink: 0;
+  width: 28px;
+  height: 28px;
+  background: #4caf50;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  margin-top: 1px;
+}
+
+.releases-github-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 20px;
+  font-size: 0.85rem;
+  color: #6e6e73;
+  text-decoration: none;
+}
+
+.releases-github-link:hover {
+  color: #333;
+}
+
+@media (max-width: 600px) {
+  .releases-panel-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+</style>
+
+<script src="https://cdn.jsdelivr.net/npm/marked@4/marked.min.js"></script>
+<script>
+(function () {
+  const REPO = 'sensebox/senseBoxOS';
+  const API_URL = `https://api.github.com/repos/${REPO}/releases`;
+
+  function formatDate(iso) {
+    const d = new Date(iso);
+    return d.toLocaleDateString('de-DE', { year: 'numeric', month: 'long', day: 'numeric' });
+  }
+
+  function findBinAsset(assets) {
+    return assets.find(a => a.name.endsWith('.bin'));
+  }
+
+  function renderRelease(release) {
+    const bin = findBinAsset(release.assets);
+    const downloadBtn = document.getElementById('panel-download-btn');
+    const assetsExtra = document.getElementById('panel-assets-extra');
+
+    document.getElementById('panel-tag').textContent = release.tag_name;
+    document.getElementById('panel-date').textContent = formatDate(release.published_at);
+    document.getElementById('panel-github-link').href = release.html_url;
+
+    if (bin) {
+      downloadBtn.href = bin.browser_download_url;
+      downloadBtn.classList.remove('disabled');
+    } else {
+      downloadBtn.href = release.html_url;
+      downloadBtn.classList.add('disabled');
+    }
+
+
+    // Render changelog markdown
+    const changelogEl = document.getElementById('panel-changelog');
+    if (release.body && release.body.trim()) {
+      if (window.marked) {
+        changelogEl.innerHTML = marked.parse(release.body);
+      } else {
+        changelogEl.textContent = release.body;
+      }
+    } else {
+      changelogEl.innerHTML = '<em style="color:#aaa">Kein Changelog für diese Version verfügbar.</em>';
+    }
+  }
+
+  function buildVersionBar(releases, activeIndex) {
+    const bar = document.getElementById('releases-version-bar');
+    bar.innerHTML = '';
+    releases.forEach((r, i) => {
+      const btn = document.createElement('button');
+      btn.className = 'releases-version-btn' + (r.prerelease ? ' prerelease' : '') + (i === activeIndex ? ' active' : '');
+      btn.textContent = r.tag_name + (r.prerelease ? ' (pre)' : '');
+      btn.addEventListener('click', function () {
+        document.querySelectorAll('.releases-version-btn').forEach(b => b.classList.remove('active'));
+        this.classList.add('active');
+        renderRelease(r);
+      });
+      bar.appendChild(btn);
+    });
+  }
+
+  document.addEventListener('DOMContentLoaded', function () {
+    fetch(API_URL)
+      .then(function (res) {
+        if (!res.ok) throw new Error('HTTP ' + res.status);
+        return res.json();
+      })
+      .then(function (releases) {
+        document.getElementById('releases-loading').style.display = 'none';
+        if (!Array.isArray(releases) || !releases.length) {
+          document.getElementById('releases-error').style.display = 'block';
+          document.getElementById('releases-error').querySelector('span').textContent = 'Noch keine Releases verfügbar.';
+          return;
+        }
+        buildVersionBar(releases, 0);
+        renderRelease(releases[0]);
+        document.getElementById('releases-container').style.display = 'block';
+      })
+      .catch(function (err) {
+        console.error('senseBoxOS releases fetch failed:', err);
+        document.getElementById('releases-loading').style.display = 'none';
+        document.getElementById('releases-error').style.display = 'block';
+      });
+  });
+})();
 </script>

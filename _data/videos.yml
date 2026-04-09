@@ -42,6 +42,22 @@
   id: "dUuRfZI39U8"
   type: "tutorial"
 
+- name: "Einführung - Erhebung von Daten zur Fahrradinfrastruktur"
+  id: "DBDJ13iINfU"
+  type: "bike-tutorial"
+
+- name: "Zusammenbau der senseBox:bike"
+  id: "tclPsvljzY0"
+  type: "bike-tutorial"
+
+- name: "Übertragung des Programmcodes und Datenerhebung"
+  id: "acDJnE-oMC8"
+  type: "bike-tutorial"
+
+- name: "Datrenauswertung"
+  id: "AW2zLwZoKng"
+  type: "bike-tutorial"
+
 - name: Umwelt erforschen mit der senseBox
   id: "lPe2r4ROum4"
   type: "misc"

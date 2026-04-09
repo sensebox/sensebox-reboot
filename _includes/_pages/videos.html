@@ -22,15 +22,18 @@
   </div>
   <h2>senseBox:bike Tutorials</h2>
   <div class="row row-eq-height">
+    {% for video in videos %} {% if video.type == "bike-tutorial" %}
     <div class="col-md-6 col-sm-12 project-item">
       <div class="well project-outer">
         <div class="project-inner">
+          <div class="h4">{{video.name}}</div>
           <div class="project-content">
-            {% include youtube.html id = "videoseries?list=PLfqeZU8BYDBv9vvPznC8sG6ve3ZBGYXiQ" %}
+            {% include youtube.html id = video.id %}
           </div>
         </div>
       </div>
     </div>
+    {% endif %} {% endfor %}
   </div>
   <h2>Weitere Videos</h2>
   <div class="row row-eq-height">

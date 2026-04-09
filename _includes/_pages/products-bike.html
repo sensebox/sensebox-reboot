@@ -208,28 +208,7 @@
 </div>
 
 
-<div style="background-color: whitesmoke;">
-    <div class="container" style="padding-top: 20px; padding-bottom: 4rem;">
-        <h2 class="featurette-heading">{{ content.history.title }}</h2>
-        <div class="row row-padding">
-            <div class="col-md-7 middle">
-                <p class="lead">{{content.history.text}}</p>
-                <a href="/2023/12/06/senseBox-bike.html" target="_blank">
-                    <button type="button" class="btn btn-primary">
-                        {{ content.history.button-text }} →
-                    </button>
-                </a>
-            </div>
-            <div class="col-md-5 middle">
-                <img loading="lazy" class="featurette-image img-fluid mx-auto" style="border-radius: 10px;"
-                    src="/images/products/bike/story.jpg" alt="Generic placeholder image">
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- a new section about campaigns in your city. I want to show two different approaches with images. Approach A: workshops in schools (digital educationn), Approach B: workshop with citizens (citizen science) -->
-<div class="container">
+<div class="container" style="padding-top: 20px; padding-bottom: 4rem;">
     <h2 class="featurette-heading" style="margin-bottom: 20px;">
         {{ content.campaigns.title }}
     </h2>
@@ -282,7 +261,47 @@
 </div>
 
 
-<div class="container">
+<div style="background-color: whitesmoke;">
+<div class="container" style="padding-top: 20px; padding-bottom: 4rem;">
+    <h2 class="featurette-heading" style="margin-bottom: 20px;">{{ content.videos.title }}</h2>
+    <div class="row row-padding">
+        <div class="col-12">
+            <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 10px;">
+                <iframe
+                    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none; border-radius: 10px;"
+                    src="https://www.youtube.com/embed/videoseries?list={{ content.videos.playlist-id }}"
+                    title="{{ content.videos.title }}"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+<div class="container" style="padding-top: 20px; padding-bottom: 4rem;">
+    <h2 class="featurette-heading">{{ content.history.title }}</h2>
+        <div class="row row-padding">
+            <div class="col-md-7 middle">
+                <p class="lead">{{content.history.text}}</p>
+                <a href="/2023/12/06/senseBox-bike.html" target="_blank">
+                    <button type="button" class="btn btn-primary">
+                        {{ content.history.button-text }} →
+                    </button>
+                </a>
+            </div>
+            <div class="col-md-5 middle">
+                <img loading="lazy" class="featurette-image img-fluid mx-auto" style="border-radius: 10px;"
+                    src="/images/products/bike/story.jpg" alt="Generic placeholder image">
+            </div>
+        </div>
+</div>
+
+
+<div class="container" style="padding-top: 20px; padding-bottom: 4rem;">
     <h2 class="featurette-heading" style="margin-bottom: 20px;">{{ content.documents.title }}</h2>
     <div class="row row-padding">
         {% for document in content.documents.items %}

@@ -658,7 +658,7 @@ document.addEventListener('keydown', function(event) {
 <div class="releases-section" id="firmware">
   <div class="container">
     <div class="section-header text-center">
-      <h2 class="section-title">senseBoxOS Downloads</h2>
+      <h2 class="section-title" id="downloads">senseBoxOS Downloads</h2>
       <p class="section-subtitle">Wähle eine Version und lade die aktuellste Firmware für deine senseBox:basic herunter.</p>
     </div>
 
@@ -675,6 +675,25 @@ document.addEventListener('keydown', function(event) {
     <div id="releases-container" style="display:none;">
       <!-- Version selector -->
       <div class="releases-version-bar" id="releases-version-bar"></div>
+
+      <!-- Install instructions -->
+      <div class="releases-howto">
+        <h4 class="releases-howto-title"><i class="fas fa-info-circle"></i> So installierst du die Firmware</h4>
+        <ol class="releases-howto-steps">
+          <li>
+            <span class="releases-howto-icon"><i class="fas fa-plug"></i></span>
+            <span>Verbinde deine senseBox:basic per <strong>USB-Kabel</strong> mit deinem Computer. Sie erscheint als USB-Laufwerk.</span>
+          </li>
+          <li>
+            <span class="releases-howto-icon"><i class="fas fa-download"></i></span>
+            <span>Lade die gewünschte <strong>.bin-Datei</strong> über den Button unten herunter.</span>
+          </li>
+          <li>
+            <span class="releases-howto-icon"><i class="fas fa-copy"></i></span>
+            <span>Ziehe die heruntergeladene Datei per <strong>Drag &amp; Drop</strong> auf das USB-Laufwerk der senseBox. Die senseBox startet automatisch neu und ist bereit.</span>
+          </li>
+        </ol>
+      </div>
 
       <!-- Release detail panel -->
       <div class="releases-panel" id="releases-panel">
@@ -884,6 +903,58 @@ document.addEventListener('keydown', function(event) {
   border-radius: 8px;
   overflow-x: auto;
   font-size: 0.85em;
+}
+
+.releases-howto {
+  background: #f0f7f0;
+  border: 1px solid #c8e6c9;
+  border-radius: 12px;
+  padding: 20px 28px;
+  margin-bottom: 24px;
+}
+
+.releases-howto-title {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #2e7d32;
+  margin: 0 0 14px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.releases-howto-steps {
+  list-style: none;
+  counter-reset: step-counter;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.releases-howto-steps li {
+  counter-increment: step-counter;
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  font-size: 0.9rem;
+  color: #333;
+  line-height: 1.5;
+}
+
+.releases-howto-icon {
+  flex-shrink: 0;
+  width: 28px;
+  height: 28px;
+  background: #4caf50;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  margin-top: 1px;
 }
 
 .releases-github-link {

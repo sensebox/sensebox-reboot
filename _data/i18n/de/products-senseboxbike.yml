@@ -40,6 +40,9 @@ history:
   title: "Die Geschichte der senseBox:bike"
   text: "Welche Daten soll die senseBox für das Fahrrad erheben, um Aussagen zur Fahrradinfrastruktur treffen zu können und wie muss das Gehäuse gestaltet sein, damit es an verschiedenen Fahrradtypen befestigt werden kann und auch auf ruckeligen Straßen hält? Schnell war klar, dass wir diese Fragen nicht allein beantworten können. Also haben wir gemeinsam mit dem Futurium Berlin, der Akademie der Bildenden Künste (ABK) Stuttgart und dem Fab Lab München bei einem Makeathon im Februar 2021 überlegt, wie die senseBox:bike aussehen soll und funktionieren könnte. So nahm die senseBox:bike seinen Lauf. Mehr zur Entstehungsgeschichte der senseBox:bike erfährst du in unserem Blogbeitrag."
   button-text: "Blogbeitrag"
+videos:
+  title: "Tutorial-Videos"
+  playlist-id: "PLfqeZU8BYDBv9vvPznC8sG6ve3ZBGYXiQ"
 campaigns:
   title: "senseBox:bike in deiner Stadt"
   schools-title: "Citizen Science mit Schulen"
@@ -87,7 +90,7 @@ documents:
   items:
     - title: "📦 3D-Druckdateien"
       description: |
-        <i class="fas fa-cube footer-icon px-1"></i> Gehäuse: Der Link wird in Kürze veröffentlicht.
+        <i class="fas fa-cube footer-icon px-1"></i> 3D-Druckdateien: [3D-Druckdateien](https://cloud.reedu.de/s/xwMSJnCnys7NBzR)
     - title: "<> Quellcode"
       description: |
         <i class="fab fa-github footer-icon px-1"></i> Firmware: [senseBox:bike Arduino](https://github.com/sensebox/senseBox-bike-Arduino)
@@ -96,3 +99,5 @@ documents:
     - title: "📚 Handbuch"
       description: |
         <i class="fas fa-file footer-icon px-1"></i> Anleitung: [Aufbau](/docs/Aufbauanleitung_senseBoxbike.pdf)
+
+        <i class="fas fa-file footer-icon px-1"></i> Schnellstartanleitung: [Schnellstartanleitung](https://cloud.reedu.de/s/D2qoxwweonSpJfW/download)

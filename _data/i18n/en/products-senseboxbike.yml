@@ -40,6 +40,9 @@ history:
   title: "The History of the senseBox:bike"
   text: "What data should the senseBox collect for the bicycle to make statements about bicycle infrastructure, and how should the housing be designed so that it can be attached to different types of bicycles and withstand bumpy roads? It quickly became clear that we could not answer these questions alone. So, in February 2021, we collaborated with the Futurium Berlin, the Academy of Fine Arts (ABK) Stuttgart, and the Fab Lab Munich at a Makeathon to brainstorm how the senseBox:bike should look and function. And so, the senseBox:bike took off. Learn more about the history of the senseBox:bike in our blog post."
   button-text: "Blog Post"
+videos:
+  title: "Tutorial Videos"
+  playlist-id: "PLfqeZU8BYDBv9vvPznC8sG6ve3ZBGYXiQ"
 campaigns:
   title: "senseBox:bike in Your City"
   schools-title: "Citizen Science with Schools"
@@ -87,7 +90,7 @@ documents:
   items:
     - title: "📦 3D Printing Files"
       description: |
-        <i class="fas fa-cube footer-icon px-1"></i> Housing: The link will be published soon.
+        <i class="fas fa-cube footer-icon px-1"></i> 3D Printing Files: [3D Printing Files](https://cloud.reedu.de/s/xwMSJnCnys7NBzR)
     - title: "<> Source Code"
       description: |
         <i class="fab fa-github footer-icon px-1"></i> Firmware: [senseBox:bike Arduino](https://github.com/sensebox/senseBox-bike-Arduino)
@@ -96,3 +99,5 @@ documents:
     - title: "📚 Manual"
       description: |
         <i class="fas fa-file footer-icon px-1"></i> Instructions: [Assembly](/docs/Assembly-Manual_senseBoxbike.pdf)
+
+         <i class="fas fa-file footer-icon px-1"></i> Quick Start Guide: [Quick Start Guide](https://cloud.reedu.de/s/5fm8pkcYYmNYqXL/download)

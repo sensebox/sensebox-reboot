@@ -69,7 +69,7 @@ boards-Eye-onboard: "Onboard Bauteile:"
 boards-Eye-onboard-list: "
   <li>Kamera</li>
   <li>WiFi & BLE mit Antenne</li>
-  <li>LoRa Modul mit Antenne</li>
+  <li>LoRa Modul</li>
   <li>6-Achsen Beschleunigungssensor</li>
   <li>Button</li>
   <li>Reset-Knopf</li>

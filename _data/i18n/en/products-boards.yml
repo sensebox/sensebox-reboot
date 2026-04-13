@@ -69,7 +69,7 @@ boards-Eye-onboard: "Onboard components:"
 boards-Eye-onboard-list: "
   <li>Camera</li>
   <li>WiFi & BLE with antenna</li>
-  <li>LoRa module with antenna</li>
+  <li>LoRa module</li>
   <li>6-axis accelerometer</li>
   <li>Button</li>
   <li>Reset button</li>

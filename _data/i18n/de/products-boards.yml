@@ -37,7 +37,7 @@ boards-MCU-mini-onboard-list: "
   <li>mSD-Karten Slot</li>"
 
 boards-MCU-s2-title: "Die senseBox MCU S2"
-boards-MCU-s2-text: "Die leistungsfähige MCU S2 ist die neueste Entwicklung in der senseBox Mikrocontroller-Reihe und ermöglicht besonders rechenintensive Use-Cases auf dem Board. Neben der integrierten WiFi Funktionalität, bietet der XBEE Steckplatz die Möglichkeit, die Datenübertragung mithilfe von zusätzlichen weiteren Modulen um LoRa, GSM oder Bluetooth zu erweitern. Die senseBox MCU-S2 verfügt über folgende fest verbaute Anschlüsse und Bauteile:"
+boards-MCU-s2-text: "Die leistungsfähige MCU S2 ermöglicht besonders rechenintensive Use-Cases auf dem Board. Neben der integrierten WiFi Funktionalität, bietet der XBEE Steckplatz die Möglichkeit, die Datenübertragung mithilfe von zusätzlichen weiteren Modulen um LoRa, GSM oder Bluetooth zu erweitern. Die senseBox MCU-S2 verfügt über folgende fest verbaute Anschlüsse und Bauteile:"
 sensebox-mcu-s2-shop-button: "senseBox MCU S2 kaufen"
 boards-MCU-s2-connectors-list: "
   <li>2x I2C Port (3,3V QWIIC kompatibel)</li>
@@ -55,4 +55,25 @@ boards-MCU-s2-onboard-list: "
   <li>LiPo-Laderegler (5V)</li>
   <li>Helligkeitsensor</li>
   <li>6-Achsen Beschleunigungssensor</li>
+  <li>mSD-Karten Slot</li>"
+
+boards-Eye-title: "Die senseBox Eye"
+boards-Eye-text: "Die senseBox Eye erweitert die senseBox Mikrocontroller-Reihe um ein eigenständiges Board für bildverarbeitende, KI-nahe und kommunikationsstarke Anwendungen. Mit leistungsfähigem Prozessor und erweitertem Arbeitsspeicher ist sie fähig kleine KI-Modelle direkt auf dem Gerät auszuführen. Beispielsweise für Bilderkennung mit der integrierten Kamera oder Gestenerkennung mit dem integriertem Beschleunigungssensor. Dank WiFi, BLE und LoRa können Daten flexibel übertragen oder auf der SD-Karte gespeichert werden. \nDie senseBox Eye verfügt über folgende fest verbaute Anschlüsse und Bauteile:"
+sensebox-eye-shop-button: "bald im Shop erhältlich..."
+boards-Eye-connectors-list: "
+  <li>I2C Port (3,3V QWIIC kompatibel)</li>
+  <li>GPIO Ports</li>
+  <li>USB-C Anschluss</li>
+  <li>5V Akku Anschluss</li>"
+boards-Eye-onboard: "Onboard Bauteile:"
+boards-Eye-onboard-list: "
+  <li>Kamera</li>
+  <li>WiFi & BLE mit Antenne</li>
+  <li>LoRa Modul mit Antenne</li>
+  <li>6-Achsen Beschleunigungssensor</li>
+  <li>Button</li>
+  <li>Reset-Knopf</li>
+  <li>An-/Aus-Schalter</li>
+  <li>RGB-LED</li>
+  <li>LiPo-Laderegler (5V)</li>
   <li>mSD-Karten Slot</li>"

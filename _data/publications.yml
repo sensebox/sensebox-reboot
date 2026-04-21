@@ -1,9 +1,39 @@
+- title: "Open-Source-Tools und Citizen Science für urbane Mobilitätsdaten"
+  author: Erdmann, Felix and Shum, Artur Kim and Schnell, Johannes and Bartoschek, Thomas and Kraatz,Julia and Gräler, Benedikt  
+  year: 2026
+  link: https://zenodo.org/records/18183646/files/fossgis_2026_Erdmann_Open_Source_Tools_und_Citizen_Science.pdf
+  type: Conference paper
+  orign: sensebox
+  
+- title: "Sustainability: Energy-efficient intelligent bicycle sensors to promote mobility transition"
+  author: Scharf, Paula and Karic, Benjamin and Hesse, Luca and Bartoschek, Thomas 
+  journal: "Uncertain Journeys into Digital Futures"
+  year: 2025
+  link: https://www.researchgate.net/publication/389869305_Sustainability2_Energy-efficient_intelligent_bicycle_sensors_to_promote_mobility_transition
+  type: book chapter
+  orign: sensebox
+
+- title: "Reviewing 10 years of openSenseMap - the open environmental data platform for (GI)Science, Education and Participation"
+  author: Bruch, Frederick and Bartoschek, Thomas and Karic, Benjamin and Pesch, Mario and Schwering, Angela and Pfeil, Mathias 
+  journal: "AGILE: GIScience Series "
+  year: 2025
+  link: https://agile-giss.copernicus.org/articles/6/16/2025/
+  type: journal
+  orign: sensebox
+
 - title: "Physical Computing im MINT-Unterricht am Beispiel der senseBox:edu S2"
   author: Witte, Verena and Pesch, Mario and Bartoschek, Thomas
   journal: "M. Grillenberger & A. Grillenberger (Hrsg.): Grenzen überwinden - voneinander lernen, Lecture Notes in Informatics (LNI), Gesellschaft für Informatik"
   year: 2025
   link: https://www.infos2025.ch/proceedings/infos2025_ws_2.pdf
   type: paper
+  orign: sensebox
+
+- title: "Urban Cycling: Intelligent Bicycle Sensors for Road Safety and Sustainability"
+  author: Scharf, Paula and Erdmann, Felix and Shum, Artur Kim and Bartoschek, Thomas and Gräler, Benedikt and Cavalheiro, Camila and da Silva, Ribeiro and Fernando Villaça Meyer, Luis and Karic, Benjamin
+  year: 2024
+  link: https://www.researchgate.net/publication/388641695_Urban_Cycling_Intelligent_Bicycle_Sensors_for_Road_Safety_and_Sustainability
+  type: Conference paper
   orign: sensebox
 
 - title: "Zukunftsweisender MINT-Unterricht mit dem senseBox-Ökosystem. Die Plattform für partizipative Data Science mit Physical Computing"

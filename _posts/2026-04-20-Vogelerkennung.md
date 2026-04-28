@@ -5,8 +5,7 @@ date: 2026-04-20
 author: Paula
 abstract: "sesenBox Eye, Vogelerkennung, Citizen Science, Forschungsprojekt"
 thumbnail: /images/blog/2026-04-20-Vogelerkennung/kohlmeise.gif
-image-birdiary-main: /images/blog/2026-04-20-Vogelerkennung/birdiary-main.jpg
-image-birdiary-workshop: /images/blog/2026-04-20-Vogelerkennung/birdiary-workshop.JPG
+image-birdiary-combined: /images/blog/2026-04-20-Vogelerkennung/birdiary-combined.jpg
 image-eye: /images/blog/2026-04-20-Vogelerkennung/eye.jpg
 image-kohlmeise: /images/blog/2026-04-20-Vogelerkennung/kohlmeise.gif
 image-blaumeise: /images/blog/2026-04-20-Vogelerkennung/blaumeise.gif
@@ -19,7 +18,7 @@ lang: de
 # Birdiary
 
 <div style="text-align: center;">
-    {% include image.html image=page.image-birdiary-main %}
+    {% include image.html image=page.image-birdiary-combined %}
     <div class="caption">Das Bild ist von Birdiary! Wir müssen fragen ob wir nutzen dürfen!</div>
 </div>
 
@@ -32,10 +31,6 @@ lang: de
 - Vogelbilder von Citizen Scientists validiert
 - open source: es haben sich Abwandlungen entwickelt. zB [DuisBird](https://gitlab.com/iot-developer/DuisBird) hat Birdiary mit esp32-basiertem Mikrocontroller umgesetzt, statt Raspberry Pi
 
-<div style="text-align: center;">
-    {% include image.html image=page.image-birdiary-workshop %}
-    <div class="caption">Das Bild ist von Birdiary! Wir müssen fragen ob wir nutzen dürfen!</div>
-</div>
 
 # TinyAIoT und Annis Masterarbeit
 

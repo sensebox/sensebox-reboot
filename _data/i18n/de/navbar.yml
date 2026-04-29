@@ -39,6 +39,8 @@ products-bike-name: ":bike"
 products-bike-link: /products-bike.html
 products-data-name: ":datenlogger"
 products-data-link: /products-datalogger.html
+products-data-name: "Eye"
+products-data-link: /products-eye.html
 products-parts-name: "Zubehör"
 products-parts-link: /products-parts.html
 products-bees-name: "Verbindungsmodule"

@@ -56,3 +56,24 @@ boards-MCU-s2-onboard-list: "
   <li>Light sensor</li>
   <li>6-axis acceleration sensor</li>
   <li>mSD card slot</li>"
+
+boards-Eye-title: "The senseBox Eye"
+boards-Eye-text: "The powerful senseBox Eye is the latest development in the senseBox microcontroller series. With its powerful processor and increased memory, it enables the execution of small AI models directly on the device. For example, image recognition with the integrated camera or gesture recognition with the integrated accelerometer. Captured data can be transmitted directly via Wifi, BLE, or LoRa, or stored on an SD card.\nThe senseBox Eye has the following built-in connectors and components:"
+sensebox-eye-shop-button: "Coming soon in the shop"
+boards-Eye-connectors-list: "
+  <li>I2C Port (3.3V QWIIC compatible)</li>
+  <li>GPIO Ports</li>
+  <li>USB-C port</li>
+  <li>5V battery connector</li>"
+boards-Eye-onboard: "Onboard components:"
+boards-Eye-onboard-list: "
+  <li>Camera</li>
+  <li>WiFi & BLE with antenna</li>
+  <li>LoRa module</li>
+  <li>6-axis accelerometer</li>
+  <li>Button</li>
+  <li>Reset button</li>
+  <li>On/Off switch</li>
+  <li>RGB LED</li>
+  <li>LiPo charge controller (5V)</li>
+  <li>mSD card slot</li>"

@@ -1,0 +1,8 @@
+eye-text: "The powerful senseBox Eye is the latest development in the senseBox microcontroller series. With its powerful processor and increased memory, it enables the execution of small AI models directly on the device. For example, image recognition with the integrated camera or gesture recognition with the integrated accelerometer. Captured data can be transmitted directly via Wifi, BLE, or LoRa, or stored on an SD card."
+
+eye-camera-title: "Camera onboard"
+eye-camera-text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+
+eye-ml-title: "Machine Learning Made Easy"
+eye-ml-text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+eye-ml-button-text: "Try it now"

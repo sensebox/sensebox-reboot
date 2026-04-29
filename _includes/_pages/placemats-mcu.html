@@ -33,22 +33,22 @@
       />
       <p>{{text.back}}</p>
     </div>
-    <div class="col-12">
-      <a class="green-link" href="{{placemat.download}}" target="_blank"
-        >>>Download Placemat</a
-      >
+    <div class="col-12" style="margin-top: 20px;">
+      <a class="btn btn-sensebox-green" role="button" href="{{placemat.download}}" target="_blank" rel="noopener noreferrer">
+        <i class="fas fa-download"></i> Download Placemat
+      </a>
     </div>
     {% if placemat.downloadEN %}
-    <div class="col-12">
-      <a class="green-link" href="{{placemat.downloadEN}}" target="_blank"
-        >>>Download Placemat (Englisch)</a
-      >
+    <div class="col-12" style="margin-top: 10px;">
+      <a class="btn btn-sensebox-green" role="button" href="{{placemat.downloadEN}}" target="_blank" rel="noopener noreferrer">
+        <i class="fas fa-download"></i> Download Placemat (Englisch)
+      </a>
     </div>
     {% endif %} {% if placemat.downloadUKR %}
-    <div class="col-12">
-      <a class="green-link" href="{{placemat.downloadUKR}}" target="_blank"
-        >>>Download Placemat (Ukrainisch)</a
-      >
+    <div class="col-12" style="margin-top: 10px;">
+      <a class="btn btn-sensebox-green" role="button" href="{{placemat.downloadUKR}}" target="_blank" rel="noopener noreferrer">
+        <i class="fas fa-download"></i> Download Placemat (Ukrainisch)
+      </a>
     </div>
     {% endif %} {% endfor %}
   </div>

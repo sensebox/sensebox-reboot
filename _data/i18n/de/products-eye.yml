@@ -1,0 +1,8 @@
+eye-text: "Die senseBox Eye erweitert die senseBox Mikrocontroller-Reihe um ein eigenständiges Board für bildverarbeitende, KI-nahe und kommunikationsstarke Anwendungen. Mit leistungsfähigem Prozessor und erweitertem Arbeitsspeicher ist sie fähig kleine KI-Modelle direkt auf dem Gerät auszuführen. Beispielsweise für Bilderkennung mit der integrierten Kamera oder Gestenerkennung mit dem integriertem Beschleunigungssensor. Dank WiFi, BLE und LoRa können Daten flexibel übertragen oder auf der SD-Karte gespeichert werden."
+
+eye-camera-title: "Kamera onboard"
+eye-camera-text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+
+eye-ml-title: "Maschinelles Lernen kinderleicht"
+eye-ml-text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+eye-ml-button-text: "Jetzt ausprobieren"

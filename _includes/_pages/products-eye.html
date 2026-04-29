@@ -1,0 +1,32 @@
+{% assign content = site.data.i18n.[page.lang].products-eye %}
+<div class="container">
+    <div class="row row-padding">
+        <div class="col-lg-4 middle">
+            <img loading="lazy" class="img-fluid mx-auto" src="/images/products/eye/camera.png" alt="camera">
+        </div>
+        <div class="col-lg-4 align-self-center middle">
+            <h2 class="featurette-heading">{{content.eye-camera-title}}</h2>
+            <p class="lead">{{content.eye-camera-text}}</p>
+        </div>
+        <div class="col-lg-4 middle">
+            <img loading="lazy" class="img-fluid mx-auto" src="/images/products/eye/lizard.gif" alt="Eye filming lizard">
+        </div>
+    </div>
+</div>
+
+<hr class="featurette-divider">
+
+<div class="container">
+    <div class="row row-padding featurette">
+        <div class="col-md-5 middle">
+            <img loading="lazy" class="featurette-image img-fluid mx-auto" src="/images/products/eye/teachable.gif"
+                alt="Generic placeholder image">
+        </div>
+        <div class="col-md-7 middle">
+            <h2 class="featurette-heading">{{content.eye-ml-title}}</h2>
+            <p class="lead">{{content.eye-ml-text}}
+            </p>
+            <a class="btn btn-sensebox-green" href="https://blockly.sensebox.de/teachable" role="button" target="_blank">{{content.eye-ml-button-text}}</a>
+        </div>
+    </div>
+</div>

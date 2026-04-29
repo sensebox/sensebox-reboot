@@ -10,3 +10,14 @@
   position: 2
   download: /docs/material/08_Placemat-PartyBeleuchtung_basic_DE.pdf
 
+- head: Messung der Luftqualität
+  front: /images/placemats/basic/09_Placemat-Luftqualitaet_basic_DE_front.jpg
+  back: /images/placemats/basic/09_Placemat-Luftqualitaet_basic_DE_back.jpg
+  position: 3
+  download: /docs/material/09_Placemat-Luftqualitaet_basic_DE.pdf
+  
+- head: Würfel-Spaß
+  front: /images/placemats/basic/10_Placemat-Wuerfel_basic_DE_front.jpg
+  back: /images/placemats/basic/10_Placemat-Wuerfel_basic_DE_back.jpg
+  position: 4
+  download: /docs/material/10_Placemat-Wuerfel_basic_DE.pdf

@@ -1,4 +1,7 @@
 {% assign content = site.data.i18n.[page.lang].products-eye %}
+<link rel="stylesheet" href="/css/products-eye.css" />
+
+<!-- Camera Section -->
 <div class="container">
     <div class="row row-padding">
         <div class="col-lg-4 middle">
@@ -14,19 +17,348 @@
     </div>
 </div>
 
-<hr class="featurette-divider">
-
-<div class="container">
-    <div class="row row-padding featurette">
-        <div class="col-md-5 middle">
-            <img loading="lazy" class="featurette-image img-fluid mx-auto" src="/images/products/eye/teachable.gif"
-                alt="Generic placeholder image">
-        </div>
-        <div class="col-md-7 middle">
-            <h2 class="featurette-heading">{{content.eye-ml-title}}</h2>
-            <p class="lead">{{content.eye-ml-text}}
-            </p>
-            <a class="btn btn-sensebox-green" href="https://blockly.sensebox.de/teachable" role="button" target="_blank">{{content.eye-ml-button-text}}</a>
+<!-- AI Section -->
+<div style="background-color: whitesmoke;">
+    <div class="container">
+        <div class="row row-padding featurette">
+            <div class="col-md-5 middle">
+                <img loading="lazy" class="featurette-image img-fluid mx-auto" src="/images/products/eye/teachable.gif"
+                    alt="Generic placeholder image">
+            </div>
+            <div class="col-md-7 middle">
+                <h2 class="featurette-heading">{{content.eye-ml-title}}</h2>
+                <p class="lead">{{content.eye-ml-text}}
+                </p>
+                <a class="btn btn-sensebox-green" href="https://blockly.sensebox.de/teachable" role="button" target="_blank">{{content.eye-ml-button}}</a>
+            </div>
         </div>
     </div>
+</div>
+
+<!-- Onboard Section -->
+<div class="new-section" id="explore">
+  <div class="container">
+    <div class="section-header text-center">
+      <h2 class="section-title styled-title">
+        {{content.eye-onboard-title}}
+      </h2>
+    </div>
+
+    <!-- Add spacing to visually separate the section -->
+    <div class="section-spacing"></div>
+  </div>
+
+  <!-- Product Categories Section -->
+  <div class="container">
+    <div class="row">
+      <!-- Left Sidebar Navigation -->
+      <div class="col-lg-3 col-md-4">
+        <div class="category-nav">
+          <h4>{{content.eye-categories-title}}</h4>
+          <div
+            class="category-item active"
+            data-category="sensors"
+            data-title="{{content.eye-categories-sensors}}"
+            data-desc="{{content.eye-categories-sensors-desc}}"
+          >
+            <span>{{content.eye-categories-sensors}}</span>
+          </div>
+          <div
+            class="category-item"
+            data-category="connectivity"
+            data-title="{{content.eye-categories-connectivity}}"
+            data-desc="{{content.eye-categories-connectivity-desc}}"
+          >
+            <span>{{content.eye-categories-connectivity}}</span>
+          </div>
+          <div
+            class="category-item"
+            data-category="ports"
+            data-title="{{content.eye-categories-ports}}"
+            data-desc="{{content.eye-categories-ports-desc}}"
+          >
+            <span>{{content.eye-categories-ports}}</span>
+          </div>
+          <div
+            class="category-item"
+            data-category="other"
+            data-title="{{content.eye-categories-other}}"
+            data-desc="{{content.eye-categories-other-desc}}"
+          >
+            <span>{{content.eye-categories-other}}</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Content Area -->
+      <div class="col-lg-9 col-md-8">
+        <div class="category-content active" id="sensors">
+          <div class="row justify-content-center">
+            <div class="col-lg-4 col-md-6 mb-4 d-flex">
+              <div class="feature-card">
+                <img
+                  loading="lazy"
+                  src="/images/products/edus2/senseBox_MCU-S2_Lichtsensor.gif"
+                  alt="Lichtsensor"
+                />
+                <h3>{{content.eye-category-camera-title}}</h3>
+                <p>
+                  {{content.eye-category-camera-desc}}
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4 d-flex">
+              <div class="feature-card">
+                <img
+                  loading="lazy"
+                  src="/images/products/edus2/senseBox_MCU-S2_Beschleunigungssensor.gif"
+                  alt="Beschleunigungssensor"
+                />
+                <h3>{{content.eye-category-accelerometer-title}}</h3>
+                <p>
+                  {{content.eye-category-accelerometer-desc}}
+                </p>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+        <!-- Connectivity Category -->
+        <div class="category-content " id="connectivity">
+          <div class="row">
+            <div class="col-lg-4 col-md-6 mb-4 d-flex">
+              <div class="feature-card">
+                <img
+                  loading="lazy"
+                  src="/images/products/edus2/sdmodule.gif"
+                  alt="SD Module"
+                />
+                <h3>{{content.eye-category-wifi-title}}</h3>
+                <p>{{content.eye-category-wifi-desc}}</p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4 d-flex">
+              <div class="feature-card">
+                <img
+                  loading="lazy"
+                  src="/images/products/edus2/mcus2-wifi.gif"
+                  alt="WiFi Module"
+                />
+                <h3>{{content.eye-category-ble-title}}</h3>
+                <p>{{content.eye-category-ble-desc}}</p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4 d-flex">
+              <div class="feature-card">
+                <img
+                  loading="lazy"
+                  src="/images/products/edus2/RGB-LED.gif"
+                  alt="RGB LED"
+                />
+                <h3>{{content.eye-category-lora-title}}</h3>
+                <p>{{content.eye-category-lora-desc}}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Ports Category -->
+        <div class="category-content" id="ports">
+          <div class="row">
+            <div class="col-lg-4 col-md-6 mb-4 d-flex">
+              <div class="feature-card">
+                <img
+                  loading="lazy"
+                  src="/images/products/edus2/oleddisplay.gif"
+                  alt="OLED Display"
+                />
+                <h3>{{content.eye-category-usb-title}}</h3>
+                <p>{{content.eye-category-usb-desc}}</p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4 d-flex">
+              <div class="feature-card">
+                <img
+                  loading="lazy"
+                  src="/images/products/edus2/mcus2-ble.gif"
+                  alt="Bluetooth Module"
+                />
+                <h3>{{content.eye-category-qwiic-title}}</h3>
+                <p>{{content.eye-category-qwiic-desc}}</p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4 d-flex">
+              <div class="feature-card">
+                <img
+                  loading="lazy"
+                  src="/images/products/edus2/mcus2-ble.gif"
+                  alt="Bluetooth Module"
+                />
+                <h3>{{content.eye-category-battery-title}}</h3>
+                <p>{{content.eye-category-battery-desc}}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Other Category -->
+        <div class="category-content" id="other">
+          <div class="row">
+            <div class="col-lg-4 col-md-6 mb-4 d-flex">
+              <div class="feature-card">
+                <img
+                  loading="lazy"
+                  src="/images/products/edus2/oleddisplay.gif"
+                  alt="OLED Display"
+                />
+                <h3>{{content.eye-category-rgb-led-title}}</h3>
+                <p>{{content.eye-category-rgb-led-desc}}</p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4 d-flex">
+              <div class="feature-card">
+                <img
+                  loading="lazy"
+                  src="/images/products/edus2/mcus2-ble.gif"
+                  alt="Bluetooth Module"
+                />
+                <h3>{{content.eye-category-sd-title}}</h3>
+                <p>{{content.eye-category-sd-desc}}</p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4 d-flex">
+              <div class="feature-card">
+                <img
+                  loading="lazy"
+                  src="/images/products/edus2/mcus2-ble.gif"
+                  alt="Bluetooth Module"
+                />
+                <h3>{{content.eye-category-button-title}}</h3>
+                <p>{{content.eye-category-button-desc}}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        </div>
+
+        <!-- JavaScript for category switching and smooth interactions -->
+        <script>
+          document.addEventListener("DOMContentLoaded", function () {
+            const categoryItems = document.querySelectorAll(".category-item");
+            const categoryContents =
+              document.querySelectorAll(".category-content");
+
+            // Category switching
+            categoryItems.forEach((item) => {
+              item.addEventListener("click", function () {
+                const category = this.getAttribute("data-category");
+                const title = this.getAttribute("data-title");
+                const desc = this.getAttribute("data-desc");
+
+                // Remove active class from all items
+                categoryItems.forEach((i) => i.classList.remove("active"));
+                categoryContents.forEach((c) => c.classList.remove("active"));
+
+                // Add active class to clicked item
+                this.classList.add("active");
+                document.getElementById(category).classList.add("active");
+
+                // Update sidebar title and description with smooth transition
+                const titleEl = document.getElementById(
+                  "current-category-title",
+                );
+                const descEl = document.getElementById("current-category-desc");
+
+                titleEl.style.opacity = "0";
+                descEl.style.opacity = "0";
+
+                setTimeout(() => {
+                  titleEl.textContent = title;
+                  descEl.textContent = desc;
+                  titleEl.style.opacity = "1";
+                  descEl.style.opacity = "1";
+                }, 150);
+              });
+            });
+
+            // Smooth scroll for hero CTA buttons
+            document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+              anchor.addEventListener("click", function (e) {
+                const href = this.getAttribute("href");
+                if (!href || !href.startsWith('#') || href.length <= 1) return;
+                e.preventDefault();
+                const target = document.querySelector(href);
+                if (target) {
+                  const offset = 80;
+                  const targetPosition = target.offsetTop - offset;
+                  window.scrollTo({
+                    top: targetPosition,
+                    behavior: "smooth",
+                  });
+                }
+              });
+            });
+
+            // Add transition styles for smooth updates
+            const style = document.createElement("style");
+            style.textContent = `
+            #current-category-title,
+            #current-category-desc {
+                transition: opacity 0.15s ease-in-out;
+            }
+        `;
+            document.head.appendChild(style);
+
+            // Parallax effect for hero image (subtle)
+            const heroImage = document.querySelector(".floating-image");
+            if (heroImage) {
+              window.addEventListener("scroll", function () {
+                const scrolled = window.pageYOffset;
+                const rate = scrolled * 0.3;
+                if (heroImage) {
+                  heroImage.style.transform = `translateY(${rate}px)`;
+                }
+              });
+            }
+          });
+        </script>
+      </div>
+    </div>
+  
+</div>
+
+<!-- Use cases Section -->
+<div style="background-color: whitesmoke;">
+<div class="container">
+    <div class="row row-padding">
+        <h2 class="featurette-heading text-center w-100">{{content.eye-usecases-title}}</h2>
+    </div>
+    <div class="row row-padding justify-content-center">
+        <!-- birds -->
+        <div class="col-12 mb-4">
+            <div class="usecase-card">
+                <div class="usecase-card-images">
+                    <img loading="lazy" class="img-fluid" src="/images/products/eye/house-with-inside.jpg" alt="Bird house">
+                    <img loading="lazy" class="img-fluid" src="/images/products/eye/kohlmeise.gif" alt="Kohlmeise">
+                </div>
+                <div class="usecase-card-body">
+                    <h3>{{content.eye-usecases-bird-title}}</h3>
+                    <p>{{content.eye-usecases-bird-text}}</p>
+                </div>
+            </div>
+        </div>
+        <!-- bees -->
+        <div class="col-12 mb-4">
+            <div class="usecase-card">
+                <div class="usecase-card-body">
+                    <h3>{{content.eye-usecases-bee-title}}</h3>
+                    <p>{{content.eye-usecases-bee-text}}</p>
+                </div>
+                <div class="usecase-card-images">
+                    <img loading="lazy" class="img-fluid" src="/images/products/eye/house-with-inside.jpg" alt="Bee house">
+                    <img loading="lazy" class="img-fluid" src="/images/products/eye/kohlmeise.gif" alt="Bees">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 </div>

@@ -8,9 +8,9 @@ eye-ml-text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do ei
 eye-ml-button: "Try it now"
 
 eye-usecases-title: "Exciting Use Cases"
-eye-usecases-bird-title: "... in a birdhouse"
+eye-usecases-bird-title: "Classification of birds"
 eye-usecases-bird-text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-eye-usecases-bee-title: "... in a beehive"
+eye-usecases-bee-title: "Counting bees"
 eye-usecases-bee-text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
 
 eye-onboard-title: "One board - many features"

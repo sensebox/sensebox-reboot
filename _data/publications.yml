@@ -151,6 +151,21 @@
 
 ## Bachelor/Masterarbeiten
 
+- title: TinyML for Environmental Monitoring – Bird Species Image Recognition on ESP32
+  author: Anni Henriikka Kurkela
+  year: 2025
+  type: master
+
+- title: Mit dem Fahrrad in Richtung Smart City: Entwicklung eines KI-Modells zur automatischen Erkennung der Qualität der Fahrradinfrastruktur anhand von Sensordaten
+  author: Erkam Dogan
+  year: 2024
+  type: bachelor
+
+- title: Intelligente Fahrradsensorik: Maschinelles Lernen zur Förderung einer gezielten Verkehrswende
+  author: Luca Hesse
+  year: 2024
+  type: bachelor
+
 - title: "Spatial Data Literacy mit R: Entwicklung und Evaluierung einer blockbasierten Programmierumgebung zur Datenanalyse und -visualisierung"
   author: Maike Schröder
   year: 2023

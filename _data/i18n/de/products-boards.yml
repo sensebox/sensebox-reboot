@@ -58,7 +58,7 @@ boards-MCU-s2-onboard-list: "
   <li>mSD-Karten Slot</li>"
 
 boards-Eye-title: "Die senseBox MCU Eye"
-boards-Eye-text: "Die senseBox MCU Eye erweitert die senseBox Mikrocontroller-Reihe um ein eigenständiges Board für bildverarbeitende, KI-nahe und kommunikationsstarke Anwendungen. Mit leistungsfähigem Prozessor und erweitertem Arbeitsspeicher ist sie fähig kleine KI-Modelle direkt auf dem Gerät auszuführen. Beispielsweise für Bilderkennung mit der integrierten Kamera oder Gestenerkennung mit dem integriertem Beschleunigungssensor. Dank WiFi, BLE und LoRa können Daten flexibel übertragen oder auf der SD-Karte gespeichert werden. \nDie senseBox MCU Eye verfügt über folgende fest verbaute Anschlüsse und Bauteile:"
+boards-Eye-text: "Die senseBox MCU Eye erweitert die senseBox Mikrocontroller-Reihe um ein eigenständiges Board für bildverarbeitende, KI-nahe und kommunikationsstarke Anwendungen. Mit leistungsfähigem Prozessor und erweitertem Arbeitsspeicher ist sie in der Lage kleine KI-Modelle direkt auf dem Gerät auszuführen. Beispielsweise für Bilderkennung mit der integrierten Kamera oder Gestenerkennung mit dem integriertem Beschleunigungssensor. Dank WiFi, BLE und LoRa können Daten flexibel übertragen oder auf der SD-Karte gespeichert werden. \nDie senseBox MCU Eye verfügt über folgende fest verbaute Anschlüsse und Bauteile:"
 sensebox-eye-shop-button: "bald im Shop erhältlich..."
 boards-Eye-connectors-list: "
   <li>I2C Port (3,3V QWIIC kompatibel)</li>

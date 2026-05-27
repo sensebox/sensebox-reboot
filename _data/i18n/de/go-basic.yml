@@ -1,0 +1,21 @@
+hero-title: "Willkommen zur senseBox:basic"
+hero-text: "Die senseBox:basic ist der perfekte Einstieg in die Welt der Umweltmessung und Programmierung. Hier findest du alle Informationen zum Loslegen."
+
+programming-title: "Programmieren"
+programming-text: "Mit unserer visuellen Programmierumgebung Blockly kannst du ganz einfach Programme für deine senseBox erstellen – direkt im Browser oder mit der App."
+programming-button-blockly: "Blockly im Browser"
+programming-button-app: "App Store"
+
+sketch-title: "Sketch herunterladen"
+sketch-text: "Lade den aktuellen Sketch für deine senseBox:basic herunter und spiele ihn auf dein Board."
+sketch-button: "Zum Download"
+
+materials-title: "Lernmaterialien"
+materials-text: "Entdecke unsere Placemats und weitere Materialien, um noch mehr aus deiner senseBox herauszuholen."
+materials-button: "Materialien ansehen"
+
+help-title: "Wo finde ich Hilfe?"
+help-text: "Du benötigst Hilfe mit deiner senseBox? Hier findest du die nötigen Informationen:"
+help-button-mail: "E-Mail"
+help-button-forum: "Forum"
+help-button-faq: "FAQ"

@@ -447,3 +447,7 @@
     }
 }
 
+.masthead-text h3 {
+    white-space: nowrap;
+}
+

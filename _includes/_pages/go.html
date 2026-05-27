@@ -1,56 +1,56 @@
 
-    <div class="container">
-        <div class="row go-featurette">
-            <!-- <div class="col-lg-12 pb-4 middle">
-                <h1 style="text-align: center;">Wähle deine senseBox</h1>
-            </div> -->
-            <div class="col-lg-12">
+    <div class="container-fluid go-container">
+        <div class="row go-featurette g-3 g-lg-4 justify-content-center">
+            <div class="col-12">
                 <h2 style="text-align: center;">{{content.i-want}}</h2>
             </div>
 
 
-            <div class="col-md-6">
-                <div class="card" style="width: auto;">
-                    <img loading="lazy" src="/images/products/home_title.png" class="card-img-top" alt="...">
-                    <div class="card-body go-card-body">
-                        <a href="{{page.baseurl}}/{{page.lang}}/go-home.html"
-                            class="btn btn-sensebox-blue">senseBox:home</a>
+            <div class="col-md-6 col-lg-3">
+                <a href="{{page.baseurl}}/{{page.lang}}/go-home.html" class="go-card-link">
+                    <div class="card">
+                        <img loading="lazy" src="/images/products/home_title.png" class="card-img-top" alt="senseBox:home">
+                        <div class="card-body go-card-body">
+                            <span class="btn btn-sensebox-blue">senseBox:home</span>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
 
-            <div class="col-md-6">
-                <div class="card" style="width: auto;">
-                    <img loading="lazy" src="/images/products/mini_title-2.png" class="card-img-top" alt="...">
-                    <div class="card-body go-card-body">
-                        <a href="{{page.baseurl}}/{{page.lang}}/go-mini.html"
-                            class="btn btn-sensebox-green">senseBox:mini v1</a>
-                            <a href="{{page.baseurl}}/{{page.lang}}/go-mini-v2.html"
-                            class="btn btn-sensebox-green">senseBox:mini v2</a>
-                    </div>
-                </div>
-            </div>
 
-            <div class="col-md-6">
-                <div class="card" style="width: auto;">
-                    <img loading="lazy" src="/images/products/edu_title.png" class="card-img-top" alt="...">
+            <div class="col-md-6 col-lg-3">
+                <div class="card">
+                    <img loading="lazy" src="/images/products/edu_title.png" class="card-img-top" alt="senseBox:edu">
                     <div class="card-body go-card-body">
-
                         <a href="{{page.baseurl}}/{{page.lang}}/go-edu.html"
                             class="btn btn-sensebox-red">senseBox:edu</a>
-                            <a href="{{page.baseurl}}/{{page.lang}}/go-edu-s2.html"
+                        <a href="{{page.baseurl}}/{{page.lang}}/go-edu-s2.html"
                             class="btn btn-sensebox-red">senseBox:edu S2</a>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
-                <div class="card" style="width: auto;">
-                    <img loading="lazy" src="/images/products/co2_title.png" class="card-img-top" alt="...">
-                    <div class="card-body go-card-body">
-                        <a href="https://docs.sensebox.de/hardware/sets-co2-ampel/"
-                            class="btn btn-sensebox-orange">CO<sub>2</sub>-Ampel</a>
+
+            <div class="col-md-6 col-lg-3">
+                <a href="{{page.baseurl}}/{{page.lang}}/products-basic.html" class="go-card-link">
+                    <div class="card">
+                        <img loading="lazy" src="/images/products/basic_title.png" class="card-img-top" alt="senseBox:basic">
+                        <div class="card-body go-card-body">
+                            <span class="btn btn-sensebox-green">senseBox:basic</span>
+                        </div>
                     </div>
-                </div>
+                </a>
+            </div>
+
+
+            <div class="col-md-6 col-lg-3">
+                <a href="https://docs.sensebox.de/hardware/sets-co2-ampel/" class="go-card-link">
+                    <div class="card">
+                        <img loading="lazy" src="/images/products/co2_title.png" class="card-img-top" alt="CO2-Ampel">
+                        <div class="card-body go-card-body">
+                            <span class="btn btn-sensebox-orange">CO<sub>2</sub>-Ampel</span>
+                        </div>
+                    </div>
+                </a>
             </div>
         </div>
     </div>

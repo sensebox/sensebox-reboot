@@ -31,7 +31,7 @@ eye-category-lora-desc: "Langstrecken-Funkübertragung für IoT-Anwendungen an e
 eye-category-sd-title: "SD-Karten-Steckplatz"
 eye-category-sd-desc: "Lokale Datenspeicherung auf microSD-Karte. Zum Beispiel für erhobene Messwerte oder aufgenommene Bilder."
 eye-category-usb-title: "USB-C-Anschluss"
-eye-category-usb-desc: "USB-C-Anschluss zur Programmierung, Stromversorgung und Datenübertragung."
+eye-category-usb-desc: "USB-C-Anschluss zur Programmierung und Stromversorgung."
 eye-category-qwiic-title: "Qwiic-Anschluss"
 eye-category-qwiic-desc: "Steckverbinder für einfachen Anschluss von I2C-Sensoren."
 eye-category-battery-title: "Batterieanschluss"

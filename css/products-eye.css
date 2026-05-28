@@ -183,7 +183,7 @@
    ============================================ */
 .new-section {
     padding: 40px 0;
-    background: #ffffff;
+    background: inherit;
 }
 
 .styled-title {

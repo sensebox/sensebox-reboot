@@ -155,46 +155,21 @@
 
   <!-- Product Categories Section -->
   <div class="container">
-    <div class="row">
-      <!-- Left Sidebar Navigation -->
-      <div class="col-lg-3 col-md-4">
-        <div class="category-nav">
-          <h4>{{content.categories_title}}</h4>
-          <h3 class="category-nav-title" id="current-category-title">
-            {{content.sensors_title}}
-          </h3>
-          <p class="category-nav-desc" id="current-category-desc">
-            {{content.sensors_desc}}
-          </p>
-          <div
-            class="category-item active"
-            data-category="sensors"
-            data-title="{{content.sensors_title}}"
-            data-desc="{{content.sensors_desc}}"
-          >
-            <span>Sensoren</span>
-          </div>
-          <div
-            class="category-item"
-            data-category="onboard"
-            data-title="{{content.onboard_title}}"
-            data-desc="{{content.onboard_desc}}"
-          >
-            <span>Onboard</span>
-          </div>
-          <div
-            class="category-item"
-            data-category="accessories"
-            data-title="{{content.accessories_title}}"
-            data-desc="{{content.accessories_desc}}"
-          >
-            <span>Zubehör</span>
-          </div>
-        </div>
+    <!-- Top Category Navigation -->
+    <div class="category-nav-horizontal">
+      <div class="category-item active" data-category="sensors">
+        <span>Sensoren</span>
       </div>
+      <div class="category-item" data-category="onboard">
+        <span>Onboard</span>
+      </div>
+      <div class="category-item" data-category="accessories">
+        <span>Zubehör</span>
+      </div>
+    </div>
 
-      <!-- Right Content Area -->
-      <div class="col-lg-9 col-md-8">
+    <!-- Content Area -->
+    <div class="category-content-area">
         <div class="category-content active" id="sensors">
           <div class="row justify-content-center">
             <div class="col-lg-4 col-md-6 mb-4 d-flex">
@@ -362,7 +337,8 @@
             </div>
           </div>
         </div>
-        </div>
+      </div>
+    </div>
 
         <!-- Materials Section -->
         
@@ -381,8 +357,6 @@
             categoryItems.forEach((item) => {
               item.addEventListener("click", function () {
                 const category = this.getAttribute("data-category");
-                const title = this.getAttribute("data-title");
-                const desc = this.getAttribute("data-desc");
 
                 // Remove active class from all items
                 categoryItems.forEach((i) => i.classList.remove("active"));
@@ -391,22 +365,6 @@
                 // Add active class to clicked item
                 this.classList.add("active");
                 document.getElementById(category).classList.add("active");
-
-                // Update sidebar title and description with smooth transition
-                const titleEl = document.getElementById(
-                  "current-category-title",
-                );
-                const descEl = document.getElementById("current-category-desc");
-
-                titleEl.style.opacity = "0";
-                descEl.style.opacity = "0";
-
-                setTimeout(() => {
-                  titleEl.textContent = title;
-                  descEl.textContent = desc;
-                  titleEl.style.opacity = "1";
-                  descEl.style.opacity = "1";
-                }, 150);
               });
             });
 
@@ -427,16 +385,6 @@
                 }
               });
             });
-
-            // Add transition styles for smooth updates
-            const style = document.createElement("style");
-            style.textContent = `
-            #current-category-title,
-            #current-category-desc {
-                transition: opacity 0.15s ease-in-out;
-            }
-        `;
-            document.head.appendChild(style);
 
             // Parallax effect for hero image (subtle)
             const heroImage = document.querySelector(".floating-image");

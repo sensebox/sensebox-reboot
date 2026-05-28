@@ -50,48 +50,24 @@
 
   <!-- Product Categories Section -->
   <div class="container">
-    <div class="row">
-      <!-- Left Sidebar Navigation -->
-      <div class="col-lg-3 col-md-4">
-        <div class="category-nav">
-          <h4>{{content.eye-categories-title}}</h4>
-          <div
-            class="category-item active"
-            data-category="sensors"
-            data-title="{{content.eye-categories-sensors}}"
-            data-desc="{{content.eye-categories-sensors-desc}}"
-          >
-            <span>{{content.eye-categories-sensors}}</span>
-          </div>
-          <div
-            class="category-item"
-            data-category="connectivity"
-            data-title="{{content.eye-categories-connectivity}}"
-            data-desc="{{content.eye-categories-connectivity-desc}}"
-          >
-            <span>{{content.eye-categories-connectivity}}</span>
-          </div>
-          <div
-            class="category-item"
-            data-category="ports"
-            data-title="{{content.eye-categories-ports}}"
-            data-desc="{{content.eye-categories-ports-desc}}"
-          >
-            <span>{{content.eye-categories-ports}}</span>
-          </div>
-          <div
-            class="category-item"
-            data-category="other"
-            data-title="{{content.eye-categories-other}}"
-            data-desc="{{content.eye-categories-other-desc}}"
-          >
-            <span>{{content.eye-categories-other}}</span>
-          </div>
-        </div>
+    <!-- Top Category Navigation -->
+    <div class="category-nav-horizontal">
+      <div class="category-item active" data-category="sensors">
+        <span>{{content.eye-categories-sensors}}</span>
       </div>
+      <div class="category-item" data-category="connectivity">
+        <span>{{content.eye-categories-connectivity}}</span>
+      </div>
+      <div class="category-item" data-category="ports">
+        <span>{{content.eye-categories-ports}}</span>
+      </div>
+      <div class="category-item" data-category="other">
+        <span>{{content.eye-categories-other}}</span>
+      </div>
+    </div>
 
-      <!-- Right Content Area -->
-      <div class="col-lg-9 col-md-8">
+    <!-- Content Area -->
+    <div class="category-content-area">
         <div class="category-content active" id="sensors">
           <div class="row justify-content-center">
             <div class="col-lg-4 col-md-6 mb-4 d-flex">
@@ -238,8 +214,8 @@
             </div>
           </div>
         </div>
-        </div>
-        </div>
+      </div>
+    </div>
 
         <!-- JavaScript for category switching and smooth interactions -->
         <script>
@@ -252,8 +228,6 @@
             categoryItems.forEach((item) => {
               item.addEventListener("click", function () {
                 const category = this.getAttribute("data-category");
-                const title = this.getAttribute("data-title");
-                const desc = this.getAttribute("data-desc");
 
                 // Remove active class from all items
                 categoryItems.forEach((i) => i.classList.remove("active"));
@@ -262,22 +236,6 @@
                 // Add active class to clicked item
                 this.classList.add("active");
                 document.getElementById(category).classList.add("active");
-
-                // Update sidebar title and description with smooth transition
-                const titleEl = document.getElementById(
-                  "current-category-title",
-                );
-                const descEl = document.getElementById("current-category-desc");
-
-                titleEl.style.opacity = "0";
-                descEl.style.opacity = "0";
-
-                setTimeout(() => {
-                  titleEl.textContent = title;
-                  descEl.textContent = desc;
-                  titleEl.style.opacity = "1";
-                  descEl.style.opacity = "1";
-                }, 150);
               });
             });
 
@@ -298,16 +256,6 @@
                 }
               });
             });
-
-            // Add transition styles for smooth updates
-            const style = document.createElement("style");
-            style.textContent = `
-            #current-category-title,
-            #current-category-desc {
-                transition: opacity 0.15s ease-in-out;
-            }
-        `;
-            document.head.appendChild(style);
 
             // Parallax effect for hero image (subtle)
             const heroImage = document.querySelector(".floating-image");

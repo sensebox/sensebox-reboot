@@ -33,7 +33,7 @@ eye-category-sd-desc: "Lokale Datenspeicherung auf microSD-Karte. Zum Beispiel f
 eye-category-usb-title: "USB-C-Anschluss"
 eye-category-usb-desc: "USB-C-Anschluss zur Programmierung und Stromversorgung."
 eye-category-qwiic-title: "Qwiic-Anschluss"
-eye-category-qwiic-desc: "Steckverbindung für einfachen Anschluss von Sensoren."
+eye-category-qwiic-desc: "Steckverbindung für einfachen Anschluss von Sensoren oder Displays."
 eye-category-battery-title: "Batterieanschluss"
 eye-category-battery-desc: "Anschluss für LiPo-Akkus ermöglicht mobilen Betrieb."
 eye-category-rgb-led-title: "RGB-LED"

@@ -38,7 +38,7 @@
     <div class="programming-showcase">
       <div class="blockly-container">
               <div class="postit-note">
-        <p class="postit-text">{{content.basic-programming-text}}</p>
+        <p class="postit-text">{{content.basic-event-text}}</p>
       </div>
               <div class="blockly-callout">
           <span class="callout-text"
@@ -1068,5 +1068,46 @@ document.addEventListener('keydown', function(event) {
         document.getElementById('releases-error').style.display = 'block';
       });
   });
+})();
+</script>
+
+<script>
+// Dynamisch den 2. Dienstag im aktuellen oder nächsten Monat berechnen
+(function() {
+  function getSecondTuesday(year, month) {
+    const firstDay = new Date(year, month, 1);
+    let dayOfWeek = firstDay.getDay();
+    // Dienstag = 2, berechne Tage bis zum ersten Dienstag
+    let daysUntilTuesday = (2 - dayOfWeek + 7) % 7;
+    let firstTuesday = 1 + daysUntilTuesday;
+    // Zweiter Dienstag ist 7 Tage später
+    return firstTuesday + 7;
+  }
+
+  const now = new Date();
+  let year = now.getFullYear();
+  let month = now.getMonth();
+  let secondTuesday = getSecondTuesday(year, month);
+
+  // Falls der 2. Dienstag dieses Monats vorbei ist, nimm den nächsten Monat
+  if (now.getDate() > secondTuesday || 
+      (now.getDate() === secondTuesday && now.getHours() >= 16)) {
+    month++;
+    if (month > 11) {
+      month = 0;
+      year++;
+    }
+    secondTuesday = getSecondTuesday(year, month);
+  }
+
+  // Sprache erkennen (de/en)
+  const lang = document.documentElement.lang || 'de';
+  const months = ['Januar', 'Februar', 'März', 'April', 'Mai', 'Juni',
+                    'Juli', 'August', 'September', 'Oktober', 'November', 'Dezember'];
+  
+  const dateStr =secondTuesday + '. ' + months[month];
+
+  const el = document.getElementById('next-meetup-date');
+  if (el) el.textContent = dateStr;
 })();
 </script>

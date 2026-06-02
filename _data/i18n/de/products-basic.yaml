@@ -37,7 +37,7 @@ basic-programming-title: "Kinderleichte Programmierung mit neuem senseBox-Blockl
 basic-programming-text: "Damit der Einstieg ins Programmieren leicht gelingt, gibt es eine angepasste und kindgerechte Programmieroberfläche von senseBox-Blockly. Die Programmierbausteine sind übersichtlich gestaltet und arbeiten mit klaren Symbolen und Farben. So erkennen Kinder schnell, welcher Block wofür steht – zum Beispiel für Licht, Sensoren oder Anzeigen. Die vereinfachte Menüführung hilft dabei, sich auf das Wesentliche zu konzentrieren, ohne von zu vielen Funktionen abgelenkt zu werden. Statt komplizierten Code zu schreiben, werden Bausteine wie Puzzleteile zusammengesetzt."
 
 basic-event-title: "Online-Meetup zum Kennenlernen"
-basic-programming-text: "<strong style='color:#4da843;'>Jeden 2. Dienstag</strong> im Monat bieten wir ein Online-Meetup von <strong style='color: #4da843;'>15-16 Uhr</strong> via <a href='https://uni-ms.zoom-x.de/j/65029471411?pwd=l6jAyfc6E2DqKoJXKhmvx5uOGCfBs4.1' style='color:#0000EE;'>Zoom</a> an, um die senseBox:basic vorzustellen und eure Fragen zu beantworten. Der erste Termin ist am <strong style='color: #4da843;'>14. April</strong>, wir freuen uns auf euch!"
+basic-event-text: "<strong style='color:#4da843;'>Jeden 2. Dienstag</strong> im Monat bieten wir ein Online-Meetup von <strong style='color: #4da843;'>15-16 Uhr</strong> via <a href='https://uni-ms.zoom-x.de/j/65029471411?pwd=l6jAyfc6E2DqKoJXKhmvx5uOGCfBs4.1' style='color:#0000EE;'>Zoom</a> an, um die senseBox:basic vorzustellen und eure Fragen zu beantworten. Der nächste Termin ist am <strong style='color: #4da843;'><span id='next-meetup-date'>...</span></strong>, wir freuen uns auf euch!"
 
 basic-content-title: "Inhalt der senseBox:basic"
 whats_in_the_box:

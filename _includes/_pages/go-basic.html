@@ -1,0 +1,64 @@
+{% assign t = site.data.i18n.[page.lang].go-basic %}
+
+<!-- Programming Section -->
+<div class="container">
+    <div class="row row-padding align-items-center">
+        <div class="col-4">
+            <img loading="lazy" src="/images/go/edu/blockly.png" class="img-responsive" style="width: inherit;">
+        </div>
+        <div class="col-8">
+            <h1>{{t.programming-title}}</h1>
+            <p>{{t.programming-text}}</p>
+            <a href="https://blockly.sensebox.de/basic" target="_blank" class="btn btn-sensebox-green">{{t.programming-button-blockly}}</a>
+            <a href="https://apps.apple.com/us/app/sensebox-basic/id6759094226" target="_blank" class="btn btn-sensebox-green">{{t.programming-button-app}}</a>
+        </div>
+    </div>
+</div>
+
+<!-- Sketch Download Section -->
+<div style="background-color: whitesmoke;">
+    <div class="container">
+        <div class="row row-padding align-items-center">
+            <div class="col-8">
+                <h1>{{t.sketch-title}}</h1>
+                <p>{{t.sketch-text}}</p>
+                <a href="/{{page.lang}}/products-basic.html#downloads" class="btn btn-sensebox-green">{{t.sketch-button}}</a>
+            </div>
+            <div class="col-4" style="background-color: whitesmoke;">
+                <img loading="lazy" src="/images/go/home/hardware.png" class="img-responsive" style="width: inherit;">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Learning Materials Section -->
+<div class="container">
+    <div class="row row-padding align-items-center">
+        <div class="col-4">
+            <img loading="lazy" src="/images/go/edu/material.png" class="img-responsive" style="width: inherit;">
+        </div>
+        <div class="col-8">
+            <h1>{{t.materials-title}}</h1>
+            <p>{{t.materials-text}}</p>
+            <a href="/{{page.lang}}/material.html" class="btn btn-sensebox-green">{{t.materials-button}}</a>
+        </div>
+    </div>
+</div>
+
+<!-- Help Section -->
+<div style="background-color: whitesmoke;">
+    <div class="container">
+        <div class="row row-padding align-items-center">
+            <div class="col-8">
+                <h1>{{t.help-title}}</h1>
+                <p>{{t.help-text}}</p>
+                <a target="_blank" href="mailto:support@sensebox.de" class="btn btn-sensebox-green">{{t.help-button-mail}}</a>
+                <a target="_blank" href="https://forum.sensebox.de/" class="btn btn-sensebox-green">{{t.help-button-forum}}</a>
+                <a target="_blank" href="https://docs.sensebox.de/faq/" class="btn btn-sensebox-green">{{t.help-button-faq}}</a>
+            </div>
+            <div class="col-4" style="background-color: whitesmoke;">
+                <img loading="lazy" src="/images/go/edu/hilfe.png" class="img-responsive" style="width: inherit;">
+            </div>
+        </div>
+    </div>
+</div>

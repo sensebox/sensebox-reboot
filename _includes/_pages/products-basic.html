@@ -37,7 +37,7 @@
 
     <div class="programming-showcase">
       <div class="blockly-container">
-              <div class="postit-note">
+            <div class="postit-note">
         <p class="postit-text">{{content.basic-event-text}}</p>
       </div>
               <div class="blockly-callout">
@@ -57,11 +57,93 @@
             ></iframe>
           </div>
         </div>
+        
 
       </div>
+      <!-- App Section -->
+<div class="app-section" id="app">
+  <div class="container">
+    <div class="section-header text-center">
+      <h2 class="section-title">{{content.basic-app-title | default: "senseBox:basic App"}}</h2>
+      <p class="section-subtitle">{{content.basic-app-text | default: "Du hast ein Tablet? Lade dir die senseBox:basic App herunter und programmiere deine senseBox direkt vom Tablet aus!"}}</p>
+    </div>
+    <div class="app-store-buttons">
+      <a
+        href="https://apps.apple.com/us/app/sensebox-basic/id6759094226"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Download on the App Store"
+      >
+        <object
+          style="pointer-events: none"
+          data="/images/app/Download_on_the_App_Store_Badge_DE_RGB_blk_092917.svg"
+          type="image/svg+xml"
+          height="60"
+        >
+          <span>Download on the App Store</span>
+        </object>
+      </a>
+      <a
+        href="https://play.google.com/store/apps/details?id=de.sensebox.blockly.basic"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Download on Google Play"
+      >
+        <img
+          src="/images/app/google-play-badge.png"
+          alt="Get it on Google Play"
+          height="60"
+          style="pointer-events: none"
+        />
+      </a>
     </div>
   </div>
 </div>
+    </div>
+  </div>
+</div>
+
+
+
+<style>
+.app-section {
+  padding: 30px 0;
+  text-align: center;
+}
+
+.app-section .section-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1d1d1f;
+  margin-bottom: 12px;
+}
+
+.app-section .section-subtitle {
+  font-size: 1.1rem;
+  color: #6e6e73;
+  max-width: 600px;
+  margin: 0 auto 30px;
+}
+
+.app-store-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.app-store-buttons a {
+  display: inline-flex;
+  align-items: center;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.app-store-buttons a:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+</style>
 
 <!-- Product Overview Section -->
 <div class="new-section" id="explore">
@@ -436,6 +518,8 @@
           </div>
         </div>
 
+
+
 <!-- Enhanced Shop Section -->
 <div class="shop-section" id="shop">
   <div class="container text-center">
@@ -444,6 +528,7 @@
       <a href="https://sensebox.kaufen/collections/sensebox/products/sensebox-basic" class="btn-primary-modern">Zum Shop</a>
     </div>
   </div>
+  
 </div>
 
 <style>

@@ -16,6 +16,9 @@ basic-material-text: "In addition to the hardware, the senseBox:basic comes with
 basic-programming-title: "Child-Friendly Programming with new senseBox-Blockly"
 basic-programming-text: "To make getting started with programming easy, there is a specially adapted, child-friendly programming interface using senseBox-Blockly. The programming blocks are clearly designed and work with clear symbols and colors. This helps children quickly recognize which block is for what – for example, for light, sensors, or displays. The simplified menu navigation helps focus on the essentials without being distracted by too many functions. Instead of writing complicated code, blocks are assembled like puzzle pieces."
 
+basic-event-title: "Online Meetup to Get to Know Us"
+basic-event-text: "<strong style='color:#4da843;'>Every 2nd Tuesday</strong> of the month, we offer an online meetup from <strong style='color: #4da843;'>3-4 PM (CET)</strong> via <a href='https://uni-ms.zoom-x.de/j/65029471411?pwd=l6jAyfc6E2DqKoJXKhmvx5uOGCfBs4.1' style='color:#0000EE;'>Zoom</a> to introduce the senseBox:basic and answer your questions. The next session is on <strong style='color: #4da843;'><span id='next-meetup-date'>...</span></strong> – we look forward to seeing you!"
+
 basic-content-title: "Contents of the senseBox:basic"
 whats_in_the_box:
   - senseBox MCU-S2 (ESP-32)

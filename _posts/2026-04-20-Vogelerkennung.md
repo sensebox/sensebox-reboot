@@ -12,6 +12,7 @@ image-blaumeise: /images/blog/2026-04-20-Vogelerkennung/blaumeise.gif
 image-rotkehlchen: /images/blog/2026-04-20-Vogelerkennung/rotkehlchen.gif
 image-amsel: /images/blog/2026-04-20-Vogelerkennung/amsel.gif
 image-house-inside: /images/blog/2026-04-20-Vogelerkennung/house-with-inside.png
+image-tinybirdiary-schematic: /images/blog/2026-04-20-Vogelerkennung/tinybirdiary-schematic-eye.png
 lang: de
 ---
 
@@ -21,9 +22,6 @@ lang: de
     {% include image.html image=page.image-birdiary-combined %}
     <div class="caption">Bild links: © Simon Jöcker (2022) - Universität Münster</div>
 </div>
-
-/images/blog/2026-04-20-Vogelerkennung/birdiary-combined.jpg - Logo
-
 
 Durch anthropogenes Handeln sind derzeit mehr Arten vom Aussterben bedroht als jemals zuvor. Um diese Entwicklung stärker ins gesellschaftliche Bewusstsein zu rücken, setzt das 2021 am Institut für Geoinformatik der Universität Münster entwickelte Projekt „[Birdiary](https://www.uni-muenster.de/studium/orga/foerderung_forschungsprojekte/multi-sensor-feeder.html)“ auf eine aktive Einbindung von Bürger in die Forschung. Im Mittelpunkt steht eine selbst entwickelte, smarte Futterstation für Vögel, die mit verschiedenen Sensoren, unter anderem Kamera, Waage und Mikrofon, sowie zusätzlichen Umweltsensoren ausgestattet ist. Die Station besteht aus einem Gehäuse mit zwei unterschiedlichen Kammern, wobei eine als Futtersilo dient und die andere die technische Ausstattung beherbergt. Ergänzt wird das Gehäuse durch ein abnehmbares Dach, das das Nachfüllen von Futter ermöglicht. Die integrierte Kamera zeichnet Videos der besuchenden Vögel auf, während die Waage erkennt, wenn ein Vogel die Station besucht, und dabei das entsprechende Gewicht misst. Zusätzlich nimmt ein Mikrofon Umgebungsgeräusche auf, sobald sich ein Vogel an der Station befindet. Ein weiterer Sensor für Lufttemperatur und Luftfeuchtigkeit erfasst zudem in regelmäßigen Abständen, auch unabhängig von Vogelbesuchen, verschiedene Umweltdaten.
 
@@ -98,6 +96,11 @@ Die Klassifikation erfolgt dabei in etwa drei Viertel einer Sekunde pro Bild. Be
 </div>
 
 Ergänzend zu den Bilddaten lassen sich auch weitere Ansätze aus Birdiary integrieren, etwa durch die Kombination mit der im Birdiary-Projekt eingesetzten Waage, um Bilddaten mit Gewichtsveränderungen oder Aktivitätsmustern zu verknüpfen. Insgesamt zeigt TinyAIoT damit sehr konkret, wie KI-basierte Umweltbeobachtung lokal auf Sensoren funktioniert: effizient, energiearm und unabhängig von Cloud-Infrastrukturen – und gleichzeitig leistungsfähig genug, um komplexe Aufgaben wie die automatische Vogelerkennung direkt vor Ort umzusetzen.
+
+<div style="text-align: center;">
+    {% include image.html image=page.image-tinybirdiary-schematic %}
+    <div class="caption">Die lokale Klassifikation der Bilder auf der senseBox ist stromsparender als das Versenden der Bilder an externe Klassifikationsdienste</div>
+</div>
 
 Die ersten Prototypen zeigen bereits, wie bestehende Birdiary-Stationen mit der neuen Hardware umgebaut werden können. Langfristig soll die senseBox MCU Eye nicht nur für die Vogelerkennung eingesetzt werden, sondern auch für weitere Anwendungen im Bereich Umweltmonitoring, Smart City und KI-gestützter Sensorik.
 

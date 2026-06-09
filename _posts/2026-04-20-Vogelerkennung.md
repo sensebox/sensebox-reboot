@@ -13,8 +13,11 @@ image-rotkehlchen: /images/blog/2026-04-20-Vogelerkennung/rotkehlchen.gif
 image-amsel: /images/blog/2026-04-20-Vogelerkennung/amsel.gif
 image-house-inside: /images/blog/2026-04-20-Vogelerkennung/house-with-inside.png
 image-tinybirdiary-schematic: /images/blog/2026-04-20-Vogelerkennung/tinybirdiary-schematic-eye.png
+image-dashboard: /images/blog/2026-04-20-Vogelerkennung/Screenshot-Vogeldashboard.jpg
 lang: de
 ---
+
+Automatisierte Vogelerkennung entwickelt sich zunehmend zu einem spannenden Anwendungsfeld für Citizen Science, Umweltmonitoring und Künstliche Intelligenz. Mithilfe von Sensorik, Kameras und energieeffizienter KI-Modelle lassen sich Tierbeobachtungen heute direkt vor Ort erfassen und auswerten. In diesem Beitrag stellen wir verschiedene Entwicklungen rund um die automatisierte Vogelbeobachtung mit der senseBox vor. Dabei geht es um smarte Vogelhäuser aus dem Citizen-Science-Projekt [Birdiary](https://wiediversistmeingarten.org/de/), KI-Modelle zur lokalen Vogelerkennung auf Mikrocontrollern im Forschungsprojekt [TinyAIoT](https://sensebox.de/de/research-tinyaiot) sowie neue Hardwareentwicklungen wie die [senseBox MCU Eye](https://sensebox.de/de/products-eye) als neues Board mit integrierter Kamera. Anhand der Projektbeispiele zeigen wir, wie offene Hardware, KI-Lösungen und partizipative Forschung im Zusammenspiel neue Möglichkeiten für Biodiversitätsmonitoring schaffen.
 
 ## Birdiary - smarte Vogelerkennung im eigenen Garten
 
@@ -99,7 +102,7 @@ Ergänzend zu den Bilddaten lassen sich auch weitere Ansätze aus Birdiary integ
 
 <div style="text-align: center;">
     {% include image.html image=page.image-tinybirdiary-schematic %}
-    <div class="caption">Die lokale Klassifikation der Bilder auf der senseBox ist stromsparender als das Versenden der Bilder an externe Klassifikationsdienste</div>
+    <div class="caption">Die lokale Klassifikation der Bilder auf der senseBox MCU Eye ist stromsparender als das Versenden der Bilder an externe Klassifikationsdienste</div>
 </div>
 
 Die ersten Prototypen zeigen bereits, wie bestehende Birdiary-Stationen mit der neuen Hardware umgebaut werden können. Langfristig soll die senseBox MCU Eye nicht nur für die Vogelerkennung eingesetzt werden, sondern auch für weitere Anwendungen im Bereich Umweltmonitoring, Smart City und KI-gestützter Sensorik.
@@ -110,16 +113,20 @@ Mehr zur senseBox MCU Eye [hier](https://sensebox.de/de/products-eye)
 
 Wie können Umwelt- und Klimadaten gemeinsam erhoben, verstanden und für gesellschaftliche Fragestellungen der Stadt Heilbronn nutzbar gemacht werden? Und wie können Bildung, Zivilgesellschaft und Institutionen dabei zusammenwirken? Gemeinsam mit Arkadia Heilbronn möchten wir zusammen mit Bürger:innen und der senseBox diesen Fragen datenbasiert auf den Grund gehen. Ein Anwendungsfall soll auch hier die Vogelerkennung an verschiedenen Orten im Stadtgebiet werden, um Rückschlüsse auf die Biodiversität der Stadt Heilbronn zu ziehen. Dazu werden in Workshops im Juni 2026 Vogelhäuser mit den Teilnehmenden zusammengebaut sowie mit der Birdiary Sensorik (noch ohne senseBox MCU Eye) ausgestattet. Auf einem Dashboard werden die erhobenen Daten zur Anzahl der Sichtungen sowie die häufigsten Arten visualisiert werden: [https://greencity.hn/sammlung/biodiversitt](https://greencity.hn/sammlung/biodiversitt)
 
+<div style="text-align: center;">
+    {% include image.html image=page.image-dashboard %}
+</div>
+
 Es wurden bereits versuchsweise zwei Vogelhäuser mit der Hard- und Software aus dem Birdiary-Projekt aufgestellt, um erste Testdaten für die Dashboard-Entwicklung zu erhalten. Hier zeigt sich jedoch, dass die KI-basierte Auswertung noch fehleranfällig ist und beispielsweise Vogelarten erkannt werden, die es gar nicht in Europa gibt. Das stellt uns vor die Herausforderung: wie gehen wir mit Fehleranfälligkeit, Fehlmessungen etc. um? 
+
+BILDER Heilbronn?
 
 ## Next Steps
 
-Die bisherigen Ergebnisse zeigen bereits, welches Potenzial in der Kombination aus Citizen Science, Open-Source-Hardware und KI-gestützter Umweltbeobachtung steckt. Gleichzeitig stehen noch einige spannende Entwicklungsschritte bevor.
+Die bisherigen Ergebnisse zeigen bereits, welches Potenzial in der Kombination aus Citizen Science, Open-Source-Hardware und KI-gestützter Umweltbeobachtung steckt. Gleichzeitig stehen noch einige spannende Entwicklungsschritte bevor:
 
 Ein zentraler nächster Schritt ist die Veröffentlichung der senseBox MCU Eye als eigenständiges Board mit integrierter Kamera. Damit soll die Hardware künftig nicht nur für die Vogelerkennung, sondern auch für weitere TinyML- und Computer-Vision-Anwendungen nutzbar werden. Denkbar sind beispielsweise Projekte aus den Bereichen Umweltmonitoring, Smart City oder kreative Maker-Anwendungen (sogar zaubern wird möglich!). Darüber hinaus eröffnet die senseBox MCU Eye auch Anwendungen jenseits der Vogelerkennung. Im Rahmen eines Studienprojekts am Institut für Geoinformatik der Universität Münster setzten Studierende die Hardware beispielsweise zur Zählung der Ein- und Ausflüge von Hummeln an einem Brutkasten ein. Durch die senseBox MCU Eye konnte die Beobachtung minimalinvasiv erfolgen, ohne die Tiere in ihrem natürlichen Verhalten zu stören. Perspektivisch könnten so auch weitere Tierarten automatisiert beobachtet und ökologische Fragestellungen datenbasiert untersucht werden.
 
 Auch die Weiterentwicklung der KI-Modelle bleibt ein wichtiger Entwicklungsbereich. Erste Tests zeigen bereits vielversprechende Ergebnisse bei der Erkennung heimischer Vogelarten, gleichzeitig wird aber deutlich, dass KI-gestützte Klassifikation weiterhin fehleranfällig sein kann. Künftig soll daher untersucht werden, wie sich Fehlklassifikationen reduzieren und Unsicherheiten transparenter darstellen lassen, z.B. durch bessere Trainingsdaten, zusätzliche Sensorinformationen oder Mechanismen zur Validierung durch Citizen Scientists.
 
-Darüber hinaus eröffnet die Kombination verschiedener Sensordaten neue Möglichkeiten für die Biodiversitätsforschung. Neben Bilddaten könnten künftig beispielsweise Gewichtsverläufe, Geräuschaufnahmen oder Umweltdaten stärker in die Auswertung einbezogen werden, um Vogelbesuche robuster und genauer zu analysieren.
-
-Langfristig entsteht so eine offene Plattform für lokale KI-Anwendungen auf ressourcensparender Hardware. Projekte wie Birdiary, TinyAIoT und das Vogeldashboard Heilbronn zeigen bereits heute, wie Umweltbeobachtung, Forschung und Bildung durch offene Technologien miteinander verbunden werden können.
+Darüber hinaus eröffnet die Kombination verschiedener Sensordaten neue Möglichkeiten für die Biodiversitätsforschung. Neben Bilddaten könnten künftig beispielsweise Gewichtsverläufe, Geräuschaufnahmen oder Umweltdaten stärker in die Auswertung einbezogen werden, um Vogelbesuche robuster und genauer zu analysieren. Langfristig entsteht so eine offene Plattform für lokale KI-Anwendungen auf ressourcensparender Hardware. Projekte wie Birdiary, TinyAIoT und das Vogeldashboard Heilbronn zeigen bereits heute, wie Umweltbeobachtung, Forschung und Bildung durch offene Technologien miteinander verbunden werden können.

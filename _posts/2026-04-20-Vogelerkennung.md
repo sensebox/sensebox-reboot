@@ -109,13 +109,15 @@ Die ersten Prototypen zeigen bereits, wie bestehende Birdiary-Stationen mit der 
 
 Mehr zur senseBox MCU Eye [hier](https://sensebox.de/de/products-eye)
 
-## Vogeldashboard für Heilbronn - ein Citizen-Science-Projekt zur urbanen Biodiversität
-
-Wie können Umwelt- und Klimadaten gemeinsam erhoben, verstanden und für gesellschaftliche Fragestellungen der Stadt Heilbronn nutzbar gemacht werden? Und wie können Bildung, Zivilgesellschaft und Institutionen dabei zusammenwirken? Gemeinsam mit Arkadia Heilbronn möchten wir zusammen mit Bürger:innen und der senseBox diesen Fragen datenbasiert auf den Grund gehen. Ein Anwendungsfall soll auch hier die Vogelerkennung an verschiedenen Orten im Stadtgebiet werden, um Rückschlüsse auf die Biodiversität der Stadt Heilbronn zu ziehen. Dazu werden in Workshops im Juni 2026 Vogelhäuser mit den Teilnehmenden zusammengebaut sowie mit der Birdiary Sensorik (noch ohne senseBox MCU Eye) ausgestattet. Auf einem Dashboard werden die erhobenen Daten zur Anzahl der Sichtungen sowie die häufigsten Arten visualisiert werden: [https://greencity.hn/sammlung/biodiversitt](https://greencity.hn/sammlung/biodiversitt)
 
 <div style="text-align: center;">
     {% include image.html image=page.image-dashboard %}
 </div>
+
+
+## Vogeldashboard für Heilbronn - ein Citizen-Science-Projekt zur urbanen Biodiversität
+
+Wie können Umwelt- und Klimadaten gemeinsam erhoben, verstanden und für gesellschaftliche Fragestellungen der Stadt Heilbronn nutzbar gemacht werden? Und wie können Bildung, Zivilgesellschaft und Institutionen dabei zusammenwirken? Gemeinsam mit Arkadia Heilbronn möchten wir zusammen mit Bürger:innen und der senseBox diesen Fragen datenbasiert auf den Grund gehen. Ein Anwendungsfall soll auch hier die Vogelerkennung an verschiedenen Orten im Stadtgebiet werden, um Rückschlüsse auf die Biodiversität der Stadt Heilbronn zu ziehen. Dazu werden in Workshops im Juni 2026 Vogelhäuser mit den Teilnehmenden zusammengebaut sowie mit der Birdiary Sensorik (noch ohne senseBox MCU Eye) ausgestattet. Auf einem Dashboard werden die erhobenen Daten zur Anzahl der Sichtungen sowie die häufigsten Arten visualisiert werden: [https://greencity.hn/sammlung/biodiversitt](https://greencity.hn/sammlung/biodiversitt)
 
 Es wurden bereits versuchsweise zwei Vogelhäuser mit der Hard- und Software aus dem Birdiary-Projekt aufgestellt, um erste Testdaten für die Dashboard-Entwicklung zu erhalten. Hier zeigt sich jedoch, dass die KI-basierte Auswertung noch fehleranfällig ist und beispielsweise Vogelarten erkannt werden, die es gar nicht in Europa gibt. Das stellt uns vor die Herausforderung: wie gehen wir mit Fehleranfälligkeit, Fehlmessungen etc. um? 
 

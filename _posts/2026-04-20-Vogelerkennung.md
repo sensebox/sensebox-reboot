@@ -36,11 +36,11 @@ Die auf Open-Source-Hardware basierende Station wurde bereits an zahlreichen Sta
 
 Weitere Informationen und Mitmachmöglichkeiten: [https://wiediversistmeingarten.org/](https://wiediversistmeingarten.org/)
 
-## TinyAIoT: KI meets senseBox
+## TinyAIoT: senseBox meets AI
 
 Das Forschungsprojekt [TinyAIoT](https://sensebox.de/de/research-tinyaiot) beschäftigt sich mit der Frage, wie Künstliche Intelligenz direkt auf kleinen IoT-Geräten wie der senseBox eingesetzt werden kann. Ziel ist es, KI-Modelle so effizient und ressourcenschonend zu gestalten, dass sie nicht mehr in der Cloud laufen müssen, sondern unmittelbar auf Mikrocontrollern ausgeführt werden können. Dadurch werden Daten nicht dauerhaft übertragen, sondern direkt vor Ort verarbeitet, was Energie spart, den Datenverkehr reduziert und neue Anwendungen im Bereich Umwelt- und Smart-City-Monitoring ermöglicht.
 
-Im Rahmen von TinyAIoT wurde mit der senseBox MCU Eye ein neues KI-fähiges senseBox-Board entwickelt, das speziell für Anwendungen im Bereich Computer Vision und Tiny Machine Learning ausgelegt ist. Durch die integrierte Kamera sowie die Möglichkeit, KI-Modelle direkt auf dem Mikrocontroller auszuführen, können Bilddaten lokal verarbeitet werden, ohne dass eine dauerhafte Verbindung zur Cloud notwendig ist. Das spart Strom und schützt die Privatsphäre.
+Im Rahmen von TinyAIoT wurde mit der <a href="https://sensebox.de/de/products-eye">senseBox MCU Eye</a> ein neues KI-fähiges senseBox-Board entwickelt, das speziell für Anwendungen im Bereich Computer Vision und Tiny Machine Learning ausgelegt ist. Durch die integrierte Kamera sowie die Möglichkeit, KI-Modelle direkt auf dem Mikrocontroller auszuführen, können Bilddaten lokal verarbeitet werden, ohne dass eine dauerhafte Verbindung zur Cloud notwendig ist. Das spart Strom und schützt die Privatsphäre.
 
 <div style="text-align: center;">
     {% include image.html image=page.image-eye %}
@@ -107,7 +107,28 @@ Ergänzend zu den Bilddaten lassen sich auch weitere Ansätze aus Birdiary integ
 
 Die ersten Prototypen zeigen bereits, wie bestehende Birdiary-Stationen mit der neuen Hardware umgebaut werden können. Langfristig soll die senseBox MCU Eye nicht nur für die Vogelerkennung eingesetzt werden, sondern auch für weitere Anwendungen im Bereich Umweltmonitoring, Smart City und KI-gestützter Sensorik.
 
-Mehr zur senseBox MCU Eye [hier](https://sensebox.de/de/products-eye)
+<div class="eye-banner">
+  <a href="https://sensebox.de/de/products-eye" class="btn eye-banner-btn">Mehr zur senseBox MCU Eye</a>
+</div>
+
+
+<style>
+.eye-banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  background: #4caf50;
+  padding: 1rem;
+}
+.eye-banner-btn {
+  background-color: white;
+  color: rgb(67, 162, 56);
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+</style>
 
 
 

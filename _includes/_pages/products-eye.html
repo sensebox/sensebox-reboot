@@ -1,0 +1,318 @@
+{% assign content = site.data.i18n.[page.lang].products-eye %}
+<link rel="stylesheet" href="/css/products-eye.css" />
+
+<!-- Camera Section -->
+<div class="container">
+    <div class="row row-padding">
+        <div class="col-lg-4 middle">
+            <img loading="lazy" class="img-fluid mx-auto" src="/images/products/eye/camera.png" alt="camera">
+        </div>
+        <div class="col-lg-4 align-self-center middle">
+            <h2 class="featurette-heading">{{content.eye-camera-title}}</h2>
+            <p class="lead">{{content.eye-camera-text}}</p>
+        </div>
+        <div class="col-lg-4 middle">
+            <img loading="lazy" class="img-fluid mx-auto" src="/images/products/eye/lizard.gif" alt="Eye filming lizard">
+        </div>
+    </div>
+</div>
+
+<!-- AI Section -->
+<div style="background-color: whitesmoke;">
+  <div class="container">
+      <div class="row row-padding featurette">
+          <div class="col-md-6 middle">
+              <img loading="lazy" class="featurette-image img-fluid mx-auto" src="/images/products/eye/teachable.gif"
+                  alt="Generic placeholder image">
+          </div>
+          <div class="col-md-6 middle">
+              <h2 class="featurette-heading">{{content.eye-ml-title}}</h2>
+              <p class="lead">{{content.eye-ml-text}}
+              </p>
+              <a class="btn btn-sensebox-green" href="https://blockly.sensebox.de/teachable" role="button" target="_blank">{{content.eye-ml-button}}</a>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!-- Use cases Section -->
+<div class="container">
+  <div class="row row-padding">
+      <h2 class="featurette-heading text-center w-100" style="margin-top: 0;">{{content.eye-usecases-title}}</h2>
+  </div>
+  <div class="row row-padding justify-content-center">
+      <!-- birds -->
+      <div class="col-12 mb-4">
+          <div class="usecase-card">
+              <div class="usecase-card-images">
+                  <img loading="lazy" class="img-fluid" src="/images/products/eye/house-with-inside.jpg" alt="Bird house">
+                  <img loading="lazy" class="img-fluid" src="/images/products/eye/kohlmeise.gif" alt="Kohlmeise">
+              </div>
+              <div class="usecase-card-body">
+                  <h3>{{content.eye-usecases-bird-title}}</h3>
+                  <p>{{content.eye-usecases-bird-text}}</p>
+              </div>
+          </div>
+      </div>
+      <!-- bees -->
+      <div class="col-12 mb-4">
+          <div class="usecase-card">
+              <div class="usecase-card-body">
+                  <h3>{{content.eye-usecases-bee-title}}</h3>
+                  <p>{{content.eye-usecases-bee-text}}</p>
+              </div>
+              <div class="usecase-card-images">
+                  <img loading="lazy" class="img-fluid" src="/images/products/eye/bumblebee_box.jpg" alt="Bee house">
+                  <img loading="lazy" class="img-fluid" src="/images/products/eye/bumblebee_detection.gif" alt="Bees">
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!-- Onboard Section -->
+<div style="background-color: whitesmoke;">
+  <div class="new-section" id="explore">
+    <div class="container">
+      <div class="section-header text-center">
+        <h2 class="section-title styled-title">
+          {{content.eye-onboard-title}}
+        </h2>
+      </div>
+
+      <!-- Add spacing to visually separate the section -->
+      <div class="section-spacing"></div>
+    </div>
+
+    <!-- Product Categories Section -->
+    <div class="container">
+      <!-- Top Category Navigation -->
+      <div class="category-nav-horizontal">
+        <div class="category-item active" data-category="sensors">
+          <span>{{content.eye-categories-sensors}}</span>
+        </div>
+        <div class="category-item" data-category="connectivity">
+          <span>{{content.eye-categories-connectivity}}</span>
+        </div>
+        <div class="category-item" data-category="ports">
+          <span>{{content.eye-categories-ports}}</span>
+        </div>
+        <div class="category-item" data-category="other">
+          <span>{{content.eye-categories-other}}</span>
+        </div>
+      </div>
+
+      <!-- Content Area -->
+      <div class="category-content-area">
+          <div class="category-content active" id="sensors">
+            <div class="row justify-content-center">
+              <div class="col-lg-4 col-md-6 mb-4 d-flex">
+                <div class="feature-card">
+                  <img
+                    loading="lazy"
+                    src="/images/products/eye/camera.gif"
+                    alt="Camera"
+                  />
+                  <h3>{{content.eye-category-camera-title}}</h3>
+                  <p>
+                    {{content.eye-category-camera-desc}}
+                  </p>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 mb-4 d-flex">
+                <div class="feature-card">
+                  <img
+                    loading="lazy"
+                    src="/images/products/eye/accelerometer.gif"
+                    alt="Accelerometer"
+                  />
+                  <h3>{{content.eye-category-accelerometer-title}}</h3>
+                  <p>
+                    {{content.eye-category-accelerometer-desc}}
+                  </p>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+          <!-- Connectivity Category -->
+          <div class="category-content " id="connectivity">
+            <div class="row">
+              <div class="col-lg-4 col-md-6 mb-4 d-flex">
+                <div class="feature-card">
+                  <img
+                    loading="lazy"
+                    src="/images/products/eye/WiFi.gif"
+                    alt="WiFi Module"
+                  />
+                  <h3>{{content.eye-category-wifi-title}}</h3>
+                  <p>{{content.eye-category-wifi-desc}}</p>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 mb-4 d-flex">
+                <div class="feature-card">
+                  <img
+                    loading="lazy"
+                    src="/images/products/eye/BLE.gif"
+                    alt="BLE Module"
+                  />
+                  <h3>{{content.eye-category-ble-title}}</h3>
+                  <p>{{content.eye-category-ble-desc}}</p>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 mb-4 d-flex">
+                <div class="feature-card">
+                  <img
+                    loading="lazy"
+                    src="/images/products/eye/LoRa.gif"
+                    alt="LoRa Module"
+                  />
+                  <h3>{{content.eye-category-lora-title}}</h3>
+                  <p>{{content.eye-category-lora-desc}}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Ports Category -->
+          <div class="category-content" id="ports">
+            <div class="row">
+              <div class="col-lg-4 col-md-6 mb-4 d-flex">
+                <div class="feature-card">
+                  <img
+                    loading="lazy"
+                    src="/images/products/eye/USB-C.gif"
+                    alt="USB-C Port"
+                  />
+                  <h3>{{content.eye-category-usb-title}}</h3>
+                  <p>{{content.eye-category-usb-desc}}</p>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 mb-4 d-flex">
+                <div class="feature-card">
+                  <!-- TODO: fix animation -->
+                  <img
+                    loading="lazy"
+                    src="/images/products/eye/qwiic.gif"
+                    alt="Qwiic Port"
+                  />
+                  <h3>{{content.eye-category-qwiic-title}}</h3>
+                  <p>{{content.eye-category-qwiic-desc}}</p>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 mb-4 d-flex">
+                <div class="feature-card">
+                  <img
+                    loading="lazy"
+                    src="/images/products/eye/battery.gif"
+                    alt="Battery Port"
+                  />
+                  <h3>{{content.eye-category-battery-title}}</h3>
+                  <p>{{content.eye-category-battery-desc}}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Other Category -->
+          <div class="category-content" id="other">
+            <div class="row">
+              <div class="col-lg-4 col-md-6 mb-4 d-flex">
+                <div class="feature-card">
+                  <img
+                    loading="lazy"
+                    src="/images/products/eye/RGB-LED.gif"
+                    alt="RGB LED"
+                  />
+                  <h3>{{content.eye-category-rgb-led-title}}</h3>
+                  <p>{{content.eye-category-rgb-led-desc}}</p>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 mb-4 d-flex">
+                <div class="feature-card">
+                  <img
+                    loading="lazy"
+                    src="/images/products/eye/sd-card.gif"
+                    alt="SD Card"
+                  />
+                  <h3>{{content.eye-category-sd-title}}</h3>
+                  <p>{{content.eye-category-sd-desc}}</p>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 mb-4 d-flex">
+                <div class="feature-card">
+                  <img
+                    loading="lazy"
+                    src="/images/products/eye/button.gif"
+                    alt="Button"
+                  />
+                  <h3>{{content.eye-category-button-title}}</h3>
+                  <p>{{content.eye-category-button-desc}}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- JavaScript for category switching and smooth interactions -->
+      <script>
+        document.addEventListener("DOMContentLoaded", function () {
+          const categoryItems = document.querySelectorAll(".category-item");
+          const categoryContents =
+            document.querySelectorAll(".category-content");
+
+          // Category switching
+          categoryItems.forEach((item) => {
+            item.addEventListener("click", function () {
+              const category = this.getAttribute("data-category");
+
+              // Remove active class from all items
+              categoryItems.forEach((i) => i.classList.remove("active"));
+              categoryContents.forEach((c) => c.classList.remove("active"));
+
+              // Add active class to clicked item
+              this.classList.add("active");
+              document.getElementById(category).classList.add("active");
+            });
+          });
+
+          // Smooth scroll for hero CTA buttons
+          document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+            anchor.addEventListener("click", function (e) {
+              const href = this.getAttribute("href");
+              if (!href || !href.startsWith('#') || href.length <= 1) return;
+              e.preventDefault();
+              const target = document.querySelector(href);
+              if (target) {
+                const offset = 80;
+                const targetPosition = target.offsetTop - offset;
+                window.scrollTo({
+                  top: targetPosition,
+                  behavior: "smooth",
+                });
+              }
+            });
+          });
+
+          // Parallax effect for hero image (subtle)
+          const heroImage = document.querySelector(".floating-image");
+          if (heroImage) {
+            window.addEventListener("scroll", function () {
+              const scrolled = window.pageYOffset;
+              const rate = scrolled * 0.3;
+              if (heroImage) {
+                heroImage.style.transform = `translateY(${rate}px)`;
+              }
+            });
+          }
+        });
+      </script>
+  </div>
+</div>
+
+<!-- Interest Section -->
+<div class="interest-section">
+  <div class="container text-center mx-auto" style="max-width: 800px;">
+    <h2>{{content.eye-interest-title}}</h2>
+    <p>{{content.eye-interest-text}}</p>
+  </div>
+</div>

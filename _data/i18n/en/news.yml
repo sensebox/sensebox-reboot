@@ -1,13 +1,30 @@
 - author: Eric
+  date: 2026-06-11
+  headline: The camera for the senseBox! 
+  text: With our new board, the senseBox:eye, you can take your first steps into the world of image recognition and computer vision. The board includes a camera that, combined with the powerful S2 MCU, offers a wide range of possibilities for exciting projects. Check out a product overview <a href="https://sensebox.kaufen/products/sensebox-eye" class="green-link">here</a>!
+  active: true
+- author: Eric
+  date: 2026-05-01
+  headline: senseBox:basic - now in the shop
+  text: The senseBox:basic is here! Our latest kit, specially designed for use starting in elementary school. Combined with our new smartphone/tablet app, children and teens can playfully discover the world of environmental measurement. To the <a class="green-link" href="sensebox.kaufen/products/sensebox-basic" target="blank">senseBox:basic</a>
+  active: true
+- author: Gina
+  date: 2025-06-25
+  headline: Transfer your program “Over-The-Air”
+  text: Transfer your self-created Blockly programs wirelessly via WiFi to your senseBox MCU S2 – it’s easy with the senseBox Connect app on your tablet. Simply install the app, enable Over-The-Air (OTA) mode, enter your WiFi ID – and you’re ready to transfer your program code wirelessly. Go to the <a href="https://sensebox.de/de/app" class="green-link"> senseBox Connect App  </a>
+  active: true
+
+
+- author: Eric
   date: 2024-12-06
   headline: New in the Shop! The Air Quality Explorer Set
   text: The Air Quality Explorer Set allows you to examine indoor and outdoor air quality. It includes a CO₂ sensor and a particulate matter sensor along with the accessories needed to connect it to senseBox microcontrollers. It is compatible with both the senseBox:edu and the senseBox:edu S2. Check out the <a href="https://sensebox.kaufen/products/air-quality-explorer-set-sl" class="green-link">Air Quality Explorer Set</a>.
-  active: true
+  active: false
 - author: Eric
   date: 2024-10-30
   headline: senseBox:bike on WDR!
   text: The senseBox was featured on WDR! In the segment, our "senseBox:bike" was presented by its inventor and IT expert Felix. The interview was part of the workshop "Using the senseBox:bike for data-driven cycling cities," where 20 citizens of Münster participated to help shape the mobility transition using their own environmental and traffic data. <a href="https://www1.wdr.de/nachrichten/westfalen-lippe/ki-fahrraddaten-muenster-100.html" class="green-link">Click here</a> for the online article, and learn more about the workshop <a href="https://blog.52north.org/2024/11/05/empowering-communities-atrai-bikes-workshop-for-smarter-safer-streets/" class="green-link">here</a>.
-  active: true
+  active: false
 - author: Eric
   date: 2023-12-05
   headline: Order senseBox:bike now!

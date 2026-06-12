@@ -22,47 +22,73 @@
       />
     </div>
   </div>
-</div>
-
-
-<!-- Arduino Section   -->
-
-<!-- <div style="background-color: whitesmoke">
-  <div class="container">
     <div class="row row-padding featurette">
-      <div class="col-md-7 order-md-2 middle">
-        <h2 class="featurette-heading">{{ t.head-2 }}</h2>
-        <p class="lead">{{ t.text-2 }}</p>
-      </div>
-      <div class="col-md-5 order-md-1 middle">
-        <img
-          loading="lazy"
-          class="featurette-image img-fluid mx-auto"
-          src="/images/editoren/arduino.png"
-          alt="Generic placeholder image"
-        />
-      </div>
-    </div>
-  </div>
-</div> -->
-
-
-
-<!-- openRoberta Section  -->
-
-<!-- <div class="container">
-  <div class="row row-padding featurette">
-    <div class="col-md-7 middle">
-      <h2 class="featurette-heading">{{ t.head-3 }}</h2>
-      <p class="lead">{{ t.text-3 }}</p>
-    </div>
-    <div class="col-md-5 middle">
+          <div class="col-md-5 middle">
       <img
         loading="lazy"
         class="featurette-image img-fluid mx-auto"
-        src="/images/editoren/nepo.png"
+        src="/images/editoren/blockly/blockly_header_basic.png"
         alt="Generic placeholder image"
       />
     </div>
+    <div class="col-md-7 middle">
+      <h2 class="featurette-heading">{{ t.title-basic-1 }}</h2>
+      <p class="lead">{{ t.text-basic-1 }}</p>
+      <div class="button-group">
+        <a href="https://blockly.sensebox.de/basic" class="btn btn-success"
+          >{{ t.button-text-blockly-basic }}</a
+        >
+        <a
+          href="https://apps.apple.com/us/app/sensebox-basic/id6759094226"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Download on the App Store"
+        >
+          <object
+            style="pointer-events: none"
+            data="/images/app/Download_on_the_App_Store_Badge_DE_RGB_blk_092917.svg"
+            type="image/svg+xml"
+            height="40"
+          >
+            <span>Download on the App Store</span>
+          </object>
+        </a>
+        <a
+          href="https://play.google.com/store/apps/details?id=de.sensebox.blockly.basic"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Download on Google Play"
+        >
+          <img
+            src="/images/app/google-play-badge.png"
+            alt="Get it on Google Play"
+            height="40"
+            style="pointer-events: none"
+          />
+        </a>
+      </div>
+    </div>
+
   </div>
-</div> -->
+</div>
+
+<style>
+.button-group {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.button-group a {
+  display: inline-flex;
+  align-items: center;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.button-group a:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+</style>
+

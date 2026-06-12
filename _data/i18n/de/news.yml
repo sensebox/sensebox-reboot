@@ -1,3 +1,13 @@
+- author: Eric
+  date : 2026-06-11
+  headline: Die Kamera für die senseBox! 
+  text: Mit unserem neuen Board, der senseBox:eye können erste Einstiege in die Welt der Bilderkennung und Computer Vision gemacht werden. Das Board enthält eine Kamera, die in Kombination mit der leistungsstarken MCU S2 eine Vielzahl von Möglichkeiten für spannende Projekte bietet. Schau dir eine Produktvorstellung <a href="https://sensebox.kaufen/products/sensebox-eye" class="green-link">hier</a> an!
+  active: true
+- author: Eric
+  date: 2026-05-01
+  headline: senseBox:basic - jetzt im Shop
+  text: Die senseBox:basic ist da! Unser neuester Bausatz, extra spezialisiert für den Einsatz ab der Grundschule. In Verbindung mit unserer neuen Smartphone / Tablet App können Kinder und Jugendliche spielerisch die Welt der Umweltmessung entdecken. Zur <a class="green-link" href="sensebox.kaufen/products/sensebox-basic" target="blank">senseBox:basic</a>
+  active: true
 - author: Gina
   date: 2025-06-25
   headline: Übertragung deines Programms "Over-The-Air"

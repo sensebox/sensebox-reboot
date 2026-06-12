@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Haller Schüler messen Luftqualität"
-date:   2025-12-17
+date:   2026-02-23
 author: Gina
 categories: press
 press_category: online

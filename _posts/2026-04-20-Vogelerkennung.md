@@ -14,6 +14,8 @@ image-amsel: /images/blog/2026-04-20-Vogelerkennung/amsel.gif
 image-house-inside: /images/blog/2026-04-20-Vogelerkennung/house-with-inside.png
 image-tinybirdiary-schematic: /images/blog/2026-04-20-Vogelerkennung/tinybirdiary-schematic-eye.png
 image-dashboard: /images/blog/2026-04-20-Vogelerkennung/Screenshot-Vogeldashboard.jpg
+image-workshop-1: /images/blog/2026-04-20-Vogelerkennung/heilbronn-birdiary-workshop-1.jpeg
+image-workshop-2: /images/blog/2026-04-20-Vogelerkennung/heilbronn-birdiary-workshop-2.jpeg
 lang: de
 ---
 
@@ -23,7 +25,7 @@ Automatisierte Vogelerkennung entwickelt sich zunehmend zu einem spannenden Anwe
 
 <div style="text-align: center;">
     {% include image.html image=page.image-birdiary-combined %}
-    <div class="caption">Bild links: © Simon Jöcker (2022) - Universität Münster</div>
+    <div style="font-size: 0.95em; color: #555; margin-bottom: 1em;">Bild links: © Simon Jöcker (2022) - Universität Münster</div>
 </div>
 
 Durch anthropogenes Handeln sind derzeit mehr Arten vom Aussterben bedroht als jemals zuvor. Um diese Entwicklung stärker ins gesellschaftliche Bewusstsein zu rücken, setzt das 2021 am Institut für Geoinformatik der Universität Münster entwickelte Projekt „[Birdiary](https://www.uni-muenster.de/studium/orga/foerderung_forschungsprojekte/multi-sensor-feeder.html)“ auf eine aktive Einbindung von Bürger in die Forschung. Im Mittelpunkt steht eine selbst entwickelte, smarte Futterstation für Vögel, die mit verschiedenen Sensoren, unter anderem Kamera, Waage und Mikrofon, sowie zusätzlichen Umweltsensoren ausgestattet ist. Die Station besteht aus einem Gehäuse mit zwei unterschiedlichen Kammern, wobei eine als Futtersilo dient und die andere die technische Ausstattung beherbergt. Ergänzt wird das Gehäuse durch ein abnehmbares Dach, das das Nachfüllen von Futter ermöglicht. Die integrierte Kamera zeichnet Videos der besuchenden Vögel auf, während die Waage erkennt, wenn ein Vogel die Station besucht, und dabei das entsprechende Gewicht misst. Zusätzlich nimmt ein Mikrofon Umgebungsgeräusche auf, sobald sich ein Vogel an der Station befindet. Ein weiterer Sensor für Lufttemperatur und Luftfeuchtigkeit erfasst zudem in regelmäßigen Abständen, auch unabhängig von Vogelbesuchen, verschiedene Umweltdaten.
@@ -95,7 +97,7 @@ Die Klassifikation erfolgt dabei in etwa drei Viertel einer Sekunde pro Bild. Be
 
 <div style="text-align: center;">
     {% include image.html image=page.image-house-inside %}
-    <div class="caption">Ein altes Birdiary Vogelhaus mit senseBox MCU Eye ausgestattet</div>
+    <div style="font-size: 0.95em; color: #555; margin-bottom: 1em;">Ein altes Birdiary Vogelhaus mit senseBox MCU Eye ausgestattet</div>
 </div>
 
 Ergänzend zu den Bilddaten lassen sich auch weitere Ansätze aus Birdiary integrieren, etwa durch die Kombination mit der im Birdiary-Projekt eingesetzten Waage, um Bilddaten mit Gewichtsveränderungen oder Aktivitätsmustern zu verknüpfen. Insgesamt zeigt TinyAIoT damit sehr konkret, wie KI-basierte Umweltbeobachtung lokal auf Sensoren funktioniert: effizient, energiearm und unabhängig von Cloud-Infrastrukturen – und gleichzeitig leistungsfähig genug, um komplexe Aufgaben wie die automatische Vogelerkennung direkt vor Ort umzusetzen.
@@ -108,7 +110,7 @@ Ergänzend zu den Bilddaten lassen sich auch weitere Ansätze aus Birdiary integ
 Die ersten Prototypen zeigen bereits, wie bestehende Birdiary-Stationen mit der neuen Hardware umgebaut werden können. Langfristig soll die senseBox MCU Eye nicht nur für die Vogelerkennung eingesetzt werden, sondern auch für weitere Anwendungen im Bereich Umweltmonitoring, Smart City und KI-gestützter Sensorik.
 
 <div class="eye-banner">
-  <a href="https://sensebox.de/de/products-eye" class="btn eye-banner-btn">Mehr zur senseBox MCU Eye</a>
+  <a href="https://sensebox.de/de/products-eye" class="btn eye-banner-btn">Mehr zur senseBox MCU Eye  ↗</a>
 </div>
 
 
@@ -136,13 +138,48 @@ Die ersten Prototypen zeigen bereits, wie bestehende Birdiary-Stationen mit der 
 
 Wie können Umwelt- und Klimadaten gemeinsam erhoben, verstanden und für gesellschaftliche Fragestellungen der Stadt Heilbronn nutzbar gemacht werden? Und wie können Bildung, Zivilgesellschaft und Institutionen dabei zusammenwirken? Gemeinsam mit Arkadia Heilbronn möchten wir zusammen mit Bürger:innen und der senseBox diesen Fragen datenbasiert auf den Grund gehen. Ein Anwendungsfall soll auch hier die Vogelerkennung an verschiedenen Orten im Stadtgebiet werden, um Rückschlüsse auf die Biodiversität der Stadt Heilbronn zu ziehen. Dazu werden in Workshops im Juni 2026 Vogelhäuser mit den Teilnehmenden zusammengebaut sowie mit der Birdiary Sensorik (noch ohne senseBox MCU Eye) ausgestattet. Auf einem Dashboard werden die erhobenen Daten zur Anzahl der Sichtungen sowie die häufigsten Arten visualisiert werden: [https://greencity.hn/sammlung/biodiversitt](https://greencity.hn/sammlung/biodiversitt)
 
-<div style="text-align: center;">
+<div style="display: flex; justify-content: center;">
     {% include image.html image=page.image-dashboard %}
 </div>
 
 Es wurden bereits versuchsweise zwei Vogelhäuser mit der Hard- und Software aus dem Birdiary-Projekt aufgestellt, um erste Testdaten für die Dashboard-Entwicklung zu erhalten. Hier zeigt sich jedoch, dass die KI-basierte Auswertung noch fehleranfällig ist und beispielsweise Vogelarten erkannt werden, die es gar nicht in Europa gibt. Das stellt uns vor die Herausforderung: wie gehen wir mit Fehleranfälligkeit, Fehlmessungen etc. um? 
 
-BILDER Heilbronn?
+<div class="images-row">
+  <div class="img-wrap">{% include image.html image=page.image-workshop-1 %}</div>
+  <div class="img-wrap">{% include image.html image=page.image-workshop-2 %}</div>
+</div>
+<style>
+.images-row {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.img-wrap {
+  flex: 0 1 auto;
+}
+.images-row img {
+  height: 300px;
+  width: auto;
+  display: block;
+  object-fit: cover;
+}
+@media (max-width: 600px) {
+  .images-row {
+    gap: 0;
+  }
+  .img-wrap {
+    flex: 1 1 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .images-row img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+</style>
 
 ## Next Steps
 

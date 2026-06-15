@@ -1,21 +1,21 @@
 ---
 layout: post
 title: "Vogelerkennung mit der senseBox MCU Eye"
-date: 2026-04-20
+date: 2026-06-15
 author: Gina & Paula
 abstract: "Im Blogbeitrag stellen wir verschiedene Citizen-Science- und Forschungsprojekte zur Vogelerfassung vor und geben Einblicke in die neuesten Entwicklungen rund um die senseBox MCU Eye als Board mit integrierter Kamera zur Beobachtung und Identifikation von Vögeln und anderen Tieren."
-thumbnail: /images/blog/2026-04-20-Vogelerkennung/kohlmeise.gif
-image-birdiary-combined: /images/blog/2026-04-20-Vogelerkennung/birdiary-combined.jpg
-image-eye: /images/blog/2026-04-20-Vogelerkennung/eye.jpg
-image-kohlmeise: /images/blog/2026-04-20-Vogelerkennung/kohlmeise.gif
-image-blaumeise: /images/blog/2026-04-20-Vogelerkennung/blaumeise.gif
-image-rotkehlchen: /images/blog/2026-04-20-Vogelerkennung/rotkehlchen.gif
-image-amsel: /images/blog/2026-04-20-Vogelerkennung/amsel.gif
-image-house-inside: /images/blog/2026-04-20-Vogelerkennung/house-with-inside.png
-image-tinybirdiary-schematic: /images/blog/2026-04-20-Vogelerkennung/tinybirdiary-schematic-eye.png
-image-dashboard: /images/blog/2026-04-20-Vogelerkennung/Screenshot-Vogeldashboard.jpg
-image-workshop-1: /images/blog/2026-04-20-Vogelerkennung/heilbronn-birdiary-workshop-1.jpeg
-image-workshop-2: /images/blog/2026-04-20-Vogelerkennung/heilbronn-birdiary-workshop-2.jpeg
+thumbnail: /images/blog/2026-06-15-Vogelerkennung/kohlmeise.gif
+image-birdiary-combined: /images/blog/2026-06-15-Vogelerkennung/birdiary-combined.jpg
+image-eye: /images/blog/2026-06-15-Vogelerkennung/eye.jpg
+image-kohlmeise: /images/blog/2026-06-15-Vogelerkennung/kohlmeise.gif
+image-blaumeise: /images/blog/2026-06-15-Vogelerkennung/blaumeise.gif
+image-rotkehlchen: /images/blog/2026-06-15-Vogelerkennung/rotkehlchen.gif
+image-amsel: /images/blog/2026-06-15-Vogelerkennung/amsel.gif
+image-house-inside: /images/blog/2026-06-15-Vogelerkennung/house-with-inside.png
+image-tinybirdiary-schematic: /images/blog/2026-06-15-Vogelerkennung/tinybirdiary-schematic-eye.png
+image-dashboard: /images/blog/2026-06-15-Vogelerkennung/Screenshot-Vogeldashboard.jpg
+image-workshop-1: /images/blog/2026-06-15-Vogelerkennung/heilbronn-birdiary-workshop-1.jpeg
+image-workshop-2: /images/blog/2026-06-15-Vogelerkennung/heilbronn-birdiary-workshop-2.jpeg
 lang: de
 ---
 

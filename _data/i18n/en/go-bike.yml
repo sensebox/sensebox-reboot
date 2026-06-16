@@ -1,9 +1,8 @@
 hero-title: "Welcome to senseBox:bike"
 hero-text: "The senseBox:bike is an innovative device that transforms your bicycle into a mobile environmental sensor with advanced AI capabilities. It allows cyclists to collect valuable data about their surroundings while riding, contributing to urban environmental monitoring and citizen science projects."
 
-videos:
-  title: "Video-tutorials"
-  playlist-id: "PLfqeZU8BYDBv9vvPznC8sG6ve3ZBGYXiQ"
+videos-title: "Video-Tutorials"
+videos-playlist-id: "PLfqeZU8BYDBv9vvPznC8sG6ve3ZBGYXiQ"
 
 programming-title: "Download the app"
 programming-text: "With our senseBox:bike-App, you can easily connect to your senseBox:bike and visualize the environmental data with an interactive map in real time."

@@ -1,9 +1,8 @@
 hero-title: "Willkommen zur senseBox:bike"
 hero-text: "Die senseBox:bike verwandelt dein Fahrrad in einen mobilen Umweltsensor. Damit kannst du während deiner Fahrt spannende Daten über deine Umgebung sammeln und Projekte rund um Umweltüberwachung und Nachhaltigkeit unterstützen."
 
-videos:
-  title: "Video-Tutorials"
-  playlist-id: "PLfqeZU8BYDBv9vvPznC8sG6ve3ZBGYXiQ"
+videos-title: "Video-Tutorials"
+videos-playlist-id: "PLfqeZU8BYDBv9vvPznC8sG6ve3ZBGYXiQ"
 
 programming-title: "App herunterladen"
 programming-text: "Mit unserer senseBox:bike-App kannst du dich ganz einfach mit deiner senseBox:bike verbinden und deine Umweltdaten in Echtzeit auf einer interaktiven Karte verfolgen."

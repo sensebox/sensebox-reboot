@@ -1,8 +1,8 @@
-hero-title: "Welcome to senseBox:basic"
-hero-text: "The senseBox:basic is the perfect entry into the world of environmental sensing and programming. Here you'll find all the information to get started."
+hero-title: "Welcome to senseBox:bike"
+hero-text: "The senseBox:bike is an innovative device that transforms your bicycle into a mobile environmental sensor with advanced AI capabilities. It allows cyclists to collect valuable data about their surroundings while riding, contributing to urban environmental monitoring and citizen science projects."
 
-programming-title: "Programming"
-programming-text: "With our visual programming environment Blockly, you can easily create programs for your senseBox – directly in your browser or with the app."
+programming-title: "Download the app"
+programming-text: "With our senseBox:bike-App, you can easily connect to your senseBox:bike and visualize the environmental data with an interactive map in real time."
 programming-button-blockly: "Blockly in Browser"
 programming-button-app: "App Store"
 

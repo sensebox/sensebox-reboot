@@ -7,12 +7,13 @@ programming-button-blockly: "Blockly im Browser"
 programming-button-app: "App Store"
 
 sketch-title: "Sketch herunterladen"
-sketch-text: "Lade den aktuellen Sketch für deine senseBox:basic herunter und spiele ihn auf dein Board."
+sketch-text: "Lade den aktuellen Sketch für deine senseBox:bike herunter und spiele ihn auf dein Board."
 sketch-button: "Zum Download"
 
 materials-title: "Lernmaterialien"
-materials-text: "Entdecke unsere Placemats und weitere Materialien, um noch mehr aus deiner senseBox herauszuholen."
-materials-button: "Materialien ansehen"
+materials-text: "Entdecke unsere Materialien, um noch mehr aus deiner senseBox herauszuholen."
+materials-button-quickstart: "Schnellstartanleitung"
+materials-button-assembly: "Aufbauanleitung"
 
 help-title: "Wo finde ich Hilfe?"
 help-text: "Du benötigst Hilfe mit deiner senseBox? Hier findest du die nötigen Informationen:"

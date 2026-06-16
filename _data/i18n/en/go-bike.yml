@@ -11,8 +11,9 @@ sketch-text: "Download the current sketch for your senseBox:basic and upload it 
 sketch-button: "Download"
 
 materials-title: "Learning Materials"
-materials-text: "Discover our placemats and other materials to get even more out of your senseBox."
-materials-button: "View Materials"
+materials-text: "Discover our materials to get even more out of your senseBox."
+materials-button-quickstart: "Quickstart-guide"
+materials-button-assembly: "Assembly-guide"
 
 help-title: "Where can I find help?"
 help-text: "Do you need help with your senseBox? Find the information you need here:"

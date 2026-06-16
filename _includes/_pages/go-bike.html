@@ -1,5 +1,26 @@
 {% assign t = site.data.i18n.[page.lang].go-bike %}
 
+<!-- Video Tutorials Section -->
+<div style="background-color: whitesmoke;">
+<div class="container" style="padding-top: 20px; padding-bottom: 4rem;">
+    <h2 class="featurette-heading" style="margin-bottom: 20px;">{{ content.videos.title }}</h2>
+    <div class="row row-padding">
+        <div class="col-12">
+            <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 10px;">
+                <iframe
+                    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none; border-radius: 10px;"
+                    src="https://www.youtube.com/embed/videoseries?list={{ content.videos.playlist-id }}"
+                    title="{{ content.videos.title }}"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
 <!-- Programming Section -->
 <div class="container">
     <div class="row row-padding align-items-center">

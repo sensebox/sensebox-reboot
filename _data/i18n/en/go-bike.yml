@@ -3,8 +3,6 @@ hero-text: "The senseBox:bike is an innovative device that transforms your bicyc
 
 programming-title: "Download the app"
 programming-text: "With our senseBox:bike-App, you can easily connect to your senseBox:bike and visualize the environmental data with an interactive map in real time."
-programming-button-blockly: "Blockly in Browser"
-programming-button-app: "App Store"
 
 sketch-title: "Download Sketch"
 sketch-text: "Download the current sketch for your senseBox:basic and upload it to your board."

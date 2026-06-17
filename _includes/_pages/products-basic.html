@@ -20,7 +20,7 @@
             src="/images/basic/senseBoxBasic_Rollup.png"
             alt="senseBox:basic"
           />
-          <div class="zoom-hint">🔍 Klicken zum Vergrößern</div>
+          <div class="zoom-hint">{{content.zoom-hint}}</div>
         </div>
       </div>
     </div>
@@ -42,8 +42,7 @@
       </div>
               <div class="blockly-callout">
           <span class="callout-text"
-            >Probiere es direkt aus! Ziehe die Blöcke und erstelle dein erstes
-            Programm.</span
+            >{{content.blockly-callout}}</span
           >
         </div>
         <div class="blockly-wrapper">
@@ -153,7 +152,7 @@
         {{content.basic-content-title}}
       </h2>
       <p class="section-subtitle">
-        Alles was du brauchst, um deine ersten IoT-Projekte zu verwirklichen
+        {{content.products-overview-subtitle}}
       </p>
     </div>
 
@@ -240,13 +239,13 @@
     <!-- Top Category Navigation -->
     <div class="category-nav-horizontal">
       <button type="button" class="category-item active" data-category="sensors">
-        <span>Sensoren</span>
+        <span>{{content.category-sensors}}</span>
       </button>
       <button type="button" class="category-item" data-category="onboard">
-        <span>Onboard</span>
+        <span>{{content.category-onboard}}</span>
       </button>
       <button type="button" class="category-item" data-category="accessories">
-        <span>Zubehör</span>
+        <span>{{content.category-accessories}}</span>
       </button>
     </div>
     </div>
@@ -303,11 +302,9 @@
                   src="/images/products/edus2/senseBox_MCU-S2_Lichtsensor.gif"
                   alt="Lichtsensor"
                 />
-                <h3>Lichtsensor</h3>
+                <h3>{{content.light-sensor-title}}</h3>
                 <p>
-                  Misst die Lichtintensität der Umgebung. Die integrierte
-                  Photodiode erfasst präzise die Helligkeit und ermöglicht
-                  interessante Projekte rund um Licht und Schatten.
+                  {{content.light-sensor-text}}
                 </p>
                 <div class="sensor-icons">
                   <div class="sb-pheno">
@@ -317,7 +314,7 @@
                         <i class="fas fa-sun fa-stack-1x fa-inverse" style="color:#4caf50"></i>
                       </span>
                     </div>
-                    <span>Helligkeit</span>
+                    <span>{{content.light-sensor-label}}</span>
                   </div>
                 </div>
               </div>
@@ -329,11 +326,9 @@
                   src="/images/products/edus2/senseBox_MCU-S2_Beschleunigungssensor.gif"
                   alt="Beschleunigungssensor"
                 />
-                <h3>Beschleunigungssensor</h3>
+                <h3>{{content.acceleration-sensor-title}}</h3>
                 <p>
-                  Erkennt Bewegung und Erschütterungen. Perfekt für Projekte,
-                  die auf Bewegung reagieren oder die Lage im Raum bestimmen
-                  sollen.
+                  {{content.acceleration-sensor-text}}
                 </p>
                 <div class="sensor-icons">
                   <div class="sb-pheno">
@@ -343,7 +338,7 @@
                         <i class="fas fa-wave-square fa-stack-1x fa-inverse" style="color:#4caf50"></i>
                       </span>
                     </div>
-                    <span>Beschleunigung</span>
+                    <span>{{content.acceleration-sensor-label}}</span>
                   </div>
                 </div>
               </div>
@@ -498,7 +493,7 @@
                     src="/images/basic/placemat.png"
                     alt="Teaching materials"
                   />
-                  <div class="zoom-hint">🔍 Klicken zum Vergrößern</div>
+                  <div class="zoom-hint">{{content.zoom-hint}}</div>
                 </div>
               </div>
               <div class="col-md-6">
@@ -510,7 +505,7 @@
                     {{content.basic-material-text}}
                   </p>
                   <a href="/{{page.lang}}/placemats-basic" class="btn-primary-modern" style="margin-top: 20px;">
-                    Zu den Unterrichtsmaterialien
+                    {{content.materials-link-text}}
                   </a>
                 </div>
               </div>
@@ -524,8 +519,8 @@
 <div class="shop-section" id="shop">
   <div class="container text-center">
     <div class="shop-content">
-      <p class="shop-intro">Entdecke die Welt der senseBox und finde alles, was du für spannende Projekte brauchst.</p>
-      <a href="https://sensebox.kaufen/collections/sensebox/products/sensebox-basic" class="btn-primary-modern">Zum Shop</a>
+      <p class="shop-intro">{{content.shop-intro}}</p>
+      <a href="https://sensebox.kaufen/collections/sensebox/products/sensebox-basic" class="btn-primary-modern">{{content.shop-button}}</a>
     </div>
   </div>
   
@@ -695,19 +690,29 @@ document.addEventListener('keydown', function(event) {
 <!-- ===== senseBoxOS Releases Section ===== -->
 <div class="releases-section" id="firmware">
   <div class="container">
-    <div class="section-header text-center">
-      <h2 class="section-title" id="downloads">senseBoxOS Downloads</h2>
-      <p class="section-subtitle">Wähle eine Version und lade die aktuellste Firmware für deine senseBox:basic herunter.</p>
+    <!-- Accordion Toggle -->
+    <div class="releases-accordion-header">
+      <button class="releases-accordion-toggle" id="releases-accordion-btn">
+        <span class="releases-accordion-icon">▶</span>
+        <span id="downloads" class="releases-accordion-title">senseBoxOS Downloads</span>
+      </button>
     </div>
+
+    <!-- Accordion Content -->
+    <div class="releases-accordion-content" id="releases-accordion-content">
+      <div class="section-header text-center">
+        <h2 class="section-title" >{{content.firmware-section-title}}</h2>
+        <p class="section-subtitle">{{content.firmware-section-subtitle}}</p>
+      </div>
 
     <div id="releases-loading" class="releases-loading">
       <div class="releases-spinner"></div>
-      <span>Versionen werden geladen…</span>
+      <span>{{content.firmware-loading}}</span>
     </div>
 
     <div id="releases-error" class="releases-error" style="display:none;">
       <i class="fas fa-exclamation-triangle"></i>
-      <span>Releases konnten nicht geladen werden. Bitte versuche es später erneut oder besuche <a href="https://github.com/sensebox/senseBoxOS/releases" target="_blank" rel="noopener noreferrer">GitHub</a> direkt.</span>
+      <span>{{content.firmware-error}} <a href="https://github.com/sensebox/senseBoxOS/releases" target="_blank" rel="noopener noreferrer">GitHub</a> direkt.</span>
     </div>
 
     <div id="releases-container" style="display:none;">
@@ -716,19 +721,19 @@ document.addEventListener('keydown', function(event) {
 
       <!-- Install instructions -->
       <div class="releases-howto">
-        <h4 class="releases-howto-title"><i class="fas fa-info-circle"></i> So installierst du die Firmware</h4>
+        <h4 class="releases-howto-title"><i class="fas fa-info-circle"></i> {{content.firmware-howto-title}}</h4>
         <ol class="releases-howto-steps">
           <li>
             <span class="releases-howto-icon"><i class="fas fa-plug"></i></span>
-            <span>Verbinde deine senseBox:basic per <strong>USB-Kabel</strong> mit deinem Computer. Sie erscheint als USB-Laufwerk.</span>
+            <span>{{content.firmware-howto-step1}}</span>
           </li>
           <li>
             <span class="releases-howto-icon"><i class="fas fa-download"></i></span>
-            <span>Lade die gewünschte <strong>.bin-Datei</strong> über den Button unten herunter.</span>
+            <span>{{content.firmware-howto-step2}}</span>
           </li>
           <li>
             <span class="releases-howto-icon"><i class="fas fa-copy"></i></span>
-            <span>Ziehe die heruntergeladene Datei per <strong>Drag &amp; Drop</strong> auf das USB-Laufwerk der senseBox. Die senseBox startet automatisch neu und ist bereit.</span>
+            <span>{{content.firmware-howto-step3}}</span>
           </li>
         </ol>
       </div>
@@ -741,23 +746,79 @@ document.addEventListener('keydown', function(event) {
             <span class="releases-date" id="panel-date"></span>
           </div>
           <a id="panel-download-btn" class="btn-primary-modern releases-download-btn" href="#" target="_blank" rel="noopener noreferrer">
-            <i class="fas fa-download"></i> Firmware herunterladen (.bin)
+            <i class="fas fa-download"></i> {{content.firmware-download-btn}}
           </a>
         </div>
         <div id="panel-assets-extra" class="releases-assets-extra"></div>
         <div class="releases-changelog" id="panel-changelog"></div>
         <a class="releases-github-link" id="panel-github-link" href="#" target="_blank" rel="noopener noreferrer">
-          <i class="fab fa-github"></i> Release auf GitHub ansehen
+          <i class="fab fa-github"></i> {{content.firmware-github-link}}
         </a>
+      </div>
       </div>
     </div>
   </div>
+</div>
+
+<!-- Hidden element to store i18n strings for JavaScript -->
+<div id="firmware-i18n-strings" style="display: none;">
+  <span id="fw-no-changelog">{{content.firmware-no-changelog}}</span>
+  <span id="fw-no-releases">{{content.firmware-no-releases}}</span>
 </div>
 
 <style>
 .releases-section {
   padding: 60px 0;
   background: #fff;
+}
+
+.releases-accordion-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.releases-accordion-toggle {
+  background: none;
+  border: 2px solid #4caf50;
+  color: #4caf50;
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 8px;
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  transition: all 0.3s ease;
+}
+
+.releases-accordion-toggle:hover {
+  background: #4caf50;
+  color: #fff;
+}
+
+.releases-accordion-icon {
+  display: inline-block;
+  transition: transform 0.3s ease;
+  font-size: 0.8rem;
+}
+
+.releases-accordion-toggle.active .releases-accordion-icon {
+  transform: rotate(90deg);
+}
+
+.releases-accordion-title {
+  font-size: 0.9rem;
+}
+
+.releases-accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease;
+}
+
+.releases-accordion-content.active {
+  max-height: 2000px;
 }
 
 .releases-loading {
@@ -1020,6 +1081,17 @@ document.addEventListener('keydown', function(event) {
 <script src="https://cdn.jsdelivr.net/npm/marked@4/marked.min.js"></script>
 <script>
 (function () {
+  // Accordion Toggle
+  const accordionBtn = document.getElementById('releases-accordion-btn');
+  const accordionContent = document.getElementById('releases-accordion-content');
+
+  if (accordionBtn && accordionContent) {
+    accordionBtn.addEventListener('click', function () {
+      accordionBtn.classList.toggle('active');
+      accordionContent.classList.toggle('active');
+    });
+  }
+
   const REPO = 'sensebox/senseBoxOS';
   const API_URL = `https://api.github.com/repos/${REPO}/releases`;
 
@@ -1059,7 +1131,8 @@ document.addEventListener('keydown', function(event) {
         changelogEl.textContent = release.body;
       }
     } else {
-      changelogEl.innerHTML = '<em style="color:#aaa">Kein Changelog für diese Version verfügbar.</em>';
+      const noChangelogText = document.getElementById('fw-no-changelog').textContent;
+      changelogEl.innerHTML = '<em style="color:#aaa">' + noChangelogText + '</em>';
     }
   }
 
@@ -1089,7 +1162,8 @@ document.addEventListener('keydown', function(event) {
         document.getElementById('releases-loading').style.display = 'none';
         if (!Array.isArray(releases) || !releases.length) {
           document.getElementById('releases-error').style.display = 'block';
-          document.getElementById('releases-error').querySelector('span').textContent = 'Noch keine Releases verfügbar.';
+          const noReleasesText = document.getElementById('fw-no-releases').textContent;
+          document.getElementById('releases-error').querySelector('span').textContent = noReleasesText;
           return;
         }
         buildVersionBar(releases, 0);

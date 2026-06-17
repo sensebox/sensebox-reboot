@@ -18,6 +18,37 @@ basic-programming-text: "To make getting started with programming easy, there is
 basic-event-title: "Online Meetup to Get to Know Us"
 basic-event-text: "<strong style='color:#4da843;'>Every 2nd Tuesday</strong> of the month, we offer an online meetup from <strong style='color: #4da843;'>3-4 PM (CET)</strong> via <a href='https://uni-ms.zoom-x.de/j/65029471411?pwd=l6jAyfc6E2DqKoJXKhmvx5uOGCfBs4.1' style='color:#0000EE;'>Zoom</a> to introduce the senseBox:basic and answer your questions. The next session is on <strong style='color: #4da843;'><span id='next-meetup-date'>...</span></strong> – we look forward to seeing you!"
 
+# Blockly Section
+blockly-callout: "Try it out now! Drag the blocks and create your first program."
+
+# Category Navigation
+category-sensors: "Sensors"
+category-onboard: "Onboard"
+category-accessories: "Accessories"
+
+# Product Overview Section
+products-overview-subtitle: "Everything you need to realize your first IoT projects"
+
+# Light Sensor
+light-sensor-title: "Light Sensor"
+light-sensor-text: "Measures the light intensity of the environment. The integrated photodiode precisely detects brightness and enables interesting projects around light and shadow."
+light-sensor-label: "Brightness"
+
+# Acceleration Sensor
+acceleration-sensor-title: "Acceleration Sensor"
+acceleration-sensor-text: "Detects movement and vibrations. Perfect for projects that respond to motion or determine position in space."
+acceleration-sensor-label: "Acceleration"
+
+# Image Zoom Hint
+zoom-hint: "🔍 Click to enlarge"
+
+# Materials Section
+materials-link-text: "View teaching materials"
+
+# Shop Section
+shop-intro: "Discover the world of senseBox and find everything you need for exciting projects."
+shop-button: "To the shop"
+
 basic-content-title: "Contents of the senseBox:basic"
 whats_in_the_box:
   - senseBox MCU-S2 (ESP-32)
@@ -38,3 +69,20 @@ oled: OLED Display
 oled_text: The OLED display offers clear and distinct displays for sensor values, status information, and much more. The OLED display shows information as text, numbers, and diagrams, enabling live display of measurements. With its compact size and easy integration, the OLED display is ideal for senseBox applications requiring visual output. The display has a resolution of 128 x 64 pixels. A suitable Qwiic cable for connecting the display to the senseBox MCU S2 is included.
 bluetooth: Bluetooth-Bee
 bluetooth_text: With the Bluetooth-Bee (or BLE-Bee), the senseBox microcontroller can be expanded with Bluetooth functionality or BLE (Bluetooth Low Energy), turning the senseBox MCU S2 into a mobile environmental laboratory. Since the Bluetooth module is compatible with the Phyphox app, sensor values can be wirelessly transmitted to mobile devices such as smartphones or tablets and professionally visualized directly. The Bluetooth Bee uses the uBlox B312, which is based on the nRF52840 from Nordic Semiconductors. The Bluetooth Bee is compatible with Bluetooth 5.0.
+
+# Firmware/Downloads Section
+firmware-section-title: "senseBoxOS Downloads"
+firmware-section-subtitle: "Only relevant if you want to update your senseBox:basic"
+firmware-loading: "Loading versions…"
+firmware-error: "Releases could not be loaded. Please try again later or visit GitHub directly."
+firmware-howto-title: "How to install the firmware"
+firmware-howto-step1-icon: "Plug icon"
+firmware-howto-step1: "Connect your senseBox:basic to your computer with a <strong>USB cable</strong>. It will appear as a USB drive."
+firmware-howto-step2-icon: "Download icon"
+firmware-howto-step2: "Download the desired <strong>.bin file</strong> using the button below."
+firmware-howto-step3-icon: "Copy icon"
+firmware-howto-step3: "Drag and drop the downloaded file onto the senseBox's USB drive. The senseBox will restart automatically and be ready to use."
+firmware-download-btn: "Download firmware (.bin)"
+firmware-no-changelog: "No changelog available for this version."
+firmware-github-link: "View release on GitHub"
+firmware-no-releases: "No releases available yet."

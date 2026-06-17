@@ -38,6 +38,37 @@ basic-programming-text: "Damit der Einstieg ins Programmieren leicht gelingt, gi
 basic-event-title: "Online-Meetup zum Kennenlernen"
 basic-event-text: "<strong style='color:#4da843;'>Jeden 2. Dienstag</strong> im Monat bieten wir ein Online-Meetup von <strong style='color: #4da843;'>15-16 Uhr</strong> via <a href='https://uni-ms.zoom-x.de/j/65029471411?pwd=l6jAyfc6E2DqKoJXKhmvx5uOGCfBs4.1' style='color:#0000EE;'>Zoom</a> an, um die senseBox:basic vorzustellen und eure Fragen zu beantworten. Der nächste Termin ist am <strong style='color: #4da843;'><span id='next-meetup-date'>...</span></strong>, wir freuen uns auf euch!"
 
+# Blockly Section
+blockly-callout: "Probiere es direkt aus! Ziehe die Blöcke und erstelle dein erstes Programm."
+
+# Category Navigation
+category-sensors: "Sensoren"
+category-onboard: "Onboard"
+category-accessories: "Zubehör"
+
+# Product Overview Section
+products-overview-subtitle: "Alles was du brauchst, um deine ersten IoT-Projekte zu verwirklichen"
+
+# Light Sensor
+light-sensor-title: "Lichtsensor"
+light-sensor-text: "Misst die Lichtintensität der Umgebung. Die integrierte Photodiode erfasst präzise die Helligkeit und ermöglicht interessante Projekte rund um Licht und Schatten."
+light-sensor-label: "Helligkeit"
+
+# Acceleration Sensor
+acceleration-sensor-title: "Beschleunigungssensor"
+acceleration-sensor-text: "Erkennt Bewegung und Erschütterungen. Perfekt für Projekte, die auf Bewegung reagieren oder die Lage im Raum bestimmen sollen."
+acceleration-sensor-label: "Beschleunigung"
+
+# Image Zoom Hint
+zoom-hint: "🔍 Klicken zum Vergrößern"
+
+# Materials Section
+materials-link-text: "Zu den Unterrichtsmaterialien"
+
+# Shop Section
+shop-intro: "Entdecke die Welt der senseBox und finde alles, was du für spannende Projekte brauchst."
+shop-button: "Zum Shop"
+
 basic-content-title: "Inhalt der senseBox:basic"
 whats_in_the_box:
   - senseBox MCU S2 (ESP-32)
@@ -58,3 +89,20 @@ oled: OLED-Display
 oled_text: Das OLED-Display bietet eine visuelle Anzeige und Ausgabe für Sensorwerte, Statusinformationen und vieles mehr. Das OLED-Display zeigt Informationen als Text, Zahlen und Diagramme an. Somit wird eine Live-Anzeige der Messwerte möglich. 
 bluetooth: Bluetooth-Bee
 bluetooth_text: Mit dem Bluetooth-Bee (oder BLE-Bee) kann der senseBox-Mikrocontroller um die Bluetooth-Funktionalität bzw. BLE (Bluetooth Low Energy) erweitert werden. Mit dem Bluetooth-Bee können die Sensorwerte drahtlos an mobile Endgeräte wie Smartphones oder Tablets übertragen und direkt professionell visualisiert werden.
+
+# Firmware/Downloads Section
+firmware-section-title: "senseBoxOS Downloads"
+firmware-section-subtitle: "Nur relevant, falls du deine senseBox:basic aktualisieren willst"
+firmware-loading: "Versionen werden geladen…"
+firmware-error: "Releases konnten nicht geladen werden. Bitte versuche es später erneut oder besuche GitHub direkt."
+firmware-howto-title: "So installierst du die Firmware"
+firmware-howto-step1-icon: "Stecker-Icon"
+firmware-howto-step1: "Verbinde deine senseBox:basic per <strong>USB-Kabel</strong> mit deinem Computer. Sie erscheint als USB-Laufwerk."
+firmware-howto-step2-icon: "Download-Icon"
+firmware-howto-step2: "Lade die gewünschte <strong>.bin-Datei</strong> über den Button unten herunter."
+firmware-howto-step3-icon: "Kopier-Icon"
+firmware-howto-step3: "Ziehe die heruntergeladene Datei per <strong>Drag &amp; Drop</strong> auf das USB-Laufwerk der senseBox. Die senseBox startet automatisch neu und ist bereit."
+firmware-download-btn: "Firmware herunterladen (.bin)"
+firmware-no-changelog: "Kein Changelog für diese Version verfügbar."
+firmware-github-link: "Release auf GitHub ansehen"
+firmware-no-releases: "Noch keine Releases verfügbar."

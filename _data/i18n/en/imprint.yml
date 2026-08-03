@@ -2,8 +2,8 @@ header: "Imprint"
 info:
   header: "Information provided according to Sec. 5 German Telemedia Act (TMG):"
   address: "Reedu GmbH & Co. KG <br />
-   Von-Steuben-Str. 21 <br />
-   48143 Münster"
+   Johann-Krane-Weg 23 <br />
+   48149 Münster"
 representative:
   header: "Represented by:"
   details: "Reedu Verwaltungs GmbH, represented by the managing directors Dr. Thomas Bartoschek & Umut Tas"
@@ -26,8 +26,8 @@ responsible:
   details: "CEO
    Dr. Thomas Bartoschek<br />
    Reedu GmbH & Co. KG<br />
-   Von-Steuben-Str. 21<br />
-   48143 Münster"
+   Johann-Krane-Weg 23<br />
+   48149 Münster"
 dispute:
   header: "Dispute resolution"
   content1: "The European Commission provides a platform for online dispute resolution (OS): <a href=\"https://ec.europa.eu/consumers/odr\" target=\"_blank\">https://ec.europa.eu/consumers/odr</a>.<br /> Please find our email in the impressum/legal notice."

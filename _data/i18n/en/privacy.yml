@@ -32,7 +32,7 @@ general:
   contact:
     header: "Notice concerning the party responsible for this website"
     content1: "The party responsible for processing data on this website is:"
-    address: "Reedu GmbH & Co. KG <br />Von-Steuben-Str. 21<br />48143 Münster</p><p>Telephone: +49 251 98119797 <br />E-Mail: kontakt@reedu.de"
+    address: "Reedu GmbH & Co. KG <br />Johann-Krane-Weg 23<br />48149 Münster</p><p>Telephone: +49 251 98119797 <br />E-Mail: kontakt@reedu.de"
     content2: "The responsible party is the natural or legal person who alone or jointly with others decides on the purposes and means of processing personal data (names, email addresses, etc.)."
   recall:
     header: "Revocation of your consent to the processing of your data"
@@ -58,8 +58,8 @@ privacyofficer:
     header: "Statutory data protection officer"
     content: "We have appointed a data protection officer for our company."
     address: "Reedu GmbH & Co. KG<br />
-  Von-Steuben-Str. 21<br />
-  48143 Münster</p>
+  Johann-Krane-Weg 23<br />
+  48149 Münster</p>
 
   <p>
     Telephone: +49 251 98119797 <br />

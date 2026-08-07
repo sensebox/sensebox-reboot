@@ -520,6 +520,53 @@
 
 
 
+<!-- Basic Videos Section -->
+<div class="basic-videos-section" id="videos">
+  <div class="container">
+    <div class="section-header text-center">
+      <h2 class="section-title">senseBox:basic in Aktion</h2>
+      <p class="section-subtitle">Drei Kurzvideos zum Einsatz der senseBox:basic
+    </div>
+
+    <div class="basic-video-carousel" aria-label="senseBox:basic Videos">
+      <button type="button" class="basic-video-nav prev" aria-label="Vorheriges Video">
+        <i class="fas fa-chevron-left"></i>
+      </button>
+
+      <div class="basic-video-track">
+        <article class="basic-video-slide active">
+          <video controls playsinline preload="metadata" class="basic-video-player">
+            <source src="/images/videos/basic/Basic-Reel_01_hoch.mp4" type="video/mp4" />
+            Dein Browser unterstützt dieses Videoformat nicht.
+          </video>
+          <h3 class="basic-video-title">senseBox:basic - Preview</h3>
+        </article>
+        <article class="basic-video-slide">
+          <video controls playsinline preload="metadata" class="basic-video-player">
+            <source src="/images/videos/basic/Basic-Reel_02_hoch.mp4" type="video/mp4" />
+            Dein Browser unterstützt dieses Videoformat nicht.
+          </video>
+          <h3 class="basic-video-title">senseBox:basic - Inhalt</h3>
+        </article>
+        <article class="basic-video-slide">
+          <video controls playsinline preload="metadata" class="basic-video-player">
+            <source src="/images/videos/basic/Basic-Reel_03_hoch.mp4" type="video/mp4" />
+            Dein Browser unterstützt dieses Videoformat nicht.
+          </video>
+          <h3 class="basic-video-title">senseBox:basic - Programmierung</h3>
+        </article>
+      </div>
+
+      <button type="button" class="basic-video-nav next" aria-label="Nächstes Video">
+        <i class="fas fa-chevron-right"></i>
+      </button>
+    </div>
+
+    <div class="basic-video-dots" aria-label="Video Auswahl"></div>
+  </div>
+</div>
+
+
 <!-- Enhanced Shop Section -->
 <div class="shop-section" id="shop">
   <div class="container text-center">
@@ -532,6 +579,120 @@
 </div>
 
 <style>
+.basic-videos-section {
+  padding: 64px 0 50px;
+  background: linear-gradient(180deg, #f7fbf7 0%, #ffffff 100%);
+  border-top: 1px solid #e2f1e2;
+}
+
+.basic-video-carousel {
+  position: relative;
+  display: grid;
+  grid-template-columns: 52px minmax(0, 430px) 52px;
+  justify-content: center;
+  gap: 18px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.basic-video-track {
+  position: relative;
+  border-radius: 16px;
+  background: #111;
+  overflow: hidden;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.16);
+}
+
+.basic-video-slide {
+  display: none;
+}
+
+.basic-video-slide.active {
+  display: block;
+}
+
+.basic-video-player {
+  width: 100%;
+  display: block;
+  aspect-ratio: 9 / 16;
+  max-height: 78vh;
+  background: #000;
+}
+
+.basic-video-title {
+  margin: 0;
+  padding: 12px 16px 14px;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: 0.01em;
+  line-height: 1.3;
+}
+
+.basic-video-nav {
+  width: 52px;
+  height: 52px;
+  border: none;
+  border-radius: 50%;
+  background: #4caf50;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  transition: transform 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 6px 16px rgba(76, 175, 80, 0.35);
+}
+
+.basic-video-nav:hover {
+  transform: translateY(-1px);
+  background: #3f9e43;
+}
+
+.basic-video-nav:focus-visible {
+  outline: 3px solid #bde8bf;
+  outline-offset: 2px;
+}
+
+.basic-video-dots {
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.basic-video-dot {
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  border: none;
+  background: #c8d8c8;
+  cursor: pointer;
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.basic-video-dot.active {
+  background: #4caf50;
+  transform: scale(1.08);
+}
+
+@media (max-width: 767px) {
+  .basic-videos-section {
+    padding: 46px 0 38px;
+  }
+
+  .basic-video-carousel {
+    grid-template-columns: 44px minmax(0, 360px) 44px;
+    gap: 10px;
+  }
+
+  .basic-video-nav {
+    width: 44px;
+    height: 44px;
+  }
+}
+
 .shop-section {
   padding: 80px 0;
   background: #ffffff;
@@ -571,6 +732,79 @@
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 </style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const carousel = document.querySelector('.basic-video-carousel');
+  if (!carousel) return;
+
+  const slides = Array.from(carousel.querySelectorAll('.basic-video-slide'));
+  const dotsWrap = document.querySelector('.basic-video-dots');
+  const prevBtn = carousel.querySelector('.basic-video-nav.prev');
+  const nextBtn = carousel.querySelector('.basic-video-nav.next');
+  let currentIndex = slides.findIndex(function (slide) {
+    return slide.classList.contains('active');
+  });
+
+  if (currentIndex < 0) currentIndex = 0;
+
+  function stopInactiveVideos(active) {
+    slides.forEach(function (slide, index) {
+      if (index === active) return;
+      const video = slide.querySelector('video');
+      if (video && !video.paused) {
+        video.pause();
+      }
+    });
+  }
+
+  function render(index) {
+    slides.forEach(function (slide, i) {
+      slide.classList.toggle('active', i === index);
+    });
+
+    if (dotsWrap) {
+      dotsWrap.querySelectorAll('.basic-video-dot').forEach(function (dot, i) {
+        dot.classList.toggle('active', i === index);
+      });
+    }
+
+    currentIndex = index;
+    stopInactiveVideos(index);
+  }
+
+  function go(delta) {
+    const nextIndex = (currentIndex + delta + slides.length) % slides.length;
+    render(nextIndex);
+  }
+
+  if (dotsWrap) {
+    dotsWrap.innerHTML = '';
+    slides.forEach(function (_, i) {
+      const dot = document.createElement('button');
+      dot.type = 'button';
+      dot.className = 'basic-video-dot' + (i === currentIndex ? ' active' : '');
+      dot.setAttribute('aria-label', 'Video ' + (i + 1) + ' anzeigen');
+      dot.addEventListener('click', function () {
+        render(i);
+      });
+      dotsWrap.appendChild(dot);
+    });
+  }
+
+  if (prevBtn) {
+    prevBtn.addEventListener('click', function () {
+      go(-1);
+    });
+  }
+
+  if (nextBtn) {
+    nextBtn.addEventListener('click', function () {
+      go(1);
+    });
+  }
+});
+</script>
 
 <!-- Lightbox Modal -->
 <div id="imageLightbox" class="lightbox" onclick="closeLightbox()">

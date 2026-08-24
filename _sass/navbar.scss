@@ -1,3 +1,18 @@
+// Bootstrap 4's navbar-expand-xl expands at ≥1200px.
+// Force-collapse it again between 1200px and 1399px so the breakpoint is 1400px.
+@media (min-width: 1200px) and (max-width: $breakpoint-laptop) {
+  .navbar-expand-xl > .container,
+  .navbar-expand-xl > .container-fluid {
+    flex-wrap: wrap;
+  }
+  .navbar-expand-xl .navbar-collapse {
+    display: none !important;
+  }
+  .navbar-expand-xl .navbar-toggler {
+    display: block !important;
+  }
+}
+
 .navbar {
   position: absolute;
   left: 0;

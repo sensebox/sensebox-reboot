@@ -9,7 +9,7 @@
     {% endif %}
 
     <button type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent"
-        aria-expanded="false" aria-label="Toggle navigation" class="navbar-dark navbar-toggler">
+        aria-expanded="false" aria-label="Toggle navigation" class="navbar-dark navbar-toggler ml-auto">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div id="navbarContent" class="collapse navbar-collapse">
@@ -322,7 +322,10 @@
                 </div>
             </li>
             <li class="nav-item nav-blog"><a href="{{site.baseurl }}/{{ page.lang }}{{navbar-items.blog-link}}"
-                    class="nav-link font-weight-bold text-uppercase main-item">{{navbar-items.blog-name}}</a>
+                class="nav-link font-weight-bold text-uppercase main-item">{{navbar-items.blog-name}}</a>
+            </li>
+            <li class="nav-item"><a target="_blank" href="https://startchancen.sensebox.de"
+                    class="nav-link font-weight-bold text-uppercase main-item">Startchancen</a>
             </li>
             <li class="nav-item nav-shop"><a href="{{navbar-items.shop-link}}"
                     class="nav-link font-weight-bold text-uppercase main-item">

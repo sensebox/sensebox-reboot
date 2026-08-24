@@ -1321,6 +1321,8 @@ document.addEventListener('keydown', function(event) {
       })
       .then(function (releases) {
         document.getElementById('releases-loading').style.display = 'none';
+        // Filter out version 1.2.0
+        releases = releases.filter(r => r.tag_name !== 'v1.2.0' && r.tag_name !== '1.2.0');
         if (!Array.isArray(releases) || !releases.length) {
           document.getElementById('releases-error').style.display = 'block';
           document.getElementById('releases-error').querySelector('span').textContent = 'Noch keine Releases verfügbar.';

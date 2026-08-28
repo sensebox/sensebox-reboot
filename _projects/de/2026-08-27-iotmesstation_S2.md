@@ -14,9 +14,9 @@ image5: /images/projects/iot_messstation_S2/5.png
 material:
   - senseBox MCU-S2
   - 1x OLED Display
-  - 1x Temperatur- und Luftfeuchtigkeitssensor
-  - 1x Luftdrucksensor
-  - 1x Helligkeits- und UV-Sensor
+  - 1x Temperatur- und Luftfeuchtigkeitssensor (HDC1080)
+  - 1x Luftdrucksensor (DPS310)
+  - 1x Helligkeits- und UV-Sensor (VEML6070)
   - 4x JST-Kabel
 ide: circuitpython
 lang: de
@@ -70,33 +70,26 @@ Ist die Registrierung abgeschlossen, melde dich an und wähle über das Dropdown
 
 ### Schritt 0: Vorbereitung
 
-Lade die benötigten Bibliotheken adafruit_dps310, adafruit_veml6070, adafruit_requests, adafruit_connection_manager, adafruit_displayio_ssd1306, adafruit_display_text, adafruit_bus_device, adafruit_register aus dem [CircuitPython Bundle](https://circuitpython.org/libraries) herunter. Beachte dabei, dass du die deiner installierten CircuitPython Version entsprechnde Bundleversion runterlädst. Die Bibliothek für den HDC1080 findest du [hier](https://github.com/sensebox/CircuitPython_HDC1080/archive/refs/heads/main.zip). Kopiere die Bibliotheken auf deine senseBox MCU S2. Dazu muss CircuitPython auf deine senseBox MCU S2 installiert werden. Folge dazu diesem <a href="https://docs.sensebox.de/docs/editors/circuitpython/circuitpython_esp32">Tutorial</a>
+Lade die benötigten Bibliotheken:
+- adafruit_dps310
+- adafruit_veml6070
+- adafruit_requests
+- adafruit_connection_manager
+- adafruit_displayio_ssd1306
+- adafruit_display_text
+- adafruit_bus_device
+- adafruit_register 
 
-### Schritt 1: WLAN und openSenseMap konfigurieren
+aus dem [CircuitPython Bundle](https://circuitpython.org/libraries) herunter.  
 
-Erstelle eine `settings.toml` Datei im Hauptverzeichnis deiner senseBox (CIRCUITPY) mit folgendem Inhalt:
+Beachte dabei, dass du die deiner installierten CircuitPython Version entsprechnde Bundleversion runterlädst. Die Bibliothek für den HDC1080 findest du [hier](https://github.com/sensebox/CircuitPython_HDC1080/archive/refs/heads/main.zip). Kopiere die Bibliotheken auf deine senseBox MCU S2. Dazu muss CircuitPython auf deine senseBox MCU S2 installiert werden. Folge dazu diesem <a href="https://docs.sensebox.de/docs/editors/circuitpython/circuitpython_esp32">Tutorial</a>
 
-```toml
-# WLAN Zugangsdaten
-CIRCUITPY_WIFI_SSID = "Dein_WLAN_Name"
-CIRCUITPY_WIFI_PASSWORD = "Dein_WLAN_Passwort"
+### Schritt 1: Bibliotheken importieren
 
-# openSenseMap Zugangsdaten
-SENSEBOX_ID = "Deine_senseBox_ID"
-TEMP_SENSOR_ID = "Sensor_ID_fuer_Temperatur"
-HUMIDITY_SENSOR_ID = "Sensor_ID_fuer_Luftfeuchtigkeit"
-PRESSURE_SENSOR_ID = "Sensor_ID_fuer_Luftdruck"
-UV_RAW_SENSOR_ID = "Sensor_ID_fuer_UV"
-AUTH_TOKEN = "Dein_Access_Token"
-```
-
-### Schritt 2: Bibliotheken importieren
-
-Beim Programmieren mit CircuitPython beginnst du damit, die Bibliotheken von deiner senseBox MCU S2 in den Code zu importieren.
+Beim Programmieren mit CircuitPython beginnst du damit, die Bibliotheken von deiner senseBox MCU-S2 in den Code zu importieren.
 
 ```python
 import time
-import os
 import board
 import digitalio
 from hdc1080 import HDC1080
@@ -110,6 +103,24 @@ import displayio
 import adafruit_displayio_ssd1306
 import terminalio
 from adafruit_display_text import label
+```
+
+### Schritt 2: WLAN und openSenseMap konfigurieren
+
+Nun hinterlegst du die WLAN-Zugangsdaten sowie die benötigten IDs und den Authentifizierungs-Token für die openSenseMap. Diese Werte werden später im Programm verwendet, um die WLAN-Verbindung herzustellen und die Messdaten an die openSenseMap zu übertragen.
+
+```python
+# WLAN Zugangsdaten
+CIRCUITPY_WIFI_SSID = "Dein_WLAN_Name"
+CIRCUITPY_WIFI_PASSWORD = "Dein_WLAN_Passwort"
+
+# openSenseMap Zugangsdaten
+SENSEBOX_ID = "Deine_senseBox_ID"
+TEMP_SENSOR_ID = "Sensor_ID_fuer_Temperatur"
+HUMIDITY_SENSOR_ID = "Sensor_ID_fuer_Luftfeuchtigkeit"
+PRESSURE_SENSOR_ID = "Sensor_ID_fuer_Luftdruck"
+UV_RAW_SENSOR_ID = "Sensor_ID_fuer_UV"
+AUTH_TOKEN = "Dein_Access_Token"
 ```
 
 ### Schritt 2: Hardware initialisieren
@@ -171,27 +182,19 @@ Im nächsten Schritt stellst du die WLAN-Verbindung her. Dazu werden die in `set
 
 ```python
 # Verbindung zum WiFi herstellen
-print(f"Connecting to {os.getenv('CIRCUITPY_WIFI_SSID')}")
+print(f"Connecting to {CIRCUITPY_WIFI_SSID}")
 wifi.radio.connect(
-    os.getenv("CIRCUITPY_WIFI_SSID"), 
-    os.getenv("CIRCUITPY_WIFI_PASSWORD")
+    CIRCUITPY_WIFI_SSID, 
+    CIRCUITPY_WIFI_PASSWORD
 )
 print(f"Connected!")
 ```
 
 ### Schritt 5: openSenseMap konfigurieren
 
-Aus derselben `settings.toml`-Datei werden nun die ID der senseBox, die IDs der einzelnen Sensoren sowie der Authentifizierungstoken ausgelesen. Außerdem wird festgelegt, wohin die Messdaten gesendet werden, und eine Requests-Session für die HTTP-Kommunikation vorbereitet.
+Nun wird festgelegt, wohin die Messdaten gesendet werden, und eine Requests-Session für die HTTP-Kommunikation vorbereitet.
 
 ```python
-# openSenseMap Konfiguration
-SENSEBOX_ID = os.getenv("SENSEBOX_ID")
-TEMP_SENSOR_ID = os.getenv("TEMP_SENSOR_ID")
-HUMIDITY_SENSOR_ID = os.getenv("HUMIDITY_SENSOR_ID")
-PRESSURE_SENSOR_ID = os.getenv("PRESSURE_SENSOR_ID")
-UV_RAW_SENSOR_ID = os.getenv("UV_RAW_SENSOR_ID")
-AUTH_TOKEN = os.getenv("AUTH_TOKEN")
-
 # API Endpunkt
 OSENSEMAP_HOST = "ingress.opensensemap.org"
 OSENSEMAP_PATH = f"/boxes/{SENSEBOX_ID}/data"
@@ -230,7 +233,7 @@ while True:
         uv_label.text = f"UV Raw: {uv_raw:.2f}"
 ```
 
-### Schritt 7: Daten auf die senseMap übertragen
+### Schritt 7: Daten auf die openSenseMap übertragen
 
 Anschließend erstellst du im selben `try`-Block das `data`-Objekt mit den aktuellen Messwerten und überträgst diese an die openSenseMap. Nach jeder Messung wartet das Programm 60 Sekunden, bevor der Vorgang erneut beginnt.
 
@@ -263,4 +266,4 @@ Anschließend erstellst du im selben `try`-Block das `data`-Objekt mit den aktue
   ``` 
 ## Gesamter Code
 
-Den fertigen CircuitPython-Code findest du [hier](https://gist.github.com/COSKUNATOR/4662ce7983e1eb08fdf69299b9df8bdc#file-gistfile1-txt).
+Den fertigen CircuitPython-Code findest du [hier](https://gist.github.com/COSKUNATOR/144eb345021ae4a00889febca8459380).

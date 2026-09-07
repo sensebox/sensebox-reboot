@@ -230,6 +230,41 @@ figcaption h3 {
   color: $sensebox-green;
 }
 
+.video-preview {
+  margin-top: 2rem;
+  overflow: hidden;
+  border: 1px solid #c9c9c9;
+  border-radius: 4px;
+  background: #ffffff;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.14);
+}
+
+.video-preview-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.7rem 1rem;
+  border-bottom: 1px solid #c9c9c9;
+  background: #1f1f1f;
+  color: #ffffff;
+  font-family: BrixSlab-Bold;
+}
+
+.video-preview-header a {
+  color: #ffffff;
+  font-family: $bodyFont;
+  font-size: 0.9rem;
+  text-decoration: underline;
+}
+
+@media (max-width: 575px) {
+  .video-preview-header {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
+
 .news-items {
   padding: 0px 35px 0 35px;
 }

@@ -9,9 +9,8 @@ components-list: "<li>senseBox MCU mini</li>
   <li>Knopf zum An-/ Ausschalten</li>"
 transmission-title: "Die Datenübertragung"
 transmission-text: "Der mobile senseBox-Datenlogger speichert die Daten auf einer micoSD-Karte. Dabei werden jeweils die Temperatur und relative Luftfeuchte samt Koordinaten (Längen- und Breitengrad im WGS84-Referenzsystem) und Zeitstempel (in UTC) aufgenommen. Die Daten werden in einer CSV-Datei gespeichert und können anschließend als Open Data auf der openSenseMap veröffentlicht werden."
-example-title: "Ein Beispiel: 321-heiss im Kanton Aargau"
-example-text: "In der Schweiz wurde der mobile Datenlogger als Citizen Science Toolkit eingesetzt, um 
-Hitzeinseln im Kanton Aargau zu identifizieren. Interessierte Einwohner:innen wurden mit dieser Version der senseBox ausgestattet und haben ganz nebenbei flächendeckend Daten in ihrer Region gesammelt. Mit offenen Workshops zur Datenauswertung und Reflektion der Datenerhebung konnten dann besonders warme Orte lokalisiert und Ideen zur Schaffung von kühlen Aufenthaltsorten entwickelt werden. Weitere Infos findest du hier: "
+example-title: "Green City HN: Jugendliche messen die Hitze in Heilbronn"
+example-text: "Im Green-City-HN-Projekt messen Jugendliche mit mobilen senseBox-Datenloggern die Hitze in ihrer Stadt. So machen sie lokale Temperaturunterschiede sichtbar und entwickeln ein Bewusstsein für ein hitzeresilientes Heilbronn. L-TV hat das Projekt begleitet: "
 
 mobile-campaign: "Mobile Messkampagnen"
 campaign-text-1: "Die Einbindung von Bürger:innen in die Identifikation von Hitzeinseln in der Stadt bietet eine effektive Möglichkeit, lokal auf die Folgen des Klimawandels zu reagieren. In einer partizipativen, mobilen Messkampagne messen Bürger:innen während der Sommermonate (2–4 Wochen) Umweltdaten, um städtische Hitze-Hotspots zu identifizieren. Diese Daten bilden die Grundlage für Hitze-Aktionspläne, die gezielt Maßnahmen für ein hitzeresilientes Stadtklima entwickeln."

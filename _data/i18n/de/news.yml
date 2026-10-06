@@ -1,7 +1,7 @@
 - author: Gina
   date : 2026-10-05
-  headline: Shopnews: Wir stellen unsere Hardware um! 
-  text: Unsere Hardware entwickelt sich weiter: Wir stellen Schritt für Schritt auf die MCU S2 als neues zentrales Board und die senseBox MCU Eye als KI-Prototyping Board um. Damit setzen wir künftig auf eine gemeinsame, modernere Hardware-Basis (ESP32) für unsere senseBox-Bausätze. Im Zuge dieser Umstellung werden einige Produkte der bisherigen Generation im Laufe des Jahres 2026 aus unserem Sortiment auslaufen. Weitere Infos im <a href="https://sensebox.de/2026/09/30/shopnews" class="green-link">Blog</a> an!
+  headline: 'Shopnews: Wir stellen unsere Hardware um!'
+  text: 'Unsere Hardware entwickelt sich weiter: Wir stellen Schritt für Schritt auf die MCU S2 als neues zentrales Board und die senseBox MCU Eye als KI-Prototyping Board um. Damit setzen wir künftig auf eine gemeinsame, modernere Hardware-Basis (ESP32) für unsere senseBox-Bausätze. Im Zuge dieser Umstellung werden einige Produkte der bisherigen Generation im Laufe des Jahres 2026 aus unserem Sortiment auslaufen. Weitere Infos im <a href="https://sensebox.de/2026/09/30/shopnews" class="green-link">Blog</a> an!'
   active: true
 - author: Eric
   date : 2026-06-11

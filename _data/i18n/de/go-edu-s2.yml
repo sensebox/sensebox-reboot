@@ -10,7 +10,7 @@ arduino-button: "Los geht's!"
 
 circuitpython: "Schnellstart Anleitung CircuitPython"
 circuitpython-text: "In diesem Tutorial findest du alle Informationen zur Programmierng deiner senseBox mit CircuitPython."
-circuitpython-link: "https://docs.sensebox.de/docs/misc/circuitpython_esp32"
+circuitpython-link: "https://docs.sensebox.de/docs/editors/circuitpython/circuitpython_esp32?board=edus2"
 circuitpython-button: "Los geht's!"
 
 material: "Material und Projekte"

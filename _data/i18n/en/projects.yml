@@ -1,6 +1,6 @@
 title: "Projects with senseBox"
 description: "On this page you can find all kinds of projects around the senseBox."
-additional_info: 'To work on the projects, you should already know how to upload programme code to the senseBox. For projects using the Arduino IDE, this must be installed on your computer. You can find further information here: <a href="https://sensebox.de/go" target="_blank" class="link">sensebox.de/go</a>'
+additional_info: 'To work on the projects, you should already know how to upload programme code to the senseBox. For projects using the Arduino IDE, this must be installed on your computer. You can find further information here: <a href="https://sensebox.de/en/go" target="_blank" class="link">sensebox.de/en/go</a>'
 language_choose: "Choose your Language"
 language: "Language"
 ide_choose: "Choose your IDE"

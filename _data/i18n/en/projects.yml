@@ -1,6 +1,6 @@
 title: "Projects with senseBox"
 description: "On this page you can find all kinds of projects around the senseBox."
-additional_info: "If you want to submit your own project, have a look at the project template and the information in <a href=\"https://github.com/sensebox/sensebox.github.io\" target=\"_blank\" class=\"link\"><img loading=\"lazy\" src=\"/images/iconmonstr-github-icon.png\"> Github Repository</a>."
+additional_info: 'To work on the projects, you should already know how to upload programme code to the senseBox. For projects using the Arduino IDE, this must be installed on your computer. You can find further information here: <a href="https://sensebox.de/go" target="_blank" class="link">sensebox.de/go</a>'
 language_choose: "Choose your Language"
 language: "Language"
 ide_choose: "Choose your IDE"
@@ -13,3 +13,4 @@ version: "Model"
 material: "Used componentes"
 toc: "Overview"
 reset: "reset filter"
+contribution: 'If you’d like to submit your own project, take a look at the project template and the information in the <a href="https://github.com/sensebox/sensebox-reboot" target="_blank" class="link"><img loading="lazy" src="/images/icons/iconmonstr-github-icon.png">GitHub repository</a>. You’re also welcome to send us your project by email to info@sensebox.de'

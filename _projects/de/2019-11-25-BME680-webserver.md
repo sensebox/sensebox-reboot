@@ -53,6 +53,7 @@ Hierzu benötigst du neben deiner senseBox MCU, das WiFi-Bee und einen OLED-Disp
 {% include image.html image=page.image0 %}
 
 ### Blockly Programm IP
+
 Nun erstellst du in [Blockly](blockly.sensebox.de) den folgenden Sketch:
 
 {% include image.html image=page.image1 %}
@@ -80,7 +81,7 @@ Wieder in Blockly, fügen wir den WiFi und den HTTP-Server-Block, wiederrum aus 
 {% include image.html image=page.image4 %}
 
 #### Endlosschleife-Block
-Damit ist das Setup abgeschlossen und wir können uns die `Endlosschleife()` ansehen. Dort kommt zunächst als Grundstruktur diese Blockkombination, zum Teil aus der Logik-Kategorie(blau), aus der Textkategorie(türkis) und wieder aus der Webserver-Kategorie:
+Damit ist das Setup abgeschlossen und wir können uns die `Endlosschleife()` ansehen. Dort kommt zunächst als Grundstruktur diese Blockkombination, zum Teil aus der Logik-Kategorie (blau), aus der Textkategorie (türkis) und wieder aus der Webserver-Kategorie:
 
 {% include image.html image=page.image5 %}
 
@@ -167,4 +168,4 @@ Nun müsst ihr nur noch das Skript auf eure senseBox übertragen. Am einfachsten
 
 {% include image.html image=page.image16 %}
 
-Für alle die es weiterführend interessiert oder zu faul sind die Blöcke alle einzeln zu setzen, findet ihr [hier](https://github.com/yhallowiegeht/adventsproject_heimserver) ein github-Repository mit den beiden Blockly-Sketches, den fertigen arduino-Skripts und dem zu Grunde liegenden HTML.
+Für alle die es weiterführend interessiert oder zu faul sind die Blöcke alle einzeln zu setzen, findet ihr [hier](https://github.com/yhallowiegeht/adventsproject_heimserver) ein github-Repository mit den beiden Blockly-Sketches, den fertigen Arduino-Skripts und dem zu Grunde liegenden HTML.

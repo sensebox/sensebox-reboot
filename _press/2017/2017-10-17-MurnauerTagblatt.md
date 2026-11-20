@@ -6,8 +6,6 @@ author: Manuela
 categories: press
 press_category: newspaper
 ---
-"Technologie für jedermann: MakerLab Vorstandsvorsitzender Thomas Stöckelhuber und seine Kollegen lassen sich von den Projektleitern Jan Wirwahn und Matthias Peil die senseBoxen erklären."
+"Technologie für jedermann: MakerLab Vorstandsvorsitzender Thomas Stöckelhuber und seine Kollegen lassen sich von den Projektleitern Jan Wirwahn und Matthias Peil die senseBoxen erklären. Printausgabe vom 17.10.2017"
 
-<a href='{{ site.baseurl | append: "/docs/Murnauer-Tagblatt.pdf" }}' target="_blank">
-    <button class="btn">Printausgabe vom 17.10.2017</button></a>
 

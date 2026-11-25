@@ -44,9 +44,9 @@ Das Ziel ist die Entwicklung eines TTN Mappers mit Hilfe des LoRa Bees und des G
 	</div>
 </div>
 
-Für das Projekt brauchst du eine senseBox MCU, ein LoRa-Bee sowie ein GPS Modul. Im senseBox Shop gibt es bereits ein fertiges Set: [https://sensebox.kaufen/product/sensebox-ttn-mapper-set](https://sensebox.kaufen/product/sensebox-ttn-mapper-set)
+Für das Projekt brauchst du eine [senseBox MCU](https://sensebox.kaufen/products/sensebox-mcu), ein [LoRa-Bee](https://sensebox.kaufen/products/lora-bee-868mhz-mit-drahtantenne) sowie ein [GPS-Modul](https://sensebox.kaufen/products/gps-empfanger). 
 
-Verbinde das LoRa-Bee mit XBEE1 deiner senseBox MCU. Verbinde außerdem das GPS Modul mit einem I2C Steckplatz.
+Verbinde das LoRa-Bee mit XBEE1 deiner senseBox MCU. Verbinde außerdem das GPS-Modul mit einem I2C-Steckplatz.
 
 Zusätzlich brauchst du eine möglichst mobile Stromversorgung. Am einfachsten ist eine USB Powerbank oder ein Akku mit passendem Anschluss für die senseBox MCU.
 
@@ -114,7 +114,7 @@ und klickst auf "Save changes". Nun entschlüsselt TTN die Nachrichten selbstst�
 
 ## Blockly 
 
-Öffne [Blockly](https:https://blockly-react.netlify.app/) und beginne mit dem Code für deine senseBox MCU. Um die TTN Infrastruktur zu nutzen müssen wir zunächst eine Activation starten. Dazu nutzen wir die OTAA Activation. Alternativ gibt es auch die ABP Activation, diese ist jedoch in TTN komplizierter einzurichten und wird deshalb hier vermieden. Je nach Anwendungsfall kannst Du das Übertragungsintervall anpassen. Bitte denke daran, dass TTN unter einer Fair Use Policy läuft. Das bedeutet, dass man seine Übertragungsrate möglichst gering halten sollte. 
+Öffne [senseBox-Blockly](https://blockly.sensebox.de/) und beginne mit dem Code für deine senseBox MCU. Um die TTN Infrastruktur zu nutzen müssen wir zunächst eine Activation starten. Dazu nutzen wir die OTAA Activation. Alternativ gibt es auch die ABP Activation, diese ist jedoch in TTN komplizierter einzurichten und wird deshalb hier vermieden. Je nach Anwendungsfall kannst Du das Übertragungsintervall anpassen. Bitte denke daran, dass TTN unter einer Fair Use Policy läuft. Das bedeutet, dass man seine Übertragungsrate möglichst gering halten sollte. 
 
 {% include image.html image=page.image9 %}
 
@@ -151,6 +151,6 @@ und ersetze EXPERIMENT_NAME mit dem Namen deines Experiments. Es dauert ein biss
 
 ## Hilfe
 
-Du kannst in der TTN Konsole nachschauen ob LoRa Daten bei TTN ankommen. Klicke in deiner Application auf den `Data` Tab und die neusten Nachrichten sollten nach kurzer Zeit auftauchen. Falls keine Nachrichten ankommen schau nochmal über deine EUIs und dessen Format. Ansonsten könnte es sein, dass in deiner Umgebung kein LoRa Gateway in Reichweite ist.
+Du kannst in der TTN-Konsole nachschauen ob LoRa-Daten bei TTN ankommen. Klicke in deiner Application auf den `Data` Tab und die neusten Nachrichten sollten nach kurzer Zeit auftauchen. Falls keine Nachrichten ankommen schau nochmal über deine EUIs und dessen Format. Ansonsten könnte es sein, dass in deiner Umgebung kein LoRa Gateway in Reichweite ist.
 
-Es kann eine Weile dauern bis das GPS Modul Daten empfängt. Manchmal dauert es mehrere Stunden bei der ersten Nutzung. Wurden aber einmal Daten empfangen sollte es beim nächsten mal schneller funktionieren. Die Nutzung einer kleinen Knopfzelle verbessert den GPS Empfang.
+Es kann eine Weile dauern bis das GPS-Modul Daten empfängt. Manchmal dauert es mehrere Stunden bei der ersten Nutzung. Wurden aber einmal Daten empfangen sollte es beim nächsten Mal schneller funktionieren. Die Nutzung einer kleinen Knopfzelle verbessert den GPS-Empfang.

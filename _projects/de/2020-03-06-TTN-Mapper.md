@@ -38,12 +38,6 @@ Das Ziel ist die Entwicklung eines TTN Mappers mit Hilfe des LoRa Bees und des G
 
 ## Hardware
 
-<div class="row">
-	<div class="post-image">
-			<img loading="lazy" src="https://sensebox.kaufen/api/public/uploads/1584028489927-TTN-Mapper.png" alt="TTN-Mapper-Shop - Logo" data-zoomable/>
-	</div>
-</div>
-
 Für das Projekt brauchst du eine senseBox MCU, ein LoRa-Bee sowie ein GPS Modul. Im senseBox Shop gibt es bereits ein fertiges Set: [https://sensebox.kaufen/product/sensebox-ttn-mapper-set](https://sensebox.kaufen/product/sensebox-ttn-mapper-set)
 
 Verbinde das LoRa-Bee mit XBEE1 deiner senseBox MCU. Verbinde außerdem das GPS Modul mit einem I2C Steckplatz.
